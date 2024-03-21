@@ -813,3 +813,17 @@
 ("iran_squad_elite" side(odkb) brig(iran))
 ("iran_crew" side(odkb) brig(iran))
 ("iran_shipers" side(odkb) brig(iran))
+
+;=============Украина==========
+(define "tro"
+("soldier"   breed(ukr_comua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(ukr_mgunua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(ukr_mgunhelpua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(ukr_smgua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(ukr_smg2ua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(ukr_rpgua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(ukr_rpghelpua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(ukr_sniperua)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags()))
+("soldier"   breed(ukr_tankman)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+)
+("tro" side(ukr) brig(ukr))

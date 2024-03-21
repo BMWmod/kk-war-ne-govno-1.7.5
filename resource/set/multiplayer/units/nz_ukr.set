@@ -1,0 +1,14 @@
+
+
+;===============================Украина===========================================      
+
+;===============================Common=========================================== 
+
+("squad_with11types_custom" side(ukr) crew_nation(ukr) name(ukr_tro) c(170) g(ukr_tro) 
+  c1(ukr_comua:1) c2(ukr_mgunua:1) c3(ukr_mgunhelpua:1) c4(ukr_smgua:1) c5(ukr_smg2ua:1) c6(ukr_rpgua:1) c7(ukr_rpghelpua:1) c8(ukr_sniperua:1) 
+  b(common) brig(common) t(all_nz inf_irg) cost(88) f(1.0) 
+)
+ ("squad_with2types" name(tankman) f(1)  c(1) cost(30) g(eng2) b(supl) brig(common) side(ukr)     t(all_nz    ) info(tankman) c1(ukr_tankman:2)) 
+ ;("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(5) g(support) b(supl) brig(common) side(srbsk)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:4)              ) 
+ ;("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(srbsk)     t(all_nz    ) info(pilot) c1(Pilot:1)) 
+ 

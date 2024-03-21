@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/cw_humanskin.ext")
+	{texmod "varan"}
+	{Extension "cw_rus_zapravka.mdl"}
+	{bone "basis"
+		("random_face")
+	}
+}
