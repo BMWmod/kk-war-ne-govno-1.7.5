@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "missle2"}
+	{blend none}
+}

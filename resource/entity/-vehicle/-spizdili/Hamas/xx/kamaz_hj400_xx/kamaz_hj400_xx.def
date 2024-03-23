@@ -1,0 +1,37 @@
+{Game_Entity
+	{Extension "kamaz_hj400_xx.mdl"}
+	{Volume "body"
+		{thickness 12}
+	}
+	{Volume "driver_panel"
+	}
+	{Volume "engine"
+	}
+	{Volume "front_wheels"
+	}
+	{Volume "fuel_tank_internal_a"
+	}
+	{Volume "panel_engine_connectors"
+	}
+	{Volume "part1"
+	}
+	{Volume "ppu"
+	}
+	{Volume "transmission"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelright3"
+	}
+	{mass 8000}
+}

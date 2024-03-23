@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "a5rocketlowerhalftestingscheme01heavilyworn_albedotransparen"}
+	{blend none}
+}

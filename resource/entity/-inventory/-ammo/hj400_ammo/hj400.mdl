@@ -1,0 +1,64 @@
+
+{Skeleton
+    {Bone "body"
+        {Orientation
+            1	0	0
+            0	-1	0
+            0	0	1
+        }
+        {VolumeView "body.ply"}
+        {Bone "tail"
+            {Parameters "Voxels=0;"}
+            {Matrix34
+                -1	0	-0
+                -0	-1	-0
+                -0	0	1
+                -51.841	-1.96792	-0.029909
+            }
+        }
+    }
+}
+{Volume "body"
+    {Cylinder 1.5748 59.0551}
+    {Bone "body"}
+    {Matrix34
+        0	-3.57604	0
+        0	0	3.3989
+        -1.63855	0	0
+        2.48335	0.18635	0.209898
+    }
+}
+{Volume "select"
+    {Cylinder 1.5748 59.0551}
+    {Bone "body"}
+    {Matrix34
+        0	-3.57604	0
+        0	0	3.3989
+        -1.63855	0	0
+        2.48356	0.18635	0.209898
+    }
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -9.26567	-341.431	-20.6463}
+			{lookat -5.92584	-241.776	-15.8332}
+			{fov 16.5929}
+			{horizon 179.83}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -3.02127	-243.39	-5.89923}
+			}
+			{"1"
+				{type directional}
+				{direction -0.079378	0.377597	-0.317993}
+			}
+			{"2"
+				{type point}
+				{position -11.6559	-242.602	-8.66678}
+			}
+		}
+	}
+}

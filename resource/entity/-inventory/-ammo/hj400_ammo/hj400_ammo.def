@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+              (include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "hj400 ammo"}
+	}
+	{Extension "hj400.mdl"}
+	{props "steel" "explosive_stuff"}
+}

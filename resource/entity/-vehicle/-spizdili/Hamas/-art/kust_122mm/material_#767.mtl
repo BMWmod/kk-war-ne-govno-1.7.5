@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rocket_base1k_v2"}
+	{blend none}
+}

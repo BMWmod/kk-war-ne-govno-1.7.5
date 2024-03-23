@@ -567,6 +567,9 @@
 (define "iskander"
 	{item "iskander tb ammo" 1 {max 2}{value 200}}			;лимит 3000		
 )
+(define "hj400"
+	{item "hj400 ammo" 1 {max 4}{value 50}}			;лимит 3000		
+)
 (define "df15"
 	{item "df15b fg ammo" 1 {max 1}{value 100}}
 ;	{item "df15b tb ammo" 1 {max 1}{value 250}}
@@ -1672,6 +1675,7 @@
 			("120mm_USA")
 			
 			("iskander")
+					("hj400")
 		
 			("c8")
 			("c13")

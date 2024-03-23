@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "xx_v2"}
+	{blend none}
+}

@@ -1,4 +1,90 @@
 
+{"kamaz_hj400"
+	{on spawn			
+ 		{Volumes "ammo_storage_main" enable contact bullet blast}			
+ 		{Volumes "ammo_storage_main1" enable contact bullet blast}			
+ 		{set "radar_up" 0}		
+ 	}		
+ 	("9k72_sound")	   
+ 	{on fire "gun2" 	      		
+ 		{spawn "dust_shot_big_3" "basis"}	      		
+ 		{spawn "dust_shot_big_3" "FXtraceL4"}	      		
+ 		{spawn "dust_shot_big_3" "FXtraceR4"}			
+ 		{if not "radar_up"				
+ 			{Volumes "ammo_storage_main" disable contact bullet blast}				
+ 			{set "radar_up" 1}	      		
+ 			{spawn "startsmoke_otrk" "rocket000"}			
+ 				else				
+ 				{Volumes "ammo_storage_main1" disable contact bullet blast}				
+ 				{set "radar_up" 0}	      		
+ 				{spawn "startsmoke_otrk" "rocket001"}				
+ 				{delay 300 					
+ 					{Volumes "ammo_storage_main" enable contact bullet blast}					
+ 					{Volumes "ammo_storage_main1" enable contact bullet blast}				
+ 				}			
+ 			}
+ 		{if rand 0.10
+			{Spawn "cw_explosion_1000kg"}
+		}				
+ 	}		
+ 		{on break_armor			
+ 			{if volume "cabin" {components "cabin" break} 			
+ 				else volume "cabin_back" {components "cabin_back" break} 			
+ 			}		
+ 		}		
+ 		{on pierce			
+ 			{if component "ammo_storage_main"				
+ 			{spawn "ex_anti_size5" "Gun_rot"}				
+ 			{spawn "hj400_ammo" "basis" x {stuff_detonate}}				
+ 			{call "_explosion"}			
+ 			}		
+ 		}		
+ 		{on bullet_hit			
+ 			(define "check_break_glass"			     
+ 				else volume "glass%0"				
+ 				{volumes "glass%0" disable bullet contact blast}		 		
+ 				{spawn "glass_hit2" "glass%0" x}		 		
+ 				{delay 0.1				 	
+ 				{bone cut "glass%0"}		 		
+ 				}			
+ 			)			
+ 			{if stuff "radar_ammo"	                                         			
+ 				else stuff "laser_ammo"			
+ 				else stuff "rus_IR_ff_beam ammo"			
+ 				else stuff "usa_IR_ff_beam ammo"			
+ 				else stuff "IR_ff_ammo"			
+ 				("check_break_glass" args 1)			
+ 				("check_break_glass" args 2)			
+ 				("check_break_glass" args 3)			
+ 				("check_break_glass" args 4)			
+ 				("check_break_glass" args 5)			
+ 				("check_break_glass" args 6)			
+ 				("check_break_glass" args 7)			
+ 			}		
+ 		}		
+ 		{on break 			
+	 		{if component "cabin"  
+	 			{spawn "tank_die_particle" "cabin"}			
+	 				else component "cabin_back" {spawn "tank_die_particle" "Engine"}			
+	 		}		
+ 		}		
+ 		{on repair 			
+ 			{if component "cabin"			else component "cabin_back"			}		
+ 		}		
+ 		{on "update_lights"			
+ 			{if rain {ani_play "rain" loop} else {ani_stop "rain"}}		
+ 		}		
+ 		{on "explosion"			
+ 			{set "big_explosion" 0}			
+ 			{if explosive_amount 50				
+	 			{blastwave c4 25 r0 15 r1 35}				
+	 			{spawn "train_die" "basis"}				
+	 			{set "big_explosion" 1}				
+	 			{con "big explosive"}			
+ 			}		
+ 		}
+}
+
 {"osa_akm"
   	
 	{on spawn			
