@@ -147,8 +147,6 @@
 	{"shershen_d_stan_4" {fore 0} ("p" c(600) sc(50) g(air2exrta) b(extra) brig(common) s(odkb)   i(69) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(2)               ) }
 	{"kamaz-6350_churki" {fore 0} ("v3" c(240) sc(50) g(inf213) b(extra) brig(common) s(odkb)  i(1) cw(0) m(1) cp(50) t(all_nz inf_cn infantry  ) c1(kamaz-6350) n(1) n1(vehicle_supporter:1) n2(iran_com:1) n3(irq_recruits__smg:5) n4(irq_recruits__smg2:5) n5(iran_bazooker_at:1) n6(iran_bazooker_at_help:1) n7(taj_smg:3)  n8(taj_smg2:2)       ) }
 	{"bmpti" {fore 0} ("v3" c(950) sc(200) g(kz_reach_unit) b(extra) brig(common) s(odkb)  i(3) cw(0) m(1) cp(70) t(all_nz recon   ) c1(bmpt) n(1) n1(kz_tankman:5)      ) }                               
-	 
-	{"leopard_2a4_dz" {fore 0.0} ("v" c(450) sc(100) g(eobt2) b(extra) brig(ukr_odkb) s(odkb)  i(11) cw(0) cp(69) m(1) t(all_nz art no_frontline support_frontline  strike ) n(4)               ) }
 	{"bm_oplot"		("v" c(900) brig(ukr_odkb) t(all_nz tank_cn) s(odkb) n(3) g(eobt1)  sc(150) b(extra) i(19) m(4) cw(0) cp(65)) {cost 150} {fore 0.0}} 		
 	{"t72b3_gorod_komplect" {fore 0} ("v" c(600) sc(200) g(oextrablr1) b(extra) brig(bel_odkb) s(odkb)  m(4) i(3) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
 		
