@@ -5,4 +5,6 @@
 	}
 	{props "steel" "explosive_stuff"}
 	{Extension "81mm_sm.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_mortar_sound")
 }

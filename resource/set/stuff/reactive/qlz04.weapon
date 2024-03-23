@@ -27,7 +27,7 @@
 	 ("CW_acc_grlaunch" mils(3))	
 	 ("CW_acc_grlaunch_95" mils(3))	
 	 {recoveryTime 0.16}
-	 {rechargeTime 25}
+	 {rechargeTime 15}
 	 
 	 {speed 45}
 	 {gravity 1.1}
