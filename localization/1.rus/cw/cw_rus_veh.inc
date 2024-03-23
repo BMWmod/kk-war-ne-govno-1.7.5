@@ -8,6 +8,7 @@
 {"mtlb_kamikadze"						"<c(FFFFFF)e(shadow)>МТ-ЛБ</c>"}
 {"leopard_2a6_dz"						"<c(FFFFFF)e(shadow)>Leopard 2A6 К1</c>"}
 {"kamaz_hj400"							"<c(FFFFFF)e(shadow)>Камаz с ракетой из трубы</c>"}
+{"zulfiqar-3"							"<c(FFFFFF)e(shadow)>Зульфикар</c>"}
 
 {"btr4e1_ptur"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
 {"btr4e1"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
