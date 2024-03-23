@@ -24,7 +24,7 @@
         	 {maxRange 125}
 	 {aimRange 125}
 	 {recoveryTime 0.16}
-	 {rechargeTime 25}
+	 {rechargeTime 15}
 	 {speed 55}	;	;примерно, но больше АГС-30
 	{gravity 1.3}
 	 ("CW_acc_grlaunch" mils(2.25))	

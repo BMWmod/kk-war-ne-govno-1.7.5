@@ -24,7 +24,7 @@
         	 {maxRange 125}	;http://ucrazy.ru/interesting/1194936863-avtomaticheskij_granatomet_mk19_mark_19_ssha.html
 	 {aimRange 125}
 	 {recoveryTime 0.16}
-	 {rechargeTime 25}
+	 {rechargeTime 15}
 	 {speed 65}	;	;примерно, но больше АГС-30
 	 ;http://www.dtic.mil/ndia/2009infantrysmallarms/thursdaysessionviiiCorriveau.pdf
 	 ;Точность системы снаряд-орудие (без учета поправок на ветер и с прецизионной установкой угла возвышения) выходит Вб/Вв в т.д. на 300м 0,93/0,64, на 1000м 1,05/1,11

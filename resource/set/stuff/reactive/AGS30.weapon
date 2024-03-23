@@ -33,7 +33,7 @@
 	 ("CW_acc_grlaunch" mils(3.3))	
 	 ("CW_acc_grlaunch_95" mils(3.3))	
 	 {recoveryTime 0.16}
-	 {rechargeTime 25}
+	 {rechargeTime 15}
 	 {speed 45}
 	{Spreading	
 		;{SpreadXYRatio	0.5}	;отражает тот факт, что вертикальное рассеяние АГС-17 втрое больше горизонтального
