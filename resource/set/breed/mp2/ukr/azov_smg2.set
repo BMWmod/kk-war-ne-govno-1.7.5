@@ -1,0 +1,63 @@
+{breed
+	{skin "cw_ukr_smg_new"}
+	{portrait "_new/ukr/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality ukr}
+	{armors
+		{head "1m_helmet_ua"}
+	}
+	{perks
+        {"vision" mp_soldier
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "1000%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "1200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.2
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "korsar3m"}
+		{item "smoke rdg2b grenade"}
+		{item "binocular"}
+		{item "bandage" 5}
+		{item "rgd grenade" 2}
+		{item "rgn grenade" 2}
+		{item "smoke rdg2b grenade"}
+		{item "smoke rdg2b grenade"}
+		{item "rpg26 weapon" filling "rpg26 ammo" 1}
+		{item "smoke rdg2b grenade" 2}
+		{item "ak103_pbs_1p87" filling "762 ammo" 30}
+		{item "762 ammo" 240}
+		{in_hands 10}
+	}
+}	
