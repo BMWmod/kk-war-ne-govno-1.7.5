@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/leopard_2a0_2a4/120mm"}
+	{emitsheat}
+{blend none}
+}
