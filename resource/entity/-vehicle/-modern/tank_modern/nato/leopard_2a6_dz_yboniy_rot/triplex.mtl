@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/leopard_2a5_2a6/triplex"}
+	{amount 0.5}
+	{emitsheat}
+{blend none}
+}

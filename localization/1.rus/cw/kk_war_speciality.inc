@@ -6,6 +6,7 @@
 
 
 
+{"leopard_2a6_dz"								"<c(FFFF00)>Основной боевой танк</c>"} 
 {"mtlb_kamikadze"								"<c(FFFF00)>Бронетранспортёр</c>"} 
 {"btr4e1_ptur"								"<c(FFFF00)>Бронетранспортёр</c>"} 
 {"btr4e1"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}

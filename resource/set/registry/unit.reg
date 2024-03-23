@@ -1,6 +1,6 @@
 ;SDL
 {units
-
+{"leopard_2a6_dz"		{structure "cwds_tank2"}}
 {"btr4e_i"		{structure "cwds_apc8"}}
 {"btr4e1i"		{structure "cwds_apc8"}}
 {"btr4e1"		{structure "cwds_apc8"}}

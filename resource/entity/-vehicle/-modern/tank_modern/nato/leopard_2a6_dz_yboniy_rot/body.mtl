@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/leopard_2a5_2a6/leopard-2a5"}
+	{bump "$/model/leopard_2a5_2a6/leopard-2a5_bp"}
+	{specular "$/model/leopard_2a5_2a6/leopard-2a5_sp"}
+	{color "230 230 230 25"}
+	{emitsheat}
+{blend none}
+}
