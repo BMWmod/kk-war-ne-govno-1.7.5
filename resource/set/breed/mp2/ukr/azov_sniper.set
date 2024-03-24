@@ -7,21 +7,20 @@
 	{armors
 		{head "1m_helmet_ua"}
 	}
-
 	{perks
-		{"vision" mp_soldier
+        {"vision" mp_soldier
 		}
-		{"smg" lvl_2
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_4
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_4
 		}
-		{"pistol" lvl_2
+		{"pistol" lvl_4
 		}
-		{"gra_launch" lvl_2
+		{"gra_launch" lvl_3
 		}
 		{"melee" lvl_3
 		}
@@ -31,11 +30,11 @@
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "120%"
+		{"stamina" "1200%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"speed" 1.0
+		{"speed" 1.4
 		}
 		{"skill_tankgun" lev_1
 		}
@@ -47,14 +46,13 @@
 		}
 	}
 	{inventory
-		{item "korsar3m"}
-		{item "bandage" 10}
-		{item "knife_union"}
-		{item "pkm" filling "pkm_ammo ammo" 100}
-		{item "pkm_ammo ammo" 200}
-		{item "javelin weapon" filling "jav_rock f ammo" 1}
-		{item "ammo jav_rock f" 4}
-		{item "sandbag_kit"}
-		{in_hands 4}
+	{item "korsar3m"}
+	{item "osprey_sniper"}
+	{item "as50" filling "nato_ptr sn ammo" 5}
+	{item "nato_ptr ap ammo" 40}
+	{item "nato_ptr sn ammo" 40}
+	{item "plant" 1}
+	{item "bandage" 10}
+	{in_hands 1}
 	}
 }

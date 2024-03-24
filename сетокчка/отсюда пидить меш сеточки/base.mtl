@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "t-34-85"}
-	{specular "t-34-85"}
-	{color "229 229 229 25"}
-	{blend test}
-}
