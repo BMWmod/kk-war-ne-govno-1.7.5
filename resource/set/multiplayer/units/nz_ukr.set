@@ -173,5 +173,23 @@
   
  {"toyota_hilux_ammo" {fore 1} ("v3" c(600) sc(70) g(69) b(supl) brig(common) s(ukr)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:2)      ) }
  {"mtlb_supl" {fore 1} ("v3" c(100) sc(100) g(169) b(supl) brig(common) s(ukr)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
- 
+ {"ural-4320_fuel_ukr" {fore 0} ("v3" c(120) sc(96) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(ural-4320_fuel) n(2) n1(vehicle_supporter:1)      ) }
  ;==========================================Авиация=================================
+ 
+ ;Су-24М с ракетами
+ {"su24m_ukr88" {fore 0} ("v3" c(600) sc(450) g(air_su22ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(su24m_strike) n(2) n1(vehicle_supporter:2) ) }
+ 
+ ;Ф-16 с противолокационками
+ {"f-16c_antirad_ukr" {fore 0} ("v3" c(600) sc(250) g(air_F-16ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1076) cw(0) cp(69) t(all_nz) c1(f-16c_antirad) n(1) n1(vehicle_supporter:1) ) }
+ 
+ ;МиГ-29 противовоздушный
+ {"mig-29s_aa_ukr" {fore 0} ("v3" c(600) sc(300) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(vehicle_supporter:1) ) }
+ 
+ ;mi17
+ {"mi17_ukr" {fore 0} ("v3" c(600) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(vehicle_supporter:2) ) }
+ 
+ ;Ми-24
+ {"mi-24v_ukr" {fore 0} ("v3" c(600) sc(230) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(vehicle_supporter:2) ) }
+ 
+ ;Ми-24
+ {"uh60_ukr" {fore 0} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(vehicle_supporter:2) n2(ukr_at:3) n3(ukr_mgunua:4) n4(ukr_mgunhelpua:2) n5(ukr_smgua:1) n6(ukr_smg2ua:2)) } 	
