@@ -33,6 +33,11 @@
 			{item "netting_kit" 1}
 		}
 	}
+	{brain
+		{properties
+			{fire_mode hold}	;Это я нашел у нашей гаубицы Б4.
+		}
+	}
 	{Weaponry
 		{place "gun2"
 			{weapon "57mm_uv_32_57x2_mtlb" filling "C5 cm ammo" 128}
