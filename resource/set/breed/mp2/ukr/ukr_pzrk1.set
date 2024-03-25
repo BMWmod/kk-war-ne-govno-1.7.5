@@ -1,0 +1,57 @@
+{breed
+	{skin "cw_ukr_smg_new"}
+	{portrait "_new/ukr/inf"}
+	{icon "bazookers"}
+	{icon_priority 1}
+	{nationality ukr}
+	{armors
+		{head "cap_ua"}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_2
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "1000%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "120%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.0
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+	    {item "korsar3m"}
+		{item "545 ammo" 180}
+		{item "ak74b" filling "545 ammo" 30}
+		{item "bandage" 10}
+		{item "igla weapon" filling "igla_s ammo" 1}
+		{item "igla_s ammo" 5}
+		{in_hands 3}
+	}
+}
