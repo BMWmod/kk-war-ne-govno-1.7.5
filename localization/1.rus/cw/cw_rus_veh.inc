@@ -5,6 +5,7 @@
 ;rev 04.07.2022
 
 
+{"btr80_1_flag"						"<c(FFFFFF)e(shadow)>БТР-80</c>"}
 {"l39_serb"						"<c(FFFFFF)e(shadow)>L-39 Albatros</c>"}
 {"l39_isis"						"<c(FFFFFF)e(shadow)>L-39 Albatros</c>"}
 {"btr3e_whth_pt"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}

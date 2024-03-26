@@ -1,13 +1,14 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
-        {props "vehicle" "armoredcar_wheel" "tank" "zenite" "turret" "turret_rotator" "wheeled" "explosion_throw_crew" "vision_lev02" "shelled"}
+       {props "vehicle" "armored_car_M" "tank" "turret" "wheeled" "with_gun" "vision_lev03" "amphibia" "8_wheels" "btr80" "6_barrels_smoke"}
+		
 	{PatherID "amphibia"}
         {targetClass "armoredcar"}
 
 	{Placer
 		{place "flag_handle"
-			{entity "flag_handle"}
+			{entity "flag_handle(iziz)"}
 			{Linkbone "flag_handle"}
 			{handlebone "flag_handle"}
 			{obstacle disable}
@@ -112,29 +113,37 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo ptr" 500}
-			{item "ammo 762x54" 2000}
-			{item "f1 grenade" 10}
-			{item "repair_kit" 1}
+			{Size 10 10}
+			{weight 1500}
+			{item "rpg26 weapon" 3 filling "rpg26 ammo" 1}
+	  		{item "f1 grenade" 9}
+			{item "ammo kpvt_ammo" 300 }
+			{item "ammo kpvt_bst" 160 }
+			{item "ammo pkm_ammo" 1750}
+			{item "pkt" filled {user "mgun"}}
+			{item "rpg26 weapon" 4 filling "rpg26 ammo" 1}	
+			{item "rpg7_og-7v rpg7 ammo" 4}
+			{item "repair_kit"}
 		}
 	}
 	{Weaponry
+                ("restore_ik_time")
 		{place "gun"
+			{RestoreIKAfterAim}
 			{weapon "kpvt" filling "ammo kpvt_bst" 40}
-
 			{gunner "gunner"}
 			{charger "gunner"}
 			("CW_stab_no_stabiliser")
 		}
-		;{place "mgun2"
-			;{type "mgun_coaxial"}
-			;{weapon "pkt" filled}
-			;{foresight "foresight5"}
-			;{gunner "gunner"}
-			;{charger "gunner"}
-			;{basic}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "pkt" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
 	
-		;}
+		}
 	}
 	{Sensor
 		{Visor "main"

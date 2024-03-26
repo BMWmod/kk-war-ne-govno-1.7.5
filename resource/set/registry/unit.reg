@@ -1,6 +1,7 @@
 ;SDL
 {units
 
+{"btr80_1_flag"		{structure "cwds_apc8"}}
 {"l39_serb"		{structure "cwds_plane_attack"}}
 {"l39_isis"		{structure "cwds_plane_attack"}}
 {"kamaz_hj400"		{structure "cwds_truck6"}}
