@@ -1,5 +1,5 @@
 {breed
-	{skin "cw_ukr_tankman"}
+	{skin "cw_ukr_smg_new"}
 	{portrait "_new/ukr/tankman"}
 	{icon "tankman"}
 	{icon_priority 0}

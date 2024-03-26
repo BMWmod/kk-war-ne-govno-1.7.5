@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/human/outfit/balaklava_neckband_sso"}
-	{blend test}
-}
