@@ -11,6 +11,9 @@
  ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(ukr_tro) c(170) g(ukr_tro) 
   c1(ukr_comua:1) c2(ukr_mgunua:1) c3(ukr_mgunhelpua:1) c4(ukr_smgua:1) c5(ukr_smg2ua:1) c6(ukr_rpgua:1) c7(ukr_rpghelpua:1) c8(ukr_sniperua:1) 
   b(common) brig(common) t(all_nz inf_irg) cost(60) f(1.0) )
+  
+  ;КРАЗ(просто краз)
+  {"kraz_6322_ukr" {fore 1} ("v3" c(120) sc(5) g(kraz_ukr) b(common) brig(common) s(ukr)  i(304) cw(1) cp(5) t(all_nz) c1(kraz_6322) n(2) n1(vehicle_supporter:2) ) } 
 
   ;БТР-70 с ПТ десантом
   {"btr70_ukr_if" {fore 1} ("v3" c(40) sc(150) g(btrif)  b(common) brig(common) s(ukr)  i(85) cw(10) cp(10) t(all_nz) c1(btr70) n(2) n1(tankman:2) n2(ukr_at:4) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1))}
@@ -25,7 +28,7 @@
   {"btr60_ukr1" {fore 1} ("v3" c(40) sc(25) g(btr)  b(common) brig(common) s(ukr)  i(87) cw(10) cp(10) t(all_nz) c1(btr60) n(2) n1(tankman:2))}  
   
   ;МТЛБ с ЗУшкой
-  {"mtlb_zu_ujr" {fore 1} ("v3" c(50) sc(25) g(btr)  b(common) brig(common) s(ukr)  i(806) cw(10) cp(10) t(all_nz) c1(mtlb_zu) n(2) n1(tankman:5))} 
+  {"mtlb_zu_ukr" {fore 1} ("v3" c(50) sc(25) g(btr)  b(common) brig(common) s(ukr)  i(806) cw(10) cp(10) t(all_nz) c1(mtlb_zu) n(2) n1(tankman:5))} 
   
   ;ПЗРК сквад
  ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(pzrk_ua) c(90) g(pzrk_ua) 
@@ -170,13 +173,14 @@
   {"brdm2_strela_ukr" {fore 0.5} ("v3" c(200) sc(90) g(strela)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(262) cw(0) cp(15) t(all_nz) c1(brdm2_strela) n(1) n1(tankman:3)   ) }
   
   ;Насамс
-  {"nasams_ukr" {fore -1} ("v3" c(200) sc(230) g(strela)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(263) cw(0) cp(15) t(all_nz) c1(nasams_ii_launcher) n(1) n1(tankman:2)   ) }
+  {"nasams_ukr" {fore -1} ("v3" c(200) sc(230) g(strela)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(263) cw(0) cp(15) t(all_nz) c1(nasams_ii_launcher) c2(hawk_cwar) n(1) n1(tankman:2)   ) }
+ 
   
   ;=========================================Сапплаи==============================
   
  {"toyota_hilux_ammo" {fore 1} ("v3" c(600) sc(70) g(69) b(supl) brig(common) s(ukr)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:2)      ) }
  {"mtlb_supl" {fore 1} ("v3" c(100) sc(100) g(169) b(supl) brig(common) s(ukr)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
- {"ural-4320_fuel_ukr" {fore 0} ("v3" c(120) sc(96) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(ural-4320_fuel) n(2) n1(vehicle_supporter:1)      ) }
+ {"kraz_6322_fuel_ukr" {fore 0} ("v3" c(120) sc(96) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(kraz_6322_fuel) n(2) n1(vehicle_supporter:1)      ) }
  ;==========================================Авиация=================================
  
  ;Су-24М с ракетами
