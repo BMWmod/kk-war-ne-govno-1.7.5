@@ -13,7 +13,7 @@
 			{front	34}
 		}
 	}
-
+	{texmod "iss"}
 	{boarder
 		{anm "driver"
 			{forward	{begin	"board_plane_left"} {end "seat_driver_car"} {base "open1"}}
