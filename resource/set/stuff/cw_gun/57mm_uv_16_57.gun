@@ -1,0 +1,27 @@
+;Created by Pheonix 
+{from "pattern gun_air"     
+   	{gravity 3}
+	{filling "C5" 16}
+	{fireSound "reactive/S-8/"}
+	;{burst {min 8} {noaiming}}
+	{recoveryTime 0.05}
+	{Automatic}
+	{rechargeTime 25}		;ракеты весят всего по 4 кг, изаряжать 2 ракеты в минуту, думаю, нетрудно
+	{range 150 150}
+	("speed" s(600)) 	;оставил, за 1.1с работы двигателя ракета пролетает 300м
+	("CW_acc_heli" mils(10))
+ ;см Б8Б20
+	;{cursor "cannon_on_fg"}
+	;{cursorReloading "cannon_on_fg"}
+	{cursor "cannon_on_fg_14"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_50"}
+             {parameters "cm"
+		{range 150 150}
+		;{cursor "cannon_on_heat"}
+		;{cursorReloading "cannon_on_heat"}
+		{cursor "cannon_on_heat_10"}
+		{cursorReloading "cannon_reload_heat"}
+		;{cursorReloading "cannon_reload_heat_timer_50"}
+	}
+}

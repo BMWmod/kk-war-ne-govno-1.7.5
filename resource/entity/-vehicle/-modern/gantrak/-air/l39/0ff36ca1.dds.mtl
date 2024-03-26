@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "0ff36ca1"}
+        {envmap "$/model/f4/envmap_field_day02"}
+	{blend blend}
+}

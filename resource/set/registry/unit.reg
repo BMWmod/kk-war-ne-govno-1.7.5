@@ -1,6 +1,8 @@
 ;SDL
 {units
 
+{"l39_serb"		{structure "cwds_plane_attack"}}
+{"l39_isis"		{structure "cwds_plane_attack"}}
 {"kamaz_hj400"		{structure "cwds_truck6"}}
 {"leopard_2a6_dz"		{structure "cwds_tank2"}}
 {"btr4e_i"		{structure "cwds_apc8"}}
