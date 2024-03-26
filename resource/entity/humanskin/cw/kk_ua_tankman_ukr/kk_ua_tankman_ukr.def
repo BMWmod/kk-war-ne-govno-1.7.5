@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/cw_humanskin.ext")
+	{Extension "cw_ua_tankman.mdl"}
+	{texmod "mm14"}	
+	{bone "basis"
+		("random_face")
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/human/outfit/tactical_belt_MK"}
+	{blend none}
+}

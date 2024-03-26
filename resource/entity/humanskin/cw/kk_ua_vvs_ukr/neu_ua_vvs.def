@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/cw_humanskin.ext")
+	{Extension "neu_ua_vvs.mdl"}
+	{bone "basis"
+		("random_face")
+	}
+}

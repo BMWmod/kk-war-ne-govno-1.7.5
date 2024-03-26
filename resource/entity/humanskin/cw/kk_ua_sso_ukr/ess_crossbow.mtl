@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/human/outfit/ess_crossbow"}
+	{blend blend}
+}

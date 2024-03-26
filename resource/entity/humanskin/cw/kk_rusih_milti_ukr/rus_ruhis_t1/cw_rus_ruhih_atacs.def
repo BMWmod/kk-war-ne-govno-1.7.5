@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/cw_humanskin.ext")
+	{Extension "cw_rus_combez.mdl"}
+	{bone "basis"
+		("random_face")
+		("gen3_random")
+		("ess_crossbow_random")
+		("belt_kobura")
+		("balaklava_random")
+	}
+}

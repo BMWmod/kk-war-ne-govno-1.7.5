@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/human/outfit/belt_kobura"}
+	{blend none}
+}

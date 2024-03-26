@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/cw_humanskin.ext")
+	{Extension "cw_ua_pix_eng.mdl"}
+	{bone "basis"
+		("random_face")
+	}
+}

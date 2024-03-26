@@ -87,7 +87,7 @@
  {"leopard_2a4_dz" ("v" c(250) sc(170) g(newua) b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(11) cw(0) cp(45) m(1) t(all_nz) n(4)){fore -1.0}}
  
  ;ПТ-91
- {"pt-91_ukr" {fore 0.5} ("v3" c(240) sc(170) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(22) cw(0) cp(25) t(all_nz) c1(pt-91) n(1) n1(tankman:3)) }
+ {"pt-91_ukr" {fore 1} ("v3" c(240) sc(170) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(22) cw(0) cp(25) t(all_nz) c1(pt-91) n(1) n1(tankman:3)) }
  
  ;Т-64БВ
  {"t-64bv_ukr" {fore 0.5} ("v3" c(180) sc(170) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(23) cw(0) cp(25) t(all_nz) c1(t-64bv) n(1) n1(tankman:3)) }
@@ -130,6 +130,9 @@
   
   ;Варриор с дзшкой
   {"warrior_wrap2_ukr" {fore 0} ("v3" c(40) sc(55) g(btr)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(81) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
+  
+  ;УПР-765
+  {"ypr_765_ukr" {fore 1} ("v3" c(120) sc(90) g(shturm-s)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(8024) cw(10) cp(10) t(all_nz) c1(ypr_765) n(2) n1(tankman:2)) }
   
   
   ;===============================АРТА=========================================== 
