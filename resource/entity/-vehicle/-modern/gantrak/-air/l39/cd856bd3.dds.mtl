@@ -1,4 +1,6 @@
-{material simple
+{material bump
 	{diffuse "cd856bd3"}
+	{bump "$/model/l39/normal_2"}
+	{specular "$/model/l39/_bo_specular_2"} 
 	{blend none}
 }

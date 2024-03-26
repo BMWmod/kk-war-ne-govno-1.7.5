@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_flag.ext")
-	{extension "flag_handle_modern.mdl"}
-	{extender "stuff"
-		{item "flag_handle"}
-	}
-}
