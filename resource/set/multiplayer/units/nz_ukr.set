@@ -16,13 +16,13 @@
   {"liaz_ukr" {fore 1} ("v3" c(40) sc(10) g(ikarus)  b(common) brig(common) s(ukr)  i(846) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:1) )}
   
   ;Срочники в Икарусе
-  {"liaz_ukr_s" {fore 1} ("v3" c(40) sc(50) g(ikarus)  b(common) brig(common) s(ukr)  i(845) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:14) n2(ukr_srochnik_at:4) )}
+  {"liaz_ukr_s" {fore 1} ("v3" c(40) sc(60) g(ikarus)  b(common) brig(common) s(ukr)  i(845) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:14) n2(ukr_srochnik_at:4) )}
   
   ;КРАЗ(просто краз)
   {"kraz_6322_ukr" {fore 1} ("v3" c(120) sc(5) g(kraz_ukr) b(supl) brig(common) s(ukr)  i(304) cw(1) cp(5) t(all_nz) c1(kraz_6322) n(2) n1(vehicle_supporter:2) ) } 
   
   ;МТ-ЛБ
-  {"mtlb_kord_ukr" {fore 0} ("v3" c(120) sc(55) g(kraz_ukr) b(supl) brig(common) s(ukr)  i(3090) cw(1) cp(5) t(all_nz) c1(mtlb_vmk) n(2) n1(vehicle_supporter:2) ) } 
+  {"mtlb_kord_ukr" {fore 0} ("v3" c(120) sc(35) g(kraz_ukr) b(supl) brig(common) s(ukr)  i(3090) cw(1) cp(5) t(all_nz) c1(mtlb_vmk) n(2) n1(vehicle_supporter:2) ) } 
 
   ;БТР-70 с ПТ десантом
   {"btr70_ukr_if" {fore 0} ("v3" c(40) sc(150) g(btrif)  b(common) brig(common) s(ukr)  i(85) cw(10) cp(10) t(all_nz) c1(btr70) n(2) n1(tankman:2) n2(ukr_at:4) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1))}
