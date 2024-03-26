@@ -62,6 +62,7 @@
 ;==================Мобильная бригада==========================
  
  ;{"mig-21bis_support" {fore 0.4} ("p" c(500) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ {"l39_serb" {fore 0.4} ("p" c(500) sc(115) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  {"su-25sm_support_light_ser" {fore 0} ("v3" c(600) sc(400) g(su25) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(333) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) }	
  {"mi-24v" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(6) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  

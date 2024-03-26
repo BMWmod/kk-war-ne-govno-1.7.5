@@ -3,6 +3,10 @@
 ;Проверено Bizon и zkv2000
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
+
+
+{"l39_serb"						"<c(FFFFFF)e(shadow)>L-39 Albatros</c>"}
+{"l39_isis"						"<c(FFFFFF)e(shadow)>L-39 Albatros</c>"}
 {"btr3e_whth_pt"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}
 {"btr3e"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}
 {"mtlb_kamikadze"						"<c(FFFFFF)e(shadow)>МТ-ЛБ</c>"}
