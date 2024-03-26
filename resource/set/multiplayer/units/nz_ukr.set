@@ -77,14 +77,11 @@
  
  ;===============================БРОНЕТАНКОВЫЕ=========================================== 
  
+  ;М60А3
+ {"m60a3"	("v" c(140) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(110) b(brt_ua_hqcar) i(11) cw(0) cp(2))  {fore 1.0}}
+ 
  ;Леопадла 1А4
  {"leopard_1a4" ("v" c(240) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(120) b(brt_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
- 
- ;Леопадла 2А6
- {"leopard_2a6_ukr" {fore -1.0} ("v3" c(250) sc(190) g(newua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(21) cw(0) cp(60) t(all_nz) c1(leopard_2a6_dz) n(1) n1(tankman:4)) }
- 
- ;Леопадла 2А4 с дзшкой
- {"leopard_2a4_dz" ("v" c(250) sc(170) g(newua) b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(11) cw(0) cp(45) m(1) t(all_nz) n(4)){fore -1.0}}
  
  ;ПТ-91
  {"pt-91_ukr" {fore 1} ("v3" c(240) sc(170) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(22) cw(0) cp(25) t(all_nz) c1(pt-91) n(1) n1(tankman:3)) }
@@ -92,12 +89,14 @@
  ;Т-64БВ
  {"t-64bv_ukr" {fore 0.5} ("v3" c(180) sc(170) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(23) cw(0) cp(25) t(all_nz) c1(t-64bv) n(1) n1(tankman:3)) }
  
- 
- ;М60А3
- {"m60a3"	("v" c(140) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(110) b(brt_ua_hqcar) i(11) cw(0) cp(2))  {fore 1.0}}
- 
  ;М1А1
  {"m1ip_2"	("v" c(250) brig(brt_ua) t(all_nz) s(ukr) n(4) g(newua)  sc(180) b(brt_ua_hqcar) i(13) cw(0) cp(2))  {fore 0.5}}
+  
+ ;Леопадла 2А4 с дзшкой
+ {"leopard_2a4_dz" ("v" c(250) sc(170) g(newua) b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(11) cw(0) cp(45) m(1) t(all_nz) n(4)){fore -1.0}}
+ 
+ ;Леопадла 2А6
+ {"leopard_2a6_ukr" {fore -1.0} ("v3" c(250) sc(190) g(newua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(21) cw(0) cp(60) t(all_nz) c1(leopard_2a6_dz) n(1) n1(tankman:4)) }
  
  ;T-62МД
  {"t62md"	("v" c(250) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldsovua)  sc(140) b(brt_ua_hqcar) i(12) cw(0) cp(2))  {fore 1.0}}
