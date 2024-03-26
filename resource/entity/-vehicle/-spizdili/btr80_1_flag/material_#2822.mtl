@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "yashik-bort"}
+	{blend none}
+}

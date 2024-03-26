@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "qw1"}
+	{blend none}
+}

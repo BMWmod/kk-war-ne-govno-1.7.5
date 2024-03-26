@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/btr80new/btr-80#evil"}
+	{blend none}
+}
