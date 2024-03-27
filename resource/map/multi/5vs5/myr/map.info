@@ -1,5 +1,0 @@
-;SDL
-{game
-  {maxPlayers 12}
-  {texMod forest}
-}	
