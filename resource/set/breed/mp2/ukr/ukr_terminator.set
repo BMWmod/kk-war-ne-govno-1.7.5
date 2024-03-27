@@ -1,14 +1,13 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_ngu_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "smgs"}
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{head "mvd_zsh1_black"}
 	}
-
-	{perks
+    {perks
 		{"vision" mp_soldier
 		}
 		{"smg" lvl_2
@@ -47,14 +46,13 @@
 		}
 	}
 	{inventory
-		{item "korsar3m"}
+	    {item "lbt6094_ukr_gp"}
+		{item "ak74b" filling "545 ammo" 30}
+		{item "545 ammo" 150}
 		{item "bandage" 10}
-		{item "knife_union"}
-		{item "pkm" filling "pkm_ammo ammo" 100}
-		{item "pkm_ammo ammo" 200}
 		{item "javelin weapon" filling "jav_rock f ammo" 1}
 		{item "ammo jav_rock f" 4}
 		{item "sandbag_kit"}
-		{in_hands 4}
+		{in_hands 1}
 	}
 }

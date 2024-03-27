@@ -1,0 +1,51 @@
+;Exported by: Timosh
+;Date:        Sat Feb 29 08:51:48 2020
+;File:        G:\?????? ? Pheonix\??????????????\??? ??????\???????\??????????\???????????\???\otv\OTV.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "detail_util"
+			{Matrix34
+				0.376909	0	-0.92625
+				-0.922726	0.0871546	-0.375475
+				0.0807269	0.996195	0.0328494
+				-0.126331	-0.106647	4.00276
+			}
+			{VolumeView "detail_util.ply"}
+		}
+		{bone "detail_medpack"
+			{Matrix34
+				-0.884112	0	0.467276
+				0.465498	0.0871554	0.880747
+				-0.0407257	0.996195	-0.077055
+				-0.124542	-0.0486517	-4.09964
+			}
+			{VolumeView "detail_medpack.ply"}
+		}
+	}
+}
+{Volume "select"
+	{Box 5.6476 7.43559 9.7288}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00444894	2.49513	0.10218
+	}
+}
+{Volume "soft_plate"
+	{Box 5.6476 7.43559 9.7288}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00444894	2.49513	0.10657
+	}
+}

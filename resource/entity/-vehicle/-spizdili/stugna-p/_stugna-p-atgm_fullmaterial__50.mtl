@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "fgm148_d"}
+	{blend none}
+}

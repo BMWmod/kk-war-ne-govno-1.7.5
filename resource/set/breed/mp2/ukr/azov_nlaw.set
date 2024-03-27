@@ -1,11 +1,11 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_ngu_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "smgs"}
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{head "kaska_1m_chehol_ghillie"}
 	}
 	{perks
         {"vision" mp_soldier
@@ -47,7 +47,7 @@
 	}
 	{inventory
 	{item "smoke_gb grenade" 2}
-		{item "korsar3m"}
+		{item "lbt6094_ukr_rpg"}
 		{item "556nato ammo" 300}
 		{item "l109a1 grenade" 2}
 		{item "bandage" 10}

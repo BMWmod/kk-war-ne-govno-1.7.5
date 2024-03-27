@@ -5,7 +5,8 @@
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{body "otv_ukr_mg"}
+		{head "kaska_1m_chehol"}
 	}
 
 	{perks

@@ -1,0 +1,36 @@
+;Exported by: $$$$$
+;Date:        Tue Sep 19 21:51:35 2023
+;File:        D:\Torrent\kaska_1m_chehol_ghillie (2).max
+{Skeleton
+	{bone "kaska_1m"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "kaska_1m.ply"}
+		{bone "detail_glasses1"
+			{Position 0.912725	0.0110431	3.76962}
+			{VolumeView "detail_glasses1.ply"}
+			{bone "detail_glasses2"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-0.316517	0.0128112	-0.0190191
+				}
+				{VolumeView "detail_glasses2.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 12.001 9.76012 7.46948}
+	{Bone "kaska_1m"}
+	{Position 0.824736	0.0146513	3.71899}
+}
+{Volume "select"
+	{Box 12.001 9.76012 7.46948}
+	{Bone "kaska_1m"}
+	{Position 0.824736	0.0146513	3.71899}
+}

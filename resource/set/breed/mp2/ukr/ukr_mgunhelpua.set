@@ -5,7 +5,7 @@
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{head "kaska_1m_chehol"}
 	}
 
 	{perks
@@ -47,7 +47,7 @@
 		}
 	}
 	{inventory
-		{item "korsar3m"}
+		{item "otv_ukr_mg"}
 		{item "bandage" 10}
 		{item "knife_union"}
 		{item "rgd grenade" 2}

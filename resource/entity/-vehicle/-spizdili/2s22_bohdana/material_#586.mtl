@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/ukraine_bogdana_artillery/ukraine_bogdana_artillery_uatiretype1_completemap.tga"}
+	{bump "$/model/ukraine_bogdana_artillery/ukraine_bogdana_artillery_uatiretype1_normalmap"}
+	{blend none}
+}

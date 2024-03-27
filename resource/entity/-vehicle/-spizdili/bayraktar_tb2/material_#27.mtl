@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mac-c"}
+	{blend none}
+}

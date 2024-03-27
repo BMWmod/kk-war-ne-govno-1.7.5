@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{Extension "p-2c.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "p2c_cm_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	{targetClass 	"laser_using_missile"}
+}

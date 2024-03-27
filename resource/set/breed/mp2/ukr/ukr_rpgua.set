@@ -1,11 +1,12 @@
 {breed
-	{skin "cw_ukr_smg"}
+	{skin "kk_ua_tro_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "bazookers"}
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+	    {body "otv_ukr_smg"}
+		{head "kaska_1m_chehol"}
 	}
 
 	{perks
@@ -47,7 +48,6 @@
 		}
 	}
 	{inventory
-		{item "korsar3m_rpg"}
 		{item "ak74b" filling "545 ammo" 30}
 		{item "545 ammo" 120}
 		{item "rpg7 weapon" filling "pg-7vr rpg7 ammo" 1}

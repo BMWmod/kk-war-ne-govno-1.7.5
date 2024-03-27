@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_helmet.ext")
+	{Extension "zsh1_2.mdl"}
+	{extender "stuff"
+		{item "mvd_zsh1_2"}
+	}
+}
+

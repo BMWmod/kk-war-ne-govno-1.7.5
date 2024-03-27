@@ -6,7 +6,7 @@
 	{tags "sniper2"}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{head "kaska_1m_chehol_ghillie"}
 	}
     {perks
 		{"vision" mp_soldier
@@ -47,7 +47,7 @@
 		}
 	}
 	{inventory
-		{item "korsar3m"}
+		{item "lbt6094_ukr_marksman_a"}
 		{item "bandage" 15}
 		{item "knife_union"}
 		{item "svd" filling "svd_ammo ammo" 10}

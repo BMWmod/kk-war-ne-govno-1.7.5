@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "zsh1"}
+	{blend none}
+}

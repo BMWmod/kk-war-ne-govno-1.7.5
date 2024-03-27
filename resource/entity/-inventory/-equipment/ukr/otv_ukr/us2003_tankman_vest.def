@@ -1,0 +1,8 @@
+{Entity
+	(include "/properties/stuff_bodyarmorplate.ext")
+	{Extension "us_tankman_vest.mdl"}
+	{extender "stuff"
+		{item "us2003_tankman_vest"}
+	}
+	("classnoarmor")
+}

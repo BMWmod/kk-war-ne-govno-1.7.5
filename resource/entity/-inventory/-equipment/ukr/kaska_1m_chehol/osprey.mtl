@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "gb_gear1"}
+	{blend none}
+}

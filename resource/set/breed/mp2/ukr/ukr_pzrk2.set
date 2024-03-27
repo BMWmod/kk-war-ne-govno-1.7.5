@@ -1,5 +1,5 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_ngu_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "bazookers"}
 	{icon_priority 1}
@@ -46,12 +46,12 @@
 		}
 	}
 	{inventory
-	    {item "korsar3m"}
 		{item "545 ammo" 180}
 		{item "ak74b" filling "545 ammo" 30}
 		{item "bandage" 10}
+		{item "otv_ukr_mg"}
 		{item "stinger weapon" filling "fim-92a_ammo ammo" 1}
 		{item "fim-92a_ammo ammo" 5}
-		{in_hands 3}
+		{in_hands 1}
 	}
 }

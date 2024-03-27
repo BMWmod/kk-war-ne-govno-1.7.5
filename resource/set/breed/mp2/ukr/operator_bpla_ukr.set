@@ -1,12 +1,13 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_ngu_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "bazookers"}
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-	head "cap_ua"}
-{perks
+	 {head "cap_ua"}
+	 }
+    {perks
 		{"vision" mp_soldier
 		}
 		{"smg" lvl_3
@@ -59,7 +60,7 @@
 	{inventory
 		{item "ak74b" filling "545 ammo" 30}
 		{item "545 ammo" 60}
-		{item "bandage" 10}
+		{item "bandage" 5}
 		{item "rq11_control"}
 		{item "rq11raven" 4}
 		{in_hands 0}

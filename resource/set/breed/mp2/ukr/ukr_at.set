@@ -45,11 +45,11 @@
 		{"skill_airgm_launcher" lev_1 }
 	}
 	{inventory
-		{item "korsar3m"}
+		{item "otv_ukr_mg"}
 		{item "bandage" 10}
-	        {item "rgw-90_hh-t" 2 filling "heat_matadot_hh_t_ammo ammo" 1}
+	    {item "rgw-90_hh-t" 2 filling "heat_matadot_hh_t_ammo ammo" 1}
 		{item "g36a3_zeiss_zo_4x30i" filling "556nato ammo" 30}
-                {item "sandbag_kit"}
+        {item "sandbag_kit"}
 		{item "556nato ammo" 180}
 		{item "dm51gr grenade" 2}
 		{item "smoke_ger grenade" 2}

@@ -1,5 +1,5 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_tankman_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "soldier"}
 	{icon_priority 0}
@@ -33,14 +33,12 @@
 	}
 
 	{inventory
+	    {item "otv_ukr_mg"}
 		{item "naz_ir"}
 		{item "bandage" 5}
 		{item "545 ammo" 180}
-
 		{item "ak74b" filling "545 ammo" 30}
-		
 		{item "f1 grenade" 2}
-		
-		{in_hands 4}
+		{in_hands 5}
 	}
 }

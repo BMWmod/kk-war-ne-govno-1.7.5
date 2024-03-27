@@ -1,11 +1,12 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_tro_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "smgs"}
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{body "otv_ukr_smg"}
+		{head "kaska_1m_chehol"}
 	}
     {perks
 		{"vision" mp_soldier
@@ -47,7 +48,6 @@
 	}
 	
 	{inventory
-		{item "korsar3m"}
 		{item "bandage" 10}
 		{item "rpg26 weapon" filling "rpg26 ammo" 1}
 		{item "knife_union"}

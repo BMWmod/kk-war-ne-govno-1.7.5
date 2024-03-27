@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ukr_kombat"}
+	{blend none}
+}

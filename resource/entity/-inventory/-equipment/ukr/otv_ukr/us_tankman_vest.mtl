@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "otv_ukr"}
+	{blend none}
+}

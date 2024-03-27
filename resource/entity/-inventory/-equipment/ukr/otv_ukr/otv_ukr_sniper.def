@@ -1,0 +1,8 @@
+{Entity
+	(include "/properties/stuff_bodyarmorplate.ext")
+	{Extension "otv_sniper.mdl"}
+	{extender "stuff"
+		{item "otv_ukr_sniper"}
+	}
+	("class3USA")
+}

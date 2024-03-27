@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_helmet.ext")
+	{Extension "kaska_1m_chehol_ghillie.mdl"}
+	{extender "stuff"
+		{item "kaska_1m_chehol_ghillie"}
+	}
+}

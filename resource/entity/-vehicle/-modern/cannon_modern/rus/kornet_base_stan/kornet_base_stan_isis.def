@@ -30,7 +30,7 @@
 	}
 	{Weaponry
 		{place "gun"
-		{weapon "weapon 9m133x1_base" filling "ammo 9m133 cm_e" 1}
+		    {weapon "weapon 9m133x1_base" filling "ammo 9m133 cm_e" 1}
 			{foresight "foresight1"}
 			{barrels 1}
 			{gunner "gunner"}

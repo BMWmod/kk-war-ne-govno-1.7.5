@@ -1,0 +1,8 @@
+{Entity
+	(include "/properties/stuff_bodyarmorplate.ext")
+	{Extension "lbt6094_rus_smg.mdl"}
+	{extender "stuff"
+		{item "lbt6094_ukr_smg"}
+	}
+	("class4USA")
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/human/outfit/leshiy_brit"}
+	{blend test}
+}

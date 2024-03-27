@@ -65,14 +65,14 @@
  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(110) f(1.0) )
   
 ;Снайперы АЗОВ
- ;("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_snipers) c(90) g(azov_snipers)
- ;с1(azov_sniper:2) c2(azov_officer:1)
-; ;b(ngu_ua_hqcar)  brig(ngu_ua) t(all_nz) cost(90) f(1.0) )
+("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_zsniper) c(170) g(azov_zsniper) 
+ c1(azov_sniper:2) c2(azov_officer:1) 
+ b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(70) f(1.0) )
  
  ;Терминатор))))
 ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(terminator) c(170) g(ukr_terminator) 
   c1(ukr_terminator:1)
-  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz inf_irg) cost(200) f(1.0) )
+  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz inf_irg) cost(120) f(1.0) )
  
  ;("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(srbsk)     t(all_nz    ) info(pilot) c1(Pilot:1)) 
  
@@ -223,22 +223,24 @@
  
  {"kraz_6322_fuel_ukr" {fore 0} ("v3" c(120) sc(96) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(kraz_6322_fuel) n(2) n1(vehicle_supporter:1)      ) }
  
+ {"brem-1_ukr" {fore 1} ("v3" c(900) sc(110) g(269)  b(supl) brig(common) s(ukr)  i(1701) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
+ 
  ;==========================================Авиация=================================
  
  ;Су-24М с ракетами
- {"su24m_ukr88" {fore 0} ("v3" c(600) sc(450) g(air_su22ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(su24m_strike) n(2) n1(vehicle_supporter:2) ) }
+ {"su24m_ukr88" {fore 0} ("v3" c(600) sc(450) g(air_su22ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(su24m_strike) n(2) n1(pilot:2) ) }
  
  ;Ф-16 с противолокационками
- {"f-16c_antirad_ukr" {fore 0} ("v3" c(300) sc(250) g(air_F-16ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1076) cw(0) cp(69) t(all_nz) c1(f-16c_antirad) n(1) n1(vehicle_supporter:1) ) }
+ {"f-16c_antirad_ukr" {fore 0} ("v3" c(300) sc(250) g(air_F-16ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1076) cw(0) cp(69) t(all_nz) c1(f-16c_antirad) n(1) n1(pilot:1) ) }
  
  ;МиГ-29 противовоздушный
- {"mig-29s_aa_ukr" {fore 0} ("v3" c(400) sc(300) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(vehicle_supporter:1) ) }
+ {"mig-29s_aa_ukr" {fore 0} ("v3" c(400) sc(300) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(pilot:1) ) }
  
  ;mi17
- {"mi17_ukr" {fore 1} ("v3" c(300) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(vehicle_supporter:2) ) }
+ {"mi17_ukr" {fore 1} ("v3" c(300) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(pilot:2) ) }
  
  ;Ми-24
- {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(230) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(vehicle_supporter:2) ) }
+ {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(230) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(pilot:2) ) }
  
  ;Блек хуй
- {"uh60_ukr" {fore 1} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(vehicle_supporter:2) n2(ukr_at:3) n3(ukr_mgunua:4) n4(ukr_mgunhelpua:2) n5(ukr_smgua:1) n6(ukr_smg2ua:2)) } 	
+ {"uh60_ukr" {fore 1} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:2) n2(ukr_at:3) n3(ukr_mgunua:4) n4(ukr_mgunhelpua:2) n5(ukr_smgua:1) n6(ukr_smg2ua:2)) } 	

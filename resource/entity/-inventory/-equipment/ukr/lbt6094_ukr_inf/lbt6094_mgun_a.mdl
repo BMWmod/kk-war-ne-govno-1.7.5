@@ -1,0 +1,99 @@
+;Exported by: Timosh
+;Date:        Thu Oct  3 08:33:02 2019
+;File:        G:\?????? ? Pheonix\??????????????\??? ??????\???????\??????????\???????????\???\LBT 6094\lbt6094_and_smb 3.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "2mgun"
+			{Matrix34
+				0.999301	0	0.037383
+				0.0372407	0.0871556	-0.995498
+				-0.00325813	0.996195	0.0870947
+				3.35393	4.14642	2.14804
+			}
+			{VolumeView "2mgun.ply"}
+		}
+		{bone "util2"
+			{Matrix34
+				-0.998434	0	-0.0559461
+				-0.0557332	0.0871556	0.994635
+				0.00487601	0.996195	-0.0870191
+				3.93411	-0.604577	-1.85258
+			}
+			{VolumeView "util2.ply"}
+		}
+		{bone "common_a"
+			{Matrix34
+				0.999301	0	0.037383
+				0.0372407	0.0871556	-0.995498
+				-0.00325813	0.996195	0.0870947
+				3.35393	4.20762	2.14804
+			}
+			{VolumeView "common_a.ply"}
+		}
+		{bone "3_mg_gp_a"
+			{Matrix34
+				0.886125	-0.0918976	0.454243
+				0.459489	0.0463994	-0.886971
+				0.0604339	0.994687	0.0833415
+				2.24297	0.221618	4.17938
+			}
+			{VolumeView "3_mg_gp_a.ply"}
+		}
+	}
+}
+{Volume "front_ceramic"
+	{Polyhedron "front_ceramic.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		2.96661	-1.52267	-0.0181276
+	}
+}
+{Volume "rear_ceramic"
+	{Polyhedron "rear_ceramic.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-2.97488	-1.51823	-0.0162725
+	}
+}
+{Volume "sidel_ceramic"
+	{Polyhedron "sidel_ceramic.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.196883	-2.13444	-3.72614
+	}
+}
+{Volume "sider_ceramic"
+	{Polyhedron "sider_ceramic.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.196883	-2.13444	3.91582
+	}
+}
+{Volume "soft_plate"
+	{Box 5.6476 7.43559 8.21889}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00444894	2.24083	0.106571
+	}
+}

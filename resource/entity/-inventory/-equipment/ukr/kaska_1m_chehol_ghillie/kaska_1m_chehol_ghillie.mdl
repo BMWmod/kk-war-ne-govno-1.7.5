@@ -1,0 +1,40 @@
+;Exported by: abrus
+;Date:        Thu Jun 29 23:31:36 2023
+;File:        C:\Users\?????\Documents\3ds Max 2020\scenes\kaska_1m_3.max
+{Skeleton
+	{bone "kaska_1m"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "kaska_1m.ply"}
+		{bone "detail_glasses1"
+			{Position 0.912725	0.0110431	3.76962}
+			{VolumeView "detail_glasses1.ply"}
+			{bone "detail_glasses2"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-0.316517	0.0128112	-0.0190191
+				}
+				{VolumeView "detail_glasses2.ply"}
+			}
+		}
+		{bone "detail_gilly_helmet"
+			{Position 0.255209	-0.0571057	3.84337}
+			{VolumeView "detail_gilly_helmet.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 12.001 9.76012 7.46948}
+	{Bone "kaska_1m"}
+	{Position 0.859396	0.0451909	3.22851}
+}
+{Volume "select"
+	{Box 12.001 9.76012 7.46948}
+	{Bone "kaska_1m"}
+	{Position 0.859396	0.0451909	3.22851}
+}

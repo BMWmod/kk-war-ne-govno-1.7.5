@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "kaska_1m_mm14"}
+	{blend none}
+}

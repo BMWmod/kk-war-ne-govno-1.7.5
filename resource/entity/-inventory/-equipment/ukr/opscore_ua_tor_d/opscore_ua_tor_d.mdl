@@ -1,0 +1,47 @@
+;Exported by: abrus
+;Date:        Thu Sep  7 21:45:14 2023
+;File:        C:\Users\abrus\Documents\3ds Max 2020\scenes\opscore_tor_d.max
+{Skeleton
+	{bone "opscore"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "opscore.ply"}
+		{bone "detail_headpatchb"
+			{Matrix34
+				1	0	0
+				0	0.573576	-0.819152
+				0	0.819152	0.573576
+				0.731467	1.32254	4.48474
+			}
+		}
+		{bone "detail_headpatchc"
+			{Matrix34
+				1	0	0
+				0	0.573576	-0.819152
+				0	0.819152	0.573576
+				0.731467	1.32254	4.48474
+			}
+		}
+		{bone "detail_headpatcha"
+			{Matrix34
+				1	0	0
+				0	0.573576	-0.819152
+				0	0.819152	0.573576
+				0.731467	1.32254	4.48474
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.3844 3.99831 5.19781}
+	{Bone "opscore"}
+	{Position 0.786139	-0.0838706	2.5989}
+}
+{Volume "select"
+	{Box 5.3844 3.99831 5.19781}
+	{Bone "opscore"}
+	{Position 0.786139	-0.0838706	2.5989}
+}

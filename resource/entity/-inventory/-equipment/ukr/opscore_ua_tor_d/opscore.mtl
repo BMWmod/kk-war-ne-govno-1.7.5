@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/equipment/head/opscore_new/opscore_ua_tor_d"}
+	{blend none}
+}

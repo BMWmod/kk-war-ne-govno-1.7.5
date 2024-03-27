@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_helmet.ext")
+	{extender "stuff"
+		{item "opscore_neu_ukr_azov_com"}
+	}
+	{Extension "opscore_sso_com.mdl"}
+}

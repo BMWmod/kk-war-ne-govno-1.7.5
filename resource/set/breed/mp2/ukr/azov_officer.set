@@ -1,11 +1,11 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_ngu_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "smgs"}
 	{icon_priority 1}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{head "opscore_neu_ukr_azov_com"}
 	}
 	{perks
         {"vision" mp_soldier
@@ -46,12 +46,12 @@
 		}
 	}
 	{inventory
-	    {item "korsar3m"}
-	    {item "osprey_smg"}
+	    {item "lbt6094_ukr_gp_a"}
+	    {item "rus_radio_station"}
 		{item "smoke_gb grenade"}
 		{item "binocular"}
 		{item "standart ammo" 50}
 		{item "glock19" filling "9mm ammo" 19}
-		{in_hands 1}
+		{in_hands 5}
 	}	
 }

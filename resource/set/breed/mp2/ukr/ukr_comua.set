@@ -1,12 +1,13 @@
 {breed
-	{skin "cw_ukr_smg_new"}
+	{skin "kk_ua_tro_ukr"}
 	{portrait "_new/ukr/inf"}
 	{icon "officer"}
 	{icon_priority 1}
 	{tags "officer"}
 	{nationality ukr}
 	{armors
-		{head "1m_helmet_ua"}
+		{body "otv_ukr_gp"}
+		{head "kaska_1m_chehol"}
 	}
 
 	{perks
@@ -48,7 +49,6 @@
 		}
 	}
 	{inventory
-		{item "korsar3m"}
 		{item "545 ammo" 210}
 		{item "standart ammo" 24}
 		{item "knife_union"}

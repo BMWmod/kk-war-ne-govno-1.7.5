@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_helmet.ext")
+	{extender "stuff"
+		{item "opscore_ua_tor_d"}
+	}
+	{Extension "opscore_ua_tor_d.mdl"}
+}
+

@@ -838,5 +838,7 @@
 ("soldier"   breed(ukr_srochnik)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
 ("soldier"   breed(ukr_srochnik_at)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
 ("soldier"   breed(operator_bpla_ukr)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(pilot)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
 ("tro" side(ukr) brig(ukr))
 )
+		

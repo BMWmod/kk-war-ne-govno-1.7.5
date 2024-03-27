@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "lbt6094_razgruz_ukr"}
+	{blend none}
+}

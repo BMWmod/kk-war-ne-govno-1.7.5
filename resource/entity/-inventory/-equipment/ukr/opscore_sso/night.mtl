@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/equipment/head/night_vision/pnv_body"}
+	{blend none}
+}
