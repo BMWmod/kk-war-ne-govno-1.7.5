@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/Details/Windows/glass_cloudy_sky"}
+	{mask "$/model/Details/Material/chrom2"}
+	{envmap "$/environment/envmap_gold01"}
+	{blend blend}
+}

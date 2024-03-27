@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/unimog/glass"}
+        {mask "$/model/unimog/glass"}
+	{envmap "$/model/f4/envmap_field_day02"}
+	{blend blend}
+}
