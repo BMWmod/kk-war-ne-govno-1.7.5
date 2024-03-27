@@ -90,6 +90,9 @@
  
  ;===============================БРОНЕТАНКОВЫЕ=========================================== 
  
+  ;AMX-10RCR
+ {"AMX-10RCR_ukr" {fore 1} ("v3" c(60) sc(40) g(amx-10RCR)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(80) cw(10) cp(10) t(all_nz) c1(amx10rc) n(2) n1(tankman:4)) }
+ 
   ;М60А3
  {"m60a3"	("v" c(140) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(110) b(brt_ua_hqcar) i(11) cw(0) cp(2))  {fore 1.0}}
  
@@ -143,8 +146,6 @@
   ;Штурм-С
   {"shturm-s_ukr" {fore 0} ("v3" c(120) sc(90) g(shturm-s)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(80) cw(10) cp(10) t(all_nz) c1(9p149_shturm-s) n(2) n1(tankman:2)) }
   
-  ;AMX-10RCR
-  {"AMX-10RCR_ukr" {fore 1} ("v3" c(60) sc(40) g(amx-10RCR)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(80) cw(10) cp(10) t(all_nz) c1(amx10rcr) n(2) n1(tankman:4)) }
   
   ;Варриор с дзшкой
   {"warrior_wrap2_ukr" {fore 0} ("v3" c(40) sc(55) g(btr)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(81) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
