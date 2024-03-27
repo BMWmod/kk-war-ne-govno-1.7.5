@@ -2262,7 +2262,7 @@
 	{Tags "invisible_wall_mp_nz" 0xc06c}
 	{Tags "invisible_wall_mp_nz" 0xc06d}
 	{Tags "invisible_wall_mp_nz" 0xc06e}
-	{Environment "multi/desert_hills/desert_hills_day"}
+	{Environment "m10/krimea_1300"}
 	{Helpers
 		{zone "poly"
 			{position 567.655 -8762.01 -700}
@@ -16702,11 +16702,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 210}
-						{title "ЧЁ НАХУЙ"}
+						{time 145}
+						{title "Групповой штурм Авдеевки начнёться через:"}
 					}
 					{"delay"
-						{time 210}
+						{time 145}
 					}
 					{"timer"
 						{hide}
