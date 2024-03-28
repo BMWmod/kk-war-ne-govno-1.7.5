@@ -47,23 +47,14 @@
 			;{gunner "driver"}
 		;}
 		{place "Nur1"
-			{weapon "57mm_uv_16_57" filled}
-			{barrels 16}
-			{shooter "shooter_n"}
-			{foresight "foresight1"}
-			{charger "driver"}
-			{gunner "driver"}
-			{basic}
-                 }
-                 {place "Nur2"
-			{weapon "57mm_uv_16_57" filled}
-			{barrels 16}
-			{shooter "shooter_n"}
+			{weapon "57mm_UV_32_57x2" filling "C5 cm ammo" 64}
 			{foresight "foresight2"}
 			{charger "driver"}
 			{gunner "driver"}
+			{shooter "Shooter_0"}
+			{barrels 64}
 			{basic}
-                 }
+		}
 
 }
 
