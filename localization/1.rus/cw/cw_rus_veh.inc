@@ -135,7 +135,66 @@
 
 
 
+;УУУУУУУУУКРАИНА
+   {"kord_stan_ukr"								"<c(FFFFFF)e(shadow)>КОРД</c>"}
+   {"liaz_ukr"								    "<c(FFFFFF)e(shadow)>Лиаз</c>"}
+   {"kraz_6322_ukr"								"<c(FFFFFF)e(shadow)>КРАЗ(ПУСТОЙ)</c>"}
+   {"mtlb_kord_ukr"								"<c(FFFFFF)e(shadow)>МТ-ЛБ с КОРДом</c>"}
+   {"btr70_ukr1"								"<c(FFFFFF)e(shadow)>БТР-70</c>"}
+   {"2b14_ukr"							        "<c(FFFFFF)e(shadow)>2Б14 Поднос </c>"}
+   {"fennek_ua"								    "<c(FFFFFF)e(shadow)>Феннек</c>"}
+   {"fv107scimitar_mk2"							"<c(FFFFFF)e(shadow)>Fv107 Scimitar</c>"}
+   {"AMX-10RCR_ukr"								"<c(FFFFFF)e(shadow)>AMX-10RC</c>"}
+   {"m60a3"								        "<c(FFFFFF)e(shadow)>М60А3</c>"}
+   {"leopard_1a4"								"<c(FFFFFF)e(shadow)>Леопард 1А4</c>"}
+   {"pt-91_ukr"								    "<c(FFFFFF)e(shadow)>PT-91 Twardy</c>"}
+   {"t-64bv_ukr"								"<c(FFFFFF)e(shadow)>Т-64БВ Скиф </c>"}
+   {"m1ip_2"								    "<c(FFFFFF)e(shadow)>M1IP</c>"}
+   {"leopard_2a4_dz"						    "<c(FFFFFF)e(shadow)>Леопард 2А4 с ДЗ</c>"}
+   {"leopard_2a6_ukr"						    "<c(FFFFFF)e(shadow)>Леопард 2А6 с ДЗ</c>"}
+   {"t62md"								        "<c(FFFFFF)e(shadow)>Т-62М с КАЗ Дрозд </c>"}
+   {"spg_9_ukr"								    "<c(FFFFFF)e(shadow)>СПГ-9</c>"}
+   {"ptur_konkurs_ukr"								    "<c(FFFFFF)e(shadow)>ПТУР Конкурс</c>"}
+   {"mt12_with_mtlb"								    "<c(FFFFFF)e(shadow)>МТ-ЛБ с МТ-12</c>"}
+   {"bmd2_ukr"								    "<c(FFFFFF)e(shadow)>БМД-2</c>"}
+   {"oshkosh_m-atv_ua"								    "<c(FFFFFF)e(shadow)>Ошкош с МК-19</c>"}
+   {"bmp1_ukr"								    "<c(FFFFFF)e(shadow)>БМП-1</c>"}
+   {"shturm-s_ukr"								    "<c(FFFFFF)e(shadow)>Штурм-С</c>"}
+   {"warrior_wrap2_ukr"								    "<c(FFFFFF)e(shadow)>Варриор с ДЗ</c>"}
+   {"ypr_765_ukr"								    "<c(FFFFFF)e(shadow)>UPR-765</c>"}
+   {"2a65_msta_b_ukr"								    "<c(FFFFFF)e(shadow)>2А65 Мста-Б</c>"}
+   {"m777a2_ukr"								    "<c(FFFFFF)e(shadow)>М777А2</c>"}
+   {"dana_ukr"								    "<c(FFFFFF)e(shadow)>Дана</c>"}
+   {"2s7_ukr"								    "<c(FFFFFF)e(shadow)>2С7 Пион</c>"}
+   {"himars_ukr"								    "<c(FFFFFF)e(shadow)>M142 Himars</c>"}
+   {"as_90_ukr"								    "<c(FFFFFF)e(shadow)>AS-90</c>"}
+   {"zil2c1_ukr"								    "<c(FFFFFF)e(shadow)>ЗИЛ с 2С1</c>"}
+   {"kamaz_grad_ukr"								    "<c(FFFFFF)e(shadow)>Град на базе КАМАЗа</c>"}
+   {"bm30_ukr"								    "<c(FFFFFF)e(shadow)>БМ-30 Смерч</c>"}
+   {"zu23-2_ukr"								    "<c(FFFFFF)e(shadow)>Зу-23-2</c>"}
+   {"mtlb_zu_ukr"								    "<c(FFFFFF)e(shadow)>МТ-ЛБ с Зу-23-2</c>"}
+   {"Shilka_ukr"								    "<c(FFFFFF)e(shadow)>Шилка</c>"}
+   {"Gepard_ukr"								    "<c(FFFFFF)e(shadow)>Гепард</c>"}
+   {"brdm2_strela_ukr"								    "<c(FFFFFF)e(shadow)>Стрела-1</c>"}
+   {"strela-10_ukr"								    "<c(FFFFFF)e(shadow)>Стрела-10</c>"}
+   {"nasams_ukr"								    "<c(FFFFFF)e(shadow)>NASAMS</c>"}
+   {"hawk_cwar_ukr"								    "<c(FFFFFF)e(shadow)>Радар HAWK CWAR</c>"}
+   
+   ;Сапка
+   {"mtlb_supl"								    "<c(FFFFFF)e(shadow)>МТ-ЛБ с универсальными боеприпасами</c>"}
+   {"kraz_6322_fuel_ukr"								    "<c(FFFFFF)e(shadow)>КРАЗ с топливом</c>"}
+   {"brem-1_ukr"								    "<c(FFFFFF)e(shadow)>БРЭМ-1</c>"}
+   
+   ;Авиация
+   {"su24m_ukr88"								    "<c(FFFFFF)e(shadow)>Су-24М с дальнобойными ракетами</c>"}
+   {"f-16c_antirad_ukr"								    "<c(FFFFFF)e(shadow)>Ф-16 ПРР</c>"}
+   {"mig-29s_aa_ukr"								    "<c(FFFFFF)e(shadow)>МиГ-29 УРВВ</c>"}
+   {"mi17_ukr"								    "<c(FFFFFF)e(shadow)>Ми-17 с НАРами</c>"}
+   {"mi-24v_ukr"								    "<c(FFFFFF)e(shadow)>Ми-24В</c>"}
 
+
+
+   
 
 
 ;-vehicle
