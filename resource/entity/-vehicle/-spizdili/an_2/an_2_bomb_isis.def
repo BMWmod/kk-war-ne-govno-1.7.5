@@ -6,10 +6,12 @@
 	(include "/properties/car_crew.ext")
 	{props "airborne_M" "fighter" "vision_lev_plane" "mig-21bis" "-IR_spo"}	
 	
-	{texmod "test"}
-
-
-
+	
+	{texmod "isis"}
+	
+	
+;	{lodclass "vehicle_large"}
+	{PatherID  "airborne"}
 
 	("crew_2_human")
 	("crew_human" place(seat1)	bone(Seat00)	door(emit1)	animation(passenger1))
@@ -152,6 +154,20 @@
 		{Box
 		}
 	}
+	{Weaponry
+
+		{place "bomb_droper"
+			{weapon "fab_250x1" filled}
+			{foresight "foresight2"}
+			{charger "driver"}
+			{gunner "driver"}
+			{shooter "shooter_"}
+			{barrels 1}
+			{basic}
+			
+		}
+		
+	}
 	{mass 3690}
 	{Chassis
 		{Locomotion ("locomotion") 
@@ -168,5 +184,5 @@
        		{Fast	90	}
        		}
 	}
-	{Extension "an_2.mdl"}
+	{Extension "an_2_bomb.mdl"}
 }

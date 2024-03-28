@@ -16645,7 +16645,7 @@
 						{apply}
 					}
 					{"delay"
-						{time 140}
+						{time 30}
 					}
 					{"environment"
 						{name "m10/krimea_1300"}
@@ -16681,11 +16681,11 @@
 					}
 					{"environment"
 						{name "m10/krimea_0600"}
-						{time 200}
+						{time 122}
 						{apply}
 					}
 					{"delay"
-						{time 160}
+						{time 122}
 					}
 					{"environment"
 						{name "single/3-poltava/poltava_24_00"}

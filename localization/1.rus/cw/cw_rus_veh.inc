@@ -5,6 +5,8 @@
 ;rev 04.07.2022
 
 
+{"an_2_bomb"						"<c(FFFFFF)e(shadow)>АН-2БМВ</c>"}
+{"an_2_bomb_isis"						"<c(FFFFFF)e(shadow)>АН-2БМВ</c>"}
 {"an_2_no_wp_isis"						"<c(FFFFFF)e(shadow)>АН-2</c>"}
 {"an_2_no_wp_serb"						"<c(FFFFFF)e(shadow)>АН-2</c>"}
 {"btr80_1_flag"						"<c(FFFFFF)e(shadow)>БТР-80</c>"}

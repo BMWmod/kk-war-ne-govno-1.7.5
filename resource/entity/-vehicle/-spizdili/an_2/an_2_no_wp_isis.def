@@ -1,13 +1,14 @@
 {Game_Entity
-	(include "/properties/airborne.ext")
-	(include "/properties/shadow/airborn.inc" scale(2.2))
+	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.1))
 	(include "/properties/selection/airborne.inc" scale(3.0))
 	(include "/properties/car_crew.ext")
+	{props "airborne_M" "fighter" "vision_lev_plane" "mig-21bis" "-IR_spo"}	
 
-	{props "airborne_M" "assault" "vision_lev_plane" }	
+	
 	{texmod "isis"}
-;	{lodclass "vehicle_large"}
-	{PatherID  "airborne"}
+
 
 	("crew_2_human")
 	("crew_human" place(seat1)	bone(Seat00)	door(emit1)	animation(passenger1))
