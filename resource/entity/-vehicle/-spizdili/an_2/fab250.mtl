@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/Su-25sm/fab-250-paint"}
+	{emitsheat}
+{blend none}
+}

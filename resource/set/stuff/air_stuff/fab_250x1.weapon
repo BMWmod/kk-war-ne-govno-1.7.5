@@ -1,0 +1,24 @@
+{weapon_bullet
+	;Su-25
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+	{tag "weapon fg"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo fab_250" 1}
+	{fillingVisible "bomb_"}
+	{fireSound "reactive/bomb"}
+	{recoveryTime 0.3}
+	{rechargeTime 35}
+	{range 190 190}
+	{cursor "Su252"}
+	{cursorReloading "zenite_reload"}
+	{automatic}
+	{gravity 0.25}
+	{speed 23}
+	{aimtype direct}
+	{cursor "bomb_on_2"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_210"}
+	("accuracy_unguided_bomb" bomb_accuracy(1) sight_quality(1) airspeed(750) gamespeed(77))
+}

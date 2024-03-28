@@ -1,0 +1,172 @@
+{Game_Entity
+	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.1))
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+	{props "airborne_M" "fighter" "vision_lev_plane" "mig-21bis" "-IR_spo"}	
+	
+	{texmod "test"}
+
+
+
+
+	("crew_2_human")
+	("crew_human" place(seat1)	bone(Seat00)	door(emit1)	animation(passenger1))
+	("crew_human" place(seat2)	bone(Seat01)	door(emit1)	animation(passenger2))
+	("crew_human" place(seat3)	bone(Seat02)	door(emit1)	animation(passenger3))
+	("crew_human" place(seat4)	bone(Seat03)	door(emit1)	animation(passenger4))
+	("crew_human" place(seat5)	bone(Seat04)	door(emit1)	animation(passenger5))
+	("crew_human" place(seat6)	bone(Seat05)	door(emit1)	animation(passenger6))
+	("crew_human" place(seat7)	bone(Seat05)	door(emit1)	animation(passenger6))
+	("crew_human" place(seat8)	bone(Seat05)	door(emit1)	animation(passenger6))
+	("crew_human" place(seat9)	bone(Seat05)	door(emit1)	animation(passenger6))
+	("crew_human" place(seat10)	bone(Seat05)	door(emit1)	animation(passenger6))
+	("crew_human" place(seat11)	bone(Seat05)	door(emit1)	animation(passenger6))
+	
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_Cabin"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_Cabin" -1}}
+		}
+	}
+	{boarder
+		{anm "commander"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_Cabin"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_Cabin" -1}}
+		}
+	}
+	{boarder
+		{anm "passenger1"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_passenger"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_passenger" -1}}
+		}
+	}
+	{boarder
+		{anm "passenger2"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_passenger"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_passenger" -1}}
+		}
+	}
+	{boarder
+		{anm "passenger3"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_passenger"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_passenger" -1}}
+		}
+	}
+	{boarder
+		{anm "passenger4"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_passenger"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_passenger" -1}}
+		}
+	}
+	{boarder
+		{anm "passenger5"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_passenger"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_passenger" -1}}
+		}
+	}
+	{boarder
+		{anm "passenger6"
+			{forward	{begin	"board_bigcar"} {end "seat_passenger"} {base "doorleft_passenger"}}
+			{reverse 	{end	"board_bigcar" -1} {base "doorleft_passenger" -1}}
+		}
+	}
+
+	{placer
+		{place "driver"	{group "crew"}}
+		{place "commander"	{group "crew"}}
+	}
+
+	(define "part_body"
+		{volume %0
+			{tags "body"}
+			{thickness hollow 2}
+			{able {visible 0}}
+			{density 0.01}
+		}
+		{component %0}
+	)
+	("part_body" args "Body_an2")
+	("part_body" args "Cabin_an2")
+
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body01"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body02"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body03"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body04"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body05"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body06"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "body07"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "engine"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}}
+	}
+	("part" args "aileron1")
+	("part" args "aileron2")
+	("part" args "WheelL1")
+	("part" args "WheelR1")
+	("part" args "Wheel_an2_Back")
+
+	{Sensor	
+		{visor "driver"	
+			{vision "vehicle_top_mgun"}
+			{bone "Visor1"}
+		}
+	}
+
+	{extender "inventory"
+		{Box
+		}
+	}
+	{mass 3690}
+	{Chassis
+		{Locomotion ("locomotion") 
+			{Maxspeed 55}
+			{StartTime 7}
+			{BrakeTime 1}
+			{StopTime 2}
+	 	  	{turnRadius 70}
+		}
+    	{maxSideSlope 25}	;degree
+       	{speed
+       		{Slow	15  	}; km/h
+       		{Normal	65	}
+       		{Fast	90	}
+       		}
+	}
+	{Extension "an_2.mdl"}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/An2/an2_salon_map1_xx"}
+	{blend none}
+}

@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/mig-21bis/apu_60_2"}
+	{emitsheat}
+{blend none}
+}

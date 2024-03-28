@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/Details/propeller/an2_prop_turn_slow"}
+	{blend blend}
+}
