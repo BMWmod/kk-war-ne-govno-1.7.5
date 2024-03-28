@@ -139,6 +139,7 @@
    {"kraz_6322_ukr"								"<c(FFFFFF)e(shadow)>КРАЗ(ПУСТОЙ)</c>"}
    {"mtlb_kord_ukr"								"<c(FFFFFF)e(shadow)>МТ-ЛБ с КОРДом</c>"}
    {"btr70_ukr1"								"<c(FFFFFF)e(shadow)>БТР-70</c>"}
+   {"btr60_ukr1"								"<c(FFFFFF)e(shadow)>БТР-60</c>"}
    {"2b14_ukr"							        "<c(FFFFFF)e(shadow)>2Б14 Поднос </c>"}
    {"fennek_ua"								    "<c(FFFFFF)e(shadow)>Феннек</c>"}
    {"fv107scimitar_mk2"							"<c(FFFFFF)e(shadow)>Fv107 Scimitar</c>"}

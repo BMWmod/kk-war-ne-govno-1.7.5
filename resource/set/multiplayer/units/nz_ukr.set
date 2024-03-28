@@ -45,7 +45,7 @@
   {"toyota_hilux_dshkm_ukr1" {fore 1} ("v3" c(40) sc(75) g(pzrk_ua)  b(common) brig(common) s(ukr)  i(807) cw(10) cp(10) t(all_nz) c1(toyota_hilux_dshkm) n(3) n1(vehicle_supporter:1) n2(ukr_pzrk2:2) n3(ukr_pzrk1:2))}
   
   ;Оператор БПЛА
-  ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(pperator_bpla) c(170) g(ukr_terminator) 
+  ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(operator_bpla) c(170) g(ukr_terminator) 
   c1(operator_bpla_ukr:1)
   b(supl) brig(ngu_ua) t(all_nz inf_irg) cost(80) f(1.0) )
   
