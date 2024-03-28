@@ -57,7 +57,16 @@
 			{barrels 64}
 			{basic}
 		}
-
+		{place "bomb_droper"
+			{weapon "fab_250x2" filled}
+			{foresight "foresight5"}
+			{charger "driver"}
+			{gunner "driver"}
+			{shooter "shooter_"}
+			{barrels 2}
+			{basic}
+			
+		}
 
 }
 

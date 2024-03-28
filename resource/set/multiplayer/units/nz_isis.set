@@ -131,7 +131,7 @@
 {"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(2) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
 {"spike_lr_stan_isis" {fore 0.} ("vart" c(300) sc(150) g(art_heavy) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(555) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(spike_lr_stan) n1(vehicle_supporter:2)           ) }
 
-{"l39_isis" {fore 0.4} ("p" c(500) sc(115) g(l39) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+{"l39_isis" {fore 0.4} ("p" c(500) sc(135) g(l39) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 {"an_2_no_wp_isis" {fore 1} ("p" c(300) sc(25) g(ANDVA) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(667) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 {"an_2_bomb_isis" {fore 0.4} ("p" c(600) sc(145) g(ANDVA_BOMB) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(668) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 

@@ -62,7 +62,7 @@
 ;==================Мобильная бригада==========================
  
  ;{"mig-21bis_support" {fore 0.4} ("p" c(500) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
- {"l39_serb" {fore 0.4} ("p" c(500) sc(115) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+ {"l39_serb" {fore 0.4} ("p" c(500) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  {"an_2_no_wp_serb" {fore 1} ("p" c(300) sc(25) g(ANDVA) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1231) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  {"an_2_bomb" {fore 0.4} ("p" c(600) sc(145) g(ANDVABOMB) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(93) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 
