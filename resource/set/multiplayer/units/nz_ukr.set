@@ -160,7 +160,7 @@
   {"2a65_msta_b_ukr" {fore 0} ("v3" c(300) sc(150) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(232) cw(0) cp(15) t(all_nz) c1(2a65_msta_b) n(1) n1(vehicle_supporter:2)   ) }
   
    ;M777A1
-  {"m777a1_ukr" {fore 0} ("v3" c(300) sc(220) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2320) cw(0) cp(15) t(all_nz) c1(m777a1) n(1) n1(vehicle_supporter:4)   ) }
+  {"m777a2_ukr" {fore 0} ("v3" c(300) sc(220) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2320) cw(0) cp(15) t(all_nz) c1(m777a2) n(1) n1(vehicle_supporter:4)   ) }
   
   ;Дана
   {"dana_ukr" {fore -1} ("v3" c(300) sc(180) g(artstvol)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(232) cw(0) cp(15) t(all_nz) c1(dana_152mm) n(1) n1(tankman:4)   ) }
