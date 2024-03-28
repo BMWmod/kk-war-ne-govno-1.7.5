@@ -200,7 +200,7 @@
    ;Стрела-1
   {"brdm2_strela_ukr" {fore 0.5} ("v3" c(200) sc(90) g(strela)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(262) cw(0) cp(15) t(all_nz) c1(brdm2_strela) n(1) n1(tankman:3)   ) }
   
-  ;Стрела-1
+  ;Стрела-10
   {"strela-10_ukr" {fore 0.5} ("v3" c(200) sc(140) g(strela)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(2676) cw(0) cp(15) t(all_nz) c1(9k35_strela-10mn) n(1) n1(tankman:3)   ) }
   
   ;Насамс
@@ -237,10 +237,13 @@
  {"mig-29s_aa_ukr" {fore 0} ("v3" c(400) sc(300) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(pilot:1) ) }
  
  ;mi17
- {"mi17_ukr" {fore 1} ("v3" c(300) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(pilot:2) ) }
+ {"mi17_ukr" {fore 0} ("v3" c(300) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(pilot:2) ) }
  
  ;Ми-24
  {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(230) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(pilot:2) ) }
  
  ;Блек хуй
  {"uh60_ukr" {fore 1} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:2) n2(ukr_at:3) n3(ukr_mgunua:4) n4(ukr_mgunhelpua:2) n5(ukr_smgua:1) n6(ukr_smg2ua:2)) } 	
+ 
+ ;Блек хуй
+ {"bayraktar_tb2_maml_ukr" {fore 1} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	

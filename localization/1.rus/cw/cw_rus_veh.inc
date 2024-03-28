@@ -194,6 +194,8 @@
    {"mig-29s_aa_ukr"								    "<c(FFFFFF)e(shadow)>МиГ-29 УРВВ</c>"}
    {"mi17_ukr"								    "<c(FFFFFF)e(shadow)>Ми-17 с НАРами</c>"}
    {"mi-24v_ukr"								    "<c(FFFFFF)e(shadow)>Ми-24В</c>"}
+   {"bayraktar_tb2_maml_ukr"								    "<c(FFFFFF)e(shadow)>Байрактар))))</c>"}
+   {"toyota_hilux_dshkm_ukr1"								    "<c(FFFFFF)e(shadow)>Мобильные ПЗРК</c>"}
 
 
 

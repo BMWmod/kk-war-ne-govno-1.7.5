@@ -107,7 +107,7 @@
 			{"boxer_guni"							"<c(FFFFFF)e(shadow)>Отделение панцергренадеров на Boxer IFV Lance</c>"}
 			{"pumai"								"<c(FFFFFF)e(shadow)>Отделение панцергренадеров на SpZ Puma</c>"}
 			{"puma_pturi"							"<c(FFFFFF)e(shadow)>Отделение панцергренадеров на SpZ Puma с ПТУР</c>"}
-	;вооруженные силы его величества
+	;вооруженные силы моего величества
 			{"brit_squad_elite(nato)"				"<c(FFFFFF)e(shadow)>Отделение ССО SAS</c>"}
 			{"gb(nato)"								"<c(FFFFFF)e(shadow)>Отделение пехоты"}
 			{"man_sx44i"							"<c(FFFFFF)e(shadow)>Отделение пехоты на Man SX44</c>"}
