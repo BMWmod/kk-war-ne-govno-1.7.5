@@ -3,7 +3,7 @@
 ;Date: Sun Feb 20 12:17:56 2022
 ;File: D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\??? ? ???\brdm2_new\brdm2_atgm new ?? ?????? ???????\BRDM2_atgm 2013   15.02.2022.max
 ;Model create/rebuild by: Makimka
-;Last build date: Monday 3 March 2024 [16:07:38]
+;Last build date: Saturday 29 March 2024 [18:36:50]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.6}}
@@ -540,6 +540,15 @@
                     155.19	2.65403	3.84334
                 }
                 {VolumeView "enumerator.ply"}
+            }
+            {Bone "flag_handle"
+                {Parameters "ID=turret;"}
+                {Matrix34
+                    0.0214244	0.997914	-0.0608675
+                    -0.999744	0.0209423	-0.00855008
+                    -0.00725756	0.0610351	0.998108
+                    117.075	34.4195	9.17171
+                }
             }
         }
         {Bone "pivot_front"

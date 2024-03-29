@@ -73,7 +73,14 @@
 	("wheel" args "wheelleft1")
 	("wheel" args "wheelright2")
 	("wheel" args "wheelleft2")
-
+	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(nso6)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
 	{mass 7700}
 	{Chassis
 		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))

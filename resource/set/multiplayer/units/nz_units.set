@@ -18,6 +18,7 @@
  {"btr70i" {fore 1} ("v3" c(400) sc(155) g(inf_mech_cpec) b(common) brig(common) s(srbsk)  i(9) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr70) n(1) n1(tankman:2) n2(dezertir_com:1) n3(dezertir_mg:1) n4(dezertir_rpg:1) n5(dezertir_snip:1) n6(dezert_shotgun:2) n7(1st_smg4:2) ) }	
  {"btr80_2_newii" {fore 1} ("v3" c(600) sc(170) g(inf_mech_cpec) b(common) brig(common) s(srbsk)  i(10) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr80_2_new) n(1) n1(tankman:2) n2(dezertir_com:1) n3(dezertir_mg:1) n4(dezertir_rpg:1) n5(dezertir_snip:1) n6(dezert_shotgun:2) n7(1st_smg4:2) ) }	
  
+ {"gaz_tigr_dz" {fore 1} ("vs" c(420) sc(70) g(443534) b(common) brig(common) s(srbsk)  i(122) cw(10) cp(10) t(all_nz recon   ) n(3)               ) } 
  
 
  {"Strela_SERB" {fore 0} ("v3" c(300) sc(150) g(pvo2)  b(common) brig(common) s(srbsk)  i(22) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10m3) n(1) n1(vehicle_supporter:3)      ) }
@@ -135,7 +136,7 @@
  
  ;{"su-25sm_support" {fore 0} ("p" c(600) sc(200) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(1)               ) }
  
- {"brdm2_shmel" {fore 0.5} ("p" c(300) sc(50) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(45) t(all_nz aircraft   ) n(3)               ) }
+ {"brdm2_shmel" {fore 0.5} ("p" c(300) sc(50) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(45) t(all_nz aircraft   ) n(2)               ) }
  
  {"9k72" {fore 0} ("p" c(1000) sc(300) g(9K72434) b(extra)  brig(srbs_vdv) s(srbsk) i(69) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(6)               ) }
  
