@@ -1,7 +1,0 @@
-{bitmap
-	{Axis  128 128 }
-	{Filtering  0 }
-	{AlphaChannel  1 }
-	{Blend  Light }
-	{Frame  "pfx_flame_01.bmp" }
-}

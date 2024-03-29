@@ -1,8 +1,0 @@
-
-{bitmap
-	{Axis  4 16 }
-	{Filtering  1 }
-	{AlphaChannel  0 }
-	{Blend  Alpha }
-	{Frame  "part_exp_grass_01.tga" }
-}
