@@ -109,6 +109,7 @@
 {"mtlb_vmk_ogon"						"<c(FFFF00)e(shadow)>Суррогатный бронетраспортёр</c>"}
 {"t-55_ser"						"<c(FFFF00)e(shadow)>Средний танк</c>"}
 {"t62m_v2_ser"						"<c(FFFF00)e(shadow)>Средний танк</c>"}
+{"t62_isis"						"<c(FFFF00)e(shadow)>Средний танк</c>"}
 {"tos-1a_solntsepek_odkb"					"<c(FFFF00)>Реактивная система залпового огня</c>"}
 {"gaz_tigr_dz"							"<c(FFFF00)>Бронеавтомобиль</c>"}
 {"hmmwv_knkrs"							"<c(FFFF00)>Бронеавтомобиль</c>"}

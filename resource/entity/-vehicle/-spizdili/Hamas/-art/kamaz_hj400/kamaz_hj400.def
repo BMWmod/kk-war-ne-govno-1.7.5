@@ -86,7 +86,14 @@
 			
 		}
 	}
-	
+	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(iziz-4)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
 ;===================================================================
 	
 

@@ -25,7 +25,23 @@
 	("wheel" args "wheelleft1")
 	("wheel" args "wheelright2")
 	("wheel" args "wheelleft2")
-
+	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(iziz)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
+	{Placer
+		{place "flag_handle_0"
+			{entity "flag_handle(iziz-2)"}
+			{Linkbone "flag_handle_0"}
+			{handlebone "flag_handle_0"}
+			{obstacle disable}
+		}
+	}
+	
 	("crew_2_human")
 	("crew_human" place(gunner) bone(gunner) door(emit3) animation(gunner))
 	("crew_human" place(seat1) bone(seat01) door(emit3) animation(passenger1))

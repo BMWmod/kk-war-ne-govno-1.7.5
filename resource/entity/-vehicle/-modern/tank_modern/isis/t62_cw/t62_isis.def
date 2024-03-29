@@ -18,7 +18,14 @@
 		{component "turret"}
 	}
 
-
+	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(iziz-2)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
 	;борт башни - от 111 до 160 мм, данные с wiki ru и wiki eng не совпадают, крыша - от 30 до 16 мм, взял 23мм среднее
 ;http://btvt.narod.ru/4/t-62/t62.htm Тут для Т-62
 

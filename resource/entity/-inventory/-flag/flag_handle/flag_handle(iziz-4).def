@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_flag.ext")
+	{extension "flag_handle.mdl"}
+         {texmod "iziz_4"}
+	{extender "stuff"
+		{item "flag_handle"}
+                
+               
+	}
+}

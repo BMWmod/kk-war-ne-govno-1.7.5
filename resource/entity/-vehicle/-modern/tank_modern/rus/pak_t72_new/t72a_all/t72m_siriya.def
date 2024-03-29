@@ -87,6 +87,18 @@
 	("crew_human" place(commander)		group(crew) door(emit2)  animation(right) visor(commander))
 	("crew_human" place(gunner)	 		group(crew) door(emit1) animation(left) visor(main) visor(gunner))
 ;=================================================	
+
+
+	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(iziz-3)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
+	
+
 	{sensor
 		{visor "driver"
 			{vision "moto"}
