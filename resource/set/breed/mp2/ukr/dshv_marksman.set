@@ -1,0 +1,58 @@
+{breed
+	{skin "kk_ua_dhv_ukr"}
+	{portrait "_new/ukr/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality ukr}
+	{armors
+		{head "opscore_neu_ukr_azov_com"}
+	}
+	{perks
+        {"vision" mp_soldier
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "1000%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "1200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.2
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+        {item "otv_ukr_mg"}
+		{item "bandage" 10}
+		{item "smoke m18 grenade"}
+		{item "m67 grenade" 4}
+		{item "sr25" filling "762x51_x20 ammo" 20}
+		{item "762x51_x20 ammo" 240}
+		{item "smoke m18 grenade"}
+		{in_hands 4}
+	}
+}	

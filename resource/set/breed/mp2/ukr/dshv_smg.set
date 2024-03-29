@@ -1,0 +1,60 @@
+{breed
+	{skin "kk_ua_dhv_ukr"}
+	{portrait "_new/ukr/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality ukr}
+	{armors
+		{head "kaska_1m_chehol_ghillie"}
+	}
+	{perks
+        {"vision" mp_soldier
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "1000%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "1200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.2
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+        {item "otv_ukr_mg"}
+		{item "bandage" 10}
+		{item "556nato ammo" 240}
+		{item "m4a1_ag36_acog" filling "556nato ammo" 30}
+		{item "ag36_m4a1_acog" filling "40x46_natopg ammo cm" 1}
+		{item "40x46_natopg ammo cm" 5}
+		{item "40x46_natopg ammo fg" 3}
+		{item "m136 weapon" filling "m136 ammo" 1}
+		{item "smoke m18 grenade"}
+		{in_hands 3}
+	}
+}	

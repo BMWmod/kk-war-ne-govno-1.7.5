@@ -245,7 +245,7 @@
  {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(230) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(pilot:2) ) }
  
  ;Блек хуй
- {"uh60_ukr" {fore 1} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:2) n2(ukr_at:3) n3(ukr_mgunua:4) n4(ukr_mgunhelpua:2) n5(ukr_smgua:1) n6(ukr_smg2ua:2)) } 	
+ {"uh60_ukr" {fore 1} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) } 	
  
  ;Блек хуй
  {"bayraktar_tb2_maml_ukr" {fore 1} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	

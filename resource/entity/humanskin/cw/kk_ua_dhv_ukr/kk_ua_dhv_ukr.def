@@ -1,6 +1,7 @@
 {game_entity
 	(include "/properties/cw_humanskin.ext")
 	{Extension "cw_ua_pix_dhv.mdl"}
+	{texmod "mm14"}
 	{bone "basis"
 		("random_face")
 		("balaklava")
