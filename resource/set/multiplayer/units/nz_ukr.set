@@ -225,6 +225,8 @@
  
  {"brem-1_ukr" {fore 1} ("v3" c(900) sc(110) g(269)  b(supl) brig(common) s(ukr)  i(1701) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
  
+ {"novator_ukr" {fore 1} ("v3" c(900) sc(110) g(270)  b(supl) brig(common) s(ukr)  i(1702) cw(0) cp(10) t(all_nz supply ) n(2) c1(novator) n1(ukr_miner:4)      ) }
+ 
  ;==========================================Авиация=================================
  
  ;Су-24М с ракетами

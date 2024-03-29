@@ -99,8 +99,18 @@
 
 	{extender "inventory"
 		{Box
-			{Size 6 10}
-			{weight 1500}
+			{size 8 10}     
+            {clear}
+			{item "hedgehog_kit" 50}
+			{item "antitank_tm62m" "mine" 100}
+			{item "antipersonnel_mon50" "mine"  300}
+			{item "repair_kit" 3}
+			{item "spade_inv" 10}
+			{item "buksir_tros" 5}
+			{item "netting_kit" 5}
+			{item "axe" 2}
+			{item "mine_detector" 2}
+			{item "barbwire_kit" 30}
 			
 		}
 	}
