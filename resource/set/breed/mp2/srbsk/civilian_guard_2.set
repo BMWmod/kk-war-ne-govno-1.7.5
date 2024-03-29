@@ -51,6 +51,7 @@
 		{item "f1 grenade"}
 		{item "akms_pbs" filling "762 ammo" 30}
 		{item "762 ammo" 150}
+		{item "6b2_gp"}
 		{item "sandbag_kit"}
 		{in_hands 2}
 	}

@@ -53,7 +53,7 @@
 		{item "ak74us" filling "545 ammo" 30}
 		{item "545 ammo" 100}
 		{item "f1 grenade" 2}
-		{item "tarzan_rpg"}
+		{item "6b2_rpghelp"}
 		{item "rpg7_og-7v rpg7 ammo" 2}
 		{in_hands 4}
 	}
