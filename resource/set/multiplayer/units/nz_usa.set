@@ -80,7 +80,7 @@
                                    
 ;{"m60a3"	("v" c(500) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(60) b(supl) i(11) cw(0) cp(2))  {fore 1}}
 {"m1a1_new"	("v" c(700) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(90) b(supl) i(12) cw(0) cp(2))  {fore 1}}
-{"bredly"	("v" c(300) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(50) b(supl) i(13) cw(0) cp(2))  {fore 1}}	
+{"m2a3"	("v" c(300) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(50) b(supl) i(13) cw(0) cp(2))  {fore 1}}	
 
 							   
 ;===============================USAF===========================================                                   
