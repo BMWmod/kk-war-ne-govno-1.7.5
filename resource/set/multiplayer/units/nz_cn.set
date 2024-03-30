@@ -18,7 +18,7 @@
 {"pbp-172"            ("vs" c(600) brig(common) t(all_nz nobot) s(cn) n(3) g(stan1) sc(120) b(common) i(4) cw(1) cp(15)) {fore 1}}
 
 {"hj8_stan"	("vs" c(500) brig(common) t(all_nz nobot) s(cn) n(2) g(stan) sc(65) b(common) i(9) cw(1) cp(5))  {fore 1}}
-{"hj73_stan"	("vs" c(400) brig(common) t(additional nobot) s(cn) n(1) g(ptursmall) sc(45) b(common) i(10) cw(1) cp(5))  {fore 1}}
+{"hj73_stan"	("vs" c(400) brig(common) t(all_nz nobot) s(cn) n(1) g(ptursmall) sc(45) b(common) i(342) cw(1) cp(5))  {fore 1}}
 
 {"pgz-04"		("v" c(300) brig(common) t(all_nz art aat) s(cn) n(3) g(zpu) sc(130) b(common) i(14) cw(0) cp(15))  {fore 1}} 
 
@@ -48,8 +48,9 @@
 
 ("squad_with1types" name(operator_bpla) side(cn) c(620) g(operator_bpla) c1(operator_bpla:1) b(supl) brig(common) t(all_nz nobot) cost(40) f(0.6) info(operator_bpla))
 {"radar_bs903"	("vs" c(1200) brig(common) t(all_nz nobot no_frontline) s(cn) n(2) g(psnr) sc(150) b(supl) i(9) cw(1) cp(35))  {fore 1}}
-{"zbd-86"		("v" c(400) brig(common) t(all_nz nobot no_frontline) s(cn) n(0) g(reserv_bmp)  sc(50) b(supl) i(10) cw(0) cp(15))  {fore 1}}
-;{"ztz_99_phase_2"	("v" c(600) brig(common) t(all_nz nobot no_frontline) s(cn) n(0) g(reserv)  sc(220) b(supl) i(12) cw(0) cp(20))  {fore -0.5}}
+{"zbd-86"		("v" c(250) brig(common) t(all_nz nobot no_frontline) s(cn) n(0) g(reserv_bmp)  sc(50) b(supl) i(10) cw(0) cp(5))  {fore 1}}
+{"t72m1_iran"	("v" c(550) brig(common) t(all_nz nobot no_frontline) s(cn) n(0) g(reserv_tonk)  sc(80) b(supl) i(155) cw(0) cp(5))  {fore 1}}
+{"bmp2_iran"	("v" c(250) brig(common) t(all_nz nobot no_frontline) s(cn) n(0) g(reserv_bmp2)  sc(30) b(supl) i(156) cw(0) cp(5))  {fore 1}}
 
 
 ;===============================ÂÂÑ===========================================
