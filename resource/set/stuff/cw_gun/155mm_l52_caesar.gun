@@ -1,0 +1,8 @@
+﻿;Created by Pheonix 
+{from "155mm_l52 gun" 
+	{filling "155ammo" 1}
+	{fireSound "gun/caesar_fire"}
+	{reloadSound "caesar_reload"}
+	{recoveryTime 9.0} ; https://youtu.be/x_rQ0IaRag0?si=32t-iySE0GZ-QgR7&t=10
+	{rechargeTime 9.0}
+}		

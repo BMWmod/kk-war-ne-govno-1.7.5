@@ -1,5 +1,5 @@
 ﻿;Created by Pheonix 
-{from "pattern gun"     ; "paladin" 52 калибра.
+{from "pattern gun"     ; "paladin" 39 калибра.
    	
 	{filling "155ammo"}
 	{fireSound "gun/paladin_shot"}
@@ -42,6 +42,13 @@
 	{parameters "bullet155_GER sal"
 	    {gravity 1.42}
 		{range 455 455}
+		{cursor "cannon_on_fg_4"}
+		{cursorReloading "cannon_reload_fg"}	
+	}
+	{parameters "bullet155_fr satt"	
+	    {gravity 1.5}
+		{range 400 400}
+		("CW_acc_guided" kvo_meters(10))
 		{cursor "cannon_on_fg_4"}
 		{cursorReloading "cannon_reload_fg"}	
 	}

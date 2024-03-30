@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/caesar/ceasar_decal_01"}
+	{blend blend}
+}

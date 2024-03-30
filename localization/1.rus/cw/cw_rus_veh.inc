@@ -5,6 +5,7 @@
 ;rev 04.07.2022
 
 
+{"caesar"						"<c(FFFFFF)e(shadow)>CAESAR</c>"}
 {"an_2_bomb"						"<c(FFFFFF)e(shadow)>АН-2БМВ</c>"}
 {"an_2_bomb_isis"						"<c(FFFFFF)e(shadow)>АН-2БМВ</c>"}
 {"an_2_no_wp_isis"						"<c(FFFFFF)e(shadow)>АН-2</c>"}

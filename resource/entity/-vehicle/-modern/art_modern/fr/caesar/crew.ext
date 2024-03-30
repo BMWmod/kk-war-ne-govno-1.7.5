@@ -1,0 +1,139 @@
+;SDL
+;driver		seat5
+;seat9		gunner
+;seat6		charger
+;seat8		charger2
+;seat7		charger3
+
+;длительность анимации close должна быть больше, чем полный цикл перемещения экипажа с походных мест на боевые.
+
+{boarder
+	{anm "walk"
+		{forward {speed 1}}
+		{reverse {speed 1}}
+	}
+;	board_dodge_body - для ступеньки.
+;	board_hetzer - возможно, залезание по лестнице
+;	board_hummel_driver - возможно, вместо анм мехвода
+;	cannon_155gpf_charger - для заряжающих
+;	cannon_m5_charger - для заряжающих
+;	cannon_flak38-1_gunlayer - для стрелка
+;	cannon_flak38_gunlayer - для стрелка
+;	cannon_vickers_gunlaeyr-r - для стрелка
+;	cannon_flak41_gunlayer_fire-alert - при выстреле
+;	cannon_pdr25_gunlayer_fire-alert - при выстреле
+;	cannon_vickers_gunlaeyr-r_fire-alert - при выстреле
+;	cannon_gunlayer_fire-alert - для стрелового и заряжающих при выстреле
+;	cannon_lg40_gunlayer_fire-alert_1 - для стрелового и заряжающих при выстреле
+;	pose_stand_2hand - для стрелового
+;	seat_m7_mgunner - для стрелового
+;	shield_stand - для стрелового
+;	t80y_mgunner  - для стрелового
+;	pose_vickers_gunlaeyr-r - для стрелка
+;	pose_pdr25_charger - для заряжающих
+	
+	
+	{anm "left"
+		{forward	{begin	"board_middlearmor"} {end "seat_driver_car"} {base "doorleft"}{fix_orientation}}
+		{reverse 	{begin	"none"}{end	"emit_tank_1"} {base "doorleft" -1}{fix_orientation}}
+	}
+	{anm "right"
+		{forward	{begin	"board_middlearmor"} {end "seat_driver_car"} {base "doorright"}{fix_orientation}}
+		{reverse 	{end	"emit_tank_1"} {base "doorright"}{fix_orientation}}
+	}
+		{door "emit1"}
+		{door "emit2"}
+		{door "emit3"}
+		{door "emit4"}
+		{link "driver" "seat5"}
+}
+
+(define "crew_human_visible"
+	{placer
+		{place "%place" {LinkBone "%place"} {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+{placer
+	{crew}
+}
+
+;это мехвод. В развернутом состоянии неактивен, превращается в пассажира. В неразвернутом ведет.
+("crew_human_visible" place(driver)		door(emit0) group(crew)		animation(left)	    visor(driver))
+("crew_human_visible" place(seat5)		door(emit0) group(crew)		animation(left)	    visor(driver))
+;Это стрелок. В развернутом стреляет, в неразвернутом - пассажир.
+;Это заряжающий. В развернутом стреляет, в неразвернутом - пассажир.
+;на MOW2 активировать закомменченное
+	{placer
+		{place "seat9" {LinkBone "seat9"} {group "crew"} {visor "none"}}
+		{place "gunner" {LinkBone "gunner"} {group "crew"} {visor "main"}{openForCrush}	{useVision}}
+		{place "seat6" {LinkBone "seat6"} {group "crew"} {visor "none"}}
+		{place "charger" {LinkBone "charger"} {group "crew"} {visor "main"}{openForCrush}	{useVision}}
+;Заряжающие на земле charger2 и charger3
+		{place "seat8" {LinkBone "seat8"} {group "crew"} {visor "none"}}
+;		{place "charger2" {LinkBone "charger2"} {group "crew"}{openForCrush} {useVision}}
+		{place "seat7" {LinkBone "seat7"} {group "crew"} {visor "none"}}
+;		{place "charger3" {LinkBone "charger3"} {group "crew"}{openForCrush} {useVision}}
+	}
+	{boarder
+		{anm "gunner_place"
+			{forward	{begin "stand_idle_empty_1" 3}{end "seat_m7_mgunner"}}
+			{reverse 	{begin "seat_m7_mgunner"}{end "stand_idle_empty_1" 3}}
+		}
+		{anm "charger_place"
+			{forward	{begin "stand_idle_empty_1" 3}{end "pose_155gpf_charger"}}
+			{reverse 	{begin "pose_155gpf_charger"}{end "stand_idle_empty_1" 3}}
+		}
+		{anm "charger2_place"
+			{forward	{begin "stand_idle_empty_1" 3}{end "pose_155gpf_charger"}}
+			{reverse 	{begin "pose_155gpf_charger"}{end "stand_idle_empty_1" 3}}
+		}
+		{anm "charger3_place"
+			{forward	{begin "stand_idle_empty_1" 3}{end "pose_m5_charger"}}
+			{reverse 	{begin "pose_m5_charger"}{end "stand_idle_empty_1" 3}}
+		}
+		{node "node1"}
+		{node "node1a"}
+		{node "node2"}
+		{node "node2a"}
+		{node "node3"}
+		{node "node4"}
+		{node "node5"}
+		
+		{link "emit1" "node1" {forward putoff} {reverse puton}}
+		{link "emit2" "node2"{forward putoff} {reverse puton}}
+		{link "emit3" "node3"{forward putoff} {reverse puton}}
+		{link "emit4" "node4"{forward putoff} {reverse puton}}
+		{link "node1" "node1a"}
+		{link "node2" "node2a"}
+		{link "node1" "node3" {anm "[fsm]"}}
+		{link "node2" "node4" {anm "[fsm]"}}
+		{link "node2" "node5" {anm "[fsm]"}}
+		{link "node5" "node4" {anm "[fsm]"}}
+		{link "node3" "node4" {anm "[fsm]"}}
+		
+		{link "node1a" "seat5" {anm "left"}}
+		{link "node3" "gunner" {anm "gunner_place"}}
+;		{link "node3" "charger3" {anm "charger3_place"}}
+;		{link "node4" "charger2" {anm "charger2_place"}}
+		{link "node5" "charger" {anm "charger_place"}}
+
+		{link "node1a" "driver" {anm "left"}}
+		{link "node1a" "seat7" {anm "left"}}
+		{link "node1a" "seat9" {anm "left"}}
+		{link "node2a" "seat6" {anm "right"}}
+		{link "node2a" "seat8" {anm "right"}}
+
+	}

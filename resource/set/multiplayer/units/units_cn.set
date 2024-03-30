@@ -122,8 +122,8 @@
 {"zbd86ai"		("v3" c(300) c1(zbd86a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1) g(bmp)  sc(130) b(cnheavy_hqcar) i(12) cw(0) cp(15))  {fore 0.0}}
 {"zbd04ai"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1)  g(bmp2)  sc(185) b(cnheavy_hqcar) i(13) cw(0) cp(35))  {fore 0.0}}
 
-("squad_with2types" name(snipers2) side(cn) c(480) g(snipers) c1(motostrelk_sniper:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all duel_snipers infantry) cost(50) f(0.5) info(snipers2))
-("squad_with2types" name(at_rifle) side(cn) c(240) g(snipers) c1(at_rifle:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all) cost(50) f(0.5) info(at_rifle))
+("squad_with2types" name(snipers2) side(cn) c(480) g(snipers) c1(motostrelk_sniper:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all duel_snipers infantry) cost(30) f(0.5) info(snipers2))
+("squad_with2types" name(at_rifle) side(cn) c(480) g(snipers) c1(at_rifle:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all) cost(50) f(0.5) info(at_rifle))
 
 
 

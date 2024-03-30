@@ -1,0 +1,66 @@
+;Exported by: Kasutaja
+;Date:        Mon Aug  1 16:02:41 2022
+;File:        C:\Users\Kasutaja\Desktop\?????? ?????? ??? ??????\koal.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-0.996195	0.0871558
+				0	-0.0871558	0.996195
+				-10.0787	-0.0728557	0.17023
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	-0.0871559	0.996195
+		0	-0.996195	-0.0871559
+		-1.1886	1.60117	0.225536
+	}
+}
+{Volume "select"
+	{Box 18.609 3.15345 3.71177}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	-0.0871559	0.996195
+		0	-0.996195	-0.0871559
+		-0.300085	-0.0213094	0.0835868
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.201454	-48.6334	4.98868}
+			{lookat -0.770267	0.830474	-0.0959941}
+			{fov 31.7555}
+			{horizon 179.914}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.3582	-0.0289125	13.0118}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725254	0.349815	-0.349814}
+			}
+			{"2"
+				{type point}
+				{position -7.69895	0.786333	9.69878}
+			}
+		}
+	}
+}

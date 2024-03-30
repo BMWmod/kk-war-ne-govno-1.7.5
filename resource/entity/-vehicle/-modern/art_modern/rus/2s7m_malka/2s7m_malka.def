@@ -73,8 +73,8 @@
 		{box     ;БК 8 снарядов в собственной укладке у 2С7М и 4 у 2С7 базовой.
 			{Size 8 8}
 			{weight 10000}		
-			{item "ammo bullet203_rus fg" 4}
-			{item "ammo bullet203_rus cl" 3}
+			{item "ammo bullet203_rus fg" 7}
+			;{item "ammo bullet203_rus cl" 3}
 			;{item "ammo bullet203_rus rok" 2}
 		}
 	}

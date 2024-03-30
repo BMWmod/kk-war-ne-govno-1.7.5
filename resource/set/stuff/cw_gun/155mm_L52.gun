@@ -42,6 +42,13 @@
 		{cursor "cannon_on_fg_4"}
 		{cursorReloading "cannon_reload_fg"}	
 	}
+	{parameters "bullet155_fr satt"	;30км для Mk1, 60км для Mk2 RAP
+	    {gravity 1.42}
+		{range 440 440}
+		("CW_acc_guided" kvo_meters(10))
+		{cursor "cannon_on_fg_4"}
+		{cursorReloading "cannon_reload_fg"}	
+	}
 	{parameters "bullet155_USA spbe"
 		{range 324 324}		; 27.5km L52
 		{gravity 2.05}

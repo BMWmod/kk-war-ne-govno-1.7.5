@@ -5,7 +5,7 @@
 	{animation
 		{sequence "start" {speed 0.4}}
 		{sequence "stop" {speed 0.4}}
-		{sequence "close" {speed 0.2}}
+		{sequence "close" {speed 0.5}}
 		{sequence "fire" {speed 0.36}}
 		{sequence "open_driver" {speed 0.18} {resume}}
 		{sequence "open" {speed 0.18} {resume}}

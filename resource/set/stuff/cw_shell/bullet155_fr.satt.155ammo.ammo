@@ -1,0 +1,23 @@
+{from "pattern korr"
+	{tag "big" "size4" "155ammo" "150to152fg" "ap" "fx_146_299"}
+	
+	{mass 48.5}
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_fr_satt_155"}
+		{view "shell_fr_satt_155"{tail "rocket_smoke_short" "tail"}}
+	;âçÿòî 6 êã ÂÂ
+	{tag "he_4_5to8"}
+{damage blastwave {energy 0.7} {area 12.5 14.4}}
+{damage add blastwave {energy 1.2} {area 10.7 12.3}}
+{damage add blastwave {energy 2.5} {area 7.1 8.2}}
+{damage add blastwave {energy 6.5} {area 4.3 4.9}}
+{damage add blastwave {energy 11} {area 2.1 2.4}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.1 0.1}
+	}
+}
+;Á× 22 êã - http://www.military-today.com/artillery/m777.htm
+;

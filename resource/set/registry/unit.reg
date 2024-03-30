@@ -1,8 +1,6 @@
 ;SDL
 {units
 
-
-
 {"an_2_bomb_isis"		{structure "cwds_plane_attack"}}
 {"an_2_bomb"		{structure "cwds_plane_attack"}}
 {"an_2_no_wp_isis"		{structure "cwds_plane_attack"}}
@@ -132,6 +130,7 @@
 {"hj8_stan_2"		{structure "cwds_atgm"}}
 {"ptur_konkurs_2"		{structure "cwds_atgm"}}
 {"2c23"					{structure "cwds_tank"}} 
+
 
 ;===================RUS planes
 	{"mi28n"			{structure "cwds_heli_attack"}}
@@ -298,7 +297,9 @@
 	{"bm-30_tornado_s"		{structure "cwds_mlrs8"}}
 	{"2c9"					{structure "cwds_tank"}}
 	{"2c3_akaciya"			{structure "cwds_tank2"}}
+	{"2s7m_malka"			{structure "cwds_tank2"}}
 	{"dana_152mm"			{structure "cwds_apc8"}}
+	{"caesar"				{structure "cwds_apc6"}}
 	{"pzh2000"				{structure "cwds_tank2"}}
 	{"as_90"				{structure "cwds_tank2"}}
 	{"paladin"				{structure "cwds_tank2"}}
@@ -331,6 +332,7 @@
 	{"zlt_11"				{structure "cwds_apc8"}}
 	{"zsl-92a"				{structure "cwds_apc6"}}
 	{"zsl-92b"				{structure "cwds_apc6"}}
+	{"ee9_cascavel"			{structure "cwds_apc6"}}
 ;===================NATO IFV
 	{"fennek"			{structure "cwds_apc4"}}
 	{"fennek_gmg"		{structure "cwds_apc4"}}
@@ -388,6 +390,9 @@
 	{"bmp3"				{structure "cwds_ifv"}}
 	{"bmp3_2"			{structure "cwds_ifv"}}
 	{"bmp3_3"			{structure "cwds_ifv"}}
+	{"bmp3_2022_sh1"	{structure "cwds_ifv"}}
+	{"bmp3_2022_sh2"	{structure "cwds_ifv"}}
+	{"bmp3_2022_dz"		{structure "cwds_ifv"}}
 	{"bmp3_dz"			{structure "cwds_ifv"}}
 	{"bmp3m"			{structure "cwds_ifv"}}
 	{"bmp3_derivation"	{structure "cwds_ifv"}}
@@ -492,6 +497,8 @@
 	{"hawk_rls"			{structure "cwds_radar"}}
 	{"m119"				{structure "cwds_cannon"}}
 	{"m120"				{structure "cwds_mortar"}}
+	{"m777a1"			{structure "cwds_cannon"}}
+	{"m777a2"			{structure "cwds_cannon"}}
 ;===================NATO cannon
 	{"gmg_stan"		{structure "cwds_ags"}}
 	{"spike_stan"	{structure "cwds_atgm"}}
@@ -637,6 +644,8 @@
 	{"toyota_hilux_dshkm"	{structure "cwds_armcar"}}
 	{"toyota_hilux"			{structure "cwds_armcar"}}
 	{"toyota_hilux_ammo"	{structure "cwds_car"}}
+	{"toyota_hilux_nurs"	{structure "cwds_armcar"}}
+	{"toyota_hilux_kornet"	{structure "cwds_armcar"}}
 	{"uaz_car"				{structure "cwds_car"}}
 	{"uaz_van"				{structure "cwds_car"}}
 	{"vaz_2106"				{structure "cwds_car"}}
@@ -714,7 +723,7 @@
 	{"t-14"				{structure "cwds_tank2"}}
 	{"bmpt"				{structure "cwds_tank"}}
 	{"bmr-3"			{structure "cwds_tank"}}
-	{"buk_m1"			{structure "cwds_sam"}} 
+	{"buk_m1"			{structure "cwds_sam"}}
 	{"buk_m2"			{structure "cwds_sam"}}
 	{"9s18_kupol"		{structure "cwds_sam"}}
 	{"tunguska"			{structure "cwds_sam"}}
@@ -748,6 +757,8 @@
 	{"ztz-96a"			{structure "cwds_tank"}}
 	{"ztz_99_phase_2"	{structure "cwds_tank2"}}
 	{"ztz-99a"			{structure "cwds_tank2"}}
+	{"ztq-15"			{structure "cwds_tank2"}}
+	{"zulfiqar-3"		{structure "cwds_tank2"}}
 ;===================Train
 	{"locomote_tgmz_1010"	}
 	{"2te10"	}

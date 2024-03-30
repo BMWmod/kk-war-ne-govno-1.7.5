@@ -134,8 +134,8 @@
 
 
 ("squad_with11types" side(usa) name(usara) c(120) g(inf)  c1(usara_com:1) c2(usara_smg:2) c3(usara_grenade:2) c4(usara_light_mgun:2) c5(usara_marksman:1) c6(usara_heavy_mgun:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(85) f(1.0) info(usara))
-("squad_with2types" name(us_army_sniper) side(usa) c(480) g(suppinf3) c1(us_army_sniper:1) c2(us_army_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(50) f(0.5) info(us_army_sniper))
-("squad_with2types" name(at_rifle) side(usa) c(240) g(suppinf3) c1(usara_at_rifle:1) c2(usara_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(50) f(0.5) info(at_rifle))
+("squad_with2types" name(us_army_sniper) side(usa) c(480) g(suppinf3) c1(us_army_sniper:1) c2(us_army_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(30) f(0.5) info(us_army_sniper))
+("squad_with2types" name(at_rifle) side(usa) c(480) g(suppinf3) c1(usara_at_rifle:1) c2(usara_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(50) f(0.5) info(at_rifle))
 {"m939i_usarmy"		("v3" c(120) c1(m939)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) 
   n1(vehicle_supporter:1) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:2) n5(usara_light_mgun:2) n6(usara_marksman:1) n7(usara_heavy_mgun:1) 
   g(first_inf1)  sc(100) b(usarmy_hqcar) i(0) cw(0) cp(15))  {fore 0.0}
@@ -180,9 +180,9 @@
 
 
 
-("squad_with11types_custom" name(idf_at_rifle) side(usa) crew_nation(idf) c(240) g(suppinf3) c1(idf_at_rifle:1) c2(idf_spotter:1) b(idf_hqcar) brig(idf) t(all) cost(50) f(0.5) info(idf_at_rifle))
+("squad_with11types_custom" name(idf_at_rifle) side(usa) crew_nation(idf) c(480) g(suppinf3) c1(idf_at_rifle:1) c2(idf_spotter:1) b(idf_hqcar) brig(idf) t(all) cost(50) f(0.5) info(idf_at_rifle))
 
-("squad_with11types_custom" name(idf_sniper) side(usa) crew_nation(idf) c(480) g(suppinf3) c1(idf_sniper:1) c2(idf_spotter:1) b(idf_hqcar) brig(idf) t(all) cost(50) f(0.5) info(idf_sniper))
+("squad_with11types_custom" name(idf_sniper) side(usa) crew_nation(idf) c(480) g(suppinf3) c1(idf_sniper:1) c2(idf_spotter:1) b(idf_hqcar) brig(idf) t(all) cost(30) f(0.5) info(idf_sniper))
 
 
 {"spike_stan_idf" ("vs_nation" c(800) brig(idf) t(all nobot) s(usa) crew_nation(idf) n(2) g(1) sc(210) b(idf_hqcar) i(3) cw(0) cp(30))  {fore 0.0}} 
@@ -213,8 +213,8 @@
 
 ("squad_with11types" name(usmc_sturm) side(usa) c(180) g(suppinf1) c1(usmc_bazooker:2) c2(usmc_saper:2) b(usmc_hqcar) brig(usmc) t(all infantry) cost(47) f(9) info(usmc_sturm))
 
-("squad_with2types" name(usmc_sniper) side(usa) c(480) g(suppinf3) c1(usmc_sniper:1) c2(usmc_spotter:1) b(usmc_hqcar) brig(usmc) t(all infantry) cost(50) f(0.5) info(usmc_sniper))
-("squad_with2types" name(usmc_heavy_sniper) side(usa) c(240) g(suppinf3) c1(usmc_heavy_sniper:1) c2(usmc_spotter:1) b(usmc_hqcar) brig(usmc) t(all) cost(50) f(0.5) info(usmc_heavy_sniper))
+("squad_with2types" name(usmc_sniper) side(usa) c(480) g(suppinf3) c1(usmc_sniper:1) c2(usmc_spotter:1) b(usmc_hqcar) brig(usmc) t(all infantry) cost(30) f(0.5) info(usmc_sniper))
+("squad_with2types" name(usmc_heavy_sniper) side(usa) c(480) g(suppinf3) c1(usmc_heavy_sniper:1) c2(usmc_spotter:1) b(usmc_hqcar) brig(usmc) t(all) cost(50) f(0.5) info(usmc_heavy_sniper))
 
 {"mortarfru"		("vart" c(480) c1(hmmwv_m998_tent) c2(mortarfr) brig(usmc) t(all art nobot) s(usa) n(2) n1(vehicle_supporter_usmc:2) g(stan2) sc(175) a(1) b(usmc_hqcar) i(4) cw(5) cp(20))  {fore 0.0}} 
 ;{"m1a1_new"            ("v" c(300) brig(usmc) t(additional tanks_only duel_tanks90 tank_usa) s(usa) n(4) g(obt_marine)   sc(180) b(usmc_hqcar) i(5) m(2) cw(0) cp(50))  {fore -2}} 

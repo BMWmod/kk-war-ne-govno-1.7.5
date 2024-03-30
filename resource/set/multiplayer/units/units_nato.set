@@ -127,7 +127,7 @@
 
 
 {"mq9_nato_recon"            ("h" c(600) brig(abn) t(additional aircraft nobot support_frontline) s(nato) n(0) g(extra7)  sc(50) b(extra) i(9) cw(0) cp(5))  {fore 0.0}}
-{"dana_152mm" ("v_nation" c(360) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(cz) g(extra8)   sc(150) b(extra) i(5) cw(0) cp(55))   {fore -1.0}}
+{"caesar" ("v_nation" c(360) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(fr) g(extra8)   sc(150) b(extra) i(5) cw(0) cp(55))   {fore -1.0}}
 {"lars2" ("v_nation" c(600) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(extra9) sc(200) b(extra) i(6) cw(0) cp(50))   {fore -1.0}}
 
 
@@ -193,8 +193,8 @@
 {"mwwik_jackal2_gmg" ("v3bgcz" c(600) c1(mwwik_jackal2_gmg)brig(gb) t(all) s(nato) n(3) n1(vehicle_supporter:3) g(jackal) sc(140) b(gb_hqcar) i(7) cw(0) cp(15))  {fore -0.5}}
 
 ("squad_with11types_custom" name(brit_jav) side(nato) crew_nation(brit) c(600) g(jav) c1(brit_jav:1) c2(brit_javhelp:1) b(gb_hqcar) brig(gb) t(all) cost(120) f(0.2) info(brit_jav))
-("squad_with11types_custom" side(nato) crew_nation(brit) name(brit_shipers) c(480) g(snip) c1(brit_sniper:1) c2(brit_spotter:1)   b(gb_hqcar) brig(gb) t(all) cost(50) f(0.5) info(brit_shipers))
-("squad_with11types_custom" name(at_rifle_brit) side(nato) crew_nation(brit) c(240) g(snip) c1(brit_at_rifle:1) c2(brit_at_rifle_help:1) b(gb_hqcar) brig(gb) t(all) cost(50) f(0.5) info(at_rifle_brit))
+("squad_with11types_custom" side(nato) crew_nation(brit) name(brit_shipers) c(480) g(snip) c1(brit_sniper:1) c2(brit_spotter:1)   b(gb_hqcar) brig(gb) t(all) cost(30) f(0.5) info(brit_shipers))
+("squad_with11types_custom" name(at_rifle_brit) side(nato) crew_nation(brit) c(480) g(snip) c1(brit_at_rifle:1) c2(brit_at_rifle_help:1) b(gb_hqcar) brig(gb) t(all) cost(50) f(0.5) info(at_rifle_brit))
 
 {"challenger_2"           ("v_nation" c(450) brig(gb) t(all additional tanks_only tank_nato) s(nato) n(4) crew_nation(brit) g(tank_gb1)  sc(285) b(gb_hqcar)   i(8) m(2) cw(0) cp(50))  {fore 0.0}}
 
@@ -208,9 +208,9 @@
 
 ("squad_with11types_custom" side(nato) crew_nation(fr) name(fr) c(120) g(inf) c1(fr_com:1) c2(fr_smg2:2) c3(fr_smg:2) c4(fr_marksman:1) c5(fr_eryx:1) c6(fr_eryx_help:1) c7(fr_light_mguns:1)b(fra_hqcar) brig(fra) t(all infantry) cost(70) f(1.0) info(fr))
 
-("squad_with11types_custom" name(at_rifle_fr) side(nato) crew_nation(fr) c(240) g(snip) c1(fr_at_rifle:1) c2(fr_at_rifle_spotter:1) b(fra_hqcar) brig(fra) t(all) cost(50) f(0.5) info(at_rifle_fr))
+("squad_with11types_custom" name(at_rifle_fr) side(nato) crew_nation(fr) c(480) g(snip) c1(fr_at_rifle:1) c2(fr_at_rifle_spotter:1) b(fra_hqcar) brig(fra) t(all) cost(50) f(0.5) info(at_rifle_fr))
 
-("squad_with11types_custom" name(marksman_squad_fr) side(nato) crew_nation(fr) c(340) g(snip) c1(1er_rpima_fr_marksman:3) b(fra_hqcar) brig(fra) t(all) cost(65) f(0.5) info(marksman_squad_fr))
+("squad_with11types_custom" name(marksman_squad_fr) side(nato) crew_nation(fr) c(340) g(snip) c1(1er_rpima_fr_marksman:3) b(fra_hqcar) brig(fra) t(all) cost(45) f(0.5) info(marksman_squad_fr))
 
 {"mmp_stan" ("vs_nation" c(800) brig(fra) t(all nobot) s(nato) crew_nation(fr) n(2) g(mmp) sc(190) b(fra_hqcar) i(1) cw(1) cp(15))  {fore 0.0}} 
 {"vab_mephisto"             ("v_nation" c(400) brig(fra) t(all att) s(nato) n(3) crew_nation(fr) g(btr3)   sc(100) b(fra_hqcar) i(2) cw(0) cp(15))  {fore 0.0}}
