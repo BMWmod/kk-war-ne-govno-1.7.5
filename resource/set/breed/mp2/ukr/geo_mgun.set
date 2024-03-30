@@ -1,0 +1,61 @@
+{breed
+	{skin "cw_geo_inf"}
+	{portrait "_new/geo/inf"}
+	{icon "mgs"}
+	{icon_priority 0}
+	{nationality geo}
+	{armors
+		{head ech_helmet_geo}
+	}
+
+{perks
+        {"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_2
+		}
+		{"melee" lvl_2
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "125%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "110%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "otv_tan_mg"}
+		{item "bandage" 3}
+		{item "knife_union"}
+		{item "m67 grenade" 1}
+		{item "m61 grenade" 1}
+		{item "M240" filling "ammo 762Nato" 100}
+		{item "ammo 762Nato" 400}
+		{in_hands 4}
+
+
+	}
+}

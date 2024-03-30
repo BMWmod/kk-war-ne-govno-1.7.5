@@ -53,10 +53,6 @@
 {"hmmwv_tow"           ("vs" c(500) brig(common) t(all_nz att) s(usa) n(3) g(car_ptur)  sc(85) b(common) i(11) cw(0) cp(15))  {fore 1}}
 {"m1097_avenger"        ("vradar" c1(m1097_avenger) c2(hawk_cwar) c(240) brig(common) t(all_nz antiair aat) s(usa) n(3) n1(vehicle_supporter:3) n2() g(pvo1)  sc(100) a(2) b(common) i(12) cw(0) cp(10))  {fore 1}}
 
-("squad_with11types_custom" side(usa) crew_nation(usa) name(hacipuri) c(120) g(inf) 
-  c1(smg_newcom) c2(geo_mgun:1) c3(geo_smg:1) c4(geo_bazooker:1) c5(geo_sniper:1) c6(geo_smg2:2) c7(geo_smg:2)
-  b(common) brig(common) t(all_nz inf_usa) cost(80) f(1.0) 
-)
 
 {"usapmc" {fore 1} ("v3" c(240) sc(80) g(inf4) b(common) brig(common) s(usa)  i(11) cw(0) cp(10) t(all_nz inf_usa infantry   n(3) c1(fv432_mk2) n1(priv_mil_smg:2) n2(priv_mil_marksman:1) n3(priv_mil_mg:1) n4(priv_mil_rpg:1) n5(priv_mil_rpg2:1) n6(priv_mil_smg1:2) n7(priv_mil_smg2:2) n8(priv_mil_smg3:2)       ) }
 
