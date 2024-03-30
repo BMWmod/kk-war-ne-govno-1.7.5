@@ -16007,7 +16007,7 @@
 						{time 0.1}
 					}
 					{"environment"
-						{name "m10/krimea_0600"}
+						{name "single/3-poltava/poltava_14_00"}
 						{time -1}
 						{apply}
 					}
@@ -16015,7 +16015,7 @@
 						{time 140}
 					}
 					{"environment"
-						{name "m10/krimea_1300"}
+						{name "single/bonus/bonusmission3/bonusmission_3_morning"}
 						{time 150}
 						{apply}
 					}
@@ -16023,7 +16023,7 @@
 						{time 300}
 					}
 					{"environment"
-						{name "m14/m14_18_00"}
+						{name "single/campan/syr_04_3"}
 						{time 150}
 						{apply}
 					}
@@ -16031,7 +16031,7 @@
 						{time 300}
 					}
 					{"environment"
-						{name "single/4-snake_head/snake_head_03_00"}
+						{name "single/3-poltava/poltava_14_00"}
 						{time 150}
 						{apply}
 					}
@@ -16039,7 +16039,7 @@
 						{time 300}
 					}
 					{"environment"
-						{name "m10/krimea_0600"}
+						{name "cw_new/cw_in_develop/cw_night_002"}
 						{time 150}
 						{apply}
 					}
@@ -16059,11 +16059,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 240}
+						{time 160}
 						{title " "}
 					}
 					{"delay"
-						{time 240}
+						{time 160}
 					}
 					{"timer"
 						{hide}
