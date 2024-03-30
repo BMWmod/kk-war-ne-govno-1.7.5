@@ -40,6 +40,12 @@
  ;БМП-2 с десантом
   {"bmp2_new_without_ptyr_INF" {fore 1} ("v3" c(300) sc(115) g(BWP_INF)  b(common) brig(common) s(ukr)  i(7878) cw(10) cp(10) t(all_nz) c1(bmp2_new_without_ptyr) n(3) n1(tankman:3) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:1) ) }   
 
+  ;Стрела-1
+  {"brdm2_strela_ukr" {fore 0.5} ("v3" c(200) sc(90) g(strela)  b(common) brig(ppo_ua) s(ukr)  i(262) cw(0) cp(15) t(all_nz) c1(brdm2_strela) n(1) n1(tankman:3)   ) }
+  
+  ;Стрела-10
+  {"strela-10_ukr" {fore 0.5} ("v3" c(200) sc(140) g(strela)  b(common) brig(ppo_ua) s(ukr)  i(2676) cw(0) cp(15) t(all_nz) c1(9k35_strela-10mn) n(1) n1(tankman:3)   ) }
+  
   
   ;ПЗРК сквад
  ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(pzrk_ua) c(90) g(pzrk_ua) 
@@ -210,7 +216,7 @@
   {"zil2c1_ukr" {fore -1} ("v3" c(200) sc(160) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2040) cw(0) cp(15) t(all_nz) c1(zil131_2s1) n(1) n1(tankman:4)   ) }
   
   ;Камаз град
-  {"kamaz_grad_ukr" {fore -1} ("v3" c(200) sc(260) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
+  {"kamaz_grad_ukr" {fore -1} ("v3" c(200) sc(400) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
   
   ;БМ-30
   {"bm30_ukr" {fore -1} ("v3" c(600) sc(460) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(233) cw(0) cp(15) t(all_nz) c1(bm-30_tornado_s) n(1) n1(tankman:4)   ) }
@@ -219,12 +225,6 @@
   
   ;Гепард
   {"Gepard_ukr" {fore 0.5} ("v3" c(300) sc(110) g(pvo2)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(22) cw(0) cp(15) t(all_nz) c1(Gepard) n(1) n1(tankman:4)      ) }
-  
-   ;Стрела-1
-  {"brdm2_strela_ukr" {fore 0.5} ("v3" c(200) sc(90) g(strela)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(262) cw(0) cp(15) t(all_nz) c1(brdm2_strela) n(1) n1(tankman:3)   ) }
-  
-  ;Стрела-10
-  {"strela-10_ukr" {fore 0.5} ("v3" c(200) sc(140) g(strela)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(2676) cw(0) cp(15) t(all_nz) c1(9k35_strela-10mn) n(1) n1(tankman:3)   ) }
   
   ;Насамс
   {"nasams_ukr" {fore -1} ("v3" c(200) sc(230) g(strela)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(263) cw(0) cp(15) t(all_nz) c1(nasams_ii_launcher) n(2) n1(tankman:2)   ) }
@@ -237,9 +237,9 @@
   ;===============================ПВО===========================================  ppo_ua_hqcar теперь здесь буду наёмники
   
   ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(hacipuri) c(120) g(inf) 
-  c1(smg_newcom) c2(geo_mgun:1) c3(geo_smg:1) c4(geo_bazooker:1) c5(geo_sniper:1) c6(geo_smg2:2) c7(geo_smg:2)
-  b(ppo_ua_hqcar) brig(ppo_ua) t(all_nz ) cost(80) f(1.0) 
-)
+	  c1(smg_newcom) c2(geo_mgun:1) c3(geo_smg:1) c4(geo_bazooker:1) c5(geo_sniper:1) c6(geo_smg2:2) c7(geo_smg:2)
+	  b(ppo_ua_hqcar) brig(ppo_ua) t(all_nz ) cost(80) f(1.0) 
+  )
 
 
  ;==========================================Авиация=================================
