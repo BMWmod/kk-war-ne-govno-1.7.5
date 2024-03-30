@@ -1,11 +1,7 @@
 ;===============================RUS===========================================                                   
 ;===============================Common===========================================                                   
- {"brdm2" {fore 1} ("vs" c(420) sc(45) g(reco) b(common) brig(common) s(rus)  i(1) cw(10) cp(10) t(all_nz recon   ) n(4)               ) }
-         
-
-;{"btr80_new"		("v3" c(480) c1(btr80_new)brig(common) t(all_nz inf_rus infantry) s(rus) n(2) n1(tankman:2) g(bmp_common1)  sc(20) b(common) i(2) cw(20) cp(5))  {fore 1}}
+{"brdm2" {fore 1} ("vs" c(420) sc(45) g(reco) b(common) brig(common) s(rus)  i(1) cw(10) cp(10) t(all_nz recon   ) n(4)               ) }      
 {"btr82a"		("v3" c(480) c1(btr82a)brig(common) t(all_nz inf_rus infantry) s(rus) n(2) n1(tankman:2) g(bmp_common2)  sc(30) b(common) i(3) cw(20) cp(15))  {fore 1}}
-
 
 {"ural375i"		("v3" c(94) c1(ural375)brig(common) t(all_nz inf_rus infantry ) s(rus) n(1) 
   n1(vehicle_supporter:1) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_smg2:2) 
@@ -26,8 +22,6 @@
  
 ("squad_with2types" name(bazookers2) f(1)  c(120) cost(25) g(rpg) b(common) brig(common) side(rus)     t(all_nz    ) info(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1)             ) 
  {"2b11" {fore 1} ("vs" c(300) sc(125) g(stan1) b(common) brig(common) s(rus)  i(9) cw(1) cp(7) t(all_nz    ) n(2)               ) }
- ;{"zu23-2" {fore 1} ("vs" c(150) sc(50) g(zu23) b(common) brig(common) s(rus)  i(10) cw(1) cp(7) t(all_nz    ) n(2)               ) }
- ;{"metis_m" {fore 1} ("vs" c(150) sc(35) g(ptursmall) b(common) brig(common) s(rus)  i(11) cw(1) cp(5) t(all_nz    ) n(1)               ) }
  {"ptur_konkurs" {fore 1} ("vs" c(250) sc(45) g(stan) b(common) brig(common) s(rus)  i(12) cw(1) cp(5) t(all_nz    ) n(2)               ) }
  {"kornet_base_stan" {fore 0.0} ("vs" c(560) sc(80) g(stan3) b(common) brig(common) s(rus)  i(13) cw(1) cp(15) t(all_nz    ) n(2)               ) }
  {"mt12_rapira" {fore 1} ("vart" c(300) sc(45) g(stan1)  b(common) brig(common) s(rus)  i(14) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) n1(vehicle_supporter:2) c1(mtlb_new) c2(mt12_rapira)            ) }                          
@@ -55,8 +49,7 @@
                                    
  {"bmr-3" {fore 1} ("vart_kamaz" c(120) sc(80) g(demine) b(supl) brig(common) s(rus)  i(11) cw(0) cp(5) t(all_nz art   ) c1(bmr-3) n1(tankman:4)             ) }
 ("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(supl) brig(common) side(rus)     t(all_nz    ) info(miners) c1(antipersonel_miner:2) c2(antitank_miner:6)             ) 
-;("squad_with1types" name(sappers) f(1)  c(240) cost(10) g(eng) b(supl) brig(common) side(rus)     t(all_nz    ) info(miners) c1(saper:1)              ) 
-              	   
+        	   
 
 ;{"t62_cw"	("v" c(400) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(85) b(supl) i(14) cw(0) cp(2))  {fore 1}}  
 {"t72a"		("v" c(600) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(90) b(supl) i(15) cw(0) cp(2))  {fore 1}}
@@ -104,6 +97,8 @@
  
  {"bm-30_tornado_s" {fore 0.0} ("vs" c(1100) sc(470) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(10) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
  
+ {"lancet3m_catapult" {fore 1} ("vart" c(669) sc(169) g(lancet)  b(artbr_hqcar) brig(artbr) s(rus)  i(69) cw(0) cp(30) t(all_nz art   ) c1(eleron_control) c2(lancet3m_catapult)  n1(vehicle_supporter:1)            ) }
+
  {"iskander" {fore 0} ("vs" c(1330) sc(500) g(otrk) b(artbr_hqcar) brig(artbr) s(rus)  i(12) cw(0) cp(100) t(all_nz art support_frontline  ) n(3)               ) }
  {"pantsir_s1" {fore 0} ("v" c(900) sc(250) g(pvo1_extra) b(artbr_hqcar) brig(artbr) s(rus)  i(3) cw(0)   cp(50) t(all_nz art aat support_frontline  ) n(3)               ) }                                
                                  
@@ -116,9 +111,6 @@
  {"ural_art_pvo" {fore 1} ("vs" c(300) sc(110) g(supplyart) b(artbr_hqcar) brig(artbr) s(rus)  i(18) cw(0) cp(2) t(all_nz supply support_frontline  ) n(2)               ) }
  {"box_weapon_rus_krasnopol" {fore -15} ("vs" c(60) sc(15) g(supplyart_spec1) b(artbr_hqcar) brig(artbr) s(rus)  i(19) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
  {"box_weapon_rus_smerch_tb" {fore -2.5} ("vs" c(450) sc(200) g(supplyart_spec) b(artbr_hqcar) brig(artbr) s(rus)  i(21) cw(0) cp(2) t(all_nz supply support_frontline ) n(0)               ) }
-    
-
-	 
 ;===============================ВДВ===========================================                                   
 ("squad_with9types" side(rus) name(stormtroopers2) c(120) g(advinf3) c1(vdv_com:1) c2(vdv_mgun:1) c3(vdv_smg:1) c4(vdv_rpg:1) c5(vdv_rpghelp:1) c6(vdv_smg2:1) c7(vdv_smg:1) c8(vdv_sniper:1) c9(vdv_zamcom:1) b(vdv_hqcar) brig(vdv) t(all_nz specnaz infantry nobot) cost(75) f(1) info(stormtroopers2))
 
@@ -147,22 +139,27 @@
 )
 
 {"bmp2_new"		("v3" c(180) c1(bmp2_new)brig(mot) t(all_nz inf_rus infantry) s(rus) n(2) n1(tankman:3) g(1bmp1)  sc(60) b(mot_hqcar) i(2) cw(20) cp(20))  {fore 1}}
-{"bmp3_2"		("v3" c(180) c1(bmp3_2)brig(mot) t(all_nz inf_rus infantry) s(rus) n(3) n1(tankman:3) g(2bmp2)  sc(85) b(mot_hqcar) i(3) cw(20) cp(35))  {fore 1}}
-{"bmp2m_new"		("v3" c(180) c1(bmp2m_new)brig(mot) t(all_nz inf_rus) s(rus) n(3) n1(tankman:3) g(3bmp3)  sc(100) b(mot_hqcar) i(4) cw(20) cp(35))  {fore 1}}
+{"bmp3_2"		("v3" c(180) c1(bmp3_2)brig(mot) t(all_nz inf_rus infantry) s(rus) n(3) n1(tankman:3) g(2bmp2)  sc(80) b(mot_hqcar) i(3) cw(20) cp(35))  {fore 1}}
+{"bmp2m_new"		("v3" c(180) c1(bmp2m_new)brig(mot) t(all_nz inf_rus) s(rus) n(3) n1(tankman:3) g(3bmp3)  sc(95) b(mot_hqcar) i(4) cw(20) cp(35))  {fore 1}}
+{"bmp3_2022_sh1"		("v3" c(450) c1(bmp3_2022_sh1)brig(mot) t(all_nz inf_rus infantry) s(rus) n(3) n1(tankman:3) g(bmp2)  sc(85) b(mot_hqcar) i(638) cw(20) cp(35))  {fore 1}}
+{"bmp3_3_dz"		("v3" c(450) c1(bmp3_3_dz)brig(mot) t(all_nz inf_rus infantry) s(rus) n(3) n1(tankman:3) g(bmp3)  sc(110) b(mot_hqcar) i(294) cw(20) cp(35))  {fore 1}}
+
+
+
+
 
 {"ural375i_mot"		("v3" c(120) c1(ural375)brig(mot) t(all_nz inf_rus infantry) s(rus) n(2) 
   n1(vehicle_supporter:1) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) n9(spec_sniper:1) 
   g(first_inf1)  sc(80) b(mot_hqcar) i(1) cw(0) cp(15))  {fore 1}
 }
 {"bmp2_newi"		("v3" c(300) c1(bmp2_new)brig(mot) t(all_nz inf_rus infantry) s(rus) n(2) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) g(bmp1)  sc(110) b(mot_hqcar) i(12) cw(0) cp(15))  {fore 1}}
-{"bmp3_2i"		("v3" c(180) c1(bmp3_2)brig(mot) t(all_nz inf_rus infantry) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp2)  sc(125) b(mot_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
-{"bmp2m_newi"		("v3" c(180) c1(bmp2m_new)brig(mot) t(all_nz inf_rus) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp3)  sc(150) b(mot_hqcar) i(14) cw(0) cp(25))  {fore 0}}
+{"bmp3_2i"		("v3" c(200) c1(bmp3_2)brig(mot) t(all_nz inf_rus infantry) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp2)  sc(125) b(mot_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
+{"bmp2m_newi"		("v3" c(360) c1(bmp2m_new)brig(mot) t(all_nz inf_rus) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp3)  sc(150) b(mot_hqcar) i(14) cw(0) cp(25))  {fore 0}}
+{"bmp3_2022_sh1i"		("v3" c(400) c1(bmp3_2022_sh1)brig(mot) t(all_nz inf_rus) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp3)  sc(160) b(mot_hqcar) i(144) cw(0) cp(25))  {fore 0}}
 
 
 ("squad_with1types" name(minmen) f(1)  c(60) cost(20) g(supp) b(mot_hqcar) brig(mot) side(rus)     t(all_nz    ) info(minmen) c1(minmen:1)              ) 
 ("squad_with1types" name(scout2) f(1)  c(180) cost(10) g(rzv) b(mot_hqcar) brig(mot) side(rus)     t(all_nz    ) info(scout2) c1(scout2:1)              ) 
-
- {"lancet3m_catapult" {fore 1} ("vart" c(669) sc(169) g(lancet)  b(mot_hqcar) brig(mot) s(rus)  i(69) cw(0) cp(30) t(all_nz art   ) c1(eleron_control) c2(lancet3m_catapult)  n1(vehicle_supporter:1)            ) }
 
  
  {"t72b3" {fore 1} ("v" c(360) sc(145) g(obt5)  b(mot_hqcar) brig(mot) s(rus)  i(333) cw(0) cp(30) t(all_nz tank_rus   ) n(3)               ) }                                 
