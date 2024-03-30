@@ -149,7 +149,11 @@
 	}
 	{fpv_kamikaze
 		{"zenite"{charging} }
-		{"bullet"{charging} }	
+		{"bullet"{charging} }
+		{"hmgun" {charging}}
+		{"hrifle" {charging}}
+		{"ptr" {charging}}
+				
 	}
 	{medium_UAV_kamikaze
 		{"rad_aa_passive" {volume "body"}}
