@@ -5,6 +5,7 @@
 ;rev 04.07.2022
 
 
+{"ypr_765"						"<c(FFFFFF)e(shadow)>YPR-765</c>"}
 {"caesar"						"<c(FFFFFF)e(shadow)>CAESAR</c>"}
 {"an_2_bomb"						"<c(FFFFFF)e(shadow)>АН-2БМВ</c>"}
 {"an_2_bomb_isis"						"<c(FFFFFF)e(shadow)>АН-2БМВ</c>"}

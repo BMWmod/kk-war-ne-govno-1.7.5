@@ -107,6 +107,7 @@
 {"t72a_ser"				{structure "cwds_tank"}}
 {"t34-85_ser"		{structure "cwds_tank"}}
 {"m113a_ser"			{structure "cwds_ifv"}}
+{"ypr_765"			{structure "cwds_ifv"}}
 {"leopard_2a4_dz"			{structure "cwds_tank"}}
 {"tochka_y"				{structure "cwds_otrk8"}}
 {"tochka_y_wagner"				{structure "cwds_otrk8"}}
