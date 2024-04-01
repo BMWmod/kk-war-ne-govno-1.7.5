@@ -1,0 +1,222 @@
+{fx
+	{sound "detonation/ap_dirt"}
+	{##+ particleview "fuzzy dirt up down"
+		{generator
+			{totalparticles 25}
+			{particlesinblock 25}
+			{emissionarea
+				{radius 10}
+				{alpha0 1.5 1.5}
+				{alpha1 3 1.5}
+			}
+			{particleinit
+				{speed 4.5 3}
+				{lifetime 3.75}
+			}
+			{timetolive 0.1}
+			{axisz}
+		}
+		{mover
+			{damping 0.9975}
+			{gravity
+				{value 0.1}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage initial 
+				{sprite "$/additional/smoke_light7"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 0.75}
+							{max 0}
+						}
+					}
+					{scalex 1
+						{power
+							{min 0.1}
+							{max 0.75 0.25}
+							{pow 1}
+						}
+					}
+					{scaley 1
+						{power
+							{min 0.1}
+							{max 1.5 0.5}
+							{pow 0.5}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{preturn 90 90}
+					{highlight 0xff323232}
+				}
+				{sprite "$/additional/smoke_light5"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 0.75}
+							{max 0}
+						}
+					}
+					{scalex 1
+						{power
+							{min 0.1}
+							{max 0.75 0.25}
+							{pow 1}
+						}
+					}
+					{scaley 1
+						{power
+							{min 0.1}
+							{max 1.5 0.5}
+							{pow 0.5}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{preturn 90 90}
+					{highlight 0xff736450}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "stones ground"
+		{generator
+			{totalparticles 3}
+			{particlesinblock 3}
+			{emissionarea
+				{radius 15 15}
+				{alpha0 0}
+				{alpha1 55}
+			}
+			{particleinit
+				{speed 1}
+				{lifetime 5 1}
+			}
+			{axisz}
+			{timetolive 0.1}
+		}
+		{offset 0 0 5}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value 0.2}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.1}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage initial 
+				{sprite "$/dust/dust_stone_new_001"
+					{turn 1
+						{linear
+							{min 60}
+							{max 180 720}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{npower
+							{min 1}
+							{max 0}
+							{pow 1.25}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.3 0.1}
+							{max 0.75 0.15}
+						}
+					}
+					{preturn 0 360}
+					{highlight 0xcdcdcd}
+				}
+				{sprite "$/dust/dust_new_003"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{npower
+							{min 1}
+							{max 0}
+							{pow 1.25}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.3 0.1}
+							{max 0.75 0.15}
+						}
+					}
+					{preturn 0 360}
+					{highlight 0xcdcdcd}
+				}
+			}
+			{stage collided dying 
+				{sprite "$/dust/dust_stone_new_001"
+					{timer
+						{mode play }
+						{duration 55}
+					}
+					{visibility 1
+						{npower
+							{min 1}
+							{max 0}
+							{pow 1.25}
+						}
+					}
+					{scale 0.5}
+					{preturn 0 360}
+					{highlight 0xcdcdcd}
+				}
+				{sprite "$/dust/dust_new_003"
+					{timer
+						{mode play }
+						{duration 55}
+					}
+					{visibility 1
+						{npower
+							{min 1}
+							{max 0}
+							{pow 1.25}
+						}
+					}
+					{scale 0.5}
+					{preturn 0 360}
+					{highlight 0xcdcdcd}
+				}
+				{flags killparticle ground }
+			}
+		}
+	}
+}

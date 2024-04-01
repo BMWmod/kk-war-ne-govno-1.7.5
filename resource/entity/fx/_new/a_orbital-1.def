@@ -1,0 +1,1304 @@
+{fx
+	{sound "detonation/orbital"}
+	{constrain ground}
+	{fire}
+	{#+ lightview
+		{type point}
+		{animator
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{linear
+					{min 1}
+					{max 1}
+				}
+			}
+			{visibility 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{highlight 0xcdffff}
+		}
+		{attenuation0 0.1}
+		{attenuation1 5}
+		{radius 500}
+		{effectonground}
+		{offset 0 0 50}
+	}
+	{#+ spriteview "laser aim"
+		{sprite "$/additional/laser_sight"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scalex 10}
+			{scaley 1
+				{npower
+					{min 0}
+					{max 1}
+					{pow 0.5}
+				}
+			}
+			{highlight 0xcdffff}
+		}
+		{offset 0 0 -100}
+		{autovisible}
+		{notifyowner}
+		{orientation normalYZ}
+	}
+	{#+ spriteview "laser aim"
+		{sprite "$/additional/laser_sight"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scalex 1
+				{npower
+					{min 0}
+					{max 1}
+					{pow 0.5}
+				}
+			}
+			{scaley 10}
+			{preturn 90 0}
+			{highlight 0xcdffff}
+		}
+		{offset 0 0 -100}
+		{autovisible}
+		{notifyowner}
+		{orientation normalXZ}
+	}
+	{#+ lightview
+		{delay 1}
+		{type point}
+		{animator
+			{timer
+				{mode play }
+				{duration 2}
+			}
+			{scale 1
+				{linear
+					{min 1}
+					{max 1}
+				}
+			}
+			{visibility 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{highlight 0xcdffff}
+		}
+		{attenuation0 0.075}
+		{attenuation1 5}
+		{radius 3000}
+		{effectonground}
+		{offset 0 0 300}
+	}
+	{#+ spriteview "laser burst line start"
+		{delay 1}
+		{sprite "$/additional/laser_sight"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 2}
+			}
+			{scalex 12.5}
+			{scaley 1
+				{npower
+					{min 0}
+					{max 10}
+					{pow 0.75}
+				}
+			}
+			{highlight 0xcdffff}
+		}
+		{offset 0 0 -100}
+		{autovisible}
+		{notifyowner}
+		{orientation normalYZ}
+	}
+	{#+ spriteview "laser burst line start"
+		{delay 1}
+		{sprite "$/additional/laser_sight"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 2}
+			}
+			{scalex 1
+				{npower
+					{min 0}
+					{max 10}
+					{pow 0.75}
+				}
+			}
+			{scaley 12.5}
+			{preturn 90 0}
+			{highlight 0xcdffff}
+		}
+		{offset 0 0 -100}
+		{autovisible}
+		{notifyowner}
+		{orientation normalXZ}
+	}
+	{#+ lightview
+		{delay 1.25}
+		{type point}
+		{animator
+			{timer
+				{mode play }
+				{duration 2}
+			}
+			{scale 1
+				{linear
+					{min 1}
+					{max 1}
+				}
+			}
+			{visibility 1
+				{peak
+					{min 0}
+					{max 0.75}
+				}
+			}
+			{highlight 0xff7d32}
+		}
+		{attenuation0 0.075}
+		{attenuation1 5}
+		{radius 1000}
+		{effectonground}
+		{offset 0 0 100}
+	}
+	{#+ spriteview "laser burst ball start"
+		{delay 1.25}
+		{sprite "$/additional/glow3"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{npower
+					{min 0}
+					{max 4.5}
+					{pow 0.75}
+				}
+			}
+			{preturn 0 360}
+			{highlight 0xcdffff}
+		}
+		{offset 0 0 5}
+		{autovisible}
+		{notifyowner}
+		{orientation normalYZ}
+	}
+	{#+ spriteview "laser burst ball start"
+		{delay 1.25}
+		{sprite "$/additional/glow3"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{npower
+					{min 0}
+					{max 4.5}
+					{pow 0.75}
+				}
+			}
+			{preturn 0 360}
+			{highlight 0xcdffff}
+		}
+		{offset 0 0 5}
+		{autovisible}
+		{notifyowner}
+		{orientation normalXZ}
+	}
+	{#+ spriteview "laser burst ground start"
+		{delay 1.25}
+		{sprite "$/additional/glow2"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{npower
+					{min 0}
+					{max 8}
+					{pow 0.75}
+				}
+			}
+			{preturn 0 360}
+			{highlight 0xcdffff}
+		}
+		{offset 0 0 5}
+		{autovisible}
+		{notifyowner}
+		{orientation normalXY}
+	}
+	{#+ particleview "fireburst start"
+		{delay 1.25}
+		{generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 25 25}
+				{alpha0 35 5}
+				{alpha1 75 5}
+				{speed 1}
+			}
+			{particleinit
+				{speed 5 3}
+				{lifetime 0.3 0.1}
+			}
+			{axisz}
+			{timetolive 1}
+		}
+		{offset 0 0 0}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value -0.005}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.3}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot4"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 0.15 0.05}
+							{max 1 0.25}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.75 0.165}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{highlight 0xffc455}
+					{preturn 0 360}
+				}
+				{sprite "$/additional/fire_shot5"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 0.15 0.05}
+							{max 1 0.25}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.75 0.165}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{highlight 0xffc455}
+					{preturn 0 360}
+				}
+				{flags trace }
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "fireburst start ground"
+		{delay 1.25}
+		{generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 25 25}
+				{alpha0 75 5}
+				{alpha1 85 5}
+				{speed 1}
+			}
+			{particleinit
+				{speed 4 2}
+				{lifetime 0.3 0.1}
+			}
+			{axisz}
+			{timetolive 1}
+		}
+		{offset 0 0 0}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value -0.005}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.1}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot4"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.75 0.25}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.5 0.165}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{highlight 0xffc455}
+					{preturn 0 360}
+				}
+				{sprite "$/additional/fire_shot5"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.75 0.25}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.5 0.165}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{highlight 0xffc455}
+					{preturn 0 360}
+				}
+				{flags ground }
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "laser burst"
+		{delay 1.5}
+		{entitygenerator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 0}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 15}
+			}
+			{axisz}
+			{entity "wp_piece"
+				{fx "a_orbital_laser_burst"}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ spriteview sled
+		{delay 1.5}
+		{sprite "$/explosion/exp_sled"
+			{visibility 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 120}
+				{mode play }
+			}
+			{scale 1
+				{linear
+					{min 15}
+					{max 15}
+				}
+			}
+			{preturn 0 360}
+		}
+		{ground}
+		{layer grounddynamic}
+		{notifyowner}
+		{autovisible}
+		{offset 0 0 2.5}
+	}
+	{#+ spriteview sled
+		{delay 1.5}
+		{sprite "$/explosion/exp_sled"
+			{visibility 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 120}
+				{mode play }
+			}
+			{scale 1
+				{linear
+					{min 18}
+					{max 18}
+				}
+			}
+			{preturn 0 360}
+		}
+		{ground}
+		{layer grounddynamic}
+		{notifyowner}
+		{autovisible}
+		{offset 0 0 2.5}
+	}
+	{#+ spriteview sled
+		{delay 1.5}
+		{sprite "$/explosion/exp_sled"
+			{visibility 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 120}
+				{mode play }
+			}
+			{scale 1
+				{linear
+					{min 22.5}
+					{max 22.5}
+				}
+			}
+			{preturn 0 360}
+		}
+		{ground}
+		{layer grounddynamic}
+		{notifyowner}
+		{autovisible}
+		{offset 0 0 2.5}
+	}
+	{#+ spriteview sled
+		{delay 1.5}
+		{sprite "$/explosion/exp_sled"
+			{visibility 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 120}
+				{mode play }
+			}
+			{scale 1
+				{linear
+					{min 25}
+					{max 25}
+				}
+			}
+			{preturn 0 360}
+		}
+		{ground}
+		{layer grounddynamic}
+		{notifyowner}
+		{autovisible}
+		{offset 0 0 2.5}
+	}
+	{#+ spriteview sled
+		{delay 1.5}
+		{sprite "$/explosion/exp_sled"
+			{visibility 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 120}
+				{mode play }
+			}
+			{scale 1
+				{linear
+					{min 30}
+					{max 30}
+				}
+			}
+			{preturn 0 360}
+		}
+		{ground}
+		{layer grounddynamic}
+		{notifyowner}
+		{autovisible}
+		{offset 0 0 2.5}
+	}
+	{#+ spriteview sled
+		{delay 1.5}
+		{sprite "$/particle/burn"
+			{visibility 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 120}
+				{mode play }
+			}
+			{scale 1
+				{linear
+					{min 75}
+					{max 75}
+				}
+			}
+			{preturn 0 360}
+		}
+		{ground}
+		{layer grounddynamic}
+		{notifyowner}
+		{autovisible}
+		{offset 0 0 2.5}
+	}
+	{#+ lightview
+		{delay 16.5}
+		{type point}
+		{animator
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{linear
+					{min 1}
+					{max 1}
+				}
+			}
+			{visibility 1
+				{peak
+					{min 0}
+					{max 0.75}
+				}
+			}
+			{highlight 0xff7d32}
+		}
+		{attenuation0 0.075}
+		{attenuation1 5}
+		{radius 3000}
+		{effectonground}
+		{offset 0 0 300}
+	}
+	{#+ spriteview "laser burst line endness"
+		{delay 16.5}
+		{sprite "$/additional/laser_sight"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scalex 12.5}
+			{scaley 1
+				{npower
+					{min 12.5}
+					{max 0}
+					{pow 0.75}
+				}
+			}
+			{highlight 0xff7d32}
+		}
+		{offset 0 0 -100}
+		{autovisible}
+		{notifyowner}
+		{orientation normalYZ}
+	}
+	{#+ spriteview "laser burst line endness"
+		{delay 16.5}
+		{sprite "$/additional/laser_sight"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scalex 1
+				{npower
+					{min 12.5}
+					{max 0}
+					{pow 0.75}
+				}
+			}
+			{scaley 12.5}
+			{preturn 90 0}
+			{highlight 0xff7d32}
+		}
+		{offset 0 0 -100}
+		{autovisible}
+		{notifyowner}
+		{orientation normalXZ}
+	}
+	{#+ spriteview "laser burst ball endness"
+		{delay 16.5}
+		{sprite "$/additional/glow3"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{npower
+					{min 5.5}
+					{max 0}
+					{pow 0.75}
+				}
+			}
+			{preturn 0 360}
+			{highlight 0xff7d32}
+		}
+		{offset 0 0 5}
+		{autovisible}
+		{notifyowner}
+		{orientation normalYZ}
+	}
+	{#+ spriteview "laser burst ball endness"
+		{delay 16.5}
+		{sprite "$/additional/glow3"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{npower
+					{min 5.5}
+					{max 0}
+					{pow 0.75}
+				}
+			}
+			{preturn 0 360}
+			{highlight 0xff7d32}
+		}
+		{offset 0 0 5}
+		{autovisible}
+		{notifyowner}
+		{orientation normalXZ}
+	}
+	{#+ spriteview "laser burst ground endness"
+		{delay 16.5}
+		{sprite "$/additional/glow2"
+			{light 1
+				{peak
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{mode play }
+				{duration 1}
+			}
+			{scale 1
+				{npower
+					{min 10}
+					{max 0}
+					{pow 0.75}
+				}
+			}
+			{preturn 0 360}
+			{highlight 0xff7d32}
+		}
+		{offset 0 0 5}
+		{autovisible}
+		{notifyowner}
+		{orientation normalXY}
+	}
+	{#+ particleview "sparkles rotate endness"
+		{delay 16.5}
+		{generator
+			{totalparticles 5}
+			{particlesinblock 5}
+			{emissionarea
+				{radius 35 35}
+				{alpha0 10 5}
+				{alpha1 80 5}
+				{speed 2}
+			}
+			{particleinit
+				{speed 5 5}
+				{lifetime 1.5 0.25}
+			}
+			{axisz}
+			{timetolive 1}
+		}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value 0.1}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.3}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/sparks_long"
+					{scalex 1
+						{linear
+							{min 1.5 0.25}
+							{max 0.025}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.125 0.0125}
+							{max 0.0125}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{preturn 90 0}
+					{highlight 0xff7d32}
+				}
+				{flags trace }
+			}
+		}
+	}
+	{#+ particleview "sparkles rotate endness"
+		{delay 16.5}
+		{generator
+			{totalparticles 10}
+			{particlesinblock 10}
+			{emissionarea
+				{radius 35 35}
+				{alpha0 45 5}
+				{alpha1 75 5}
+				{speed 2}
+			}
+			{particleinit
+				{speed 10 5}
+				{lifetime 1.5 0.25}
+			}
+			{axisz}
+			{timetolive 1}
+		}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value 0.2}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.3}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/sparks_long"
+					{scalex 1
+						{linear
+							{min 3 0.5}
+							{max 0.05}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.25 0.025}
+							{max 0.025}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{preturn 90 0}
+					{highlight 0xff7d32}
+				}
+				{flags trace }
+			}
+		}
+	}
+	{#+ particleview "sparkles burst endness"
+		{delay 16.5}
+		{generator
+			{totalparticles 10}
+			{particlesinblock 10}
+			{emissionarea
+				{radius 25 25}
+				{alpha0 5 5}
+				{alpha1 15 5}
+				{speed 2}
+			}
+			{particleinit
+				{speed 5 5}
+				{lifetime 3 0.25}
+			}
+			{axisz}
+			{timetolive 1}
+		}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value -0.0025}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.3}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/_bmp/flash/sparks_02"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 50}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.5}
+							{max 2.5}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{preturn 0 360}
+					{highlight 0xff7d32}
+				}
+			}
+		}
+	}
+	{#+ particleview "smoke burst endness"
+		{delay 16.5}
+		{generator
+			{totalparticles 50}
+			{particlesinblock 50}
+			{emissionarea
+				{radius 50 50}
+				{alpha0 0 85}
+				{alpha1 90 5}
+				{speed 1}
+			}
+			{particleinit
+				{speed 5 5}
+				{lifetime 21 3}
+			}
+			{axisz}
+			{timetolive 1}
+		}
+		{mover
+			{damping 0.985}
+			{gravity
+				{value 0.0005}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.1}
+			}
+		}
+		{visualizer
+			{stage 
+				{Sprite "$/smoke/smoke_turb2"
+					{Visibility 
+						{peak
+							{min 0}
+							{max 0.75}
+						}
+					}
+					{Scale
+						{npower
+							{min 1 0.2}
+							{max 2 0.5}
+							{pow 0.25}
+						}
+					}
+					{Turn 
+						{Linear 
+							{min 0 0 }
+							{max 30 360 }
+						}
+					}
+					{timer
+						{Mode play }
+						{Duration -1 }
+					}
+					{preturn 0 360}
+					{highlight 0xebf5ff}
+				}
+				{Sprite "$/smoke/smokesmal4b_30"
+					{Visibility 
+						{peak
+							{min 0}
+							{max 0.75}
+						}
+					}
+					{Scale
+						{npower
+							{min 3 0.5}
+							{max 12 2}
+							{pow 0.25}
+						}
+					}
+					{Turn 
+						{Linear 
+							{min 0 0 }
+							{max 30 360 }
+						}
+					}
+					{timer
+						{Mode play }
+						{Duration -1 }
+					}
+					{preturn 0 360}
+					{highlight 0xebf5ff}
+				}
+			}
+		}
+	}
+	{#+ particleview "flames ground little"
+		{delay 16.5}
+		{generator
+			{totalparticles 200}
+			{emissionarea
+				{radius 200 200}
+				{alpha0 0}
+				{alpha1 0}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 3 1}
+			}
+			{timetolive 15}
+			{axisz}
+		}
+		{offset 0 0 -100}
+		{mover
+			{damping 0.1}
+			{gravity
+				{value -0.001}
+			}
+			{collisions
+				{terrain}
+				{once}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/_bmp/explosion/faerog"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scalex 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.5 0.15}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.4 0.13}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.5}
+						}
+					}
+					{preturn 180 15}
+					{highlight 0xffc455}
+				}
+				{sprite "$/explosion/flare"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scalex 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.5 0.15}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.4 0.13}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.5}
+						}
+					}
+					{highlight 0xffc455}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "flames particles big"
+		{delay 16.5}
+		{generator
+			{totalparticles 100}
+			{emissionarea
+				{radius 200 200}
+				{alpha0 0}
+				{alpha1 90}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 5 2}
+			}
+			{timetolive 10}
+			{axisz}
+		}
+		{offset 0 0 -100}
+		{mover
+			{damping 0.1}
+			{gravity
+				{value -0.01}
+			}
+			{collisions
+				{terrain}
+				{once}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/flash/halo02"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 1
+						{linear
+							{min 0.35 0.25}
+							{max 0.55 0.45}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.5}
+						}
+					}
+					{highlight 0xffc455}
+				}
+				{flags ground }
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "flames particles little"
+		{delay 16.5}
+		{generator
+			{totalparticles 100}
+			{emissionarea
+				{radius 225 225}
+				{alpha0 0}
+				{alpha1 90}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 5 2}
+			}
+			{timetolive 15}
+			{axisz}
+		}
+		{offset 0 0 -100}
+		{mover
+			{damping 0.1}
+			{gravity
+				{value -0.01}
+			}
+			{collisions
+				{terrain}
+				{once}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/flash/halo02"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.35 0.25}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.5}
+						}
+					}
+					{highlight 0xffc455}
+				}
+				{flags ground }
+			}
+		}
+		{notifyowner}
+	}
+}

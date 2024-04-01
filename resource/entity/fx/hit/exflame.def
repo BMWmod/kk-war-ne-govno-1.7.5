@@ -1,0 +1,92 @@
+{fx
+	{constrain ground}
+	{#+ particleview flames
+		{generator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 25 25}
+				{alpha0 45 45}
+				{alpha1 45 45}
+				{#+ distributionlaw sphere}
+				{##+ distributionlaw disk}
+				{speed 0.25}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 3 1}
+			}
+			{timetolive 1}
+			{## axisz}
+		}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value -0.001}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.1}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/_bmp/explosion/faerog"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scalex 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.3 0.1}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.2 0.065}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.5}
+						}
+					}
+					{preturn 180 15}
+					{highlight 0xffc455}
+				}
+				{sprite "$/explosion/flare"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scalex 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.3 0.1}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.2 0.065}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.5}
+						}
+					}
+					{highlight 0xffc455}
+				}
+			}
+		}
+		{ground}
+		{layer groundshadow}
+		{notifyowner}
+	}	
+}

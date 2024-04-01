@@ -1,0 +1,7 @@
+{bitmap
+	{Axis 0 4}
+	{Filtering  1 }
+	{AlphaChannel  0 }
+	{Blend  Light }
+	{Frame  "trace3.tga" }
+}

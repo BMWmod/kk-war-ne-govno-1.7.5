@@ -1,0 +1,45 @@
+{fx
+	{constrain ground}
+	{#+ lightview
+		{type spot}
+		{animator
+			{highlight 0xff4b00}
+		}
+		{attenuation0 0.15}
+		{attenuation1 10}
+		{falloff 1}
+		{theta 20}
+		{phi 30}
+		{radius 100}
+		{priority 10}
+		{effectonground}
+		{ground}
+		{layer grounddynamic}
+	}
+	{#+ spriteview laser
+		{sprite "$/additional/laser_sight"
+			{light 1
+				{peak
+					{min 0}
+					{max 0.5}
+				}
+			}
+			{visibility 1
+				{peak
+					{min 0}
+					{max 0.5}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 0.1}
+			}
+			{scalex 5}
+			{scaley 0.05}
+			{highlight 0xff4b00}
+		}
+		{autovisible}
+		{notifyowner}
+		{orientation trace}
+	}
+}

@@ -1,0 +1,17 @@
+{fx
+	{#+ particleview apcr_guider
+		{entitygenerator
+			{totalparticles 2}
+			{particlesinblock 2}
+			{emissionarea
+				{alpha0 0}
+				{alpha1 -5 5}
+			}
+			{particleinit
+				{speed 20} ;28.5 1.5
+				{lifetime 1}
+			}
+			{entity "apcr_guider"}
+		}
+	}
+}

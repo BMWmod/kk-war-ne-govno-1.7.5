@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "trace_shotgun"}
+	{blend add}
+	{glow 1.0}
+}

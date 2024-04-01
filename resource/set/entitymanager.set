@@ -1,0 +1,55 @@
+{entitymanager
+	{group "dead" actor dead
+		{remove dissolve}
+		(mod "mp" 		{limit 12})
+		(mod not "mp"	{limit 30})
+		{entity "human"}
+	}
+	
+	{group "broken" gameentity
+		{limit 7}
+		{remove dissolve}
+		{DeadVehicles}
+	}
+
+	{group "piece" gameentity
+		{limit 10}
+		{remove dissolve}
+		{entity "piece_big_steel"}
+		{entity "piece_large_steel"}
+		{entity "piece_medium_steel"}
+		{entity "piece_big_airborne_wing"}
+	}
+
+	{group "stuff" stuff
+		{remove dissolve}
+		(mod "mp"	{limit 18})
+		(mod not "mp"   {limit 45})
+		{tag "weapon bullet"}
+		{tag "grenade"}
+		{tag "missile"}
+		{tag "sharp_edge"}
+	}
+	{group "parashute" stuff
+		{remove dissolve}
+		(mod "mp"	{limit 0})
+		(mod not "mp"   {limit 18})
+		{entity "parachute_new_ground"}
+		{entity "parachute_veh_ground"}
+	}
+	{group "equip" stuff
+		{remove dissolve}
+		(mod "mp"	{limit 12})
+		(mod not "mp"	{limit 30})
+
+		{tag "field_glass"}
+		{tag "head"}
+		{tag "body"}
+	}
+	{group "shellhole" gameentity
+		{limit 50}
+		{remove instant}
+		{entity "grenade_shellhole"}
+		{entity "grenade_at_shellhole"}
+	}
+}

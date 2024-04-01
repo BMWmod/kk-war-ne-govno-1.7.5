@@ -1,0 +1,39 @@
+{bitmap
+	{Axis 128 32}
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend  Light }
+	{Animation  Play }
+	{Frame  "pop2/Pop020000.tga" 50 }
+	{Frame  "pop2/Pop020001.tga" 50 }
+	{Frame  "pop2/Pop020002.tga" 50 }
+	{Frame  "pop2/Pop020003.tga" 50 }
+	{Frame  "pop2/Pop020004.tga" 50 }
+	{Frame  "pop2/Pop020005.tga" 50 }
+	{Frame  "pop2/Pop020006.tga" 50 }
+	{Frame  "pop2/Pop020007.tga" 50 }
+	{Frame  "pop2/Pop020008.tga" 50 }
+	{Frame  "pop2/Pop020009.tga" 50 }
+	{Frame  "pop2/Pop020010.tga" 50 }
+	{Frame  "pop2/Pop020011.tga" 50 }
+	{Frame  "pop2/Pop020012.tga" 50 }
+	{Frame  "pop2/Pop020013.tga" 50 }
+	{Frame  "pop2/Pop020014.tga" 50 }
+	{Frame  "pop2/Pop020015.tga" 50 }
+	{Frame  "pop2/Pop020016.tga" 50 }
+	{Frame  "pop2/Pop020017.tga" 50 }
+	{Frame  "pop2/Pop020018.tga" 50 }
+	{Frame  "pop2/Pop020019.tga" 50 }
+	{Frame  "pop2/Pop020020.tga" 50 }
+	{Frame  "pop2/Pop020021.tga" 50 }
+	{Frame  "pop2/Pop020022.tga" 50 }
+	{Frame  "pop2/Pop020023.tga" 50 }
+	{Frame  "pop2/Pop020024.tga" 50 }
+	{Frame  "pop2/Pop020025.tga" 50 }
+	{Frame  "pop2/Pop020026.tga" 50 }
+	{Frame  "pop2/Pop020027.tga" 50 }
+	{Frame  "pop2/Pop020028.tga" 50 }
+	{Frame  "pop2/Pop020029.tga" 50 }
+	{Frame  "pop2/Pop020030.tga" 50 }
+	{Frame  "pop2/Pop020031.tga" 50 }
+}

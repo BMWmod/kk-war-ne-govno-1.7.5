@@ -1,0 +1,150 @@
+{fx
+	{#+ spriteview
+		{sprite "$/explosion/flare"
+			{scalex 0.08}
+			{scaley 0.05}
+			{preturn 90}
+			{highlight 0xffc455}
+		}
+		{orientation trace}
+		{autovisible}
+	}
+	{#+ particleview "flames ball"
+		{generator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 3}
+				{speed 0.5}
+			}
+			{particleinit
+				{speed 0.05}
+				{lifetime 0.15}
+			}
+			{## timetolive 0.1}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0}
+			}
+			{nodependonwind}
+		}
+		{offset 0 0 0}
+		{visualizer
+			{stage 
+				{sprite "$/explosion/fire"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 5}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 0.1 0.1}
+							{max 0.15 0.1}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.1 0.1}
+							{max 0.1 0.1}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.35}
+						}
+					}
+					{highlight 0xffc455}
+					{preturn 90}
+				}
+				{flags trace }
+			}
+		}
+	}
+	{#+ particleview
+		{generator
+			{totalparticles 15}
+			{emissionarea
+				{radius 0.1 0.1}
+				{alpha0 0}
+				{alpha1 -5 5}
+			}
+			{particleinit
+				{speed 0.25 0.15}
+				{lifetime 0.75 0.25}
+			}
+		}
+		{mover
+			{damping 0.975}
+			{gravity
+				{value -0.003}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/smoke/smokesmal4b_30"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 60 120}
+					{turn 1
+						{linear
+							{min 0}
+							{max 180 -180}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.1 0.035}
+							{max 0.35 0.15}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.4}
+							{max 0}
+						}
+					}
+				}
+				{sprite "$/smoke/smokesmal4b_30"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 60 120}
+					{turn 1
+						{linear
+							{min 0}
+							{max 180 -180}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.1 0.035}
+							{max 0.35 0.15}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.4}
+							{max 0}
+						}
+					}
+					{highlight 0xff923c}
+				}
+			}
+		}
+	}
+}

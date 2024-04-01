@@ -1,0 +1,196 @@
+{fx
+	{fire}
+	{##+ lightview
+		{type point}
+		{animator
+			{scale 1
+				{linear
+					{min 1}
+					{max 1}
+				}
+			}
+			{visibility 1
+				{linear
+					{min 0.9 0.3}
+					{max 0.9 0.3}
+				}
+			}
+			{highlight 0xffa019}
+			{timer
+				{mode play }
+				{duration 0.1}
+			}
+		}
+		{attenuation0 0.3}
+		{attenuation1 5}
+		{radius 30}
+		{effectonground}
+		{offset 0 0 15}
+		{pulseperiod 0.1 0.02}
+	}
+	{#+ spriteview light
+		{sprite "$/flash/halo02"
+			{timer
+				{mode play loop }
+				{duration 0.05}
+			}
+			{scale 1
+				{linear
+					{min 0.075}
+					{max 0.1}
+				}
+			}
+			{light 1}
+		}
+		{notifyowner}
+		{autovisible}
+		{halo}
+	}
+	{#+ particleview sparks
+		{generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 0.1 0.1}
+				{alpha0 90 90}
+				{alpha1 90 90}
+				{speed 2.5}
+			}
+			{particleinit
+				{speed 0.125 0.125}
+				{lifetime 0.35 0.1165}
+			}
+			{timetolive -0.1}
+			{axisz}
+		}
+		{mover
+			{damping 0.9}
+			{gravity
+				{value 0.0025}
+			}
+			{## nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolki"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{scale 0.175 0.045}
+					{highlight 0xffc455}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview sparks
+		{generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 0.1 0.1}
+				{alpha0 90 90}
+				{alpha1 90 90}
+				{speed 2.5}
+			}
+			{particleinit
+				{speed 0.125 0.125}
+				{lifetime 0.25 0.0835}
+			}
+			{timetolive -0.1}
+			{axisz}
+		}
+		{mover
+			{damping 0.9}
+			{gravity
+				{value 0.0025}
+			}
+			{## nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolki"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{scale 0.175 0.045}
+					{highlight 0xffc455}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview sparks
+		{generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 0.1 0.1}
+				{alpha0 90 90}
+				{alpha1 90 90}
+				{speed 2.5}
+			}
+			{particleinit
+				{speed 0.125 0.125}
+				{lifetime 0.25 0.0835}
+			}
+			{timetolive -0.1}
+			{axisz}
+		}
+		{mover
+			{damping 0.9}
+			{gravity
+				{value 0.0025}
+			}
+			{## nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolki"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{scale 0.175 0.045}
+					{highlight 0xffc455}
+				}
+			}
+		}
+		{notifyowner}
+	}
+}

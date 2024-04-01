@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "trace_green2"}
+	{blend add}
+	{glow 15.0}
+}

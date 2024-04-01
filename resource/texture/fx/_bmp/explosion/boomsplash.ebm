@@ -1,0 +1,39 @@
+{bitmap
+	{Axis  64 64 }
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend Alpha }
+	{Animation  Play }
+	{Frame  "boomsplash/explosionskapau0000.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0001.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0002.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0003.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0004.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0005.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0006.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0007.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0008.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0009.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0010.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0011.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0012.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0013.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0014.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0015.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0016.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0017.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0018.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0019.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0020.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0021.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0022.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0023.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0024.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0025.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0026.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0027.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0028.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0029.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0030.tga" 50 }
+	{Frame  "boomsplash/explosionskapau0031.tga" 50 }
+}

@@ -1,0 +1,72 @@
+{bitmap
+	{Axis  64 64 }
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend  Alpha }
+;	{Animation  Play }
+	{Frame  "exp06/exp06_01.tga" 64 }
+	{Frame  "exp06/exp06_02.tga" 64 }
+	{Frame  "exp06/exp06_03.tga" 64 }
+	{Frame  "exp06/exp06_04.tga" 64 }
+	{Frame  "exp06/exp06_05.tga" 64 }
+	{Frame  "exp06/exp06_06.tga" 64 }
+	{Frame  "exp06/exp06_07.tga" 64 }
+	{Frame  "exp06/exp06_08.tga" 64 }
+	{Frame  "exp06/exp06_09.tga" 64 }
+	{Frame  "exp06/exp06_10.tga" 64 }
+	{Frame  "exp06/exp06_11.tga" 64 }
+	{Frame  "exp06/exp06_12.tga" 64 }
+	{Frame  "exp06/exp06_13.tga" 64 }
+	{Frame  "exp06/exp06_14.tga" 64 }
+	{Frame  "exp06/exp06_15.tga" 64 }
+	{Frame  "exp06/exp06_16.tga" 64 }
+	{Frame  "exp06/exp06_17.tga" 64 }
+	{Frame  "exp06/exp06_18.tga" 64 }
+	{Frame  "exp06/exp06_19.tga" 64 }
+	{Frame  "exp06/exp06_20.tga" 64 }
+	{Frame  "exp06/exp06_21.tga" 64 }
+	{Frame  "exp06/exp06_22.tga" 64 }
+	{Frame  "exp06/exp06_23.tga" 64 }
+	{Frame  "exp06/exp06_24.tga" 64 }
+	{Frame  "exp06/exp06_25.tga" 64 }
+	{Frame  "exp06/exp06_26.tga" 64 }
+	{Frame  "exp06/exp06_27.tga" 64 }
+	{Frame  "exp06/exp06_28.tga" 64 }
+	{Frame  "exp06/exp06_29.tga" 64 }
+	{Frame  "exp06/exp06_30.tga" 64 }
+	{Frame  "exp06/exp06_31.tga" 64 }
+	{Frame  "exp06/exp06_32.tga" 64 }
+	{Frame  "exp06/exp06_33.tga" 64 }
+	{Frame  "exp06/exp06_34.tga" 64 }
+	{Frame  "exp06/exp06_35.tga" 64 }
+	{Frame  "exp06/exp06_36.tga" 64 }
+	{Frame  "exp06/exp06_37.tga" 64 }
+	{Frame  "exp06/exp06_38.tga" 64 }
+	{Frame  "exp06/exp06_39.tga" 64 }
+	{Frame  "exp06/exp06_40.tga" 64 }
+	{Frame  "exp06/exp06_41.tga" 64 }
+	{Frame  "exp06/exp06_42.tga" 64 }
+	{Frame  "exp06/exp06_43.tga" 64 }
+	{Frame  "exp06/exp06_44.tga" 64 }
+	{Frame  "exp06/exp06_45.tga" 64 }
+	{Frame  "exp06/exp06_46.tga" 64 }
+	{Frame  "exp06/exp06_47.tga" 64 }
+	{Frame  "exp06/exp06_48.tga" 64 }
+	{Frame  "exp06/exp06_49.tga" 64 }
+	{Frame  "exp06/exp06_50.tga" 64 }
+	{Frame  "exp06/exp06_51.tga" 64 }
+	{Frame  "exp06/exp06_52.tga" 64 }
+	{Frame  "exp06/exp06_53.tga" 64 }
+	{Frame  "exp06/exp06_54.tga" 64 }
+	{Frame  "exp06/exp06_55.tga" 64 }
+	{Frame  "exp06/exp06_56.tga" 64 }
+	{Frame  "exp06/exp06_57.tga" 64 }
+	{Frame  "exp06/exp06_58.tga" 64 }
+	{Frame  "exp06/exp06_59.tga" 64 }
+	{Frame  "exp06/exp06_60.tga" 64 }
+	{Frame  "exp06/exp06_61.tga" 64 }
+	{Frame  "exp06/exp06_62.tga" 64 }
+	{Frame  "exp06/exp06_63.tga" 64 }
+	{Frame  "exp06/exp06_64.tga" 64 }
+
+}

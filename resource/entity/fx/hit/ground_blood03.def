@@ -1,0 +1,65 @@
+{fx
+	{#+ spriteview "blood ground"
+		{sprite "$/particle/bloodspot01"
+			{visibility 1
+				{npower
+					{min 1}
+					{max 0}
+					{pow 1.5}
+				}
+			}
+			{timer
+				{duration 90}
+			}
+			{scale 0.05 0.015}
+			{preturn 0 360}
+			{## highlight 0xff923c}
+		}
+		{ground}
+		{layer groundshadow}
+		{notifyowner}
+		{offset 0 0 2.5}
+	}
+	{#+ spriteview "blood ground"
+		{sprite "$/particle/bloodspot02"
+			{visibility 1
+				{npower
+					{min 1}
+					{max 0}
+					{pow 1.5}
+				}
+			}
+			{timer
+				{duration 90}
+			}
+			{scale 0.05 0.015}
+			{preturn 0 360}
+			{## highlight 0xff923c}
+		}
+		{ground}
+		{layer groundshadow}
+		{notifyowner}
+		{offset 0 0 2.5}
+	}
+	{#+ spriteview "blood ground"
+		{sprite "$/particle/bloodspot03"
+			{visibility 1
+				{npower
+					{min 1}
+					{max 0}
+					{pow 1.5}
+				}
+			}
+			{timer
+				{duration 90}
+			}
+			{scale 0.05 0.015}
+			{preturn 0 360}
+			{## highlight 0xff923c}
+		}
+		{ground}
+		{layer groundshadow}
+		{notifyowner}
+		{offset 0 0 2.5}
+	}
+}

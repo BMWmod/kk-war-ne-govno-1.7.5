@@ -1,0 +1,164 @@
+{fx
+	{#+ particleview smoke
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 1 1}
+				{alpha0 0}
+				{alpha1 5}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 2.25 0.75}
+			}
+			{axisz}
+			{timetolive -1}
+		}
+		{## offset 0 0 -100}
+		{mover
+			{damping 0.955}
+			{gravity
+				{value -0.02}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.1}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "/texture/fx/_bmp/smoke/smokeend_lightloop"
+					{turn 1
+						{linear
+							{min 0}
+							{max 25 50}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.3 0.1}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.75}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 180 50}
+					{redlight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+					{greenlight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+					{bluelight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+				}
+				{sprite "$/smoke/smokesmal4b_30"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 90 90}
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.1 0.035}
+							{max 0.6 0.2}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.75}
+						}
+					}
+					{redlight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+					{greenlight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+					{bluelight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+				}
+				{sprite "$/additional/smoke_light1_small"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 90 90}
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.1 0.035}
+							{max 0.6 0.2}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.75}
+						}
+					}
+					{redlight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+					{greenlight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+					{bluelight 1
+						{linear
+							{min 0.75}
+							{max 0.15}
+						}
+					}
+				}
+			}
+		}
+		{notifyowner}
+	}
+}

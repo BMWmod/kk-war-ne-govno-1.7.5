@@ -1,0 +1,60 @@
+{fx
+	{fire}
+	{#+ particleview "smoke tail"
+		{generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 0.1 0.1}
+				{alpha0 90 90}
+				{alpha1 90 90}
+				{speed 0.75}
+			}
+			{particleinit
+				{speed 0.125 0.125}
+				{lifetime 2.5 0.5}
+			}
+			{timetolive -1}
+			{axisz}
+		}
+		{mover
+			{damping 0.9}
+			{gravity
+				{value 0.0025}
+			}
+			{## nodependonwind}
+		}
+		{visualizer
+			{stage initial 
+				{sprite "$/additional/smoke_light1_small"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 0.7 0.05}
+							{max 0}
+						}
+					}
+					{scale 1
+						{power
+							{min 0.1}
+							{max 0.5 0.15}
+							{pow 0.75}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 250}
+						}
+					}
+					{preturn 90 90}
+					{highlight 0xf5faff}
+				}
+				{## flags trace }
+			}
+		}
+		{notifyowner}
+	}
+}

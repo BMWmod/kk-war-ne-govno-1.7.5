@@ -1,0 +1,7 @@
+{bitmap
+	{Axis 60 26}
+	{Filtering  1 }
+	{AlphaChannel  0 }
+	{Blend  Light }
+	{Frame  "sm_muz1.tga" }
+}

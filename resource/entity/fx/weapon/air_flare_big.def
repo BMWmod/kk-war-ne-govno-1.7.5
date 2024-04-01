@@ -1,0 +1,37 @@
+{fx
+	 {sound "world/flare"}
+	{#+ particleview "streaks flares"
+		{visualizer
+			{stage 
+				{sprite "/texture/fx/flash/halo02"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xffc455}
+					{light 1}
+					{scale 5}
+				}
+			}
+		}
+		{entitygenerator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 1}
+       				{alpha0 50}
+				{alpha1 180}
+				{distributionlaw sphere}
+			}
+			{particleinit
+				{speed 0.1}
+				{lifetime 25}
+			}
+			{entity "#ice01"
+				{fx "signal_rocket_big"}
+			}
+			{axisz}
+		}
+		{offset 0 0 1550}
+	}
+}

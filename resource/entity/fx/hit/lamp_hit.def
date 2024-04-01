@@ -1,0 +1,331 @@
+{fx
+	{sound "crush/medium/glass"}
+	{#+ lightview
+		{type point}
+		{animator
+			{timer
+				{mode play }
+				{duration 0.1}
+			}
+			{scale 1
+				{linear
+					{min 1}
+					{max 1}
+				}
+			}
+			{visibility 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{highlight 0xffedb0}
+		}
+		{attenuation0 0.1}
+		{attenuation1 3}
+		{radius 100}
+		{effectonground}
+		{offset 0 0 5}
+	}
+	{#+ spriteview halo
+		{sprite "$/additional/glow1"
+			{timer
+				{mode play }
+				{duration 0.075}
+			}
+			{light 1
+				{linear
+					{min 0.5}
+					{max 0}
+				}
+			}
+			{scale 0.5}
+			{highlight 0xffedb0}
+		}
+		{notifyowner}
+		{halo}
+		{autovisible}
+	}
+	{#+ spriteview "halo rays"
+		{sprite "$/additional/glow3"
+			{timer
+				{mode play }
+				{duration 0.075}
+			}
+			{light 1
+				{linear
+					{min 0.5}
+					{max 0}
+				}
+			}
+			{scale 0.2}
+			{highlight 0xffedb0}
+		}
+		{notifyowner}
+		{halo}
+		{autovisible}
+	}
+	{#+ spriteview "halo night"
+		{sprite "$/additional/glow1"
+			{timer
+				{mode play }
+				{duration 0.075}
+			}
+			{light 1
+				{linear
+					{min 0.15}
+					{max 0}
+				}
+			}
+			{scale 0.25}
+			{highlight 0xffedb0}
+		}
+		{notifyowner}
+		{halo}
+		{autovisible}
+		{nightonly}
+	}
+	{#+ spriteview flash
+		{sprite "$/additional/glow2"
+			{timer
+				{mode play }
+				{duration 0.075}
+			}
+			{preturn 90 90}
+			{scale 1
+				{linear
+					{min 0.05}
+					{max 0.15}
+				}
+			}
+			{light 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{highlight 0xffedb0}
+		}
+		{halo}
+		{notifyowner}
+		{autovisible}
+	}
+	{#+ particleview sparkles
+		{generator
+			{totalparticles 150}
+			{particlesinblock 150}
+			{emissionarea
+				{radius 1 1}
+				{alpha0 0 15}
+				{alpha1 0 65}
+				{psi 180 180}
+				{theta 155 25}
+			}
+			{particleinit
+				{speed 3 3}
+				{lifetime 1.25 0.5}
+			}
+			{axisz}
+			{timetolive 0.1}
+		}
+		{mover
+			{damping 0.955}
+			{gravity
+				{value 0.2}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/sparks_long"
+					{scalex 1
+						{linear
+							{min 0.25 0.025}
+							{max 0.025}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.05 0.005}
+							{max 0.025}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{preturn 90 0}
+					{highlight 0xffedb0}
+				}
+				{flags trace }
+			}
+		}
+	}
+	{#+ particleview "sparks fast continued"
+		{generator
+			{totalparticles 300}
+			{emissionarea
+				{radius 1 1}
+				{alpha0 0 15}
+				{alpha1 0 45}
+				{psi 180 180}
+				{theta 155 25}
+				{speed 1}
+			}
+			{particleinit
+				{speed 3 3}
+				{lifetime 1 0.35}
+			}
+			{axisz}
+			{timetolive 0.3}
+		}
+		{mover
+			{damping 0.955}
+			{gravity
+				{value 0.2}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.3}
+			}
+		}
+		{visualizer
+			{stage 
+				{flags trace }
+				{sprite "$/additional/sparks_long"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scalex 1
+						{linear
+							{min 0.25 0.025}
+							{max 0.025}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.05 0.005}
+							{max 0.025}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{preturn 90 0}
+					{highlight 0xffedb0}
+				}
+			}
+		}
+	}
+	{particleview glass
+		{generator
+			{totalparticles 15}
+			{particlesinblock 15}
+			{emissionarea
+				{radius 1.5 1.5}
+				{alpha0 135 5}
+				{alpha1 175 5}
+			}
+			{particleinit
+				{speed 2.75 2.75}
+				{lifetime 1.5 0.5}
+			}
+			{axisz}
+			{timetolive 0.01}
+		}
+		{mover
+			{damping 0.975}
+			{gravity
+				{value 0.2}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.3}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/particle/glass_small"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.3 0.1}
+					{preturn 90 90}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+				}
+				{sprite "$/particle/glass_small"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.25 0.0835}
+					{preturn 90 90}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+				}
+				{sprite "$/particle/glass_medium"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.055 0.0185}
+					{preturn 90 90}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+				}
+				{sprite "$/particle/glass_large"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.085 0.0285}
+					{preturn 90 90}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+				}
+			}
+		}
+		{notifyowner}
+	}
+}

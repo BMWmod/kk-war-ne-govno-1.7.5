@@ -1,0 +1,87 @@
+{fx
+	{#+ particleview wash
+		{generator
+			{totalparticles 50}
+			{emissionarea
+				{radius 1}
+				{alpha0 0}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 0.6 0.4}
+				{lifetime 3 1}
+			}
+			{autoturn}
+		}
+		{mover
+			{damping 0.97}
+			{gravity
+				{value 0}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.05}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{flags ground }
+				{sprite "$/flash/wave5a"
+					{preturn 90}
+					{scaley 1
+						{linear
+							{min 7 2}
+							{max 8.5 1.5}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 9 2}
+							{max 30 10}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.65 0.15}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xebf5ff}
+				}
+				{sprite "$/flash/wave5"
+					{preturn 90}
+					{scaley 1
+						{linear
+							{min 7 2}
+							{max 8.5 1.5}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 9 2}
+							{max 30 10}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.7 0.1}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xebf5ff}
+				}
+			}
+		}
+		{notifyowner}
+		{offset 0 0 -10}
+	}
+}

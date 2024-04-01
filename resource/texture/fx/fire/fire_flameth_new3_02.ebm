@@ -1,0 +1,7 @@
+{bitmap
+	{Axis  20 20 }
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend  Light }
+	{Frame  "fire_flameth_new3_02.tga"}
+}

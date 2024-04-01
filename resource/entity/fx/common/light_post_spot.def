@@ -1,0 +1,64 @@
+{fx
+	{lightview
+		{type spot}
+		{animator
+			{highlight 0xffedb0}
+		}
+		{attenuation0 0.15}
+		{attenuation1 10}
+		{falloff 1}
+		{theta 10}
+		{phi 120}
+		{radius 450}
+		{priority 10}
+		{effectonground}
+	}
+	{#+ particleview flies
+		{generator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 1 1}
+				{alpha0 0}
+				{alpha1 360}
+			}
+			{particleinit
+				{speed 1}
+				{lifetime 0.3 0.2}
+			}
+			{axisz}
+			{timetolive 5}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.01}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 
+						{peak
+							{min 0}
+							{max 0.1 0.05}
+						}
+					}
+					{light
+						{peak
+							{min 0}
+							{max 0.5 0.15}
+						}
+					}
+					{highlight 0xffedb0}
+				}
+			}
+		}
+		{notifyowner}
+	}
+}

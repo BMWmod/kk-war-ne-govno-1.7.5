@@ -1,0 +1,146 @@
+{fx
+	{#+ particleview wash
+		{generator
+			{totalparticles 50}
+			{emissionarea
+				{radius 0.3}
+				{alpha0 0}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 0.6 0.4}
+				{lifetime 3 1}
+			}
+			{autoturn}
+		}
+		{mover
+			{damping 0.97}
+			{gravity
+				{value 0}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.05}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{flags ground }
+				{sprite "$/flash/wave5a"
+					{preturn 270}
+					{scaley 1
+						{linear
+							{min 1.5 0.5}
+							{max 3.5 0.5}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 1 0.25}
+							{max 7 2}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.65 0.15}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{shifty -20 4}
+					{highlight 0xebf5ff}
+				}
+				{sprite "$/flash/wave5"
+					{preturn 270}
+					{scaley 1
+						{linear
+							{min 1.5 0.5}
+							{max 3.5 0.5}
+						}
+					}
+					{scalex 1
+						{linear
+							{min 1 0.25}
+							{max 7 2}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.7 0.1}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{shifty -20 4}
+					{highlight 0xebf5ff}
+				}
+			}
+		}
+		{notifyowner}
+		{offset 0 0 -10}
+	}
+	{#+ particleview drops
+		{generator
+			{totalparticles 50}
+			{emissionarea
+				{radius 30 30}
+				{alpha0 0}
+				{alpha1 5 5}
+				{speed 1}
+			}
+			{particleinit
+				{speed 10 1}
+				{lifetime 1 0.2}
+			}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0.9}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.05}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/smoke/smokesmal4ablue"
+					{scale 1
+						{linear
+							{min 2 0.7}
+							{max 5 1}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 200}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{highlight 0xebf5ff}
+				}
+			}
+		}
+		{notifyowner}
+		{offset 0 0 -15}
+	}
+}

@@ -1,0 +1,196 @@
+{fx
+	{##+ spriteview
+		{sprite "/texture/fx/particle/metal_drops1"
+			{light 1}
+			{timer
+				{mode play loop }
+				{duration 0.1}
+			}
+			{highlight 0xffc455}
+			{scalex 0.25 0.1}
+			{scaley 0.25 0.1}
+		}
+		{autovisible}
+		{halo}
+		{orientation billboard}
+	}
+	{#+ particleview "fire drops"
+		{generator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 0 5}
+			}
+			{particleinit
+				{speed 1.5 0.75}
+				{lifetime 5 1}
+			}
+			{timetolive 0.1}
+			{ownerspeed}
+		}
+		{mover
+			{damping 0.99}
+			{gravity
+				{value 0.1}
+			}
+			{collisions
+				{terrain}
+				{objects}
+				{restitution 0.1}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage initial
+				{sprite "$/flash/flashssp2"
+					{scalex 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.15 0.05}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.025 0.0085}
+							{max 0.075 0.025}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{highlight 0xff7d32}
+				}
+				{sprite "$/flash/flashssp2"
+					{scalex 1
+						{linear
+							{min 0.05 0.015}
+							{max 0.2 0.065}
+						}
+					}
+					{scaley 1
+						{linear
+							{min 0.025 0.0085}
+							{max 0.1 0.035}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{highlight 0xff7d32}
+				}
+				{flags trace }
+			}
+			{stage collided 
+				{sprite "$/_bmp/explosion/faerog"
+					{scale 0.25 0.0835}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{preturn 180 20}
+					{highlight 0xffc455}
+				}
+				{flags killparticle }
+			}
+		}
+	}
+	{#+ particleview "fire drops"
+		{generator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 0 5}
+			}
+			{particleinit
+				{speed 1.5 0.75}
+				{lifetime 2.5 0.835}
+			}
+			{timetolive 0.1}
+			{ownerspeed}
+		}
+		{mover
+			{damping 0.99}
+			{gravity
+				{value 0.1}
+			}
+			{collisions
+				{terrain}
+				{objects}
+				{once}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage initial 
+				{sprite "$/additional/sparks_long"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 1}
+						}
+					}
+					{scalex 0.15 0.05}
+					{scaley 0.25 0.15}
+					{highlight 0xff7d32}
+				}
+			}
+			{stage collided 
+				{sprite "$/additional/fire_shot1"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{scale 0.1 0.035}
+					{highlight 0xff6900}
+				}
+				{flags ground }
+			}
+		}
+	}
+}

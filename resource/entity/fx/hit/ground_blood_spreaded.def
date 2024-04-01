@@ -1,0 +1,29 @@
+{fx
+	{spriteview
+		{sprite "$/particle/bloodstain"
+			{timer
+				{mode play }
+				{duration 90}
+			}
+			{visibility 1
+				{npower
+					{min 1}
+					{max 0}
+					{pow 1.5}
+				}
+			}
+			{scale 1
+				{npower
+					{min 0.015}
+					{max 0.15}
+					{pow 0.25}
+				}
+			}
+			{preturn 0 360}
+			{## highlight 0xff923c}
+		}
+		{ground}
+		{layer groundshadow}
+		{notifyowner}
+	}
+}

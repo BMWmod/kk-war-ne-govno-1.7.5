@@ -1,0 +1,104 @@
+{fx
+	{#+ particleview "smoke puff tail longer"
+		{generator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 0}
+				{speed 0.5}
+			}
+			{particleinit
+				{speed 1}
+				{lifetime 1.75}
+			}
+			{timetolive 6}
+		}
+		{mover
+			{damping 0.5}
+			{gravity
+				{value -0.003}
+			}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_light1_small"
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.1 0.05}
+							{max 0.2 0.1}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.6 0.1}
+							{max 0}
+						}
+					}
+					{preturn 90 90}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+				}
+				{sprite "$/smoke/smokesmal4b_30"
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.05 0.025}
+							{max 0.4 0.05}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.6 0.1}
+							{max 0}
+						}
+					}
+					{preturn 90 90}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+				}
+				{sprite "$/additional/smoke_light1_small"
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.1 0.025}
+							{max 0.3 0.05}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.6 0.1}
+							{max 0}
+						}
+					}
+					{preturn 90 90}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+				}
+			}
+		}
+	}
+}

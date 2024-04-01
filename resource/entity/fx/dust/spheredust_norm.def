@@ -1,0 +1,184 @@
+{fx
+	{#+ particleview pieces
+		{#+ generator
+			{totalparticles 5}
+			{particlesinblock 5}
+			{emissionarea
+				{radius 3}
+				{alpha0 0}
+				{alpha1 180 10}
+			}
+			{particleinit
+				{speed 2 1}
+				{lifetime 3 1}
+			}
+			{timetolive 0.1}
+			{axisz}
+		}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value 0.15}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.3}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/particle/rock"
+					{preturn 90 90}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{scale 0.175 0.125}
+				}
+				{sprite "$/particle/rock_4"
+					{preturn 90 90}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{scale 0.175 0.075}
+				}
+				{sprite "$/particle/rock_2"
+					{preturn 90 90}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{scale 0.135 0.065}
+				}
+			}
+		}
+	}
+	{#+ particleview "dust burst"
+		{generator
+			{totalparticles 10}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 3}
+				{alpha0 0}
+				{alpha1 90}
+				{speed 1}
+			}
+			{particleinit
+				{speed 1.0 0.35}
+				{lifetime 1.0 0.35}
+			}
+			{axisz}
+			{timetolive 1}
+		}
+		{offset 0 0 7.5}
+		{mover
+			{gravity
+				{value 0.003}
+			}
+			{damping 0.975}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_light1_small"
+					{scale 1
+						{linear
+							{min 0.15 0.05}
+							{max 1.5 0.5}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.5 0.1}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xcdcdcd}
+					{preturn 90 90}
+				}
+				{# sprite "$/smoke/smokesmal4b_30"
+					{scale 1
+						{linear
+							{min 0.15 0.05}
+							{max 2 0.65}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.5 0.1}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xcdcdcd}
+					{preturn 90 90}
+				}
+				{# sprite "$/smoke/smokesmal4b_30"
+					{scale 1
+						{linear
+							{min 0.15 0.05}
+							{max 2.5 0.75}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.5 0.1}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 50 200}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xebf5ff}
+					{preturn 90 90}
+				}
+			}
+		}
+		{notifyowner}
+	}
+}
