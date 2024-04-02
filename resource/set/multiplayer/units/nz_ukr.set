@@ -10,7 +10,7 @@
   ;ТРО
  ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(ukr_tro) c(170) g(ukr_tro) 
   c1(ukr_comua:1) c2(ukr_mgunua:1) c3(ukr_mgunhelpua:1) c4(ukr_smgua:1) c5(ukr_smg2ua:1) c6(ukr_rpgua:1) c7(ukr_rpghelpua:1) c8(ukr_sniperua:1) 
-  b(common) brig(common) t(all_nz inf_irg) cost(60) f(1.0) )
+  b(common) brig(common) t(all_nz inf_irg) cost(50) f(1.0) )
   
   ;Икарус
   {"liaz_ukr" {fore 1} ("v3" c(60) sc(10) g(ikarus)  b(common) brig(common) s(ukr)  i(846) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:1) )}
@@ -50,7 +50,7 @@
   ;ПЗРК сквад
  ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(pzrk_ua) c(90) g(pzrk_ua) 
   c1(ukr_pzrk2:2) c2(ukr_pzrk1:2) 
-  b(common) brig(common) t(all_nz) cost(65) f(1.0) )
+  b(common) brig(common) t(all_nz) cost(55) f(1.0) )
   
   ;Мобильная ПЗРК группа
   {"toyota_hilux_dshkm_ukr1" {fore 1} ("v3" c(40) sc(75) g(pzrk_ua)  b(common) brig(common) s(ukr)  i(807) cw(10) cp(10) t(all_nz) c1(toyota_hilux_dshkm) n(3) n1(vehicle_supporter:1) n2(ukr_pzrk2:2) n3(ukr_pzrk1:2))}
@@ -58,7 +58,7 @@
   ;Оператор БПЛА
   ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(operator_bpla) c(170) g(ukr_terminator) 
   c1(operator_bpla_ukr:1)
-  b(supl) brig(ngu_ua) t(all_nz inf_irg) cost(80) f(1.0) )
+  b(supl) brig(ngu_ua) t(all_nz inf_irg) cost(60) f(1.0) )
   
     ;СПГ-9
  {"spg_9_ukr" {fore 1} ("v3" c(120) sc(35) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(spg_9) n(2) n1(vehicle_supporter:2)   ) } 
@@ -98,17 +98,17 @@
 ;ПТ сквад 
  ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_at) c(170) g(azov_at) 
   c1(ukr_at:4) c2(ukr_mgunua:2) 
-  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz inf_irg) cost(70) f(1.0) )
+  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz inf_irg) cost(60) f(1.0) )
   
 ;Бригада АЗОВ
  ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_zzzzzz) c(170) g(azov_zzzzzz) 
  c1(azov_mg:2) c2(azov_smg1:2) c3(azov_smg2:2) c4(azov_nlaw:2)
- b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(110) f(1.0) )
+ b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(90) f(1.0) )
   
 ;Снайперы АЗОВ
 ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_zsniper) c(170) g(azov_zsniper) 
  c1(azov_sniper:2) c2(azov_officer:1) 
- b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(70) f(1.0) )
+ b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(50) f(1.0) )
  
  ;Терминатор))))
 ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(terminator) c(170) g(ukr_terminator) 
@@ -124,7 +124,7 @@
  {"oshkosh_m-atv_ua" {fore 1} ("v3" c(240) sc(60) g(oshkosh)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(oshkosh_m-atv_mk19) n(2) n1(tankman:2))}
   
  ;ошкош с МК-19 и десантом
-  {"oshkosh_m-atv_ua_at" {fore 1} ("v3" c(240) sc(110) g(atmob)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(oshkosh_m-atv_mk19) n(2) n1(tankman:2) n2(ukr_at:3)) }
+  {"oshkosh_m-atv_ua_at" {fore 1} ("v3" c(240) sc(90) g(atmob)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(oshkosh_m-atv_mk19) n(2) n1(tankman:2) n2(ukr_at:3)) }
   
 
  ;скипидар
@@ -288,3 +288,6 @@
   
  ;Варриор с дзшкой и третьей штурмовой
  {"warrior_wrap2_ukr_inf" {fore 0} ("v3" c(340) sc(40) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(9002) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3) n2(azov_mg:1) n3(azov_smg1:2) n4(azov_smg2:2) n5(azov_nlaw:2))}
+ 
+ ;Краш
+ {"krash_ukr" {fore 0} ("v" c(340) sc(500) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(90052) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3))}
