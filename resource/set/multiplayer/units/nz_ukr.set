@@ -130,6 +130,10 @@
  ;скипидар
  {"fv107scimitar_mk2"{fore 1} ("v3" c(240) sc(50) g(scipidar)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(200) cw(10) cp(10) t(all_nz) c1(fv107scimitar_mk2) n(2) n1(tankman:2))}
  
+  ;Варриор с дзшкой
+  {"warrior_wrap2_ukr" {fore 0} ("v3" c(300) sc(80) g(btr)  b(ngu_ua_hqcar) brig(vsu_ua) s(ukr)  i(80343) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
+  
+ 
  ;===============================БРОНЕТАНКОВЫЕ=========================================== 
  
   ;AMX-10RCR
@@ -272,22 +276,18 @@
  {"bayraktar_tb2_maml_ukr" {fore 1} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	
  
  
- ;===========================
+ ;=========================== Спец очки должны быть кратны ~ 5
  
  ;Су-24М с ракетами
  {"su24m_ukr88" {fore 0} ("v3" c(600) sc(200) g(air_su22ukr) b(extra) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(su24m_strike) n(2) n1(pilot:2) ) }
  
   ;Леопадла 2А6
- {"leopard_2a6_ukr" {fore -1.0} ("v3" c(250) sc(100) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(21) cw(0) cp(60) t(all_nz) c1(leopard_2a6_dz) n(1) n1(tankman:4)) }
+ {"leopard_2a6_ukr" {fore -1.0} ("v3" c(250) sc(150) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(21) cw(0) cp(60) t(all_nz) c1(leopard_2a6_dz) n(1) n1(tankman:4)) }
  
  ;T-62МД
- {"t62md"	("v" c(250) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldsovua)  sc(40) b(extra) i(12) cw(0) cp(2))  {fore 1.0}}
+ {"t62md"	("v" c(250) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldsovua)  sc(50) b(extra) i(12) cw(0) cp(2))  {fore 1.0}}
  
- ;Варриор с дзшкой
-  {"warrior_wrap2_ukr" {fore 0} ("v3" c(300) sc(20) g(btr)  b(extra) brig(vsu_ua) s(ukr)  i(80343) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
-  
+
  ;Варриор с дзшкой и третьей штурмовой
- {"warrior_wrap2_ukr_inf" {fore 0} ("v3" c(340) sc(40) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(9002) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3) n2(azov_mg:1) n3(azov_smg1:2) n4(azov_smg2:2) n5(azov_nlaw:2))}
+ {"warrior_wrap2_ukr_inf" {fore 0} ("v3" c(340) sc(50) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(9002) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3) n2(azov_mg:1) n3(azov_smg1:2) n4(azov_smg2:2) n5(azov_nlaw:2))}
  
- ;Краш
- {"krash_ukr" {fore 0} ("v" c(340) sc(500) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(90052) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3))}
