@@ -26,9 +26,9 @@
 		}
 		{"avoidance" lvl_2
 		}
-		{"health" "600%"
+		{"health" "250%"
 		}
-		{"health_regeneration" "100%"
+		{"health_regeneration" "110%"
 		}
 		{"stamina" "120%"
 		}

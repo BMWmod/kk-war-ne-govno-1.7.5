@@ -26,15 +26,15 @@
 		}
 		{"avoidance" lvl_2
 		}
-		{"health" "1000%"
+		{"health" "250%"
 		}
-		{"health_regeneration" "100%"
+		{"health_regeneration" "110%"
 		}
-		{"stamina" "1200%"
+		{"stamina" "120%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"speed" 1.4
+		{"speed" 1.1
 		}
 		{"skill_tankgun" lev_1
 		}
