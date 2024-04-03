@@ -254,6 +254,9 @@
   ;Насамс
   {"nasams_ukr" {fore -1} ("v3" c(200) sc(230) g(strela)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(263) cw(0) cp(15) t(all_nz) c1(nasams_ii_launcher) n(2) n1(tankman:2)   ) }
   
+  ;Буб-М1
+  {"buk_m1_ukr" {fore 0.0} ("v3" c(250) sc(300) g(buk) b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(9676) cw(0) cp(25) t(all_nz) c1(buk_m1) n(2)  n1(tankman:3)  ) }
+  
   ;ХАВК
   {"hawk_cwar_ukr" {fore -1} ("v3" c(200) sc(30) g(radar)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(264) cw(0) cp(15) t(all_nz) c1(hawk_cwar) n(2)  ) }
  
