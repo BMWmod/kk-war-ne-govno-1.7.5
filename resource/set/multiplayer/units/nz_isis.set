@@ -146,6 +146,8 @@
  
  {"btr4e1_whth_pt" {fore 1} ("v" c(300) sc(50) g(BTR4) b(extra) brig(iregular_mot) s(iregular)  i(88) cw(0) cp(15) t(all_nz    ) n(3)               ) }
  {"t80ybars" {fore 0} ("p" c(960) sc(200) g(air) b(extra) brig(iregular_specbr) s(iregular)   i(2) m(3) cw(0) cp(40) t(all_nz aircraft   ) n(3)               ) }
+ {"t72av_turmst" {fore 0} ("v" c(670) sc(100) g(tonk) b(extra) brig(iregular_specbr) s(iregular)   i(443) m(3) cw(0) cp(35) t(all_nz aircraft   ) n(3)               ) }
+ 
  {"9k72" {fore 0} ("p" c(1000) sc(300) g(air_strike) b(extra)  brig(iregular_specbr) s(iregular) i(3) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(6)               ) }
  
  {"shahed136_truck" {fore 0} ("p" c(800) sc(150) g(air_st222rike) b(extra)  brig(iregular_specbr) s(iregular) i(4) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(3)               ) }
