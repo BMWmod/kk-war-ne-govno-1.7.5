@@ -3,7 +3,7 @@
 	(include "/properties/shadow/tank.inc"  scale(1.0))
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 	{collider "truck"}
-	{props "vehicle" "turret" "turret_rotator" "sam_radar" "wheeled" "6_wheels" "windowed" "vision_lev05" "cw_artillery" "-standart_netting" "long_netting"}
+	{props "vehicle" "turret" "turret_rotator" "wheeled" "6_wheels" "windowed" "vision_lev05" "cw_artillery" "-standart_netting" "long_netting"}
 	{extender "enumerator" {digit_folder "black"} {group "2digit"}}
 	;это небронированный грузовик, но с защищенной кабиной. Спасет экипаж, но не артустановку.
 	("armor_car_M" body(0.75) cabin(8) dur_value(10) dur(0.5) thr(0.25) engine(4) body_back(1) wheel(2) wheel_val(2) mrap(5) mrap_val(5))

@@ -1,5 +1,5 @@
 ;Exported by: Timosh
-;Date:        Sat Mar 30 09:02:31 2024
+;Date:        Sun Mar 31 12:09:09 2024
 ;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\Caesar Artillery\?????? CW\Caesar CW final.max
 {Skeleton
 	{animation
@@ -715,7 +715,6 @@
 									0.95452	0	-0.298148
 									-8.41072	-8.68262	2.0378
 								}
-								{visibility 0}
 								{VolumeView "projectile.ply"}
 							}
 						}

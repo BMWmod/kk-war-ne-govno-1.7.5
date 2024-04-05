@@ -687,8 +687,8 @@
 }
 
 {"sam_no_radar_datalink"
-    ("h_fov" h(180))
-    ("v_fov" v(360))
+    ("h_fov" h(360))
+    ("v_fov" v(180))
 	("datalink" r(260))
 }	
 

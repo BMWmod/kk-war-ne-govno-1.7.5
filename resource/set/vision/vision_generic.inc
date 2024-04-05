@@ -308,7 +308,7 @@
 )
 (define "aviation_in_rad_spectre"
         {UAV  (* %radar 3.5)            {still (* %stand_radar (* %radar 1.4))}}
-        {plane  (* %radar 4.3) {still (* %stand_radar 1.8)}}
+        {plane  (* %radar 5.2) {still (* %stand_radar 1.8)}}
         {helicopter  (* %radar 3.5) {still (* %stand_radar 2)}}
 )
 (define "marine_in_rad_spectre"       {bigship (* %radar 2.5)}{submarine (* %radar 1.0)})
