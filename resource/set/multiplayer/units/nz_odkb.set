@@ -34,11 +34,10 @@
  {"kraz_6322_fuel" {fore 1} ("vs" c(120) sc(25) g(fuel) b(supl) brig(common) s(odkb)  i(3) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
 
 {"t72a_1984year"		("v" c(600) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(100) b(supl) i(11) cw(0) cp(2))  {fore 1}}
-{"t-64b"		("v" c(600) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(110) b(supl) i(12) cw(0) cp(2))  {fore 1}}
 {"t72b1"		("v" c(600) brig(common) t(all_nz  nobot) s(odkb) n(0) g(reserv)  sc(120) b(supl) i(13) cw(0) cp(2))  {fore 1}}	
 
 
-{"uaz469_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(odkb)  i(666) cw(5) cp(5) t(all_nz    ) n(4)               ) }	
+{"uaz469_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(odkb)  i(666) cw(5) cp(5) t(all_nz    ) n(0)               ) }	
 ;=========авиация============= avia_odkb avia_odkb_hqcar
  {"mi-24vm" {fore 0.3} ("p" c(600) sc(360) g(heli) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(1) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(2)               ) }
  
@@ -59,20 +58,22 @@
 
 	{"d30i" {fore 0.75} ("vart" c(600) sc(90) g(art) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(2) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(d30) n1(vehicle_supporter:2)            ) }
 	{"giatsint_b" {fore 0.85} ("vart" c(600) sc(120) g(art2) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(2) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(giatsint_b) n1(vehicle_supporter:2)            ) }
-	{"mstasm2_odkb" {fore 0.4} ("v" c(600) sc(400) g(art1) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(3) cw(0) cp(35) t(all_nz art support_frontline  ) n(4)               ) }		
+	{"mstasm2_odkb" {fore 0} ("v" c(669) sc(400) g(art1) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(3) cw(0) cp(35) t(all_nz art support_frontline  ) n(4)               ) }		
 	
 	{"kamaz_grad" {fore 0} ("vs" c(600) sc(400) g(art1) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(4) cw(0) cp(35) t(all_nz art support_frontline  ) n(2)               ) }     
-	{"2c1" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(6) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
-	{"Strela_odkb" {fore 1} ("v3" c(300) sc(150) g(pvo2)  b(art_odkb_hqcar) brig(common) s(odkb)  i(5153) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10m3) n(1) n1(vehicle_supporter:3)      ) }
- 
-	{"tor_m2_early" {fore 0.0} ("v" c(1330) sc(200) g(pvo_tor) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(69) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
-	{"tunguska" {fore 0.0} ("v" c(1330) sc(190) g(tunguskayobka) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(969) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
-	{"buk_m1" {fore 0.0} ("v" c(1330) sc(300) g(buk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(96) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
-	
-	{"kupolodkb" {fore 0.75} ("vart" c(600) sc(110) g(kupol) b(art_odkb_hqcar) brig(art_odkb) s(odkb) i(55) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(9s18_kupol) n1(vehicle_supporter:5)            ) }
-	{"tochka_y_wagner" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(555) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+	{"2c1" {fore 0.75} ("v" c(600) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(6) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+	{"2c4_tulpan" {fore 0.0} ("v" c(230) sc(150) g(2s4) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(53431) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 
 	
+	{"Strela_odkb" {fore 1} ("v3" c(300) sc(150) g(pvo2)  b(art_odkb_hqcar) brig(common) s(odkb)  i(5153) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10m3) n(1) n1(vehicle_supporter:3)      ) }
+ 
+	{"tor_m2_early" {fore 0.0} ("v" c(269) sc(200) g(pvo_tor) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(69) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+	{"tunguska" {fore 0.0} ("v" c(269) sc(190) g(tunguskayobka) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(969) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+	{"buk_m1" {fore 0.0} ("v" c(1000) sc(300) g(buk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(96) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+	
+	{"kupolodkb" {fore 0.0} ("vart" c(1000) sc(110) g(kupol) b(art_odkb_hqcar) brig(art_odkb) s(odkb) i(55) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(9s18_kupol) n1(vehicle_supporter:5)            ) }
+	{"tochka_y_wagner" {fore 0.0} ("v" c(900) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(555) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+
                    
     {"kraz_6322_art_pvo" {fore 1} ("vs" c(120) sc(25) g(art_boep)b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(333) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
 

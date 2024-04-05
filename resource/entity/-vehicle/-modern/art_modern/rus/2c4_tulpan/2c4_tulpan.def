@@ -38,8 +38,8 @@
 		{box
 		{Size 8 6}
 		{Weight 15000}
-		{item "ammo 240mm_Mortar fg" 15}
-		{item "ammo 240mm_Mortar fl" 5}
+		{item "ammo 240mm_Mortar fg" 20}
+		;{item "ammo 240mm_Mortar fl" 5}
 		}
 	}
 	{Weaponry
@@ -81,7 +81,7 @@
 			Width(3.25)
 			Power(300)
 			Realspeed(52)
-			Gamespeed(32) 
+			Gamespeed(34) 
 		)
 		{RearGears		0.20 0.34}}
 		("CW_fuelbag" Range(500) Fuelvolume(830))

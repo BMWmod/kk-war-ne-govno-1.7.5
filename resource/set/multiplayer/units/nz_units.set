@@ -96,6 +96,9 @@
  {"mtlb_c5_vasilek" {fore 1} ("v" c(250) sc(125) g(mtlbvasilek) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(512) cw(0) cp(20) t(all_nz   ) n(4)               ) }
  {"t-55_rus" {fore 0} ("v3" c(300) sc(100) g(art_heavy2)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(2) cw(0) cp(25) t(all_nz inf_irg infantry ) c1(t-55_rus) n(1) n1(tankman:4)   ) }
  {"ural_grad_ser" {fore 0} ("v3" c(600) sc(200) g(art_heavy)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(3) cw(0) cp(50) t(all_nz inf_irg infantry ) c1(ural_grad) n(1) n1(vehicle_supporter:2)   ) }
+ {"2c4_tulpan_ser" {fore 0} ("v3" c(230) sc(150) g(2s4)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(333) cw(0) cp(25) t(all_nz inf_irg infantry ) c1(2c4_tulpan) n(1) n1(vehicle_supporter:2)   ) }
+ 
+
  
  {"mtlb_vmk_ogon" {fore 1} ("v" c(1000) sc(169) g(mtlbogn)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(1) cw(0) cp(20) t(all_nz   ) n(3)               ) }
  {"2c23" {fore 0} ("v" c(540) sc(170) g(nonasvk) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(15) cw(0) cp(20) t(all_nz art   ) n(2)               ) }

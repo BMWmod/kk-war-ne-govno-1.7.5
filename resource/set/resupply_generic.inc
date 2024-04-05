@@ -580,6 +580,7 @@
 (define "grad"
 	{item "shahed136 base ammo" 1 {max 5}{value 30}}	
 	{item "ammo r17" 1 {max 1} {value 300}}	
+	{item "ammo 240mm_Mortar fg" 1 {max 10} {value 35}}	
 	{item "grad rok ammo" 8 {max 40}{value 100}}
     {item "tos1a fg ammo" 2 {max 24}{value 30}}	
 ;	{item "grad cl ammo" 10 {max 40}{value 50}}				
