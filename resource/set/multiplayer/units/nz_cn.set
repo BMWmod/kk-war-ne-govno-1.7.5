@@ -72,6 +72,7 @@
 {"jh-7a_bomber"	("p" c(600) brig(cnair) t(all_nz additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(extra2)  sc(200) b(extra) i(15) cw(0) cp(100))  {fore -1.5}}
 {"jh-7a_strike"	("p" c(600) brig(cnair) t(all_nz additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(extra3)  sc(150) b(extra) i(17) cw(0) cp(100))  {fore -1.5}}
 
+{"shaanxi_sx2190_avia"	("vs" c(600) brig(cnair) t(all_nz aircraft supply nobot support_frontline) s(cn) n(2) g(123) 	sc(100) b(cnair_hqcar) i(9) cw(0) cp(2))  {fore 1}} 
 
 ;===============================ПВО===========================================
 
@@ -79,19 +80,17 @@
 {"hq-16b_launcher" ("v" c(600) brig(cnart) t(all_nz art aat nobot support_frontline) s(cn) n(4) g(pvo17) sc(160) b(cnart_hqcar) i(6) cw(0) cp(40))  {fore -1.2}}
 {"hq-16b_radar" ("v" c(600) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(5) g(pvor) sc(200) b(cnart_hqcar) i(7) cw(0) cp(15))  {fore -1.2}}
 {"llq305_radar" ("v" c(300) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(2) g(radar) sc(50) b(cnart_hqcar) i(8) cw(0) cp(5))  {fore 0.8}}
-{"shaanxi_sx2190_avia"	("vs" c(600) brig(cnair) t(all_nz aircraft supply nobot support_frontline) s(cn) n(2) g(123) 	sc(100) b(cnart_hqcar) i(9) cw(0) cp(2))  {fore 1}} 
-{"shaanxi_sx2190_art_pvo"	("vs" c(300) brig(cnart) t(all_nz supply nobot support_frontline) s(cn) n(2) g(supplyart) 	sc(100) b(cnair_hqcar) i(10) cw(0) cp(2))  {fore 1}}
+
+{"shaanxi_sx2190_art_pvo"	("vs" c(300) brig(cnart) t(all_nz supply nobot support_frontline) s(cn) n(2) g(supplyart) 	sc(100) b(cnart_hqcar) i(10) cw(0) cp(2))  {fore 1}}
 {"box_weapon_cn_krasnopol"	("vs" c(1) brig(cnart) t(all_nz supply nobot support_frontline precision_munition) s(cn) n(0) g(supplyart_spec) 	sc(1) b(cnart_hqcar) i(11) cw(0) cp(2)) {cost 50} {fore 1}}  
 
 {"pgz-09"	("v" c(240) brig(cnsam) t(all_nz art aat support_frontline) s(cn) n(3) g(extra4) sc(80) b(cnart_hqcar) i(4) cw(0) cp(25))  {fore 0.0}}
 {"tor_m1_cn"	("v" c(400) brig(cnsam) t(all_nz art aat support_frontline) s(cn) n(4) g(extra5) sc(50) b(extra) i(6) cw(0) cp(25))  {fore 0.0}}
 {"j-10c_patrol"	("p" c(400) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(extra6)  sc(200) b(extra) i(7) cw(0) cp(50))  {fore -1.4}}
 
-;===============================Артиллеристы===========================================
-
+{"type63_rocket2"	("vart" c(250)  c1(lyt2021) c2(type63_rocket2) brig(cnmed) t(all_nz nobot) s(cn) n1(vehicle_supporter:2) g(extra14) sc(50) b(cnart_hqcar) i(217) cw(0) cp(25))  {fore 0}}
 
 ("squad_with2types" name(miners) side(cn) c(240) g(eng) c1(antipersonel_miner:2) c2(antitank_miner:6) b(cnart_hqcar) brig(cnart) t(all_nz nobot) cost(25) f(1) info(miners))
-("squad_with1types" name(sappers) side(cn) c(240) g(eng) c1(saper:1) b(cnart_hqcar) brig(cnart) t(all_nz nobot support_frontline) cost(10) f(1) info(miners))
 
 ("squad_with9types" side(cn) name(spotters) c(300) g(spot) c1(elite_com_art:3) b(cnart_hqcar) brig(cnart) t(all_nz infantry support_frontline) cost(20) f(1) info(elite))
 
@@ -129,7 +128,7 @@
 
 
 
-{"ztq-15"		("v" c(500) t(all_nz tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(150) b(cnheavy_hqcar) i(69) cw(0) cp(60))  {fore 1}}
+{"ztq-15"		("v" c(500) t(all_nz tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(100) b(cnheavy_hqcar) i(69) cw(0) cp(60))  {fore 1}}
 
 {"ztz-96a"		("v_v" c(450) brig(cnheavy) t(all_nz tanks_only duel_tanks90 tank_cn) s(cn) n(3) g(obt_mot1)  sc(125) b(cnheavy_hqcar) i(7) m(4) cw(0) cp(50))  {fore 1}} 
 
@@ -169,7 +168,7 @@
 
 
 ("squad_with9types" side(cn) name(elite2) c(480) g(extra13) c1(elite2_com:1) c2(elite2_mgun:2) c3(elite2_minmen:1) c4(elite2_smg:2) c5(elite2_rpg:2) c6(elite2_rpghelp:2) c7(elite2_sniper:1) c8(elite2_smg2:2) b(extra) brig(cnmed) t(all_nz specnaz infantry nobot) cost(50) f(0) info(morspec))
-{"type63_rocket2"	("vart" c(500)  c1(lyt2021) c2(type63_rocket2) brig(cnmed) t(all_nz nobot) s(cn) n1(vehicle_supporter:2) g(extra14) sc(50) b(extra) i(7) cw(0) cp(25))  {fore 0}}
+
 {"pll-05"		("v" c(600) brig(cnmed) t(all_nz art) s(cn) n(4) g(extra15)   sc(100) b(extra) i(13) cw(0) cp(30))  {fore -0.2}}
 
 ;===============================Бригада ШОС===========================================
