@@ -1,6 +1,0 @@
-{material envmap
-	{diffuse "$/model/ukraine_bogdana_artillery/ukraine_bogdana_artillery_glass"}
-	{mask "$/model/ukraine_bogdana_artillery/ukraine_bogdana_artillery_glass_gmm"}
-
-	{blend blend}
-}

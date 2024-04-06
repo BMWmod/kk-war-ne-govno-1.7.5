@@ -42,11 +42,21 @@
                         
 ;===============================Common=========================================== 
 
+("squad_with11types_custom" side(nato) crew_nation(cz) name(cz) c(70) g(inf_common) 
+  c1(cz_com:1) c2(cz_mgun:1) c3(cz_mgunhelper:1) c4(cz_bazooker2:1) c5(cz_smg:1) c6(cz_sniper:1)
+  b(common) brig(common) t(all_nz infantry) cost(50) f(1) info(cz)
+)
+
+ {"tatra_t810i" {fore 1} ("v3cz" c(180) sc(55) g(inf1) b(common) brig(common) s(nato)  i(2) cw(0) cp(2) t(all_nz inf_nato infantry  ) n(1) c1(tatra_t810) n1(vehicle_supporter:2) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) n7(cz_sniper:1)       ) }
+
+{"vab_t20" ("v3cz" c(480) c1(vab_t20)brig(common) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp_common)  sc(30) b(common) i(912) cw(5) cp(5))  {fore 1}}
+{"vab_t20i" ("v3cz" c(480) c1(vab_t20)brig(common) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) g(inf0)  sc(80	) b(common) i(513) cw(0) cp(15))  {fore 1}}
 
 
-
-
-
+ {"cv9040" {fore 1} ("v3cz" c(250) sc(50) g(inf3) b(common) brig(common) s(nato)  i(1213) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(cv9040) n1(tankman:3)     ) }
+    
+ {"cv9040i" {fore 0} ("v3cz" c(250) sc(110) g(cv90) b(common) brig(common) s(nato)  i(243) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(cv9040) n1(tankman:3) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1)     ) }
+    
 
 
 
@@ -54,10 +64,7 @@
                                   
  {"fennek" {fore 1} ("vs_nation" c(500) sc(35) g(reco) b(common) brig(common) s(nato) crew_nation(frg) i(1) cw(40) cp(10) t(all_nz    ) n(3)               ) }
                                    
- {"tatra_t810i" {fore 1} ("v3cz" c(180) sc(55) g(inf1) b(common) brig(common) s(nato)  i(2) cw(0) cp(2) t(all_nz inf_nato infantry  ) n(1) c1(tatra_t810) n1(vehicle_supporter:2) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) n7(cz_sniper:1)       ) }
- ;{"warrior_wrap2i" {fore 1} ("v3bgcz" c(250) sc(70) g(inf2) b(common) brig(common) s(nato)  i(3) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(warrior_wrap2) n1(tankman:3) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1)        ) }
- {"kto_rosomaki" {fore 1} ("v3pol" c(250) sc(120) g(inf3) b(common) brig(common) s(nato)  i(3) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(kto_rosomak) n1(tankman:3) n2(pol_com:1) n3(pol_gren:1) n4(pol_medic:1) n5(pol_mgun2:1) n6(pol_mgunhelper:1) n7(pol_rpg:1) n8(pol_rpghelp:1) n9(pol_sniper:1)     ) }
-                                   
+                            
  {"browning_m2hb_stan_nato" {fore 1} ("vs_nation1" c(240) sc(40) g(stan_mgun) b(common) brig(common) s(nato) crew_nation(frg) i(4) cw(10) cp(5) t(all_nz    ) n(2) c1(browning_m2hb_stan)              ) }
  {"gmg_stan" {fore 0.5} ("vs_nation" c(240) sc(90) g(stan12) b(common) brig(common) s(nato) crew_nation(frg) i(5) cw(10) cp(10) t(all_nz    ) n(2)               ) }
  {"l16_mortar" {fore 0} ("vs_nation" c(240) sc(80) g(stan13) b(common) brig(common) s(nato) crew_nation(frg) i(6) cw(1) cp(10) t(all_nz    ) n(2)               ) }
@@ -90,8 +97,8 @@
 ("squad_with11types_custom" name(sappers) f(1)  c(240) cost(10) g(suppart) b(supl) brig(common) side(nato) crew_nation(fr)    t(all_nz    ) info(sappers) c1(saper:2)              ) 
 
 
-{"leopard_2a4"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(7) cw(0) cp(2))  {fore 1}}
-{"pt-91"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(9) cw(0) cp(2))  {fore 1}}
+;{"leopard_2a4"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(7) cw(0) cp(2))  {fore 1}}
+;{"pt-91"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(9) cw(0) cp(2))  {fore 1}}
 {"t72m4cz"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(10) cw(0) cp(2))  {fore 1}}
 ;{"fv107scimitar_mk2"           ("v" c(400) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(50) b(supl) i(69) cw(0) cp(2))  {fore 1}}
 

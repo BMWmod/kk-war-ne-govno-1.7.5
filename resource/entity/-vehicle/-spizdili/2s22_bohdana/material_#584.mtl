@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/model/ukraine_bogdana_artillery/ukraine_bogdana_artillery_base_basecolor"}
-	{bump "$/model/ukraine_bogdana_artillery/ukraine_bogdana_artillery_base_normal"}
-	{blend none}
-}

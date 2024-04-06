@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/btr80/box 2"}
-	{blend none}
-}

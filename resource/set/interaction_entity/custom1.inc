@@ -1,4 +1,20 @@
-
+{"cv9040"		
+	{on spawn			
+		{add_view	"flash_gun_big"			"flashbarrel5"			"Foresight5"}			
+		{add_view "zenit_gilz"		"shell_mgun"	"fxshell_mg"}			}		
+		("25mm_bushmaster")		
+		("ajax_sound")		
+		{on fire "mgun" 			
+			{view start "flashbarrel5"}			
+			{view start "shell_mgun"}			
+			{kill_delay "flashbarrel5"}			
+			{delay 0.08 "flashbarrel5"				
+			{view pause "flashbarrel5"}				
+			{view pause "shell_mgun"}			
+		}			
+		("cw_check_shooting" weap_id(mgun))		
+		}	
+}
 {"9k33_osa_akm"		
 	("btr80_sound")	  
 

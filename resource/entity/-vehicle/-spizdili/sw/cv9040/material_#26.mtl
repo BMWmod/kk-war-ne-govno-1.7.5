@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/cv90/track"}
+	{color "230 230 230 25"}
+	{blend test}
+}

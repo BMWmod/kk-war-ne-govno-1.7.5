@@ -5,6 +5,7 @@
 ;rev 04.07.2022
 
 
+{"cv9040"						"<c(FFFFFF)e(shadow)>CV9040 Mk II</c>"}
 {"t72av_turmst"						"<c(FFFFFF)e(shadow)>Т-72АВ TURMS-T</c>"}
 {"ypr_765"						"<c(FFFFFF)e(shadow)>YPR-765</c>"}
 {"caesar"						"<c(FFFFFF)e(shadow)>CAESAR</c>"}

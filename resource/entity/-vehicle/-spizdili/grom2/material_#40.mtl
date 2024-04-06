@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "grim_launcher_basecolor"}
-	{blend none}
-}

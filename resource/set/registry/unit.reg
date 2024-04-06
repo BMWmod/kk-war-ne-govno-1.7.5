@@ -1,6 +1,8 @@
 ;SDL
 {units
 
+{"cv9040_bill"				{structure "cwds_ifv"}}
+{"cv9040"				{structure "cwds_ifv"}}
 {"an_2_bomb_isis"		{structure "cwds_plane_attack"}}
 {"an_2_bomb"		{structure "cwds_plane_attack"}}
 {"an_2_no_wp_isis"		{structure "cwds_plane_attack"}}

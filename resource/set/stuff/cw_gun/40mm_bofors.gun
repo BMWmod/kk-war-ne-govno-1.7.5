@@ -1,0 +1,49 @@
+{from "pattern gun"	; Zu23-2
+	
+	{filling "bullet40_NATO ammo" 10}
+	{fireSound "gun/40mm_ct40"}	
+	{reloadSound "flak38"}
+	{RecoveryTime 0.60}		
+	{RechargeTime 3}		
+	
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	;{cursor "m242_APCR"}
+	;{cursorReloading "m242_APCR_reload"}
+	{cursor "cannon_on_apcr_2"}
+	{cursorReloading "cannon_reload_apcr"}
+	{Automatic}
+	{range 147 147}			;дальность стрельбы 4 км только по воздуху, БПС 3500 по наземным целям вообще 2500 рекомендуют
+							;https://www.thalesgroup.com/sites/default/files/asset/document/rapidfire_05_13pr.pdf
+	("speed" s(1100))
+	{calibre 40}
+    ("CW_acc_common" mils(0.27))
+
+	("CW_small_APCR_damage_WC" penetr_1000m(127))
+	{parameters "abm"
+		("CW_acc_common" mils(0.75));оценка
+
+		{cursor "cannon_on_fg_2"}
+		{cursorReloading "cannon_reload_fg"}
+
+		{spreading
+			{SpreadXYRatio	10}	;взрыв-то по таймеру, поэтому рассеяние по дальности всего порядка 10м.
+								;https://www.youtube.com/watch?v=2FgmXhukQx4
+			{SpreadPower	1.7}
+			{BurstAccuracy 100 85 75}
+		}
+	}
+ 	{parameters "fg"
+		("CW_acc_common" mils(0.75));оценка
+		;{cursor "m242_he"}
+		;{cursorReloading "m242_he_reload"}	
+		;{cursor "cannon_on_fg_2"}		
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+		;{cursorReloading "cannon_on_fg"}
+	}               
+}

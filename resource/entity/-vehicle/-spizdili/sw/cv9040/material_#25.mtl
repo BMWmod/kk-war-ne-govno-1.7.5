@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/cv90/cv9040"}
+	{color "255 255 255 25"}
+	{blend none}
+}
