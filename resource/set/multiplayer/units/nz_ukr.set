@@ -66,6 +66,12 @@
 ;БРДМ-2
  {"brdm2_ukr" {fore 1} ("v3" c(120) sc(15) g(pystiy_ukr) b(common) brig(common) s(ukr)  i(3004) cw(1) cp(5) t(all_nz)  c1(brdm2) ) } 
  
+ ;Т-64Б
+ {"t-64b_ukr" {fore 1} ("v3" c(120) sc(100) g(pystiy_ukr) b(common) brig(common) s(ukr)  i(3006) cw(1) cp(5) t(all_nz)  c1(t-64b) ) } 
+ 
+ ;Т-80БВ
+ {"t80bv_ukr" {fore 1} ("v3" c(120) sc(150) g(pystiy_ukr) b(common) brig(common) s(ukr)  i(3005) cw(1) cp(5) t(all_nz)  c1(t80bv) ) } 
+ 
 
 ;=========================================Сапплаи==============================
   
@@ -165,6 +171,9 @@
   
  ;Леопадла 2А4 с дзшкой
  {"leopard_2a4_dz" ("v" c(350) sc(170) g(newua) b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(11) cw(0) cp(45) m(1) t(all_nz) n(4)){fore -1.0}}
+ 
+ ;Т-64БМ
+ {"t-64bm1_ukr" {fore 0.5} ("v3" c(260) sc(190) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(23543) cw(0) cp(25) t(all_nz) c1(t-64bm1) n(1) n1(tankman:3)) }
  
 
  ;===============================ЗСУ=================================================== 
