@@ -789,6 +789,10 @@
 	{item "mk_82 ammo" 2 {max 22}{value 10}}
     {item "spike_nlos cm ammo" 1 {max 4}{value 70}}
     {item "spike_nlos fg ammo" 1 {max 4}{value 70}}	
+	
+	{item "mam_c ammo" 2 {max 2}{value 35}}
+	{item "mam_l ammo" 2 {max 2}{value 35}}
+	
 )
 (define "air_stuff_nato"
     {item "agm-65D ammo" 1 {max 3}{value 22}}

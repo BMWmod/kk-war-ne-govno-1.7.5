@@ -4,7 +4,9 @@
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
 
-
+				{"bayraktar_tb2"						"<c(FFFFFF)><e(shadow)>Bayraktar TB-2 без вооружения</c>"}
+				{"bayraktar_tb2_mamc"					"<c(FFFFFF)><e(shadow)>Bayraktar TB-2 с бомбами MAM-C</c>"}
+				{"bayraktar_tb2_maml"					"<c(FFFFFF)><e(shadow)>Bayraktar TB-2 с бомбами MAM-L</c>"}
 {"cv9040"						"<c(FFFFFF)e(shadow)>CV9040 Mk II</c>"}
 {"t72av_turmst"						"<c(FFFFFF)e(shadow)>Т-72АВ TURMS-T</c>"}
 {"ypr_765"						"<c(FFFFFF)e(shadow)>YPR-765</c>"}

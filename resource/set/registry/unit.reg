@@ -1,6 +1,9 @@
 ;SDL
 {units
 
+{"bayraktar_tb2"			{structure "cwds_plane_attack"}}
+{"bayraktar_tb2_mamc"			{structure "cwds_plane_attack"}}
+{"bayraktar_tb2_maml"			{structure "cwds_plane_attack"}}
 {"cv9040_bill"				{structure "cwds_ifv"}}
 {"cv9040"				{structure "cwds_ifv"}}
 {"an_2_bomb_isis"		{structure "cwds_plane_attack"}}

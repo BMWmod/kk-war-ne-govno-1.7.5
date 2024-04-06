@@ -4,6 +4,9 @@
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
 
+{"bayraktar_tb2"						"<c(FFFF00)>Многоцелевой БПЛА</c>"}	
+{"bayraktar_tb2_mamc"						"<c(FFFF00)>Многоцелевой БПЛА</c>"}
+{"bayraktar_tb2_maml"						"<c(FFFF00)>Многоцелевой БПЛА</c>"}
 {"cv9040"	"<c(FFFF00)e(shadow)>Боевая машина пехоты</c>"}
 {"t72av_turmst"	"<c(FFFF00)e(shadow)>Основной боевой танк</c>"}
 {"ypr_765"	"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
