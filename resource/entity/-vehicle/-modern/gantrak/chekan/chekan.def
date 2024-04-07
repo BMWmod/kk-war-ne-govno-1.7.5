@@ -11,6 +11,15 @@
 
 	("armor_light_btr" turret(7 7 7 7) body(16 10 4 6))
 
+	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(nso_3)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
+
 	{extender "inventory"
 		{weapon "mgun"
 			{mask "weapon link_mmg"}

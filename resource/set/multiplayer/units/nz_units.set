@@ -106,7 +106,10 @@
 
 ;==================Иностранные челиксы ====
 
- {"chekan" {fore 1} ("v3" c(750) sc(170) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(1) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(chekan) n(1) n1(ruchich_smg:2) n2(ruchich_com:1) n3(ruchich_mg:1) n4(ruchich_rpg:1) n5(ruchich_saper:2) n6(ruchich_smg:1) n7(ruchich_smg2:1) n8(ruchich_sniper:1) ) }	
+
+ {"chekan" {fore 1} ("v3" c(300) sc(50) g(chekan)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(113) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(chekan) n(1) n1(ruchich_smg:2)   ) }	
+
+ {"chekan_i" {fore 1} ("v3" c(750) sc(170) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(1) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(chekan) n(1) n1(ruchich_smg:2) n2(ruchich_com:1) n3(ruchich_mg:1) n4(ruchich_rpg:1) n5(ruchich_saper:2) n6(ruchich_smg:1) n7(ruchich_smg2:1) n8(ruchich_sniper:1) ) }	
  {"Hagi_wagner_grup" {fore 1} ("v3" c(750) sc(110) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(2) cw(0) cp(5) t(all_nz inf_rus   ) c1(mtlb_vmk) n(1) n1(vehicle_supporter:2) n2(pmc_com:1) n3(pmc_mgun:2) n4(pmc_rpg:2) n5(pmc_zek:5) n6(pmc_zek2:3)n7(pmc_zek3:2)    ) }
  {"kazachki" {fore 1} ("v3" c(750) sc(110) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(3) cw(0) cp(5) t(all_nz inf_rus   ) c1(btr80_2_new) n(1) n1(vehicle_supporter:2) n2(kaz_ataman:1) n3(kaz_mg:1) n4(kaz_rpg:1) n5(kaz_rpg_help:1) n6(kaz_smg1:2)n7(kaz_smg2:2)n8(kaz_smg3:2)n9(kaz_sniper:1)     ) }
  

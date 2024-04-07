@@ -118,6 +118,14 @@
 			{item "netting_kit" 5}
 		}
 	}
+	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(nso_5)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
 
 	{Weaponry
 		("restore_ik_time")

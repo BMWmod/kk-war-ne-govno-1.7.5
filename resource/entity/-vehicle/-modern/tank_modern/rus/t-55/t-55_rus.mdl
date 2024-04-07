@@ -2,8 +2,8 @@
 ;Model created by: Андрей
 ;Date: Tue Apr 26 15:15:36 2016
 ;File: G:\Модели все\Модели к 1.6.1\T-55A\Т-55 МАХ2009.max
-;Model create/rebuild by: dsadsa
-;Last build date: Thursday 8 November 2023 [16:02:52]
+;Model create/rebuild by: Makimka
+;Last build date: Monday 7 April 2024 [15:46:01]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.9}}
@@ -426,6 +426,15 @@
                                 35.0305	-1.13002	2.5649
                             }
                         }
+                    }
+                }
+                {Bone "flag_handle"
+                    {Parameters "ID=turret;"}
+                    {Matrix34
+                        0.999902	0.0139623	0
+                        -0.0139623	0.999902	0
+                        0	0	1
+                        7.5751	9.73954	14.5217
                     }
                 }
             }

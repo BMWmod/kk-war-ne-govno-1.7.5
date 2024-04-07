@@ -65,7 +65,14 @@
 	{component "shieldr98" {tags "shield"}}
 	{component "shieldr14" {tags "shield"}}
 
- 	
+ 	{Placer
+		{place "flag_handle"
+			{entity "flag_handle(nso6)"}
+			{Linkbone "flag_handle"}
+			{handlebone "flag_handle"}
+			{obstacle disable}
+		}
+	}
 
 
 

@@ -3,7 +3,7 @@
 ;Date: Sat Apr 22 14:21:26 2017
 ;File: G:\?????? ???\?????? ? 1.6.1\T-62\?-62M2.max
 ;Model create/rebuild by: Makimka
-;Last build date: Saturday 10 November 2023 [15:52:59]
+;Last build date: Monday 7 April 2024 [15:49:07]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.5}}
@@ -752,6 +752,15 @@
                             0.999546	0.025615	0.015614
                             -0.024438	0.997144	-0.071395
                             -16.0418	-7.9299	5.90711
+                        }
+                    }
+                    {Bone "flag_handle"
+                        {Parameters "ID=turret;"}
+                        {Matrix34
+                            -0.979575	0	-0.201078
+                            0	-1	0
+                            -0.201078	0	0.979575
+                            -18.5849	6.43953	3.8817
                         }
                     }
                 }
