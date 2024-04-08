@@ -41,8 +41,7 @@
 {"furgon" {fore 1} ("v3" c(900) sc(200) g(FPV_OPERATOR)  b(supl) brig(common) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(1st_com:1) n2(spotter:1)     ) }  
 
 ;==================================Мотобригада===================
-;{"yaz_patrior_rapira" {fore 1} ("v" c(100) sc(69) g(uaz2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(1) cw(0) cp(5) t(all_nz   ) n(3)               ) }
-	
+
 {"yaz_patrior_kornet" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 {"2121_atgm" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(222) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 

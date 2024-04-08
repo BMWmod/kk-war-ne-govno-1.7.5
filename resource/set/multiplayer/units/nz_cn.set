@@ -14,8 +14,8 @@
 {"pzrk2_cn"		("v3" c(500) c1(beijing_bj2022)brig(common) t(all_nz inf_cn aat) s(cn) n(2) n1(pzrkhelp:2) n2(pzrk:2) g(pzrk)  sc(80) b(common) i(0) cw(0) cp(0))  {fore 1}}
 {"qjz-89_stan"	("vs" c(300) brig(common) t(all_nz nobot) s(cn) n(2) g(stan_mgun) sc(45) b(common) i(1) cw(10) cp(5))  {fore 1}}
 {"qlz04"	("vs" c(400) brig(common) t(all_nz nobot) s(cn) n(2) g(stan13) sc(86) b(common) i(2) cw(10) cp(15))  {fore 1}}
-{"type_pp87"            ("vs" c(600) brig(common) t(all_nz nobot) s(cn) n(2) g(stan12) sc(100) b(common) i(3) cw(1) cp(15))  {fore 1}}
-{"pbp-172"            ("vs" c(600) brig(common) t(all_nz nobot) s(cn) n(3) g(stan1) sc(120) b(common) i(4) cw(1) cp(15)) {fore 1}}
+{"type_pp87"            ("vs" c(300) brig(common) t(all_nz nobot) s(cn) n(2) g(stan12) sc(60) b(common) i(3) cw(1) cp(15))  {fore 1}}
+{"pbp-172"            ("vs" c(300) brig(common) t(all_nz nobot) s(cn) n(3) g(stan1) sc(80) b(common) i(4) cw(1) cp(15)) {fore 1}}
 
 {"hj8_stan"	("vs" c(500) brig(common) t(all_nz nobot) s(cn) n(2) g(stan) sc(65) b(common) i(9) cw(1) cp(5))  {fore 1}}
 {"hj73_stan"	("vs" c(400) brig(common) t(all_nz nobot) s(cn) n(1) g(ptursmall) sc(45) b(common) i(342) cw(1) cp(5))  {fore 1}}
@@ -96,8 +96,8 @@
 
 
 
-{"pl-96"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-96) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art1) sc(150) a(1) b(cnart_hqcar) i(6) cw(5) cp(20))  {fore 0.0}}
-{"pl-66"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-66) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art2) sc(180) a(1) b(cnart_hqcar) i(7) cw(5) cp(20))  {fore -0.7}}
+{"pl-96"	("vart" c(600) c1(shaanxi_sx2190_ammo_track) c2(pl-96) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art1) sc(100) a(1) b(cnart_hqcar) i(6) cw(5) cp(20))  {fore 0.75}}
+{"pl-66"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-66) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art2) sc(150) a(1) b(cnart_hqcar) i(7) cw(5) cp(20))  {fore -0.7}}
 
 {"plz-05"	("v" c(300) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(5) g(lart)  sc(300) b(cnart_hqcar) i(8) cw(0) cp(35))   {fore -2.0}}
 

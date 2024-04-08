@@ -36,8 +36,8 @@
 {"browning_m2hb_stan"            ("vs" c(300) brig(common) t(all_nz nobot) s(usa) n(2) g(stan) sc(40) b(common) i(3) cw(10) cp(5))  {fore 1}}  
 {"ptur_tow"            ("vs" c(500) brig(common) t(all_nz nobot) s(usa) n(2) g(ptur) sc(60) b(common) i(4) cw(1) cp(5))  {fore 1}}  
 {"mk19"            ("vs" c(400) brig(common) t(all_nz nobot) s(usa) n(2) g(stan2) sc(130) b(common) i(5) cw(10) cp(15))  {fore 1}}
-{"m252"            ("vs" c(600) brig(common) t(all_nz nobot) s(usa) n(2) g(stan2) sc(120) b(common) i(6) cw(1) cp(15))  {fore 0}}
-{"m120"            ("vs" c(600) brig(common) t(all_nz nobot) s(usa) n(3) g(stan2) sc(160) b(common) i(7) cw(1) cp(15))  {fore 0}}
+{"m252"            ("vs" c(300) brig(common) t(all_nz nobot) s(usa) n(2) g(11234) sc(60) b(common) i(6) cw(1) cp(15))  {fore 1}}
+{"m120"            ("vs" c(300) brig(common) t(all_nz nobot) s(usa) n(3) g(454) sc(80) b(common) i(7) cw(1) cp(15))  {fore 1}}
 
 ("squad_with11types" side(usa) name(smg) c(230) g(inf_common) 
   c1(smg_newcom:1) c2(smg_new:2) c3(smg_gren:2) c4(smg_mgun:2) c5(smg_bazooker:2)
@@ -96,8 +96,8 @@
 ;===============================US artillery===========================================                                   
 ("squad_with7types" name(usaspot) f(0)  c(300) cost(40) g(spot) b(usart_hqcar) brig(usart) side(usa)     t(all_nz    ) info(smgs) c1(navyseal_com_art:1) c2(navyseal_marksman_art:1) c3(navyseal_smg_art:1)            ) 
                                    
- {"m119" {fore 0.75} ("vart" c(400) sc(90) g(how) b(usart_hqcar) brig(usart) s(usa)  i(2) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(hmmwv_m998_tent) c2(m119) n1(vehicle_supporter_usmc:2)            ) }
- {"m777a2" {fore 0} ("vart" c(500) sc(150) g(how) b(usart_hqcar) brig(usart) s(usa) m(5)  i(5) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) n1(vehicle_supporter_usmc:2)            ) }                                  
+ {"m119" {fore 0.75} ("vart" c(600) sc(100) g(how) b(usart_hqcar) brig(usart) s(usa)  i(2) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(hmmwv_m998_tent) c2(m119) n1(vehicle_supporter_usmc:2)            ) }
+ {"m777a2" {fore 0} ("vart" c(500) sc(165) g(how) b(usart_hqcar) brig(usart) s(usa) m(5)  i(5) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) n1(vehicle_supporter_usmc:2)            ) }                                  
  
  {"paladin" {fore 0} ("v" c(669) sc(500) g(lart) b(usart_hqcar) brig(usart) s(usa)  i(333) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
  {"mrls" {fore 0} ("v" c(840) sc(550) g(rszo) b(usart_hqcar) brig(usart) s(usa)  i(4) cw(0) cp(96) t(all_nz art support_frontline  ) n(2)               ) }

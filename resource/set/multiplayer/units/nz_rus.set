@@ -21,7 +21,7 @@
  
  
 ("squad_with2types" name(bazookers2) f(1)  c(120) cost(25) g(rpg) b(common) brig(common) side(rus)     t(all_nz    ) info(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1)             ) 
- {"2b11" {fore 1} ("vs" c(300) sc(125) g(stan1) b(common) brig(common) s(rus)  i(9) cw(1) cp(7) t(all_nz    ) n(2)               ) }
+ {"2b11" {fore 1} ("vs" c(300) sc(80) g(stan1) b(common) brig(common) s(rus)  i(9) cw(1) cp(7) t(all_nz    ) n(2)               ) }
  {"ptur_konkurs" {fore 1} ("vs" c(250) sc(45) g(stan) b(common) brig(common) s(rus)  i(12) cw(1) cp(5) t(all_nz    ) n(2)               ) }
  {"kornet_base_stan" {fore 0.0} ("vs" c(560) sc(80) g(stan3) b(common) brig(common) s(rus)  i(13) cw(1) cp(15) t(all_nz    ) n(2)               ) }
  {"mt12_rapira" {fore 1} ("vart" c(300) sc(45) g(stan1)  b(common) brig(common) s(rus)  i(14) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) n1(vehicle_supporter:2) c1(mtlb_new) c2(mt12_rapira)            ) }                          
@@ -84,9 +84,9 @@
 ;===============================Артиллеристы=========================================== 2a65_msta_b  d30                                   
 ("squad_with9types" name(spotters) f(1)  c(300) cost(40) g(spot) b(artbr_hqcar) brig(artbr) side(rus)     t(all_nz infantry support_frontline  ) info(elite) c1(gru_com_art:3)              ) 
                                    
- {"d30" {fore 0.75} ("vart" c(600) sc(90) g(art_extra223) b(artbr_hqcar) brig(artbr) s(rus)  i(334) cw(5)  cp(20) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(d30) n1(vehicle_supporter:2)            ) }
+ {"d30" {fore 0.75} ("vart" c(600) sc(100) g(art_extra223) b(artbr_hqcar) brig(artbr) s(rus)  i(334) cw(5)  cp(20) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(d30) n1(vehicle_supporter:2)            ) }
 	
- {"2a65_msta_b" {fore 0} ("vart" c(500) sc(150) g(art_extra22) b(artbr_hqcar) brig(artbr) s(rus)  i(123) cw(5)  cp(30) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(2a65_msta_b) n1(vehicle_supporter:2)            ) }
+ {"2a65_msta_b" {fore 0} ("vart" c(500) sc(170) g(art_extra22) b(artbr_hqcar) brig(artbr) s(rus)  i(123) cw(5)  cp(30) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(2a65_msta_b) n1(vehicle_supporter:2)            ) }
  
 
  
@@ -169,7 +169,7 @@
  
                    
 
- {"vasilek" {fore -0.3} ("vart" c(500) sc(100) g(stan1) b(mot_hqcar) brig(mot) s(rus)  i(15) cw(5) cp(15) t(all_nz art   ) n(2) c1(mtlb_new) c2(vasilek) n1(vehicle_supporter:2)            ) }
+ {"vasilek" {fore 1} ("vart" c(500) sc(80) g(vasilek) b(mot_hqcar) brig(mot) s(rus)  i(15) cw(5) cp(15) t(all_nz art   ) n(2) c1(mtlb_new) c2(vasilek) n1(vehicle_supporter:2)            ) }
                                    
 ;===============================Танковая бригада===========================================
                              
@@ -201,7 +201,7 @@
  {"kornet-d" {fore 0} ("vs" c(600) sc(160) g(kornet) b(specbr_hqcar) brig(specbr) s(rus)  i(11) cw(0) cp(40) t(all_nz att   ) n(2)               ) }
  
                                    
- {"2b14_podnos" {fore 0.3} ("vs" c(600) sc(70) g(stan1) b(specbr_hqcar) brig(specbr) s(rus)  i(13) cw(1) cp(10) t(all_nz    ) n(2)               ) }
+ {"2b14_podnos" {fore 1} ("vs" c(300) sc(70) g(ponos) b(specbr_hqcar) brig(specbr) s(rus)  i(13) cw(1) cp(10) t(all_nz    ) n(2)               ) }
                                    
 
 
