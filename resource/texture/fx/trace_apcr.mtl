@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "trace_apcr"}
-	{blend add}
-	{glow 30.0}
-}

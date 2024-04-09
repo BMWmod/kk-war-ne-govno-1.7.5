@@ -1,7 +1,0 @@
-{bitmap
-	{Axis  128 128 }
-	{Filtering  1 }
-	{AlphaChannel  1 }
-	{Blend  Alpha }
-	{Frame  "dust_new_s_002.tga" }
-}

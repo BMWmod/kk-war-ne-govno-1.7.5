@@ -1,8 +1,0 @@
-
-{bitmap
-	{Axis  8 64 }
-	{Filtering  1 }
-	{AlphaChannel  0 }
-	{Blend  Alpha }
-	{Frame  "part_exp_tree_06.tga" }
-}
