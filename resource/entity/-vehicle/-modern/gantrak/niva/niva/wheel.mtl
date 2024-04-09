@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "2121_wheel"}
-	{bump "2121_wheel_bp"}
-	{specular "2121_wheel_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}
