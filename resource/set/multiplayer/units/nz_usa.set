@@ -2,7 +2,7 @@
 ;===============================USA===========================================                                   
 
 ;==================== СПЕЦ ОЧКИ США  
- {"mq9" {fore 0} ("p" c(600)  sc(50) g(air_tac) b(extra) brig(usaf) s(usa)  m(2) i(2) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ ;{"mq9" {fore 0} ("p" c(600)  sc(50) g(air_tac) b(extra) brig(usaf) s(usa)  m(2) i(2) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
  {"f-15e_strike" {fore 0} ("v_cust" c(1250) sc(150) g(heli_spike) b(extra) brig(usaf) s(usa) crew(usa/vertpilot_apache) m(1) i(1) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"f-15e_kab" {fore 0} ("p" c(1500)  sc(150) g(air_strike) b(extra) brig(usaf) s(usa) m(3) i(3) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
     
@@ -73,7 +73,7 @@
 ("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(supl) brig(common) side(usa)     t(all_nz    ) info(miners) c1(antitank_miner:4) c2(antipersonel_miner:4)             ) 
 ("squad_with1types" name(sappers) f(1)  c(240) cost(10) g(eng) b(supl) brig(common) side(usa)     t(all_nz    ) info(sappers) c1(saper:2)              ) 
       
- {"mq9_recon" {fore 0.0} ("h" c(300) sc(50) g(recon_bigextra) b(supl) brig(usart) s(usa)  i(7) m(7) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) } 
+ ;{"mq9_recon" {fore 0.0} ("h" c(300) sc(50) g(recon_bigextra) b(supl) brig(usart) s(usa)  i(7) m(7) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) } 
  
 ;{"m60a3"	("v" c(500) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(60) b(supl) i(11) cw(0) cp(2))  {fore 1}}
 {"m1a1_new"	("v" c(700) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(90) b(supl) i(12) cw(0) cp(2))  {fore 1}}
