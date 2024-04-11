@@ -55,11 +55,7 @@
   ;Мобильная ПЗРК группа
   {"toyota_hilux_dshkm_ukr1" {fore 1} ("v3" c(40) sc(75) g(pzrk_ua)  b(common) brig(common) s(ukr)  i(807) cw(10) cp(10) t(all_nz) c1(toyota_hilux_dshkm) n(3) n1(vehicle_supporter:1) n2(ukr_pzrk2:2) n3(ukr_pzrk1:2))}
   
-  ;Оператор БПЛА
-  ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(operator_bpla) c(170) g(ukr_terminator) 
-  c1(operator_bpla_ukr:1)
-  b(supl) brig(ngu_ua) t(all_nz inf_irg) cost(60) f(1.0) )
-  
+
  ;СПГ-9
  {"spg_9_ukr" {fore 1} ("v3" c(120) sc(35) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(spg_9) n(2) n1(vehicle_supporter:2)   ) } 
  
@@ -96,7 +92,13 @@
    ;Шилка
   {"Shilka_ukr" {fore 1} ("v3" c(150) sc(90) g(pvo2)  b(supl) brig(ppo_ua) s(ukr)  i(23) cw(0) cp(15) t(all_nz) c1(Shilka) n(1) n1(tankman:4)      ) }
   
+  ;Оператор БПЛА
+  ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(operator_bpla) c(170) g(ukr_terminator) 
+  c1(operator_bpla_ukr:1)
+  b(supl) brig(ngu_ua) t(all_nz inf_irg) cost(60) f(1.0) )
   
+   {"spotter" {fore 1} ("v3" c(900) sc(220) g(FPV) b(supl) brig(common) s(ukr)  i(232) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:1)  n2(spotter:1)     ) }
+ 
 ;======================== НГУ =============================
 ;Поднос
  {"2b14_ukr" {fore 1} ("v3" c(120) sc(60) g(mino_ukr) b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(3005) cw(1) cp(5) t(all_nz)  c1(2b14_podnos) n(2) n1(vehicle_supporter:2)   ) }     
@@ -297,7 +299,7 @@
  {"uh60_ukr" {fore 1} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) } 	
  
  ;Блек хуй
- {"bayraktar_tb2_maml_ukr" {fore 1} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	
+ {"bayraktar_tb2_maml_ukr" {fore 0} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	
  
  
  ;=========================== Спец очки должны быть кратны ~ 1488

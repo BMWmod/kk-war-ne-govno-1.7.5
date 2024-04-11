@@ -1,0 +1,60 @@
+{breed
+	{skin "kk_ua_ngu_ukr"}
+	{portrait "_new/ukr/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality ukr}
+	{armors
+		{head "opscore_neu_ukr_azov_com"}
+	}
+	{perks
+        {"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "120%"
+		}
+		{"health_regeneration" "110%"
+		}
+		{"stamina" "175%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.1
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 10}
+	
+		{item "m16a4full" filling "556natos ammo" 30}
+		{item "556nato ammo" 125}
+		{item "rq11_control"}
+			
+		{item "fpv_drone" 4}
+		{item "fpv_drone120" 4}
+
+		{in_hands 3}
+	}	
+}

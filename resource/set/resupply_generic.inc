@@ -598,7 +598,7 @@
 )
 (define "lars2"
 	{item "lars2 fg ammo" 9 {max 36}{value 70}}				
-	;{item "lars2 mine ammo" 9 {max 18}{value 10}}		;мин нет в инвентаре, вот и не заряжаются		
+	{item "lars2 mine ammo" 9 {max 18}{value 120}}		;мин нет в инвентаре, вот и не заряжаются		
 )
 (define "m270"
 	{item "m270 fg ammo" 6 {max 12}{value 480}}

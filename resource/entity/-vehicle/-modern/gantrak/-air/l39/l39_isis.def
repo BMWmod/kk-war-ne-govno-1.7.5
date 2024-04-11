@@ -34,7 +34,7 @@
 
 	{extender "inventory"
 		{box
-			{Size 6 4}
+			{Size 10 10}
 			;{item "GSH-30_ammo ap ammo" 200}
 			;{item "GSH-30_ammo fg ammo" 200}
 		}
