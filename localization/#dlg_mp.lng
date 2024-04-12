@@ -6,14 +6,14 @@
 
 {tags
 	{"mp"
-		{"game_ffa" "Свободная игра"}
+		{"game_ffa" "Свободная попа"}
 		{"msg_starting" "Загрузка писи лизы)))..."}
 		{"msg_restarting" "Перезагрузка сетевой игры..."}
 		{"msg_processmods" "Загрузка МОДов..."}
 		{"msg_searching" "Поиск сеанса..."}
-		{"msg_connecting" "Подключение..."}
+		{"msg_connecting" "Иди нахуй))))"}
 		{"msg_searching" "Поиск сереги..."}
-		{"msg_connecting_failed" "Не удалось подключиться"}
+		{"msg_connecting_failed" "Не удалось заразиться"}
 		{"msg_steam_connecting_failed" "Ошибка соединения"}
 		{"msg_access_denied" "Доступ запрещен"}
 		{"msg_lobby_full" "Нет места на сервере"}
@@ -26,10 +26,10 @@
 		{"msg_steam_offline" "Не удалось подключиться к серверам Steam, проверьте настройки сетевого подключения."}
 		{"msg_starting_in" "Запуск через %1%..."}
 		{"txt_disconnecting" "Отключение..."}
-		{"title_readystatus" "Готов к игре"}
+		{"title_readystatus" "Готов к проникновению"}
 		{"title_status" "Состояние"}
 		{"title_inet" "Интернет"}
-		{"title_lan" "Сеть"}
+		{"title_lan" "Сесь"}
 		{"title_replay" "Записи игр"}
 		{"title_any" "Любые"}
 		{"retry_btn" "Повторить"}
@@ -39,7 +39,7 @@
 				{"periodical_update" "Непрерывные"}
 				{"period_update" "Периодические"}
 				{"with_payback" "Возврат"}
-				{"without_update" "Отсутствуют"}
+				{"without_update" "Для куколд вара"}
 				{"duel" "Биатлон"}
 			}
 			{"unit"
@@ -299,13 +299,13 @@
 			{"uaf" "UAF"}
 			{"reb" "Rebels"}
 			{"ger" "Germany"}
-			{"rus" "Россия"}
+			{"rus" "Шкибиди Туалеты"}
 			{"nato" "НАТО"}
 			{"odkb" "ОДКБ"}
 			{"cn" "Китай"}
 			{"iregular" "ИЗИС"}
 			{"srbsk" "НЕРЕГУЛЯРНЫЕ СИЛЫ ОПОЛЧЕНИЯ"}
-			{"ukr" "Великая Украина"}
+			{"ukr" "Камерамены"}
 			{"civilian" "Гражданский"}
 			{"random" "Случайно"}
 			{"spectator" "Наблюдатель"}
@@ -341,17 +341,17 @@
 			{"game_gone" "Игрок %1% вышел"}
 			{"session_gone" "Игрок %1% вышел"}
 			{"mm_gone" "Игрок %1% вышел"}
-			{"outofsync" "Игрок %1% был отключен из-за рассинхронизации"}
+			{"outofsync" "Игрок %1% был отключен из-за разорванного ануса"}
 			{"slow" "Игрок %1% был отключен из-за низкой производительности"}
-			{"kickoff" "Игрок %1% был отключен мастером!"}
-			{"timeout" "Игрок %1% был отключен по времени ожидания"}
+			{"kickoff" "Игрок %1% был отключен пидором на хосте!"}
+			{"timeout" "Игрок %1% был отключен по времени ожидания холокоста"}
 			{"disconnect" "Связь с игроком %1% потеряна"}
 			{"msg_outofsync" "Вы были исключены из игры по причине рассинхронизации"}
 			{"msg_slow" "Вы были исключены из игры из-за низкой производительности компьютера"}
-			{"msg_kickoff" "Вы были исключены сервером"}
+			{"msg_kickoff" "Вы были исключены пидарасом на хосте"}
 			{"msg_disconnect" "Связь утеряна"}
-			{"outofsync_client_cheat" "Игрок %1% был отключен из-за использования читов"}
-			{"outofsync_server_cheat" "Мастер %1% использовал читы и был отключен"}
+			{"outofsync_client_cheat" "Игрок %1% серега заебал читерить"}
+			{"outofsync_server_cheat" "Мастер %1% серега заебал читерить"}
 			{"msg_outofsync_client_cheat" "Вы были исключены из игры из-за использования читов"}
 			{"msg_outofsync_server_cheat" "Сервер использовал читы и все игроки были отключены"}
 			{"user_have_no_shared_link_to_ds_with_mm" "Игрок %1% был отключен из-за потери соединения с выделенным сервером"}
@@ -368,15 +368,15 @@
 			{"player_limit" "Не подключиться: достигнут предел количества игроков."}
 		}
 		{"lobby"
-			{"title_quit_game" "Выйти из игры?"}
-			{"title_close_game" "Закрыть игру?"}
+			{"title_quit_game" "Умереть?"}
+			{"title_close_game" "Умереть?"}
 			{"title_close_game_xp" "Do you really want to surrender?\n\nYou will receive no XP and lose your chance for an item drop!\nStay in-game for fair-play."}
 			{"title_surrender_game" "Do you really want to surrender?\n\nYou will lose all XP collected during the match, gain a loss and weaken your ranked trust rating.\nStay in-game for fair-play."}
 			{"title_zone" "Выбор сервера"}
 			{"title_session" "Игра"}
 			{"title_selectmap" "Карта"}
 			{"header"
-				{"host" "Сервер"}
+				{"host" "Сервер ДНР"}
 				{"game" "Игра"}
 				{"map" "Карта"}
 				{"players" "Игроки"}
@@ -386,8 +386,8 @@
 			{"hdr_session" "# # # # # #Хост [%1%]#Игра#Карта#Игроков#Лаг#%2%#Моды"}
 			{"hdr_sessioncount" "%1% / %2%"}
 			{"hdr_lobby" "# #Хост [%1%]#Пользователи#Игры#Лаг"}
-			{"lbl_gametype" "Выберите тип игры:"}
-			{"lbl_map" "Выберите карту:"}
+			{"lbl_gametype" "Выберите платье:"}
+			{"lbl_map" "Выберите негрилу:"}
 			{"lbl_minplayers" "Минимально игроков"}
 			{"lbl_maxplayers" "Количество игроков:"}
 			{"lbl_info" "дополнительная информация:"}
@@ -400,9 +400,9 @@
 			{"txt_players" "Игроков: %1%"}
 			{"txt_creatingsession" "Создание игры..."}
 			{"txt_creatingsession_failed" "Ошибка создания игры."}
-			{"txt_closesession" "Вы хотите закрыть текущую сессию?"}
+			{"txt_closesession" "Вы хотите умереть?"}
 			{"txt_mm_performance_warn" "У одного или более игроков низкая производительность."}
-			{"txt_lookingforsessions" "Поиск игр"}
+			{"txt_lookingforsessions" "Поиск мамы"}
 			{"txt_lookingforsessions_empty" "<c(white)>Не найдено игр по данному запросу"}
 			{"txt_lookingforservers" "Поиск серверов"}
 			{"lbl_army" "Армия"}
