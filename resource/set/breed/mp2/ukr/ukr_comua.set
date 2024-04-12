@@ -37,7 +37,7 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"speed" 0.8
+		{"speed" 0.9
 		}
 		{"skill_tankgun" lev_1
 		}
