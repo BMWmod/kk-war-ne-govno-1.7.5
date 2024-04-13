@@ -1,7 +1,7 @@
 {material bump
-	{diffuse "$/model/t64_new/t64b(bv)/t-64b"}
-	{bump "$/model/t64_new/t64b(bv)/t-64bm_bp"}
-	{specular "$/model/t64_new/t64b(bv)/t-64bm_sp"}
+	{diffuse "t-64b"}
+	{bump "t-64bm_bp"}
+	{specular "t-64bm_sp"}
 	{color "229 229 229 25"}
 	{emitsheat}
 {blend none}

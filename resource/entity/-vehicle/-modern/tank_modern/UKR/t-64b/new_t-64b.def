@@ -83,6 +83,10 @@
 			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
 			{reverse 	{end	"emit_body"}}
 		}
+                {anm "armor12"
+			{forward	{begin	"board_body"} {end "seat_isu1"}}
+			{reverse 	{end	"emit_body"}}
+		}
 		{anm "armor2"
 			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
 			{reverse 	{end	"emit_body"}}
@@ -130,7 +134,7 @@
 		{able clear {bullet 0} {touch 1}}
 	}
 )
-	("define_place" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat1) bone(seat_left_2) door(emit4)  animation(armor12))
 	("define_place" place(seat2) bone(seat02) door(emit3)  animation(armor))
 	("define_place" place(seat3) bone(seat03) door(emit6)  animation(armor))
 	("define_place" place(seat4) bone(seat04) door(emit6)  animation(armor1))
@@ -221,4 +225,7 @@
 	
 	("CW_turr_speed" deg_per_s(24))
 	
+
+
 }
+

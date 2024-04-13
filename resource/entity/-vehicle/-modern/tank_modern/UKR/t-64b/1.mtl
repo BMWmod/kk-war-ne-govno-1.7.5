@@ -1,5 +1,5 @@
 {material bump
-	{diffuse "$/model/t64_new/t64b(bv)/track"}
+	{diffuse "track"}
 	{color "229 229 229 25"}
 	{emitsheat}
 {blend test}

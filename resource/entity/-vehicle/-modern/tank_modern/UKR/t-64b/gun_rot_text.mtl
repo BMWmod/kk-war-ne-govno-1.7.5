@@ -1,5 +1,5 @@
 {material simple
-	{diffuse "$/model/t64_new/t64b(bv)/t-64b"}
+	{diffuse "t-64b"}
 	{emitsheat}
 {blend none}
 }

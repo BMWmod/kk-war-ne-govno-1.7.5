@@ -1,7 +1,7 @@
 {material bump
-	{diffuse "$/model/t64_new/t64b(bv)/nadboy"}
-	{bump "$/model/t64_new/t64b(bv)/nadboy_bp"}
-	{specular "$/model/t64_new/t64b(bv)/nadboy_sp"}
+	{diffuse "nadboy"}
+	{bump "nadboy_bp"}
+	{specular "nadboy_sp"}
 	{color "229 229 229 25"}
 	{emitsheat}
 {blend none}
