@@ -520,9 +520,9 @@
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
 (define "203mm"
-	{item "bullet203_rus fg ammo" 1 {max 5} {value 15}}				
-	{item "bullet203_rus cl ammo" 1 {max 3} {value 30}}	
-   ; {item "bullet203_rus rok ammo" 99 {max 99}{value 15}}
+	{item "bullet203_rus fg ammo" 1 {max 8} {value 15}}				
+	;{item "bullet203_rus cl ammo" 1 {max 3} {value 30}}	
+	;{item "bullet203_rus rok ammo" 99 {max 99}{value 15}}
 )
 (define "155mm_USA"
 	{item "bullet155_USA cl ammo" 1 {max 30}{value 15}}				
@@ -545,6 +545,7 @@
     {item "bullet155_USA_h fg ammo" 1 {max 30}{value 15}}	
 	{item "bullet155_USA_h_r fg ammo" 1 {max 30}{value 15}}		
 	{item "bullet155_USA_pgk fg ammo" 1 {max 30}{value 60}}
+	{item "bullet155_fr satt ammo" 1 {max 30}{value 80}}
 	
 	{item "bullet152_RUS_a fg ammo" 1 {max 40}{value 15}}	
 )
@@ -598,7 +599,7 @@
 )
 (define "lars2"
 	{item "lars2 fg ammo" 9 {max 36}{value 70}}				
-	{item "lars2 mine ammo" 9 {max 18}{value 120}}		;мин нет в инвентаре, вот и не заряжаются		
+	{item "lars2 mine ammo" 9 {max 18}{value 10}}		;мин нет в инвентаре, вот и не заряжаются		
 )
 (define "m270"
 	{item "m270 fg ammo" 6 {max 12}{value 480}}
@@ -608,6 +609,9 @@
 (define "m270_nato"
 	{item "m270 fg ammo" 6 {max 12}{value 480}}		
 	;{item "m270 cl ammo" 6 {max 12}{value 20}}		
+)
+(define "shahed136"
+	{item "shahed136 base ammo" 1 {max 5}{value 70}}
 )
 
 
@@ -688,11 +692,11 @@
 	;{item "9m38 buk ammo" 1 {max 4}{value 50}}				
 	{item "9m317 buk ammo" 2 {max 4}{value 25}}				
 	{item "9m311 ammo" 2 {max 8}{value 25}}
-    {item "pantsir 57e6e ammo" 6 {max 12}{value 20}}
+    {item "9m33_rocket ammo" 2 {max 12}{value 9}}	
+	{item "pantsir 57e6e ammo" 6 {max 12}{value 20}}
     {item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
-	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
@@ -785,14 +789,12 @@
 	{item "jdam_er ammo" 1 {max 4}{value 30}}
     {item "sdb1 ammo" 8 {max 16}{value 150}}	
 	{item "jsm ammo" 1 {max 6}{value 100}}
+	{item "mam_c ammo" 2 {max 2}{value 35}}
+	{item "mam_l ammo" 2 {max 2}{value 35}}
 	{item "slam_er ammo" 1 {max 2}{value 125}}
 	{item "mk_82 ammo" 2 {max 22}{value 10}}
     {item "spike_nlos cm ammo" 1 {max 4}{value 70}}
     {item "spike_nlos fg ammo" 1 {max 4}{value 70}}	
-	
-	{item "mam_c ammo" 2 {max 2}{value 35}}
-	{item "mam_l ammo" 2 {max 2}{value 35}}
-	
 )
 (define "air_stuff_nato"
     {item "agm-65D ammo" 1 {max 3}{value 22}}
@@ -1282,6 +1284,13 @@
 			("rpg_cn")
 			("atgm_cn")
 			("manpads_cn")
+			;for Iran
+			("smallarms_rus")
+			("hmgun_rus")
+			("autocannons_rus")
+			("c5")
+			("rpg_rus")
+			("atgm_rus")
 		}
 		{radius 			10}
 		{resupplyPeriod 	8}
@@ -1533,11 +1542,58 @@
 			("manpads_cn")
 			("152mm")
 			("155mm_cn")
+			;for Iran
+			("shahed136")
+			("smallarms_rus")
+			("hmgun_rus")
+			("autocannons_rus")
+			("c5")
+			("rpg_rus")
+			("atgm_rus")
 		}
 		{radius 			10}
 		{resupplyPeriod 	8}
 		{regenerationPeriod 4.4}
 		{limit 				200}
+	}
+	("supply_decal")
+)
+(define "mp_cwr_cn_common_medium"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_cn")
+			("hmgun_cn")
+			("ags_cn")
+			("mortar_cn")
+			("type63_cn")
+			("autocannons_cn")
+			("100mm_bmp3")
+			("100mm_rapira")
+			("105mm_cn")
+			("120mm_cn_mine")
+			("122mm")
+			("125mm_cn")
+			("125mm")
+			("smokes")
+			("rpg_cn")
+			("atgm_cn")
+			("manpads_cn")
+			("152mm")
+			("155mm_cn")
+			("shahed136")
+			;for Iran
+			("shahed136")
+			("smallarms_rus")
+			("hmgun_rus")
+			("autocannons_rus")
+			("c5")
+			("rpg_rus")
+			("atgm_rus")
+		}
+		{radius 			10}
+		{resupplyPeriod 	8}
+		{regenerationPeriod 4.4}
+		{limit 				130}
 	}
 	("supply_decal")
 )

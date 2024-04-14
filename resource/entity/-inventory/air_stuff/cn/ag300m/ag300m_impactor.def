@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{extension "ag300m.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "ag300m_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	{targetClass 	"laser_using_missile"}
+}

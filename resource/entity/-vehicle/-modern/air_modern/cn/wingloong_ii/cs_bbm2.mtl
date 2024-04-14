@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/wingloong_ii/cs-bbm2_dif"}
+	{bump "$/model/wingloong_ii/cs-bbm2_bp"}
+	{specular "$/model/wingloong_ii/cs-bbm2_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -127,7 +127,7 @@
 
 
 {"mq9_nato_recon"            ("h" c(600) brig(abn) t(additional aircraft nobot support_frontline) s(nato) n(0) g(extra7)  sc(50) b(extra) i(9) cw(0) cp(5))  {fore 0.0}}
-{"caesar" ("v_nation" c(360) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(fr) g(extra8)   sc(150) b(extra) i(5) cw(0) cp(55))   {fore -1.0}}
+{"caesar" ("v_nation" c(600) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(fr) g(extra8)   sc(150) b(extra) i(5) cw(0) cp(55))   {fore -0.5}}
 {"lars2" ("v_nation" c(600) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(extra9) sc(200) b(extra) i(6) cw(0) cp(50))   {fore -1.0}}
 
 

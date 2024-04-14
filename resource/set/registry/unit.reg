@@ -1,6 +1,7 @@
 ;SDL
 {units
 
+{"wingloong_ii"			{structure "cwds_plane_attack"}}
 {"bayraktar_tb2"			{structure "cwds_plane_attack"}}
 {"bayraktar_tb2_mamc"			{structure "cwds_plane_attack"}}
 {"bayraktar_tb2_maml"			{structure "cwds_plane_attack"}}

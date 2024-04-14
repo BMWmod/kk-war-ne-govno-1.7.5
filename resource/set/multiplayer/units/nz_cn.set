@@ -7,6 +7,9 @@
 ;------------------------------------------------------------------------------
 
 
+{"wingloong_ii"            ("h" c(600) brig(cnair) t(all_nz aircraft nobot support_frontline) s(cn) n(0) g(uav_strike)  sc(50) b(extra) i(178) cw(0) cp(5))  {fore 0}}
+
+
 ;===============================общие войска=========================================== 
 
 ("squad_with2types" side(cn) name(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1) c(600) g(jav) b(common) brig(common) t(all_nz) cost(120) f(0) info(bazookers2))

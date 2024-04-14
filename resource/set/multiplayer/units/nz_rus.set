@@ -231,7 +231,9 @@
  
  
  
- {"shahed136_base" {fore 0.5} ("p" c(500) sc(10) g(uav_136) b(extra) brig(vvs) s(rus)  i(144) cw(0) m(1) cp(2) t(all_nz aircraft aat  ) n(0)               ) }
+
+ {"shahed136_base"	("p" c(5) brig(vvs) t(all_nz additional aircraft aat nobot shahed136) s(rus) n(0) g(extra01)  sc(10) b(extra) i(222) cw(0) cp(2))  {fore -90.0}}
+
  {"su-50_aa" {fore 0} ("p" c(1200) sc(100) g(antiair_sp) b(extra) brig(vvs) s(rus)  i(172) cw(0) m(1) cp(40) t(all_nz aircraft   ) n(1)               ) } 
  {"btr90" {fore 1} ("v3" c(600) sc(50) g(advinf2_ext_23345) b(extra) brig(mot) s(rus)  i(29) cw(0) m(18) cp(80) t(all_nz inf_rus  ) c1(btr90) n(3) n1(tankman:3)   ) } 
 

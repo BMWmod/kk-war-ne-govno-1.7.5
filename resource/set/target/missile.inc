@@ -188,3 +188,20 @@
 ("ls6_selector" x(01) a(00) b(02) c(03))
 ("ls6_selector" x(02) a(01) b(00) c(03))
 ("ls6_selector" x(03) a(01) b(02) c(00))
+
+(define "csbbm2_selector"
+{selector
+	{type "csbbm2_%x"}
+	{group
+		{sort {in_range 5000} {class proj_csbbm2_gps_%x}}
+		{sort {in_range 10} {class proj_csbbm2_gps}}
+		{ignore {class proj_csbbm2_gps_%a}}
+		{ignore {class proj_csbbm2_gps_%b}}
+		{ignore {class proj_csbbm2_gps_%c}}
+	}
+}
+)
+("csbbm2_selector" x(00) a(01) b(02) c(03))
+("csbbm2_selector" x(01) a(00) b(02) c(03))
+("csbbm2_selector" x(02) a(01) b(00) c(03))
+("csbbm2_selector" x(03) a(01) b(02) c(00))

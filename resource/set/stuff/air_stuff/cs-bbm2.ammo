@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{entity "cs-bbm2"}
+	{inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "csbbm2_gps"} 
+	{tag "bomb"} ; только для ammo.set
+	{mass 100}
+
+}
+

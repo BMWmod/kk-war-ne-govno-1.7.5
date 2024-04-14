@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/Projectile_ammo.ext")
+	{Extension "ag300m.mdl"}
+	{extender "stuff"
+		{item "ag300m ammo"}
+	}
+}

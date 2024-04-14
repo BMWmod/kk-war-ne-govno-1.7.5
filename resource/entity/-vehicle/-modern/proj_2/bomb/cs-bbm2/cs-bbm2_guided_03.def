@@ -1,0 +1,5 @@
+{actor
+	(include "cs-bbm2_guided.inc")
+	{targetselector "csbbm2_03"}
+	{props "kab_guided_03"}
+}

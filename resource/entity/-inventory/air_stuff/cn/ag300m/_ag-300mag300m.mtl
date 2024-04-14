@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/wingloong_ii/ag300m_dif"}
+	{blend none}
+}

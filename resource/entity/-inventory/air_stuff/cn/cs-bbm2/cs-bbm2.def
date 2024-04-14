@@ -1,0 +1,8 @@
+{Game_entity
+	(include "/properties/stuff_bomb.ext")
+	{Extension "cs-bbm2.mdl"}
+	{props "steel" "explosive_stuff"}
+	{extender "stuff"
+		{item "cs-bbm2 ammo"}
+	}
+}

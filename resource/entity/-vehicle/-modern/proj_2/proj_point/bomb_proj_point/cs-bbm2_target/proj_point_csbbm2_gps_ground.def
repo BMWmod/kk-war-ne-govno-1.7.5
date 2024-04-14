@@ -1,0 +1,11 @@
+{actor
+(include "/properties/proj_point_gps_ground.ext")
+
+{targetClass 	"proj_csbbm2_gps"}
+{Volume "target_gbu"
+	{Box 25 25 25}
+	{Bone "basis"}
+	{Position 0	0	700}
+}
+{Volume "target_gbu" {able clear {visible} {bullet 1} {select 0}} {Thickness 0.1} {component "body"}}
+}

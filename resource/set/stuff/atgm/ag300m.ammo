@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	
+	{entity "ag300m"}
+                {mass 50}
+	        {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag "no_ricochet" "cm" "big" "size4" "88to105" "pierce" "ptrk" "laser_using_missile" "semiactive" "ground_laser_rus"}
+{tag "atgm_cw" "atgm_ground"} ; только для ammo.set	
+}

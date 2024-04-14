@@ -16,7 +16,7 @@
 		{tail ""}
 	}
 	;93кг БЧ, 16 кг ВВ AFX-757 (на основе гексогена, ТЭ около 1.6)
-	{tag "he_over30"}
+	{tag "he_8to30"}
 {damage blastwave {energy 0.7} {area 14.7 16.9}}
 {damage add blastwave {energy 1.2} {area 12.5 14.4}}
 {damage add blastwave {energy 2.5} {area 8.8 10.1}}

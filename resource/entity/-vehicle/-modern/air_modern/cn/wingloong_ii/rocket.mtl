@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/wingloong_ii/ag300m_dif"}
+	{bump "$/model/wingloong_ii/ag300m_bp"}
+	{specular "$/model/wingloong_ii/ag300m_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

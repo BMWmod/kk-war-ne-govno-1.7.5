@@ -1,0 +1,66 @@
+;Exported by: Timosh
+;Date:        Mon Apr  8 23:10:43 2024
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\?????\AG-300M Rocket\ag300m 1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-17.4809	0.519403	-0.360088
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.0528 1.87128 1.7542}
+	{Bone "body"}
+	{Matrix34
+		2.14363	0	0
+		0	2.14363	2.3186e-05
+		0	-2.3186e-05	2.14363
+		0.629674	0.0658396	-0.00191617
+	}
+}
+{Volume "select"
+	{Box 40.1044 7.37721 6.19934}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0.238321	1.85966e-05	0
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.727447	3.49085	-131.51}
+			{lookat 3.33674	-2.36495	-10.2405}
+			{fov 31.7555}
+			{horizon 34.6387}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.602	-27.213	-14.2765}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793779	0.317997	0.377593}
+			}
+			{"2"
+				{type point}
+				{position -10.996	-20.2905	-12.3077}
+			}
+		}
+	}
+}

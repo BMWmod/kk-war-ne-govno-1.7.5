@@ -62,8 +62,9 @@
 {"jh-7a_antirad"	("p" c(500) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(antirad)  sc(170) b(cnair_hqcar) i(18) cw(0) cp(50))  {fore -0.25}}
 
 ;{"jh-7a_at"	("p" c(450) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(air_2s)  sc(350) b(cnair_hqcar) i(16) cw(0) cp(100))  {fore -0.8}}
+{"wingloong_ii"            ("h" c(600) brig(cnair) t(additional aircraft nobot support_frontline) s(cn) n(0) g(uav_strike)  sc(250) b(cnair_hqcar) i(17) cw(0) cp(5))  {fore -0.2}}
 
-{"sso_cn"		("v3" c(600) c1(mi17_china)brig(cnair) t(all nobot support_frontline) s(cn) n(2) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1) g(sso)  sc(80) b(cnair_hqcar) i(17) cw(0) cp(2))  {fore 0.8}}
+{"sso_cn"		("v3" c(600) c1(mi17_china)brig(cnair) t(all nobot support_frontline) s(cn) n(2) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1) g(sso)  sc(80) b(cnair_hqcar) i(18) cw(0) cp(2))  {fore 0.8}}
 
 {"j-10c_ab"	("p" c(500) brig(cnair) t(all aircraft nobot support_frontline) s(cn) n(1) g(extra1)  sc(200) b(extra) i(11) cw(0) cp(50))  {fore -1.8}}
 {"jh-7a_bomber"	("p" c(600) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(extra2)  sc(300) b(extra) i(15) cw(0) cp(100))  {fore -1.5}}

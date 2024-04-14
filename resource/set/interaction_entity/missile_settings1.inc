@@ -169,6 +169,8 @@
 	("spawn_proj_15" country(rus) type(other) weapon_tag(hj-10b_target) decoytype(optic) decoyprob(0) min_alt(-100))
 	else stuff "akd-10 ammo"	                              			
 	("spawn_proj_7" country(rus) type(laser) weapon_tag(akd-10_target) decoytype(optic) decoyprob(0.07) min_alt(-100))	
+	else stuff "ag300m ammo"				
+	("spawn_proj_7" country(rus) type(laser) weapon_tag(ag300m_ammo_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
 	else stuff "shahed136_base_ammo ammo"				
 	("spawn_proj_5" country(rus) type(other) weapon_tag(shahed136_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
 
@@ -261,8 +263,6 @@
 	else stuff "pl12 ammo"	
 	("spawn_proj_7" country(rus) type(active) weapon_tag(pl12_target) decoytype(chaff) decoyprob(0.07) min_alt(10))
 ;other
-	else stuff "9m33_rocket ammo"			
-	("spawn_proj_7" country(rus) type(active) weapon_tag(9m33_rocket_target) decoytype(chaff) decoyprob(0.21) min_alt(14))
 	else stuff "targeting_radar_usa ammo"		
 	("spawn_proj_passive" country(usa) type(radpassive) weapon_tag(targeting_radar_target) decoytype(chaff) decoyprob(0.04) min_alt(10))	
 	else stuff "targeting_radar_rus ammo"			

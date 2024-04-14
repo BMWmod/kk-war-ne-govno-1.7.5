@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "cwps_gorka" "tandem"}
+	("missile_placer" missile("ag300m_impactor") country(rus) type(other) calibre(160)
+	speed(slow) guidance(prop))
+	("maneuvrability_cwps3" deg_per_s(75))
+	("cwps_top_attack")
+	("arc_attack" country(rus) type(laser) weapon(missilets_arc_450))
+	;Дугообразная траектория - лишь предположение, т.к. полет на 18км по прямой нерационален.
+	;Но угол прокачки координатора известен - 20 градусов, так что кривизна этой траектории меньше обычной.
+}

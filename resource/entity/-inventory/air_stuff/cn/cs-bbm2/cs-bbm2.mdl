@@ -1,0 +1,87 @@
+;Exported by: Timosh
+;Date:        Wed Apr 10 09:09:09 2024
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\?????\CS-BBM2 bomb\cs-bbm2 1.max
+{Skeleton
+	{animation
+		{sequence "open_wing" {speed 0.5}}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	1.01212e-05	1
+				0	1	0
+				-17.4809	-0.519404	0.360099
+			}
+		}
+		{bone "wingr"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				5.31151	0	0.0122857
+			}
+			{VolumeView "wingr.ply"}
+		}
+		{bone "wingl"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				5.31151	0	0.0122857
+			}
+			{VolumeView "wingl.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 22.7949 1.87128 1.7542}
+	{Bone "body"}
+	{Matrix34
+		2.14363	0	0
+		0	-2.14363	-2.28624e-05
+		0	2.28624e-05	-2.14363
+		0.629671	-0.0658407	0.00192714
+	}
+}
+{Volume "select"
+	{Box 59.3545 7.37721 6.19934}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.23832	-1.95503e-05	1.01491e-05
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.727403	-3.49088	131.51}
+			{lookat 3.33673	2.36494	10.2405}
+			{fov 31.7555}
+			{horizon -145.362}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.602	27.213	14.2765}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793779	-0.317997	-0.377593}
+			}
+			{"2"
+				{type point}
+				{position -10.996	20.2905	12.3077}
+			}
+		}
+	}
+}
