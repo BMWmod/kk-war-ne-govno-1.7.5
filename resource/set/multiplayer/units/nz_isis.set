@@ -47,6 +47,7 @@
  {"9k35_strela-10" {fore 0} ("v3" c(300) sc(90) g(pvo3)  b(common) brig(common) s(iregular)  i(24) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10) n(1) n1(tankman:4)      ) }
 
 {"uaz_car_konkurs" {fore 1} ("v3" c(900) sc(200) g(FPV_OPERATOR)  b(supl) brig(common) s(iregular)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(uaz_car_konkurs) n1(reserv5:1) n2(spotter:1)     ) }  
+{"toyota_radar" {fore 1} ("v3" c(450) sc(69) g(pizdec_radar)  b(supl) brig(common) s(iregular)   i(911) cw(0) cp(10) t(all_nz supply ) n(2) c1(toyota_radar) n1(vehicle_supporter:3) n2(spotter:1)     ) }  
 
 	
                                   

@@ -1,3 +1,11 @@
+ 
+{"toyota_radar"		
+	("btr80_sound")	  
+
+	("radar_lifting90_params" triplex(additional_triplex) visor(visor_radar) anim_rotate(radar_loop) anim_lift(radar_lift) marker(antirad_generator_usa))				
+}
+
+
 {"cv9040"		
 	{on spawn			
 		{add_view	"flash_gun_big"			"flashbarrel5"			"Foresight5"}			
