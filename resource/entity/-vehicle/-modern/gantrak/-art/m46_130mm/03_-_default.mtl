@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "textures4_c"}
+	{blend none}
+}

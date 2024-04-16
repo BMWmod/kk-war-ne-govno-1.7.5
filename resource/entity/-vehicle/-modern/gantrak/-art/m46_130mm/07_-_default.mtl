@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "uaz_wheel_c"}
+	{blend none}
+}

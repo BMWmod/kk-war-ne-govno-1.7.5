@@ -558,6 +558,13 @@
 	
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}
 	{item "bullet152_RUS rok ammo" 1 {max 20}{value 15}}
+	
+	{item "bullet130_RUS fg ammo" 1 {max 10}{value 15}}
+	{item "bullet130_RUS korr ammo" 1 {max 4}{value 15}}
+	{item "bullet130_RUS IRN ammo" 1 {max 2}{value 15}}
+	
+	
+
 )
 ;---------------Missiles----------------
 
@@ -827,7 +834,13 @@
     {item "pl12 ammo" 1 {max 2}{value 5}}	
 	{item "pl8b ammo" 1 {max 2}{value 5}}				
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
-	{item "rvv-sd ammo" 1 {max 10}{value 5}}				
+	{item "rvv-sd ammo" 1 {max 10}{value 5}}	
+	
+	{item "cs-bbm2 ammo" 1 {max 4}{value 5}}	
+	{item "ag300m ammo" 2 {max 8}{value 5}}	
+
+
+	
 )
 
 ;---------------Misc----------------

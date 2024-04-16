@@ -94,9 +94,9 @@
 {"leopard_2a0" {fore 1} ("v" c(300) sc(120) g(tank_old_new2)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(7) cw(0) cp(30) t(all_nz    ) n(4)               ) }
  
 {"t72av" {fore 0} ("v" c(600) sc(180) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(8) cw(0) cp(35) t(all_nz    ) n(3)               ) }
-{"zulfiqar-3" {fore 0} ("v" c(700) sc(180) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(9) cw(0) cp(35) t(all_nz    ) n(3)               ) }
 
-
+{"zulfiqar-3_isis" {fore 0} ("v3" c(700) sc(190) g(190)  b(iregular_mot_hqcar) brig(iregular_mot)s(iregular)  i(9) cw(0) cp(10) t(all_nz supply ) n(2) c1(zulfiqar-3) n1(tankman:3)      ) }
+ 
 
 
 
@@ -137,7 +137,7 @@
 ;{"an_2_bomb_isis" {fore 0.4} ("p" c(600) sc(145) g(ANDVA_BOMB) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(668) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 
 {"mi24vbomb" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(6) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
-{"ee9_cascavel" {fore 1} ("v3" c(220) sc(45) g(ee9)   b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)   i(12) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(ee9_cascavel) n(1) n1(tankman:3)   ) }     
+{"ee9_cascavel_isis" {fore 1} ("v3" c(220) sc(45) g(ee9)   b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)   i(12) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(ee9_cascavel) n(1) n1(tankman:3)   ) }     
 
 {"mtlb_kamikadze" {fore 1} ("v3" c(200) sc(45) g(3543)   b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)   i(13) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(mtlb_kamikadze) n(1) n1(tankman:1)   ) }     
 

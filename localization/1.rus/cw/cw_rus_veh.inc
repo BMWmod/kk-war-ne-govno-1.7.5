@@ -5,6 +5,8 @@
 ;rev 04.07.2022
 
 
+{"btr50"							"<c(FFFFFF)e(shadow)>Makran</c>"}
+{"m46"							"<c(FFFFFF)e(shadow)>М-46</c>"}
 {"toyota_radar"							"<c(FFFFFF)e(shadow)>Toyota Hilux с MPQ-50 IPAR</c>"}
 {"bmp3_3_dz"							"<c(FFFFFF)e(shadow)>БМП-3 обр.2022 с ДЗ</c>"}
 {"bmp3_2022_sh1"							"<c(FFFFFF)e(shadow)>БМП-3 обр.2022</c>"}

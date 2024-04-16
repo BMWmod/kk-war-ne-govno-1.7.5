@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "of45"}
+	{blend none}
+}

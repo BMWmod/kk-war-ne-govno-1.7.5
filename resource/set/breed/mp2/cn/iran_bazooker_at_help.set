@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_odkb_iran_smg"}
+	{portrait "_new/iran/inf"}
+	{icon bazookers}
+	{icon_priority 2}
+	{nationality irn}
+	{armors
+		{head "pasgt_helmet_od"}
+	}
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "iran_vest"}
+		{item "m47dragon_rock ammo" 2}
+		{item "762 ammo" 60}
+		{item "bandage" 10}
+		{item "akm" filling "762 ammo" 30}
+		{in_hands 4}
+	}
+}

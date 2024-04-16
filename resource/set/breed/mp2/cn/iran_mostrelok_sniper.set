@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_odkb_iran_marksman"}
+	{portrait "_new/iran/inf"}
+	{icon "snipers"}
+	{icon_priority 1}
+	{tags "sniper2"}
+	{nationality irn}
+	{armors
+		{head "pasgt_helmet_od"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_sniper")
+	{inventory
+		{item "iran_vest"}
+		{item "bandage" 15}
+		{item "svd_ammo ammo" 160}
+		{item "rgd grenade" 2}
+		{item "svds" filling "svd_ammo ammo" 10}
+		{item "f1 grenade" 2}
+		{item "smoke rdg2b grenade"}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

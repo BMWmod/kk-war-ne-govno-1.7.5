@@ -1,12 +1,13 @@
 ;SDL
 {units
-
+{"btr50"				{structure "cwds_ifv"}} 
+{"m46"				{structure "cwds_cannon"}} 
 {"toyota_radar"		{structure "cwds_radar"}}
 {"wingloong_ii"			{structure "cwds_plane_attack"}}
 {"bayraktar_tb2"			{structure "cwds_plane_attack"}}
 {"bayraktar_tb2_mamc"			{structure "cwds_plane_attack"}}
 {"bayraktar_tb2_maml"			{structure "cwds_plane_attack"}}
-{"cv9040_bill"				{structure "cwds_ifv"}}
+{"cv9040_bill"				{structure "cwds_ifv"}} 
 {"cv9040"				{structure "cwds_ifv"}}
 {"an_2_bomb_isis"		{structure "cwds_plane_attack"}}
 {"an_2_bomb"		{structure "cwds_plane_attack"}}
@@ -484,7 +485,7 @@
 	{"metis_m"			{structure "cwds_atgm"}}
 	{"shershen_d_stan"	{structure "cwds_atgm"}}
 	{"d30"				{structure "cwds_cannon"}}
-	{"2a65_msta_b"				{structure "cwds_cannon"}}
+	{"2a65_msta_b"				{structure "cwds_cannon"}} 
 	{"2b14_podnos"		{structure "cwds_mortar"}}
 	{"2b11"		        {structure "cwds_mortar"}}
 	{"vasilek"			{structure "cwds_mortar"}}

@@ -1,0 +1,87 @@
+;Exported by: Maksilin
+;Date:        Wed Oct 28 22:08:35 2015
+;File:        F:\Настройки\Снаряды\РФ\152 мм артснаряды\3ОФ45 Наместник-1 fg\ОФ45.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-8.58552	0.0421242	0.0346611
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.0272 2.92236 3.08021}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.0461749	0.00707233	-0.0048629
+	}
+}
+{Volume "select"
+	{Box 17.0272 2.92236 3.08021}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.0461749	0.00707233	-0.0048629
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.0754709	-31.5835	0.00052755}
+			{lookat -0.0871353	-8.5188	-0.0306205}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -22.374	-0.057376	10.5679}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0457975	0.45561	-0.200804}
+			}
+			{"2"
+				{type point}
+				{position 17.1281	0.0204615	-5.49746}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 2.39978	-21.935	0.000526923}
+			{lookat 2.38811	1.12967	-0.0306211}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -19.8988	9.5911	10.5679}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0457975	0.45561	-0.200804}
+			}
+			{"2"
+				{type point}
+				{position 19.6033	9.66893	-5.49746}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{breed
+	{skin "cw_odkb_iran_smg"}
+	{portrait "_new/iran/inf"}
+	{icon bazookers}
+	{icon_priority 2}
+	{nationality irn}
+	{armors
+		{head "pasgt_helmet_iran"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_bazooker")
+	{inventory
+		{item "iran_vest_backpack"}
+		{item "rpg29 weapon" filling "pg-29v rpg29 ammo" 1}
+		{item "pg-29v rpg29 ammo" 2}
+		{item "akms" filling "762 ammo" 30}
+		{item "762 ammo" 60}
+		{in_hands 3}
+	}
+}

@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_odkb_iran_pilot"}
+	{portrait "_new/iran/pilot"}
+	{icon "soldier"}
+	{icon_priority 0}
+	{nationality irn}
+	{armors
+		{head "zsh7apn"}
+	}
+	
+	(include "perks_generic.inc")
+	("traits_pilot")
+	{inventory
+		{item "762 ammo" 90}
+		{item "akms" filling "762 ammo" 30}
+		{item "bandage" 15}
+		{item "rgd grenade" 2}
+		{in_hands 1}
+	}
+}

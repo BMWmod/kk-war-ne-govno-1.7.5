@@ -1,0 +1,22 @@
+{from "pattern fg"
+	{tag "big" "size4" "150to152fg" "fx_146_299" "fx_splitter_big" "altitude_burst"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{detonationThickness 40}
+	{mass 59.2}
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_bullet130_RUS_korr"}
+	{view "shell_bullet130_RUS_korr"}
+	
+	{tag "he_4_5to8"}
+{damage blastwave {energy 0.7} {area 13.1 15.1}}
+{damage add blastwave {energy 1.2} {area 11.3 13}}
+{damage add blastwave {energy 2.5} {area 7.5 8.7}}
+{damage add blastwave {energy 6.5} {area 5 5.7}}
+{damage add blastwave {energy 11} {area 2.5 2.9}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.1 0.1}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m3_wheel_front_c"}
+	{blend none}
+}

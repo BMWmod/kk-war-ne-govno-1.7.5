@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_odkb_iran_smg"}
+	{portrait "_new/iran/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality irn}
+	{armors
+		{head "pasgt_helmet_iran"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_mgun")
+	{inventory
+		{item "iran_vest"}
+		{item "bandage" 10}
+		{item "rgd grenade" 2}
+		{item "f1 grenade" 2}
+		{item "pkm_ammo ammo" 600}
+		{item "pkm" filling "pkm_ammo ammo" 100}
+		{item "pkm_ammo ammo" 400}
+		{item "smoke rdg2b grenade"}
+		{item "sandbag_kit"}
+		{in_hands 5}
+	}
+}

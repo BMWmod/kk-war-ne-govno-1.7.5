@@ -1,0 +1,19 @@
+{breed
+	{skin "cw_odkb_iran_smg"}
+	{portrait "_new/iran/inf"}
+	{icon pzrk}
+	{icon_priority 4}
+	{nationality irn}
+	{armors
+		{head "pasgt_helmet_iran"}
+	}
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "iran_vest"}
+		{item "igla weapon" filling "igla_s ammo" 1}
+		{item "igla_s ammo" 2}
+		{item "bandage" 10}
+		{in_hands 1}
+	}
+}

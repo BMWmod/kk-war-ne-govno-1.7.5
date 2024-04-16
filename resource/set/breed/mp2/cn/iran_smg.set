@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_odkb_iran_smg"}
+	{portrait "_new/iran/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality irn}
+	{armors
+		{head "pasgt_helmet_iran"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{inventory
+		{item "iran_vest"}
+		{item "bandage" 10}
+		{item "ak103_gp25_1p87_podstvol" filling "mortar pd m ammo" 1}
+                {item "mortar pd m ammo" 8}
+		{item "762 ammo" 240}
+		{item "ak103_gp25_1p87" filling "762 ammo" 30}
+		{item "f1 grenade" 2}
+		{item "smoke rdg2b grenade"}
+		{item "sandbag_kit"}
+		{in_hands 2}
+	}
+}

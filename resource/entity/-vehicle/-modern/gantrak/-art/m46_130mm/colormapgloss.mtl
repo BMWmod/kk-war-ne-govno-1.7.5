@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "textures1_c"}
+	{blend none}
+}
