@@ -3,7 +3,7 @@
 ;Date: Sun Feb 26 09:04:01 2017
 ;File: C:\Users\Richtofen\Desktop\btr50\plugin.max
 ;Model create/rebuild by: Makimka
-;Last build date: Wednesday 16 April 2024 [17:07:00]
+;Last build date: Wednesday 16 April 2024 [18:07:56]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -183,7 +183,7 @@
                         0.999979	0	-0.00655376
                         0	1	0
                         0.00655376	0	0.999979
-                        -2.22167	-0.24613	-20.6331
+                        -1.42167	-0.24613	-28.0331
                     }
                 }
                 {Bone "visor1"
