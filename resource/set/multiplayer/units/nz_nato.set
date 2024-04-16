@@ -127,7 +127,7 @@
  
  {"as_90" ("v_nation" c(300) brig(abn) t(all_nz art nobot) s(nato) n(5) crew_nation(frg) g(extra9)   sc(300) b(abn_hqcar) i(55) cw(0) cp(55))   {fore -2.0}}                           
  {"pzh2000" {fore 0.45} ("v_nation" c(1500) sc(480) g(art2) b(abn_hqcar) brig(abn) s(nato) crew_nation(frg) i(5) cw(0) cp(70) t(all_nz art   ) n(5)               ) }
- {"lars2" {fore 0.1} ("v_nation" c(900) sc(240) g(helina222) b(abn_hqcar) brig(abn) s(nato) crew(frg) i(333) cw(0) cp(45) t(all_nz heli   ) n(2)               ) }
+ {"lars2" {fore 0.1} ("v_nation" c(900) sc(240) g(helina222) b(abn_hqcar) brig(abn) s(nato) crew(frg) i(333) cw(0) cp(45) t(all_nz    ) n(2)               ) }
          
  {"mrls_2" {fore 0.0} ("v_nation" c(900) sc(600) g(mlrs1) b(abn_hqcar) brig(abn) s(nato) crew_nation(frg) i(7) cw(0) cp(90) t(all_nz art support_frontline  ) n(2)               ) }
  {"mrls_atacms_nato" {fore 0} ("v_nation" c(1330) sc(300) g(otrk) b(abn_hqcar) brig(abn) s(nato) crew_nation(frg) i(8) cw(0) cp(80) t(all_nz art support_frontline  ) n(2)               ) }
