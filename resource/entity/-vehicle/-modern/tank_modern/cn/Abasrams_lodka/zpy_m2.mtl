@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/usa_zpy/zpy_m2_usa"}
-	{blend none}
-}

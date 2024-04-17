@@ -1,5 +1,0 @@
-{material envmap
-	{diffuse "$/model/m1a1_new/glass_s"}
-	{mask "$/model/bumerang/mirror"}
- 	{blend blend}
-}

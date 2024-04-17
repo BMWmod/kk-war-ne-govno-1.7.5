@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/m1a1_new/turret_m1a1"}
-	{blend none}
-}

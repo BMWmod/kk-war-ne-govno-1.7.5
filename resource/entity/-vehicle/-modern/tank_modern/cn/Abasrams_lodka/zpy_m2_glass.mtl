@@ -1,5 +1,0 @@
-{material envmap
-	{diffuse "$/model/usa_zpy/zpy_m2_usa"}
-	{mask "$/model/bumerang/mirror"}
-	{blend none}
-}

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/m1a1_new/shield"}
-	{blend none}
-}

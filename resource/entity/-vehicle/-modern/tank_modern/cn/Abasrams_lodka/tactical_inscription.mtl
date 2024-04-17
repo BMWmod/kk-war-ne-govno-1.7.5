@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/tactical_Abrams/tactical_inscription"}
-	{blend blend}
-}

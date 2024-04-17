@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "$/model/enumerator/3"}
-	{emitsheat}
-{blend blend}
-}

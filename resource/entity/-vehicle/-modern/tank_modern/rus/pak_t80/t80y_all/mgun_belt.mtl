@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "$/model/t80/mgun_belt"}
-	{emitsheat}
-{blend test}
-}
