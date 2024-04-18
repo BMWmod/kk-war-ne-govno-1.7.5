@@ -135,8 +135,8 @@
 
 {"ztz-99a"		("v_v" c(450) t(all_nz tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(obt_mot3)  sc(135) b(cnheavy_hqcar) i(9) cw(0) cp(50))  {fore 0}}
 
-{"ztz_99_phase_2"		("v" c(500) t(all_nz tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(50) b(extra) i(8) cw(0) cp(60))  {fore -0.35}}
-{"aft-10"	("v" c(1500) brig(cnheavy) t(all_nz att) s(cn) n(4) g(extra12)  	sc(200) b(extra) i(6) cw(0) cp(40))  {fore 0.0}}
+{"ztz_99_phase_2"		("v" c(500) t(all_nz tanks_only aat duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(50) b(extra) i(8) cw(0) cp(60))  {fore -0.35}}
+{"aft-10"	("v" c(1500) brig(cnheavy) t(all_nz aat att) s(cn) n(4) g(extra12)  	sc(200) b(extra) i(6) cw(0) cp(40))  {fore 0.0}}
 ;===============================Средняя бригада===========================================
 
 
@@ -194,7 +194,7 @@
 {"bmp2_irani"		("v3" c(300) c1(bmp2_iran)brig(iran) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(iran_mostrelok_com:1) n3(iran_mostrelok_mgun:1) n4(iran_mostrelok_mgunhelp:1) n5(iran_mostrelok_rpg:1) n6(iran_mostrelok_rpghelp:1) n7(iran_mostrelok_smg:1) n8(iran_mostrelok_smg2:1) g(bmp1)  sc(80) b(iran_hqcar) i(6) cw(0) cp(15))  {fore 1}}
 {"t72m1_iran"     ("v_cust" c(400) brig(iran) t(all_nz tanks_only duel_tanks90 tank_cn) s(cn) crew(odkb/iran_tankman) n(3) crew_nation(odkb) g(extra15)   sc(90) b(iran_hqcar) i(9) cw(0) cp(15))  {fore 1}}
 
-{"m46" {fore 1} ("v_cust" c(700) sc(110) g(art_heavy) b(iran_hqcar) brig(iran) crew(odkb/iran_vehicle_supporter) s(cn)  i(5) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(m46) n1(vehicle_supporter:2)           ) }
+{"m46" {fore 0} ("v_cust" c(900) sc(135) g(art_heavy) b(iran_hqcar) brig(iran) crew(odkb/iran_vehicle_supporter) s(cn)  i(5) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(m46) n1(vehicle_supporter:2)           ) }
 
 {"btr50" {fore 1} ("v_cust" c(300) sc(50) g(btr50) b(iran_hqcar) brig(iran) crew(odkb/iran_vehicle_supporter) s(cn)  i(55) cw(5) cp(5) t(all_nz art support_frontline  ) n(2) c1(btr50) n1(vehicle_supporter:2)           ) }
 
@@ -206,7 +206,7 @@
 
 ("squad_with9types" side(cn) name(elite_iran_2) c(480) g(iran_kuds) c1(iran_kuds_com:1) c2(iran_mgun:1) c3(iran_mgunhelp:1) c4(iran_kuds_smg:2) c5(iran_kuds_rpg2:2) c6(iran_kuds_rpg2_helper:2) c7(iran_kuds_rpg1:1) c8(iran_kuds_smg2:2) b(extra) brig(iran) t(all_nz specnaz infantry nobot) cost(50) f(0) info(morspec))
 {"mi17_iran"		("v3" c(480) c1(mi17_iran) brig(iran) t(all_nz specnaz infantry nobot) s(cn) n(2) n1(iran_pilot:2) n2(iran_com:1) n3(iran_mgun:1) n4(iran_mgunhelp:1) n5(iran_smg:1) n6(iran_smg2:1) n7(iran_bazooker2:1) n8(iran_bazooker2_help:1) n9(iran_sniper:1) g(advinf3)  sc(50) b(extra) i(26) cw(0) cp(5))  {fore 0.0}}
-("squad_with11types_custom" side(cn) crew_nation(cn) name(iran_snipers) c(300) g(inf) c1(iran_heavy_sniper:1) c2(iran_sniper:1) c3(iran_smg2:2) b(extra) brig(iran) t(all_nz infantry) cost(25) f(0) info(iran_snipers))
+("squad_with11types_custom" side(cn) crew_nation(cn) name(iran_snipers) c(300) g(inf) c1(iran_heavy_sniper:1) c2(iran_sniper:1) c3(iran_smg2:2) b(extra) brig(iran) t(all_nz aat infantry) cost(25) f(0) info(iran_snipers))
 
 
 ;===============================Не захватывает территорию===========================================
