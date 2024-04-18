@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_iran_kuds_smg"}
+	{portrait "_new/iran/inf"}
+	{icon officer}
+	{icon_priority 3}
+	{tags "officer"}
+	{nationality irn}
+	{armors
+		{head pasgt_helmet_od}
+	}
+	(include "perks_generic.inc")
+	("traits_elite_com")
+	{inventory
+		{item "bandage" 15}
+		{item "rgd grenade"}
+		{item "f1 grenade"}
+		{item "sandbag_kit"}
+		{item "6b2_gp"}
+		{item "ak103_gp25_1p87" filling "762 ammo" 30}
+		{item "gp25_akm" filling "mortar pd a ammo" 1}
+		{item "mortar pd a ammo" 15}
+		{item "762 ammo" 210}
+		{in_hands 5}
+	}
+}

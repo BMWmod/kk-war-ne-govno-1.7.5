@@ -204,7 +204,7 @@
 
 
 
-
+("squad_with9types" side(cn) name(elite_iran_2) c(480) g(iran_kuds) c1(iran_kuds_com:1) c2(iran_mgun:1) c3(iran_mgunhelp:1) c4(iran_kuds_smg:2) c5(iran_kuds_rpg2:2) c6(iran_kuds_rpg2_helper:2) c7(iran_kuds_rpg1:1) c8(iran_kuds_smg2:2) b(extra) brig(iran) t(all_nz specnaz infantry nobot) cost(50) f(0) info(morspec))
 {"mi17_iran"		("v3" c(480) c1(mi17_iran) brig(iran) t(all_nz specnaz infantry nobot) s(cn) n(2) n1(iran_pilot:2) n2(iran_com:1) n3(iran_mgun:1) n4(iran_mgunhelp:1) n5(iran_smg:1) n6(iran_smg2:1) n7(iran_bazooker2:1) n8(iran_bazooker2_help:1) n9(iran_sniper:1) g(advinf3)  sc(50) b(extra) i(26) cw(0) cp(5))  {fore 0.0}}
 ("squad_with11types_custom" side(cn) crew_nation(cn) name(iran_snipers) c(300) g(inf) c1(iran_heavy_sniper:1) c2(iran_sniper:1) c3(iran_smg2:2) b(extra) brig(iran) t(all_nz infantry) cost(25) f(0) info(iran_snipers))
 

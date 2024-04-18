@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/cw_humanskin.ext")
+	{Extension "cw_rus_zapravka.mdl"}
+	{bone "basis"
+		("random_face")
+		("sibz_tac_full_50percent")
+		("iran_belt_smg")
+		{bone "mask"
+			{Position 0	0	-196.85}
+			{VolumeView "/entity/humanskin/outfit/balaklava/balaklava.ply"}
+		}
+		{bone "hood_close"
+			{Position -0.0396955	-0.0771351	30.3673}
+			{VolumeView "/entity/humanskin/outfit/hood/hood_close.ply"}
+		}
+	}
+}

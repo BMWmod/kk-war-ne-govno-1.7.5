@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_iran_kuds_smg"}
+	{portrait "_new/iran/inf"}
+	{icon smgs}
+	{icon_priority 3}
+	{nationality irn}
+	{armors
+		{head pasgt_helmet_od}
+	}
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{inventory
+		{item "bandage" 15}
+		{item "rgd grenade" 2}
+		{item "f1 grenade" 2}
+		{item "smoke rdg2b grenade"}
+		{item "sandbag_kit"}
+		{item "ak74w" filling "545 ammo" 30}
+		{item "545 ammo" 210}
+		{item "tarzan"}
+		{in_hands 5}
+	}
+}

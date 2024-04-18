@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_iran_kuds_smg"}
+	{portrait "_new/iran/inf"}
+	{icon bazookers}
+	{icon_priority 3}
+	{nationality irn}
+	{armors
+		{head pasgt_helmet_od}
+	}
+	(include "perks_generic.inc")
+	("traits_elite_bazooker")
+	{inventory
+		{item "bandage" 15}
+		{item "f1 grenade"}
+		{item "sandbag_kit"}
+		{item "tarzan_rpg"}
+		{item "pg-7vr rpg7 ammo"}
+		{item "pg-7v rpg7 ammo" 2}
+		{item "ak74m_1p29" filling "545 ammo" 30}
+		{item "545 ammo" 210}
+		{in_hands 6}
+	}
+}

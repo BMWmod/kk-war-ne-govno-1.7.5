@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/human/outfit/sibz_tac_army2003"}
+	{blend none}
+}

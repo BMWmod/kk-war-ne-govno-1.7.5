@@ -665,6 +665,14 @@
 ("soldier"   breed(iran_bazooker2_help)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
 ("soldier"   breed(iran_sniper)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
 )
+(define "iran_squad_elite_kuds"
+("soldier"   breed(iran_kuds_com)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_kuds_smg)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_kuds_smg2)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_kuds_rpg1)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_kuds_rpg2)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_kuds_rpg2_helper)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+)
 (define "iran_crew"
 	("soldier"   breed(iran_vehicle_supporter)	side(%side) brig(%brig)	sc(2)	cp(0)	cw(1)	c(0)	tags(crew))
 	("soldier"   breed(tankman)		side(%side) brig(%brig)	sc(2)	cp(-1)	cw(0)	c(0)	tags(crew))
@@ -811,5 +819,6 @@
 ;Иран
 ("iran_squad" side(odkb) brig(iran))
 ("iran_squad_elite" side(odkb) brig(iran))
+("iran_squad_elite_kuds" side(iran) brig(iran))
 ("iran_crew" side(odkb) brig(iran))
 ("iran_shipers" side(odkb) brig(iran))

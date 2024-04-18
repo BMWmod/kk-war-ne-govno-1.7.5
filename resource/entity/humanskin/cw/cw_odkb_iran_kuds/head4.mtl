@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/human/head/arb/4"}
+	{blend none}
+}
