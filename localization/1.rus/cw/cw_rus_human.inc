@@ -652,6 +652,32 @@
 				{"vertpilot" "<c(FFFFFF)>Вертолетчик<c(FFFFFF)>"}
 				{"vertpilot_z10" "<c(FFFFFF)>Вертолетчик<c(FFFFFF)>"}
 				{"operator_bpla" "<c(FFFFFF)>Оператор БПЛА<c(FFFFFF)>"}
+				
+				{"iran_bazooker2" "<c(FFFFFF)>Гранатометчик<c(FFFFFF)>"}
+				{"iran_bazooker2_help" "<c(FFFFFF)>Гранатометчик<c(FFFFFF)>"}
+				{"iran_com" "<c(FFFFFF)>Командир отделения<c(FFFFFF)>"}
+				{"iran_mgun" "<c(FFFFFF)>Пулеметчик<c(FFFFFF)>"}
+				{"iran_mgunhelp" "<c(FFFFFF)>Пом. пулеметчика<c(FFFFFF)>"}
+				{"iran_pilot" "<c(FFFFFF)>Летчик<c(FFFFFF)>"}
+				{"iran_pzrk" "<c(FFFFFF)>Оператор ПЗРК<c(FFFFFF)>"}
+				{"iran_pzrkhelp" "<c(FFFFFF)>Пом. ПЗРК<c(FFFFFF)>"}
+				{"iran_rpg" "<c(FFFFFF)>Гранатометчик<c(FFFFFF)>"}
+				{"iran_rpghelp" "<c(FFFFFF)>Пом. гранатометчика<c(FFFFFF)>"}
+				{"iran_smg" "<c(FFFFFF)>Солдат<c(FFFFFF)>"}
+				{"iran_smg2" "<c(FFFFFF)>Солдат<c(FFFFFF)>"}
+				{"iran_sniper" "<c(FFFFFF)>Снайпер<c(FFFFFF)>"}
+				{"iran_tankman" "<c(FFFFFF)>Танкист<c(FFFFFF)>"}
+				{"iran_tankman2" "<c(FFFFFF)>Танкист<c(FFFFFF)>"}
+				{"iran_tankman3" "<c(FFFFFF)>Танкист<c(FFFFFF)>"}
+				{"iran_vehicle_supporter" "<c(FFFFFF)>Оператор воор./техн.<c(FFFFFF)>"}
+				
+				{"iran_kuds_com" "<c(FFFFFF)>Командир отделения Аль-Кудс<c(FFFFFF)>"}
+				{"iran_kuds_smg" "<c(FFFFFF)>Стрелок спецназа Аль-Кудс<c(FFFFFF)>"}
+				{"iran_kuds_smg2" "<c(FFFFFF)>Стрелок спецназа Аль-Кудс<c(FFFFFF)>"}
+				{"iran_kuds_smg2" "<c(FFFFFF)>Стрелок спецназа Аль-Кудс<c(FFFFFF)>"}
+				{"iran_kuds_rpg1" "<c(FFFFFF)>Оператор ПТРК спецназа Аль-Кудс<c(FFFFFF)>"}
+				{"iran_kuds_rpg2" "<c(FFFFFF)>Гранатометчик спецназа Аль-Кудс<c(FFFFFF)>"}
+				{"iran_kuds_rpg2_helper" "<c(FFFFFF)>Помощник гранатометчика спецназа Аль-Кудс<c(FFFFFF)>"}
 			}
             {"odkb"
 				{"bel_borderguard" "<c(FFFFFF)>Пограничник<c(FFFFFF)>"}
@@ -667,24 +693,6 @@
 				{"bel_tankman" "<c(FFFFFF)>танкист<c(FFFFFF)>"}
 				{"bel_tankman2" "<c(FFFFFF)>танкист<c(FFFFFF)>"}
 				{"bel_tankman3" "<c(FFFFFF)>танкист<c(FFFFFF)>"}
-			
-				{"iran_bazooker2" "<c(FFFFFF)>Гранатометчик<c(FFFFFF)>"}
-				{"iran_bazooker2_help" "<c(FFFFFF)>Гранатометчик<c(FFFFFF)>"}
-				{"iran_com" "<c(FFFFFF)>Командир отделения<c(FFFFFF)>"}
-				{"iran_mgun" "<c(FFFFFF)>Пулеметчик<c(FFFFFF)>"}
-				{"iran_mgunhelp" "<c(FFFFFF)>Пом. пулеметчика<c(FFFFFF)>"}
-				{"iran_pilot" "<c(FFFFFF)>Летчик<c(FFFFFF)>"}
-				{"iran_pzrk" "<c(FFFFFF)>Оператор ПЗРК<c(FFFFFF)>"}
-				{"iran_pzrkhelp" "<c(FFFFFF)>Пом. ПЗРК<c(FFFFFF)>"}
-				{"iran_rpg" "<c(FFFFFF)>Гранатометчик<c(FFFFFF)>"}
-				{"iran_rpghelp" "<c(FFFFFF)>Пом. гранатометчика<c(FFFFFF)>"}
-				{"iran_smg" "<c(FFFFFF)>Солдат<c(FFFFFF)>"}
-				{"iran_smg2" "<c(FFFFFF)>Солдат<c(FFFFFF)>"}
-				{"iran_sniper" "<c(FFFFFF)>Снайпер<c(FFFFFF)>"}
-				{"iran_tankman" "<c(FFFFFF)>танкист<c(FFFFFF)>"}
-				{"iran_tankman2" "<c(FFFFFF)>танкист<c(FFFFFF)>"}
-				{"iran_tankman3" "<c(FFFFFF)>танкист<c(FFFFFF)>"}
-				{"iran_vehicle_supporter" "<c(FFFFFF)>Оператор воор./техн.<c(FFFFFF)>"}
 			
 				{"kz_com" "<c(FFFFFF)>Командир отделения<c(FFFFFF)>"}
 				{"kz_mgun" "<c(FFFFFF)>Пулеметчик<c(FFFFFF)>"}
