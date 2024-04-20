@@ -1,5 +1,5 @@
 ;Exported by: Timosh
-;Date:        Sat Apr 13 19:51:59 2024
+;Date:        Sat Apr 13 19:51:23 2024
 ;File:        G:\?????? ? Pheonix\??????????????\??????\????????\WingLoongII\WingLoong II final.max
 {Skeleton
 	{animation
@@ -296,18 +296,6 @@
 						{VolumeView "aileron1.ply"}
 					}
 				}
-				{bone "pilonl"
-					{Position 2.19559	-20.5097	-6.96147}
-					{VolumeView "pilonl.ply"}
-					{bone "rocket00"
-						{Position 1.17798	2.99205	-7.63804}
-						{VolumeView "rocket00.ply"}
-					}
-					{bone "rocket02"
-						{Position 1.17798	-3.21233	-7.63804}
-						{VolumeView "rocket02.ply"}
-					}
-				}
 				{bone "pilonl3"
 					{Matrix34
 						0.996195	0	-0.0871557
@@ -327,6 +315,27 @@
 							-0.0871557	0	0.996195
 							6.05509	-0.101173	-9.20267
 						}
+					}
+				}
+				{bone "pilonl2bomb"
+					{Matrix34
+						0.996195	0	-0.0871557
+						0	1	0
+						0.0871557	0	0.996195
+						2.19559	-2.3195	-5.23546
+					}
+					{VolumeView "pilonl2bomb.ply"}
+					{bone "bomber_02"
+						{Matrix34
+							0.996195	0	0.0871557
+							0	1	0
+							-0.0871557	0	0.996195
+							6.05509	-0.100658	-9.20267
+						}
+					}
+					{bone "bomb_02"
+						{Position -0.300544	-0.00444031	-6.17154}
+						{VolumeView "bomb_02.ply"}
 					}
 				}
 			}
@@ -361,18 +370,6 @@
 						{VolumeView "aileron2.ply"}
 					}
 				}
-				{bone "pilonr"
-					{Position 2.19559	20.5097	-6.96147}
-					{VolumeView "pilonr.ply"}
-					{bone "rocket03"
-						{Position 1.17797	3.09428	-7.5669}
-						{VolumeView "rocket03.ply"}
-					}
-					{bone "rocket01"
-						{Position 1.17797	-3.10208	-7.62053}
-						{VolumeView "rocket01.ply"}
-					}
-				}
 				{bone "pilonr3"
 					{Position 2.19559	-16.2819	-5.23546}
 					{VolumeView "pilonr3.ply"}
@@ -383,6 +380,17 @@
 					{bone "bomber_01"
 						{Position 1.18417	0.0588226	-9.7359}
 					}
+					{bone "bomb_03"
+						{Position -0.837291	18.6502	-6.12186}
+						{VolumeView "bomb_03.ply"}
+					}
+					{bone "bomber_03"
+						{Position 1.18417	18.6924	-9.7359}
+					}
+				}
+				{bone "pilonr2bomb"
+					{Position 2.19559	2.3592	-5.23546}
+					{VolumeView "pilonr2bomb.ply"}
 				}
 			}
 			{bone "fxfire_body_1"
@@ -452,38 +460,6 @@
 							0	0	1
 							0	-1	0
 							-0.973618	-0.209049	0.111053
-						}
-					}
-					{bone "hellfire_shooter_00"
-						{Matrix34
-							1	0	0
-							0	0	1
-							0	-1	0
-							-7.96571	-0.406527	21.3568
-						}
-					}
-					{bone "hellfire_shooter_01"
-						{Matrix34
-							1	0	0
-							0	0	1
-							0	-1	0
-							-8.28787	-0.246109	-22.108
-						}
-					}
-					{bone "hellfire_shooter_02"
-						{Matrix34
-							1	0	0
-							0	0	1
-							0	-1	0
-							-7.94946	-0.406334	27.8042
-						}
-					}
-					{bone "hellfire_shooter_03"
-						{Matrix34
-							1	0	0
-							0	0	1
-							0	-1	0
-							-8.03226	-0.275312	-28.3719
 						}
 					}
 				}
@@ -740,26 +716,6 @@
 	{Box 5.90551 3.93701 5.90551}
 	{Bone "body_systems"}
 	{Position -4.8107	4.69324	-4.88868}
-}
-{Volume "ptur"
-	{Polyhedron "ptur.vol"}
-	{Bone "pilonl"}
-	{Matrix34
-		0.997335	0	-0.0729603
-		0	1	0
-		0.0729603	0	0.997335
-		-4.45114	-0.201275	-9.50537
-	}
-}
-{Volume "ptura"
-	{Polyhedron "ptura.vol"}
-	{Bone "pilonr"}
-	{Matrix34
-		0.997335	0	-0.0729603
-		0	1	0
-		0.0729603	0	0.997335
-		-2.37929	0.0721588	-10.2553
-	}
 }
 {Volume "radarx"
 	{Box 17.7665 18.4252 4.64882}

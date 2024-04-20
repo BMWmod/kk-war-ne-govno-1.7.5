@@ -1,0 +1,4 @@
+{from "ag300m_x8_wl2 weapon"
+	{filling "ammo ag300m" 4}
+	{rechargeTime 120}
+}

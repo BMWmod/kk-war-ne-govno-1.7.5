@@ -201,6 +201,8 @@
 {"toyota_hilux_ammo_mp"	("v_cust" c(600) brig(iran) t(all_nz supply nobot) s(cn) n(2) crew(odkb/iran_vehicle_supporter) g(supply_add) 	sc(30) b(iran_hqcar) i(11) cw(0) cp(2))  {fore 1}} 
 
 
+{"zulfiqar-3" {fore 0} ("v3" c(700) sc(190) g(190)  b(iran_hqcar) brig(iran)s(cn)  i(99) cw(0) cp(10) t(all_nz supply ) n(2) c1(zulfiqar-3) n1(tankman:3)      ) }
+ 
 
 
 

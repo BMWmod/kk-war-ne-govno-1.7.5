@@ -74,8 +74,8 @@
 {"mq9_nato" ("he_nation" c(450) c1(mq9_nato) brig(nrf) t(additional aircraft nobot support_frontline)  s(nato)  crew_nation(frg) n(0) g(bplan)   sc(300) b(nrf_hqcar) i(2) cw(0) cp(5))  {fore -1.0}}
 {"tiger_hap_at"            ("v_cust" c(240)  brig(nrf) t(all aircraft nobot support_frontline) crew(fr/vertpilot)  s(nato)  n(2)  g(helinb)   sc(230) b(nrf_hqcar) i(3) cw(0) cp(15))  {fore -0.5}}
 
-{"f-16c_sdb_pol"            ("v_cust" c(450)  brig(nrf) t(all aircraft nobot support_frontline) crew(pol/pilot)  s(nato)  n(1)  g(air_at)   sc(350) b(nrf_hqcar) i(5) cw(0) cp(50))  {fore -1.0}}
-{"tornado_gr4_at" ("air_nation" c(600) brig(nrf) t(additional aircraft nobot support_frontline no_frontline)  s(nato) n(2) crew_nation(brit) g(s1)   sc(550) b(nrf_hqcar) i(8) cw(0) cp(100))  {fore -1.5}}
+{"f-16c_sdb_pol"            ("v_cust" c(500)  brig(nrf) t(all aircraft nobot support_frontline) crew(pol/pilot)  s(nato)  n(1)  g(air_at)   sc(350) b(nrf_hqcar) i(5) cw(0) cp(50))  {fore -0.4}}
+{"tornado_gr4_at" ("air_nation" c(600) brig(nrf) t(additional aircraft nobot support_frontline no_frontline)  s(nato) n(2) crew_nation(brit) g(s1)   sc(500) b(nrf_hqcar) i(8) cw(0) cp(100))  {fore -1.0}}
 ;{"tornado_gr1_bomber" ("air_nation" c(580) brig(nrf) t(additional aircraft nobot support_frontline)  s(nato) n(2) crew_nation(brit) g(s2)   sc(600) b(nrf_hqcar) i(9) cw(0) cp(90))  {fore -1.5}}
 {"tornado_gr4_antirad" ("air_nation" c(500) brig(nrf) t(additional aircraft nobot support_frontline)  s(nato) n(2) crew_nation(brit) g(antirad)   sc(170) b(nrf_hqcar) i(7) cw(0) cp(50))  {fore 0.0}}
 {"nh90sas"            ("v3b" c(600) c1(nh90_sas) brig(nrf) t(all aircraft nobot support_frontline) s(nato) n(2) n1(pilot:2) n2(2sas_com:1) n3(2sas_scout_bazooker:1) n4(2sas_smg2:2) n5(2sas_marksman:1) n6(2sas_rocket_launcher:1) n7(2sas_heavy_mgun:1) n8(2sas_smg:2) g(sso)  sc(80) b(nrf_hqcar) i(11) cw(0) cp(5))  {fore 0.8}}

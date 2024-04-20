@@ -1,0 +1,4 @@
+{from "cs-bbm2x2_wl2 weapon"
+	{filling "cs-bbm2 ammo" 4}
+	{rechargeTime 160}
+}

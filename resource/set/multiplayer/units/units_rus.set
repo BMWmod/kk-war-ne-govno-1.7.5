@@ -78,7 +78,7 @@
 
 {"su-34_antirad"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(antirad)  sc(200) b(vvs_hqcar) i(18) cw(0) cp(50))  {fore 0.0}}
 {"su-34_medbomber_light"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(air_2a)  sc(300) b(vvs_hqcar) i(15) cw(0) cp(30))  {fore -0.4}}
-{"su-34_kab"	("p" c(450) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(air_2s)  sc(300) b(vvs_hqcar) i(16) cw(0) cp(30))  {fore -0.8}}
+{"su-34_kab"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(air_2s)  sc(300) b(vvs_hqcar) i(16) cw(0) cp(30))  {fore -0.4}}
 {"su-34_umpk"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(air_2s)  sc(350) b(vvs_hqcar) i(17) cw(0) cp(30))  {fore -0.4}}
 
 ;{"ka52_germes"	("h" c(1800) brig(vvs) t(additional aircraft duel_heli strike nobot support_frontline) s(rus) n(2) g(helik)  sc(480) b(vvs_hqcar) i(19) cw(0) cp(100))  {fore 0}}
