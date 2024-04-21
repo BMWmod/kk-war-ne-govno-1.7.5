@@ -4,7 +4,7 @@
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
 
-
+{"t72av_koz"							"<c(FFFFFF)e(shadow)>T-72AВ обр.1985</c>"} 
 {"btr50"							"<c(FFFFFF)e(shadow)>Makran</c>"}
 {"m46"							"<c(FFFFFF)e(shadow)>М-46</c>"}
 {"toyota_radar"							"<c(FFFFFF)e(shadow)>Toyota Hilux с MPQ-50 IPAR</c>"}
@@ -1039,7 +1039,7 @@
 						{"t72b"							"<c(FFFFFF)e(shadow)>T-72Б обр.1985</c>"}
 						{"t72b1"						"<c(FFFFFF)e(shadow)>T-72Б1 обр.1985</c>"}
 						{"t72b_single"					"<c(FFFFFF)e(shadow)>T-72Б обр.1985</c>"}
-					{"t72av"							"<c(FFFFFF)e(shadow)>T-72AВ обр.1985</c>"}
+					{"t72av"							"<c(FFFFFF)e(shadow)>T-72AВ обр.1985</c>"} 
 					{"t72b3_gorod_komplect"				"<c(FFFFFF)e(shadow)>T-72Б3 Город</c>"}
 				;pak_t80
 					;t80b_all

@@ -12,7 +12,7 @@
 
 ;===============================общие войска=========================================== 
 
-("squad_with2types" side(cn) name(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1) c(600) g(jav) b(common) brig(common) t(all_nz) cost(120) f(0) info(bazookers2))
+("squad_with2types" side(cn) name(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1) c(600) g(jav) b(common) brig(common) t(all_nz) cost(100) f(0) info(bazookers2))
 ("squad_with2types" name(pzrk) side(cn) c(250) g(suppinf111) c1(pzrk:1) c2(pzrkhelp:1) b(common) brig(common) t(all_nz antiair) cost(40) f(1) info(pzrk))
 {"pzrk2_cn"		("v3" c(500) c1(beijing_bj2022)brig(common) t(all_nz inf_cn aat) s(cn) n(2) n1(pzrkhelp:2) n2(pzrk:2) g(pzrk)  sc(80) b(common) i(0) cw(0) cp(0))  {fore 1}}
 {"qjz-89_stan"	("vs" c(300) brig(common) t(all_nz nobot) s(cn) n(2) g(stan_mgun) sc(45) b(common) i(1) cw(10) cp(5))  {fore 1}}

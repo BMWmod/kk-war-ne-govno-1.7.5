@@ -38,7 +38,7 @@
 {"pzrk_serbs" {fore 0.9} ("v3" c(500) sc(90) g(pzrk)  b(supl) brig(common) s(srbsk)  i(55) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(pzrk:3)  	)}                   
 
 
-{"furgon" {fore 1} ("v3" c(900) sc(200) g(FPV_OPERATOR)  b(supl) brig(common) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(1st_com:1) n2(spotter:1)     ) }  
+{"furgon" {fore 1} ("v3" c(550) sc(200) g(FPV_OPERATOR)  b(supl) brig(common) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(1st_com:1) n2(spotter:1)     ) }  
 
 ;==================================Мотобригада===================
 

@@ -137,7 +137,7 @@
 {"bm-30_tornado_s" ("vs" c(1800) brig(artbr) t(all art nobot support_frontline) s(rus) n(4) g(rszo2) sc(450) b(artbr_hqcar) i(13) m(4) cw(0) cp(75))  {fore 0.0}}
 {"iskander" ("vs" c(1800) brig(artbr) t(all art nobot support_frontline) s(rus) n(3) g(otrk)  sc(350) b(artbr_hqcar) i(14) cw(0) cp(80))  {fore -0.1}}
 
-{"eleron3sv"	("p" c(200) brig(artbr) t(additional aircraft aat nobot) s(rus) n(0) g(uav)  sc(30) b(artbr_hqcar) i(16) cw(0) cp(2))  {fore 0.0}}
+{"eleron3sv"	("p" c(200) brig(artbr) t(all_nz additional aircraft aat nobot) s(rus) n(0) g(uav)  sc(30) b(artbr_hqcar) i(16) cw(0) cp(2))  {fore 0.0}}
 
 ;{"tos-1a_solntsepek" ("v" c(1800) brig(artbr) t(all art nobot no_frontline support_frontline) s(rus) n(3) g(extra5)  sc(400) b(extra) i(15) cw(0) cp(70))  {fore -0.3}}
 
