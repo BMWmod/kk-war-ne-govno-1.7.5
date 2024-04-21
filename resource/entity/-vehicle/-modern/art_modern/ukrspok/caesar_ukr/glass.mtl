@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/caesar/ceasar_windows_diffuse_512"}
+	{blend blend}
+}

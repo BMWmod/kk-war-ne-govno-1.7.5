@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/caesar/caasar_ammo"}
+	{blend none}
+}
