@@ -119,7 +119,7 @@
 
 
 {"as_90" ("v_nation" c(300) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(frg) g(art11)   sc(300) b(abn_hqcar) i(5) cw(0) cp(60))   {fore -2.0}}
-{"pzh2000" ("v_nation" c(660) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(frg) g(art2) sc(450) b(abn_hqcar) i(6) cw(0) cp(75))   {fore -1.0}}
+{"pzh2000" ("v_nation" c(900) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(frg) g(art2) sc(450) b(abn_hqcar) i(6) cw(0) cp(75))   {fore -0.8}}
 
 {"mrls_2" ("v_nation" c(1800) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(mlrs1) sc(550) b(abn_hqcar) i(7) cw(0) cp(80))  {fore 0.0}}
 {"mrls_atacms_nato" ("v_nation" c(1800) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(otrk) sc(200) b(abn_hqcar) i(8) m(4) cw(0) cp(80))  {fore -0.1}}

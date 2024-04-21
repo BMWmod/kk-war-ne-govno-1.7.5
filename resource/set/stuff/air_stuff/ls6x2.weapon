@@ -8,7 +8,7 @@
 	{fillingVisible "bombe_"}
 	{fireSound "reactive/bomb"}
 	{recoveryTime 0.75}
-	{rechargeTime 160}
+	{rechargeTime 120}
 	{range 430 440}
 	;{cursor "glonass"}
              ;{cursorReloading "glonass_reload"}

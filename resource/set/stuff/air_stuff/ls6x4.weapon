@@ -1,4 +1,4 @@
 {from "ls6x2 weapon"
 	{filling "ammo ls6" 4}
-	{rechargeTime 220}
+	{rechargeTime 120}
 }

@@ -224,7 +224,7 @@
 	else stuff "9m317 ammo"			
 	("spawn_proj_1" country(rus) type(active) weapon_tag(9m317_target) decoytype(chaff) decoyprob(0.15) min_alt(-100))
 	else stuff "9m33 ammo"			
-	("spawn_proj_1" country(rus) type(active) weapon_tag(9m33_target) decoytype(chaff) decoyprob(0.21) min_alt(14))
+	("spawn_proj_1" country(rus) type(active) weapon_tag(9m33_target) decoytype(chaff) decoyprob(0.21) min_alt(15))
 	else stuff "patriot ammo"		
 	("spawn_proj_5" country(usa) type(active) weapon_tag(patriot_target) decoytype(chaff) decoyprob(0.14) min_alt(-100))
 	else stuff "xmim-115avt1 ammo"	
@@ -263,10 +263,50 @@
 	else stuff "pl12 ammo"	
 	("spawn_proj_7" country(rus) type(active) weapon_tag(pl12_target) decoytype(chaff) decoyprob(0.07) min_alt(10))
 ;other
+
+	else stuff "p2c cm ammo"			
+	("spawn_proj_9" country(rus) type(other) weapon_tag(p2c_cm_target) decoytype(optic) decoyprob(0.05) min_alt(-100))
+	else stuff "p2c fg ammo"			
+	("spawn_proj_9" country(rus) type(other) weapon_tag(p2c_fg_target) decoytype(optic) decoyprob(0.05) min_alt(-100))	
+	else stuff "p2c tb ammo"			
+	("spawn_proj_9" country(rus) type(other) weapon_tag(p2c_tb_target) decoytype(optic) decoyprob(0.05) min_alt(-100))
+   	else stuff "p2c h ammo"			
+	("spawn_proj_9" country(rus) type(other) weapon_tag(p2c_h_target) decoytype(optic) decoyprob(0.04) min_alt(-100))
+	else stuff "3m14k ammo"		
+	("spawn_proj_15" country(rus) type(other) weapon_tag(3m14k_target) decoytype(chaff) decoyprob(0.01) min_alt(-100))
+	else stuff "hydra_dagr ammo"				
+	("spawn_proj_9" country(usa) type(other) weapon_tag(hydra_dagr_target) decoytype(optic) decoyprob(0.05) min_alt(-100))
+	else stuff "storm ammo"			
+	("spawn_proj_15" country(usa) type(other) weapon_tag(storm_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
+	else stuff "x32 ammo"			
+	("spawn_proj_15" country(rus) type(other) weapon_tag(x32_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
+	else stuff "kh47m2 ammo"			
+	("spawn_proj_15" country(rus) type(other) weapon_tag(kh47m2_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
+	else stuff "malahit ammo"			
+	("spawn_proj_15" country(rus) type(other) weapon_tag(malahit_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
+	else stuff "p800 ammo"			
+	("spawn_proj_15" country(rus) type(other) weapon_tag(p800_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
+	else stuff "pac3_mse ammo"		
+	("spawn_proj_5" country(usa) type(active) weapon_tag(pac3_mse_target) decoytype(chaff) decoyprob(0.05) min_alt(-100))
+	else stuff "tamir ammo"		
+	("spawn_proj_5" country(usa) type(active) weapon_tag(tamir_target) decoytype(chaff) decoyprob(0.05) min_alt(-100))
+	else stuff "switchblade600_ammo ammo"				
+	("spawn_proj_5" country(usa) type(other) weapon_tag(switchblade600_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
+
+	else stuff "fpv_drone_ammo ammo"				
+	("spawn_proj_5" country(usa) type(other) weapon_tag(fpv_drone_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
+	
+	else stuff "mim23k ammo"			
+	("spawn_proj_1" country(usa) type(active) weapon_tag(mim23_target) decoytype(chaff) decoyprob(0.21) min_alt(-100))
+	else stuff "9m33_rocket ammo"			
+	("spawn_proj_7" country(rus) type(active) weapon_tag(9m33_rocket_target) decoytype(chaff) decoyprob(0.35) min_alt(14))
+	else stuff "x101_ammo ammo"				
+	("spawn_proj_5" country(rus) type(other) weapon_tag(x101_target) decoytype(optic) decoyprob(0) min_alt(-100))
+
 	else stuff "targeting_radar_usa ammo"		
-	("spawn_proj_passive" country(usa) type(radpassive) weapon_tag(targeting_radar_target) decoytype(chaff) decoyprob(0.04) min_alt(10))	
+	{if not tagged "low_altitude" ("spawn_proj_passive" country(usa) type(radpassive) weapon_tag(targeting_radar_target) decoytype(chaff) decoyprob(0.04) min_alt(10))}	
 	else stuff "targeting_radar_rus ammo"			
-	("spawn_proj_passive" country(rus) type(radpassive) weapon_tag(targeting_radar_target) decoytype(chaff) decoyprob(0.04) min_alt(10))
+	{if not tagged "low_altitude" ("spawn_proj_passive" country(rus) type(radpassive) weapon_tag(targeting_radar_target) decoytype(chaff) decoyprob(0.04) min_alt(10))}
 	else stuff "usa_laser ammo"
 	("spawn_proj_passive" country(usa) type(laser) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.04) min_alt(-100))	
 	else stuff "rus_laser ammo"
