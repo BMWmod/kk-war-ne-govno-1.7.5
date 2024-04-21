@@ -221,6 +221,7 @@
 	{Entity "house_wood_4" 0x303c
 		{Position 2314.79 3124.92 -710.5}
 		{xform zl -0.91}
+		{AreaDisable "cut"}
 	}
 	{Entity "h_w_4_cut3" 0x3040
 		{Placer
@@ -13286,6 +13287,7 @@
 	{Entity "house_wood_4" 0x5557
 		{Position 4392.4 -695.36 -691}
 		{xform zl -87.51}
+		{AreaDisable "cut"}
 	}
 	{Entity "path_sand1s" 0x5558
 		{Position 4484.89 -568.33}
@@ -14727,10 +14729,12 @@
 	{Entity "shaft_euro" 0x3178
 		{Position 1447.03 636.34 -700}
 		{xform zl 28.72}
+		{AreaDisable "cut"}
 	}
 	{Entity "shaft_euro" 0x3179
 		{Position 2328.77 -2053.45 -710.5}
 		{xform zl 51.02}
+		{AreaDisable "cut"}
 	}
 	{Entity "shaft_euro" 0x2607
 		{Position 3683.8 2105.35 -710.5}
@@ -14738,6 +14742,7 @@
 		{TexMod
 			{"/texture/common/roof/roof_sh8" "7"}
 		}
+		{AreaDisable "cut"}
 	}
 	{Entity "awning-wood1" 0x64d1
 		{Position 7478.92 6259.13}
@@ -24989,6 +24994,7 @@
 	{Entity "house_wood_4" 0x58ff
 		{Position -2081.73 -870.18 -705.21}
 		{xform zl 113.75}
+		{AreaDisable "cut"}
 	}
 	{Entity "e-house03a1" 0x5921
 		{Position 6019.31 6112.64 -701.65}
@@ -26764,6 +26770,7 @@
 	{Entity "house_wood_4" 0x6deb
 		{Position -2615.89 -1102.88 -666.5}
 		{xform zl 108.95}
+		{AreaDisable "cut"}
 	}
 	{Entity "path_sand1s" 0x741c
 		{Position 6109.72 -3000.83}
@@ -40738,6 +40745,18 @@
 		{Position 5810.5 -3706.25}
 		{xform zl -145.18}
 	}
+	{Entity "b_euro_corn25" 0x3c4
+	}
+	{Entity "e_farm_c3" 0x478
+	}
+	{Entity "e_farm_c4" 0x479
+	}
+	{Entity "rock_fence_1_c3" 0x642
+	}
+	{Entity "rock_fence_1_c4" 0x643
+	}
+	{Entity "e_farm_c8" 0x724
+	}
 	{Link 0x21cd {0x21c3 "13"}}
 	{Link 0x21ce {0x21c3 "14"}}
 	{Link 0x21cf {0x21c3 "5"}}
@@ -40780,6 +40799,7 @@
 	{Link 0x851 {0x858 "13"}}
 	{Link 0x852 {0x858 "14"}}
 	{Link 0x853 {0x858 "5"}}
+	{Link 0x3c4 {0x8c2 "25"}}
 	{Link 0x6844 {0x684b "13"}}
 	{Link 0x6845 {0x684b "14"}}
 	{Link 0x6846 {0x684b "5"}}
@@ -40804,6 +40824,8 @@
 	{Link 0x2562 {0x2564 "3"}}
 	{Link 0x2563 {0x2564 "4"}}
 	{Link 0x5480 {0x5557 "3"}}
+	{Link 0x478 {0x1bed "3"}}
+	{Link 0x479 {0x1bed "4"}}
 	{Link 0x64ca {0x64cf "1"}}
 	{Link 0x64cb {0x64cf "2"}}
 	{Link 0x64cc {0x64cf "3"}}
@@ -40814,9 +40836,12 @@
 	{Link 0x1c41 {0x1c44 "3"}}
 	{Link 0x1c42 {0x1c44 "4"}}
 	{Link 0x1c43 {0x1c44 "5"}}
+	{Link 0x642 {0x4997 "3"}}
+	{Link 0x643 {0x4997 "4"}}
 	{Link 0x51a6 {0x5464 "13"}}
 	{Link 0x53d1 {0x5464 "14"}}
 	{Link 0x53e6 {0x5464 "5"}}
 	{Link 0x546d {0x58ff "3"}}
 	{Link 0x67e6 {0x6deb "3"}}
+	{Link 0x724 {0x3689 "8"}}
 }
