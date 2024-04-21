@@ -184,7 +184,7 @@
                                    
 ("squad_with11types_custom" name(brit_shipers) f(1)  c(240) cost(30) g(snip) b(gb_hqcar) brig(gb) side(nato) crew_nation(brit)    t(all_nz    ) info(brit_shipers) c1(brit_sniper:1) c2(brit_spotter:1)             ) 
 ("squad_with11types_custom" name(at_rifle_brit) f(0)  c(240) cost(35) g(snip) b(gb_hqcar) brig(gb) side(nato) crew_nation(brit)    t(all_nz    ) info(at_rifle_brit) c1(brit_at_rifle:1) c2(brit_at_rifle_help:1)             ) 
-("squad_with11types_custom" name(brit_jav) f(0.2)  c(600) cost(120) g(jav) b(gb_hqcar) brig(gb) side(nato) crew_nation(brit)    t(all_nz    ) info(brit_jav) c1(brit_jav:1) c2(brit_javhelp:1)             ) 
+("squad_with11types_custom" name(brit_jav) f(0.2)  c(600) cost(100) g(jav) b(gb_hqcar) brig(gb) side(nato) crew_nation(brit)    t(all_nz    ) info(brit_jav) c1(brit_jav:1) c2(brit_javhelp:1)             ) 
                                    
  {"challenger_2" {fore 1} ("v_nation" c(600) sc(180) g(tank_gb) b(gb_hqcar) brig(gb) s(nato)  i(6) cw(0) cp(50) t(all_nz  tank_nato  ) n(4)   crew_nation(brit)            ) }
                                 

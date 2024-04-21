@@ -28,7 +28,7 @@
 ;==============================Common===========================================                                   
 
 ("squad_with2types" side(usa) name(bazookers) c1(smg_bazooker2:1) c2(smg_help_bazooker2:1)  c(120) g(eng) b(common) brig(common) t(all_nz) cost(20) f(1) info(bazookers))
-("squad_with2types" side(usa) name(bazookers2) c1(smg_jav:1) c2(smg_helpjav:1) c(600) g(jav) b(common) brig(common) t(all_nz) cost(120) f(0) info(bazookers2))
+("squad_with2types" side(usa) name(bazookers2) c1(smg_jav:1) c2(smg_helpjav:1) c(600) g(jav) b(common) brig(common) t(all_nz) cost(100) f(0) info(bazookers2))
 ("squad_with2types" name(pzrk) side(usa) c(250) g(suppinf111) c1(pzrk_new:1) c2(pzrkhelp_new:1) b(common) brig(common) t(all_nz antiair) cost(40) f(1) info(pzrk))
 {"pzrk2_usa"		("v3" c(500) c1(hmmwv_m998) brig(common) t(all_nz inf_usa aat) s(usa) n(3) n1(vehicle_supporter:1) n2(pzrk_new:2) n3(pzrkhelp_new:2) g(suppinf)  sc(90) b(common) i(0) cw(0) cp(0))  {fore 1}}
 

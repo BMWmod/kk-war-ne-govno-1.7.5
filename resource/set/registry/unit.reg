@@ -76,6 +76,7 @@
 {"t62_isis"			{structure "cwds_tank"}}
 {"t80ybars"			{structure "cwds_tank"}}
 {"t72av_turmst"			{structure "cwds_tank"}}
+{"t72av_koz"			{structure "cwds_tank"}}
 {"t72b3_blr"			{structure "cwds_tank"}}
 {"m1a1_lodka"			{structure "cwds_tank2"}}
 {"maz-537"	{structure "cwds_truck8"}}
