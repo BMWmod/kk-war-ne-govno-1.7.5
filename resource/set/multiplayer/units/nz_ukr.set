@@ -153,7 +153,7 @@
  {"m60a3"	("v" c(140) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(85) b(brt_ua_hqcar) i(11) cw(0) cp(2))  {fore 1.0}}
  
  ;Леопадла 1А4
- {"leopard_c1w" ("v" c(240) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(90) b(brt_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
+ {"leopard_c1" ("v" c(240) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(90) b(brt_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
   
  ;t72m1
  {"t72m1" ("v" c(260) brig(brt_ua) t(all_nz) s(ukr) n(4) g(medium)  sc(115) b(brt_ua_hqcar)   i(64) m(2) cw(0) cp(25))  {fore 1.0}}
