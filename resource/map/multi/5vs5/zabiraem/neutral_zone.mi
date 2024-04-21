@@ -49,7 +49,7 @@
 		{MID 4}
 	}
 	{Entity "map_point" 0xc005
-		{Position 5018.48 9765.89}
+		{Position 5497.34 9835.65}
 		{xform zl -95.6}
 		{Extender "map_point"
 			{name a2}
@@ -125,7 +125,7 @@
 		{MID 8}
 	}
 	{Entity "map_point" 0xc00d
-		{Position 3603.04 -6280.3}
+		{Position 3987.92 -6285.26}
 		{xform zl 75.61}
 		{Extender "map_point"
 			{name b5}
@@ -144,7 +144,7 @@
 		{MID 12}
 	}
 	{Entity "map_point" 0xc00c
-		{Position 8382.23 -6590.97}
+		{Position 8935.12 -6696.43}
 		{xform zl 73.75}
 		{Extender "map_point"
 			{name b4}
@@ -163,7 +163,7 @@
 		{MID 11}
 	}
 	{Entity "map_point" 0xc00b
-		{Position 4194.57 -6393.75}
+		{Position 2391.29 -5670.71}
 		{xform zl 86.39}
 		{Extender "map_point"
 			{name b3}
@@ -182,7 +182,7 @@
 		{MID 10}
 	}
 	{Entity "map_point" 0xc00a
-		{Position 7974.04 -6578.78}
+		{Position 8131.49 -5894.43}
 		{xform zl 84.01}
 		{Extender "map_point"
 			{name b2}
@@ -201,7 +201,7 @@
 		{MID 9}
 	}
 	{Entity "map_point" 0xc009
-		{Position 8863.91 -6593.23}
+		{Position 10254.4 -6170.01}
 		{xform zl 86.39}
 		{Extender "map_point"
 			{name b1}
@@ -220,7 +220,7 @@
 		{MID 13}
 	}
 	{Entity "map_point" 0xc00e
-		{Position 3897.26 -6303.45}
+		{Position 4282.14 -6308.42}
 		{xform zl 94.32}
 		{Extender "map_point"
 			{name b6}
@@ -1958,6 +1958,12 @@
 	{Tags "keep_places_without_door" 0x5474}
 	{Tags "keep_places_without_door" 0x14bc}
 	{Tags "keep_places_without_door" 0x14d8}
+	{Tags "keep_places_without_door" {0x8c2 "25"}}
+	{Tags "keep_places_without_door" {0x1bed "3"}}
+	{Tags "keep_places_without_door" {0x1bed "4"}}
+	{Tags "keep_places_without_door" {0x4997 "3"}}
+	{Tags "keep_places_without_door" {0x4997 "4"}}
+	{Tags "keep_places_without_door" {0x3689 "8"}}
 	{Tags "invisible_wall_mp_nz" 0x8000}
 	{Tags "invisible_wall_mp_nz" 0x8001}
 	{Tags "invisible_wall_mp_nz" 0x8002}
@@ -2029,12 +2035,6 @@
 	{Tags "invisible_wall_mp_nz" 0x8014}
 	{Tags "invisible_wall_mp_nz" 0x8015}
 	{Tags "invisible_wall_mp_nz" 0x8016}
-	{Tags "keep_places_without_door" {0x8c2 "25"}}
-	{Tags "keep_places_without_door" {0x1bed "3"}}
-	{Tags "keep_places_without_door" {0x1bed "4"}}
-	{Tags "keep_places_without_door" {0x4997 "3"}}
-	{Tags "keep_places_without_door" {0x4997 "4"}}
-	{Tags "keep_places_without_door" {0x3689 "8"}}
 	{Tags "invisible_wall_mp_nz" 0x8017}
 	{Tags "invisible_wall_mp_nz" 0x8018}
 	{Tags "invisible_wall_mp_nz" 0x8019}
