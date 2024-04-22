@@ -36,12 +36,12 @@
  {"ural_art" {fore 1} ("vs" c(600) sc(50) g(supply6) b(supl) brig(common) s(rus)  i(1) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
  {"ural_eng" {fore 1} ("ve" c(240) sc(25) g(supply7) b(supl) brig(common) s(rus)  i(2) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
  {"ural-4320_fuel" {fore 1} ("ve" c(240) sc(25) g(fuel) b(supl) brig(common) s(rus)  i(3) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
- ;{"kamaz" {fore 1} ("vs" c(120) sc(10) g(truck) b(supl) brig(common) s(rus)  i(4) cw(0) cp(2) t(all_nz    ) n(1)               ) }
- ;{"mtlb" {fore 1} ("vs" c(250) sc(20) g(btr1) b(supl) brig(common) s(rus)  i(5) cw(0) cp(5) t(all_nz    ) n(2)               ) }
+ {"ural375" {fore 1} ("vs" c(120) sc(10) g(truck) b(supl) brig(common) s(rus)  i(4) cw(0) cp(1) t(all_nz    ) n(1)               ) }
+ {"mtlb" {fore 1} ("vs" c(250) sc(20) g(btr1) b(supl) brig(common) s(rus)  i(5) cw(0) cp(5) t(all_nz    ) n(2)               ) }
                                    
-("squad_with2types" name(tankman) f(1)  c(30) cost(10) g(eng23234) b(supl) brig(common) side(rus)     t(all_nz   ) info(tankman) c1(tankman:1)              ) 
+("squad_with2types" name(tankman) f(1)  c(30) cost(25) g(eng23234) b(supl) brig(common) side(rus)     t(all_nz   ) info(tankman) c1(tankman:1)              ) 
 ("squad_with1types" name(vehicle_supporter) f(1)  c(15) cost(10) g(support) b(supl) brig(common) side(rus)     t(all_nz   ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
-("squad_with2types" name(pilot) f(1)  c(25) cost(10) g(eng) b(supl) brig(vvs) side(rus)     t(all_nz   ) info(pilot) c1(Pilot:1)              ) 
+("squad_with2types" name(pilot) f(1)  c(25) cost(40) g(eng) b(supl) brig(vvs) side(rus)     t(all_nz   ) info(pilot) c1(Pilot:1)              ) 
                                    
  {"rus_las_designator" {fore 1} ("vs" c(300) sc(15) g(lcu) b(supl) brig(common) s(rus)  i(9) cw(0) cp(1) t(all_nz    ) n(1)               ) }
  {"eleron_catapult" {fore 0.6} ("vart" c(500) sc(75) g(bpla) b(supl) brig(common) s(rus)  i(10) cw(0) cp(5) t(all_nz art   ) c1(eleron_control) c2(eleron_catapult)  n1(vehicle_supporter:1)            ) }
@@ -61,19 +61,19 @@
 ;===============================ВВС===========================================                                   
  {"sso" {fore 0} ("v3" c(420) sc(100) g(sso) b(vvs_hqcar) brig(vvs) s(rus)  i(1) cw(0) cp(2) t(all_nz aircraft support_frontline  ) n(2) c1(mi17_unarmed)brig(vvs) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
 
- {"mi28n" {fore 0} ("h" c(420) sc(280) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(2) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
+ {"mi28ub" {fore 0} ("h" c(420) sc(280) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(2) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
  {"ka52" {fore 0.3} ("h" c(1000) sc(325) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(3) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
                              
  
- {"su-25sm_strike" {fore 0} ("p" c(840) sc(400) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(6) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
- {"su-25sm_support_light" {fore 0} ("p" c(720) sc(220) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(8) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
+
+ {"su-25sm_support_light" {fore 0} ("p" c(720) sc(300) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(8) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
                            
 
  {"su-34_umpk" {fore 0} ("p" c(960) sc(360) g(air_umpk) b(vvs_hqcar) brig(vvs) s(rus)  i(333) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  {"su-34_antirad" {fore 0} ("p" c(600) sc(200) g(air_sead) b(vvs_hqcar) brig(vvs) s(rus)  i(12) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  
  
-
+{"su-34_medbomber_light" {fore 0} ("p" c(900) sc(300) g(air_tac69) b(vvs_hqcar) brig(vvs) s(rus) m(1)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  
  {"mig-29s_aa_vks" {fore 0} ("p" c(600) sc(280) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(15) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
 
@@ -81,6 +81,7 @@
  
  {"ural_avia" {fore 1} ("vs" c(28) sc(100) g(123) b(vvs_hqcar) brig(vvs) s(rus)  i(18) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
  
+  ;{"su-25sm_strike" {fore 0} ("p" c(840) sc(400) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(6) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
                                    
 ;===============================Артиллеристы=========================================== 2a65_msta_b  d30                                   
 ("squad_with9types" name(spotters) f(1)  c(300) cost(40) g(spot) b(artbr_hqcar) brig(artbr) side(rus)     t(all_nz infantry support_frontline  ) info(elite) c1(gru_com_art:3)              ) 
@@ -95,7 +96,8 @@
  
  {"ural-4320_tornado_g" {fore 0} ("vs" c(600) sc(450) g(rszo) b(artbr_hqcar) brig(artbr) s(rus)  i(8) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
  
- 
+ {"2s7m_malka" {fore 0.13} ("v" c(1100) sc(350) g(art2extra) b(artbr_hqcar) brig(artbr) s(rus)  i(777) cw(0) m(13) cp(100) t(all_nz art no_frontline support_frontline   ) n(5)               ) }
+
  {"bm-30_tornado_s" {fore 0.0} ("vs" c(1100) sc(470) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(10) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
  
  {"lancet3m_catapult" {fore 1} ("vart" c(669) sc(169) g(lancet)  b(artbr_hqcar) brig(artbr) s(rus)  i(69) cw(0) cp(30) t(all_nz art   ) c1(eleron_control) c2(lancet3m_catapult)  n1(vehicle_supporter:1)            ) }
@@ -208,35 +210,36 @@
 
 
 ;==================== СПЕЦ ОЧКИ РОССИЯ  
- {"su-34_medbomber_light" {fore 0} ("p" c(900) sc(150) g(air_tac69) b(extra) brig(vvs) s(rus) m(1)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ 
  {"su-34_accurate_2" {fore 0} ("p" c(960) sc(150) g(air69) b(extra) brig(vvs) s(rus)  i(2) m(3) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  {"su-35_strike" {fore 0} ("p" c(1500) sc(200) g(air_strike69) b(extra) brig(vvs) s(rus)  i(3) m(2) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
- 
-
-{"t72b3_2017"	("v" c(600) brig(specbr) t(all_nz  tanks_only duel_tanks90 tank_rus) s(rus) n(3) g(extra14)  sc(100) b(extra) i(4) m(4) cw(0) cp(65))  {fore 0.0}}
-{"t-90a" {fore 0.0} ("v" c(1000) sc(150) g(obt_mot) b(extra) brig(armbr) s(rus)  i(5) cw(0) cp(65) m(5) t(all_nz tank_rus   ) n(3) c1(t90sm) n1(tankman:3)             ) }
-{"bmpt" {fore 0} ("v" c(800) sc(200) g(bmpt) b(extra) brig(armbr) s(rus)  i(6) cw(0) cp(60) m(6)	t(all_nz tank_rus   ) n(5)               ) }
- 
-
- ("squad_with11types" name(elite) f(0)  c(600) cost(50) g(elite_333) b(extra) brig(mot) side(rus) m(7)    t(all_nz specnaz infantry  ) info(elite) c1(gru_com:1) c2(gru_mgun2:1) c3(gru_mgun:1) c4(gru_smg3:1) c5(gru_rpg:1) c6(gru_rpghelp:1) c7(gru_smg2:1) c8(gru_smg:1) c9(gru_sniper:1) ca(gru_zamcom:1)     ) 
- {"bmp3_derivation" {fore 0} ("v_v" c(700) sc(150) g(advinf3_extra) b(extra) brig(mot) s(rus)  i(18) m(8) cw(0) cp(10) t(all_nz tank_rus no_frontline ) n(3)               ) }
- {"kurganec_b-11" {fore 0} ("v3" c(700) sc(150) g(advinf3_extra) b(extra) brig(mot) s(rus)  i(29) cw(0) m(9) cp(80) t(all_nz inf_rus  ) c1(kurganec_b-11) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) n9(spec_sniper:1)     ) }
- 
- {"kornet_stan" {fore 0} ("vs" c(700) sc(50) g(stan3_extra) b(extra) brig(vdv) s(rus)  i(22) cw(1) m(10) cp(25) t(all_nz    ) n(2)               ) }
- {"mi17_b8" {fore 0} ("v3" c(600) sc(100) g(sso_extra) b(extra) brig(vvs) s(rus)  i(69) cw(0) cp(2) m(11) t(all_nz aircraft support_frontline  ) n(2) c1(mi17_b8)brig(vvs) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
- {"ka52_germes" {fore 0} ("h" c(900) sc(250) g(helik_extra) b(extra) brig(vvs) s(rus)  i(256) cw(0) m(12) cp(80) t(all_nz aircraft ) n(2)               ) }
- 
- {"2s7m_malka" {fore 0.13} ("v" c(1100) sc(200) g(art2extra) b(extra) brig(artbr) s(rus)  i(777) cw(0) m(13) cp(100) t(all_nz art no_frontline support_frontline   ) n(5)               ) }
- {"bm-30_smerch" {fore 0} ("vs" c(900) sc(200) g(rszo1extra) b(extra) brig(artbr) s(rus)  i(78) cw(0) m(14) cp(69) t(all_nz art support_frontline  ) n(4)               ) }
- {"tos-1a_solntsepek" {fore 0} ("v" c(900) sc(250) g(extratos) b(extra) brig(artbr) s(rus)  i(731) m(15) cw(0) cp(70) t(all_nz art no_frontline support_frontline  ) n(3)               ) } 
- 
- 
- 
-
+ {"su-50_aa" {fore 0} ("p" c(1200) sc(100) g(antiair_sp) b(extra) brig(vvs) s(rus)  i(172) cw(0) m(1) cp(40) t(all_nz aircraft   ) n(1)               ) } 
  {"shahed136_base"	("p" c(5) brig(vvs) t(all_nz additional aircraft aat nobot shahed136) s(rus) n(0) g(extra01)  sc(10) b(extra) i(222) cw(0) cp(2))  {fore -90.0}}
 
- {"su-50_aa" {fore 0} ("p" c(1200) sc(100) g(antiair_sp) b(extra) brig(vvs) s(rus)  i(172) cw(0) m(1) cp(40) t(all_nz aircraft   ) n(1)               ) } 
- {"btr90" {fore 1} ("v3" c(600) sc(50) g(advinf2_ext_23345) b(extra) brig(mot) s(rus)  i(29) cw(0) m(18) cp(80) t(all_nz inf_rus  ) c1(btr90) n(3) n1(tankman:3)   ) } 
+ 
+  ("squad_with11types" name(elite) f(0)  c(600) cost(50) g(elite_333) b(extra) brig(mot) side(rus) m(7)    t(all_nz specnaz infantry  ) info(elite) c1(gru_com:1) c2(gru_mgun2:1) c3(gru_mgun:1) c4(gru_smg3:1) c5(gru_rpg:1) c6(gru_rpghelp:1) c7(gru_smg2:1) c8(gru_smg:1) c9(gru_sniper:1) ca(gru_zamcom:1)     ) 
+  {"t-90a" {fore 0.0} ("v" c(1000) sc(150) g(obt_mot) b(extra) brig(mot) s(rus)  i(5) cw(0) cp(65) m(5) t(all_nz tank_rus   ) n(3) c1(t90sm) n1(tankman:3)             ) }
+  {"bmpt" {fore 0} ("v" c(800) sc(200) g(bmpt) b(extra) brig(mot) s(rus)  i(6) cw(0) cp(60) m(6)	t(all_nz tank_rus   ) n(5)               ) }
+
+
+  ("squad_with11types" side(rus) name(morspec) c(480) g(extra13) c1(morspec_com:1) c2(morspec_mgun:1) c3(morspec_rpg:1) c4(morspec_rpghelp:1) c5(morspec_smg:1) c6(morspec_smg2:1) c7(morspec_smg3:1) c8(morspec_sniper:1) c9(morspec_sniper1:1) ca(morspec_zamcom:1) b(extra) brig(specbr) t(all_nz specnaz infantry nobot) cost(50) f(0) info(morspec))
+  {"t72b3_2017"	("v" c(600) brig(specbr) t(all_nz  tanks_only duel_tanks90 tank_rus) s(rus) n(3) g(extra14)  sc(100) b(extra) i(4) m(4) cw(0) cp(65))  {fore 0.0}}
+  {"btr90" {fore 1} ("v3" c(600) sc(50) g(advinf2_ext_23345) b(extra) brig(specbr) s(rus)  i(29) cw(0) m(18) cp(80) t(all_nz inf_rus  ) c1(btr90) n(3) n1(tankman:3)   ) } 
+  
+ {"kornet_stan" {fore 0} ("vs" c(700) sc(50) g(stan3_extra) b(extra) brig(vdv) s(rus)  i(22) cw(1) m(10) cp(25) t(all_nz    ) n(2)               ) }
+ {"mi8amtsh1_mgnar" {fore 0} ("v3" c(600) sc(100) g(sso_extra) b(extra) brig(vdv) s(rus)  i(69) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi8amtsh1_mgnar)brig(vdv) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
+ {"mi-24vmi" {fore 0} ("v3" c(1000) sc(200) g(sso_extra) b(extra) brig(vdv) s(rus)  i(70) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi-24vm)brig(vdv) n1(vertpilot:2)         ) }
+  
+
+ {"bm-30_smerch" {fore 0} ("vs" c(900) sc(200) g(rszo1extra) b(extra) brig(artbr) s(rus)  i(78) cw(0) m(14) cp(69) t(all_nz art support_frontline  ) n(4)               ) }
+ {"tos-1a_solntsepek" {fore 0} ("v" c(900) sc(250) g(extratos) b(extra) brig(artbr) s(rus)  i(731) m(15) cw(0) cp(70) t(all_nz art no_frontline support_frontline  ) n(3)               ) } 
+ {"2c3_akaciya"	("v" c(360) brig(artbr) t(all_nz art nobot support_frontline) s(rus) n(4) g(extra5)  sc(100) b(extra) i(8) cw(0) cp(45))  {fore -1.0}}
+
+
+
+ ;{"ka52_germes" {fore 0} ("h" c(900) sc(250) g(helik_extra) b(extra) brig(vvs) s(rus)  i(256) cw(0) m(12) cp(80) t(all_nz aircraft ) n(2)               ) }
+ 
+;{"bmp3_derivation" {fore 0} ("v_v" c(700) sc(150) g(advinf3_extra) b(extra) brig(specbr) s(rus)  i(18) m(8) cw(0) cp(10) t(all_nz tank_rus no_frontline ) n(3)               ) }
 
 
 ;===============================Не захватывает территорию===========================================                                   
