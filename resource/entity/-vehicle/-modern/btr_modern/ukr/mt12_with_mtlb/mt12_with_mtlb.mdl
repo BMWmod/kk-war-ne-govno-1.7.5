@@ -10,6 +10,7 @@
 		{sequence "fire" {speed 0.8} {resume}}
 	}
 	{bone revolute "basis"
+	    {limits 0 0}
 		{parameters "Wheelradius=0.45;"}
 		{Orientation
 			1	0	0
