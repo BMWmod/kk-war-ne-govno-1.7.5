@@ -9,7 +9,7 @@
 		{sequence "open_back_r" {speed 0.15} {resume}}
 		{sequence "fire" {speed 0.8} {resume}}
 	}
-	{bone "basis"
+	{bone revolute "basis"
 		{parameters "Wheelradius=0.45;"}
 		{Orientation
 			1	0	0
