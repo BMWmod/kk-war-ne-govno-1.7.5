@@ -14,47 +14,47 @@
     {fore 1}
 )
 
-{"vvs_mp_flag"           ("hqcar" c(1800) brig(vvs) t(all all_nz hqcar no_frontline_hqcar) s(rus) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-600)) {cost 70}}
-{"pvo_mp_flag"           ("hqcar" c(1800) brig(pvo) t(all hqcar) s(rus) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-150)) {cost 37}}
-{"artbr_mp_flag"           ("hqcar" c(1800) brig(artbr) t(all all_nz hqcar) s(rus) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-600)) {cost 70}}
-{"vdv_mp_flag"           ("hqcar" c(120) brig(vdv) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-200)) {cost 100}}
-{"mot_mp_flag"           ("hqcar" c(120) brig(mot) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
-;{"armbr_mp_flag"           ("hqcar" c(120) brig(armbr) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-200)) {cost 100}}
-{"specbr_mp_flag"           ("hqcar" c(120) brig(specbr) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-200)) {cost 100}}
+{"vvs_mp_flag"           ("hqcar" c(1800) brig(vvs) t(all all_nz hqcar no_frontline_hqcar) s(rus) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-300)) {cost 70}}
+{"pvo_mp_flag"           ("hqcar" c(1800) brig(pvo) t(all all_nz hqcar) s(rus) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-300)) {cost 37}}
+{"artbr_mp_flag"           ("hqcar" c(1800) brig(artbr) t(all all_nz hqcar) s(rus) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-300)) {cost 70}}
+{"vdv_mp_flag"           ("hqcar" c(120) brig(vdv) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-325)) {cost 100}}
+{"mot_mp_flag"           ("hqcar" c(120) brig(mot) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-325)) {cost 100}}
+;{"armbr_mp_flag"           ("hqcar" c(120) brig(armbr) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-325)) {cost 100}}
+{"specbr_mp_flag"           ("hqcar" c(120) brig(specbr) t(all all_nz hqcar) s(rus) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-325)) {cost 100}}
 
-{"usaf_mp_flag"           ("hqcar" c(1800) brig(usaf) t(all all_nz hqcar) s(usa) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-600)) {cost 70}}
-{"usa_aa_mp_flag"           ("hqcar" c(1800) brig(usa_aa) t(all hqcar) s(usa) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-150)) {cost 37}}
-{"usart_mp_flag"           ("hqcar" c(1800) brig(usart) t(all all_nz hqcar) s(usa) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-600)) {cost 70}}
-;{"ngrd_mp_flag"           ("hqcar" c(120) brig(ngrd) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-200)) {cost 100}}
-{"idf_mp_flag"           ("hqcar" c(120) brig(idf) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
-{"usarmy_mp_flag"           ("hqcar" c(120) brig(usarmy) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-200)) {cost 100}}
-{"usmc_mp_flag"           ("hqcar" c(120) brig(usmc) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-200)) {cost 100}}
+{"usaf_mp_flag"           ("hqcar" c(1800) brig(usaf) t(all all_nz hqcar) s(usa) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-300)) {cost 70}}
+{"usa_aa_mp_flag"           ("hqcar" c(1800) brig(usa_aa) t(all all_nz hqcar) s(usa) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-300)) {cost 37}}
+{"usart_mp_flag"           ("hqcar" c(1800) brig(usart) t(all all_nz hqcar) s(usa) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-300)) {cost 70}}
+;{"ngrd_mp_flag"           ("hqcar" c(120) brig(ngrd) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-325)) {cost 100}}
+{"idf_mp_flag"           ("hqcar" c(120) brig(idf) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-325)) {cost 100}}
+{"usarmy_mp_flag"           ("hqcar" c(120) brig(usarmy) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-325)) {cost 100}}
+{"usmc_mp_flag"           ("hqcar" c(120) brig(usmc) t(all all_nz hqcar) s(usa) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-325)) {cost 100}}
 
-{"nrf_mp_flag"           ("hqcar" c(1800) brig(nrf) t(all all_nz hqcar) s(nato) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-600)) {cost 70}}
-{"nato_aa_mp_flag"           ("hqcar" c(1800) brig(nato_aa) t(all hqcar) s(nato) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-150)) {cost 37}}
-{"abn_mp_flag"           ("hqcar" c(1800) brig(abn) t(all all_nz hqcar) s(nato) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-600)) {cost 70}}
-{"bund_mp_flag"           ("hqcar" c(120) brig(bund) t(all all_nz hqcar) s(nato) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-200)) {cost 100}}
-{"gb_mp_flag"           ("hqcar" c(120) brig(gb) t(all all_nz hqcar) s(nato) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
-{"fra_mp_flag"           ("hqcar" c(120) brig(fra) t(all all_nz hqcar) s(nato) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-200)) {cost 100}}
+{"nrf_mp_flag"           ("hqcar" c(1800) brig(nrf) t(all all_nz hqcar) s(nato) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-300)) {cost 70}}
+{"nato_aa_mp_flag"           ("hqcar" c(1800) brig(nato_aa) t(all all_nz hqcar) s(nato) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-300)) {cost 37}}
+{"abn_mp_flag"           ("hqcar" c(1800) brig(abn) t(all all_nz hqcar) s(nato) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-300)) {cost 70}}
+{"bund_mp_flag"           ("hqcar" c(120) brig(bund) t(all all_nz hqcar) s(nato) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-325)) {cost 100}}
+{"gb_mp_flag"           ("hqcar" c(120) brig(gb) t(all all_nz hqcar) s(nato) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-325)) {cost 100}}
+{"fra_mp_flag"           ("hqcar" c(120) brig(fra) t(all all_nz hqcar) s(nato) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-325)) {cost 100}}
 
-{"cnair_mp_flag"           ("hqcar" c(1800) brig(cnair) t(all all_nz hqcar) s(cn) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-600)) {cost 70}}
-{"cnsam_mp_flag"           ("hqcar" c(1800) brig(cnsam) t(all hqcar) s(cn) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-150)) {cost 37}}
-{"cnart_mp_flag"           ("hqcar" c(1800) brig(cnart) t(all all_nz hqcar) s(cn) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-600)) {cost 70}}
-{"cnheavy_mp_flag"           ("hqcar" c(120) brig(cnheavy) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-200)) {cost 100}}
-{"cnmed_mp_flag"           ("hqcar" c(120) brig(cnmed) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
-{"iran_mp_flag"           ("hqcar" c(120) brig(iran) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-200)) {cost 100}}
-;{"cnsco_mp_flag"           ("hqcar" c(120) brig(cnsco) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-200)) {cost 100}}
+{"cnair_mp_flag"           ("hqcar" c(1800) brig(cnair) t(all all_nz hqcar) s(cn) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-300)) {cost 70}}
+{"cnsam_mp_flag"           ("hqcar" c(1800) brig(cnsam) t(all all_nz hqcar) s(cn) n(2) g(hqcar_add)   sc(1) b(hqcar) i(2) cw(0) cp(-300)) {cost 37}}
+{"cnart_mp_flag"           ("hqcar" c(1800) brig(cnart) t(all all_nz hqcar) s(cn) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-300)) {cost 70}}
+{"cnheavy_mp_flag"           ("hqcar" c(120) brig(cnheavy) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(4) cw(0) cp(-325)) {cost 100}}
+{"cnmed_mp_flag"           ("hqcar" c(120) brig(cnmed) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-325)) {cost 100}}
+{"iran_mp_flag"           ("hqcar" c(120) brig(iran) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(6) cw(0) cp(-325)) {cost 100}}
+;{"cnsco_mp_flag"           ("hqcar" c(120) brig(cnsco) t(all all_nz hqcar) s(cn) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-325)) {cost 100}}
 
 {"persistent_marker_rus"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(rus) n(2) g(marker)   sc(1) b(hqcar) i(8) cw(0) cp(0)) {cost 0.1}}
 {"persistent_marker_usa"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(usa) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 {"persistent_marker_nato"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(nato) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
-{"persistent_marker_cn"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(cn) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
+{"persistent_marker_cn"           ("hqcar" c(1) brig() t(all all_nz marker) s(cn) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 
 
 
 
 ;------------------dummies for no-brigade mode to deal with button bug
-{"rus_dummy_flag"           ("hqcar" c(120) brig(mot) t(all all_nz hqcardummy) s(rus) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
-{"usa_dummy_flag"           ("hqcar" c(120) brig(usarmy) t(all all_nz hqcardummy) s(usa) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
-{"nato_dummy_flag"           ("hqcar" c(120) brig(abn) t(all all_nz hqcardummy) s(nato) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
-{"chi_dummy_flag"           ("hqcar" c(120) brig(abn) t(all all_nz hqcardummy) s(chi) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
+;{"rus_dummy_flag"           ("hqcar" c(120) brig(mot) t(all all_nz hqcardummy) s(rus) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-325)) {cost 100}}
+;{"usa_dummy_flag"           ("hqcar" c(120) brig(usarmy) t(all all_nz hqcardummy) s(usa) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-325)) {cost 100}}
+;{"nato_dummy_flag"           ("hqcar" c(120) brig(abn) t(all all_nz hqcardummy) s(nato) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-325)) {cost 100}}
+;{"chi_dummy_flag"           ("hqcar" c(120) brig(abn) t(all all_nz hqcardummy) s(chi) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-325)) {cost 100}}

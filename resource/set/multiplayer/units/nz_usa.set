@@ -5,11 +5,11 @@
  {"mq9" {fore 0} ("p" c(600)  sc(50) g(air_tac) b(extra) brig(usaf) s(usa)  m(2) i(2) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
  {"f-15e_strike" {fore 0} ("v_cust" c(1250) sc(150) g(heli_spike) b(extra) brig(usaf) s(usa) crew(usa/vertpilot_apache) m(1) i(1) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"f-15e_kab" {fore 0} ("p" c(960)  sc(150) g(air_strike) b(extra) brig(usaf) s(usa) m(3) i(3) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
- {"e-2c_hawkeye" {fore 0} ("p" c(300) sc(100) g(radar) b(extra) brig(usaf) s(usa) m(4)  i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
+ {"e-2c_hawkeye" {fore 0} ("p" c(300) sc(100) g(radar) b(extra) brig(usa_aa) s(usa) m(4)  i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
  
- {"m163" {fore 0} ("v_nation" c(240) sc(50) g(anitmissile) b(extra) brig(usart) m(6) s(usa) crew_nation(usa) i(6) cw(0) cp(10) t(all_nz antiair aat support_frontline  ) n(3)               ) }
+ {"m163" {fore 0} ("v_nation" c(240) sc(50) g(anitmissile) b(extra) brig(usa_aa) m(6) s(usa) crew_nation(usa) i(6) cw(0) cp(10) t(all_nz antiair aat support_frontline  ) n(3)               ) }
 
- {"mq9_recon" {fore 0.0} ("h" c(300) sc(50) g(recon_bigextra) b(extra) brig(usart) s(usa)  i(757) m(7) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) } 
+ {"mq9_recon" {fore 0.0} ("h" c(300) sc(50) g(recon_bigextra) b(extra) brig(usa_aa) s(usa)  i(757) m(7) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) } 
  {"m142_himarser" ("v" c(1000) brig(usart) t(all_nz art nobot support_frontline) s(usa) n(2) g(extra9) sc(300) b(extra) i(555) m(4) cw(0) cp(75))  {fore -0.2}}
  {"mrls_atacms_2" {fore 0} ("v" c(900) sc(200) g(otrkextraextra) b(extra) brig(usart) s(usa)  m(9) i(9) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
 
@@ -67,12 +67,12 @@
 								   
 ("squad_with2types" name(tankman) f(1)  c(30) cost(15) g(supp) b(supl) brig(common) side(usa)     t(all_nz   ) info(tankman) c1(tankman:1)              ) 
 ("squad_with1types" name(vehicle_supporter) f(1)  c(15) cost(15) g(support) b(supl) brig(common) side(usa)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
-("squad_with2types" name(pilot) f(1)  c(25) cost(15) g(supp) b(supl) brig(usaf) side(usa)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
+("squad_with2types" name(pilot) f(1)  c(25) cost(15) g(supp) b(usaf_hqcar) brig(usaf) side(usa)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
                                    
 ("squad_with1types" name(operator_bpla) f(0.6)  c(620) cost(40) g(operator_bpla) b(supl) brig(common) side(usa)     t(all_nz    ) info(operator_bpla) c1(operator_bpla:1)              ) 
  {"switchblade300_catapult" {fore 0.3} ("v_kamikaze" c(400) sc(69) g(kamikaze) b(supl) brig(common) s(usa)  i(9) cw(0) cp(5) t(all_nz    ) n(1)               ) }
  {"mstar_v6usa" {fore 0} ("vs" c(900) sc(100) g(mstar) b(supl) brig(common) s(usa)  i(10) cw(1) cp(15) t(all_nz    ) n(2)               ) }
-("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(supl) brig(common) side(usa)     t(all_nz    ) info(miners) c1(antitank_miner:4) c2(antipersonel_miner:4)             ) 
+
 ("squad_with1types" name(sappers) f(1)  c(240) cost(10) g(eng) b(supl) brig(common) side(usa)     t(all_nz    ) info(sappers) c1(saper:2)              ) 
       
 
@@ -92,38 +92,42 @@
  {"f-16c_support" {fore 0} ("p" c(960)  sc(360) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(10) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }              
  {"f-16c_antirad" {fore 0} ("p" c(600)  sc(250) g(air_sead) b(usaf_hqcar) brig(usaf) s(usa)  i(14) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }                            
  
- {"f-15c_aa"             ("p" c(450) brig(usaf) t(all_nz aircraft duel_fighter nobot support_frontline) s(usa) n(1) g(extra6)  sc(250) b(usaf_hqcar) i(2) cw(0) cp(50))  {fore -1.4}}
- {"f-22_antiair" {fore 0} ("p" c(720)  sc(290) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(17) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
-                                  
+                              
   
  ;{"f-16c_aai" {fore -1.4} ("v3" c(400) sc(260) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(20) cw(0) cp(40) t(all_nz  support_frontline  ) n(3) c1(f-16c_aa) n1(vertpilot:1)     ) }                                 
                            
  {"m939_avia" {fore 1} ("vs" c(28) sc(100) g(supply3) b(usaf_hqcar) brig(usaf) s(usa)  i(19) cw(0) cp(2) t(all_nz  supply  ) n(2)               ) }
                                    
 ;===============================US artillery===========================================                                   
-("squad_with7types" name(usaspot) f(1)  c(300) cost(40) g(spot) b(usart_hqcar) brig(usart) side(usa)     t(all_nz    ) info(smgs) c1(navyseal_com_art:1) c2(navyseal_marksman_art:1) c3(navyseal_smg_art:1)            ) 
-                                   
+                        
+ {"switchblade600_catapult"            ("v_kamikaze" c(669) brig(usart) t(all_nz nobot) s(usa) n(1) g(kamikaze_600) sc(180) b(usart_hqcar) i(333) cw(0) cp(15))  {fore 1}}
  {"m119" {fore 0.75} ("vart" c(600) sc(100) g(how) b(usart_hqcar) brig(usart) s(usa)  i(2) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(hmmwv_m998_tent) c2(m119) n1(vehicle_supporter_usmc:2)            ) }
  {"m777a2" {fore 0} ("vart" c(500) sc(165) g(how) b(usart_hqcar) brig(usart) s(usa) m(5)  i(5) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) n1(vehicle_supporter_usmc:2)            ) }                                  
- 
  {"paladin" {fore 0} ("v" c(669) sc(500) g(lart) b(usart_hqcar) brig(usart) s(usa)  i(333) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
  {"m142_himars" {fore 0} ("v" c(840) sc(327) g(rszoextra) b(usart_hqcar) brig(usart) s(usa)  i(88) m(8) cw(0) cp(50) t(all_nz art support_frontline  ) n(2)               ) }
  {"mrls" {fore 0} ("v" c(840) sc(550) g(rszo) b(usart_hqcar) brig(usart) s(usa)  i(4) cw(0) cp(96) t(all_nz art support_frontline  ) n(2)               ) }
  {"mrls_atacms" {fore 0} ("v" c(1200) sc(275) g(otrk) b(usart_hqcar) brig(usart) s(usa)  i(6) cw(0) cp(80) t(all_nz art support_frontline  ) n(2)               ) }
-
- {"nasams_ii_launcher" {fore 0} ("vradar" c(240) sc(150) g(pvo1) b(usart_hqcar) brig(usart) s(usa)  i(911) cw(0) cp(40) t(all_nz  antiair aat ) n(3) c1(nasams_ii_launcher) c2(hawk_cwar) n1(vehicle_supporter:3) n2()           ) }
-
-{"switchblade600_catapult"            ("v_kamikaze" c(669) brig(usart) t(all_nz nobot) s(usa) n(1) g(kamikaze_600) sc(180) b(usart_hqcar) i(333) cw(0) cp(15))  {fore 1}}
-
-
- {"patriot_launcher" {fore 0} ("vpat" c(1000) sc(300) g(pvo45) b(usart_hqcar) brig(usart) s(usa)  i(10) cw(0) cp(55) t(all_nz art support_frontline  ) n(2) c1(patriot_truck) c2(patriot_launcher) n1(vehicle_supporter:2)            ) }
- {"patriot_radar" {fore 0.07} ("vpat" c(1000) sc(450) g(pvo46) b(usart_hqcar) brig(usart) s(usa)  i(11) cw(0) cp(55) t(all_nz art cannon heavy_art fixed support_frontline  ) n(2) c1(patriot_truck) c2(patriot_radar) n1(vehicle_supporter:2)            ) }
-                                   
- {"hawk_rls" {fore 0.9} ("vpat" c(300) sc(90) g(radar1) b(usart_hqcar) brig(usart) s(usa)  i(12) cw(0) cp(5) t(all_nz art cannon heavy_art fixed support_frontline  ) n(2) c1(hmmwv_m998) c2(hawk_rls) n1(vehicle_supporter:2)            ) }
-
- {"m939_art_pvo" {fore 1} ("vs" c(900) sc(100) g(supply4) b(usart_hqcar) brig(usart) side(usa)  i(14) cw(0) cp(2) t(all_nz supply support_frontline  ) n(2)               ) }
- {"box_weapon_usa_excalibur" {fore -15} ("vs" c(1) sc(40) g(supply_spec) b(usart_hqcar) brig(usart) s(usa)  i(15) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
+{"box_weapon_usa_excalibur" {fore -15} ("vs" c(1) sc(40) g(supply_spec) b(usart_hqcar) brig(usart) s(usa)  i(15) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
  {"box_weapon_usa_gmlrs_cl" {fore -10} ("vs" c(1) sc(100) g(supply_spec) b(usart_hqcar) brig(usart) s(usa)  i(16) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
+("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(usart_hqcar) brig(usart) side(usa)     t(all_nz    ) info(miners) c1(antitank_miner:4) c2(antipersonel_miner:4)             ) 
+
+
+
+                                   
+;===============================ПВО===========================================                                   
+
+("squad_with7types" name(usaspot) f(1)  c(300) cost(40) g(spot) b(usaaa_hqcar) brig(usa_aa) side(usa)     t(all_nz    ) info(smgs) c1(navyseal_com_art:1) c2(navyseal_marksman_art:1) c3(navyseal_smg_art:1)            ) 
+       
+ {"f-15c_aa"             ("p" c(450) brig(usa_aa) t(all_nz aircraft duel_fighter nobot support_frontline) s(usa) n(1) g(extra6)  sc(150) b(extra) i(1) cw(0) cp(50))  {fore -1.4}}
+ {"f-16c_aa"            ("p" c(400) brig(usa_aa) t(all_nz additional aircraft duel_fighter nobot support_frontline) s(usa) n(1) g(air)  sc(260) b(usaaa_hqcar) i(2) cw(0) cp(40))  {fore -1.4}}
+ {"f-22_antiair" {fore 0} ("p" c(720)  sc(290) g(antiair) b(usaaa_hqcar) brig(usa_aa) s(usa)  i(3) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
+    	   
+ {"nasams_ii_launcher" {fore 0} ("vradar" c(240) sc(150) g(pvo1) b(usaaa_hqcar) brig(usa_aa) s(usa)  i(4) cw(0) cp(40) t(all_nz  antiair aat ) n(3) c1(nasams_ii_launcher) c2(hawk_cwar) n1(vehicle_supporter:3) n2()           ) }
+ {"patriot_launcher" {fore 0} ("vpat" c(1000) sc(300) g(pvo45) b(usaaa_hqcar) brig(usa_aa)  s(usa)  i(5) cw(0) cp(55) t(all_nz art support_frontline  ) n(2) c1(patriot_truck) c2(patriot_launcher) n1(vehicle_supporter:2)            ) }
+ {"patriot_radar" {fore 0.07} ("vpat" c(1000) sc(450) g(pvo46) b(usaaa_hqcar) brig(usa_aa)  s(usa)  i(6) cw(0) cp(55) t(all_nz art cannon heavy_art fixed support_frontline  ) n(2) c1(patriot_truck) c2(patriot_radar) n1(vehicle_supporter:2)            ) }                               
+ {"hawk_rls" {fore 0.9} ("vpat" c(300) sc(90) g(radar1) b(usaaa_hqcar) brig(usa_aa)  s(usa)  i(7) cw(0) cp(5) t(all_nz art cannon heavy_art fixed support_frontline  ) n(2) c1(hmmwv_m998) c2(hawk_rls) n1(vehicle_supporter:2)            ) }
+ {"m939_art_pvo" {fore 1} ("vs" c(900) sc(100) g(supply4) b(usaaa_hqcar) brig(usa_aa)  side(usa)  i(8) cw(0) cp(2) t(all_nz supply support_frontline  ) n(2)               ) }
+ 
                                    
 ;===============================US Army===========================================                                   
 
