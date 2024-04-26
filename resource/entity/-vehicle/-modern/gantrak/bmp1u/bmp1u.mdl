@@ -8,7 +8,6 @@
     {Animation
         {Sequence "start"}
         {Sequence "stop"}
-        {Sequence "fire"}
         {Sequence "open_driver" {Speed 0.4} {Resume}}
         {Sequence "open_g" {Speed 0.1} {Resume}}
         {Sequence "open_com" {Speed 0.1} {Resume}}

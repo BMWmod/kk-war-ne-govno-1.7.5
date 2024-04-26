@@ -42,9 +42,6 @@
 	{component "shieldl8" {tags "shield"}}
 	{component "shieldl9" {tags "shield"}}
 	{extender "inventory"
-		{weapon "mgun"
-			{mask "weapon link_mmg"}
-		}
 		{box
 			{item "ammo bullet30_rus" 320 }
 			{item "ammo bullet30_RUS fg" 300}
@@ -53,9 +50,7 @@
 			{item "pkt" filled {user "mgun"}}
 			{item "rpg7 weapon" 1}
 	  		{item "f1 grenade" 9}
-			
-			{item "PG-7VL rpg7 ammo" 3}
-                        
+			{item "PG-7VL rpg7 ammo" 3}                     
 		}
 	}
     {Weaponry
@@ -65,7 +60,7 @@
 			{weapon "30mm_2A72" filled}
 			{gunner "gunner"}
 			{charger "gunner"}
-						("CW_stab_abm" abm(0.68))
+			("CW_stab_abm" abm(0.68))
 			("CW_stab_ld_suo")
         }     
 		{place "mgun"
@@ -76,7 +71,7 @@
 			{basic}
 			("CW_stab_no_stabiliser")
         }
-                {place "mgun2"
+        {place "mgun2"
 			{weapon "ags17 weapon" filling "ammo mortar pdb" 30}
 			{foresight "foresight5"}
 			{LinkAnimation "off"}
@@ -84,8 +79,8 @@
 			{charger "gunner"}
 			{basic}
 			("CW_stab_no_stabiliser")
-                }
-                {place "mgun18"			;дым гранатометы
+        }
+        {place "mgun18"			;дым гранатометы
 			{type "mgun_left"}
 			{weapon "3xsmokegun_bmp2" filled}
 			{gunner "commander"}
@@ -103,7 +98,7 @@
 	{sensor
 		{visor "driver"
 			{vision "tank_driver"}
-			{bone "visor"}
+			{bone "visor2"}
 		}
 		{visor "gunner"
 			{vision "tank_gunner_optic_IR_2g"}
@@ -129,7 +124,6 @@
 
 	("CW_amphibia" Waterline(1.5) )
 	("two_headlights")
-	("cw_headlightt")
 	{Extension "bmp1u.mdl"}
 	("missile_aimpoint_tanksize")
 	("cwts_buksir")
