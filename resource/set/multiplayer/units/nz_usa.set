@@ -162,13 +162,16 @@
 ;===========================Цахал==============================================                                   
 ("squad_with11types_custom" side(usa) crew_nation(idf) name(idf) c(120) g(inf) c1(idf_com:1) c2(idf_smg:1) c3(idf_hmgun:1) c4(idf_bazooker:1) c5(idf_marksman:1) c6(idf_bazooker2:1) c7(idf_smg2:1)b(idf_hqcar) brig(idf) t(all_nz infantry) cost(80) f(1.0) info(idf))
 
-{"m113a"		("v3i" c(120) c1(m113a)brig(idf) t(all_nz inf_usa infantry) s(usa) n(3) n1(tankman:2) g(inf22)  sc(30) b(idf_hqcar) i(1) cw(10) cp(5))  {fore 1}}
 
+
+{"m113a"		("v3i" c(120) c1(m113a)brig(idf) t(all_nz inf_usa infantry) s(usa) n(3) n1(tankman:2) g(inf22)  sc(30) b(idf_hqcar) i(1) cw(10) cp(5))  {fore 1}}
+{"eitan_apc_ags"		("v3i" c(600) c1(eitan_apc_ags)brig(idf) t(all_nz inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp3)  sc(145) b(idf_hqcar) i(111) cw(20) cp(30))  {fore 1}}
 {"namer"		("v3i" c(120) c1(namer)brig(idf) t(all_nz inf_usa infantry) s(usa) n(3) n1(tankman:2) g(inf69)  sc(30) b(idf_hqcar) i(2) cw(10) cp(5))  {fore 1}}
 
 
 
 {"m113ai"		("v3i" c(240) c1(m113a)brig(idf) t(all_nz inf_usa infantry) s(usa) n(3)  n1(tankman:2) n2(idf_com:1) n3(idf_smg:1) n4(idf_hmgun:1) n5(idf_bazooker:1) n6(idf_marksman:1) n7(idf_bazooker2:1) n8(idf_smg2:1) g(inf222)  sc(110) b(idf_hqcar) i(3) cw(0) cp(5))  {fore 1}}
+{"eitan_apc_mgi"		("v3i" c(140) c1(eitan_apc_mg)brig(idf) t(all_nz inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(idf_com:1) n3(idf_smg:1) n4(idf_hmgun:1) n5(idf_bazooker:1) n6(idf_marksman:1) n7(idf_bazooker2:1) n8(idf_smg2:1) g(bmp4)  sc(130) b(idf_hqcar) i(444) cw(0) cp(15))  {fore 1.0}}
 {"nameri"		("v3i" c(600) c1(namer)brig(idf) t(all_nz inf_usa infantry) s(usa) crew_nation(idf) n(3) n1(tankman:3) n2(idf_com:1) n3(idf_smg:2) n4(idf_hmgun:1) n5(idf_bazooker:1) n6(idf_marksman:1) n7(idf_bazooker2:1) n8(idf_smg2:1) g(inf22)  sc(170) b(idf_hqcar) i(4) cw(0) cp(30))  {fore 0.0}}
 
 
