@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/eitan_apc/eitan_glass"}
+	{specular "$/model/eitan_apc/eitan_glass_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

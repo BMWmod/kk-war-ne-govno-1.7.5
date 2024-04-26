@@ -1,0 +1,24 @@
+;Exported by: Timosh
+;Date:        Sat May  7 09:20:02 2022
+;File:        C:\Users\Timosh\Documents\3dsMax\scenes\busstop1.max
+{Skeleton
+	{bone "busstop"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "place_r"
+			{Position 0	0	39.3701}
+		}
+		{bone "place_w1"
+			{Position 0	29.5276	0}
+		}
+		{bone "place_w3"
+			{Position -9.84252	0	0}
+		}
+		{bone "place_w2"
+			{Position 0	-29.5276	0}
+		}
+	}
+}

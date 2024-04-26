@@ -1,0 +1,18 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo sampt" 8}
+	{fireSound "bazooka/patriotLaunch"}	
+	{fillingVisible "missile"}	
+	{mass 50}
+	{recoveryTime 2}	
+	{rechargeTime 120}
+	{AimingTolerance 5}	;только для пассивного наведения
+	{inventory {noView}}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{maxRange 480}
+	{aimRange 430}	;дальность предварительного наведения
+}

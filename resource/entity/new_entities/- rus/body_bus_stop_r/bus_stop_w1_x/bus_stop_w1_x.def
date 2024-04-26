@@ -1,0 +1,18 @@
+{game_entity
+	{Extension "bus_stop_w1_x.mdl"}
+	{Volume "piece2"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "piece4"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "piece5"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 0}{obstacle 0}}
+	}
+}

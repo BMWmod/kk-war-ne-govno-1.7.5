@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/eitan_apc/tactical_sing_israel"}
+	{blend test}
+}

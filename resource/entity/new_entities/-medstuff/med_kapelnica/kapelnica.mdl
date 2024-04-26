@@ -1,0 +1,37 @@
+;Exported by: andre
+;Date:        Sun Nov 12 21:17:00 2023
+;File:        C:\?????? ? ???\??????\?????\????????\atm.max
+{Skeleton
+	{bone "kapelnica"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "kapelnica.ply"}
+		{bone "detail_2"
+			{VolumeView "detail_2.ply"}
+		}
+		{bone "detail_1"
+			{VolumeView "detail_1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.25864 -0.0924127}
+		{Extent 2.49443 3.82072}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "kapelnica"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		60.8206	-0.324034	1.13378
+	}
+}

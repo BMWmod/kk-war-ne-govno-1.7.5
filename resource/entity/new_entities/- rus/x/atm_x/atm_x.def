@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "atm_x.mdl"}
+	{Volume "body"
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}

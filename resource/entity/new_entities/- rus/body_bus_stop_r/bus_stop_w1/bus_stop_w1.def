@@ -1,0 +1,28 @@
+{game_entity
+    (include "/properties/building.inc")
+	{Extension "bus_stop_w1.mdl"}
+	{obstacleID "small_building"}
+	{props "steel" "big" "parts" "construction" "cornered" "wall" "no_destroyed_stamp"}
+	("armor_use_volume_thickness")
+	{mass 100}
+	{Volume "body005"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 0}{obstacle 0}}
+	}
+}

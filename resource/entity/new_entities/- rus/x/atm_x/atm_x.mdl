@@ -1,0 +1,31 @@
+;Exported by: PC
+;Date:        Wed Feb 23 20:58:23 2022
+;File:        D:\?????????? ?? ???????? 24.2020\?????\??????? ???\medbox.max
+{Skeleton
+	{bone "atm_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "atm_x.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -24.8643 -0.813691}
+		{Extent 7.6525 6.87092}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "atm_x"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		12.3767	-1.19138	-0.0039711
+	}
+}

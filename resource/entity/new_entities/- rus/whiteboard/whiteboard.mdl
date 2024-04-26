@@ -1,0 +1,23 @@
+;Exported by: andre
+;Date:        Wed Nov 15 08:04:46 2023
+;File:        C:\?????? ? ???\??????\?????\?????.max
+{Skeleton
+	{bone "whiteboard"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "whiteboard.ply"}
+	}
+}
+{Volume "body"
+	{Box 6.98438 45.2658 34.0232}
+	{Bone "whiteboard"}
+	{Matrix34
+		-0.509996	0	0
+		0	0.87505	0
+		0	0	0.693467
+		-0.314557	-0.584874	23.5994
+	}
+}

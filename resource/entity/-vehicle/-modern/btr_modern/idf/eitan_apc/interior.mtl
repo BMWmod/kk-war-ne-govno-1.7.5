@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/eitan_apc/eitan_interier"}
+	{blend none}
+}

@@ -1,0 +1,13 @@
+{material bump
+	{diffuse "$/model/man/fmtv_crate"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}
+
+
+
+
+
+
+

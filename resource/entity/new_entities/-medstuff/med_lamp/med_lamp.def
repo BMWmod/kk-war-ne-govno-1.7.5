@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/physics_plastic.ext")
+	{props "construction" "wood" "parts" "small" "no_destroyed_stamp"}
+	{simulation {able 1}}
+	{mass 2}
+	{Extension "med_lamp.mdl"}
+	{Volume "body_vol1"
+		{tags "body"}
+		{thickness 2}
+	}
+	{Volume "body_vol2"
+		{tags "body"}
+		{thickness 2}
+	}
+	{Volume "body_vol3"
+		{tags "body"}
+		{thickness 2}
+	}
+}

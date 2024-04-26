@@ -1,0 +1,40 @@
+;Exported by: Timosh
+;Date:        Sat May  7 09:29:16 2022
+;File:        C:\Users\Timosh\Documents\3dsMax\scenes\busstop1.max
+{Skeleton
+	{bone "body4"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body4.ply"}
+		{bone "exterior"
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix1"
+			{Position 13.7372	-26.362	4.80298}
+		}
+		{bone "fix2"
+			{Position 13.7372	31.9257	4.80298}
+		}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center 2.44897 -2.20551}
+		{Extent 10.5982 28.8925}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "roof"
+	{Box 3.14616 1.58267 20.3314}
+	{Bone "exterior"}
+	{Matrix34
+		11.8854	0	0
+		0	0	-7.09417
+		0	3.63764	0
+		6.35626	2.78659	11.5948
+	}
+}

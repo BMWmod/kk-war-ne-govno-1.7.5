@@ -1,0 +1,23 @@
+;Exported by: andre
+;Date:        Sat Mar 16 15:09:30 2024
+;File:        C:\?????? ? ???\??????\?????\??????? ???\medbox1.max
+{Skeleton
+	{bone "barrow_new_fold"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "barrow_new_fold.ply"}
+	}
+}
+{Volume "body"
+	{Box 6.87886 48.5072 3.09018}
+	{Bone "barrow_new_fold"}
+	{Matrix34
+		0.923223	0	0
+		0	1	0
+		0	0	1.55804
+		0.245338	0.0697632	2.0955
+	}
+}

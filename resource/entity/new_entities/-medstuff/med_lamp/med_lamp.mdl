@@ -1,0 +1,43 @@
+;Exported by: andre
+;Date:        Wed Mar 13 15:59:06 2024
+;File:        C:\?????? ? ???\??????\?????\??????? ???\medbox1.max
+{Skeleton
+	{bone "med_lamp"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "med_lamp.ply"}
+	}
+}
+{Volume "body_vol1"
+	{Box 5.07374 4.2229 39.3069}
+	{Bone "med_lamp"}
+	{Matrix34
+		0.436837	0	0
+		0	0.715986	0
+		0	0	0.693088
+		0.179168	-0.572134	15.8557
+	}
+}
+{Volume "body_vol2"
+	{Box 4.16047 4.2229 27.1218}
+	{Bone "med_lamp"}
+	{Matrix34
+		0.436837	0	0
+		0	0.357993	0.620062
+		0	-0.600232	0.346544
+		0.429951	1.3304	29.6807
+	}
+}
+{Volume "body_vol3"
+	{Box 7.1778 9.4163 3.89008}
+	{Bone "med_lamp"}
+	{Matrix34
+		1.17444	0	0
+		0	0.873267	0
+		0	0	0.873267
+		0.257514	-10.4576	35.5222
+	}
+}

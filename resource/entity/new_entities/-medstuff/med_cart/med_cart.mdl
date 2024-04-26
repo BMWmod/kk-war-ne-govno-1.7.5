@@ -1,0 +1,53 @@
+;Exported by: andre
+;Date:        Wed Mar 20 22:37:14 2024
+;File:        C:\?????? ? ???\??????\?????\??????? ???\medbox1.max
+{Skeleton
+	{bone "med_cart"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "med_cart.ply"}
+		{bone "detail_bottle"
+			{Position 2.23052	3.03083	12.9008}
+			{VolumeView "detail_bottle.ply"}
+		}
+		{bone "detail_bottle2"
+			{Position -1.15513	-2.55498	1.82142}
+			{VolumeView "detail_bottle2.ply"}
+		}
+		{bone "detail_medsuff2"
+			{Matrix34
+				-0.642788	0.766044	0
+				-0.766044	-0.642788	0
+				0	0	1
+				0.982686	-2.13477	12.865
+			}
+			{VolumeView "detail_medsuff2.ply"}
+		}
+		{bone "detail_medsuff1"
+			{Position -1.42659	-1.16974	12.8365}
+			{VolumeView "detail_medsuff1.ply"}
+		}
+		{bone "detail_medstuff3"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-1.18329	1.24858	13.4566
+			}
+			{VolumeView "detail_medstuff3.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 21.0315 6.10753 36.3673}
+	{Bone "med_cart"}
+	{Matrix34
+		0.518987	0	0
+		0	1.84065	0
+		0	0	0.471135
+		-0.467346	-0.00996494	8.56696
+	}
+}

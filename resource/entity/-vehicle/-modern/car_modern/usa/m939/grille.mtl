@@ -1,0 +1,19 @@
+{material bump
+	{diffuse "$/model/m923_bigfoot/body"}
+	{bump "$/model/m923_bigfoot/body_bp"}
+	{specular "$/model/m923_bigfoot/body_sp"}
+	{emitsheat}
+{blend blend}
+}
+
+
+
+
+
+
+
+
+
+
+
+

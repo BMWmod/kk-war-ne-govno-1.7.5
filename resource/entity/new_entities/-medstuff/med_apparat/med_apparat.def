@@ -1,0 +1,12 @@
+{game_entity
+        (include "/properties/building.inc")
+        {obstacleid "small_building" }
+	{props "steel" "no_destroyed_stamp"}
+
+	{collider "particle.big"}
+	{simulation {able 1}}
+	{mass 2}
+	{Extension "med_apparat.mdl"}
+	{Volume "body"
+	}
+}

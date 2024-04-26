@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/eitan_apc/eitan_body"}
+	{bump "$/model/eitan_apc/eitan_body_bp"}
+	{specular "$/model/eitan_apc/eitan_body_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

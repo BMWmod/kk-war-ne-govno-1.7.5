@@ -1,0 +1,15 @@
+{game_entity
+        (include "/properties/building.inc")
+	{props "construction" "steel" "parts" "small" "no_destroyed_stamp"}
+	("armor_fence_wood")
+	{simulation {able 1}}
+	{mass 2}
+	{Extension "med_cart.mdl"}
+	
+	{Volume "body"
+		{tags "body"}
+		{thickness 2}
+	}
+	
+	{lodclass "decor_small"}
+}

@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "wounded_new.mdl"}
+	{props "flesh"}
+	{Volume "body"
+	}
+}

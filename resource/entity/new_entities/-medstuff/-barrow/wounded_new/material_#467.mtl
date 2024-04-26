@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "wounded"}
+	{blend none}
+}

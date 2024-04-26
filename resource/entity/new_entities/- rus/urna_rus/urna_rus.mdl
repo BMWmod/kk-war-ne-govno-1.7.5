@@ -1,0 +1,23 @@
+;Exported by: PC
+;Date:        Thu May  5 23:19:07 2022
+;File:        C:\Users\PC\Desktop\busstop.max
+{Skeleton
+	{bone "urna_rus"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "urna_rus.ply"}
+	}
+}
+{Volume "body"
+	{Box 3.14616 2.22912 20.3314}
+	{Bone "urna_rus"}
+	{Matrix34
+		2.76911	0	0
+		0	0	-7.28097
+		0	0.531409	0
+		0.210211	0.0159578	8.24096
+	}
+}

@@ -1,0 +1,82 @@
+;SDL
+{boarder
+	{anm "driver"
+		{forward	{begin	"board_tank_left"} {base "open_driver"}}
+		{reverse 	{end	"emit_tank_2_hold"} {base "open_driver" -1}}
+	}
+	{anm "gunner2"
+			{forward	{begin	"seat_gunner_stand"}{end	"seat_gunner_stand"}}
+			{reverse 	{end	"seat_gunner_stand"}}
+	}
+	{anm "passengers1"
+			{forward	{begin	"board_middlearmor"}  {base "open1" 1}}
+			{reverse 	{end	"emit_body"}  {base "open_app" 1}}
+	}
+	{anm "passengersr"
+			{forward	{end	"dismounting_ramp"}{base "open_app" 1}}
+			{reverse 	{begin	"mounting_ramp"}{end	"seat_passenger"}{base "open_app" 1}}
+	}
+	{anm "passengers"
+			{forward	{base "open_app" 1}}
+			{reverse 	{base "open_app" 1}}
+	}
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+
+	
+("crew_human" place(driver)		door(emit1) group(crew)	    animation(driver))
+ 	{placer
+		{place "driver"	{visor "driver"}}
+		{place "gunner"	{visor "gunner"}}
+		{place "gunner2"	{visor "commander"}}
+	}
+(define "define_place"
+	{placer
+		{place "%place" {group "%group"}}
+	}
+	{boarder
+		{door "%door" {auto_release_time 1.2}}
+		{node "node01"}
+		{node "node02"}
+		{link "%place" "node02"  {anm "passengersr"}}
+		{link "node02" "node01"  {anm "[fsm]"}}
+		{link "node01" "%door" {anm "passengers"} }
+	}
+)
+(define "define_place_gunner2"
+	{placer
+		{place "%place" {group "%group"} {linkbone "gunner2"} {turnoff {targetable 0}} {visor "commander"} {openForCrush}}
+	}
+	{boarder
+		{door "%door" {auto_release_time 1.2}}
+		{node "node01"}
+		{node "node02"}
+		{node "node3"}
+		{link "node3" "%place"   {anm "gunner2"}}
+		{link "node3" "node02"  {anm "passengersr"}}
+		{link "node02" "node01"  {anm "[fsm]"}}
+		{link "node01" "%door" {anm "passengers"} }
+	}
+)
+
+("define_place" place(gunner)	door(emit3) group(crew))
+("define_place_gunner2" place(gunner2)	door(emit3) group(crew))
+("define_place" place(seat1)	door(emit3) group(passengers1))
+("define_place" place(seat2)	door(emit3) group(passengers1))
+("define_place" place(seat3)	door(emit3) group(passengers1))
+("define_place" place(seat4)	door(emit3) group(passengers1))
+("define_place" place(seat5)	door(emit3) group(passengers1))
+("define_place" place(seat6)	door(emit3) group(passengers1))
+("define_place" place(seat7)	door(emit3) group(passengers1))
+("define_place" place(seat8)	door(emit3) group(passengers1))
+("define_place" place(seat9)	door(emit3) group(passengers1))

@@ -1,0 +1,29 @@
+;Exported by: Timosh
+;Date:        Sat May  7 14:37:44 2022
+;File:        C:\Users\Timosh\Documents\3dsMax\scenes\busstop1_x.max
+{Skeleton
+	{bone "piece3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "piece3.ply"}
+		{bone "fix4"
+			{Position 0.936919	-26.362	33.7694}
+		}
+		{bone "fix3"
+			{Position 0.936919	31.9257	33.7694}
+		}
+	}
+}
+{Volume "body9"
+	{Box 3.14616 2.36625 20.3314}
+	{Bone "piece3"}
+	{Matrix34
+		0.485523	0	0
+		0	0	-13.0708
+		0	2.81702	0
+		1.03076	2.77006	24.3776
+	}
+}

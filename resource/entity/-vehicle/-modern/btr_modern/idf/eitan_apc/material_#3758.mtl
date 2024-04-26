@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/eitan_apc/nomer_israel"}
+	{blend test}
+}

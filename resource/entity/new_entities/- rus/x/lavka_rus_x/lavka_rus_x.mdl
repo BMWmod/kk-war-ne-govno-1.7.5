@@ -1,0 +1,24 @@
+;Exported by: PC
+;Date:        Sat Jun 18 09:37:28 2022
+;File:        D:\?????????? ?? ???????? 24.2020\?????\?????????\busstop.max
+{Skeleton
+	{bone "lavka_rus_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece4"
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece1"
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{VolumeView "piece3.ply"}
+		}
+	}
+}

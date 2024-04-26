@@ -1,0 +1,12 @@
+{game_entity
+    (include "/properties/construction.inc")
+        {obstacleid "construction" }
+	("armor_fence_wood")
+	{props "steel" "small" "no_destroyed_stamp"}
+	{collider "particle.small"}
+	{simulation {able 1}}
+	{mass 1}
+
+	{Extension "urna_rus.mdl"}
+
+}

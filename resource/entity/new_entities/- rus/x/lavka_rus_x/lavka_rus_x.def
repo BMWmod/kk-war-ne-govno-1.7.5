@@ -1,0 +1,24 @@
+{game_entity
+	{Extension "lavka_rus_x.mdl"}
+	{simulation {able 1}}
+	{Volume "piece1"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1} {bullet} {select} {contact_ground} {touch} {contact} {blast} {obstacle}}
+	}
+	{Volume "piece2"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1} {bullet} {select} {contact_ground} {touch} {contact} {blast} {obstacle}}
+	}
+	{Volume "piece3"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1} {bullet} {select} {contact_ground} {touch} {contact} {blast} {obstacle}}
+	}
+	{Volume "piece4"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1} {bullet} {select} {contact_ground} {touch} {contact} {blast} {obstacle}}
+	}
+}

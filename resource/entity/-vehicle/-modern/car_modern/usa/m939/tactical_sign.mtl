@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/tactical_Abrams/tactical_sign"}
+	{blend blend}
+}

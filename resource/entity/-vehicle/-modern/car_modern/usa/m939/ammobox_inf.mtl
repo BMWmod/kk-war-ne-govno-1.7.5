@@ -1,0 +1,13 @@
+{material bump
+	{diffuse "$/model/m923_bigfoot/ammobox_inf"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}
+
+
+
+
+
+
+

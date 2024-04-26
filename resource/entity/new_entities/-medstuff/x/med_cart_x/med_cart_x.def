@@ -1,0 +1,5 @@
+{game_Entity
+	{Extension "med_cart_x.mdl"}
+	{Volume "body_vol004"
+	}
+}

@@ -1,5 +1,8 @@
 ;SDL
 {units
+	{"eitan_apc_mg"		{structure "cwds_apc8"}}
+	{"eitan_apc_ags"	{structure "cwds_apc8"}}
+
 {"btr50"				{structure "cwds_ifv"}} 
 {"m46"				{structure "cwds_cannon"}} 
 {"toyota_radar"		{structure "cwds_radar"}}

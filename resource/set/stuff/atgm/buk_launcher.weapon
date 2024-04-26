@@ -9,7 +9,7 @@
 	{AimingTolerance 5}	;только для пассивного наведения
 	{inventory {noView}}
 	{maxRange 380}          ;БУК-М1 с ЗУР 9М38М1 - 35 км.
-	{aimRange 470}          ;дальность предварительного наведения
+	{aimRange 330}          ;дальность предварительного наведения
 	;{cursor "zenite_on"}
 	;{cursorReloading "zenite_reload"}
 	{cursor "cannon_on_aa"}
@@ -17,10 +17,10 @@
 	;{cursorReloading "cannon_reload_fg_timer_160"}
 	{parameters "9m38 buk"
         {maxRange 380}
-		{aimRange 460}
+		{aimRange 330}
 	}
 	{parameters "9m317 buk"
         {maxRange 420}
-		{aimRange 500}
+		{aimRange 370}
 	}
 }

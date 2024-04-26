@@ -1,0 +1,11 @@
+{game_entity
+	{Extension "bus_stop.mdl"}
+	{tag "keep_places_without_door"}
+	{placer}
+	{extender "structure"
+		{place "place_r" "bus_stop_roof"}
+		{place "place_w1" "bus_stop_w1"}
+		{place "place_w2" "bus_stop_w2"}
+		{place "place_w3" "bus_stop_w3"}
+	}
+}
