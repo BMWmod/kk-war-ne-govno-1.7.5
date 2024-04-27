@@ -3,7 +3,7 @@
 ;Date: Sat Sep 16 21:34:37 2017
 ;File: G:\?????? ???\----????? 72\?????? ?-72\?-72?\T-72?_CCC?.max
 ;Model create/rebuild by: Makimka
-;Last build date: Monday 21 April 2024 [11:51:40]
+;Last build date: Sunday 27 April 2024 [16:16:34]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -560,14 +560,6 @@
                     {Position 0.0700186	2.85038	6.08179}
                     {VolumeView "rabber_bort.ply"}
                 }
-                {Bone "otval1"
-                    {Position -0.0171707	-43.5911	-11.9407}
-                    {VolumeView "otval1.ply"}
-                    {Bone "otval2"
-                        {Position 0.017232	-9.02246	0.0850916}
-                        {VolumeView "otval2.ply"}
-                    }
-                }
                 {Bone "shieldr6"
                     {Parameters "ID=shield_body;"}
                     {Position -27.9117	62.4278	1.97715}
@@ -722,11 +714,6 @@
                             {VolumeView "d_a41.ply"}
                         }
                     }
-                }
-                {Bone "shieldl5"
-                    {Parameters "ID=shield_body;"}
-                    {Position 34.2755	40.8485	-0.443449}
-                    {VolumeView "shieldl5.ply"}
                 }
                 {Bone "shieldl6"
                     {Parameters "ID=shield_body;"}
@@ -1471,7 +1458,7 @@
                             }
                         }
                     }
-                    {Bone "sh2"
+                    {Bone "shieldl11"
                         {Matrix34
                             0.0174522	0.999846	0
                             -0.999846	0.0174522	0
@@ -1501,29 +1488,6 @@
                                 0.509605	0.797687	0.291847
                             }
                             {VolumeView "d_a93.ply"}
-                        }
-                    }
-                }
-                {Bone "shieldr1"
-                    {Parameters "ID=shield_body;"}
-                    {Position -24.8721	-65.3676	-0.263245}
-                    {VolumeView "shieldr1.ply"}
-                    {Bone "kreplenie_dz_k1_sh5"
-                        {Matrix34
-                            0.499999	-0.809282	-0.308322
-                            0.866025	0.467245	0.177995
-                            1.32386e-05	-0.356012	0.934481
-                            -10.141	4.23735	-0.366966
-                        }
-                        {VolumeView "kreplenie_dz_k1_sh5.ply"}
-                        {Bone "d_a84"
-                            {Matrix34
-                                -0.499991	-0.86603	-2.29128e-05
-                                -0.806813	0.465814	-0.363417
-                                0.314741	-0.181687	-0.931626
-                                -0.351583	-0.936283	0.000331879
-                            }
-                            {VolumeView "d_a84.ply"}
                         }
                     }
                 }
@@ -2634,11 +2598,6 @@
     {Bone "d_a83"}
     {Position 0.0596466	0.0973206	0.0278511}
 }
-{Volume "comp_d_a84"
-    {Polyhedron "comp_d_a84.vol"}
-    {Bone "d_a84"}
-    {Position 0.0590706	0.0768356	0.0270786}
-}
 {Volume "comp_d_a85"
     {Polyhedron "comp_d_a85.vol"}
     {Bone "d_a85"}
@@ -3389,11 +3348,6 @@
     {Bone "d_a83"}
     {Position 0.0596466	0.0973206	0.0278511}
 }
-{Volume "d_a84"
-    {Polyhedron "d_a84.vol"}
-    {Bone "d_a84"}
-    {Position 0.218678	0.0739021	-0.342257}
-}
 {Volume "d_a85"
     {Polyhedron "d_a85.vol"}
     {Bone "d_a85"}
@@ -3664,16 +3618,6 @@
         0.399738	0.102519	0.0512486
     }
 }
-{Volume "shieldl5"
-    {Polyhedron "shieldl5.vol"}
-    {Bone "shieldl5"}
-    {Matrix34
-        0	-1	0
-        0	0	1
-        -1	0	0
-        0.399757	-0.144642	0.0850887
-    }
-}
 {Volume "shieldl6"
     {Polyhedron "shieldl6.vol"}
     {Bone "shieldl6"}
@@ -3693,16 +3637,6 @@
     {Polyhedron "shieldl8.vol"}
     {Bone "shieldl8"}
     {Position -1.82868	1.84009	-3.51362}
-}
-{Volume "shieldr1"
-    {Polyhedron "shieldr1.vol"}
-    {Bone "shieldr1"}
-    {Matrix34
-        0	-1	0
-        0	0	1
-        -1	0	0
-        -2.33552	-0.143677	-0.0773087
-    }
 }
 {Volume "shieldr2"
     {Polyhedron "shieldr2.vol"}
