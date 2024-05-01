@@ -108,14 +108,16 @@
 		{visor "driver"
 			{bone "visor1"}
 			{vision "vehicle_main"}
-		}		
-	}
-	{sensor
+		}
 		{visor "gunner"
 			{bone "visor2"}
 			{vision "aircraft_optic_3g_wide"}	;телескопический+FLIR
 		}
-	}		
+		{visor "commander"
+			{bone "visor2"}
+			{vision "uav_detector"}
+		}
+	}
 
 	{Chassis
 		("CW_wheels"

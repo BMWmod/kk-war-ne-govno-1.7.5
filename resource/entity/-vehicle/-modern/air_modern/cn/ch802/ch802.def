@@ -45,7 +45,7 @@
 
 	{Sensor
 		{Visor "OLS"
-			{vision "aircraft_optic_IR_2g_wide"}	;нет данных
+			{vision "aircraft_optic_3g_wide"}	;нет данных
 			{bone "visor_OLS"}
 		}
 

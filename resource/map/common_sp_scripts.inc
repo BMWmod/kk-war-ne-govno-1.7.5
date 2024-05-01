@@ -6,7 +6,7 @@
 			}
 	}
 	{triggers
-					{"service/kaz/kaz_enable"
+		{"service/kaz/kaz_enable"
 			{autoreset}
 			{condition
 				{terms
@@ -128,87 +128,12 @@
 				}
 			}
 		}
-		{"service/cw_autotakeoff"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{include
-									{prop
-										{prop cw_autotakeoff}
-									}
-								}
-								{exclude
-									{tag
-										{tag cw_autotakeoff_activated}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			{actions
-				{"air_state"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{include
-								{prop
-									{prop cw_autotakeoff}
-								}
-							}
-							{exclude
-								{tag
-									{tag cw_autotakeoff_activated}
-								}
-							}
-						}
-					}
-					{altitude 35}
-				}
-				{"action"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{include
-								{prop
-									{prop cw_autotakeoff}
-								}
-							}
-							{exclude
-								{tag
-									{tag cw_autotakeoff_activated}
-								}
-							}
-						}
-					}
-					{action move}
-					{target
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{exclude
-								{tag
-									{tag cw_autotakeoff_activated}
-								}
-								{prop
-									{prop cw_autotakeoff}
-								}
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
+			{"service/cw_autotakeoff"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{source advanced}
 								{ignore_captured_by_user 0}
 								{group
@@ -227,1604 +152,1858 @@
 						}
 					}
 				}
-				{"actor_state"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{include
-								{prop
-									{prop cw_autotakeoff}
-								}
-							}
-							{exclude
-								{tag
-									{tag cw_autotakeoff_activated}
-								}
-							}
-						}
-					}
-					{control user}
-				}
-				{"entity_state"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{include
-								{prop
-									{prop cw_autotakeoff}
-								}
-							}
-							{exclude
-								{tag
-									{tag cw_autotakeoff_activated}
-								}
-							}
-						}
-					}
-					{tag_add cw_autotakeoff_activated}
-				}
-			}
-		}
-		{"service/paradrop/0"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"air_state"
 						{selector
-							{tag heli_paradrop0}
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop cw_autotakeoff}
+									}
+								}
+								{exclude
+									{tag
+										{tag cw_autotakeoff_activated}
+									}
+									{prop
+										{prop shahed136}
+									}
+								}
+							}
 						}
-						{count
-							{op "=="}
-							{value 1}
+						{altitude 35}
+					}
+					{"air_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop shahed136}
+									}
+								}
+								{exclude
+									{tag
+										{tag cw_autotakeoff_activated}
+									}
+								}
+							}
 						}
+						{altitude 3}
+					}
+					{"action"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop cw_autotakeoff}
+									}
+								}
+								{exclude
+									{tag
+										{tag cw_autotakeoff_activated}
+									}
+								}
+							}
+						}
+						{action move}
+						{target
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{exclude
+									{tag
+										{tag cw_autotakeoff_activated}
+									}
+									{prop
+										{prop cw_autotakeoff}
+									}
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop cw_autotakeoff}
+											}
+										}
+										{exclude
+											{tag
+												{tag cw_autotakeoff_activated}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					{"actor_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop cw_autotakeoff}
+									}
+								}
+								{exclude
+									{tag
+										{tag cw_autotakeoff_activated}
+									}
+								}
+							}
+						}
+						{control user}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop cw_autotakeoff}
+									}
+								}
+								{exclude
+									{tag
+										{tag cw_autotakeoff_activated}
+									}
+								}
+							}
+						}
+						{tag_add cw_autotakeoff_activated}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/cw_autotakeoff"}
 					}
 				}
 			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute0}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
+			{"service/paradrop/0"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{tag heli_paradrop0}
 							}
-						}
-						{amount 1
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
+				}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute0}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
 									{tag heli_paradrop0}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop0}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute0}
 								}
 							}
 						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute0}
-							}
-						}
 					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop0}
-					}
-					{tag_remove heli_paradrop0}
-				}
-			}
-		}
-		{"service/paradrop/0_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop0}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop0}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/0"}
+					}
+				}
+			}
+			{"service/paradrop/0_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop0}
+							}
+							{count
+								{op ">"}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop0}
-					}
-					{tag_remove heli_paradrop0}
-				}
-			}
-		}
-		{"service/paradrop/1"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"entity_state"
 						{selector
-							{tag heli_paradrop1}
+							{tag heli_paradrop0}
 						}
-						{count
-							{op "=="}
-							{value 1}
-						}
+						{tag_remove heli_paradrop0}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/0_"}
 					}
 				}
 			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute1}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
+			{"service/paradrop/1"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{tag heli_paradrop1}
 							}
-						}
-						{amount 1
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
+				}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute1}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
 									{tag heli_paradrop1}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop1}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute1}
 								}
 							}
 						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute1}
-							}
-						}
 					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop1}
-					}
-					{tag_remove heli_paradrop1}
-				}
-			}
-		}
-		{"service/paradrop/2"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
-						{selector
-							{tag heli_paradrop2}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute2}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_paradrop2}
-							}
-						}
-						{amount 1
-						}
-					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_paradrop2}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute2}
-							}
-						}
-					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop2}
-					}
-					{tag_remove heli_paradrop2}
-				}
-			}
-		}
-		{"service/paradrop/3"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
-						{selector
-							{tag heli_paradrop3}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute3}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_paradrop3}
-							}
-						}
-						{amount 1
-						}
-					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_paradrop3}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute3}
-							}
-						}
-					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop3}
-					}
-					{tag_remove heli_paradrop3}
-				}
-			}
-		}
-		{"service/paradrop/4"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
-						{selector
-							{tag heli_paradrop4}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute4}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_paradrop4}
-							}
-						}
-						{amount 1
-						}
-					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_paradrop4}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute4}
-							}
-						}
-					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop4}
-					}
-					{tag_remove heli_paradrop4}
-				}
-			}
-		}
-		{"service/paradrop/5"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
-						{selector
-							{tag heli_paradrop5}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute5}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_paradrop5}
-							}
-						}
-						{amount 1
-						}
-					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_paradrop5}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute5}
-							}
-						}
-					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop5}
-					}
-					{tag_remove heli_paradrop5}
-				}
-			}
-		}
-		{"service/paradrop/6"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
-						{selector
-							{tag heli_paradrop6}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute6}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_paradrop6}
-							}
-						}
-						{amount 1
-						}
-					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_paradrop6}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute6}
-							}
-						}
-					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop6}
-					}
-					{tag_remove heli_paradrop6}
-				}
-			}
-		}
-		{"service/paradrop/7"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
-						{selector
-							{tag heli_paradrop7}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_parashute7}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_paradrop7}
-							}
-						}
-						{amount 1
-						}
-					}
-					{entities
-						{source advanced}
-						{group
-							{select
-								{tag
-									{tag heli_paradrop7}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
-								{tag heli_parashute7}
-							}
-						}
-					}
-				}
-				{"entity_state"
-					{selector
-						{tag heli_paradrop7}
-					}
-					{tag_remove heli_paradrop7}
-				}
-			}
-		}
-		{"service/paradrop/1_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop1}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop1}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/1"}
+					}
+				}
+			}
+			{"service/paradrop/2"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop2}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop1}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute2}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_paradrop2}
+								}
+							}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop2}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute2}
+								}
+							}
+						}
 					}
-					{tag_remove heli_paradrop1}
-				}
-			}
-		}
-		{"service/paradrop/2_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop2}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop2}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/2"}
+					}
+				}
+			}
+			{"service/paradrop/3"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop3}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop2}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute3}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_paradrop3}
+								}
+							}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop3}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute3}
+								}
+							}
+						}
 					}
-					{tag_remove heli_paradrop2}
-				}
-			}
-		}
-		{"service/paradrop/3_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop3}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop3}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/3"}
+					}
+				}
+			}
+			{"service/paradrop/4"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop4}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop3}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute4}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_paradrop4}
+								}
+							}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop4}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute4}
+								}
+							}
+						}
 					}
-					{tag_remove heli_paradrop3}
-				}
-			}
-		}
-		{"service/paradrop/4_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop4}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop4}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/4"}
+					}
+				}
+			}
+			{"service/paradrop/5"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop5}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop4}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute5}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_paradrop5}
+								}
+							}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop5}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute5}
+								}
+							}
+						}
 					}
-					{tag_remove heli_paradrop4}
-				}
-			}
-		}
-		{"service/paradrop/5_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop5}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/5"}
+					}
+				}
+			}
+			{"service/paradrop/6"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop6}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop5}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute6}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_paradrop6}
+								}
+							}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop6}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute6}
+								}
+							}
+						}
 					}
-					{tag_remove heli_paradrop5}
-				}
-			}
-		}
-		{"service/paradrop/6_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop6}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop6}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/6"}
+					}
+				}
+			}
+			{"service/paradrop/7"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop7}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop6}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_parashute7}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_paradrop7}
+								}
+							}
+							{amount 1
+							}
+						}
+						{entities
+							{source advanced}
+							{group
+								{select
+									{tag
+										{tag heli_paradrop7}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{tag heli_parashute7}
+								}
+							}
+						}
 					}
-					{tag_remove heli_paradrop6}
-				}
-			}
-		}
-		{"service/paradrop/7_"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+					{"entity_state"
 						{selector
 							{tag heli_paradrop7}
 						}
-						{count
-							{op ">"}
-							{value 1}
+						{tag_remove heli_paradrop7}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/7"}
+					}
+				}
+			}
+			{"service/paradrop/1_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop1}
+							}
+							{count
+								{op ">"}
+								{value 1}
+							}
 						}
 					}
 				}
-			}
-			{actions
-				{"entity_state"
-					{selector
-						{tag heli_paradrop7}
-					}
-					{tag_remove heli_paradrop7}
-				}
-			}
-		}
-		{"service/paradrop/vdv/2_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"entity_state"
 						{selector
-							{ignore_captured_by_user 0}
-							{tag vdv_link_place2}
+							{tag heli_paradrop1}
 						}
-						{count
-							{op "=="}
-							{value 1}
-						}
+						{tag_remove heli_paradrop1}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/1_"}
 					}
 				}
 			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place2}
-								}
+			{"service/paradrop/2_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop2}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
+							{count
+								{op ">"}
+								{value 1}
 							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place2}
-										}
-									}
-								}
-							}
-						}
-						{amount 1
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place2}
-								}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag heli_paradrop2}
+						}
+						{tag_remove heli_paradrop2}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/2_"}
+					}
+				}
+			}
+			{"service/paradrop/3_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop3}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
+							{count
+								{op ">"}
+								{value 1}
 							}
 						}
-						{amount 1
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag heli_paradrop3}
 						}
-						{sort
-							{type entity}
-							{entity
+						{tag_remove heli_paradrop3}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/3_"}
+					}
+				}
+			}
+			{"service/paradrop/4_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop4}
+							}
+							{count
+								{op ">"}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag heli_paradrop4}
+						}
+						{tag_remove heli_paradrop4}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/4_"}
+					}
+				}
+			}
+			{"service/paradrop/5_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop5}
+							}
+							{count
+								{op ">"}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag heli_paradrop5}
+						}
+						{tag_remove heli_paradrop5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/5_"}
+					}
+				}
+			}
+			{"service/paradrop/6_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop6}
+							}
+							{count
+								{op ">"}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag heli_paradrop6}
+						}
+						{tag_remove heli_paradrop6}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/6_"}
+					}
+				}
+			}
+			{"service/paradrop/7_"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag heli_paradrop7}
+							}
+							{count
+								{op ">"}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag heli_paradrop7}
+						}
+						{tag_remove heli_paradrop7}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/7_"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/2_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place2}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle2}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/1_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place1}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place1}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place2}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place1}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place2}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place2}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place2}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle2}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place1}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/2_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/1_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place1}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle1}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/3_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place3}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place3}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place1}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place3}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place1}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place1}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place1}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle1}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place3}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/1_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/3_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place3}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle3}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/4_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place4}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place4}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place3}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place4}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place3}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place3}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place3}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle3}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place4}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/3_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/4_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place4}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle4}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/5_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place5}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place5}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place4}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place5}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place4}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place4}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place4}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle4}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place5}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/4_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/5_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place5}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle5}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/6_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place6}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place6}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place5}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place6}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place5}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place5}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place5}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle5}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place6}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/5_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/6_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place6}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle6}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/7_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place7}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place7}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place6}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place7}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place6}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place6}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place6}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle6}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place7}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/6_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/7_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place7}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle7}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/8_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place8}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place8}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place7}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place8}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place7}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place7}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place7}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle7}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place8}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/7_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/8_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place8}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle8}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/9_link"
-			{autoreset}
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag vdv_link_place9}
-						}
-						{count
-							{op "=="}
-							{value 1}
-						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_place9}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place8}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
 								}
 							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{sort
-							{type entity}
-							{entity
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag vdv_link_place9}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place8}
+											}
 										}
 									}
 								}
 							}
+							{amount 1
+							}
 						}
-						{amount 1
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place8}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place8}
+								}
+							}
+						}
+						{place
+							{type specific}
+							{name vehicle8}
 						}
 					}
-					{entities
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{select
-								{tag
-									{tag vdv_link_to_place9}
-								}
-							}
-							{exclude
-								{state
-									{state linked}
-								}
-							}
-						}
-						{amount 1
-						}
-						{sort
-							{type entity}
-							{entity
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/8_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/9_link"
+				{autoreset}
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag vdv_link_place9}
 							}
+							{count
+								{op "=="}
+								{value 1}
+							}
 						}
 					}
-					{place
-						{type specific}
-						{name vehicle9}
-					}
 				}
-			}
-		}
-		{"service/paradrop/vdv/unlink"
-			{condition
-				{terms
-					{"1.entities"
+				{actions
+					{"linker"
 						{selector
+							{source advanced}
 							{ignore_captured_by_user 0}
-							{tag unlink_me}
+							{group
+								{select
+									{tag
+										{tag vdv_link_place9}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag vdv_link_place9}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
 						}
-					}
-				}
-			}
-			{actions
-				{"linker"
-					{selector
-						{source advanced}
-						{ignore_captured_by_user 0}
-						{group
-							{include
-								{prop
-									{prop vehicle}
+						{entities
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag vdv_link_to_place9}
+									}
+								}
+								{exclude
+									{state
+										{state linked}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag vdv_link_place9}
 								}
 							}
 						}
-						{sort
-							{type entity}
-							{entity
+						{place
+							{type specific}
+							{name vehicle9}
+						}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/9_link"}
+					}
+				}
+			}
+			{"service/paradrop/vdv/unlink"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
 								{ignore_captured_by_user 0}
 								{tag unlink_me}
 							}
 						}
 					}
-					{action unlink}
-					{entities
-						{ignore_captured_by_user 0}
-						{tag unlink_me}
+				}
+				{actions
+					{"linker"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop vehicle}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{ignore_captured_by_user 0}
+									{tag unlink_me}
+								}
+							}
+						}
+						{action unlink}
+						{entities
+							{ignore_captured_by_user 0}
+							{tag unlink_me}
+						}
 					}
-				}
-				{"entity_state"
-					{selector
-						{ignore_captured_by_user 0}
-						{tag unlink_me}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag unlink_me}
+						}
+						{tag_remove unlink_me}
 					}
-					{tag_remove unlink_me}
-				}
-				{"delay"
-					{time 0.2}
-				}
-				{"trigger"
-					{name "service/paradrop/vdv/unlink"}
+					{"delay"
+						{time 0.2}
+					}
+					{"trigger"
+						{name "service/paradrop/vdv/unlink"}
+					}
 				}
 			}
-		}
+
 		{"service/hovering/set_speed1"
 			{autoreset}
 			{condition
@@ -2147,6 +2326,7 @@
 				}
 			}
 		}
+		
 		{"service/smalluav/eleron/loose_control"
 			{autoreset}
 			{condition
@@ -2159,7 +2339,7 @@
 							{group
 								{include
 									{prop
-										{prop eleron3sv}
+										{prop smalluav_rus}
 									}
 								}
 								{exclude
@@ -2185,7 +2365,7 @@
 									{group
 										{include
 											{prop
-												{prop eleron_control}
+												{prop smalluav_rus_control}
 											}
 											{state
 												{state operatable}
@@ -2209,7 +2389,7 @@
 							{group
 								{include
 									{prop
-										{prop eleron_control}
+										{prop smalluav_rus_control}
 									}
 									{state
 										{state "operatable inhabited"}
@@ -2237,7 +2417,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -2263,7 +2443,7 @@
 								{group
 									{include
 										{prop
-											{prop eleron_control}
+											{prop smalluav_rus_control}
 										}
 										{state
 											{state operatable}
@@ -2314,7 +2494,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 								{tag
 									{tag smalluav_no_connect}
@@ -2338,7 +2518,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron_control}
+									{prop smalluav_rus_control}
 								}
 								{state
 									{state "operatable inhabited"}
@@ -2366,7 +2546,7 @@
 											{tag smalluav_no_connect}
 										}
 										{prop
-											{prop eleron3sv}
+											{prop smalluav_rus}
 										}
 									}
 									{exclude
@@ -2401,7 +2581,7 @@
 							{group
 								{include
 									{prop
-										{prop eleron3sv}
+										{prop smalluav_rus}
 									}
 									{tag
 										{tag smalluav_no_connect}
@@ -2417,6 +2597,9 @@
 									{tag
 										{tag ally}
 									}
+									{tag
+										{tag uav_jammed}
+									}
 								}
 							}
 						}
@@ -2426,7 +2609,7 @@
 							{group
 								{include
 									{prop
-										{prop eleron_control}
+										{prop smalluav_rus_control}
 									}
 									{state
 										{state "operatable inhabited"}
@@ -2454,7 +2637,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 								{tag
 									{tag smalluav_no_connect}
@@ -2470,6 +2653,9 @@
 								{tag
 									{tag ally}
 								}
+								{tag
+									{tag uav_jammed}
+								}
 							}
 						}
 						{sort
@@ -2480,7 +2666,7 @@
 								{group
 									{include
 										{prop
-											{prop eleron_control}
+											{prop smalluav_rus_control}
 										}
 										{state
 											{state operatable}
@@ -2501,7 +2687,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -2513,6 +2699,9 @@
 								}
 								{tag
 									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag uav_jammed}
 								}
 							}
 						}
@@ -2543,7 +2732,7 @@
 								}
 								{include
 									{prop
-										{prop eleron3sv}
+										{prop smalluav_rus}
 									}
 								}
 								{exclude
@@ -2572,7 +2761,7 @@
 							}
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -2594,7 +2783,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 								{tag
 									{tag smalluav_return}
@@ -2618,7 +2807,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron_control}
+									{prop smalluav_rus_control}
 								}
 								{state
 									{state "operatable inhabited"}
@@ -2646,7 +2835,7 @@
 											{tag smalluav_return}
 										}
 										{prop
-											{prop eleron3sv}
+											{prop smalluav_rus}
 										}
 									}
 									{exclude
@@ -2674,7 +2863,7 @@
 							}
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -2709,7 +2898,7 @@
 							{group
 								{include
 									{prop
-										{prop eleron3sv}
+										{prop smalluav_rus}
 									}
 									{tag
 										{tag smalluav_land}
@@ -2734,7 +2923,7 @@
 							{group
 								{include
 									{prop
-										{prop eleron_control}
+										{prop smalluav_rus_control}
 									}
 									{state
 										{state "operatable inhabited"}
@@ -2767,7 +2956,7 @@
 							}
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -2790,7 +2979,7 @@
 								{group
 									{include
 										{prop
-											{prop eleron_control}
+											{prop smalluav_rus_control}
 										}
 										{state
 											{state operatable}
@@ -2811,7 +3000,7 @@
 						{group
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 								{tag
 									{tag smalluav_land}
@@ -2837,7 +3026,7 @@
 								{group
 									{include
 										{prop
-											{prop eleron_control}
+											{prop smalluav_rus_control}
 										}
 										{state
 											{state operatable}
@@ -3340,6 +3529,9 @@
 									{tag
 										{tag ally}
 									}
+									{tag
+										{tag uav_jammed}
+									}
 								}
 							}
 						}
@@ -3397,6 +3589,9 @@
 								{tag
 									{tag ally}
 								}
+								{tag
+									{tag uav_jammed}
+								}
 							}
 						}
 						{sort
@@ -3452,6 +3647,9 @@
 								}
 								{tag
 									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag uav_jammed}
 								}
 							}
 						}
@@ -3511,7 +3709,7 @@
 							}
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -4150,6 +4348,9 @@
 									{tag
 										{tag ally}
 									}
+									{tag
+										{tag uav_jammed}
+									}
 								}
 							}
 						}
@@ -4211,6 +4412,9 @@
 								{tag
 									{tag ally}
 								}
+								{tag
+									{tag uav_jammed}
+								}
 							}
 						}
 						{sort
@@ -4271,6 +4475,9 @@
 								{tag
 									{tag smalluav_no_connect}
 								}
+								{tag
+									{tag uav_jammed}
+								}
 							}
 						}
 					}
@@ -4329,7 +4536,7 @@
 							}
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -4463,9 +4670,6 @@
 				}
 			}
 		}
-		
-		
-		
 		{"service/smalluav/smalluav_cn/land"
 			{autoreset}
 			{condition
@@ -4526,20 +4730,20 @@
 								}
 							}
 							{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
-										}
-										{exclude
-											{state
-												{state inactive}
-											}
-										}
+								{include
+									{prop
+										{prop smalluav_cn_control}
 									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+								}
+							}
 						}
 						{distance 70}
 					}
@@ -4604,21 +4808,21 @@
 										}
 									}
 								}
-																{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
+								{group
+									{include
+										{prop
+											{prop smalluav_cn_control}
 										}
-										{exclude
-											{state
-												{state inactive}
-											}
+										{state
+											{state operatable}
 										}
 									}
+									{exclude
+										{state
+											{state inactive}
+										}
+									}
+								}
 							}
 						}
 						{amount 1
@@ -4682,21 +4886,21 @@
 										}
 									}
 								}
-																{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
+								{group
+									{include
+										{prop
+											{prop smalluav_cn_control}
 										}
-										{exclude
-											{state
-												{state inactive}
-											}
+										{state
+											{state operatable}
 										}
 									}
+									{exclude
+										{state
+											{state inactive}
+										}
+									}
+								}
 							}
 						}
 						{amount 1
@@ -4773,7 +4977,7 @@
 											}
 										}
 									}
-																	{group
+									{group
 										{include
 											{prop
 												{prop smalluav_cn_control}
@@ -4823,21 +5027,21 @@
 									}
 								}
 							}
-															{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
-										}
-										{exclude
-											{state
-												{state inactive}
-											}
-										}
+							{group
+								{include
+									{prop
+										{prop smalluav_cn_control}
 									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+								}
+							}
 						}
 						{distance 220}
 					}
@@ -4900,21 +5104,21 @@
 										}
 									}
 								}
-																{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
+								{group
+									{include
+										{prop
+											{prop smalluav_cn_control}
 										}
-										{exclude
-											{state
-												{state inactive}
-											}
+										{state
+											{state operatable}
 										}
 									}
+									{exclude
+										{state
+											{state inactive}
+										}
+									}
+								}
 							}
 							{mode farthest}
 						}
@@ -5001,21 +5205,21 @@
 								}
 							}
 						}
-														{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
-										}
-										{exclude
-											{state
-												{state inactive}
-											}
-										}
-									}
+						{group
+							{include
+								{prop
+									{prop smalluav_cn_control}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+							}
+						}
 						{amount 1
 						}
 						{sort
@@ -5080,6 +5284,9 @@
 									{tag
 										{tag ally}
 									}
+									{tag
+										{tag uav_jammed}
+									}
 								}
 							}
 						}
@@ -5112,21 +5319,21 @@
 									}
 								}
 							}
-															{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
-										}
-										{exclude
-											{state
-												{state inactive}
-											}
-										}
+							{group
+								{include
+									{prop
+										{prop smalluav_cn_control}
 									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+								}
+							}
 						}
 						{distance 210}
 					}
@@ -5155,6 +5362,9 @@
 								}
 								{tag
 									{tag ally}
+								}
+								{tag
+									{tag uav_jammed}
 								}
 							}
 						}
@@ -5189,21 +5399,21 @@
 										}
 									}
 								}
-																{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
+								{group
+									{include
+										{prop
+											{prop smalluav_cn_control}
 										}
-										{exclude
-											{state
-												{state inactive}
-											}
+										{state
+											{state operatable}
 										}
 									}
+									{exclude
+										{state
+											{state inactive}
+										}
+									}
+								}
 							}
 						}
 						{amount 1
@@ -5230,6 +5440,9 @@
 								}
 								{tag
 									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag uav_jammed}
 								}
 							}
 						}
@@ -5289,7 +5502,7 @@
 							}
 							{include
 								{prop
-									{prop eleron3sv}
+									{prop smalluav_rus}
 								}
 							}
 							{exclude
@@ -5358,21 +5571,21 @@
 								}
 							}
 						}
-														{group
-										{include
-											{prop
-												{prop smalluav_cn_control}
-											}
-											{state
-												{state operatable}
-											}
-										}
-										{exclude
-											{state
-												{state inactive}
-											}
-										}
-									}
+						{group
+							{include
+								{prop
+									{prop smalluav_cn_control}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+							}
+						}
 						{amount 1
 						}
 						{sort
@@ -5437,16 +5650,8 @@
 					{name "service/smalluav/smalluav_cn/return"}
 				}
 			}
-		}			
-		
-		
-		
-		
-		
-		
-		
-		
-					{"service/smalluav/uran9/loose_control"
+		}
+		{"service/smalluav/uran9/loose_control"
 			{autoreset}
 			{condition
 				{expression "!1"}
@@ -5804,6 +6009,9 @@
 									{tag
 										{tag ally}
 									}
+									{tag
+										{tag uav_jammed}
+									}
 								}
 							}
 						}
@@ -5875,6 +6083,9 @@
 								}
 								{tag
 									{tag ally}
+								}
+								{tag
+									{tag uav_jammed}
 								}
 							}
 						}
@@ -5957,6 +6168,9 @@
 								{tag
 									{tag ally}
 								}
+								{tag
+									{tag uav_jammed}
+								}
 							}
 						}
 						{sort
@@ -6030,6 +6244,9 @@
 								}
 								{tag
 									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag uav_jammed}
 								}
 							}
 						}
@@ -6679,7 +6896,7 @@
 										{prop smalluav_irn_control}
 									}
 									{state
-										{state "operatable"}
+										{state "operatable inhabited"}
 									}
 								}
 								{exclude
@@ -6890,6 +7107,9 @@
 									{tag
 										{tag ally}
 									}
+									{tag
+										{tag uav_jammed}
+									}
 								}
 							}
 						}
@@ -6943,6 +7163,9 @@
 								{tag
 									{tag ally}
 								}
+								{tag
+									{tag uav_jammed}
+								}
 							}
 						}
 						{sort
@@ -6986,6 +7209,9 @@
 								}
 								{tag
 									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag uav_jammed}
 								}
 							}
 						}
@@ -7321,6 +7547,4666 @@
 					{name "service/smalluav/smalluav_irn/assign_target"}
 				}
 			}
-		}	
+		}
+		{"service/smalluav/smalluav_usa_40km/loose_control"
+			{autoreset}
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_usa_40km}
+									}
+								}
+								{exclude
+									{tag
+										{tag smalluav_no_connect}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop human}
+											}
+											{with_item
+												{type existance}
+												{item "rq11_control"}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+											{tag
+												{tag hidden}
+											}
+											{state
+												{state dead}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop human}
+									}
+									{with_item
+										{type existance}
+										{item "rq11_control"}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag hidden}
+									}
+									{state
+										{state dead}
+									}
+								}
+							}
+						}
+						{distance 340}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop smalluav_usa_40km}
+								}
+							}
+							{exclude
+								{tag
+									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag ally}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop human}
+										}
+										{with_item
+											{type existance}
+											{item "rq11_control"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+										{state
+											{state dead}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add smalluav_no_connect}
+				}
+				{"ables"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag smalluav_no_connect}
+					}
+					{remove select}
+				}
+				{"effect"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{select
+								{tag
+									{tag smalluav_no_connect}
+								}
+							}
+						}
+					}
+					{effect reset_manual_control}
+				}
+				{"delay"
+					{time 2}
+				}
+				{"action"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop smalluav_usa_40km}
+								}
+								{tag
+									{tag smalluav_no_connect}
+								}
+							}
+							{exclude
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ally}
+								}
+							}
+						}
+					}
+					{drop orders}
+					{action move}
+					{target
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop human}
+								}
+								{with_item
+									{type existance}
+									{item "rq11_control"}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag hidden}
+								}
+								{state
+									{state dead}
+								}
+							}
+						}
+						{amount 1
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{tag
+											{tag smalluav_no_connect}
+										}
+										{prop
+											{prop smalluav_usa_40km}
+										}
+									}
+									{exclude
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/smalluav/smalluav_usa_40km/loose_control"}
+				}
+			}
+		}
+		{"service/smalluav/smalluav_usa_40km/regain_control"
+			{autoreset}
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_usa_40km}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag uav_jammed}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop human}
+									}
+									{with_item
+										{type existance}
+										{item "rq11_control"}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag hidden}
+									}
+									{state
+										{state dead}
+									}
+								}
+							}
+						}
+						{distance 330}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop smalluav_usa_40km}
+								}
+								{tag
+									{tag smalluav_no_connect}
+								}
+							}
+							{exclude
+								{tag
+									{tag destroyed}
+								}
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag ally}
+								}
+								{tag
+									{tag uav_jammed}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop human}
+										}
+										{with_item
+											{type existance}
+											{item "rq11_control"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+										{state
+											{state dead}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_remove smalluav_no_connect}
+				}
+				{"ables"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop smalluav_usa_40km}
+								}
+							}
+							{exclude
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ally}
+								}
+								{tag
+									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag uav_jammed}
+								}
+							}
+						}
+					}
+					{add select}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/smalluav/smalluav_usa_40km/regain_control"}
+				}
+			}
+		}
+
+
+		{"service/ecm/rus/jam400"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_1}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 400}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_1}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_1_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_1_current}
+					}
+					{tag_add ecm_effect_1}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_1_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_1_current}
+					}
+					{tag_remove ecm_effect_1_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam400"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam400_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_1}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_rus}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 410}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_1}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_1_off_current}
+					{tag_remove ecm_effect_1}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_1_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_1_off_current}
+					}
+					{tag_remove ecm_effect_1_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam400_off"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam400"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_1}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 400}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_1}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_1_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_1_current}
+					}
+					{tag_add ecm_effect_1}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_1_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_1_current}
+					}
+					{tag_remove ecm_effect_1_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam400"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam400_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_1}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_usa}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 410}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_1}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_1_off_current}
+					{tag_remove ecm_effect_1}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_1_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_1_off_current}
+					}
+					{tag_remove ecm_effect_1_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam400_off"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam300"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_2}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 300}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_2}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_2_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_2_current}
+					}
+					{tag_add ecm_effect_2}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_2_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_2_current}
+					}
+					{tag_remove ecm_effect_2_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam300"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam300_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_2}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_rus}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 310}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_2}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_2_off_current}
+					{tag_remove ecm_effect_2}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_2_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_2_off_current}
+					}
+					{tag_remove ecm_effect_2_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam300_off"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam300"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_2}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 300}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_2}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_2_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_2_current}
+					}
+					{tag_add ecm_effect_2}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_2_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_2_current}
+					}
+					{tag_remove ecm_effect_2_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam300"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam300_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_2}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_usa}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 310}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_2}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_2_off_current}
+					{tag_remove ecm_effect_2}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_2_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_2_off_current}
+					}
+					{tag_remove ecm_effect_2_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam300_off"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam200"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_3}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 200}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_3}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_3_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_3_current}
+					}
+					{tag_add ecm_effect_3}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_3_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_3_current}
+					}
+					{tag_remove ecm_effect_3_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam200"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam200_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_3}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_rus}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 210}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_3}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_3_off_current}
+					{tag_remove ecm_effect_3}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_3_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_3_off_current}
+					}
+					{tag_remove ecm_effect_3_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam200_off"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam200"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_3}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 200}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_3}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_3_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_3_current}
+					}
+					{tag_add ecm_effect_3}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_3_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_3_current}
+					}
+					{tag_remove ecm_effect_3_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam200"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam200_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_3}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_usa}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 210}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_3}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_3_off_current}
+					{tag_remove ecm_effect_3}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_3_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_3_off_current}
+					}
+					{tag_remove ecm_effect_3_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam200_off"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam150"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_4}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 150}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_4}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_4_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_4_current}
+					}
+					{tag_add ecm_effect_4}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_4_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_4_current}
+					}
+					{tag_remove ecm_effect_4_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam150"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam150_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_4}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_rus}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 160}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_4}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_4_off_current}
+					{tag_remove ecm_effect_4}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_4_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_4_off_current}
+					}
+					{tag_remove ecm_effect_4_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam150_off"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam150"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_4}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 150}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_4}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_4_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_4_current}
+					}
+					{tag_add ecm_effect_4}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_4_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_4_current}
+					}
+					{tag_remove ecm_effect_4_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam150"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam150_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_4}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_usa}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 160}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_4}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_4_off_current}
+					{tag_remove ecm_effect_4}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_4_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_4_off_current}
+					}
+					{tag_remove ecm_effect_4_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam150_off"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam100"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_5}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 100}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_5}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_5_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_5_current}
+					}
+					{tag_add ecm_effect_5}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_5_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_5_current}
+					}
+					{tag_remove ecm_effect_5_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam100"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam100_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_5}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_rus}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 110}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_5}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_5_off_current}
+					{tag_remove ecm_effect_5}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_5_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_5_off_current}
+					}
+					{tag_remove ecm_effect_5_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam100_off"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam100"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_5}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 100}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_5}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_5_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_5_current}
+					}
+					{tag_add ecm_effect_5}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_5_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_5_current}
+					}
+					{tag_remove ecm_effect_5_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam100"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam100_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_5}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_usa}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 110}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_5}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_5_off_current}
+					{tag_remove ecm_effect_5}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_5_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_5_off_current}
+					}
+					{tag_remove ecm_effect_5_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam100_off"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam50"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_6}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 50}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_6}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_6_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_6_current}
+					}
+					{tag_add ecm_effect_6}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_6_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_6_current}
+					}
+					{tag_remove ecm_effect_6_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam50"}
+				}
+			}
+		}
+		{"service/ecm/rus/jam50_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_6}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_rus}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 60}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_usa}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_6}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_rus}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_6_off_current}
+					{tag_remove ecm_effect_6}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_6_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_6_off_current}
+					}
+					{tag_remove ecm_effect_6_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/rus/jam50_off"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam50"
+			{condition
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_vulnerable_rus}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_effect_6}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 50}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_effect_6}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_6_current}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_6_current}
+					}
+					{tag_add ecm_effect_6}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_6_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_6_current}
+					}
+					{tag_remove ecm_effect_6_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam50"}
+				}
+			}
+		}
+		{"service/ecm/usa/jam50_off"
+			{condition
+				{expression "!1"}
+				{terms
+					{"1.near"
+						{units
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{state
+										{state operatable}
+									}
+									{tag
+										{tag ecm_effect_6}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ecm_invulnerable}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop ecm_station_usa}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{tag
+												{tag no_power}
+											}
+											{tag
+												{tag radar_off}
+											}
+											{tag
+												{tag destroyed}
+											}
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{near_to
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop ecm_station_usa}
+									}
+									{state
+										{state operatable}
+									}
+								}
+								{exclude
+									{tag
+										{tag no_power}
+									}
+									{tag
+										{tag radar_off}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+						}
+						{distance 60}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{include
+								{prop
+									{prop ecm_vulnerable_rus}
+								}
+								{state
+									{state operatable}
+								}
+								{tag
+									{tag ecm_effect_6}
+								}
+							}
+							{exclude
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{tag
+									{tag ecm_invulnerable}
+								}
+							}
+						}
+						{sort
+							{type entity}
+							{entity
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop ecm_station_usa}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{tag
+											{tag no_power}
+										}
+										{tag
+											{tag radar_off}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{mode farthest}
+						}
+						{amount 1
+						}
+					}
+					{tag_add ecm_effect_6_off_current}
+					{tag_remove ecm_effect_6}
+				}
+				{"effect"
+					{selector
+						{tag ecm_effect_6_off_current}
+					}
+					{effect ecm_jammed}
+				}
+				{"entity_state"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag ecm_effect_6_off_current}
+					}
+					{tag_remove ecm_effect_6_off_current}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/usa/jam50_off"}
+				}
+			}
+		}
+		{"service/ecm/uav_jammed"
+			{autoreset}
+			{condition
+				{terms
+					{"1.entities"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag uav_jammed}
+									}
+								}
+								{exclude
+									{tag
+										{tag smalluav_no_connect}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			{actions
+				{"entity_state"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{select
+								{tag
+									{tag uav_jammed}
+								}
+							}
+							{exclude
+								{tag
+									{tag smalluav_no_connect}
+								}
+								{tag
+									{tag destroyed}
+								}
+								{state
+									{state inactive}
+								}
+								{tag
+									{tag ally}
+								}
+							}
+						}
+					}
+					{tag_add smalluav_no_connect}
+				}
+				{"ables"
+					{selector
+						{ignore_captured_by_user 0}
+						{tag smalluav_no_connect}
+					}
+					{remove select}
+				}
+				{"effect"
+					{selector
+						{source advanced}
+						{ignore_captured_by_user 0}
+						{group
+							{select
+								{tag
+									{tag smalluav_no_connect}
+								}
+							}
+						}
+					}
+					{effect reset_manual_control}
+				}
+				{"delay"
+					{time 0.5}
+				}
+				{"trigger"
+					{name "service/ecm/uav_jammed"}
+				}
+			}
+		}
+		{"service/reset_scripts"
+			{condition
+			}
+			{actions
+				{"delay"
+					{time 90}
+				}
+				{"trigger"
+					{name "service/cw_autotakeoff"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/1_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/2_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/3_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/4_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/5_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/6_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/7_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/8_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/9_link"}
+				}
+				{"trigger"
+					{name "service/paradrop/vdv/unlink"}
+				}
+				{"delay"
+					{time 1}
+				}
+				{"trigger"
+					{name "service/reset_scripts"}
+				}
+			}
+		}
 	}
 }

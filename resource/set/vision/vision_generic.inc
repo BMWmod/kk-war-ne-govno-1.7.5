@@ -316,6 +316,28 @@
 (define "missile_visible" {missile 0.001} {impactor 0.001} {targetable_missile 0.001} {targetable_impactor 0.001})
 (define "proj_point_invisible" {proj_point 0.001}{antirad_point 0.001}{large_antirad_point 0.001})
 
+
+(define "vision_uav_detector"
+    {rules
+        ("human_invisible")
+        ("ground_veh_invisible")
+        ("proj_point_invisible")
+        ("small_UAV_in_rad_spectre" radar(1) stand_radar(0.001))
+        {missile 0.001} {targetable_missile 0.001}
+		{impactor 0.001} {targetable_impactor 0.001} {glide_bomb 0.001}
+        {proj_point 0.001}
+        {bigship 0.001}
+        {submarine 0.001}
+		{antirad_point 0.001}
+		{large_antirad_point 0.001}
+		{stealth_plane  0.001}
+        {UAV  0.001}
+        {plane  0.001}
+        {helicopter  0.001}
+    }
+    {mods {stand 1}}
+)
+
 (define "vision_radar_shipSAM"
     {rules
         ("human_invisible")

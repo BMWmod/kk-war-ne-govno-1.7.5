@@ -1,0 +1,108 @@
+{actor
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{props "collectable" "ATGM" "vision_lev03_can" "round_sandbag2"}
+	{extender "inventory"
+		{box
+			{Size 6 6}
+			{weight 300}
+			{item "ammo mistral_missile" 7}
+			(mod "mp"
+				{item "plant" 3}
+			)
+		}	
+	}
+	{Weaponry
+		{place "gun"
+		{weapon "weapon mistralx1" filling "ammo mistral_missile" 1}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+		}
+	}
+	{sensor
+		{Visor "main"
+			{vision "tank_gunner_optic_2g"}
+			{bone "visor1"}
+		}
+		{visor "commander"
+			{bone "visor1"}
+			{vision "uav_detector"}
+		}
+	}
+{boarder
+	{anm "gunner"
+		{forward	{end "seat_driver_car"}}
+	}
+	{anm "commander"
+		{forward	{end "pose_squat_empty"}}
+	}
+	{anm "driver1"
+		{forward {end "mgun_browning_driver_r"}}
+	}
+	{anm "driver2"
+		{forward {end "mgun_browning_driver_l"}}
+	}
+	{link "driver1" "gunner"}
+	{link "driver2" "commander"}
+}
+{extender "cannon"
+	{animation
+		{switch "close"}
+		{move "mgun_browning_driver_r" "mgun_browning_driver_l"}
+		{aim "" ""}
+		{fire  "" ""}
+		{reload  "" ""}
+	}
+	{animation
+		{switch close}
+	}
+	{attack {workers "gunner" "commander"}}
+}  	
+	{Extension "mistral_stan.mdl"}
+	("missile_aimpoint_stansize")
+
+	{Volume "body"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "gun"
+		{tags "body"}
+		{thickness 10}
+		{component "gun"}
+	}
+	{Volume "gun2"
+		{tags "body"}
+		{thickness 10}
+		{component "gun"}
+	}
+	{Volume "part1"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "part2"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "part3"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "part5"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "turret"
+		{thickness 10}
+		{component "turret"}
+	}
+	{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+}

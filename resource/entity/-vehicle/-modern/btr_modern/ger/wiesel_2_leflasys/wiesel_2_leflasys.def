@@ -39,7 +39,7 @@
 		}
 	}	
 	{Weaponry
-		("restore_ik_time")
+		("restore_ik_time")	
 		{place "gun2"
 			{weapon "fim-92a_x4" filling "ammo fim-92a_ammo" 4}
 			{foresight "foresight1"}
@@ -76,6 +76,10 @@
 		{visor "gunner"
 			{vision "aircraft_optic_3g_360"}
 			{bone "visor1"}
+		}
+		{visor "commander"
+			{bone "visor1"}
+			{vision "uav_detector"}
 		}
 		{visor "add"
 			{vision "tank_gunner_optic_IR_3g"}

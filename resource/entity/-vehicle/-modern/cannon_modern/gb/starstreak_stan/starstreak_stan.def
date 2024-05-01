@@ -29,6 +29,10 @@
 			{vision "tank_gunner_optic_IR_2g"}
 			{bone "visor1"}
 		}
+		{visor "commander"
+			{bone "visor1"}
+			{vision "uav_detector"}
+		}
 	}
 	{boarder
 		{anm "gunner"

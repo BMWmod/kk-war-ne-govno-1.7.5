@@ -692,6 +692,13 @@
 	("datalink" r(260))
 }	
 
+{"uav_detector"
+    ("uncover" u(1))
+    ("h_fov" h(360))
+    ("v_fov" v(180))
+	("radius" r(42.3))
+    ("vision_uav_detector")
+}
 ;= CANNON ========================================
 
 {"cannon_main"

@@ -90,7 +90,7 @@
 		}
 	}
 	{Chassis "airborne"
-			{Altitude 25}
+			{Altitude 4}
 		}
 	{ChassisManager
 			{Current "airborne"}
