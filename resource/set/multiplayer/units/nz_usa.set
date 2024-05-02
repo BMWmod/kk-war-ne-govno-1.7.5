@@ -218,3 +218,5 @@
  ;{"mq9" {fore 0} ("h" c(480) sc(100) g(heli) b(usaf_hqcar) brig(usaf) s(usa)  i(3) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
  ;{"a-10c_AT" {fore 0} ("p" c(840)  sc(340) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(8) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
  ;{"f-35c_stealthaa" {fore 0} ("p" c(2200)  sc(170) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(16) cw(0) cp(40) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ 
+ ;.у
