@@ -141,7 +141,10 @@
  {"fv107scimitar_mk2"{fore 1} ("v3" c(240) sc(50) g(scipidar)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(200) cw(10) cp(10) t(all_nz) c1(fv107scimitar_mk2) n(2) n1(tankman:2))}
  
   ;Варриор с дзшкой
-  {"warrior_wrap2_ukr" {fore 0} ("v3" c(300) sc(80) g(btr)  b(ngu_ua_hqcar) brig(vsu_ua) s(ukr)  i(80343) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
+  {"warrior_wrap2_ukr" {fore 0} ("v3" c(300) sc(60) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80343) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
+  
+  ;БМП-1У
+  {"bmp1u" {fore 0} ("v" c(300) sc(80) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80344) cw(10) cp(10) t(all_nz) n(3) n1(tankman:3)) }
   
  
  ;===============================БРОНЕТАНКОВЫЕ=========================================== 
