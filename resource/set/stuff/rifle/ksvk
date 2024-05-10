@@ -4,7 +4,7 @@
 	
 	{special		;Точности всех крупнок. сн. винт. примерно одинаковы, порядок - 1,5-2 угл. минуты, или 15-16 см на дальности 300м (это ДИАМЕТР!)
 		{mode aim}
-		{PrepareTime 3}
+		{PrepareTime 4}
 		{PrepareCursor "aimed_shot"}
 		;{damage 2} ; damage *= x
 		{accuracy 2.4} ; aim_range *= x
@@ -25,7 +25,7 @@
 	{projectileDamageThreshold 1}
 	{fireSound	"rifle/KSVK_shot"}
 	{reloadSound "chn/ksvk_reload"}
-	{recoveryTime 1.5}
+	{recoveryTime 2.0}
 	{rechargeTime 4}
 	{calibre 12}
 	;{cursor "optic_giperon"}

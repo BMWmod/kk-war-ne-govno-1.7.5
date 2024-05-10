@@ -115,6 +115,7 @@
 		}
 	}
 	{Weaponry
+		{RestoreIKTime 4}
 		{place "gun2"
 			{weapon "nasams2_launcher" filled}
 			{foresight "Foresight4"}
