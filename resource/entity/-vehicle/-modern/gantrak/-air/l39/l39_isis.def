@@ -31,7 +31,16 @@
 		{place "driver" {turnOff {targetable}}}
 		{place "gunner" {turnOff {targetable}}}
 	}
-
+	{Sensor
+		{Visor "visor1"
+			{vision "aircraft_optic_IR_2g_wide"}	;это FLIR для автосоледования рельефу. Чисто обзорная вещь, 
+			{bone "visor1"}							;не для поиска целей.
+		}
+		{Visor "visor1"
+			{vision "aircraft_optic_IR_2g"}
+			{bone "visor1"}
+		}
+	}
 	{extender "inventory"
 		{box
 			{Size 10 10}

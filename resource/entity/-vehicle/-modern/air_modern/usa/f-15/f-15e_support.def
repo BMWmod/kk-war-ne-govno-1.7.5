@@ -67,7 +67,7 @@
 	Acc_hor(5.91) Maneuvrability_hor(4.88)
 	Acc_ver(5.12) Maneuvrability_ver(4.95)
 )
-	{props "cwfs_fuel_10000"}
+	{props "cwfs_fuel_10k"}
 
 ;Maneuvrability - маневренность по десятибалльной шкале. 10 - истребитель с УВТ, 1 - стратегический бомбардировщик.
 ;==========================       	

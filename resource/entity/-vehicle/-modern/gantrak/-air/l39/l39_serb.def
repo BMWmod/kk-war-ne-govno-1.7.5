@@ -13,7 +13,16 @@
 			{front	34}
 		}
 	}
-
+	{Sensor
+		{Visor "visor1"
+			{vision "aircraft_optic_IR_2g_wide"}	;это FLIR для автосоледования рельефу. Чисто обзорная вещь, 
+			{bone "visor1"}							;не для поиска целей.
+		}
+		{Visor "visor1"
+			{vision "aircraft_optic_IR_2g"}
+			{bone "visor1"}
+		}
+	}
 	{boarder
 		{anm "driver"
 			{forward	{begin	"board_plane_left"} {end "seat_driver_car"} {base "open1"}}
