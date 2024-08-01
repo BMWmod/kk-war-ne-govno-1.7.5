@@ -3,7 +3,7 @@
 ;Date: Tue Aug 16 20:42:02 2011
 ;File: G:\Работа с Pheonix\Редактирование\Конвертация\Т-64\T64 final 2.max
 ;Model create/rebuild by: Makimka
-;Last build date: Monday 7 April 2024 [15:43:36]
+;Last build date: Friday 1 August 2024 [15:13:15]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -342,55 +342,6 @@
                         }
                     }
                 }
-                {Bone "krovat_0"
-                    {Parameters "ID=shieldL1;"}
-                    {Matrix34
-                        0.515615	-0.324099	-0.00320526
-                        0.0613904	0.317333	1.00364
-                        -0.158037	-0.890549	0.343484
-                        -14.69	-22	6.54998
-                    }
-                    {VolumeView "shield_net.ply"}
-                }
-                {Bone "krovat_0_0"
-                    {Parameters "ID=shieldL1;"}
-                    {Matrix34
-                        0.534469	0.145208	0.0908592
-                        -0.0586499	0.221482	1.03014
-                        0.0742039	-0.963681	0.236297
-                        8.96999	-25.65	7.50998
-                    }
-                    {VolumeView "shield_net.ply"}
-                }
-                {Bone "krovat_1"
-                    {Parameters "ID=shieldL1;"}
-                    {Matrix34
-                        -0.865104	-0.194956	0.0247996
-                        0.0316074	-0.243187	1.02437
-                        -0.0674542	0.969479	0.277344
-                        -6.93002	23.84	7.02999
-                    }
-                    {VolumeView "shield_net.ply"}
-                }
-                {Bone "krovat_1_0"
-                    {Parameters "ID=shieldL1;"}
-                    {Matrix34
-                        -0.134739	0.987412	-0.0501872
-                        -0.384455	-0.0884435	1.032
-                        0.839623	0.261847	0.456711
-                        25.52	2.84	8.01998
-                    }
-                    {VolumeView "shield_net.ply"}
-                }
-                {Bone "flag_handle"
-                    {Parameters "ID=turret;"}
-                    {Matrix34
-                        0.999528	0.0307129	0
-                        -0.0307129	0.999528	0
-                        0	0	1
-                        8.1951	-10.1604	13.6917
-                    }
-                }
             }
             {Bone "engine"
                 {Parameters "ID=engine;"}
@@ -635,25 +586,6 @@
                     -0.000165224	-60.7646	-4.10677
                 }
                 {VolumeView "otval.ply"}
-            }
-            {Bone "krovat"
-                {Parameters "ID=shieldR1;"}
-                {Matrix34
-                    1.00882	-0.00398002	0.00280817
-                    0.00133557	0.710761	0.443957
-                    -0.00197573	-0.045515	0.824561
-                    0.100001	-55.9599	8.63
-                }
-                {VolumeView "shield_net.ply"}
-            }
-            {Bone "shieldr10"
-                {Matrix34
-                    -0.011047	-1.00027	-0.0360521
-                    0.999595	-0.00440184	-0.0259573
-                    0.0254041	-0.0159266	0.998617
-                    -0.471302	-74.8342	-0.221903
-                }
-                {VolumeView "shieldr10.ply"}
             }
         }
     }

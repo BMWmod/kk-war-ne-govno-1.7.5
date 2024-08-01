@@ -48,8 +48,8 @@
 			{"4vs4_station"				{"name" "<c(711b77)e(shadow)>[4x4]"									" <c(FFFFFF)e(shadow)>Station</c>"}					}			;null
 		}
 		{"5vs5"
-		
-					{"cw_warfields"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Поля полей</c>"} 	}
+			{"13423423"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Поля полей 2</c>"} 	}
+			{"cw_warfields"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Поля полей</c>"} 	}
 			{"gostomel"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Аэродром</c>"}	}
 			{"k1234"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Зимний ад</c>"}	}
 			{"hungry"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Польская провинция</c>"} }
