@@ -69,14 +69,4 @@
 			{bump "/texture/land/fields/tillage_3_nm"}
 		}
 	}
-	{"mtl7"
-		{layer bump
-			{diffuse "/texture/land/grass/gramma_7a"}
-			{bump "/texture/land/grass/gramma_7a_nm"}
-		}
-		{layer bump
-			{diffuse "/texture/land/fields/.winter/fieldsnow_3"}
-			{bump "/texture/land/fields/.winter/fieldsnow_3_nm"}
-		}
-	}
 }
