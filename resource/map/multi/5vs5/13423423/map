@@ -17196,9 +17196,6 @@
 		{Position 6162.86 2407.56 -309.41}
 		{xform zl -148.23}
 	}
-	{Entity "kaktus_1" 0x5804
-		{Position 3682.61 3136.38}
-	}
 	{Entity "new_tree3" 0x5805
 		{Position 2770.47 2197.93}
 	}
@@ -20145,115 +20142,6 @@
 	{Entity "bush9" 0x5b2f
 		{Position 510.08 -1718.94}
 		{xform zl 0.7}
-	}
-	{Entity "t62m_xx" 0x1
-		{Position 4405.35 -3354}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x2
-		{Position 4419.35 -3070.88}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x3
-		{Position 4419.81 -2756.86}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x4
-		{Position 4420.42 -2497.28}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x5
-		{Position 4434.42 -2214.16}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x6
-		{Position 4434.88 -1900.14}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x7
-		{Position 4444.56 -1611.19}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x8
-		{Position 4458.56 -1328.07}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0xb
-		{Position 4475.19 -478.29}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0xc
-		{Position 4475.65 -164.27}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0xd
-		{Position 4474.65 139.1}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0xe
-		{Position 4488.65 422.22}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0xf
-		{Position 4489.11 736.24}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x10
-		{Position 4496.45 984.74}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x11
-		{Position 4510.45 1267.86}
-		{xform zl 87.28}
-	}
-	{Entity "t62m_xx" 0x12
-		{Position 4510.91 1581.88}
-		{xform zl 87.28}
-	}
-	{Entity "cow" 0x13
-		{Position 2762.24 5620.08}
-		{Player 0}
-		{MID 10001}
-	}
-	{Entity "cow" 0x14
-		{Position 3068.72 5820.21}
-		{Player 0}
-		{MID 10002}
-	}
-	{Entity "cow" 0x15
-		{Position 3217.38 5555.51}
-		{Player 0}
-		{MID 10003}
-	}
-	{Entity "cow" 0x16
-		{Position 2528.63 5775.11}
-		{Player 0}
-		{MID 10004}
-	}
-	{Entity "cow" 0x17
-		{Position 2449.2 5376.56}
-		{Player 0}
-		{MID 10005}
-	}
-	{Entity "cow" 0x18
-		{Position 2970.03 5402.86}
-		{Player 0}
-		{MID 10006}
-	}
-	{Entity "cow" 0x19
-		{Position 2772.8 5940.91}
-		{Player 0}
-		{MID 10007}
-	}
-	{Entity "cow" 0x1a
-		{Position 3743.29 6155.8}
-		{Player 0}
-		{MID 10008}
-	}
-	{Entity "cow" 0x1b
-		{Position 2541.7 5589.89}
-		{Player 0}
-		{MID 10009}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4000
 		{Position 6487.6 -957.16 -310}
