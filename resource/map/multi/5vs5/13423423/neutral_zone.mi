@@ -21273,11 +21273,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 60}
-						{title "ᛟ"}
+						{time 140}
+						{title "Добро пожаловать в кокаиновый мир!"}
 					}
 					{"delay"
-						{time 60}
+						{time 140}
 					}
 					{"timer"
 						{hide}
