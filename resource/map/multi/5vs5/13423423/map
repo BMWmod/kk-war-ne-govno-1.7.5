@@ -20212,47 +20212,47 @@
 	}
 	{Entity "cow" 0x13
 		{Position 2762.24 5620.08}
-		{Player 255}
+		{Player 0}
 		{MID 10001}
 	}
 	{Entity "cow" 0x14
 		{Position 3068.72 5820.21}
-		{Player 255}
+		{Player 0}
 		{MID 10002}
 	}
 	{Entity "cow" 0x15
 		{Position 3217.38 5555.51}
-		{Player 255}
+		{Player 0}
 		{MID 10003}
 	}
 	{Entity "cow" 0x16
 		{Position 2528.63 5775.11}
-		{Player 255}
+		{Player 0}
 		{MID 10004}
 	}
 	{Entity "cow" 0x17
 		{Position 2449.2 5376.56}
-		{Player 255}
+		{Player 0}
 		{MID 10005}
 	}
 	{Entity "cow" 0x18
 		{Position 2970.03 5402.86}
-		{Player 255}
+		{Player 0}
 		{MID 10006}
 	}
 	{Entity "cow" 0x19
 		{Position 2772.8 5940.91}
-		{Player 255}
+		{Player 0}
 		{MID 10007}
 	}
 	{Entity "cow" 0x1a
 		{Position 3743.29 6155.8}
-		{Player 255}
+		{Player 0}
 		{MID 10008}
 	}
 	{Entity "cow" 0x1b
 		{Position 2541.7 5589.89}
-		{Player 255}
+		{Player 0}
 		{MID 10009}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4000
