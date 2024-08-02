@@ -668,11 +668,11 @@
 		{xform zl 177.98}
 	}
 	{Entity "road_sand5w1" 0x2076
-		{Position 3767.85 -5674.65 -379.25}
+		{Position 3767.85 -5674.65 -339.25}
 		{xform zl 177.98}
 	}
 	{Entity "road_sand5w1" 0x2077
-		{Position 3789.27 -5672.45 -392.27}
+		{Position 3789.27 -5672.45 -352.27}
 		{xform zl 177.98}
 	}
 	{Entity "road_sand5w1" 0x2078
@@ -1555,54 +1555,64 @@
 		{xform zl 43.35}
 	}
 	{Entity "pool_oil" 0x6400
-		{Position 499.91 -626.29 -352}
+		{Position 514.53 -777.99 -312}
+		{xform zl -177.71}
 	}
 	{Entity "btr82a_xx" 0x1400
-		{Position 453.99 -773.96 -349.86}
-		{xform zl -7.53}
+		{Position 554.52 -628.6 -309.86}
+		{xform zl 174.76}
 	}
 	{Entity "m1a1_fep_xx" 0x1de
-		{Position 508.41 -659.09}
-		{xform zl 121.72}
+		{Position 504.72 -745.55}
+		{xform zl -55.99}
 	}
 	{Entity "burn_grass1" 0x1df
 		{Position 432.47 -707.63}
 	}
 	{Entity "t_brick_x5a" 0x1e0
-		{Position 498.1 -748.57}
+		{Position 511.45 -655.73}
+		{xform zl -177.71}
 	}
 	{Entity "t_brick_x5a" 0x1e1
 		{Position 455.17 -696.7}
 	}
 	{Entity "t_brick_x5a" 0x1e2
-		{Position 479.97 -715.63}
+		{Position 530.88 -687.92}
+		{xform zl -177.71}
 	}
 	{Entity "t_brick_x5a" 0x1e3
-		{Position 497.33 -635.69}
+		{Position 516.73 -768.49}
+		{xform zl -177.71}
 	}
 	{Entity "t_brick_x5a" 0x1e4
-		{Position 495.52 -672.13}
+		{Position 517.08 -732.01}
+		{xform zl -177.71}
 	}
 	{Entity "t_brick_x5a" 0x1e5
-		{Position 535.06 -711.78}
+		{Position 475.99 -693.97}
+		{xform zl -177.71}
 	}
 	{Entity "t_brick_x5a" 0x1e6
-		{Position 511.41 -740.05}
+		{Position 498.49 -664.78}
+		{xform zl -177.71}
 	}
 	{Entity "trash7" 0x1e7
 		{Position 438.95 -727.93}
 	}
 	{Entity "trash7" 0x1e8
-		{Position 532.9 -739.2}
+		{Position 477.06 -666.48}
+		{xform zl -177.71}
 	}
 	{Entity "trash7" 0x1e9
-		{Position 515.6 -642.83}
+		{Position 498.19 -762.09}
+		{xform zl -177.71}
 	}
 	{Entity "trash7" 0x1ea
 		{Position 572.83 -697.75}
 	}
 	{Entity "trash7" 0x1eb
-		{Position 518.1 -793.46}
+		{Position 489.68 -611.68}
+		{xform zl -177.71}
 	}
 	{Entity "trash7" 0x1ec
 		{Position 447.73 -781.65}
@@ -1611,13 +1621,15 @@
 		{Position 427.39 -717.97}
 	}
 	{Entity "pool_oil" 0x1ee
-		{Position 459.69 -622.27}
+		{Position 554.87 -780.4}
+		{xform zl -177.71}
 	}
 	{Entity "pool_oil" 0x1ef
 		{Position 451.43 -655.05}
 	}
 	{Entity "pool_oil" 0x1f0
-		{Position 553.21 -693.07}
+		{Position 458.6 -713.39}
+		{xform zl -177.71}
 	}
 	{Entity "pool_oil" 0x1f1
 		{Position 572.15 -722.34}
@@ -1633,8 +1645,8 @@
 		{Position 566.37 -708}
 	}
 	{Entity "pool_oil" 0x1f5
-		{Position 549 -651.78}
-		{xform zl -64.94}
+		{Position 464.46 -754.48}
+		{xform zl 117.35}
 	}
 	{Entity "road_m_clay1" 0x4046
 		{Position 324.13 -840.35}
@@ -1649,7 +1661,7 @@
 		{xform zl 138.37}
 	}
 	{Entity "road_m_clay1" 0x404b
-		{Position 350.96 -642.71 -344.21}
+		{Position 350.96 -642.71 -304.21}
 		{xform zl 168.34}
 	}
 	{Entity "road_m_clay1" 0x404c
@@ -1661,23 +1673,23 @@
 		{xform zl 143.37}
 	}
 	{Entity "road_aero" 0x404e
-		{Position 339.6 -791.89 -349.88}
+		{Position 339.6 -791.89 -309.88}
 		{xform zl 9.5}
 	}
 	{Entity "road_aero" 0x404f
-		{Position 339.71 -623.16 -349.88}
+		{Position 339.71 -623.16 -309.88}
 		{xform zl -16.47}
 	}
 	{Entity "road_aero" 0x4050
-		{Position 336.16 -396.82 -349.88}
+		{Position 336.16 -396.82 -309.88}
 		{xform zl 161.47}
 	}
 	{Entity "road_aero" 0x4051
-		{Position 353.24 -1021.27 -349.88}
+		{Position 353.24 -1021.27 -309.88}
 		{xform zl -169.27}
 	}
 	{Entity "shellhole4d2" 0x4053
-		{Position 395.46 -660.68 -427.1}
+		{Position 395.46 -660.68 -387.1}
 		{DecalOrder 20}
 	}
 	{Entity "crash_stone1" 0x4054
@@ -1697,7 +1709,8 @@
 		{Position 369.93 -797.51}
 	}
 	{Entity "burn_grass1" 0x4059
-		{Position 483.06 -810.74}
+		{Position 524 -593.01}
+		{xform zl -177.71}
 	}
 	{Entity "burn_grass1" 0x405a
 		{Position 614.21 -667.75}
@@ -1928,28 +1941,28 @@
 		{Position -1869.9 1436.97}
 	}
 	{Entity "burn_grass1" 0x445c
-		{Position -1775.38 1419.21 -364.79}
+		{Position -1775.38 1419.21 -363.79}
 	}
 	{Entity "burn_grass1" 0x445d
-		{Position -1826.44 1441.96 -344.12}
+		{Position -1826.44 1441.96 -343.12}
 	}
 	{Entity "burn_grass1" 0x445e
-		{Position -1735.05 1406.81 -363.03}
+		{Position -1735.05 1406.81 -362.4}
 	}
 	{Entity "burn_grass1" 0x445f
-		{Position -1740.35 1482.04 -347.39}
+		{Position -1740.35 1482.04 -346.39}
 	}
 	{Entity "burn_grass1" 0x4460
 		{Position -1835.34 1491.34}
 	}
 	{Entity "burn_grass1" 0x4461
-		{Position -1792.06 1459.29 -342.59}
+		{Position -1792.06 1459.29 -341.59}
 	}
 	{Entity "burn_grass1" 0x4462
-		{Position -1710.16 1437.46 -343.31}
+		{Position -1710.16 1437.46 -342.31}
 	}
 	{Entity "burn_grass1" 0x4463
-		{Position -1712.4 1413.93 -344.89}
+		{Position -1712.4 1413.93 -343.89}
 	}
 	{Entity "burn_grass1" 0x4464
 		{Position -1858.06 1464.25}
@@ -2051,10 +2064,10 @@
 		{Position -3980.67 1430.72}
 	}
 	{Entity "burn_grass1" 0x4497
-		{Position -4083.7 1441.07 -345.3}
+		{Position -4083.7 1441.07 -344.3}
 	}
 	{Entity "burn_grass1" 0x449a
-		{Position -3992.9 1443.4 -349.7}
+		{Position -3992.9 1443.4 -348.7}
 	}
 	{Entity "burn_grass1" 0x449c
 		{Position -4490.86 515.48 -355.44}
@@ -2204,136 +2217,136 @@
 		{Position -4788.25 -1889.19}
 	}
 	{Entity "burn_grass1" 0x4556
-		{Position -4662.77 -2090.89 -347.67}
+		{Position -4662.77 -2090.89 -346.67}
 	}
 	{Entity "burn_grass1" 0x4580
 		{Position -1993.28 -2893.42}
 	}
 	{Entity "burn_grass1" 0x458c
-		{Position -332.51 -3617.33 -353.47}
+		{Position -332.51 -3617.33 -334.29}
 	}
 	{Entity "burn_grass1" 0x458d
 		{Position -502.66 -3547.18}
 	}
 	{Entity "burn_grass1" 0x458e
-		{Position -383.28 -3615.64 -368.38}
+		{Position -383.28 -3615.64 -358.9}
 	}
 	{Entity "burn_grass1" 0x458f
-		{Position -347.8 -3659.5 -360.79}
+		{Position -347.8 -3659.5 -341.45}
 	}
 	{Entity "burn_grass1" 0x4590
-		{Position -384.26 -3667.3 -365.26}
+		{Position -384.26 -3667.3 -351.43}
 	}
 	{Entity "burn_grass1" 0x4591
-		{Position -433.28 -3643.11 -358.59}
+		{Position -433.28 -3643.11 -353.97}
 	}
 	{Entity "burn_grass1" 0x4593
 		{Position -489.91 -3560.35}
 	}
 	{Entity "burn_grass1" 0x4594
-		{Position -395.39 -3578.11 -354.1}
+		{Position -395.39 -3578.11 -348.33}
 	}
 	{Entity "burn_grass1" 0x4595
-		{Position -446.45 -3555.36 -346.83}
+		{Position -446.45 -3555.36 -344.83}
 	}
 	{Entity "burn_grass1" 0x4596
-		{Position -355.06 -3590.51 -357.94}
+		{Position -355.06 -3590.51 -345.45}
 	}
 	{Entity "burn_grass1" 0x4597
-		{Position -360.36 -3515.28 -349.95}
+		{Position -360.36 -3515.28 -343.03}
 	}
 	{Entity "burn_grass1" 0x4598
 		{Position -455.35 -3505.98}
 	}
 	{Entity "burn_grass1" 0x4599
-		{Position -412.07 -3538.03 -346.68}
+		{Position -412.07 -3538.03 -342.93}
 	}
 	{Entity "burn_grass1" 0x459a
-		{Position -330.17 -3559.86 -345.77}
+		{Position -330.17 -3559.86 -331.8}
 	}
 	{Entity "burn_grass1" 0x459b
-		{Position -332.41 -3583.39 -345.01}
+		{Position -332.41 -3583.39 -329.2}
 	}
 	{Entity "burn_grass1" 0x459c
 		{Position -478.07 -3533.07}
 	}
 	{Entity "burn_grass1" 0x459e
-		{Position -329.87 -3707.68 -347.57}
+		{Position -329.87 -3707.68 -319.82}
 	}
 	{Entity "burn_grass1" 0x45a0
 		{Position -259.46 -3567.38}
 	}
 	{Entity "burn_grass1" 0x45a1
-		{Position -314.32 -3645.3 -343.1}
+		{Position -314.32 -3645.3 -317.48}
 	}
 	{Entity "burn_grass1" 0x45a2
-		{Position -342.1 -3695 -344.64}
+		{Position -342.1 -3695 -319.61}
 	}
 	{Entity "burn_grass1" 0x45a3
 		{Position -264 -3644.22}
 	}
 	{Entity "burn_grass1" 0x45a4
-		{Position -140.43 -2815.38 -366.43}
+		{Position -140.43 -2815.38 -357.47}
 	}
 	{Entity "burn_grass1" 0x45ae
-		{Position -162.98 -2788.56 -369.31}
+		{Position -162.98 -2788.56 -362.34}
 	}
 	{Entity "burn_grass1" 0x45af
-		{Position -168.28 -2713.33 -344.49}
+		{Position -168.28 -2713.33 -339.37}
 	}
 	{Entity "burn_grass1" 0x45b2
-		{Position -138.09 -2757.91 -348.7}
+		{Position -138.09 -2757.91 -340.58}
 	}
 	{Entity "burn_grass1" 0x45b3
-		{Position -140.33 -2781.44 -362.07}
+		{Position -140.33 -2781.44 -353.89}
 	}
 	{Entity "burn_grass1" 0x45b8
-		{Position -67.38 -2765.43 -349.54}
+		{Position -67.38 -2765.43 -334.74}
 	}
 	{Entity "burn_grass1" 0x45b9
-		{Position -122.24 -2843.35 -346.96}
+		{Position -122.24 -2843.35 -335.23}
 	}
 	{Entity "burn_grass1" 0x45bb
-		{Position -71.92 -2842.27 -349.52}
+		{Position -71.92 -2842.27 -332.76}
 	}
 	{Entity "burn_grass1" 0x45bc
-		{Position -529.5 -5331.79 -357.11}
+		{Position -529.5 -5331.79 -334.66}
 	}
 	{Entity "burn_grass1" 0x45bd
 		{Position -699.65 -5261.64}
 	}
 	{Entity "burn_grass1" 0x45be
-		{Position -580.27 -5330.1 -368.87}
+		{Position -580.27 -5330.1 -338.74}
 	}
 	{Entity "burn_grass1" 0x45bf
-		{Position -544.79 -5373.96 -361.41}
+		{Position -544.79 -5373.96 -331.44}
 	}
 	{Entity "burn_grass1" 0x45c3
 		{Position -686.9 -5274.81}
 	}
 	{Entity "burn_grass1" 0x45c4
-		{Position -592.38 -5292.57 -354.78}
+		{Position -592.38 -5292.57 -326.91}
 	}
 	{Entity "burn_grass1" 0x45c5
-		{Position -643.44 -5269.82 -347.36}
+		{Position -643.44 -5269.82 -314.94}
 	}
 	{Entity "burn_grass1" 0x45c6
-		{Position -552.05 -5304.97 -360.48}
+		{Position -552.05 -5304.97 -337.43}
 	}
 	{Entity "burn_grass1" 0x45c7
-		{Position -557.35 -5229.74 -349.97}
+		{Position -557.35 -5229.74 -335.38}
 	}
 	{Entity "burn_grass1" 0x45c8
 		{Position -652.34 -5220.44}
 	}
 	{Entity "burn_grass1" 0x45c9
-		{Position -609.06 -5252.49 -346.31}
+		{Position -609.06 -5252.49 -320.78}
 	}
 	{Entity "burn_grass1" 0x45ca
-		{Position -527.16 -5274.32 -345.39}
+		{Position -527.16 -5274.32 -330.15}
 	}
 	{Entity "burn_grass1" 0x45cb
-		{Position -529.4 -5297.85 -343.99}
+		{Position -529.4 -5297.85 -325.35}
 	}
 	{Entity "burn_grass1" 0x45cc
 		{Position -675.06 -5247.53}
@@ -2342,10 +2355,10 @@
 		{Position -456.45 -5281.84}
 	}
 	{Entity "burn_grass1" 0x45d1
-		{Position -511.31 -5359.76 -345.21}
+		{Position -511.31 -5359.76 -321.83}
 	}
 	{Entity "burn_grass1" 0x45d3
-		{Position -460.99 -5358.68 -349.85}
+		{Position -460.99 -5358.68 -333.86}
 	}
 	{Entity "burn_grass1" 0x45d4
 		{Position -1832.46 -6614.04 -350.54}
@@ -2363,31 +2376,31 @@
 		{Position -1884.21 -6664.01 -361.81}
 	}
 	{Entity "burn_grass1" 0x45d9
-		{Position -1933.23 -6639.82 -358.67}
+		{Position -1933.23 -6639.82 -358.31}
 	}
 	{Entity "burn_grass1" 0x45da
-		{Position -1970.11 -6611.95 -345.15}
+		{Position -1970.11 -6611.95 -344.15}
 	}
 	{Entity "burn_grass1" 0x45db
 		{Position -1989.86 -6557.06}
 	}
 	{Entity "burn_grass1" 0x45dc
-		{Position -1895.34 -6574.82 -360.54}
+		{Position -1895.34 -6574.82 -359.96}
 	}
 	{Entity "burn_grass1" 0x45dd
-		{Position -1946.4 -6552.07 -346.24}
+		{Position -1946.4 -6552.07 -345.24}
 	}
 	{Entity "burn_grass1" 0x45de
 		{Position -1855.01 -6587.22 -359.05}
 	}
 	{Entity "burn_grass1" 0x45df
-		{Position -1860.31 -6511.99 -349.49}
+		{Position -1860.31 -6511.99 -348.49}
 	}
 	{Entity "burn_grass1" 0x45e0
 		{Position -1955.3 -6502.69}
 	}
 	{Entity "burn_grass1" 0x45e1
-		{Position -1912.02 -6534.74 -344.68}
+		{Position -1912.02 -6534.74 -343.68}
 	}
 	{Entity "burn_grass1" 0x45e2
 		{Position -1830.12 -6556.57 -345.25}
@@ -2492,37 +2505,37 @@
 		{Position -899.62 -6390.63 -349.98}
 	}
 	{Entity "burn_grass1" 0x461c
-		{Position -175.93 -6848.76 -352.74}
+		{Position -175.93 -6848.76 -351.74}
 	}
 	{Entity "burn_grass1" 0x461d
 		{Position -346.08 -6778.61}
 	}
 	{Entity "burn_grass1" 0x461e
-		{Position -226.7 -6847.07 -368.82}
+		{Position -226.7 -6847.07 -367.82}
 	}
 	{Entity "burn_grass1" 0x461f
-		{Position -191.22 -6890.93 -360.02}
+		{Position -191.22 -6890.93 -359.02}
 	}
 	{Entity "burn_grass1" 0x4620
-		{Position -227.68 -6898.73 -368.08}
+		{Position -227.68 -6898.73 -367.08}
 	}
 	{Entity "burn_grass1" 0x4621
-		{Position -276.7 -6874.54 -359.7}
+		{Position -276.7 -6874.54 -358.7}
 	}
 	{Entity "burn_grass1" 0x4622
-		{Position -313.58 -6846.67 -345.64}
+		{Position -313.58 -6846.67 -344.64}
 	}
 	{Entity "burn_grass1" 0x4623
 		{Position -333.33 -6791.78}
 	}
 	{Entity "burn_grass1" 0x4624
-		{Position -238.81 -6809.54 -353.08}
+		{Position -238.81 -6809.54 -352.08}
 	}
 	{Entity "burn_grass1" 0x4625
-		{Position -289.87 -6786.79 -346.58}
+		{Position -289.87 -6786.79 -345.58}
 	}
 	{Entity "burn_grass1" 0x4626
-		{Position -198.48 -6821.94 -353.63}
+		{Position -198.48 -6821.94 -352.63}
 	}
 	{Entity "burn_grass1" 0x4627
 		{Position -203.78 -6746.71}
@@ -2531,34 +2544,34 @@
 		{Position -298.77 -6737.41}
 	}
 	{Entity "burn_grass1" 0x4629
-		{Position -255.49 -6769.46 -347.61}
+		{Position -255.49 -6769.46 -346.61}
 	}
 	{Entity "burn_grass1" 0x462a
-		{Position -173.59 -6791.29 -345.65}
+		{Position -173.59 -6791.29 -343.65}
 	}
 	{Entity "burn_grass1" 0x462b
-		{Position -175.83 -6814.82 -344.06}
+		{Position -175.83 -6814.82 -342.89}
 	}
 	{Entity "burn_grass1" 0x462c
 		{Position -321.49 -6764.5}
 	}
 	{Entity "burn_grass1" 0x462d
-		{Position -299.63 -6897.19 -343.01}
+		{Position -299.63 -6897.19 -342.01}
 	}
 	{Entity "burn_grass1" 0x462e
-		{Position -173.29 -6939.11 -344.93}
+		{Position -173.29 -6939.11 -343.93}
 	}
 	{Entity "burn_grass1" 0x462f
-		{Position -276.32 -6928.76 -343.32}
+		{Position -276.32 -6928.76 -342.32}
 	}
 	{Entity "burn_grass1" 0x4630
 		{Position -102.88 -6798.81}
 	}
 	{Entity "burn_grass1" 0x4631
-		{Position -157.74 -6876.73 -344.13}
+		{Position -157.74 -6876.73 -343.13}
 	}
 	{Entity "burn_grass1" 0x4632
-		{Position -185.52 -6926.43 -342.19}
+		{Position -185.52 -6926.43 -341.19}
 	}
 	{Entity "burn_grass1" 0x4633
 		{Position -107.42 -6875.65}
@@ -2567,13 +2580,13 @@
 		{Position -873.19 -7356.35 -368.37}
 	}
 	{Entity "burn_grass1" 0x469f
-		{Position -4542.21 -9268.37 -786.11}
+		{Position -4542.21 -9268.37 -748.35}
 	}
 	{Entity "burn_grass1" 0x46a8
-		{Position -4441.31 -9320.47 -789.5}
+		{Position -4441.31 -9320.47 -749.5}
 	}
 	{Entity "burn_grass1" 0x46ab
-		{Position -4445.85 -9397.31 -789.5}
+		{Position -4445.85 -9397.31 -752.91}
 	}
 	{Entity "burn_grass1" 0x4738
 		{Position 948.88 -7820.05}
@@ -2585,16 +2598,16 @@
 		{Position 1421.15 -9680.68 -347.08}
 	}
 	{Entity "burn_grass1" 0x482c
-		{Position 1603.84 -8926.1 -346.87}
+		{Position 1603.84 -8926.1 -345.87}
 	}
 	{Entity "burn_grass1" 0x482d
 		{Position 1433.69 -8855.95}
 	}
 	{Entity "burn_grass1" 0x482e
-		{Position 1553.07 -8924.41 -369.26}
+		{Position 1553.07 -8924.41 -368.26}
 	}
 	{Entity "burn_grass1" 0x482f
-		{Position 1588.55 -8968.27 -346.3}
+		{Position 1588.55 -8968.27 -345.47}
 	}
 	{Entity "burn_grass1" 0x4830
 		{Position 1552.09 -8976.07 -355.9}
@@ -2609,28 +2622,28 @@
 		{Position 1446.44 -8869.12 -348.81}
 	}
 	{Entity "burn_grass1" 0x4834
-		{Position 1540.96 -8886.88 -367.28}
+		{Position 1540.96 -8886.88 -366.98}
 	}
 	{Entity "burn_grass1" 0x4835
 		{Position 1489.9 -8864.13 -343.58}
 	}
 	{Entity "burn_grass1" 0x4836
-		{Position 1581.29 -8899.28 -357.44}
+		{Position 1581.29 -8899.28 -356.44}
 	}
 	{Entity "burn_grass1" 0x4837
-		{Position 1575.99 -8824.05 -349.1}
+		{Position 1575.99 -8824.05 -348.1}
 	}
 	{Entity "burn_grass1" 0x4838
 		{Position 1481 -8814.75}
 	}
 	{Entity "burn_grass1" 0x4839
-		{Position 1524.28 -8846.8 -344.61}
+		{Position 1524.28 -8846.8 -343.61}
 	}
 	{Entity "burn_grass1" 0x483a
-		{Position 1606.18 -8868.63 -345.23}
+		{Position 1606.18 -8868.63 -344.23}
 	}
 	{Entity "burn_grass1" 0x483b
-		{Position 1603.94 -8892.16 -343.26}
+		{Position 1603.94 -8892.16 -342.26}
 	}
 	{Entity "burn_grass1" 0x483c
 		{Position 1458.28 -8841.84 -349.64}
@@ -2639,7 +2652,7 @@
 		{Position 1480.14 -8974.53 -343.48}
 	}
 	{Entity "burn_grass1" 0x483e
-		{Position 1606.48 -9016.45 -349.69}
+		{Position 1606.48 -9016.45 -348.69}
 	}
 	{Entity "burn_grass1" 0x483f
 		{Position 1503.45 -9006.1 -345.48}
@@ -2648,28 +2661,28 @@
 		{Position 1676.89 -8876.15}
 	}
 	{Entity "burn_grass1" 0x4841
-		{Position 1622.03 -8954.07 -345.61}
+		{Position 1622.03 -8954.07 -344.61}
 	}
 	{Entity "burn_grass1" 0x4842
-		{Position 1594.25 -9003.77 -347.54}
+		{Position 1594.25 -9003.77 -347.16}
 	}
 	{Entity "burn_grass1" 0x4843
 		{Position 1672.35 -8952.99}
 	}
 	{Entity "burn_grass1" 0x4844
-		{Position 2360.53 -9909.82 -343.03}
+		{Position 2360.53 -9909.82 -342.03}
 	}
 	{Entity "burn_grass1" 0x4845
 		{Position 2190.38 -9839.67 -349.01}
 	}
 	{Entity "burn_grass1" 0x4846
-		{Position 2309.76 -9908.13 -369.01}
+		{Position 2309.76 -9908.13 -368.01}
 	}
 	{Entity "burn_grass1" 0x4847
-		{Position 2345.24 -9951.99 -344.34}
+		{Position 2345.24 -9951.99 -343.34}
 	}
 	{Entity "burn_grass1" 0x4848
-		{Position 2308.78 -9959.79 -342.08}
+		{Position 2308.78 -9959.79 -341.08}
 	}
 	{Entity "burn_grass1" 0x4849
 		{Position 2259.76 -9935.6 -347.16}
@@ -2681,31 +2694,31 @@
 		{Position 2203.13 -9852.84 -346.73}
 	}
 	{Entity "burn_grass1" 0x484c
-		{Position 2297.65 -9870.6 -368.89}
+		{Position 2297.65 -9870.6 -367.89}
 	}
 	{Entity "burn_grass1" 0x484d
-		{Position 2246.59 -9847.85 -349.93}
+		{Position 2246.59 -9847.85 -349.25}
 	}
 	{Entity "burn_grass1" 0x484e
-		{Position 2337.98 -9883 -358.68}
+		{Position 2337.98 -9883 -357.68}
 	}
 	{Entity "burn_grass1" 0x484f
-		{Position 2332.68 -9807.77 -345.35}
+		{Position 2332.68 -9807.77 -344.35}
 	}
 	{Entity "burn_grass1" 0x4850
-		{Position 2237.69 -9798.47 -346.77}
+		{Position 2237.69 -9798.47 -345.77}
 	}
 	{Entity "burn_grass1" 0x4851
-		{Position 2280.97 -9830.52 -353.79}
+		{Position 2280.97 -9830.52 -352.79}
 	}
 	{Entity "burn_grass1" 0x4852
-		{Position 2362.87 -9852.35 -344.03}
+		{Position 2362.87 -9852.35 -343.03}
 	}
 	{Entity "burn_grass1" 0x4853
-		{Position 2360.63 -9875.88 -343}
+		{Position 2360.63 -9875.88 -342}
 	}
 	{Entity "burn_grass1" 0x4854
-		{Position 2214.97 -9825.56 -347.44}
+		{Position 2214.97 -9825.56 -347.26}
 	}
 	{Entity "burn_grass1" 0x4855
 		{Position 2236.83 -9958.25 -345.73}
@@ -2720,7 +2733,7 @@
 		{Position 2433.58 -9859.87}
 	}
 	{Entity "burn_grass1" 0x4859
-		{Position 2378.72 -9937.79 -348.65}
+		{Position 2378.72 -9937.79 -347.65}
 	}
 	{Entity "burn_grass1" 0x485a
 		{Position 2350.94 -9987.49}
@@ -2945,19 +2958,19 @@
 		{Position 5134.35 -11222.3}
 	}
 	{Entity "burn_grass1" 0x316
-		{Position 3998.37 -10995.9}
+		{Position 3998.37 -10995.9 -348.34}
 	}
 	{Entity "burn_grass1" 0x317
 		{Position 3828.22 -10925.7}
 	}
 	{Entity "burn_grass1" 0x318
-		{Position 3947.6 -10994.2}
+		{Position 3947.6 -10994.2 -342.09}
 	}
 	{Entity "burn_grass1" 0x319
-		{Position 3983.08 -11038}
+		{Position 3983.08 -11038 -347.04}
 	}
 	{Entity "burn_grass1" 0x31a
-		{Position 3946.62 -11045.8}
+		{Position 3946.62 -11045.8 -342.23}
 	}
 	{Entity "burn_grass1" 0x31b
 		{Position 3897.6 -11021.7}
@@ -2969,28 +2982,28 @@
 		{Position 3840.97 -10938.9}
 	}
 	{Entity "burn_grass1" 0x31e
-		{Position 3935.49 -10956.7}
+		{Position 3935.49 -10956.7 -338.94}
 	}
 	{Entity "burn_grass1" 0x31f
 		{Position 3884.43 -10933.9}
 	}
 	{Entity "burn_grass1" 0x320
-		{Position 3975.82 -10969}
+		{Position 3975.82 -10969 -346.95}
 	}
 	{Entity "burn_grass1" 0x321
-		{Position 3970.52 -10893.8}
+		{Position 3970.52 -10893.8 -344}
 	}
 	{Entity "burn_grass1" 0x322
 		{Position 3875.53 -10884.5}
 	}
 	{Entity "burn_grass1" 0x323
-		{Position 3918.81 -10916.6}
+		{Position 3918.81 -10916.6 -335.65}
 	}
 	{Entity "burn_grass1" 0x324
-		{Position 4000.71 -10938.4}
+		{Position 4000.71 -10938.4 -346}
 	}
 	{Entity "burn_grass1" 0x325
-		{Position 3998.47 -10961.9}
+		{Position 3998.47 -10961.9 -347.72}
 	}
 	{Entity "burn_grass1" 0x326
 		{Position 3852.81 -10911.6}
@@ -2999,7 +3012,7 @@
 		{Position 3874.67 -11044.3}
 	}
 	{Entity "burn_grass1" 0x328
-		{Position 4001.01 -11086.2}
+		{Position 4001.01 -11086.2 -347.07}
 	}
 	{Entity "burn_grass1" 0x329
 		{Position 3897.98 -11075.9}
@@ -3008,13 +3021,13 @@
 		{Position 4071.42 -10945.9}
 	}
 	{Entity "burn_grass1" 0x32b
-		{Position 4016.56 -11023.8}
+		{Position 4016.56 -11023.8 -347.65}
 	}
 	{Entity "burn_grass1" 0x32c
-		{Position 3988.78 -11073.5}
+		{Position 3988.78 -11073.5 -345.87}
 	}
 	{Entity "burn_grass1" 0x32d
-		{Position 4066.88 -11022.8}
+		{Position 4066.88 -11022.8 -347.56}
 	}
 	{Entity "burn_grass1" 0x32e
 		{Position 5930.37 -11101.4}
@@ -3737,16 +3750,16 @@
 		{Position 4914.91 -10330.7}
 	}
 	{Entity "burn_grass1" 0x422
-		{Position 4275.72 -9922.69}
+		{Position 4275.72 -9922.69 -347.94}
 	}
 	{Entity "burn_grass1" 0x423
 		{Position 4105.57 -9852.54}
 	}
 	{Entity "burn_grass1" 0x424
-		{Position 4224.95 -9921}
+		{Position 4224.95 -9921 -369.04}
 	}
 	{Entity "burn_grass1" 0x425
-		{Position 4260.43 -9964.86}
+		{Position 4260.43 -9964.86 -348.57}
 	}
 	{Entity "burn_grass1" 0x426
 		{Position 4223.97 -9972.66}
@@ -3767,10 +3780,10 @@
 		{Position 4161.78 -9860.72}
 	}
 	{Entity "burn_grass1" 0x42c
-		{Position 4253.17 -9895.87}
+		{Position 4253.17 -9895.87 -362.45}
 	}
 	{Entity "burn_grass1" 0x42d
-		{Position 4247.87 -9820.64}
+		{Position 4247.87 -9820.64 -349.09}
 	}
 	{Entity "burn_grass1" 0x42e
 		{Position 4152.88 -9811.34}
@@ -3779,10 +3792,10 @@
 		{Position 4196.16 -9843.39}
 	}
 	{Entity "burn_grass1" 0x430
-		{Position 4278.06 -9865.22}
+		{Position 4278.06 -9865.22 -342.22}
 	}
 	{Entity "burn_grass1" 0x431
-		{Position 4275.82 -9888.75}
+		{Position 4275.82 -9888.75 -337.39}
 	}
 	{Entity "burn_grass1" 0x432
 		{Position 4130.16 -9838.43}
@@ -3791,7 +3804,7 @@
 		{Position 4152.02 -9971.12}
 	}
 	{Entity "burn_grass1" 0x434
-		{Position 4278.36 -10013}
+		{Position 4278.36 -10013 -346.97}
 	}
 	{Entity "burn_grass1" 0x435
 		{Position 4175.33 -10002.7}
@@ -3800,10 +3813,10 @@
 		{Position 4348.77 -9872.74}
 	}
 	{Entity "burn_grass1" 0x437
-		{Position 4293.91 -9950.66}
+		{Position 4293.91 -9950.66 -334.68}
 	}
 	{Entity "burn_grass1" 0x438
-		{Position 4266.13 -10000.4}
+		{Position 4266.13 -10000.4 -341.26}
 	}
 	{Entity "burn_grass1" 0x439
 		{Position 4344.23 -9949.58}
@@ -3881,19 +3894,19 @@
 		{Position 4829.42 -9298}
 	}
 	{Entity "burn_grass1" 0x452
-		{Position 4371.86 -9002.48 -347.8}
+		{Position 4371.86 -9002.48 -350.08}
 	}
 	{Entity "burn_grass1" 0x453
 		{Position 4201.71 -8932.33}
 	}
 	{Entity "burn_grass1" 0x454
-		{Position 4321.09 -9000.79 -350.01}
+		{Position 4321.09 -9000.79 -363.96}
 	}
 	{Entity "burn_grass1" 0x455
-		{Position 4356.57 -9044.65 -348.67}
+		{Position 4356.57 -9044.65 -352.13}
 	}
 	{Entity "burn_grass1" 0x456
-		{Position 4320.11 -9052.45 -350.28}
+		{Position 4320.11 -9052.45 -364.56}
 	}
 	{Entity "burn_grass1" 0x457
 		{Position 4271.09 -9028.26 -349.13}
@@ -3905,16 +3918,16 @@
 		{Position 4214.46 -8945.5}
 	}
 	{Entity "burn_grass1" 0x45a
-		{Position 4308.98 -8963.26 -350.78}
+		{Position 4308.98 -8963.26 -352.58}
 	}
 	{Entity "burn_grass1" 0x45b
 		{Position 4257.92 -8940.51 -347.45}
 	}
 	{Entity "burn_grass1" 0x45c
-		{Position 4349.31 -8975.66 -349.53}
+		{Position 4349.31 -8975.66 -367.59}
 	}
 	{Entity "burn_grass1" 0x45d
-		{Position 4344.01 -8900.43 -349}
+		{Position 4344.01 -8900.43 -347.38}
 	}
 	{Entity "burn_grass1" 0x45e
 		{Position 4249.02 -8891.13}
@@ -3923,19 +3936,19 @@
 		{Position 4292.3 -8923.18 -348.52}
 	}
 	{Entity "burn_grass1" 0x460
-		{Position 4374.2 -8945.01 -348.55}
+		{Position 4374.2 -8945.01 -338.2}
 	}
 	{Entity "burn_grass1" 0x461
-		{Position 4371.96 -8968.54 -346.43}
+		{Position 4371.96 -8968.54 -339.43}
 	}
 	{Entity "burn_grass1" 0x462
 		{Position 4226.3 -8918.22}
 	}
 	{Entity "burn_grass1" 0x463
-		{Position 4248.16 -9050.91 -348.48}
+		{Position 4248.16 -9050.91 -348.28}
 	}
 	{Entity "burn_grass1" 0x464
-		{Position 4374.5 -9092.83}
+		{Position 4374.5 -9092.83 -345.46}
 	}
 	{Entity "burn_grass1" 0x465
 		{Position 4271.47 -9082.48 -348.22}
@@ -3947,7 +3960,7 @@
 		{Position 4390.05 -9030.45 -347.1}
 	}
 	{Entity "burn_grass1" 0x468
-		{Position 4362.27 -9080.15 -349.54}
+		{Position 4362.27 -9080.15 -341.14}
 	}
 	{Entity "burn_grass1" 0x469
 		{Position 4440.37 -9029.37}
@@ -4457,64 +4470,64 @@
 		{Position 4578.51 -8573.94}
 	}
 	{Entity "burn_grass1" 0x512
-		{Position 4168.33 -7777.53 -347.71}
+		{Position 4168.33 -7777.53 -346.71}
 	}
 	{Entity "burn_grass1" 0x513
-		{Position 3998.18 -7707.38 -345.06}
+		{Position 3998.18 -7707.38 -320.6}
 	}
 	{Entity "burn_grass1" 0x514
-		{Position 4117.56 -7775.84 -351.54}
+		{Position 4117.56 -7775.84 -347.25}
 	}
 	{Entity "burn_grass1" 0x515
-		{Position 4153.04 -7819.7 -349.27}
+		{Position 4153.04 -7819.7 -347.53}
 	}
 	{Entity "burn_grass1" 0x516
-		{Position 4116.58 -7827.5 -347.1}
+		{Position 4116.58 -7827.5 -342.71}
 	}
 	{Entity "burn_grass1" 0x517
-		{Position 4067.56 -7803.31 -348.17}
+		{Position 4067.56 -7803.31 -337.59}
 	}
 	{Entity "burn_grass1" 0x518
-		{Position 4030.68 -7775.44 -353.77}
+		{Position 4030.68 -7775.44 -335.81}
 	}
 	{Entity "burn_grass1" 0x519
-		{Position 4010.93 -7720.55 -345.09}
+		{Position 4010.93 -7720.55 -323.18}
 	}
 	{Entity "burn_grass1" 0x51a
-		{Position 4105.45 -7738.31 -365.95}
+		{Position 4105.45 -7738.31 -360.45}
 	}
 	{Entity "burn_grass1" 0x51b
-		{Position 4054.39 -7715.56 -367.17}
+		{Position 4054.39 -7715.56 -353.95}
 	}
 	{Entity "burn_grass1" 0x51c
-		{Position 4145.78 -7750.71 -342.88}
+		{Position 4145.78 -7750.71 -340.88}
 	}
 	{Entity "burn_grass1" 0x51d
-		{Position 4140.48 -7675.48 -347}
+		{Position 4140.48 -7675.48 -345}
 	}
 	{Entity "burn_grass1" 0x51e
-		{Position 4045.49 -7666.18 -344.33}
+		{Position 4045.49 -7666.18 -329.33}
 	}
 	{Entity "burn_grass1" 0x51f
-		{Position 4088.77 -7698.23 -360.64}
+		{Position 4088.77 -7698.23 -353.3}
 	}
 	{Entity "burn_grass1" 0x520
-		{Position 4170.67 -7720.06 -346.99}
+		{Position 4170.67 -7720.06 -345.99}
 	}
 	{Entity "burn_grass1" 0x521
-		{Position 4168.43 -7743.59 -347.59}
+		{Position 4168.43 -7743.59 -346.59}
 	}
 	{Entity "burn_grass1" 0x522
-		{Position 4022.77 -7693.27 -342.7}
+		{Position 4022.77 -7693.27 -323.16}
 	}
 	{Entity "burn_grass1" 0x523
-		{Position 4044.63 -7825.96 -345.19}
+		{Position 4044.63 -7825.96 -330.02}
 	}
 	{Entity "burn_grass1" 0x524
 		{Position 4170.97 -7867.88}
 	}
 	{Entity "burn_grass1" 0x525
-		{Position 4067.94 -7857.53 -349.8}
+		{Position 4067.94 -7857.53 -339.29}
 	}
 	{Entity "burn_grass1" 0x526
 		{Position 4241.38 -7727.58}
@@ -4985,7 +4998,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5ba
-		{Position 4114.62 -6641.61 -369.05}
+		{Position 4114.62 -6641.61 -363.67}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5bb
@@ -4993,19 +5006,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5bc
-		{Position 4158.68 -6616.32 -362.63}
+		{Position 4158.68 -6616.32 -361.63}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5bd
-		{Position 4105.42 -6597.71 -364.9}
+		{Position 4105.42 -6597.71 -360.58}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5be
-		{Position 4132.31 -6571.88 -346.55}
+		{Position 4132.31 -6571.88 -345.55}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5bf
-		{Position 4186.72 -6566.64 -344.2}
+		{Position 4186.72 -6566.64 -343.2}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c0
@@ -5017,7 +5030,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c2
-		{Position 4188.73 -6641.85 -344.63}
+		{Position 4188.73 -6641.85 -343.63}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c3
@@ -5025,11 +5038,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c4
-		{Position 4147.91 -6652.54 -367.43}
+		{Position 4147.91 -6652.54 -366.17}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c5
-		{Position 4192.03 -6713.71 -349.02}
+		{Position 4192.03 -6713.71 -348.02}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c6
@@ -5037,15 +5050,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c7
-		{Position 4224.01 -6667.14 -349.12}
+		{Position 4224.01 -6667.14 -348.12}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c8
-		{Position 4142.89 -6691.7 -344.92}
+		{Position 4142.89 -6691.7 -342.16}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5c9
-		{Position 4132.41 -6670.52 -362.39}
+		{Position 4132.41 -6670.52 -359.5}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5ca
@@ -5057,27 +5070,27 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5cc
-		{Position 4064.81 -6566.19 -345.47}
+		{Position 4064.81 -6566.19 -334.96}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5cd
-		{Position 4157.85 -6520.74 -349.85}
+		{Position 4157.85 -6520.74 -348.85}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5ce
-		{Position 4078.82 -6722.54 -347.35}
+		{Position 4078.82 -6722.54 -330.69}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5cf
-		{Position 4084.43 -6627.41 -363.58}
+		{Position 4084.43 -6627.41 -351.37}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5d0
-		{Position 4081.88 -6570.53 -343.08}
+		{Position 4081.88 -6570.53 -336.4}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5d1
-		{Position 4042.22 -6654.82 -344.48}
+		{Position 4042.22 -6654.82 -315.83}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5d2
@@ -5285,19 +5298,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x605
-		{Position 5685.87 -6094.93}
+		{Position 5685.87 -6094.93 -352.98}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x606
-		{Position 5712.76 -6069.1}
+		{Position 5712.76 -6069.1 -338.92}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x607
-		{Position 5767.17 -6063.86}
+		{Position 5767.17 -6063.86 -338.65}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x608
-		{Position 5813.2 -6068.13}
+		{Position 5813.2 -6068.13 -348.12}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x609
@@ -5341,11 +5354,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x613
-		{Position 5774.74 -6032.53}
+		{Position 5774.74 -6032.53 -349.36}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x614
-		{Position 5645.26 -6063.41}
+		{Position 5645.26 -6063.41 -348.27}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x615
@@ -5361,7 +5374,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x618
-		{Position 5662.33 -6067.75}
+		{Position 5662.33 -6067.75 -342.61}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x619
@@ -5373,7 +5386,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x61b
-		{Position 6076 -6100.38}
+		{Position 6076 -6100.38 -342.91}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x61c
@@ -5381,23 +5394,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x61d
-		{Position 5885.21 -6086.43}
+		{Position 5885.21 -6086.43 -348.87}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x61e
-		{Position 5912.1 -6060.6}
+		{Position 5912.1 -6060.6 -346.52}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x61f
-		{Position 5966.51 -6055.36}
+		{Position 5966.51 -6055.36 -339.75}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x620
-		{Position 6012.54 -6059.63}
+		{Position 6012.54 -6059.63 -332.85}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x621
-		{Position 6058.23 -6095.9}
+		{Position 6058.23 -6095.9 -331.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x622
@@ -5405,7 +5418,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x623
-		{Position 6023.91 -6123.02}
+		{Position 6023.91 -6123.02 -382.25}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x624
@@ -5417,7 +5430,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x626
-		{Position 6057.47 -6160.32}
+		{Position 6057.47 -6160.32 -340.34}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x627
@@ -5433,11 +5446,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x62a
-		{Position 6062.53 -6125.33}
+		{Position 6062.53 -6125.33 -338.04}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x62b
-		{Position 5974.08 -6024.03}
+		{Position 5974.08 -6024.03 -346.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x62c
@@ -5465,7 +5478,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x632
-		{Position 5715.44 -5302.87 -351.97}
+		{Position 5715.44 -5302.87 -350.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x633
@@ -5473,67 +5486,67 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x634
-		{Position 5759.5 -5277.58 -368.27}
+		{Position 5759.5 -5277.58 -365.27}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x635
-		{Position 5706.24 -5258.97 -345.11}
+		{Position 5706.24 -5258.97 -342.51}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x636
-		{Position 5733.13 -5233.14 -345.72}
+		{Position 5733.13 -5233.14 -341.08}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x637
-		{Position 5787.54 -5227.9 -347.43}
+		{Position 5787.54 -5227.9 -340.27}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x638
-		{Position 5833.57 -5232.17 -342.62}
+		{Position 5833.57 -5232.17 -333.57}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x639
-		{Position 5879.26 -5268.44 -349.64}
+		{Position 5879.26 -5268.44 -341.53}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x63a
-		{Position 5789.55 -5303.11 -368.35}
+		{Position 5789.55 -5303.11 -365.71}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x63b
-		{Position 5844.94 -5295.56 -344.05}
+		{Position 5844.94 -5295.56 -339.38}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x63c
-		{Position 5748.73 -5313.8 -367.1}
+		{Position 5748.73 -5313.8 -365.53}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x63d
-		{Position 5792.85 -5374.97 -346.43}
+		{Position 5792.85 -5374.97 -345.43}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x63e
-		{Position 5878.5 -5332.86 -349.87}
+		{Position 5878.5 -5332.86 -346.33}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x63f
-		{Position 5824.83 -5328.4 -343.92}
+		{Position 5824.83 -5328.4 -341.81}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x640
-		{Position 5743.71 -5352.96 -344.12}
+		{Position 5743.71 -5352.96 -343.12}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x641
-		{Position 5733.23 -5331.78 -350.19}
+		{Position 5733.23 -5331.78 -349.19}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x642
-		{Position 5883.56 -5297.87 -349.89}
+		{Position 5883.56 -5297.87 -343.72}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x643
-		{Position 5795.11 -5196.57 -346.59}
+		{Position 5795.11 -5196.57 -335.97}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x644
@@ -5541,7 +5554,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x645
-		{Position 5758.67 -5182 -347.69}
+		{Position 5758.67 -5182 -338.07}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x646
@@ -5549,11 +5562,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x647
-		{Position 5685.25 -5288.67 -345.88}
+		{Position 5685.25 -5288.67 -344.84}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x648
-		{Position 5682.7 -5231.79 -348.16}
+		{Position 5682.7 -5231.79 -345.16}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x649
@@ -5561,75 +5574,75 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x64a
-		{Position 4040.64 -5267.21 -345.73}
+		{Position 4040.64 -5267.21 -329.77}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x64b
-		{Position 4222.24 -5237.26 -348.35}
+		{Position 4222.24 -5237.26 -347.35}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x64c
-		{Position 4084.7 -5241.92 -364.53}
+		{Position 4084.7 -5241.92 -357.38}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x64d
-		{Position 4031.44 -5223.31 -345.11}
+		{Position 4031.44 -5223.31 -327.4}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x64e
-		{Position 4058.33 -5197.48 -344.51}
+		{Position 4058.33 -5197.48 -332.3}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x64f
-		{Position 4112.74 -5192.24 -362.29}
+		{Position 4112.74 -5192.24 -357.52}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x650
-		{Position 4158.78 -5196.51 -358.51}
+		{Position 4158.78 -5196.51 -357.34}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x651
-		{Position 4204.47 -5232.78 -344.52}
+		{Position 4204.47 -5232.78 -343.52}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x652
-		{Position 4114.76 -5267.45 -364.35}
+		{Position 4114.76 -5267.45 -360.78}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x653
-		{Position 4170.14 -5259.9 -352.91}
+		{Position 4170.14 -5259.9 -351.91}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x654
-		{Position 4073.93 -5278.14 -345.22}
+		{Position 4073.93 -5278.14 -335.91}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x655
-		{Position 4118.05 -5339.31 -349.21}
+		{Position 4118.05 -5339.31 -345.97}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x656
-		{Position 4203.7 -5297.2 -349.09}
+		{Position 4203.7 -5297.2 -348.09}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x657
-		{Position 4150.03 -5292.74 -343.16}
+		{Position 4150.03 -5292.74 -342.12}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x658
-		{Position 4068.91 -5317.3 -348.68}
+		{Position 4068.91 -5317.3 -337.43}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x659
-		{Position 4058.43 -5296.12 -346.27}
+		{Position 4058.43 -5296.12 -333.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x65a
-		{Position 4208.76 -5262.21 -346.24}
+		{Position 4208.76 -5262.21 -345.24}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x65b
-		{Position 4120.31 -5160.91 -356.71}
+		{Position 4120.31 -5160.91 -352.69}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x65c
@@ -5637,7 +5650,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x65d
-		{Position 4083.87 -5146.34 -342.28}
+		{Position 4083.87 -5146.34 -334.62}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x65e
@@ -5669,7 +5682,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x676
-		{Position 5845.61 -4058.99 -350.03}
+		{Position 5845.61 -4058.99 -349.08}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x679
@@ -5685,7 +5698,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x67c
-		{Position 6610.5 -4499.11}
+		{Position 6610.5 -4499.11 -350.96}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x67d
@@ -5697,31 +5710,31 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x67f
-		{Position 6638.54 -4449.43}
+		{Position 6638.54 -4449.43 -349.61}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x680
-		{Position 6684.57 -4453.7}
+		{Position 6684.57 -4453.7 -349.76}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x681
-		{Position 6730.26 -4489.97}
+		{Position 6730.26 -4489.97 -349.98}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x682
-		{Position 6640.55 -4524.64}
+		{Position 6640.55 -4524.64 -351.49}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x683
-		{Position 6695.94 -4517.09}
+		{Position 6695.94 -4517.09 -349.24}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x684
-		{Position 6599.73 -4535.33}
+		{Position 6599.73 -4535.33 -350.7}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x685
-		{Position 6643.85 -4596.5}
+		{Position 6643.85 -4596.5 -349.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x686
@@ -5729,7 +5742,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x687
-		{Position 6675.83 -4549.93}
+		{Position 6675.83 -4549.93 -349.45}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x688
@@ -5745,7 +5758,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x68b
-		{Position 6646.11 -4418.1}
+		{Position 6646.11 -4418.1 -349.94}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x68c
@@ -5753,7 +5766,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x68d
-		{Position 6609.67 -4403.53}
+		{Position 6609.67 -4403.53 -350.92}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x68e
@@ -5809,7 +5822,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x752
-		{Position 1957.85 -3881.67 -348.48}
+		{Position 1957.85 -3881.67 -342.96}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x753
@@ -5817,43 +5830,43 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x754
-		{Position 2001.91 -3856.38 -368.86}
+		{Position 2001.91 -3856.38 -357.5}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x755
-		{Position 1948.65 -3837.77 -345.05}
+		{Position 1948.65 -3837.77 -334.02}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x756
-		{Position 1975.54 -3811.94 -346.1}
+		{Position 1975.54 -3811.94 -328.58}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x757
-		{Position 2029.95 -3806.7 -353.46}
+		{Position 2029.95 -3806.7 -331.95}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x758
-		{Position 2075.98 -3810.97 -343.01}
+		{Position 2075.98 -3810.97 -320.22}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x759
-		{Position 2121.67 -3847.24 -348.24}
+		{Position 2121.67 -3847.24 -328.69}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x75a
-		{Position 2031.96 -3881.91 -368.27}
+		{Position 2031.96 -3881.91 -359.51}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x75b
-		{Position 2087.35 -3874.36 -343.81}
+		{Position 2087.35 -3874.36 -330.94}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x75c
-		{Position 1991.14 -3892.6 -364.04}
+		{Position 1991.14 -3892.6 -358.35}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x75d
-		{Position 2035.26 -3953.77 -346.57}
+		{Position 2035.26 -3953.77 -344.57}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x75e
@@ -5861,23 +5874,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x75f
-		{Position 2067.24 -3907.2 -343.62}
+		{Position 2067.24 -3907.2 -336.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x760
-		{Position 1986.12 -3931.76 -343.86}
+		{Position 1986.12 -3931.76 -341.86}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x761
-		{Position 1975.64 -3910.58 -347.45}
+		{Position 1975.64 -3910.58 -343.99}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x762
-		{Position 2125.97 -3876.67 -349.55}
+		{Position 2125.97 -3876.67 -334.59}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x763
-		{Position 2037.52 -3775.37 -346.24}
+		{Position 2037.52 -3775.37 -319.53}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x764
@@ -5885,7 +5898,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x765
-		{Position 2001.08 -3760.8 -347.63}
+		{Position 2001.08 -3760.8 -319.88}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x766
@@ -5893,11 +5906,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x767
-		{Position 1927.66 -3867.47 -343.56}
+		{Position 1927.66 -3867.47 -338.21}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x768
-		{Position 1925.11 -3810.59 -347.43}
+		{Position 1925.11 -3810.59 -333.18}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x769
@@ -5905,7 +5918,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x76a
-		{Position 2263.53 -8678.43 -355.63}
+		{Position 2263.53 -8678.43 -315.63}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x76b
@@ -5913,43 +5926,43 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x76c
-		{Position 2307.59 -8653.14 -368}
+		{Position 2307.59 -8653.14 -328}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x76d
-		{Position 2254.33 -8634.53 -347.28}
+		{Position 2254.33 -8634.53 -307.28}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x76e
-		{Position 2281.22 -8608.7 -350.62}
+		{Position 2281.22 -8608.7 -310.62}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x76f
-		{Position 2335.63 -8603.46 -349.2}
+		{Position 2335.63 -8603.46 -310.01}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x770
-		{Position 2381.66 -8607.73 -346.3}
+		{Position 2381.66 -8607.73 -309.42}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x771
-		{Position 2427.35 -8644 -349.69}
+		{Position 2427.35 -8644 -314.38}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x772
-		{Position 2337.64 -8678.67 -367.71}
+		{Position 2337.64 -8678.67 -327.71}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x773
-		{Position 2393.03 -8671.12 -344.73}
+		{Position 2393.03 -8671.12 -305.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x774
-		{Position 2296.82 -8689.36 -365.6}
+		{Position 2296.82 -8689.36 -325.6}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x775
-		{Position 2340.94 -8750.53 -346.25}
+		{Position 2340.94 -8750.53 -306.25}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x776
@@ -5957,15 +5970,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x777
-		{Position 2372.92 -8703.96 -343.47}
+		{Position 2372.92 -8703.96 -303.47}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x778
-		{Position 2291.8 -8728.52 -342.43}
+		{Position 2291.8 -8728.52 -302.43}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x779
-		{Position 2281.32 -8707.34 -353.21}
+		{Position 2281.32 -8707.34 -313.21}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x77a
@@ -5973,27 +5986,27 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x77b
-		{Position 2343.2 -8572.13 -346.94}
+		{Position 2343.2 -8572.13 -309.14}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x77c
-		{Position 2213.72 -8603.01 -349.68}
+		{Position 2213.72 -8603.01 -309.68}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x77d
-		{Position 2306.76 -8557.56 -347.06}
+		{Position 2306.76 -8557.56 -308.06}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x77f
-		{Position 2233.34 -8664.23 -343.11}
+		{Position 2233.34 -8664.23 -303.11}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x780
-		{Position 2230.79 -8607.35 -347.93}
+		{Position 2230.79 -8607.35 -307.93}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x782
-		{Position 3089.44 -7938.47 -355.11}
+		{Position 3089.44 -7938.47 -354.11}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x783
@@ -6001,23 +6014,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x784
-		{Position 3133.5 -7913.18 -368.37}
+		{Position 3133.5 -7913.18 -367.37}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x785
-		{Position 3080.24 -7894.57 -357.75}
+		{Position 3080.24 -7894.57 -356.75}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x786
-		{Position 3107.13 -7868.74 -363.7}
+		{Position 3107.13 -7868.74 -362.7}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x787
-		{Position 3161.54 -7863.5 -354.23}
+		{Position 3161.54 -7863.5 -353.23}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x788
-		{Position 3207.57 -7867.77 -346}
+		{Position 3207.57 -7867.77 -345}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x789
@@ -6025,19 +6038,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x78a
-		{Position 3163.55 -7938.71 -359.18}
+		{Position 3163.55 -7938.71 -358.18}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x78b
-		{Position 3218.94 -7931.16 -346.14}
+		{Position 3218.94 -7931.16 -345.14}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x78c
-		{Position 3122.73 -7949.4 -363.27}
+		{Position 3122.73 -7949.4 -362.27}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x78d
-		{Position 3166.85 -8010.57 -349.68}
+		{Position 3166.85 -8010.57 -348.68}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x78e
@@ -6045,15 +6058,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x78f
-		{Position 3198.83 -7964 -345.58}
+		{Position 3198.83 -7964 -344.58}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x790
-		{Position 3117.71 -7988.56 -343.83}
+		{Position 3117.71 -7988.56 -342.83}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x791
-		{Position 3107.23 -7967.38 -345.58}
+		{Position 3107.23 -7967.38 -344.58}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x792
@@ -6061,15 +6074,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x793
-		{Position 3169.11 -7832.17 -343.64}
+		{Position 3169.11 -7832.17 -342.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x794
-		{Position 3039.63 -7863.05 -348.59}
+		{Position 3039.63 -7863.05 -347.59}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x795
-		{Position 3132.67 -7817.6 -346.34}
+		{Position 3132.67 -7817.6 -345.34}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x796
@@ -6077,11 +6090,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x797
-		{Position 3059.25 -7924.27 -342.24}
+		{Position 3059.25 -7924.27 -341.24}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x798
-		{Position 3056.7 -7867.39 -345.24}
+		{Position 3056.7 -7867.39 -344.24}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x799
@@ -6089,7 +6102,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x79a
-		{Position 1678.97 -7951.77 -356.81}
+		{Position 1678.97 -7951.77 -316.81}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x79b
@@ -6097,23 +6110,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x79c
-		{Position 1723.03 -7926.48 -368.74}
+		{Position 1723.03 -7926.48 -328.74}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x79d
-		{Position 1669.77 -7907.87 -343.01}
+		{Position 1669.77 -7907.87 -303.01}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x79e
-		{Position 1696.66 -7882.04 -344.18}
+		{Position 1696.66 -7882.04 -304.18}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x79f
-		{Position 1751.07 -7876.8 -342.85}
+		{Position 1751.07 -7876.8 -303.87}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a0
-		{Position 1797.1 -7881.07 -346.94}
+		{Position 1797.1 -7881.07 -311.45}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a1
@@ -6121,19 +6134,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a2
-		{Position 1753.08 -7952.01 -368.69}
+		{Position 1753.08 -7952.01 -328.69}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a3
-		{Position 1808.47 -7944.46 -344.31}
+		{Position 1808.47 -7944.46 -305.21}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a4
-		{Position 1712.26 -7962.7 -369.36}
+		{Position 1712.26 -7962.7 -329.36}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a5
-		{Position 1756.38 -8023.87 -344.72}
+		{Position 1756.38 -8023.87 -304.72}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a6
@@ -6141,15 +6154,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a7
-		{Position 1788.36 -7977.3 -344.54}
+		{Position 1788.36 -7977.3 -304.54}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a8
-		{Position 1707.24 -8001.86 -348.56}
+		{Position 1707.24 -8001.86 -308.56}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7a9
-		{Position 1696.76 -7980.68 -359.24}
+		{Position 1696.76 -7980.68 -319.24}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7aa
@@ -6157,7 +6170,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7ab
-		{Position 1758.64 -7845.47 -347.33}
+		{Position 1758.64 -7845.47 -311.22}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7ac
@@ -6165,7 +6178,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7ad
-		{Position 1722.2 -7830.9 -349.86}
+		{Position 1722.2 -7830.9 -311.9}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7ae
@@ -6173,11 +6186,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7af
-		{Position 1648.78 -7937.57 -344.28}
+		{Position 1648.78 -7937.57 -304.28}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b0
-		{Position 1646.23 -7880.69 -348.47}
+		{Position 1646.23 -7880.69 -308.47}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b1
@@ -6185,7 +6198,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b2
-		{Position 1422.54 -7417.09 -353.1}
+		{Position 1422.54 -7417.09 -326.95}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b3
@@ -6193,59 +6206,59 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b4
-		{Position 1466.6 -7391.8 -366.77}
+		{Position 1466.6 -7391.8 -352.07}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b5
-		{Position 1413.34 -7373.19 -343.56}
+		{Position 1413.34 -7373.19 -323.22}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b6
-		{Position 1440.23 -7347.36 -344.5}
+		{Position 1440.23 -7347.36 -332.67}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b7
-		{Position 1494.64 -7342.12 -345.16}
+		{Position 1494.64 -7342.12 -340.01}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b8
-		{Position 1540.67 -7346.39 -347.33}
+		{Position 1540.67 -7346.39 -344.66}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7b9
-		{Position 1586.36 -7382.66 -349.46}
+		{Position 1586.36 -7382.66 -347.46}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7ba
-		{Position 1496.65 -7417.33 -368.84}
+		{Position 1496.65 -7417.33 -354.81}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7bb
-		{Position 1552.04 -7409.78 -344.15}
+		{Position 1552.04 -7409.78 -338.28}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7bc
-		{Position 1455.83 -7428.02 -369.47}
+		{Position 1455.83 -7428.02 -346.84}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7bd
-		{Position 1499.95 -7489.19 -344.18}
+		{Position 1499.95 -7489.19 -318.19}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7be
-		{Position 1585.6 -7447.08 -349.88}
+		{Position 1585.6 -7447.08 -344.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7bf
-		{Position 1531.93 -7442.62 -351.37}
+		{Position 1531.93 -7442.62 -339.31}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c0
-		{Position 1450.81 -7467.18 -356.56}
+		{Position 1450.81 -7467.18 -326.84}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c1
-		{Position 1440.33 -7446 -362.32}
+		{Position 1440.33 -7446 -334.01}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c2
@@ -6253,7 +6266,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c3
-		{Position 1502.21 -7310.79 -349.87}
+		{Position 1502.21 -7310.79 -347.02}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c4
@@ -6265,11 +6278,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c6
-		{Position 1386.74 -7498.02 -349.91}
+		{Position 1386.74 -7498.02 -311.06}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c7
-		{Position 1392.35 -7402.89 -346.56}
+		{Position 1392.35 -7402.89 -318.08}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7c8
@@ -6301,11 +6314,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7cf
-		{Position 3105.97 -6962.1 -344.94}
+		{Position 3105.97 -6962.1 -343.94}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d0
-		{Position 3152 -6966.37 -348.36}
+		{Position 3152 -6966.37 -347.36}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d1
@@ -6313,11 +6326,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d2
-		{Position 3107.98 -7037.31 -368.42}
+		{Position 3107.98 -7037.31 -367.42}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d3
-		{Position 3163.37 -7029.76 -342.92}
+		{Position 3163.37 -7029.76 -341.92}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d4
@@ -6325,15 +6338,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d5
-		{Position 3111.28 -7109.17 -345.05}
+		{Position 3111.28 -7109.17 -344.05}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d6
-		{Position 3196.93 -7067.06 -349.29}
+		{Position 3196.93 -7067.06 -348.29}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d7
-		{Position 3143.26 -7062.6 -348.3}
+		{Position 3143.26 -7062.6 -347.3}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x7d8
@@ -6665,7 +6678,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x82a
-		{Position 242.94 -5931.98 -343.62}
+		{Position 242.94 -5931.98 -340.81}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x82b
@@ -6673,39 +6686,39 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x82c
-		{Position 287 -5906.69 -368.47}
+		{Position 287 -5906.69 -367.47}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x82d
-		{Position 233.74 -5888.08 -348.27}
+		{Position 233.74 -5888.08 -346.27}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x82e
-		{Position 260.63 -5862.25 -364.61}
+		{Position 260.63 -5862.25 -363.61}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x82f
-		{Position 315.04 -5857.01 -366.28}
+		{Position 315.04 -5857.01 -365.28}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x830
-		{Position 361.07 -5861.28 -344.65}
+		{Position 361.07 -5861.28 -343.65}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x831
-		{Position 406.76 -5897.55 -349.26}
+		{Position 406.76 -5897.55 -348.26}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x832
-		{Position 317.05 -5932.22 -356.87}
+		{Position 317.05 -5932.22 -355.87}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x833
-		{Position 372.44 -5924.67 -343.42}
+		{Position 372.44 -5924.67 -342.42}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x834
-		{Position 276.23 -5942.91 -349.65}
+		{Position 276.23 -5942.91 -347.65}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x835
@@ -6717,15 +6730,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x837
-		{Position 352.33 -5957.51 -347.7}
+		{Position 352.33 -5957.51 -346.7}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x838
-		{Position 271.21 -5982.07 -348.51}
+		{Position 271.21 -5982.07 -345.27}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x839
-		{Position 260.73 -5960.89 -349.15}
+		{Position 260.73 -5960.89 -346.15}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x83a
@@ -6733,15 +6746,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x83b
-		{Position 322.61 -5825.68 -345.11}
+		{Position 322.61 -5825.68 -344.11}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x83c
-		{Position 193.13 -5856.56 -347.77}
+		{Position 193.13 -5856.56 -344.85}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x83d
-		{Position 286.17 -5811.11 -343.7}
+		{Position 286.17 -5811.11 -342.7}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x83e
@@ -6749,11 +6762,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x83f
-		{Position 212.75 -5917.78 -345.52}
+		{Position 212.75 -5917.78 -341.56}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x840
-		{Position 210.2 -5860.9 -343.22}
+		{Position 210.2 -5860.9 -341.19}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x841
@@ -7433,7 +7446,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8ea
-		{Position -164.54 -4598.99 -368}
+		{Position -164.54 -4598.99 -359.95}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8eb
@@ -7441,19 +7454,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8ec
-		{Position -120.48 -4573.7 -355.52}
+		{Position -120.48 -4573.7 -347.46}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8ed
-		{Position -173.74 -4555.09 -362.87}
+		{Position -173.74 -4555.09 -351.43}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8ee
-		{Position -146.85 -4529.26 -344.23}
+		{Position -146.85 -4529.26 -332.21}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8ef
-		{Position -92.44 -4524.02 -347.52}
+		{Position -92.44 -4524.02 -337.36}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8f0
@@ -7465,7 +7478,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8f2
-		{Position -90.43 -4599.23 -343}
+		{Position -90.43 -4599.23 -337}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8f3
@@ -7473,7 +7486,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8f4
-		{Position -131.25 -4609.92 -363.91}
+		{Position -131.25 -4609.92 -356.95}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8f5
@@ -7489,11 +7502,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8f8
-		{Position -136.27 -4649.08 -347.37}
+		{Position -136.27 -4649.08 -342.37}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8f9
-		{Position -146.75 -4627.9 -364.91}
+		{Position -146.75 -4627.9 -358.79}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8fa
@@ -7505,7 +7518,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8fc
-		{Position -214.35 -4523.57 -345.98}
+		{Position -214.35 -4523.57 -330.19}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8fd
@@ -7513,23 +7526,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8fe
-		{Position -200.34 -4679.92 -347}
+		{Position -200.34 -4679.92 -342}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x8ff
-		{Position -194.73 -4584.79 -366.97}
+		{Position -194.73 -4584.79 -356.5}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x900
-		{Position -197.28 -4527.91 -343.4}
+		{Position -197.28 -4527.91 -328.59}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x901
-		{Position -236.94 -4612.2 -343.44}
+		{Position -236.94 -4612.2 -332.97}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x902
-		{Position 964.82 -3313.6 -362.01}
+		{Position 964.82 -3313.6 -361.01}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x903
@@ -7537,23 +7550,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x904
-		{Position 1008.88 -3288.31 -369.62}
+		{Position 1008.88 -3288.31 -367.76}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x905
-		{Position 955.62 -3269.7 -362.6}
+		{Position 955.62 -3269.7 -361.6}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x906
-		{Position 982.51 -3243.87 -363.24}
+		{Position 982.51 -3243.87 -361.12}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x907
-		{Position 1036.92 -3238.63 -348.52}
+		{Position 1036.92 -3238.63 -341.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x908
-		{Position 1082.95 -3242.9 -346.83}
+		{Position 1082.95 -3242.9 -332.76}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x909
@@ -7561,19 +7574,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x90a
-		{Position 1038.93 -3313.84 -354.28}
+		{Position 1038.93 -3313.84 -352.8}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x90b
-		{Position 1094.32 -3306.29 -348.19}
+		{Position 1094.32 -3306.29 -342.48}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x90c
-		{Position 998.11 -3324.53 -361.59}
+		{Position 998.11 -3324.53 -360.59}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x90d
-		{Position 1042.23 -3385.7 -349.68}
+		{Position 1042.23 -3385.7 -348.68}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x90e
@@ -7581,15 +7594,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x90f
-		{Position 1074.21 -3339.13 -346.94}
+		{Position 1074.21 -3339.13 -344.94}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x910
-		{Position 993.09 -3363.69 -344.25}
+		{Position 993.09 -3363.69 -343.25}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x911
-		{Position 982.61 -3342.51 -347.43}
+		{Position 982.61 -3342.51 -346.43}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x912
@@ -7597,15 +7610,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x913
-		{Position 1044.49 -3207.3 -344.85}
+		{Position 1044.49 -3207.3 -331.6}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x914
-		{Position 915.01 -3238.18 -345.76}
+		{Position 915.01 -3238.18 -344.76}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x915
-		{Position 1008.05 -3192.73 -345.36}
+		{Position 1008.05 -3192.73 -335.49}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x916
@@ -7613,19 +7626,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x917
-		{Position 934.63 -3299.4 -345.54}
+		{Position 934.63 -3299.4 -344.54}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x918
-		{Position 932.08 -3242.52 -344.11}
+		{Position 932.08 -3242.52 -343.11}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x919
-		{Position 892.42 -3326.81 -349.39}
+		{Position 892.42 -3326.81 -348.39}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x91a
-		{Position 549.13 -2382.88 -342.13}
+		{Position 549.13 -2382.88 -302.13}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x91b
@@ -7633,67 +7646,67 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x91c
-		{Position 593.19 -2357.59 -369.73}
+		{Position 593.19 -2357.59 -329.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x91d
-		{Position 539.93 -2338.98 -344.11}
+		{Position 539.93 -2338.98 -304.11}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x91e
-		{Position 566.82 -2313.15 -343.91}
+		{Position 566.82 -2313.15 -303.91}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x91f
-		{Position 621.23 -2307.91 -356.14}
+		{Position 621.23 -2307.91 -316.14}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x920
-		{Position 667.26 -2312.18 -343.79}
+		{Position 667.26 -2312.18 -303.79}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x921
-		{Position 712.95 -2348.45 -349.48}
+		{Position 712.95 -2348.45 -309.48}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x922
-		{Position 623.24 -2383.12 -369.2}
+		{Position 623.24 -2383.12 -329.2}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x923
-		{Position 678.63 -2375.57 -347.86}
+		{Position 678.63 -2375.57 -307.86}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x924
-		{Position 582.42 -2393.81 -360.5}
+		{Position 582.42 -2393.81 -320.5}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x925
-		{Position 626.54 -2454.98 -347.37}
+		{Position 626.54 -2454.98 -307.37}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x926
-		{Position 712.19 -2412.87 -349.45}
+		{Position 712.19 -2412.87 -309.45}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x927
-		{Position 658.52 -2408.41 -346.11}
+		{Position 658.52 -2408.41 -306.11}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x928
-		{Position 577.4 -2432.97 -344.3}
+		{Position 577.4 -2432.97 -304.3}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x929
-		{Position 566.92 -2411.79 -342.95}
+		{Position 566.92 -2411.79 -302.95}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x92a
-		{Position 717.25 -2377.88 -348.95}
+		{Position 717.25 -2377.88 -308.95}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x92b
-		{Position 628.8 -2276.58 -345.42}
+		{Position 628.8 -2276.58 -305.42}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x92c
@@ -7701,7 +7714,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x92d
-		{Position 592.36 -2262.01 -348.26}
+		{Position 592.36 -2262.01 -308.26}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x92e
@@ -7709,11 +7722,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x92f
-		{Position 518.94 -2368.68 -347.15}
+		{Position 518.94 -2368.68 -307.15}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x930
-		{Position 516.39 -2311.8 -348.82}
+		{Position 516.39 -2311.8 -308.82}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x931
@@ -8009,99 +8022,99 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x97a
-		{Position 1444.05 -2643.18 -355.98}
+		{Position 1444.05 -2643.18 -331.74}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x97b
-		{Position 1625.64 -2613.23}
+		{Position 1625.64 -2613.23 -348}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x97c
-		{Position 1488.11 -2617.89 -369.13}
+		{Position 1488.11 -2617.89 -355.06}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x97d
-		{Position 1434.85 -2599.28 -343.84}
+		{Position 1434.85 -2599.28 -324.31}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x97e
-		{Position 1461.74 -2573.45 -344.3}
+		{Position 1461.74 -2573.45 -332.03}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x97f
-		{Position 1516.15 -2568.21 -344}
+		{Position 1516.15 -2568.21 -337.7}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x980
-		{Position 1562.18 -2572.48 -346.17}
+		{Position 1562.18 -2572.48 -342.93}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x981
-		{Position 1607.87 -2608.75 -349.74}
+		{Position 1607.87 -2608.75 -346.8}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x982
-		{Position 1518.16 -2643.42 -367.4}
+		{Position 1518.16 -2643.42 -354.25}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x983
-		{Position 1573.55 -2635.87 -344.5}
+		{Position 1573.55 -2635.87 -338.17}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x984
-		{Position 1477.34 -2654.11 -368.54}
+		{Position 1477.34 -2654.11 -347.62}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x985
-		{Position 1521.46 -2715.28 -346.07}
+		{Position 1521.46 -2715.28 -323.69}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x986
-		{Position 1607.11 -2673.17}
+		{Position 1607.11 -2673.17 -344.3}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x987
-		{Position 1553.44 -2668.71 -343.25}
+		{Position 1553.44 -2668.71 -331.93}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x988
-		{Position 1472.32 -2693.27 -346.85}
+		{Position 1472.32 -2693.27 -319.36}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x989
-		{Position 1461.84 -2672.09 -357.97}
+		{Position 1461.84 -2672.09 -331.95}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x98a
-		{Position 1612.17 -2638.18}
+		{Position 1612.17 -2638.18 -346.28}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x98b
-		{Position 1523.72 -2536.88 -347.68}
+		{Position 1523.72 -2536.88 -343.77}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x98c
-		{Position 1394.24 -2567.76}
+		{Position 1394.24 -2567.76 -328.04}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x98d
-		{Position 1487.28 -2522.31 -349.44}
+		{Position 1487.28 -2522.31 -343.93}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x98e
-		{Position 1408.25 -2724.11}
+		{Position 1408.25 -2724.11 -313.32}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x98f
-		{Position 1413.86 -2628.98 -344.27}
+		{Position 1413.86 -2628.98 -317.68}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x990
-		{Position 1411.31 -2572.1 -348.58}
+		{Position 1411.31 -2572.1 -329.17}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x991
-		{Position 1371.65 -2656.39}
+		{Position 1371.65 -2656.39 -315.43}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x9aa
@@ -9565,7 +9578,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc32
-		{Position 723.4 -103.93 -356.91}
+		{Position 723.4 -103.93 -317.76}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc33
@@ -9573,23 +9586,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc34
-		{Position 767.46 -78.64 -364.19}
+		{Position 767.46 -78.64 -339.77}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc35
-		{Position 714.2 -60.03 -343.75}
+		{Position 714.2 -60.03 -306.09}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc36
-		{Position 741.09 -34.2 -345.57}
+		{Position 741.09 -34.2 -314.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc37
-		{Position 795.5 -28.96 -345.11}
+		{Position 795.5 -28.96 -335.09}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc38
-		{Position 841.53 -33.23 -348.37}
+		{Position 841.53 -33.23 -346.37}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc39
@@ -9597,35 +9610,35 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc3a
-		{Position 797.51 -104.17 -368.81}
+		{Position 797.51 -104.17 -352.8}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc3b
-		{Position 852.9 -96.62 -343.49}
+		{Position 852.9 -96.62 -341.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc3c
-		{Position 756.69 -114.86 -368.67}
+		{Position 756.69 -114.86 -333.38}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc3d
-		{Position 800.81 -176.03 -344.61}
+		{Position 800.81 -176.03 -317.16}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc3e
-		{Position 886.46 -133.92 -349.78}
+		{Position 886.46 -133.92 -348.78}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc3f
-		{Position 832.79 -129.46 -346.32}
+		{Position 832.79 -129.46 -340.02}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc40
-		{Position 751.67 -154.02 -361.24}
+		{Position 751.67 -154.02 -322.43}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc41
-		{Position 741.19 -132.84 -365.32}
+		{Position 741.19 -132.84 -326.37}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc42
@@ -9645,15 +9658,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc46
-		{Position 687.6 -184.86 -349.33}
+		{Position 687.6 -184.86 -309.33}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc47
-		{Position 693.21 -89.73 -343.99}
+		{Position 693.21 -89.73 -303.99}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc48
-		{Position 690.66 -32.85 -349.99}
+		{Position 690.66 -32.85 -310.99}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xc49
@@ -9957,47 +9970,47 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xcb9
-		{Position 5929.26 1636.77 -381.8}
+		{Position 5929.26 1636.77 -381.72}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xe8a
-		{Position 1699.13 2007.12 -356.21}
+		{Position 1699.13 2007.12 -334.21}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xe94
-		{Position 1732.42 1996.19 -363.58}
+		{Position 1732.42 1996.19 -341.58}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xe98
-		{Position 1727.4 1957.03 -357.07}
+		{Position 1727.4 1957.03 -334.07}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xe99
-		{Position 1716.92 1978.21 -364.12}
+		{Position 1716.92 1978.21 -341.12}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xe9e
-		{Position 1663.33 1926.19 -348.41}
+		{Position 1663.33 1926.19 -324.84}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xea1
-		{Position 1626.73 1993.91 -344.03}
+		{Position 1626.73 1993.91 -321.03}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xea9
-		{Position 2804.27 2059.8 -5815.56}
+		{Position 2804.27 2059.8 -5795.53}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xeae
-		{Position 2803.51 1995.38 -6498.07}
+		{Position 2803.51 1995.38 -6478.07}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xebb
-		{Position 2779.9 2321.01 -8676.67}
+		{Position 2779.9 2321.01 -8679.73}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xed2
-		{Position 1749.72 2776.13 -358.85}
+		{Position 1749.72 2776.13 -357.85}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xed3
@@ -10005,11 +10018,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xed4
-		{Position 1793.78 2801.42 -366.22}
+		{Position 1793.78 2801.42 -365.22}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xed5
-		{Position 1740.52 2820.03 -367.01}
+		{Position 1740.52 2820.03 -366.01}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xed6
@@ -10029,15 +10042,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xeda
-		{Position 1823.83 2775.89 -342.85}
+		{Position 1823.83 2775.89 -341.85}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xedb
-		{Position 1879.22 2783.44 -349.96}
+		{Position 1879.22 2783.44 -348.96}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xedc
-		{Position 1783.01 2765.2 -350.24}
+		{Position 1783.01 2765.2 -349.24}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xedd
@@ -10049,15 +10062,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xedf
-		{Position 1859.11 2750.6 -349.86}
+		{Position 1859.11 2750.6 -348.86}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xee0
-		{Position 1777.99 2726.04 -348.06}
+		{Position 1777.99 2726.04 -346.62}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xee1
-		{Position 1767.51 2747.22 -343.61}
+		{Position 1767.51 2747.22 -342.61}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xee2
@@ -10077,7 +10090,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xee7
-		{Position 1719.53 2790.33 -351.18}
+		{Position 1719.53 2790.33 -350.18}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xee8
@@ -10085,7 +10098,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xee9
-		{Position 1677.32 2762.92 -349.15}
+		{Position 1677.32 2762.92 -348.15}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0xf7b
@@ -10141,7 +10154,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x133e
-		{Position 5040.66 9803.62 -335.18}
+		{Position 5040.66 9803.62 -322.86}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x133f
@@ -10149,67 +10162,67 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1340
-		{Position 5084.72 9828.9 -347.25}
+		{Position 5084.72 9828.9 -333.7}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1341
-		{Position 5031.46 9847.51 -321.55}
+		{Position 5031.46 9847.51 -308.25}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1342
-		{Position 5058.35 9873.35 -314.56}
+		{Position 5058.35 9873.35 -303.5}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1343
-		{Position 5112.76 9878.58 -314.64}
+		{Position 5112.76 9878.58 -304.83}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1344
-		{Position 5158.79 9874.31 -314.87}
+		{Position 5158.79 9874.31 -306.09}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1345
-		{Position 5204.48 9838.05 -322.79}
+		{Position 5204.48 9838.05 -311.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1346
-		{Position 5114.77 9803.38 -348.42}
+		{Position 5114.77 9803.38 -334.99}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1347
-		{Position 5170.16 9810.92 -319.99}
+		{Position 5170.16 9810.92 -306.03}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1348
-		{Position 5073.95 9792.68 -351.76}
+		{Position 5073.95 9792.68 -340.12}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1349
-		{Position 5118.07 9731.51 -331.62}
+		{Position 5118.07 9731.51 -327.63}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x134a
-		{Position 5203.72 9773.63 -334.15}
+		{Position 5203.72 9773.63 -318.47}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x134b
-		{Position 5150.05 9778.08 -333.62}
+		{Position 5150.05 9778.08 -318.39}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x134c
-		{Position 5068.93 9753.52 -337.41}
+		{Position 5068.93 9753.52 -331.06}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x134d
-		{Position 5058.45 9774.71 -343.47}
+		{Position 5058.45 9774.71 -334.59}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x134e
-		{Position 5208.78 9808.62 -326.83}
+		{Position 5208.78 9808.62 -313.64}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x134f
-		{Position 5120.33 9909.91 -317.93}
+		{Position 5120.33 9909.91 -309.87}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1350
@@ -10225,11 +10238,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1353
-		{Position 5010.47 9817.81 -327}
+		{Position 5010.47 9817.81 -313.27}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1354
-		{Position 5007.92 9874.69 -324.15}
+		{Position 5007.92 9874.69 -311.15}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1355
@@ -10237,7 +10250,7 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1356
-		{Position 5458.71 10573.5 -363.41}
+		{Position 5458.71 10573.5 -357.71}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1357
@@ -10245,23 +10258,23 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1358
-		{Position 5502.77 10598.8 -362.63}
+		{Position 5502.77 10598.8 -359.46}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1359
-		{Position 5449.51 10617.4 -344.38}
+		{Position 5449.51 10617.4 -342.38}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x135a
-		{Position 5476.4 10643.2 -346.09}
+		{Position 5476.4 10643.2 -345.09}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x135b
-		{Position 5530.81 10648.4 -346.63}
+		{Position 5530.81 10648.4 -345.63}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x135c
-		{Position 5576.84 10644.2 -349.77}
+		{Position 5576.84 10644.2 -348.77}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x135d
@@ -10269,19 +10282,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x135e
-		{Position 5532.82 10573.2 -366.18}
+		{Position 5532.82 10573.2 -360.45}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x135f
-		{Position 5588.21 10580.8 -345.06}
+		{Position 5588.21 10580.8 -341.09}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1360
-		{Position 5492 10562.5 -368}
+		{Position 5492 10562.5 -361.2}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1361
-		{Position 5536.12 10501.4 -343.09}
+		{Position 5536.12 10501.4 -325.28}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1362
@@ -10289,15 +10302,15 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1363
-		{Position 5568.1 10547.9 -343.43}
+		{Position 5568.1 10547.9 -334.92}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1364
-		{Position 5486.98 10523.4 -366.07}
+		{Position 5486.98 10523.4 -352.66}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1365
-		{Position 5476.5 10544.6 -369.19}
+		{Position 5476.5 10544.6 -359.02}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x1366
@@ -10317,19 +10330,19 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x136a
-		{Position 5422.91 10492.5 -346.35}
+		{Position 5422.91 10492.5 -326.76}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x136b
-		{Position 5428.52 10587.7 -343.86}
+		{Position 5428.52 10587.7 -339.58}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x136c
-		{Position 5425.97 10644.5 -349.67}
+		{Position 5425.97 10644.5 -348.67}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x136d
-		{Position 5386.31 10560.3 -349.99}
+		{Position 5386.31 10560.3 -342.96}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x166f
@@ -11685,11 +11698,11 @@
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x18d8
-		{Position -2208.38 -1399.98 -348.07}
+		{Position -2208.38 -1399.98 -308.07}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x18da
-		{Position -2244.82 -1385.41 -349.41}
+		{Position -2244.82 -1385.41 -309.41}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x18df
@@ -11985,11 +11998,11 @@
 		{xform zl -112.8}
 	}
 	{Entity "aleppo_pine" 0x197f
-		{Position 1370.02 -2592.99}
+		{Position 1370.02 -2592.99 -321.61}
 		{xform zl 113.18}
 	}
 	{Entity "poplar_2" 0x1980
-		{Position 1561.73 -2880.76}
+		{Position 1561.73 -2880.76 -313}
 		{xform zl -104.28}
 	}
 	{Entity "aleppo_pine" 0x1981
@@ -14097,7 +14110,7 @@
 		{xform zl -37.91}
 	}
 	{Entity "burn_grass1" 0x52
-		{Position 1218.89 2362.35 -8670.92}
+		{Position 1218.89 2362.35 -8684.92}
 		{xform zl -148.23}
 	}
 	{Entity "road_sand5w1" 0xc0
@@ -14657,7 +14670,7 @@
 		{xform zl -1.44}
 	}
 	{Entity "burn_grass1" 0x14c
-		{Position 5356.69 9440.97 -347.39}
+		{Position 5356.69 9440.97 -346.39}
 		{xform zl -1.44}
 	}
 	{Entity "burn_grass1" 0x14d
@@ -14665,7 +14678,7 @@
 		{xform zl -1.44}
 	}
 	{Entity "burn_grass1" 0x14e
-		{Position 5304.43 9419.53 -342.59}
+		{Position 5304.43 9419.53 -341.68}
 		{xform zl -1.44}
 	}
 	{Entity "burn_grass1" 0x14f
@@ -14689,31 +14702,31 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x207
-		{Position 316.43 10341.5 -319.23}
+		{Position 316.43 10341.5 -310.23}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x208
-		{Position 370.96 10345.3 -333.02}
+		{Position 370.96 10345.3 -323.54}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x209
-		{Position 416.86 10339.9 -314.21}
+		{Position 416.86 10339.9 -303.61}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x20a
-		{Position 461.62 10302.5 -320.61}
+		{Position 461.62 10302.5 -309.59}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x20f
-		{Position 379.31 10376.5 -314.72}
+		{Position 379.31 10376.5 -304.12}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x210
-		{Position 343.25 10392 -318.29}
+		{Position 343.25 10392 -307.25}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x211
-		{Position 1899.11 10389.2 -356.16}
+		{Position 1899.11 10389.2 -327.16}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x212
@@ -14721,23 +14734,23 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x213
-		{Position 1943.8 10413.3 -360.28}
+		{Position 1943.8 10413.3 -330}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x214
-		{Position 1891.02 10433.3 -354.79}
+		{Position 1891.02 10433.3 -323.79}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x215
-		{Position 1918.55 10458.4 -353.9}
+		{Position 1918.55 10458.4 -322.07}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x216
-		{Position 1973.08 10462.3 -339.05}
+		{Position 1973.08 10462.3 -306.26}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x217
-		{Position 2018.99 10456.8 -343.78}
+		{Position 2018.99 10456.8 -310.93}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x218
@@ -14745,19 +14758,19 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x219
-		{Position 1973.19 10387 -345.56}
+		{Position 1973.19 10387 -316.04}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x21a
-		{Position 2028.76 10393.2 -340.54}
+		{Position 2028.76 10393.2 -309.66}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x21b
-		{Position 1932.12 10377.4 -354.14}
+		{Position 1932.12 10377.4 -325.03}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x21c
-		{Position 1974.68 10315.1 -335.28}
+		{Position 1974.68 10315.1 -308.59}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x21d
@@ -14765,15 +14778,15 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x21e
-		{Position 2007.83 10360.9 -335.62}
+		{Position 2007.83 10360.9 -306.58}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x21f
-		{Position 1926.11 10338.4 -329.31}
+		{Position 1926.11 10338.4 -302.52}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x220
-		{Position 1916.17 10359.8 -342.97}
+		{Position 1916.17 10359.8 -315.04}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x221
@@ -14781,35 +14794,35 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x222
-		{Position 1981.44 10493.4 -344.74}
+		{Position 1981.44 10493.4 -312.74}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x223
-		{Position 1851.22 10465.8 -342.33}
+		{Position 1851.22 10465.8 -310.33}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x224
-		{Position 1945.38 10508.9 -345.76}
+		{Position 1945.38 10508.9 -314.68}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x225
-		{Position 1861.29 10309.2 -333.84}
+		{Position 1861.29 10309.2 -309.96}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x226
-		{Position 1869.29 10404.1 -339.95}
+		{Position 1869.29 10404.1 -310.39}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x227
-		{Position 1868.18 10461 -337.58}
+		{Position 1868.18 10461 -306.31}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x228
-		{Position 1826.41 10377.8 -335.45}
+		{Position 1826.41 10377.8 -308.72}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x229
-		{Position 2617.52 10290.1 -327.69}
+		{Position 2617.52 10290.1 -309.73}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x22a
@@ -14817,67 +14830,67 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x22b
-		{Position 2662.21 10314.2 -354.41}
+		{Position 2662.21 10314.2 -334.04}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x22c
-		{Position 2609.43 10334.2 -325.38}
+		{Position 2609.43 10334.2 -304.01}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x22d
-		{Position 2636.97 10359.3 -327.25}
+		{Position 2636.97 10359.3 -303.68}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x22e
-		{Position 2691.49 10363.2 -331.76}
+		{Position 2691.49 10363.2 -304.39}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x22f
-		{Position 2737.4 10357.8 -334.02}
+		{Position 2737.4 10357.8 -306.02}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x230
-		{Position 2782.16 10320.3 -333.36}
+		{Position 2782.16 10320.3 -308.38}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x231
-		{Position 2691.6 10288 -366.7}
+		{Position 2691.6 10288 -347.95}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x232
-		{Position 2747.17 10294.1 -323.45}
+		{Position 2747.17 10294.1 -301.42}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x233
-		{Position 2650.53 10278.3 -363.76}
+		{Position 2650.53 10278.3 -346.76}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x234
-		{Position 2693.09 10216 -317.76}
+		{Position 2693.09 10216 -302.76}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x235
-		{Position 2779.77 10256 -327.58}
+		{Position 2779.77 10256 -306.03}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x236
-		{Position 2726.23 10261.8 -336.43}
+		{Position 2726.23 10261.8 -318.35}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x237
-		{Position 2644.52 10239.3 -324.54}
+		{Position 2644.52 10239.3 -308.59}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x238
-		{Position 2634.58 10260.7 -335.27}
+		{Position 2634.58 10260.7 -319.25}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x239
-		{Position 2785.72 10290.8 -330.85}
+		{Position 2785.72 10290.8 -307.83}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x23a
-		{Position 2699.85 10394.3 -340.91}
+		{Position 2699.85 10394.3 -310.53}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x23b
@@ -14893,7 +14906,7 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x23e
-		{Position 2587.7 10305 -320.59}
+		{Position 2587.7 10305 -302.14}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x23f
@@ -14905,11 +14918,11 @@
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x2bd
-		{Position 415.21 10395.8 -321.59}
+		{Position 415.21 10395.8 -309.37}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x2be
-		{Position 301.81 10389.8 -321.96}
+		{Position 301.81 10389.8 -310.96}
 		{xform zl -149.67}
 	}
 	{Entity "aleppo_pine" 0x2cb
@@ -14921,7 +14934,7 @@
 		{xform zl 35.98}
 	}
 	{Entity "burn_grass1" 0x20ad
-		{Position 7668.7 9762.93 -316.92}
+		{Position 7668.7 9762.93 -305.72}
 		{xform zl -148.23}
 	}
 	{Entity "road_sand5w1" 0x20dc
@@ -14969,19 +14982,19 @@
 		{xform zl -90.36}
 	}
 	{Entity "burn_grass1" 0x20e7
-		{Position 1326.97 10485.6 -336.63}
+		{Position 1326.97 10485.6 -304.12}
 		{xform zl 27.43}
 	}
 	{Entity "burn_grass1" 0x20e8
-		{Position 1362.2 10468.3 -338.03}
+		{Position 1362.2 10468.3 -307.25}
 		{xform zl 27.43}
 	}
 	{Entity "burn_grass1" 0x20e9
-		{Position 1290.14 10468.2 -340.11}
+		{Position 1290.14 10468.2 -309.34}
 		{xform zl 27.43}
 	}
 	{Entity "burn_grass1" 0x20ea
-		{Position 1403.7 10468.4 -340.5}
+		{Position 1403.7 10468.4 -310.96}
 		{xform zl 27.43}
 	}
 	{Entity "road_sand5w1" 0x20eb
@@ -15025,19 +15038,19 @@
 		{xform zl 86.74}
 	}
 	{Entity "burn_grass1" 0x20f5
-		{Position 3864.64 10237.1 -324.12}
+		{Position 3864.64 10237.1 -303.12}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x20f6
-		{Position 3828.58 10252.6 -329.25}
+		{Position 3828.58 10252.6 -306.25}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x20f7
-		{Position 3900.54 10256.4 -331.19}
+		{Position 3900.54 10256.4 -308.59}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x20f8
-		{Position 3787.14 10250.4 -331.96}
+		{Position 3787.14 10250.4 -309.96}
 		{xform zl -149.67}
 	}
 	{Entity "road_sand5w1" 0x20f9
@@ -15081,19 +15094,19 @@
 		{xform zl -90.36}
 	}
 	{Entity "burn_grass1" 0x2103
-		{Position 5561.76 10188.5 -323.92}
+		{Position 5561.76 10188.5 -303.12}
 		{xform zl -151.53}
 	}
 	{Entity "burn_grass1" 0x2104
-		{Position 5526.23 10205.2 -326.52}
+		{Position 5526.23 10205.2 -306.25}
 		{xform zl -151.53}
 	}
 	{Entity "burn_grass1" 0x2105
-		{Position 5598.27 10206.6 -332.2}
+		{Position 5598.27 10206.6 -308.59}
 		{xform zl -151.53}
 	}
 	{Entity "burn_grass1" 0x2106
-		{Position 5484.74 10204.3 -328.34}
+		{Position 5484.74 10204.3 -309.96}
 		{xform zl -151.53}
 	}
 	{Entity "road_sand5w1" 0x2107
@@ -15137,19 +15150,19 @@
 		{xform zl -92.22}
 	}
 	{Entity "burn_grass1" 0x2115
-		{Position 7114.56 10112.2 -332.19}
+		{Position 7114.56 10112.2 -303.12}
 		{xform zl -151.97}
 	}
 	{Entity "burn_grass1" 0x211c
-		{Position 7079.15 10129.1 -335.25}
+		{Position 7079.15 10129.1 -306.25}
 		{xform zl -151.97}
 	}
 	{Entity "burn_grass1" 0x211f
-		{Position 7151.21 10130 -337.59}
+		{Position 7151.21 10130 -308.59}
 		{xform zl -151.97}
 	}
 	{Entity "burn_grass1" 0x2128
-		{Position 7037.66 10128.5 -338.96}
+		{Position 7037.66 10128.5 -309.96}
 		{xform zl -151.97}
 	}
 	{Entity "road_sand5w1" 0x2129
@@ -15193,7 +15206,7 @@
 		{xform zl -92.66}
 	}
 	{Entity "burn_grass1" 0x2133
-		{Position 7750.47 10085.2 -335.01}
+		{Position 7750.47 10085.2 -308.59}
 		{xform zl -151.97}
 	}
 	{Entity "road_sand5w1" 0x2134
@@ -15213,21 +15226,21 @@
 		{xform zl -92.66}
 	}
 	{Entity "burn_grass1" 0x2138
-		{Position 7623.43 10086.4 -326.54}
+		{Position 7623.43 10086.4 -309.23}
 		{xform zl -149.67}
 	}
 	{Entity "burn_grass1" 0x213f
-		{Position 7608.81 10134.7 -335.23}
+		{Position 7608.81 10134.7 -309.96}
 		{xform zl -149.67}
 	}
 	{Entity "aleppo_pine" 0x2159
 		{Position -1106.5 10041}
 	}
 	{Entity "aleppo_pine_3" 0x21a9
-		{Position -945.66 9794.48 -344.99}
+		{Position -945.66 9794.48 -309.99}
 	}
 	{Entity "aleppo_pine_3" 0x21aa
-		{Position -840.76 9673.69 -348.99}
+		{Position -840.76 9673.69 -309.99}
 	}
 	{Entity "aleppo_pine_3" 0x21ab
 		{Position -803.4 9622.47}
@@ -15242,13 +15255,13 @@
 		{Position -355.59 8846.04}
 	}
 	{Entity "aleppo_pine_3" 0x21af
-		{Position -286.38 8676.47 -336.71}
+		{Position -286.38 8676.47 -314.52}
 	}
 	{Entity "aleppo_pine_3" 0x21b0
-		{Position -637.29 9444.27 -338.76}
+		{Position -637.29 9444.27 -309.98}
 	}
 	{Entity "aleppo_pine_3" 0x21b1
-		{Position -687.49 9547.12 -345.78}
+		{Position -687.49 9547.12 -309.98}
 	}
 	{Entity "aleppo_pine_3" 0x21b2
 		{Position -1121.15 10076.7}
@@ -15260,7 +15273,7 @@
 		{Position -1132.26 10364.6}
 	}
 	{Entity "aleppo_pine_3" 0x21b5
-		{Position -1328.48 10044.1 -329.37}
+		{Position -1328.48 10044.1}
 	}
 	{Entity "road_sand5w1" 0x21b6
 		{Position -2501.92 -6162.24}
@@ -15482,49 +15495,49 @@
 		{Position -4679.94 -8827.67}
 	}
 	{Entity "aleppo_pine" 0x220d
-		{Position -4581.66 -8905.43 -349.98}
+		{Position -4581.66 -8905.43 -309.98}
 	}
 	{Entity "aleppo_pine" 0x220e
-		{Position -4398.48 -9092.84 -350.01}
+		{Position -4398.48 -9092.84 -310.01}
 	}
 	{Entity "aleppo_pine" 0x220f
-		{Position -4172.3 -9299.14 -349.97}
+		{Position -4172.3 -9299.14 -309.97}
 	}
 	{Entity "aleppo_pine" 0x2210
-		{Position -4005.72 -9464.33 -349.98}
+		{Position -4005.72 -9464.33 -309.98}
 	}
 	{Entity "aleppo_pine" 0x2211
-		{Position -3743.58 -9668.78 -349.98}
+		{Position -3743.58 -9668.78 -309.98}
 	}
 	{Entity "aleppo_pine" 0x2212
 		{Position -3521.63 -9849.1}
 	}
 	{Entity "aleppo_pine" 0x2213
-		{Position -3321.3 -10111 -349.99}
+		{Position -3321.3 -10111 -309.99}
 	}
 	{Entity "aleppo_pine" 0x2214
-		{Position -3331.47 -10151.5 -349.99}
+		{Position -3331.47 -10151.5 -309.99}
 	}
 	{Entity "aleppo_pine" 0x2215
-		{Position -2939.44 -10418.2 -349.98}
+		{Position -2939.44 -10418.2 -309.98}
 	}
 	{Entity "aleppo_pine" 0x2216
-		{Position -2902.3 -10582.1 -350.02}
+		{Position -2902.3 -10582.1 -310.02}
 	}
 	{Entity "aleppo_pine" 0x2217
-		{Position -2708.99 -10746.1 -350.03}
+		{Position -2708.99 -10746.1 -310.03}
 	}
 	{Entity "aleppo_pine" 0x2218
-		{Position -2497.93 -10808.4 -350.02}
+		{Position -2497.93 -10808.4 -310.02}
 	}
 	{Entity "aleppo_pine" 0x2219
-		{Position -2397.96 -11073.1 -349.99}
+		{Position -2397.96 -11073.1 -309.99}
 	}
 	{Entity "aleppo_pine" 0x221a
-		{Position -2140.93 -11272.3 -350.03}
+		{Position -2140.93 -11272.3 -310.03}
 	}
 	{Entity "aleppo_pine" 0x221b
-		{Position -1999.79 -11522.9 -350.01}
+		{Position -1999.79 -11522.9 -310.01}
 	}
 	{Entity "aleppo_pine" 0x221c
 		{Position -1768.87 -11652.1}
@@ -15533,19 +15546,19 @@
 		{Position -1587.42 -11982.4}
 	}
 	{Entity "aleppo_pine" 0x221e
-		{Position -1362.64 -12359.3 -350.02}
+		{Position -1362.64 -12359.3 -310.02}
 	}
 	{Entity "aleppo_pine" 0x221f
-		{Position -1329.89 -12575.1 -349.98}
+		{Position -1329.89 -12575.1 -309.98}
 	}
 	{Entity "aleppo_pine" 0x2220
-		{Position -1203.75 -12851.6 -349.98}
+		{Position -1203.75 -12851.6 -309.98}
 	}
 	{Entity "aleppo_pine" 0x2221
 		{Position -1170.42 -12702.8}
 	}
 	{Entity "aleppo_pine" 0x2222
-		{Position -1420.47 -12208.4 -349.98}
+		{Position -1420.47 -12208.4 -309.98}
 	}
 	{Entity "aleppo_pine" 0x2223
 		{Position -1694.6 -11836.7}
@@ -15560,25 +15573,25 @@
 		{Position -2199.58 -11150.6}
 	}
 	{Entity "aleppo_pine" 0x2227
-		{Position -3033.25 -10325.3 -350.01}
+		{Position -3033.25 -10325.3 -310.01}
 	}
 	{Entity "aleppo_pine" 0x2228
-		{Position -3180.55 -10231.6 -350.01}
+		{Position -3180.55 -10231.6 -310.01}
 	}
 	{Entity "aleppo_pine" 0x2229
-		{Position -3427.6 -9999.08 -349.99}
+		{Position -3427.6 -9999.08 -309.99}
 	}
 	{Entity "aleppo_pine" 0x222a
-		{Position -3940.14 -9632.99 -349.98}
+		{Position -3940.14 -9632.99 -309.98}
 	}
 	{Entity "aleppo_pine" 0x222b
 		{Position -4139.87 -9413.65}
 	}
 	{Entity "aleppo_pine" 0x222c
-		{Position -4322.97 -9192.01 -350.02}
+		{Position -4322.97 -9192.01 -310.02}
 	}
 	{Entity "aleppo_pine" 0x222d
-		{Position -4515.69 -9046.01 -349.98}
+		{Position -4515.69 -9046.01 -309.98}
 	}
 	{Entity "aleppo_pine" 0x222e
 		{Position -4903.48 -8783.26}
@@ -15599,10 +15612,10 @@
 		{Position -6675.77 -9473.12}
 	}
 	{Entity "aleppo_pine" 0x2235
-		{Position -7474.54 -9567.42 -350.02}
+		{Position -7474.54 -9567.42 -312.02}
 	}
 	{Entity "aleppo_pine" 0x2236
-		{Position -6963.87 -9529.84 -350.01}
+		{Position -6963.87 -9529.84 -312.01}
 	}
 	{Entity "aerostrip" 0x1008
 		{Position 7208.08 12321.8}
@@ -16396,11 +16409,11 @@
 		{xform zl -0.39}
 	}
 	{Entity "burn_grass1" 0x3008
-		{Position -2353.02 2142.6 -324.07}
+		{Position -2353.02 2142.6 -309.07}
 		{xform zl -148.62}
 	}
 	{Entity "burn_grass1" 0x3009
-		{Position -2389.36 2157.42 -326.4}
+		{Position -2389.36 2157.42 -310.41}
 		{xform zl -148.62}
 	}
 	{Entity "kaktus_1" 0x300a
@@ -17179,11 +17192,11 @@
 		{Position 3619.43 1903.78}
 	}
 	{Entity "burn_grass1" 0x5802
-		{Position 6199.3 2392.99 -291.2}
+		{Position 6199.3 2392.99 -308.07}
 		{xform zl -148.23}
 	}
 	{Entity "burn_grass1" 0x5803
-		{Position 6162.86 2407.56 -292.12}
+		{Position 6162.86 2407.56 -309.41}
 		{xform zl -148.23}
 	}
 	{Entity "kaktus_1" 0x5804
@@ -20135,5 +20148,77 @@
 	{Entity "bush9" 0x5b2f
 		{Position 510.08 -1718.94}
 		{xform zl 0.7}
+	}
+	{Entity "t62m_xx" 0x1
+		{Position 4405.35 -3354}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x2
+		{Position 4419.35 -3070.88}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x3
+		{Position 4419.81 -2756.86}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x4
+		{Position 4420.42 -2497.28}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x5
+		{Position 4434.42 -2214.16}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x6
+		{Position 4434.88 -1900.14}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x7
+		{Position 4444.56 -1611.19}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x8
+		{Position 4458.56 -1328.07}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x9
+		{Position 4459.02 -1014.05}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0xa
+		{Position 4461.19 -761.41}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0xb
+		{Position 4475.19 -478.29}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0xc
+		{Position 4475.65 -164.27}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0xd
+		{Position 4474.65 139.1}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0xe
+		{Position 4488.65 422.22}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0xf
+		{Position 4489.11 736.24}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x10
+		{Position 4496.45 984.74}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x11
+		{Position 4510.45 1267.86}
+		{xform zl 87.28}
+	}
+	{Entity "t62m_xx" 0x12
+		{Position 4510.91 1581.88}
+		{xform zl 87.28}
 	}
 }
