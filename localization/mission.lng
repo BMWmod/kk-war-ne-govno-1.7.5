@@ -48,19 +48,20 @@
 			{"4vs4_station"				{"name" "<c(711b77)e(shadow)>[4x4]"									" <c(FFFFFF)e(shadow)>Station</c>"}					}			;null
 		}
 		{"5vs5"
+			{"Babkoselo"			{"name" "<c(ffffff)e(shadow)>[INV]"									" <c(05BCE6)e(shadow)>Село</c>"} 	}
 			{"13423423"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Поля полей 2</c>"} 	}
 			{"cw_warfields"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Поля полей</c>"} 	}
 			{"gostomel"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Аэродром</c>"}	}
-			{"k1234"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Зимний ад</c>"}	}
+			{"k1234"			{"name" "<c(ffffff)e(shadow)>[INV]"									" <c(05BCE6)e(shadow)>Зимний ад</c>"}	}
 			{"hungry"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Польская провинция</c>"} }
-			{"huyson"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Два холма Хйсона</c>"}	}
+			{"huyson"			{"name" "<c(ffffff)e(shadow)>[INV]"									" <c(05BCE6)e(shadow)>Два холма Хйсона</c>"}	}
 			{"avdos"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Авдеевка</c>"}	}
-			{"winter_walk"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Зимняя прогулка</c>"}	}
-			{"ybonaiy_pesok"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Пески Лизы</c>"}	}
-			{"negrila v88 belgorod edition"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Быдлогород</c>"}	}
-			{"negrila v3 kapustina edition"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Капустино</c>"}	}
-			{"negrila v3 oleshki edition"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Пески Алёшки</c>"}	}
-			{"nigrila v2 ss edition"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>2 моста</c>"}	}
+			{"winter_walk"			{"name" "<c(ffffff)e(shadow)>[INV]"									" <c(05BCE6)e(shadow)>Зимняя прогулка</c>"}	}
+			{"ybonaiy_pesok"			{"name" "<c(B205FC)e(shadow)>[С]"									" <c(05BCE6)e(shadow)>Пески Лизы</c>"}	}
+			{"negrila v88 belgorod edition"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>Быдлогород</c>"}	}
+			{"negrila v3 kapustina edition"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>Капустино</c>"}	}
+			{"negrila v3 oleshki edition"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>Пески Алёшки</c>"}	}
+			{"nigrila v2 ss edition"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>2 моста</c>"}	}
 			{"polskav2"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Польская граница V2</c>"}	}
 		
 			{"8v8_farmland"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Сельхозрайон</c>"}				}			;null
