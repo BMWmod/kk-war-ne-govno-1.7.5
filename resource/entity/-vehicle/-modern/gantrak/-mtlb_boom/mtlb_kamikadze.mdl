@@ -2,8 +2,8 @@
 ;Model created by: Андрей
 ;Date: Sat Nov 12 21:41:54 2016
 ;File: G:\Модели все\Модели к 1.6.1\техника 1.6.2\mt-lb (1)\mtlb\МТЛБ 2009 МАХ final3.max
-;Model create/rebuild by: MoCKBu4
-;Last build date: Wednesday 30 January 2024 [15:13:37]
+;Model create/rebuild by: Makimka
+;Last build date: Monday 4 August 2024 [13:35:56]
 {Skeleton
     {Animation
         {Sequence "stop" {Speed 0.6}}
@@ -375,8 +375,8 @@
             {Bone "backside_desant_cover2"
                 {Parameters "ID=Body;"}
                 {Matrix34
-                    0.996195	0	0.0871557
-                    0	1	0
+                    0.0781604	0.996916	0.00683814
+                    -0.993123	0.0784591	-0.086887
                     -0.0871557	0	0.996195
                     -60.4361	-17.7804	1.15425
                 }
@@ -421,14 +421,19 @@
             }
             {Bone "desant_top_cover_l"
                 {Parameters "ID=Body;"}
-                {Position -9.9063	0	9.87974}
+                {Matrix34
+                    -0.992113	-0.000137061	-0.125333
+                    -0.000791993	0.999986	0.00517571
+                    0.125331	0.00523417	-0.9921
+                    -9.9063	0	9.87974
+                }
                 {VolumeView "desant_top_cover_l.ply"}
             }
             {Bone "backside_desant_cover1"
                 {Parameters "ID=Body;"}
                 {Matrix34
-                    0.996195	0	0.0871557
-                    0	1	0
+                    0.622863	-0.78043	0.0544935
+                    0.777461	0.625242	0.068019
                     -0.0871557	0	0.996195
                     -60.3073	17.7355	1.15425
                 }
@@ -605,7 +610,12 @@
             }
             {Bone "desant_top_cover_r"
                 {Parameters "ID=Body;"}
-                {Position -9.9063	0	9.87975}
+                {Matrix34
+                    -0.984686	-0.0154687	-0.173648
+                    -0.0157073	0.999876	0
+                    0.173627	0.00272755	-0.984808
+                    -9.9063	0	9.87975
+                }
                 {VolumeView "desant_top_cover_r.ply"}
             }
             {Bone "seat03"

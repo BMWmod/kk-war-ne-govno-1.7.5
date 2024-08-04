@@ -4,6 +4,10 @@
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
 
+
+
+{"uh_1h_serb"							"<c(FFFFFF)e(shadow)>Bell UH-1 Iroquois</c>"} 
+{"uh_1h"							"<c(FFFFFF)e(shadow)>Bell UH-1 Iroquois</c>"} 
 {"t72av_koz"							"<c(FFFFFF)e(shadow)>T-72AВ обр.1985</c>"} 
 {"btr50"							"<c(FFFFFF)e(shadow)>Makran</c>"}
 {"m46"							"<c(FFFFFF)e(shadow)>М-46</c>"}

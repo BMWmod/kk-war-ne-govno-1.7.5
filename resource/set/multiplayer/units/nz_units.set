@@ -21,9 +21,9 @@
  {"gaz_tigr_dz" {fore 1} ("vs" c(420) sc(70) g(443534) b(common) brig(common) s(srbsk)  i(122) cw(10) cp(10) t(all_nz recon   ) n(3)               ) } 
  
 
- {"Strela_SERB" {fore 0} ("v3" c(300) sc(150) g(pvo2)  b(common) brig(common) s(srbsk)  i(22) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10m3) n(1) n1(vehicle_supporter:3)      ) }
+ {"Strela_SERB" {fore 1} ("v3" c(300) sc(150) g(pvo2)  b(common) brig(common) s(srbsk)  i(22) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10m3) n(1) n1(vehicle_supporter:3)      ) }
  
- {"hj8_stan_2" {fore 0} ("v" c(200) sc(50) g(no_art1) b(common) brig(common) s(srbsk) i(666) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
+ {"hj8_stan_2" {fore 1} ("v" c(200) sc(50) g(no_art1) b(common) brig(common) s(srbsk) i(666) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
  {"ptur_konkurs_2" {fore 1} ("v" c(300) sc(40) g(no_art2) b(common) brig(common) s(srbsk)  i(777) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
 
  ;{"9k33_osa_akm" {fore 0} ("v3" c(600) sc(170) g(pvo32)  b(common) brig(common) s(srbsk)  i(23) cw(0) cp(15) t(all_nz   ) c1(9k33_osa_akm) n(1) n1(vehicle_supporter:3)      ) }
@@ -39,13 +39,14 @@
  {"Shilka_SERB" {fore 0} ("v3" c(300) sc(150) g(pvo2)  b(supl) brig(common) s(srbsk)  i(15) cw(0) cp(15) t(all_nz   ) c1(Shilka) n(1) n1(vehicle_supporter:4)      ) }
  {"yaz_patrior_zu23_2" {fore 1} ("v" c(100) sc(69) g(uaz25) b(supl) brig(common) s(srbsk)  i(4) cw(0) cp(10) t(all_nz   ) n(3)             ) }
 	
-{"pzrk_serbs" {fore 0.9} ("v3" c(500) sc(90) g(pzrk)  b(supl) brig(common) s(srbsk)  i(55) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(pzrk:3)  	)}                   
+{"pzrk_serbs" {fore 1} ("v3" c(500) sc(90) g(pzrk)  b(supl) brig(common) s(srbsk)  i(55) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(pzrk:3)  	)}                   
 
 ;==================================Мотобригада===================
 
 {"yaz_patrior_kornet" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 {"2121_atgm" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(222) cw(0) cp(15) t(all_nz   ) n(2)               ) }
-
+ {"uaz469_spg9_serb" {fore 1} ("v3" c(500) sc(50) g(uaZik)  b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(54) cw(0) cp(10) t(all_nz aat  ) c1(uaz469_spg9) n(2) n1(vehicle_supporter:4)  	)} 
+ 
 
 {"t64-55" {fore 1} ("v" c(125) sc(69) g(tonk3) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(8) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 {"t62m_v2_ser" {fore 1} ("v" c(125) sc(125) g(tonk1) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(9) cw(0) cp(15) t(all_nz   ) n(4)               ) }
@@ -58,10 +59,8 @@
 
 ;==================Мобильная бригада==========================
  
- ;{"mig-21bis_support" {fore 0.4} ("p" c(500) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
- {"l39_serb" {fore 0.4} ("p" c(500) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
- ;{"an_2_no_wp_serb" {fore 1} ("p" c(300) sc(25) g(ANDVA) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1231) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
- ;{"an_2_bomb" {fore 0.4} ("p" c(600) sc(145) g(ANDVABOMB) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(93) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+ 
+ {"l39_serb" {fore 0.4} ("p" c(700) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 
  {"su-25sm_support_light_ser" {fore 0} ("v3" c(600) sc(400) g(su25) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(333) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) }	
  {"mi-24v" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(6) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
@@ -76,7 +75,7 @@
  {"bmd1" {fore 1} ("v3" c(333) sc(30) g(bmd1) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(235) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(bmd1) n(1) n1(vehicle_supporter:2)   ) }	
  {"bmd1_inf" {fore 1} ("v3" c(600) sc(130) g(inf_mech_cpec_3) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(5) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(bmd1) n(1) n1(vehicle_supporter:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg1:1) n6(vdv_smg2:1) n7(vdv_smg3:1) n8(vdv_smg4:1)  ) }	
 
- {"mi17_unarmed" {fore 1} ("v3" c(669) sc(155) g(inf_mech_cpec_78) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(4) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mi17_unarmed) n(1) n1(pilot:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg1:2) n6(vdv_smg2:1) n7(vdv_smg3:1) n8(vdv_smg4:1)  ) }	
+ {"uh_1h_serb" {fore 1} ("v3" c(669) sc(155) g(inf_mech_cpec_78) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(4) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(uh_1h_serb) n(1) n1(pilot:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg3:1) n6(vdv_smg4:1)  ) }	
  {"brdm2_atgm_SERB" {fore 0} ("v3" c(300) sc(69) g(at_huita)  b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(7) cw(0) cp(15) t(all_nz   ) c1(brdm2_atgm) n(1) n1(vehicle_supporter:2)      ) }
 
 
@@ -127,8 +126,7 @@
  
  {"brem-1_s" {fore 1} ("v" c(220) sc(100) g(NEtonk3)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(8) cw(0) cp(10) t(all_nz   ) n(4)               ) }
  {"at_serbs" {fore 0.9} ("v3" c(500) sc(111) g(atat)  b(srbs_pmc_hqcar) brig(srbs_pmc)s(srbsk)  i(55) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(at2:2) n3(at2_2:2) 	)}  
- {"uaz469_spg9_serb" {fore 1} ("v3" c(500) sc(100) g(uaZik)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(54) cw(0) cp(10) t(all_nz aat  ) c1(uaz469_spg9) n(2) n1(vehicle_supporter:4)  	)} 
- 
+
  ;================ СПЕЦ ОЧКИ СЕРБЫ
  
  

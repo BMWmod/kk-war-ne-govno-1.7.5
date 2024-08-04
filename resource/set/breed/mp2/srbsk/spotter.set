@@ -54,7 +54,7 @@
 		{item "rq11_control"}
 		
 		{item "fpv_drone" 3}
-		{item "fpv_drone120" 3}
+		{item "fpv_drone" 3}
 
 		{in_hands 3}
 	}

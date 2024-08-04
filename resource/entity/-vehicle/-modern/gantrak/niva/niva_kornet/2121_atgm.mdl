@@ -2,8 +2,8 @@
 ;Model created by: GANS
 ;Date: Mon Dec 10 07:54:03 2018
 ;File: G:\Niva\niva2121.max
-;Model create/rebuild by: MoCKBu4
-;Last build date: Thursday 21 June 2023 [22:38:48]
+;Model create/rebuild by: Makimka
+;Last build date: Monday 4 August 2024 [13:39:45]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -114,34 +114,11 @@
                     {Parameters "ID=body;"}
                     {Position 11.2426	-16.4827	5.75446}
                     {VolumeView "doorr.ply"}
-                    {Bone "window3"
-                        {Parameters "ID=window3;"}
-                        {Position -10.3159	3.92933	11.4923}
-                        {VolumeView "window3.ply"}
-                    }
                 }
                 {Bone "doorl"
                     {Parameters "ID=body;"}
                     {Position 11.2057	16.4768	5.74384}
                     {VolumeView "doorl.ply"}
-                    {Bone "window2"
-                        {Parameters "ID=window2;"}
-                        {Position -10.4263	-3.96067	11.4989}
-                        {VolumeView "window2.ply"}
-                    }
-                }
-                {Bone "bodyback"
-                    {Parameters "ID=bodyback;"}
-                    {Animation
-                        {Sequence "repair" {File "bodyback_r.anm"}}
-                    }
-                    {Position -27.9519	-0.00252461	22.9837}
-                    {VolumeView "bodyback.ply"}
-                    {Bone "window6"
-                        {Parameters "ID=window6;"}
-                        {Position -3.03466	0.000825167	-4.97569}
-                        {VolumeView "window6.ply"}
-                    }
                 }
                 {Bone "engine"
                     {Parameters "ID=engine;"}
@@ -208,16 +185,6 @@
                         {Position 0.221428	-0.624888	0.00757217}
                     }
                 }
-                {Bone "bamp2"
-                    {Parameters "ID=body;"}
-                    {Position -34.2918	0	3.21286}
-                    {VolumeView "bamp2.ply"}
-                }
-                {Bone "bamp1"
-                    {Parameters "ID=body;"}
-                    {Position 34.6166	2.47955e-05	0.0829144}
-                    {VolumeView "bamp1.ply"}
-                }
                 {Bone "seat01"
                     {Matrix34
                         0.931688	0	0.363261
@@ -246,16 +213,6 @@
                     {Parameters "ID=body;"}
                     {Position -0.603973	0.640825	11.0854}
                     {VolumeView "ram1.ply"}
-                }
-                {Bone "ram2"
-                    {Parameters "ID=body;"}
-                    {Position 23.2552	0	6.11574}
-                    {VolumeView "ram2.ply"}
-                }
-                {Bone "detail1"
-                    {Parameters "ID=body;"}
-                    {Position 20.9852	8.46432	9.08611}
-                    {VolumeView "detail1.ply"}
                 }
                 {Bone "fxsmoke2"
                     {Matrix34
@@ -426,16 +383,6 @@
         }
     }
 }
-{Volume "bamp1"
-    {Box 4.99731 34.2161 2.65465}
-    {Bone "bamp1"}
-    {Position 0.324322	0.109773	0.0873585}
-}
-{Volume "bamp2"
-    {Box 5.24717 31.4788 2.65465}
-    {Bone "bamp2"}
-    {Position -1.00431	0.109797	0.0270147}
-}
 {Volume "body1"
     {Polyhedron "body1.vol"}
     {Bone "body"}
@@ -445,16 +392,6 @@
     {Polyhedron "body2.vol"}
     {Bone "body"}
     {Position 20.3933	0.273232	-3.10923}
-}
-{Volume "bodyback"
-    {Box 1.52684 23.1552 14.9943}
-    {Bone "bodyback"}
-    {Matrix34
-        0.858742	0	-0.512407
-        0	1	0
-        0.512407	0	0.858742
-        -3.42502	0.302095	-6.79642
-    }
 }
 {Volume "doorl"
     {Polyhedron "doorl.vol"}
@@ -530,16 +467,6 @@
         0.369696	0.458605	-0.0560536
     }
 }
-{Volume "window2"
-    {Box 8.10263 3.78678 7.76181}
-    {Bone "window2"}
-    {Position -1.71231	3.01752	-0.333351}
-}
-{Volume "window3"
-    {Box 8.10263 3.78678 7.76181}
-    {Bone "window3"}
-    {Position -1.85951	-2.73677	-0.337327}
-}
 {Volume "window4"
     {Box 8.10263 3.78678 6.98563}
     {Bone "window4"}
@@ -549,16 +476,6 @@
     {Box 8.10263 3.78678 6.98563}
     {Bone "window5"}
     {Position 0.330048	-1.49741	0.0675471}
-}
-{Volume "window6"
-    {Box 4.04237 21.8849 8.64044}
-    {Bone "window6"}
-    {Matrix34
-        0.806464	0	-0.591283
-        0	1	0
-        0.591283	0	0.806464
-        -0.926718	0.46033	0.0187871
-    }
 }
 {Volume "window7"
     {Box 4.02539 6.08347 3.02245}

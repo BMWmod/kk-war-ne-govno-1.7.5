@@ -1,0 +1,114 @@
+{actor
+	(include "/properties/Helicopter_M.ext")
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.1))
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+	{props "Helicopter_M" "steel" "vision_lev_heli"}
+
+	{Extension "uh_1h.mdl"}
+	("missile_aimpoint_air")
+	
+	{mass 2800}
+	
+	{targetClass 	"Helicopter"}
+	
+
+    {Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body5"
+		{tags "body"}
+		{component "body"}
+	}
+
+
+("air_armor" main_rotor(5) tail_rotor(3) cabin(3) engine(4) mechanics(2) electronics(2) fuel(2))
+;==============================================================================================
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_Kubel_commander"} {end "seat_driver_car"} {base "door_right"}}
+			{reverse 	{end	"board_Kubel_commander" -1} {base "door_right" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_Kubel_driver"} {end "seat_driver_car"} {base "door_left"}}
+			{reverse 	{end	"board_Kubel_driver" -1} {base "door_left" -1}}
+		}
+		{anm "passanger"
+			{forward	{begin	"board_dodge_bodyback"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_body" 1}}
+		}
+	}
+	
+("crew_human" place(driver) bone(driver) door(emit2) animation(driver) group(crew))
+("crew_human" place(commander) bone(commander) door(emit1) animation(commander) group(crew))
+	
+    ("crew_human" place(seat00) bone(seat00) door(emit3) animation(passanger))
+	("crew_human" place(seat01) bone(seat01) door(emit4) animation(passanger))
+	("crew_human" place(seat02) bone(seat02) door(emit3) animation(passanger))
+	("crew_human" place(seat03) bone(seat03) door(emit4) animation(passanger))
+	("crew_human" place(seat04) bone(seat04) door(emit3) animation(passanger))
+	("crew_human" place(seat05) bone(seat05) door(emit4) animation(passanger))
+
+
+;==========================================================================================
+	{Sensor
+		{Visor "driver"
+			{vision "mp_soldier"}
+			{bone "visor1"}
+		}
+	}
+;==========================================================================================
+;	{Chassis
+;		{Locomotion ("locomotion")
+;			{Maxspeed 40}
+;			{turnRadius 15}
+;		}
+;		{maxSideSlope 25} ;degree
+;		{speed
+;			{slow 1} ; km/h
+;			{Normal 1}
+;			{Fast 40}
+;	     }
+;        }
+; {Chassis "wheel"
+;	{locomotion ("locomotion")
+;		{MaxSpeed 1} 
+;		{StartTime 		1  } 
+;		{BrakeTime 		0.01  } 
+;		{StopTime		0.01  }    
+;	}
+; }
+;		{Chassis "airborne"
+;			{Altitude 25}
+;		}
+;		{ChassisManager
+;			{Current "airborne"}
+;		}
+;("CW_heli_chassis" Maxspeed(25) turnRadius(18) maxSlope(20))
+("CW_heli_skeed_chassis" 
+	Maxspeed(55) turnRadius(17) Acc(4.42) Climb(4.59)
+	Fuel(1172) Fuel_rate(1.42) Fuel_remain(879))
+	{props "cwfs_fuel_1000"}
+
+;=================================================
+
+
+    ("part" args "propeller")
+	("part" args "propeller1")
+
+
+}

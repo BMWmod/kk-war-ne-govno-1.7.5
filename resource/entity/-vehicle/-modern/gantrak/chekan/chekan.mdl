@@ -2,9 +2,8 @@
 ;Model created by: бебряш
 ;Date: Fri Jul 25 18:24:21 2014
 ;File: G:\Работа с Pheonix\Редактирование\Мои модели\Прислано StarMeh\выстрел\выстрел 3.max
-;Model create/rebuild by: Бебряш
-;Last build date: Monday 7 April 2024 [15:38:14]
-;Все сделал бебряш
+;Model create/rebuild by: Makimka
+;Last build date: Monday 4 August 2024 [13:41:17]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.6}}
@@ -220,7 +219,7 @@
                     {Sequence "repair" {File "turret_r.anm"}}
                 }
                 {Speed 0.01}
-                {Position -10.0276	0.178962	19.161}
+                {Position -30.2776	0.178962	19.791}
                 {VolumeView "turret.ply"}
                 {Bone "visor1"
                     {Position 7.5587	4.45061	2.16311}

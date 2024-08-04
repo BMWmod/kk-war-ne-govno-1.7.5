@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "main_body_bycawx"}
+	{blend none}
+}

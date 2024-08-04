@@ -1,8 +1,10 @@
 ;SDL
 {units
-	{"eitan_apc_mg"		{structure "cwds_apc8"}}
-	{"eitan_apc_ags"	{structure "cwds_apc8"}}
 
+{"uh_1h_serb"			{structure "cwds_heli_common"}}
+{"uh_1h"			{structure "cwds_heli_common"}}
+{"eitan_apc_mg"		{structure "cwds_apc8"}}
+{"eitan_apc_ags"	{structure "cwds_apc8"}}
 {"btr50"				{structure "cwds_ifv"}} 
 {"m46"				{structure "cwds_cannon"}} 
 {"toyota_radar"		{structure "cwds_radar"}}
@@ -12,10 +14,6 @@
 {"bayraktar_tb2_maml"			{structure "cwds_plane_attack"}}
 {"cv9040_bill"				{structure "cwds_ifv"}} 
 {"cv9040"				{structure "cwds_ifv"}}
-{"an_2_bomb_isis"		{structure "cwds_plane_attack"}}
-{"an_2_bomb"		{structure "cwds_plane_attack"}}
-{"an_2_no_wp_isis"		{structure "cwds_plane_attack"}}
-{"an_2_no_wp_serb"		{structure "cwds_plane_attack"}}
 {"btr80_1_flag"		{structure "cwds_apc8"}}
 {"l39_serb"		{structure "cwds_plane_attack"}}
 {"l39_isis"		{structure "cwds_plane_attack"}}
