@@ -298,14 +298,14 @@
 			{"grm" "GRM"}
 			{"uaf" "UAF"}
 			{"reb" "Rebels"}
-			{"ger" "Germany"}
+			{"globalUN" "Миротворческие силы ООН"}
 			{"rus" "Россия"}
 			{"nato" "НАТО"}
 			{"odkb" "ОДКБ"}
 			{"cn" "Китай"}
 			{"iregular" "ИЗИС"}
-			{"srbsk" "НЕРЕГУЛЯРНЫЕ СИЛЫ ОПОЛЧЕНИЯ"}
-			{"ukr" "Великая Украина"}
+			{"srbsk" "Нерегулярные силы ополчения"}
+			{"ukr" "Украина"}
 			{"civilian" "Гражданский"}
 			{"random" "Случайно"}
 			{"spectator" "Наблюдатель"}
@@ -348,10 +348,10 @@
 			{"disconnect" "Связь с игроком %1% потеряна"}
 			{"msg_outofsync" "Вы были исключены из игры по причине рассинхронизации"}
 			{"msg_slow" "Вы были исключены из игры из-за низкой производительности компьютера"}
-			{"msg_kickoff" "Вы были исключены пидарасом на хосте"}
+			{"msg_kickoff" "Вы были исключены потому что вы пидорас"}
 			{"msg_disconnect" "Связь утеряна"}
-			{"outofsync_client_cheat" "Игрок %1% серега заебал читерить"}
-			{"outofsync_server_cheat" "Мастер %1% серега заебал читерить"}
+			{"outofsync_client_cheat" "Игрок %1% заебал читерить"}
+			{"outofsync_server_cheat" "Мастер %1% заебал читерить"}
 			{"msg_outofsync_client_cheat" "Вы были исключены из игры из-за использования читов"}
 			{"msg_outofsync_server_cheat" "Сервер использовал читы и все игроки были отключены"}
 			{"user_have_no_shared_link_to_ds_with_mm" "Игрок %1% был отключен из-за потери соединения с выделенным сервером"}
@@ -368,8 +368,8 @@
 			{"player_limit" "Не подключиться: достигнут предел количества игроков."}
 		}
 		{"lobby"
-			{"title_quit_game" "Умереть?"}
-			{"title_close_game" "Умереть?"}
+			{"title_quit_game" "Сдохнуть в муках?"}
+			{"title_close_game" "Сдохнуть в муках?"}
 			{"title_close_game_xp" "Do you really want to surrender?\n\nYou will receive no XP and lose your chance for an item drop!\nStay in-game for fair-play."}
 			{"title_surrender_game" "Do you really want to surrender?\n\nYou will lose all XP collected during the match, gain a loss and weaken your ranked trust rating.\nStay in-game for fair-play."}
 			{"title_zone" "Выбор сервера"}
@@ -526,11 +526,11 @@
 			}
 			{"button"
 				{"back" "В писю лизы))))"}
-				{"join" "Подклюьрьрьрь"}
+				{"join" "Пойти нахуй"}
 				{"enter_zone" "Сменить сервер"}
-				{"leave_zone" "Покинуть сервер"}
+				{"leave_zone" "Пойти нахуй"}
 				{"new_game" "Новая пизда"}
-				{"change_map" "我是学生"}
+				{"change_map" "Поменять партейку"}
 				{"replay_game" "Ролик"}
 				{"create_session" "Заразиться спидом"}
 				{"refresh" "Помыть"}
@@ -581,7 +581,7 @@
 				}
 				{"hint"
 					{"open" "Ячейка открыта. Дважды щелкните для лишения девственности."}
-					{"closed" "Хост пидор."}
+					{"closed" "У вас слишком жирная жопа чтобы сюда сесть."}
 					{"reserved" "Ячейка открыта только для друзей администратора."}
 					{"ai" "Ячейка зарезервирована для игрока ИИ."}
 				}
@@ -784,17 +784,17 @@
 			}
 		}
 		{"persona_state"
-			{"offline" "Не в сети"}
+			{"offline" "200"}
 			{"online" "В сети"}
 			{"busy" "Занят"}
-			{"away" "Отошел"}
+			{"away" "500"}
 			{"snooze" "Уснул"}
 			{"looking_to_trade" "Хочу торговать"}
 			{"looking_to_play" "Хочу играть"}
 			{"in_game" "Мобилизированы"}
 			{"in_lobby" "В игре (в сессии)"}
 			{"in_matchmaking" "В игре (подбирает матч)"}
-			{"in_match" "В игре (играет)"}
+			{"in_match" "500"}
 			{"in_other_game" "В другой игре"}
 		}
 		{"sync"
@@ -909,6 +909,11 @@
 					{"hint_usarmy_hqcar" "<c(FFFFFF)>Армия США"}
 					{"hint_usart_hqcar" "<c(FFFFFF)>Отделение полевой артиллерии армии США"}
 					{"hint_usmc_hqcar" "<c(FFFFFF)>Корпус морской пехоты США (USMC)"}
+				;НСО
+					{"hint_srbs_mot_hqcar" "<c(FFFFFF)>Танковая бригада"}
+					{"hint_srbs_vdv_hqcar" "<c(FFFFFF)>Механизированая бригада"}
+					{"hint_srbs_art_hqcar" "<c(FFFFFF)>Бригада огневой поддержки"}
+					{"hint_srbs_pmc_hqcar" "<c(FFFFFF)>Бригада оперативной поддержки"}
 			;unavailable brigades
 				;usa
 					{"hint_ngrd_hqcar" "<c(FFFFFF)>Национальная гвардия США"}

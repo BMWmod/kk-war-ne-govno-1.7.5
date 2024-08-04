@@ -1,0 +1,74 @@
+{breed
+	{behaviour soldier}
+	{skin "chdf_inf"}
+	{portrait chdf_un}
+	{icon snipers}
+	{icon_priority 1}
+	{tags "sniper2"}
+	{nationality cz}
+	{armors
+		{head pasgt_helmet_un}
+	}
+	{perks
+		{"vision" mp_sniper
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_3
+		}
+		{"gra_launch" lvl_2
+		}
+		{"melee" lvl_2
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"telescope"}
+		{"aimedshot"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "m67 grenade" 2}
+		{item "smoke grenade"}
+		{item "m21_sopmod" filling "762x51_x20" 20}
+		{item "762x51_x20" 80}
+		{item "6b5-11"}
+		{in_hands 3}
+	}
+}

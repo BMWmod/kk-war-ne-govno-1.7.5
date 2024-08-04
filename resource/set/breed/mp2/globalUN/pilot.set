@@ -1,0 +1,46 @@
+{breed
+	{skin "cw_us_pilot"}
+	{portrait "_new/usa/pilot"}
+	{icon "pilot"}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head hgu55_plane}
+	}
+
+	{perks
+		{"vision" mp_soldier}
+		{"smg" lvl_2}
+		{"mgun" lvl_3}
+		{"rifle" lvl_2}
+		{"rocketlauncher" lvl_2}
+		{"pistol" lvl_3}
+		{"gra_launch" lvl_1}
+		{"melee" lvl_2}
+		{"avoidance" lvl_2}
+		{"health" "100%"}
+		{"health_regeneration" "100%"}
+
+		{"stamina" "100%"}
+		{"stamina_regeneration" "100%"}
+		{"speed" 0.8}
+		;{fortification}
+		;{mechanic "-repair_lev3" factor 0.5}
+		
+		{"skill_tankgun" lev_4}
+		{"skill_atgm_launcher" lev_4}
+		{"skill_airgun" lev_1}
+		{"skill_airgm_launcher" lev_1}
+		
+		
+	}
+	{inventory
+		{item "lpsv_us_pilot"}
+		{item "beretta92" filling "standart ammo" 15}
+		{item "standart ammo" 45}
+		{item "m4" filling "556nato ammo" 30}
+		{item "556nato ammo" 90}
+		{item "bandage" 15}
+		{in_hands 3}
+	}
+}

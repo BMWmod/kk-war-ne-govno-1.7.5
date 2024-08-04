@@ -55,15 +55,11 @@
 {"t72b_1989year" {fore 0} ("v" c(500) sc(170) g(tonk911) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(12) cw(0) cp(20) t(all_nz   ) n(3)               ) }
 {"t-64bm2" {fore 0} ("v" c(569) sc(199) g(tonk69) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(13) cw(0) cp(20) t(all_nz   ) n(3)               ) }
 
+ {"brem-1_s" {fore 1} ("v" c(220) sc(100) g(NEtonk3)  b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(8888) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 
 
 ;==================Мобильная бригада==========================
  
- 
- {"l39_serb" {fore 0.4} ("p" c(700) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
-
- {"su-25sm_support_light_ser" {fore 0} ("v3" c(600) sc(400) g(su25) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(333) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) }	
- {"mi-24v" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(6) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  
 	("squad_with11types" side(srbsk) name(VDV_Z_NEBA_PRIVET) c(280) g(inf) 
 	  c1(vdv_com:1) c2(vdv_mg:1) c3(vdv_smg1:2) c4(vdv_rpg:1) c5(vdv_smg2:1) c6(vdv_smg3:2) c7(vdv_smg4:2)
@@ -74,8 +70,6 @@
 
  {"bmd1" {fore 1} ("v3" c(333) sc(30) g(bmd1) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(235) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(bmd1) n(1) n1(vehicle_supporter:2)   ) }	
  {"bmd1_inf" {fore 1} ("v3" c(600) sc(130) g(inf_mech_cpec_3) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(5) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(bmd1) n(1) n1(vehicle_supporter:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg1:1) n6(vdv_smg2:1) n7(vdv_smg3:1) n8(vdv_smg4:1)  ) }	
-
- {"uh_1h_serb" {fore 1} ("v3" c(669) sc(155) g(inf_mech_cpec_78) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(4) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(uh_1h_serb) n(1) n1(pilot:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg3:1) n6(vdv_smg4:1)  ) }	
  {"brdm2_atgm_SERB" {fore 0} ("v3" c(300) sc(69) g(at_huita)  b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(7) cw(0) cp(15) t(all_nz   ) c1(brdm2_atgm) n(1) n1(vehicle_supporter:2)      ) }
 
 
@@ -101,9 +95,15 @@
  {"mtlb_vmk_ogon" {fore 1} ("v" c(1000) sc(169) g(mtlbogn)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(1) cw(0) cp(20) t(all_nz   ) n(3)               ) }
  {"2c23" {fore 0} ("v" c(540) sc(170) g(nonasvk) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(15) cw(0) cp(20) t(all_nz art   ) n(2)               ) }
  {"tochka_y" {fore 0.0} ("v" c(1330) sc(350) g(otrk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(7) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
-
+ 
+ {"l39_serb" {fore 0.4} ("p" c(700) sc(135) g(susem) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(8791) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+ {"su-25sm_support_light_ser" {fore 0} ("v3" c(600) sc(400) g(su25) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(3393) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) }	
+ {"mi-24v" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+ 
 ;==================Иностранные челиксы ====
 
+
+ {"uh_1h_serb" {fore 1} ("v3" c(669) sc(155) g(inf_mech_cpec_78) b(srbs_pmc_hqcar) brig(srbs_vdv) s(srbsk)  i(48988) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(uh_1h_serb) n(1) n1(pilot:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg3:1) n6(vdv_smg4:1)  ) }	
 
  {"chekan" {fore 1} ("v3" c(300) sc(50) g(chekan)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(113) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(chekan) n(1) n1(ruchich_smg:2)   ) }	
 
@@ -123,8 +123,7 @@
 	c1(kaz_ataman:1) c2(kaz_mg:1) c3(kaz_rpg:1) c4(kaz_rpg_help:1) c5(kaz_smg1:1) c6(kaz_smg2:1) c7(kaz_smg3:1) c8(kaz_sniper:1)
 	b(srbs_pmc_hqcar) brig(srbs_pmc) t(all_nz infantry) cost(90) f(1) 
  )
- 
- {"brem-1_s" {fore 1} ("v" c(220) sc(100) g(NEtonk3)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(8) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+
  {"at_serbs" {fore 0.9} ("v3" c(500) sc(111) g(atat)  b(srbs_pmc_hqcar) brig(srbs_pmc)s(srbsk)  i(55) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(at2:2) n3(at2_2:2) 	)}  
 
  ;================ СПЕЦ ОЧКИ СЕРБЫ

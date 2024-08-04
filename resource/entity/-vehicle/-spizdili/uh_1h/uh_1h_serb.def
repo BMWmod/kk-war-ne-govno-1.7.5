@@ -35,7 +35,7 @@
 		{component "body"}
 	}
 
-
+	{texmod "serb"}
 ("air_armor" main_rotor(5) tail_rotor(3) cabin(3) engine(4) mechanics(2) electronics(2) fuel(2))
 ;==============================================================================================
 	{boarder

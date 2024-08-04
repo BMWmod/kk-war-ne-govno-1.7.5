@@ -1,0 +1,13 @@
+                                   
+;===============================USA===========================================                                   
+
+;==================== СПЕЦ ОЧКИ 
+
+;==============================Common===========================================                                   
+
+;===============================Вспомогательные войска===========================================                                   
+								   
+("squad_with2types" name(tankman) f(1)  c(30) cost(15) g(supp) b(supl) brig(common) side(globalUN)     t(all_nz   ) info(tankman) c1(tankman:1)              ) 
+("squad_with1types" name(vehicle_supporter) f(1)  c(15) cost(15) g(support) b(supl) brig(common) side(globalUN)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
+("squad_with2types" name(pilot) f(1)  c(25) cost(15) g(supp) b(supl) brig(common) side(globalUN)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
+    
