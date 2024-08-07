@@ -7,7 +7,7 @@
 			{world -15000 -4000 15000 4000}
 			{camera -15000 -4000 15000 4000}
 			{pather -15000 -4000 15000 4000}
-			{distance 200 800}
+			{distance 0 3500}
 			{viewAngle 20 50}
 		}
 	}
@@ -7873,6 +7873,7 @@
 	{Entity "cwps3_proj_point" 0x19d
 		{Position 4840.94 2992.66 120}
 		{xform zl 110.77}
+		{SpawnedInFog}
 		{Player 255}
 		{MID 10019}
 		{Component "rus_active"
@@ -7918,6 +7919,7 @@
 	{Entity "cwps3_proj_point" 0x19e
 		{Position 4840.94 2992.66 120}
 		{xform zl 110.77}
+		{SpawnedInFog}
 		{Player 255}
 		{MID 10020}
 		{Component "rus_active"
@@ -7963,6 +7965,7 @@
 	{Entity "cwps3_proj_point" 0x19f
 		{Position 4840.94 2992.66 120}
 		{xform zl 110.77}
+		{SpawnedInFog}
 		{Player 255}
 		{MID 10021}
 		{Component "rus_active"
@@ -13832,7 +13835,6 @@
 		{Placer
 			{State "1" {Unlinked}}
 		}
-		{AreaDisable "cut"}
 	}
 	{Entity "post_light11" 0x54ff
 		{Position 10382.5 -2067.09 -357}
