@@ -15694,7 +15694,7 @@
 						{title "卍\t"}
 					}
 					{"delay"
-						{time 105}
+						{time 85}
 					}
 					{"timer"
 						{hide}
