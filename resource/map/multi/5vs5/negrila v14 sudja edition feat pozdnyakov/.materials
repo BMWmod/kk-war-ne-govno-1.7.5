@@ -29,4 +29,14 @@
 			{bump "/texture/land/town/asfalt_road_nm"}
 		}
 	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road"}
+			{bump "/texture/land/town/asfalt_road_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/clay_new3b"}
+			{bump "/texture/land/dirt/clay_new3b_nm"}
+		}
+	}
 }
