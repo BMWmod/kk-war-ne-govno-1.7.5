@@ -874,7 +874,7 @@
 					{"hint_supl" "<c(FFFFFF)>Бригада поддержки"}
 					{"hint_hqcar" "<c(FFFFFF)>КШМ"}
 					{"hint_hqcardummy" ""}
-					{"hint_extra" "<c(FFFFFF)>Усиление"}
+					{"hint_extra" "<c(FFFFFF)>Премиум магазин"}
 				;china
 					{"hint_chidummy_hqcar" "<c(FFFFFF)>Кита́йская Наро́дная Респу́блика"}
 					{"hint_cnair_hqcar" "<c(FFFFFF)>Бригада ВВС"}
