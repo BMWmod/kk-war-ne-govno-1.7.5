@@ -1,6 +1,6 @@
 ﻿{army
 	{id 7}
-	{title "mp/army/srbsk"}
+	{title "mp/army/globalUN"}
 	{icon "/interface/pages/multi/flag_un"}
 	{flag "/interface/scene/common/flag-rus"}
 }
