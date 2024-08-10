@@ -248,7 +248,7 @@
   {"caesar_ukr_ukr" {fore -1} ("v3" c(200) sc(220) g(zilart)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2041) cw(0) cp(15) t(all_nz) c1(caesar_ukr) n(1) n1(tankman:4)   ) }
   
   ;Камаз град
-  {"kamaz_grad_ukr" {fore -1} ("v3" c(200) sc(400) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
+  {"kamaz_grad_ukr" {fore -1} ("v3" c(200) sc(250) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
   
   ;Точка-У
   {"tochka_y_ukr" {fore -1} ("v3" c(450) sc(350) g(visocotoc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(tochka_y) n(1) n1(tankman:2)   ) }
@@ -291,19 +291,22 @@
  {"f-16c_antirad_ukr" {fore -1} ("v3" c(660) sc(250) g(air_F-16ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1076) cw(0) cp(69) t(all_nz) c1(f-16c_antirad) n(1) n1(pilot:1) ) }
  
  ;МиГ-29 противовоздушный
- {"mig-29s_aa_ukr" {fore 0} ("v3" c(600) sc(300) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(pilot:1) ) }
+ {"mig-29s_aa_ukr" {fore 0} ("v3" c(600) sc(210) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(pilot:1) ) }
  
  ;Су-25СМ ударный
- {"su-25sm_support_light_ukr" {fore 0} ("v3" c(600) sc(300) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1082) cw(0) cp(69) t(all_nz) c1(su-25sm_support_light) n(1) n1(pilot:1) ) }
+ {"su-25sm_support_light_ukr" {fore 0} ("v3" c(600) sc(260) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1082) cw(0) cp(69) t(all_nz) c1(su-25sm_support_light) n(1) n1(pilot:1) ) }
  
  ;mi17
  {"mi17_ukr" {fore 0} ("v3" c(300) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(pilot:2) ) }
  
  ;Ми-24
- {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(230) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(pilot:2) ) }
+ {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(190) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(pilot:2) ) }
  
  ;Блек хуй
- {"uh60_ukr" {fore 1} ("v3" c(600) sc(230) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) } 	
+ {"uh60_ukr" {fore 1} ("v3" c(600) sc(180) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) } 	
+ 
+ ;Ф-16 каб
+ {"f-16c_sdb_ukr" {fore 0} ("v3" c(600) sc(280) g(f-16c_sdb_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(108200) cw(0) cp(69) t(all_nz) c1(f-16c_sdb) n(1) n1(pilot:1) ) }
  
  ;Блек хуй
  {"bayraktar_tb2_maml_ukr" {fore 0} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	
@@ -311,8 +314,8 @@
  
  ;=========================== Спец очки должны быть кратны ~ 1488
  
- ;Су-24М с ракетами
- {"su24m_ukr88" {fore 0} ("v3" c(600) sc(200) g(air_su22ukr) b(extra) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(su24m_strike) n(2) n1(pilot:2) ) }
+ ;Ф-16 с крылатками
+ {"f-16c_strike_ukr88" {fore 0} ("v3" c(600) sc(200) g(air_su22ukr) b(extra) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(f-16c_strike) n(2) n1(pilot:1) ) }
  
   ;Челленджер 2
  {"challenger_2_ukr" {fore -1.0} ("v3" c(250) sc(120) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(21010) cw(0) cp(60) t(all_nz) c1(challenger_2) n(1) n1(tankman:4)) }
