@@ -175,11 +175,8 @@
 )
 {"btr-4e"
 	("atgm_single_launcher" weapon(gun2) foresight(foresight6) tail(tailR_))
-
-
-
-
 }
+
 {"btr4e1"
 	{on spawn			
 		{add_view "smoke_zenit" 	"zenite_smoke" "foresight1"}					
@@ -339,6 +336,13 @@
 	)
 }
 
+{"milan_stan_un"	
+	("atgm_single_launcher"
+		weapon(gun)
+		foresight(foresight1)
+		tail(foresight1)
+	)
+}
 {"milan_stan_2"	
 	("atgm_single_launcher"
 		weapon(gun)

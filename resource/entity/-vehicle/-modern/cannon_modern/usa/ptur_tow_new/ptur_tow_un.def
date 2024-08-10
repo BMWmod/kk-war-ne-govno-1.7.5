@@ -1,0 +1,107 @@
+{Entity
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{props "collectable" "ATGM" "vision_lev02_can" "round_sandbag2" "ptur_tow"}
+	("cw_armor_atgm")
+	{targetClass "cannon_atgm" "atgm"}
+	{extender "stuff"
+		{item "ptur_tow"}
+	}
+	{extender "inventory"
+		{box
+			{Size 6 6}
+			{weight 3000}
+			{item "ammo tow2e" 2}
+			{item "ammo tow2b" 1}
+			{item "ammo tow2_fg" 1}
+			(mod "mp"
+				{item "plant" 3}
+			)
+		}	
+	}
+	{extender "vision_mode"
+		;only one {timer_object} is supported at the moment for vision_mode extender.
+		{timer_object
+			{tag		"thermal"}  ; -> only thermal, night or drone are supported right now
+			{active_time	   36000}  ;Sec 
+			{recharge_rate	  0.5}  ;Factor * game time -> only valid for type "recharge"
+			;{cooldown		   10}  ;Sec -> Only valid for type "consume" or "switch"
+			{type	     "recharge"}; -> only recharge, consume or switch are supported right now
+	    }
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "weapon TOW" filling "ammo tow2e" 1}
+			{foresight "foresight1"}
+			{basic}
+			{charger "gunner"}
+			{gunner "gunner"}
+			{Rotate}
+		}
+	}
+{boarder
+	{anm "gunner"
+		{forward	{end "seat_armor"}}
+	}
+	{anm "commander"
+		{forward	{end "lie_take_item_end"}}
+	}
+	{anm "driver1"
+		{forward {end "mgun_browning_driver_r"}}
+	}
+	{anm "driver2"
+		{forward {end "mgun_browning_driver_l"}}
+	}
+	{link "driver2" "gunner"}
+	{link "driver1" "commander"}
+}
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "mgun_browning_driver_r" "mgun_browning_driver_l"}
+			{aim "" ""}
+			{fire  "" ""}
+			{reload  "" "lie_take_small end lie_take_item_end"}
+		}
+		{animation
+			{switch close}
+		}
+		{attack {workers "gunner" "commander"}}
+	} 	
+	{Extension "ptur_tow.mdl"}
+	("missile_aimpoint_stansize")
+
+
+	{Volume "stan2"
+		{tags "body"}
+		{able{obstacle 0}{blast 0}}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "stan1"
+		{tags "body"}
+		{able{obstacle 0}{blast 0}}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "turret"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "stan3"
+		{tags "body"}
+		{able{obstacle 0}{blast 0}}
+		{thickness 10}
+		{component "body"}
+	}
+{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+	{bone "basis"
+		{limits}
+	    	{speed 0.007}
+	}
+
+}

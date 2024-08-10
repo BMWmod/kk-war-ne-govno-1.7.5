@@ -1,5 +1,5 @@
                                    
-;===============================USA===========================================                                   
+;===============================ООН===========================================                                   
 
 ;==================== СПЕЦ ОЧКИ 
 
@@ -10,16 +10,31 @@
 )
 
 
-{"m113a_un"		("v3" c(120) c1(m113a_un)brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(inf22)  sc(30) b(common) i(1) cw(10) cp(5))  {fore 1}}
-{"ypr_765_un"		("v3" c(120) c1(ypr_765_un)brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(inf22)  sc(30) b(common) i(2) cw(10) cp(5))  {fore 1}}
-
-{"m113a_un_i"		("v3" c(240) c1(m113a_un)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:2) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(inf222)  sc(110) b(common) i(3) cw(0) cp(5))  {fore 1}}
-{"ypr_765_un_i"		("v3" c(240) c1(ypr_765_un)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:2) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(inf222)  sc(110) b(common) i(4) cw(0) cp(5))  {fore 1}}
+{"m113a_un"		("v3" c(120) c1(m113a_un)brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(btr1)  sc(25) b(common) i(1) cw(10) cp(5))  {fore 1}}
+{"ypr_765_un"		("v3" c(120) c1(ypr_765_un)brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(btr1)  sc(15) b(common) i(2) cw(10) cp(5))  {fore 1}}
 
 
+{"m939_un_i"		("v3" c(240) c1(m939)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:1) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(gmoznovyat)  sc(70) b(common) i(34) cw(0) cp(5))  {fore 1}}
+{"m113a_un_i"		("v3" c(240) c1(m113a_un)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:2) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(inf222)  sc(100) b(common) i(3) cw(0) cp(5))  {fore 1}}
+{"ypr_765_un_i"		("v3" c(240) c1(ypr_765_un)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:2) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(inf222)  sc(90) b(common) i(4) cw(0) cp(5))  {fore 1}}
+
+("squad_with11types" side(globalUN) name(pzrk) c(300) g(pzrk_g) 
+  c1(un_pzrk:2) 
+  b(common) brig(common) t(all_nz infantry) cost(70) f(1) 
+)
+("squad_with11types" side(globalUN) name(at_sqd) c(300) g(at_sqd_g) 
+  c1(un_rpg1:1) c2(un_rpg2:1) 
+  b(common) brig(common) t(all_nz infantry) cost(80) f(1) 
+)
+
+{"ptur_tow_un"            ("vs" c(500) brig(common) t(all_nz nobot) s(globalUN) n(2) g(ptur) sc(60) b(common) i(10) cw(1) cp(5))  {fore 1}} 
+{"milan_stan_un"            ("vs" c(500) brig(common) t(all_nz nobot) s(globalUN) n(2) g(ptur) sc(35) b(common) i(11) cw(1) cp(5))  {fore 1}} 
+ 
 ;===============================Вспомогательные войска===========================================                                   
 								   
 ("squad_with2types" name(tankman) f(1)  c(30) cost(15) g(supp) b(supl) brig(common) side(globalUN)     t(all_nz   ) info(tankman) c1(tankman:1)              ) 
 ("squad_with1types" name(vehicle_supporter) f(1)  c(15) cost(15) g(support) b(supl) brig(common) side(globalUN)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
 ("squad_with2types" name(pilot) f(1)  c(25) cost(15) g(supp) b(supl) brig(common) side(globalUN)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
-    
+
+
+{"t72a"	("v" c(700) brig(common) t(all_nz  nobot) s(globalUN) n(0) g(reserv)  sc(90) b(supl) i(12) cw(0) cp(2))  {fore 1}}    

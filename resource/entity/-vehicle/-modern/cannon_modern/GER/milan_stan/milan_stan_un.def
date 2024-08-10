@@ -1,0 +1,78 @@
+{actor
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{props "collectable" "ATGM" "vision_lev01a_can" "round_sandbag2"}
+	("cw_armor_atgm")
+	{targetClass "cannon_atgm" "atgm"}
+	{extender "stuff"
+		{item "milan_stan"}
+	}
+	{extender "inventory"
+		{box
+			{Size 5 5}
+			{weight 300}
+			{item "ammo milan-er" 6}
+			(mod "mp"
+				{item "plant" 3}
+			)
+		}	
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "weapon MILAN" filling "ammo milan-er" 1}
+			{foresight "foresight1"}
+			{barrels 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+			{Rotate}
+		}
+	}
+	{extender "cannon"
+		{animation
+			{move "mgun_browning_driver_l" ""}
+			{reload "" "cannon_kpvt_charger"}
+		}
+		{animation
+			{switch close}
+		}
+		{move {workers "driver"} {obstacle "close"}}
+		{attack {workers "gunner"} {obstacle "open"}}
+	}
+	("crew_inside")
+	("crew_human" place(driver) bone(driver1)	door(emit1) animation(driver1))
+	("crew_human" place(gunner)	bone(gunner)	door(emit1) animation(gunner1))
+	{placer
+		{place "gunner" {UseVision 0}}
+		{place "commander" remove}
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+	{boarder
+		{anm "gunner1"
+			{forward	{end "lie_fire_pistol"}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+		{link "driver" "gunner"}
+	}	
+	{sensor
+		{Visor "main"
+			{vision "tank_gunner_optic_2g"}
+			{bone "visor1"}
+		}
+	}
+	{Extension "milan_stan.mdl"}
+	("missile_aimpoint_stansize")
+
+
+	{bone "basis"
+		{limits}
+	    	{speed 0.01}
+	}
+{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+	{mass 5}
+}
