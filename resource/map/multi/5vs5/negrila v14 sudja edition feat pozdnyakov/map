@@ -9,14 +9,15 @@
 			{pather -15000 -4000 15000 4000}
 			{distance 0 3500}
 			{viewAngle 20 50}
+			{water -380}
 		}
 	}
 	{Ocean
 		{active}
-		{state moderate}
+		{state smooth}
 		{zlevel -380}
-		{waveamount 8}
-		{wavedir 346}
+		{waveamount 1}
+		{wavedir 170}
 	}
 	{Entity "mts-boiler_c1" 0x84d
 		{TexMod
