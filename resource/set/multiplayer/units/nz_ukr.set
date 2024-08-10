@@ -248,7 +248,7 @@
   {"caesar_ukr_ukr" {fore -0.5} ("v3" c(240) sc(220) g(zilart)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2041) cw(0) cp(15) t(all_nz) c1(caesar_ukr) n(1) n1(tankman:4)   ) }
   
   ;Камаз град
-  {"kamaz_grad_ukr" {fore 0} ("v3" c(600) sc(450) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
+  {"kamaz_grad_ukr" {fore 0} ("v3" c(600) sc(40) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
   
   ;Точка-У
   {"tochka_y_ukr" {fore 0} ("v3" c(1330) sc(325) g(visocotoc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(tochka_y) n(1) n1(tankman:2)   ) }
