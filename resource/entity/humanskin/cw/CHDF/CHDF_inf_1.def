@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/cw_humanskin.ext")
+	{Extension "cw_rus_zapravka.mdl"}
+	{bone "basis"
+		("random_face")
+		("balaklava_random")
+		("sibz_tac_full_50percent")
+		("balaklava")
+	}
+	{texmod "1"}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/equipment/head/kufia#black"}
+	{blend none}
+}

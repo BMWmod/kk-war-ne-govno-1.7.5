@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sibz_tac"}
+	{blend none}
+}
