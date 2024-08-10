@@ -65,6 +65,7 @@
 		{item "556nato ammo" 150}
 		{item "40x46ammo 40x46_natopg ammo fg" 8}
 		{item "6b5-11"}
+		{item "sandbag_kit"}
 		{in_hands 1}
 	}
 }

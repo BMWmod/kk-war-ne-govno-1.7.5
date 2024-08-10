@@ -1,0 +1,98 @@
+;Модель предоставил WarDen
+;Конвертация в игру Pheonix
+;Настрока ТТХ Timosh
+
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+
+	{collider "tank.light"}
+	{props "light_M" "turret_rotator" "vision_lev04" "amphibia" "with_open_zpu"}
+        {targetClass "light_tank"}
+	{PatherID "amphibia"}
+
+	{extension "crew.ext"}
+	{extender "enumerator"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+;По данным с http://www.fas.org/man/dod-101/sys/land/m113.htm выяснено, что это не M113A3 и броня у нее базовой модификации.
+;Оттуда-же - какие части каким материалом забронированы. (видимо - бортовые экраны стальные, корпус - Al-Mg-Mn 5083)
+
+;По столбцовой диаграмме с http://niistali.maispace.ru/matherials/scienceal.html
+;вычислена стойкость 5083 сплава - 0.33  и равна таковой для советских сплавов того времени (50-60 годов). 
+;Т. о. для получения стойкости брони в единицах RHA нужно делить толщину бронелиста на 3.
+
+;Толщины брони с Вики (в этом случае данные, вроде бы, непротиворечивы)
+;лоб 38 борт верх 44 низ 32 корма 38 днище 29 крыша 38
+
+	("armor_light" turret(15 15 15 15) body(13 13 13 11))
+	("armor_engine"  t(20))
+
+
+
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{Box
+			{size 8 8}
+			{item "ammo 50Nato" 2000}
+			{item "browning_m2hb" filled {user "mgun"}}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{gunner "gunner"}
+			{charger "gunner"}  
+			("CW_stab_no_stabiliser")
+		}
+		
+	}
+	{placer 
+		{place "driver" {group "crew"} }
+;		{place "commander"	{group "crew"} {visor "main"}}
+		{place "gunner" {group "crew"} {linkbone "gunner"} {turnoff {targetable 0}} {visor "mgun"} {openForCrush}}
+	}
+	{sensor
+		{visor "main"
+			{vision "tank_driver"}	;те же приборы наблюдения, что и у мехвода
+		}
+		{visor "mgun"
+			{bone "mgun"}
+			{vision "vehicle_top_mgun"}
+		}
+	}
+
+	{mass 10400}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.45))
+		("CW_tracks"
+			Mass(10.4)
+			Width(2.69)
+			Power(215)
+			Realspeed(64)
+			Gamespeed(40) 
+			Range(480)
+			Fuelvolume(360)
+		)
+	}
+	{props "cwfs_fuel_300"}
+        {texmod "un"}
+
+	("CW_amphibia" Waterline(1.7) )
+	("two_headlights")
+	{Extension "m113.mdl"}
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+
+
+}
+
+

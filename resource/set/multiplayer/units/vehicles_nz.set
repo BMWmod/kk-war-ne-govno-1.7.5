@@ -275,3 +275,4 @@
 (include "nz_nato.set")
 (include "nz_isis.set")
 (include "nz_ukr.set")
+(include "nz_globalUN.set")

@@ -4,6 +4,18 @@
 ;==================== СПЕЦ ОЧКИ 
 
 ;==============================Common===========================================                                   
+("squad_with11types" side(globalUN) name(smg) c(230) g(inf_common) 
+  c1(un_com:1) c2(un_mgun:1) c3(un_mgunhelp:1) c4(un_radio:1) c5(un_smg:1) c6(un_smg2:1) c7(un_sniper:1) c8(un_zamcom:1)
+  b(common) brig(common) t(all_nz infantry) cost(60) f(1) info(smg)
+)
+
+
+{"m113a_un"		("v3" c(120) c1(m113a_un)brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(inf22)  sc(30) b(common) i(1) cw(10) cp(5))  {fore 1}}
+{"ypr_765_un"		("v3" c(120) c1(ypr_765_un)brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(inf22)  sc(30) b(common) i(2) cw(10) cp(5))  {fore 1}}
+
+{"m113a_un_i"		("v3" c(240) c1(m113a_un)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:2) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(inf222)  sc(110) b(common) i(3) cw(0) cp(5))  {fore 1}}
+{"ypr_765_un_i"		("v3" c(240) c1(ypr_765_un)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:2) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(inf222)  sc(110) b(common) i(4) cw(0) cp(5))  {fore 1}}
+
 
 ;===============================Вспомогательные войска===========================================                                   
 								   

@@ -66,8 +66,9 @@
 		{item "6b5-11"}
 		{item "m67 grenade" 2}
 		{item "smoke grenade" 2}
-		{item "m16a4" filling "556nato ammo" 30}
 		{item "556nato ammo" 150}
-		{in_hands 5}
+		{item "famas_f1_aimpoint" filling "556natomb ammo" 25}
+		{item "sandbag_kit"}
+		{in_hands 6}
 	}
 }

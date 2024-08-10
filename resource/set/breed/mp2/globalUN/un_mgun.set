@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "chdf_sleeves"}
+	{skin "chdf_inf"}
 	{portrait chdf_un}
 	{icon smgs}
 	{icon_priority 1}

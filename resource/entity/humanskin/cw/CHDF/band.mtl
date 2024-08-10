@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/human/outfit/band_med"}
+	{blend test}
+}

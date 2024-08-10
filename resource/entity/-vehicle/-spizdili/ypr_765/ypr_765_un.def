@@ -1,0 +1,138 @@
+;By cAwX
+
+{ArmoredCar 
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+
+	{collider "tank.light"}
+	{props "light_M" "turret_rotator" "vision_lev04" "m113a"}
+    {targetClass "light_tank"}
+
+	{extender "enumerator"}
+	
+	("armor_IFV" turret(7 7 7 7) body(20 20 20 15))
+	("armor_engine"  t(26))
+
+;===================================================================
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_mgunner"} {base "open_driver"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base "open_driver"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"} {base "open_commander"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base "open_commander" -1}}
+		}
+		{anm "open_back"
+			{forward	{begin	"board_sd222_driver"} {end "seat_passenger"} {base "open_back"}}   
+			{reverse 	{end	"emit_body" 1} {base "open_back"}}
+		}
+	}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"}{turnoff {sensor} {shadow}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+{placer 
+	{place "driver" {group "crew"} }
+	{place "gunner" {group "crew"} {linkbone "gunner"} {turnoff {targetable 0}} {visor "mgun"} }
+}
+
+("crew_human" place(driver)		door(emit1) group(crew)		animation(driver)		visor(driver))
+("crew_human" place(gunner) door(emit3) group(crew) animation(gunner)  visorbone(mgun))
+("crew_human" place(commander) door(emit2) group(crew) animation(commander))
+
+("crew_human" place(seat1)	door(emit5) bone(seat01) animation(open_back) 	group(passengers))
+("crew_human" place(seat2)	door(emit4) bone(seat02) animation(open_back)	group(passengers))
+("crew_human" place(seat3)	door(emit5) bone(seat03) animation(open_back)	group(passengers))
+("crew_human" place(seat4)	door(emit4) bone(seat04) animation(open_back)	group(passengers))
+("crew_human" place(seat5)	door(emit5) bone(seat05) animation(open_back)	group(passengers))
+("crew_human" place(seat6)	door(emit4) bone(seat06) animation(open_back)	group(passengers))
+("crew_human" place(seat7)	door(emit5) bone(seat07) animation(open_back)	group(passengers))
+("crew_human" place(seat8)	door(emit4) bone(seat08) animation(open_back)	group(passengers))
+
+
+;===================================================================
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{Box
+			{Size 6 10}
+			{weight 1500}
+			{item "ammo 556natomb" 500}
+			{item "m249" filled {user "mgun"}}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "mgun"
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{gunner "gunner"}
+			{charger "gunner"}  
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun18"			;дым гранатометы
+			{type "mgun_right"}
+			{weapon "3xsmokegun_bmp2" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight18"}
+			{barrels 3}
+		;	{basic}
+		}
+		{place "mgun19"			;дым гранатометы
+			{type "mgun_left"}
+			{weapon "3xsmokegun_bmp2" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight19"}
+			{barrels 3}
+		;	{basic}
+		}
+	}
+	
+;===================================================================
+
+	{sensor
+        {visor "driver"
+			{bone "visor1"}
+			{vision "tank_driver"}
+		}
+	}
+	
+	{mass 13700}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.45))
+		("CW_tracks"
+			Mass(13.7)
+			Width(2.82)
+			Power(264)
+			Realspeed(61)
+			Gamespeed(38) 
+			Range(480)
+			Fuelvolume(360)
+		)
+	}
+	{props "cwfs_fuel_300"}
+
+	("two_headlights")
+	{Extension "ypr_765.mdl"}
+	
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+}
