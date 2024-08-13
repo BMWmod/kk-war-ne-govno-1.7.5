@@ -1,0 +1,110 @@
+;Created by Pheonix
+{ArmoredCar
+	
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+
+	{collider "tank.light"}
+	{props "light_M" "turret_rotator" "amphibia" "vision_lev04" "bmp1" "bmp1_new"}
+	{PatherID "amphibia"}
+        {targetClass "light_tank"}
+
+	{extension "crew.ext"}
+	{extender "enumerator"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+
+;	("armor_medium" turret(30 25 20 12) body(35 20 15 10))
+	("armor_IFV" turret(25 19 13 6) body(19 17 16 6))
+	("armor_engine"  t(16))
+	{texmod "un"}
+
+
+	("shield" args 10)
+
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+	{component "shieldl6" {tags "shield"}}
+	{component "shieldl7" {tags "shield"}}
+	{component "shieldl8" {tags "shield"}}
+	{component "shieldl9" {tags "shield"}}
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon link_mmg"}
+		}
+		{box
+			{item "pkt" filled {user "mgun"}}
+			{item "ammo pkm_ammo" 1750}		
+			{item "ammo bullet73_RUS cm" 15}
+			{item "ammo bullet73_RUS fg" 24}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "73mm_2A28" filling "ammo bullet73_RUS fg" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkAnimation "off"}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		
+	}	
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_2g"}  ;Прицел 1ПН22М1  
+		}
+	}
+        ;Прицел 1ПН22М1  6x-дневной. 
+        ;Команд.ТКН-3Б 5x-дневной. 4.2x-ночь.
+	{mass 13200}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.45))
+		("CW_tracks"
+			Mass(13.2)
+			Width(2.94)
+			Power(300)
+			Realspeed(65)
+			Gamespeed(41) 
+			Range(600)
+			Fuelvolume(462)
+		)
+	}
+	{props "cwfs_fuel_300" "cwfs_extfuel_400"}
+
+	("CW_amphibia" Waterline(1.5) )
+	("two_headlights")
+	("cw_headlightt")
+	{Extension "bmp1_new_without_ptyr.mdl"}
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+
+	("CW_turr_speed" deg_per_s(23))
+
+}
+;электромеханический привод «Кристалл» от 0,31 до 23,8 град./с – в горизонтальной.			
+;Объект 765Сп1 производился с 1966 по 1969 год.		
+;Объект 765Сп2 производился с 1969 по 1973 год.
+;Объект 765Сп3 производился с 1973 по 1979 год.
+;боевая масса – 12,6 (13 т – об.765Сп2; 13,2 т – об.765Сп3) т
