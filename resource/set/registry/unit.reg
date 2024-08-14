@@ -1,6 +1,7 @@
 ;SDL
 {units
 
+{"amx_auf1"					{structure "cwds_tank2"}} 
 {"uh_1h_serb"			{structure "cwds_heli_common"}}
 {"uh_1h"			{structure "cwds_heli_common"}}
 {"eitan_apc_mg"		{structure "cwds_apc8"}}
@@ -300,7 +301,7 @@
 	{"9k72"					{structure "cwds_otrk8"}}
 	{"iskander"				{structure "cwds_otrk8"}}
 	{"tos-1a_solntsepek"	{structure "cwds_mlrs_tr"}}
-	{"msta"					{structure "cwds_tank2"}}
+	{"msta"					{structure "cwds_tank2"}} 
 	{"mstasm2"				{structure "cwds_tank2"}}
 	{"koalition"			{structure "cwds_tank2"}}
 	{"ural_grad"			{structure "cwds_mlrs6"}}

@@ -6,6 +6,7 @@
 
 
 
+{"amx_auf1"							"<c(FFFFFF)e(shadow)>AMX-30 AuF.1</c>"} 
 {"uh_1h_serb"							"<c(FFFFFF)e(shadow)>Bell UH-1 Iroquois</c>"} 
 {"uh_1h"							"<c(FFFFFF)e(shadow)>Bell UH-1 Iroquois</c>"} 
 {"t72av_koz"							"<c(FFFFFF)e(shadow)>T-72AВ обр.1985</c>"} 
