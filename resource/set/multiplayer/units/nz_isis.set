@@ -133,7 +133,7 @@
 {"spike_lr_stan_isis" {fore 0.} ("vart" c(300) sc(150) g(art_heavy) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(555) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(spike_lr_stan) n1(vehicle_supporter:2)           ) }
 
 {"l39_isis" {fore 0.4} ("p" c(700) sc(135) g(l39) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
-
+{"mig-21bis_aa" {fore 0} ("v3" c(450) sc(145) g(AAMIG)   b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)   i(4567) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(mig-21bis_aa) n(1) n1(pilot:1)   ) }     
 {"mi24vbomb" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(6) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 {"ee9_cascavel_isis" {fore 1} ("v3" c(220) sc(45) g(ee9)   b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)   i(12) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(ee9_cascavel) n(1) n1(tankman:3)   ) }     
 

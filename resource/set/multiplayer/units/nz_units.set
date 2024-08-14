@@ -26,7 +26,8 @@
  {"hj8_stan_2" {fore 1} ("v" c(200) sc(50) g(no_art1) b(common) brig(common) s(srbsk) i(666) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
  {"ptur_konkurs_2" {fore 1} ("v" c(300) sc(40) g(no_art2) b(common) brig(common) s(srbsk)  i(777) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
 
- ;{"9k33_osa_akm" {fore 0} ("v3" c(600) sc(170) g(pvo32)  b(common) brig(common) s(srbsk)  i(23) cw(0) cp(15) t(all_nz   ) c1(9k33_osa_akm) n(1) n1(vehicle_supporter:3)      ) }
+ {"2K22" {fore 0} ("v3" c(269) sc(150) g(pvo2)  b(common) brig(common) s(srbsk)  i(798) cw(0) cp(15) t(all_nz   ) c1(tunguska) n(1) n1(tankman:4)      ) }
+ 
 ;==================================Сапорт===================
 
 ("squad_with2types" name(tankman) f(1)  c(1) cost(5) g(eng2) b(supl) brig(common) side(srbsk)     t(all_nz    ) info(tankman) c1(tankman:2)              ) 
