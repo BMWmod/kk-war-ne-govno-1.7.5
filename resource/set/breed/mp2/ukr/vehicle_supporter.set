@@ -34,7 +34,6 @@
 
 	{inventory
 	    {item "otv_ukr_mg"}
-		{item "naz_ir"}
 		{item "bandage" 5}
 		{item "545 ammo" 180}
 		{item "ak74b" filling "545 ammo" 30}

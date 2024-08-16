@@ -74,7 +74,7 @@
  
  {"mtlb_supl" {fore 1} ("v3" c(100) sc(100) g(169) b(supl) brig(common) s(ukr)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
  
- {"kraz_6322_fuel_ukr" {fore 0} ("v3" c(120) sc(96) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(kraz_6322_fuel) n(2) n1(vehicle_supporter:1)      ) }
+ {"kraz_6322_fuel_ukr" {fore 0} ("v3" c(120)	sc(50) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(kraz_6322_fuel) n(2) n1(vehicle_supporter:1)      ) }
  
  {"brem-1_ukr" {fore 1} ("v3" c(900) sc(110) g(269)  b(supl) brig(common) s(ukr)  i(1701) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
  
