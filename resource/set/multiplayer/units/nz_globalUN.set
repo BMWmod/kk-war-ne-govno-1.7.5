@@ -62,3 +62,4 @@
 ;======================== 
 
 {"amx_auf1"		("v3" c(240) c1(amx_auf1) brig(frenchun) b(frenchun_hqcar) t(all_nz  ) s(globalUN) n(4)  n1(tankman:4)  g(inf222)  sc(90)  i(25) cw(0) cp(5))  {fore 1}}
+{"vbl_mistralun"		("v3" c(240) c1(vbl_mistral) brig(frenchun) b(frenchun_hqcar) t(all_nz  ) s(globalUN) n(4)  n1(tankman:3)  g(inf222)  sc(90)  i(3) cw(0) cp(5))  {fore 1}}
