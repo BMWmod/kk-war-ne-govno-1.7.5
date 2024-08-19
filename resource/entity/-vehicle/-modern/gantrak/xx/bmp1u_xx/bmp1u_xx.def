@@ -1,0 +1,34 @@
+{game_entity
+	{Extension "bmp1u_xx.mdl"}
+	(include "/properties/shadow/tank.inc"  scale(1))
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 400}   
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 400}   
+	}
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 600}   
+	}
+	{Volume "gun3"
+                {tags "gun"}
+		{component "gun"}
+		{thickness 600}    
+	}
+	{Volume "turret1"
+                {tags "turret"}
+		{component "turret"}
+		{thickness 600}   
+	}
+	{Volume "turret"
+                {tags "turret"}
+		{component "turret"}
+		{thickness 600}    
+	}
+}

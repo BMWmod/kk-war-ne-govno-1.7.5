@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/BTR-3E/x/whells_x"}
+	{blend none}
+}
