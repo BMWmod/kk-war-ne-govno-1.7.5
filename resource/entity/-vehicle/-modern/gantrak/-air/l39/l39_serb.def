@@ -81,8 +81,8 @@
 ("Chassis_parameters" 
 	Speed(80) TurnRadius(28) 
 	Fuel(3000) Fuel_remain(2468) Fuel_rate(4.15) 
-	Acc_hor(6.66) Maneuvrability_hor(8.17)
-	Acc_ver(6.25) Maneuvrability_ver(6.77)
+	Acc_hor(2.40) Maneuvrability_hor(1.02) ;Maneuvrability_hor(7.02)
+	Acc_ver(2.80) Maneuvrability_ver(3.23)
 )
 	{Extension "l39.mdl"}
 

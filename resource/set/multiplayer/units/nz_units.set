@@ -97,8 +97,8 @@
  {"2c23" {fore 0} ("v" c(540) sc(170) g(nonasvk) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(15) cw(0) cp(20) t(all_nz art   ) n(2)               ) }
  {"tochka_y" {fore 0.0} ("v" c(1330) sc(350) g(otrk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(7) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
  
- {"l39_serb" {fore 0.4} ("p" c(700) sc(135) g(susem) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(8791) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
- {"su-25sm_support_light_ser" {fore 0} ("v3" c(600) sc(400) g(su25) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(3393) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) }	
+ {"l39_serb" {fore 0.4} ("p" c(700) sc(150) g(susem) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(8791) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+ {"su-25sm_support_light_ser" {fore 0} ("v3" c(600) sc(100) g(su25) b(extra) brig(srbs_vdv) s(srbsk)  i(3393) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) }	
  {"mi-24v" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  
 ;==================Иностранные челиксы ====
