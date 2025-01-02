@@ -103,8 +103,8 @@
  {"switchblade600_catapult"            ("v_kamikaze" c(669) brig(usart) t(all_nz nobot) s(usa) n(1) g(kamikaze_600) sc(180) b(usart_hqcar) i(333) cw(0) cp(15))  {fore 1}}
  {"m119" {fore 0.75} ("vart" c(600) sc(100) g(how) b(usart_hqcar) brig(usart) s(usa)  i(2) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(hmmwv_m998_tent) c2(m119) n1(vehicle_supporter_usmc:2)            ) }
  {"m777a2" {fore 0} ("vart" c(500) sc(165) g(how) b(usart_hqcar) brig(usart) s(usa) m(5)  i(5) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) n1(vehicle_supporter_usmc:2)            ) }                                  
- {"paladin" {fore 0} ("v" c(669) sc(500) g(lart) b(usart_hqcar) brig(usart) s(usa)  i(333) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
- {"m142_himars" {fore 0} ("v" c(840) sc(327) g(rszoextra) b(usart_hqcar) brig(usart) s(usa)  i(88) m(8) cw(0) cp(50) t(all_nz art support_frontline  ) n(2)               ) }
+ {"paladin" {fore 0} ("v" c(669) sc(327) g(lart) b(usart_hqcar) brig(usart) s(usa)  i(333) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
+ {"m142_himars" {fore 0} ("v" c(840) sc(450) g(rszoextra) b(usart_hqcar) brig(usart) s(usa)  i(88) m(8) cw(0) cp(50) t(all_nz art support_frontline  ) n(2)               ) }
  {"mrls" {fore 0} ("v" c(840) sc(550) g(rszo) b(usart_hqcar) brig(usart) s(usa)  i(4) cw(0) cp(96) t(all_nz art support_frontline  ) n(2)               ) }
  {"mrls_atacms" {fore 0} ("v" c(1200) sc(275) g(otrk) b(usart_hqcar) brig(usart) s(usa)  i(6) cw(0) cp(80) t(all_nz art support_frontline  ) n(2)               ) }
 {"box_weapon_usa_excalibur" {fore -15} ("vs" c(1) sc(40) g(supply_spec) b(usart_hqcar) brig(usart) s(usa)  i(15) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
