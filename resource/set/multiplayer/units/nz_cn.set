@@ -44,7 +44,7 @@
 
 ("squad_with2types" name(tankman) side(cn) c(1) g(eng) c1(tankman:1) b(supl) brig(common) t(all_nz  nobot) cost(20) f(1) info(tankman))
 ("squad_with1types" name(vehicle_supporter) side(cn) c(30) g(support) c1(vehicle_supporter:2) b(supl) brig(common) t(all_nz  nobot) cost(15) f(1) info(vehicle_supporter))
-("squad_with2types" name(pilot) side(cn) c(300) g(eng) c1(Pilot:1) b(usaf_hqcar) brig(cnair) t(all_nz  nobot) cost(40) f(1) info(pilot))
+("squad_with2types" name(pilot) side(cn) c(300) g(eng) c1(Pilot:1) b(cnair_hqcar) brig(cnair) t(all_nz  nobot) cost(400) f(1) info(pilot))
 
 
 ("squad_with1types" name(operator_bpla) side(cn) c(620) g(operator_bpla) c1(operator_bpla:1) b(supl) brig(common) t(all_nz nobot) cost(40) f(0.6) info(operator_bpla))

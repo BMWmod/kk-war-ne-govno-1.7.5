@@ -104,7 +104,7 @@
 ;==================Иностранные челиксы ====
 
 
- {"uh_1h_serb" {fore 1} ("v3" c(669) sc(155) g(inf_mech_cpec_78) b(srbs_pmc_hqcar) brig(srbs_vdv) s(srbsk)  i(48988) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(uh_1h_serb) n(1) n1(pilot:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg3:1) n6(vdv_smg4:1)  ) }	
+ {"uh_1h_serb" {fore 1} ("v3" c(669) sc(155) g(inf_mech_cpec_78) b(srbs_pmc_hqcar) brig(srbs_vdv) s(srbsk)  i(48988) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mi17_unarmed) n(1) n1(pilot:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg3:1) n6(vdv_smg4:1)  ) }	
 
  {"chekan" {fore 1} ("v3" c(300) sc(50) g(chekan)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(113) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(chekan) n(1) n1(ruchich_smg:2)   ) }	
 
