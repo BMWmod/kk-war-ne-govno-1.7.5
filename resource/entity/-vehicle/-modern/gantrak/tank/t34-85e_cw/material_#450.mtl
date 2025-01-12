@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/t34_cw/t34"}
+	{blend test}
+}
