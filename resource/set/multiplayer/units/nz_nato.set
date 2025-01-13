@@ -82,7 +82,7 @@
                            
 ("squad_with11types_custom" name(tankman) f(1)  c(1) cost(15) g(eng) b(supl) brig(common) side(nato) crew_nation(pol)    t(all_nz    ) info(tankman) c1(tankman:1)              ) 
 ("squad_with11types_custom" name(vehicle_supporter) f(1)  c(30) cost(15) g(support) b(supl) brig(common) side(nato) crew_nation(frg)    t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
-("squad_with11types_custom" name(pilot) f(1)  c(50) cost(15) g(airadd) b(usaf_hqcar) brig(nrf) side(nato) crew_nation(brit)    t(all_nz    ) info(pilot) c1(pilot:1)              ) 
+("squad_with11types_custom" name(pilot) f(1)  c(50) cost(15) g(airadd) b(nrf_hqcar) brig(nrf) side(nato) crew_nation(brit)    t(all_nz    ) info(pilot) c1(pilot:1)              ) 
                                    
 ("squad_with11types_custom" name(operator_bpla) f(0.6)  c(680) cost(50) g(operator_bpla) b(supl) brig(common) side(nato) crew_nation(frg)    t(all_nz    ) info(operator_bpla) c1(frg_operator_bpla:1)              ) 
  {"mstar_v6" {fore 0} ("vs_nation" c(900) sc(100) g(mstar) b(supl) brig(common) s(nato) crew_nation(brit) i(5) cw(1) cp(15) t(all_nz    ) n(2)               ) }
