@@ -2,8 +2,8 @@
 ;Model created by: Timosh
 ;Date: Thu Oct 28 09:16:09 2021
 ;File: G:\?????? ? Pheonix\??????????????\??????\?????\?-34\T-34-85 CW 4.max
-;Model create/rebuild by: negrilacreator
-;Last build date: Monday 12 January 2025 [14:29:14]
+;Model create/rebuild by: negrilocreator
+;Last build date: Wednesday 14 January 2025 [16:53:20]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.3}}
@@ -1111,7 +1111,7 @@
         0.94148	0	0
         0	0.0122168	0.999925
         0	-1.02002	0.0124624
-        0.199998	33.4	-0.400001
+        -2.2	36.6	-0.400001
     }
 }
 {Volume "body_sh_r"
@@ -1121,6 +1121,26 @@
         -0.934277	0.0015227	0.00116742
         0.00121643	-0.0198896	0.999801
         0.00167916	1.01485	0.0201872
-        -1.2	-35.5	-0.3
+        -0.4	-35.7	-0.3
+    }
+}
+{Volume "body_armor_l"
+    {Polyhedron "body_armor_l.vol"}
+    {Bone "body"}
+    {Matrix34
+        -0.885733	0.0075149	-0.0156732
+        -0.0225824	0.023857	1.28763
+        0.00694791	0.781371	-0.017985
+        17.2	33.7	0
+    }
+}
+{Volume "body_armor_r"
+    {Polyhedron "body_armor_r.vol"}
+    {Bone "body"}
+    {Matrix34
+        -0.889195	-9.68909e-08	0
+        -1.88503e-09	0.0172991	1.2389
+        -7.79713e-08	0.715565	-0.0099918
+        14.5	-31.9	0.3
     }
 }
