@@ -26,9 +26,5 @@
 		{energy 50}
 		{area 2 3}
 	}
-	{damage add fire
-			{radius 20}
-			{heating 10}
-			{time 10}
-	}
+
 }

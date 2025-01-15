@@ -2,8 +2,8 @@
 ;Model created by: Администратор
 ;Date: Wed Mar 05 23:03:40 2014
 ;File: J:\GAMES_NEW\MAX_files\scenes\My mod\avia\L39.max
-;Model create/rebuild by: Makimka
-;Last build date: Friday 28 March 2024 [18:35:20]
+;Model create/rebuild by: Makimaglist
+;Last build date: Thursday 15 January 2025 [15:37:07]
 {Skeleton
     {Animation
         {Sequence "wheels"}
@@ -281,4 +281,49 @@
         0	0	1
         -16.0285	-57.0653	-36.5509
     }
+}
+{Volume "engine1"
+    {Polyhedron "engine1.vol"}
+    {Bone "body"}
+    {Matrix34
+        -0.0153641	-0.00326574	0.999875
+        -0.207912	0.978148	9.10971e-09
+        -0.978026	-0.207886	-0.0157071
+        -34.4	0	-13
+    }
+}
+{Volume "fuel_tank_internal_a"
+    {Polyhedron "fuel_tank_internal_a.vol"}
+    {Bone "body"}
+    {Position -40.5	0.9	-15.6}
+}
+{Volume "pilot_panel"
+    {Polyhedron "pilot_panel.vol"}
+    {Bone "body"}
+    {Position 62.2	0.9	-32}
+}
+{Volume "wingl1"
+    {Polyhedron "wingl1.vol"}
+    {Bone "body"}
+    {Matrix34
+        -0.0157074	-0.999876	0
+        0.999876	-0.0157074	0
+        0	0	1
+        6.30001	-35.6	-33.6
+    }
+}
+{Volume "wingr1"
+    {Polyhedron "wingr1.vol"}
+    {Bone "body"}
+    {Matrix34
+        -0.0618125	0.997981	-0.0147425
+        0.989309	0.063217	0.131432
+        0.132099	-0.00646073	-0.991215
+        11.6	24.6	-24.8
+    }
+}
+{Volume "balancer"
+    {Box 60 60 60}
+    {Bone "body"}
+    {Position 237	0	-33}
 }

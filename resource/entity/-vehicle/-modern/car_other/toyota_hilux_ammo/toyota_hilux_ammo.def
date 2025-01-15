@@ -4,7 +4,7 @@
 	(include "/properties/shadow/tank.inc"  scale(0.9))
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 	{mass 1700}
-	{props "vehicle" "car" "wheeled" "turn_over" "vision_lev02" "-tractor" "toyota"}
+	{props "vehicle" "car" "wheeled" "turn_over" "vision_lev02" "-tractor" "toyota" "supply_5t"}
 	{PatherId "vehicle.small"}
 	("armor_car_civilian")
 
