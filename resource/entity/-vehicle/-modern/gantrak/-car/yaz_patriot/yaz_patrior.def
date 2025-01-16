@@ -2,7 +2,7 @@
 	(include "/properties/car.ext")
 	(include "/properties/shadow/tank.inc"  scale(0.9))
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
-    {props "vehicle" "wheeled" "4_wheels" "car" "hmmwv"}
+    {props "vehicle" "wheeled" "4_wheels" "car" "hmmwv" "supply_5t"}
 	("armor_car_truck")
 	
 	{extender "enumerator"}
