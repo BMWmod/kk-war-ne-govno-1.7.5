@@ -1,8 +1,0 @@
-;SDL
-{game
-  {maxPlayers 10}
-  {texMod forest}
-; {ranked}
-; {rankedMinPlayers 6}
-;  {rankedMaxPlayers 8}
-}	

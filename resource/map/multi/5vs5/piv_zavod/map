@@ -4,10 +4,10 @@
 	}
 	{Clips
 		{"[auto]"
-			{world -8912.99 -8852.89 8896.77 8597.28}
-			{camera -8571.28 -8467.24 8540.37 7950.93}
-			{pather -8337.78 -8282.96 8336.38 7652.64}
-			{distance 200 800}
+			{world -8912.99 -8988.29 8896.77 8597.28}
+			{camera -8918.06 -8965.8 8877.89 8503.7}
+			{pather -8896.37 -8862.46 8877.89 8356.85}
+			{distance 0 6800}
 			{viewAngle 20 50}
 			{water -400}
 		}
@@ -256,7 +256,7 @@
 		}
 		{Player 0}
 		{MID 10032}
-		{Able "-ally_crew" "-repaired" "-select" "-unmask" "-minimap" "-emit_passangers_on_enemy"}
+		{Able "-repaired" "-select" "-unmask" "-minimap"}
 		{Chassis
 			{Links 10039}
 		}
@@ -876,7 +876,7 @@
 		}
 		{Player 0}
 		{MID 10001}
-		{Able "-ally_crew" "-repaired" "-select" "-unmask" "-minimap" "-emit_passangers_on_enemy"}
+		{Able "-repaired" "-select" "-unmask" "-minimap"}
 	}
 	{Entity "tendor" 0x403b
 		{Position 7272.03 5142.24}
@@ -1577,6 +1577,17 @@
 	{Entity "crate6" 0x21c3
 		{Position -5447.23 5036.75 -341}
 		{xform zl 173.84}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10003}
 	}
 	{Entity "box_wood5" 0x427b
 		{Position -5635.86 5034.33 -341}
@@ -2164,6 +2175,17 @@
 	{Entity "crate6" 0x61cf
 		{Position -1191.58 5470.74 -346.68}
 		{xform zl -159.84}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10004}
 	}
 	{Entity "crate4" 0x61d0
 		{Position -1005.03 5268.17 -353.71}
@@ -2264,6 +2286,17 @@
 	{Entity "crate6" 0x1029
 		{Position -1408.59 5108.72 -349.63}
 		{xform zl -145.69}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10005}
 	}
 	{Entity "pla01" 0x102a
 		{Position -1130.71 4993.29 -352.5}
@@ -2280,6 +2313,17 @@
 	{Entity "crate6" 0x102c
 		{Position -1159.38 4955.12 -345.44}
 		{xform zl -20.77}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10006}
 	}
 	{Entity "tradevan_dead3a" 0x102d
 		{Position -1063.96 5455.25 -354}
@@ -2343,6 +2387,9 @@
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
+		{Volume "hole2"
+			{able {touch 1}}
+		}
 	}
 	{Entity "station_corner10" 0x497
 		{TexMod
@@ -2354,6 +2401,9 @@
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+		{Volume "hole1"
+			{able {touch 1}}
 		}
 	}
 	{Entity "station_h_corner1" 0x499
@@ -2492,6 +2542,9 @@
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
+		{Volume "hole2"
+			{able {touch 1}}
+		}
 	}
 	{Entity "station_corner10" 0x4ae
 		{TexMod
@@ -2503,6 +2556,9 @@
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+		{Volume "hole1"
+			{able {touch 1}}
 		}
 	}
 	{Entity "station_corner1" 0x4b0
@@ -2574,6 +2630,9 @@
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
+		{Volume "hole2"
+			{able {touch 1}}
+		}
 	}
 	{Entity "station_corner10" 0x4bb
 		{TexMod
@@ -2585,6 +2644,9 @@
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+		{Volume "hole1"
+			{able {touch 1}}
 		}
 	}
 	{Entity "station_corner1" 0x4bd
@@ -2656,6 +2718,9 @@
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
+		{Volume "hole2"
+			{able {touch 1}}
+		}
 	}
 	{Entity "station_corner10" 0x4c6
 		{TexMod
@@ -2667,6 +2732,9 @@
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+		{Volume "hole1"
+			{able {touch 1}}
 		}
 	}
 	{Entity "dok_build2_bottom" 0x7836
@@ -4933,17 +5001,14 @@
 	{Entity "cobble1" 0x1c15
 		{Position -1160.91 3915.03 -353.5}
 		{xform zl 136.29 scale 1.29}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x1c19
 		{Position -1881.05 3546.9}
 		{xform zl 14.46 scale 1.41}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x1c1c
 		{Position -1907.12 3457.52 -634}
 		{xform zl 98.49 y 25.24 zw -84.03 scale 1.41}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x1c1e
 		{Position -1911.96 3465.31 -634}
@@ -6374,17 +6439,14 @@
 	{Entity "cobble1" 0x4153
 		{Position -1777.56 4015.14}
 		{xform zl -43.18 scale 1.29}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x4154
 		{Position -1861.22 4586.66}
 		{xform zl 14.46 scale 1.41}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x4155
 		{Position -1920.87 4601.67 -648}
 		{xform zl 98.49 y 25.24 zw -84.03 scale 1.41}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x4156
 		{Position -1925.71 4609.46 -648}
@@ -7355,6 +7417,17 @@
 	{Entity "crate6" 0x5071
 		{Position -5446.82 6083.27 -341}
 		{xform zl 173.84}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10007}
 	}
 	{Entity "box_wood5" 0x5072
 		{Position -5635.45 6080.85 -341}
@@ -7518,6 +7591,17 @@
 	{Entity "crate6" 0x5098
 		{Position -4943.55 5469.2 -341}
 		{xform zl 173.84}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10008}
 	}
 	{Entity "store_lend" 0x2008
 		{Position 6365.04 6490.5 -353}
@@ -8007,6 +8091,17 @@
 	{Entity "crate6" 0x2092
 		{Position 5254.83 6048.54 -341}
 		{xform zl 173.84}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10009}
 	}
 	{Entity "box_wood5" 0x2093
 		{Position 5066.2 6046.12 -341}
@@ -8433,6 +8528,17 @@
 	{Entity "crate6" 0x20f8
 		{Position 5726.75 4997.1 -341}
 		{xform zl 173.84}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10010}
 	}
 	{Entity "store_lend" 0x20f9
 		{Position 4562.34 5387.46 -353}
@@ -8692,6 +8798,17 @@
 	{Entity "crate6" 0x2132
 		{Position 5220.8 5390.28 -341}
 		{xform zl 173.48}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10011}
 	}
 	{Entity "box_wood5" 0x2133
 		{Position 5032.16 5389.03 -341}
@@ -9569,7 +9686,6 @@
 	{Entity "crater_big" 0x320b
 		{Position 1051.18 6773.43 -350}
 		{xform zl 86.65}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x320c
 		{Position 1138.79 6857.81}
@@ -10146,7 +10262,6 @@
 	{Entity "crater_norm" 0x50e9
 		{Position 2670.69 7127.97 -350}
 		{xform zl 103.81}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x50ea
 		{Position 2650.09 7000.39}
@@ -10171,7 +10286,6 @@
 	{Entity "crater_norm" 0x50ef
 		{Position 2037.22 7313.37 -343.29}
 		{xform zl 104.96}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x2cb
 		{Position 2016.63 7185.79 -346.48}
@@ -10511,7 +10625,6 @@
 	{Entity "cobble1" 0x622d
 		{Position 1011.28 7471.15 -339.76}
 		{xform zl -136.58 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "barricade_cobl3_c1" 0x622e
 		{Position 1226.58 7452.34 -341.58}
@@ -10521,12 +10634,10 @@
 	{Entity "cobble1" 0x622f
 		{Position 1148.28 7466.37 -340.76}
 		{xform zl 126.69 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x6230
 		{Position 1222.08 7476.98 -339.55}
 		{xform zl 126.69 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "fence2000_3" 0x6232
 		{Position 1275.98 7476.27 -338.76}
@@ -10589,12 +10700,10 @@
 	{Entity "cobble1" 0x2da
 		{Position 1443.29 7309.27 -346.88}
 		{xform zl -45.28 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x2db
 		{Position 1444.95 7446.35 -339.76}
 		{xform zl -142.01 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "fence2000_3" 0x2dc
 		{Position 1435.38 7222.17 -349.77}
@@ -10611,7 +10720,6 @@
 	{Entity "cobble1" 0x1804
 		{Position 1401.99 7483.19 -338.14}
 		{xform zl -76.34 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "fence2000_3a_cr" 0x1805
 		{Position 713 7035.81}
@@ -10626,7 +10734,6 @@
 	{Entity "cobble1" 0x1809
 		{Position 701.4 7035.81}
 		{xform zl 126.69 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "fence2000_3" 0x180b
 		{Position 762.53 7480.76 -337.76}
@@ -10667,7 +10774,6 @@
 	{Entity "cobble1" 0x2dd
 		{Position 660.2 7257.76}
 		{xform zl 35.77 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "fence2000_3" 0x1812
 		{Position 658.62 7203.88}
@@ -10723,12 +10829,10 @@
 	{Entity "cobble1" 0x181f
 		{Position 651.91 7439.91 -339.76}
 		{xform zl 133.52 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x1821
 		{Position 647.37 7302.9 -349}
 		{xform zl 36.79 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "barricade_cobl3_c1" 0x510d
 		{Position 710.89 7470.25 -338.76}
@@ -10738,12 +10842,10 @@
 	{Entity "cobble1" 0x510f
 		{Position 702.03 7471.86 -338.62}
 		{xform zl 133.52 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "cobble1" 0x5110
 		{Position 895.22 7485.54 -337.9}
 		{xform zl 123.33 scale 0.643}
-		{TexMod "red"}
 	}
 	{Entity "container1" 0x5111
 		{Position 948.57 7273.43}
@@ -10847,7 +10949,6 @@
 	{Entity "crater_small" 0x6090
 		{Position 1674.23 6691.09 -350}
 		{xform zl -110.07}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x6091
 		{Position 1779.59 6719.79}
@@ -10897,7 +10998,6 @@
 	{Entity "crater_small" 0x215e
 		{Position 1565.67 6444.21 -344.1}
 		{xform zl -99.71}
-		{TexMod "ground3"}
 	}
 	{Entity "railroad5a1_broken" 0x7800
 		{Position 1554.2 6486.35 -352.16}
@@ -11778,7 +11878,6 @@
 	{Entity "crater_norm" 0x18fd
 		{Position -3516.55 7547.05 -357.57}
 		{xform zl -107.55}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x18ff
 		{Position -3619.07 7546.98 -326.47}
@@ -11798,7 +11897,6 @@
 	{Entity "crater_norm" 0x430
 		{Position 1088.88 2469.62 -399.71}
 		{xform zl 19.75}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x431
 		{Position 961.32 2490.41 -396.51}
@@ -11823,7 +11921,6 @@
 	{Entity "crater_norm" 0x434
 		{Position 1099.19 2922.14 -408.5}
 		{xform zl 45.67}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x190d
 		{Position 1085.77 3050.67 -407.97}
@@ -11848,7 +11945,6 @@
 	{Entity "crater_norm" 0x6383
 		{Position 672.69 1958.54 -389.5}
 		{xform zl 47.36}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x6384
 		{Position 545.14 1979.32 -384.74}
@@ -11873,7 +11969,6 @@
 	{Entity "crater_norm" 0x638d
 		{Position -4018.82 7529.65 -372.42}
 		{xform zl -139.1}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x638e
 		{Position -3890 7540.13 -337.5}
@@ -12237,28 +12332,28 @@
 		{Player 0}
 		{MID 10048}
 		{Chassis
-			{Links 10013}
+			{Links 10017}
 		}
 	}
 	{Entity "tradevan_explosive" 0x441
 		{Position -1278.93 6228.97}
 		{xform zl 179.8}
 		{Player 0}
-		{MID 10007}
+		{MID 10012}
 	}
 	{Entity "tradevan_explosive" 0x442
 		{Position -226.98 6225.56}
 		{xform zl 179.91}
 		{Player 0}
-		{MID 10008}
+		{MID 10013}
 	}
 	{Entity "platform" 0x443
 		{Position -661.07 6227.79}
 		{xform zl 179.8}
 		{Player 0}
-		{MID 10009}
+		{MID 10014}
 		{Chassis
-			{Links 10022}
+			{Links 10026}
 		}
 	}
 	{Entity "coaster_ship_tank" 0x444
@@ -12268,7 +12363,7 @@
 		{Position -1400.66 5332.88}
 		{xform zl 0.19}
 		{Player 0}
-		{MID 10010}
+		{MID 10015}
 	}
 	{Entity "tradevan_dead1" 0x446
 		{Position -1754.44 5337.98}
@@ -12294,13 +12389,13 @@
 		{Position -4247.12 5325.77}
 		{xform zl -179.81}
 		{Player 0}
-		{MID 10012}
+		{MID 10016}
 	}
 	{Entity "tradevan_explosive" 0x4036
 		{Position -5533.01 5194.26}
 		{xform zl -179.81}
 		{Player 0}
-		{MID 10013}
+		{MID 10017}
 		{Chassis
 			{Links 10048}
 		}
@@ -12309,60 +12404,60 @@
 		{Position -6419.12 5318.54}
 		{xform zl -179.81}
 		{Player 0}
-		{MID 10014}
+		{MID 10018}
 	}
 	{Entity "tradevan_explosive" 0x40f3
 		{Position -6002.28 6245.19}
 		{xform zl 179.8}
-		{Player 0}
-		{MID 10015}
-		{Chassis
-			{Links 10016}
-		}
-	}
-	{Entity "tradevan_explosive" 0x4197
-		{Position -5811.16 6244.53}
-		{xform zl 179.8}
-		{Player 0}
-		{MID 10016}
-		{Chassis
-			{Links 10017 10015}
-		}
-	}
-	{Entity "tradevan_explosive" 0x419a
-		{Position -5620.03 6243.86}
-		{xform zl 179.8}
-		{Player 0}
-		{MID 10017}
-		{Chassis
-			{Links 10018 10016}
-		}
-	}
-	{Entity "platform" 0x419e
-		{Position -5416.41 6243.99}
-		{xform zl 179.8}
-		{Player 0}
-		{MID 10018}
-		{Chassis
-			{Links 10017}
-		}
-	}
-	{Entity "platform" 0x419f
-		{Position -4675.31 6368.59}
-		{xform zl 179.81}
 		{Player 0}
 		{MID 10019}
 		{Chassis
 			{Links 10020}
 		}
 	}
-	{Entity "platform" 0x41a1
-		{Position -4879.21 6369.3}
+	{Entity "tradevan_explosive" 0x4197
+		{Position -5811.16 6244.53}
 		{xform zl 179.8}
 		{Player 0}
 		{MID 10020}
 		{Chassis
-			{Links 10019}
+			{Links 10021 10019}
+		}
+	}
+	{Entity "tradevan_explosive" 0x419a
+		{Position -5620.03 6243.86}
+		{xform zl 179.8}
+		{Player 0}
+		{MID 10021}
+		{Chassis
+			{Links 10022 10020}
+		}
+	}
+	{Entity "platform" 0x419e
+		{Position -5416.41 6243.99}
+		{xform zl 179.8}
+		{Player 0}
+		{MID 10022}
+		{Chassis
+			{Links 10021}
+		}
+	}
+	{Entity "platform" 0x419f
+		{Position -4675.31 6368.59}
+		{xform zl 179.81}
+		{Player 0}
+		{MID 10023}
+		{Chassis
+			{Links 10024}
+		}
+	}
+	{Entity "platform" 0x41a1
+		{Position -4879.21 6369.3}
+		{xform zl 179.8}
+		{Player 0}
+		{MID 10024}
+		{Chassis
+			{Links 10023}
 		}
 	}
 	{Entity "coaster_ship_tank" 0x41a2
@@ -12372,7 +12467,7 @@
 		{Position -4476.03 6367.9}
 		{xform zl 179.8}
 		{Player 0}
-		{MID 10021}
+		{MID 10025}
 	}
 	{Entity "pla01" 0x378
 		{Position -4295.27 4535.65}
@@ -17120,9 +17215,9 @@
 		{Position -864.97 6228.5}
 		{xform zl 179.8}
 		{Player 0}
-		{MID 10022}
+		{MID 10026}
 		{Chassis
-			{Links 10009}
+			{Links 10014}
 		}
 	}
 	{Entity "railroad5_turn1c" 0x21d6
@@ -17156,21 +17251,21 @@
 		{xform zl -60.85}
 	}
 	{Entity "crane_m" 0x3803
-		{Position -2032.71 7063.6}
-		{xform zl 89.23}
+		{Position -2032.89 7064.69}
+		{xform zl 89.09}
 		{Player 0}
-		{MID 10023}
+		{MID 10027}
 		{Chassis
-			{Links 10025}
+			{Links 10028}
 		}
 	}
 	{Entity "tradevan_explosive" 0x3804
-		{Position -2030.08 7267.73}
+		{Position -2030 7272.09}
 		{xform zl 88.91}
 		{Player 0}
-		{MID 10025}
+		{MID 10028}
 		{Chassis
-			{Links 10023}
+			{Links 10027}
 		}
 	}
 	{Entity "stub_2" 0x5800
@@ -28207,7 +28302,6 @@
 	{Entity "cobble1" 0x4739
 		{Position -1865.24 -7482.71 -235.79}
 		{xform zl -43.97}
-		{TexMod "red"}
 	}
 	{Entity "crash_brick4se" 0x473b
 		{Position -1820.42 -7462.24 -228.59}
@@ -30756,10 +30850,6 @@
 	{Entity "town_border7b_kjust" 0xa35
 		{Position -43.81 2323.87}
 		{xform zl -179.99}
-	}
-	{Entity "dtruck1" 0xa36
-		{Position -586.88 1728.54}
-		{xform zl -138.93}
 	}
 	{Entity "leaves6brdr" 0xa3c
 		{Position -654.35 2189.87}
@@ -34978,6 +35068,17 @@
 	{Entity "crate6" 0xb02
 		{Position -464.65 -1934.6 -358}
 		{xform zl -23.66}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10029}
 	}
 	{Entity "container3" 0xb03
 		{Position -411.03 -2384.07 -352}
@@ -35705,7 +35806,6 @@
 	{Entity "crater_norm" 0x28eb
 		{Position -4036.01 1377.65 -345.54}
 		{xform zl 6.73}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x28ec
 		{Position -4056.34 1250.01 -367}
@@ -35730,7 +35830,6 @@
 	{Entity "crater_norm" 0x28f0
 		{Position -4488.56 1386.34 -366.9}
 		{xform zl -102.61}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x28f1
 		{Position -4617.04 1372.45 -389.99}
@@ -35755,7 +35854,6 @@
 	{Entity "crater_norm" 0x28f5
 		{Position -3523.44 963.29 -333.34}
 		{xform zl -129.22}
-		{TexMod "ground3"}
 	}
 	{Entity "stone_af1g" 0x28f6
 		{Position -3543.76 835.67 -352.24}
@@ -36785,6 +36883,9 @@
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
+		{Volume "hole2"
+			{able {touch 1}}
+		}
 	}
 	{Entity "station_corner10" 0xa96
 		{TexMod
@@ -36798,6 +36899,9 @@
 			{"/texture/common/decor/wood_02" "dark"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+		{Volume "hole1"
+			{able {touch 1}}
 		}
 	}
 	{Entity "station_h_corner1" 0xa98
@@ -39090,6 +39194,9 @@
 			{"/texture/common/decor/wood_02" "dark"}
 			{"/texture/common/roof/roof_met2_sh01" "sov3"}
 		}
+		{Volume "hole2"
+			{able {touch 1}}
+		}
 	}
 	{Entity "station_corner10" 0xb10
 		{TexMod
@@ -39101,6 +39208,9 @@
 		{TexMod
 			{"/texture/common/decor/wood_02" "dark"}
 			{"/texture/common/roof/roof_met2_sh01" "sov3"}
+		}
+		{Volume "hole1"
+			{able {touch 1}}
 		}
 	}
 	{Entity "station_h_corner1" 0xb12
@@ -42418,37 +42528,11 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "pla01" 0x2447
-		{Position 7093.04 -1821.74}
-		{xform zl 32.56 scale 0.583}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree3" 0x2448
-		{Position 6777.07 -2511.24}
-		{xform zl -84.67}
-	}
-	{Entity "pla01" 0x2449
-		{Position 7378.56 -1983.69}
-		{xform zl -175.17}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "pla01" 0x244a
 		{Position 835.32 393.91}
 		{xform zl 48.13}
 		{TexMod "color"}
 		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x244b
-		{Position 7258.58 -1273.82}
-		{xform zl -153.79 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "crash_stone1a" 0x244c
-		{Position 7050.46 -1577.8 -349}
-		{xform zl 111.17}
-		{Color 0xff8e8261}
 	}
 	{Entity "pla01" 0x244d
 		{Position 1123.55 198.49}
@@ -42468,44 +42552,9 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "pla01" 0x2450
-		{Position 7128.67 -1383.35}
-		{xform zl 52.62}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2451
-		{Position 6924.2 -2580.8}
-		{xform zl 150.54}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2452
-		{Position 7288.29 -2163.54}
-		{xform zl -59.15 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2453
-		{Position 7579.37 -1608.99}
-		{xform zl 69.24}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "bush8" 0x2454
-		{Position 7529.15 -2054.58}
-		{xform zl 109.17 scale 0.859}
-		{TexMod "autlate"}
-	}
 	{Entity "pla01" 0x2455
 		{Position 7103.21 -2679.93}
 		{xform zl 59.83 scale 1.143}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2456
-		{Position 7233.77 -2227.94}
-		{xform zl -85.7 scale 1.727}
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
@@ -42515,43 +42564,10 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "bush8" 0x2458
-		{Position 7385.18 -1999.85}
-		{xform zl 66.41 scale 0.859}
-		{TexMod "autlate"}
-	}
 	{Entity "new_tree1a" 0x2459
 		{Position 801.74 522.56}
 		{xform zl -47.55 scale 1.369}
 		{TexMod "3"}
-	}
-	{Entity "new_tree1a" 0x245a
-		{Position 7227.69 -2235.31}
-		{xform zl 146.54 scale 1.449}
-		{TexMod "3"}
-	}
-	{Entity "pla01" 0x245b
-		{Position 7364.4 -2130.97}
-		{xform zl -85.24}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x245c
-		{Position 7362.82 -2134.15}
-		{xform zl 58.61}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x245d
-		{Position 7317.81 -2040.99}
-		{xform zl 75.53 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "bush8" 0x245e
-		{Position 7380.57 -2124.36}
-		{xform zl 156.34 scale 0.859}
-		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x245f
 		{Position 847.98 177.54}
@@ -42561,22 +42577,10 @@
 		{Position 824.21 221.44}
 		{xform zl 119.82}
 	}
-	{Entity "pla01" 0x2461
-		{Position 7653.96 -2284.27}
-		{xform zl -83.62}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "crash_stone1a" 0x2462
 		{Position 747.12 118.62}
 		{xform zl 140.61}
 		{Color 0xff8e8261}
-	}
-	{Entity "pla01" 0x2463
-		{Position 7113.62 -2049.62}
-		{xform zl -103.22}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
 	}
 	{Entity "crash_stone1a" 0x2464
 		{Position 740.91 191.64}
@@ -42588,29 +42592,6 @@
 		{xform zl 73.54 scale 1.23}
 		{TexMod "color"}
 		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2466
-		{Position 7680.24 -2262.09}
-		{xform zl 24.46 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2467
-		{Position 7342.51 -2031.69}
-		{xform zl -7.95}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2468
-		{Position 7279.96 -2254.29}
-		{xform zl 132.59 scale 1.727}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "new_tree1a" 0x2469
-		{Position 7577.49 -2274.76}
-		{xform zl 4.83 scale 1.449}
-		{TexMod "3"}
 	}
 	{Entity "ash_tree3" 0x246a
 		{Position 841.07 444}
@@ -42628,18 +42609,6 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "pla01" 0x246d
-		{Position 6973.66 -2214.17}
-		{xform zl -158.49}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x246e
-		{Position 6823.1 -2328.95}
-		{xform zl 175.12}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "pla01" 0x246f
 		{Position 6482.46 -1355.45 -349}
 		{xform zl 116.22 scale 1.23}
@@ -42650,12 +42619,6 @@
 		{Position 604.12 -222.79}
 		{xform zl -93.84 scale 0.859}
 		{TexMod "autlate"}
-	}
-	{Entity "pla01" 0x2471
-		{Position 7205.55 -2275.53}
-		{xform zl 178.99}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
 	}
 	{Entity "bush8" 0x2472
 		{Position 6533.62 -2012.76}
@@ -42812,12 +42775,6 @@
 		{xform zl 89.38}
 		{Color 0xff8e8261}
 	}
-	{Entity "pla01" 0x248d
-		{Position 7248.9 -1364.9 -349}
-		{xform zl 134.88 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "pla01" 0x248e
 		{Position 4620.66 285.27 -326}
 		{xform zl 124.8}
@@ -42847,11 +42804,6 @@
 		{xform zl 46.5 scale 1.449}
 		{TexMod "3"}
 	}
-	{Entity "new_tree1a" 0x2493
-		{Position 7213.72 -1582.12 -349}
-		{xform zl -10.71 scale 1.369}
-		{TexMod "3"}
-	}
 	{Entity "pla01" 0x2494
 		{Position 4683.94 224.07 -326}
 		{xform zl 94.42}
@@ -42864,22 +42816,11 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "pla01" 0x2496
-		{Position 7863.54 -1135.92}
-		{xform zl -171.51 scale 1.727}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "pla01" 0x2497
 		{Position 6392.23 -1170.5}
 		{xform zl -80.14 scale 1.23}
 		{TexMod "color"}
 		{Color 0xffdbab7e}
-	}
-	{Entity "new_tree1a" 0x2498
-		{Position 7722.85 -1195.37}
-		{xform zl 125.55 scale 1.449}
-		{TexMod "3"}
 	}
 	{Entity "tree_oak" 0x2499
 		{Position 6417.08 -1101.28}
@@ -42888,34 +42829,6 @@
 	{Entity "pla01" 0x249a
 		{Position 7827.28 -1159.29}
 		{xform zl -164.67}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x249b
-		{Position 7786.7 -1409.38}
-		{xform zl -133.43}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x249c
-		{Position 7727.8 -1391.74}
-		{xform zl -83.97 scale 1.727}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "new_tree1a" 0x249d
-		{Position 7721.95 -1399.3}
-		{xform zl 148.27 scale 1.449}
-		{TexMod "3"}
-	}
-	{Entity "new_tree1a" 0x249e
-		{Position 7825.36 -1368.64}
-		{xform zl 91.06 scale 1.369}
-		{TexMod "3"}
-	}
-	{Entity "pla01" 0x249f
-		{Position 7833.7 -1334.95}
-		{xform zl -163.81}
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
@@ -43232,53 +43145,6 @@
 		{Position 4834.78 -1262.87}
 		{xform zl 156.32}
 	}
-	{Entity "pla01" 0x24da
-		{Position 8322.83 -1402.67}
-		{xform zl -129.88}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x24db
-		{Position 8443.22 -1359.23}
-		{xform zl -173.75 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x24dc
-		{Position 8260.3 -1554.19}
-		{xform zl -15.95}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "bush8" 0x24dd
-		{Position 8211.74 -1565.69}
-		{xform zl 23.98 scale 0.859}
-		{TexMod "autlate"}
-	}
-	{Entity "bush8" 0x24de
-		{Position 8193.33 -1749.65}
-		{xform zl 177.16 scale 0.859}
-		{TexMod "autlate"}
-	}
-	{Entity "fir" 0x24df
-		{Position 7897.88 -1235.08 -346}
-		{xform zl -75.69 y 1.67 zw -54.27 scale 0.7}
-		{Constrain surface}
-		{Volume "crown"
-			{able {visible 1}}
-		}
-	}
-	{Entity "pla01" 0x24e0
-		{Position 8016.3 -1282.3 -346}
-		{xform zl 91.32}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "bush8" 0x24e1
-		{Position 7999.77 -1287.92 -346}
-		{xform zl -27.1 scale 0.859}
-		{TexMod "autlate"}
-	}
 	{Entity "pla01" 0x24e2
 		{Position 8004.97 -1156.49 -346}
 		{xform zl -174.57}
@@ -43288,12 +43154,6 @@
 	{Entity "ash_tree3" 0x24e3
 		{Position 6824.26 -1243.88 -346}
 		{xform zl -18.57}
-	}
-	{Entity "pla01" 0x24e4
-		{Position 8296.95 -1801.12 -346}
-		{xform zl 137.64}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
 	}
 	{Entity "pla01" 0x24e5
 		{Position 3771.58 -205.4 -307}
@@ -43515,44 +43375,9 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "pla01" 0x250c
-		{Position 8146.34 -3573.69 -311.58}
-		{xform zl -98.61}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "crash_stone1a" 0x250d
-		{Position 8150.54 -3596.34 -310}
-		{xform zl 52.03}
-		{Color 0xff8e8261}
-	}
-	{Entity "pla01" 0x250e
-		{Position 8713.22 -1722.85 -349}
-		{xform zl 1.59 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x250f
-		{Position 8248.09 -3256.23}
-		{xform zl -124.87 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2510
-		{Position 8472.75 -1807.39}
-		{xform zl -175.64 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "pla01" 0x2511
 		{Position 2605.28 868.74 -339}
 		{xform zl -59.77 scale 1.727}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2512
-		{Position 8734.34 -1960.02 -349}
-		{xform zl -8.06}
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
@@ -43571,17 +43396,6 @@
 		{Position 995.12 949.57}
 		{xform zl 62.2}
 	}
-	{Entity "bush8" 0x2516
-		{Position 7855.62 -1853.51}
-		{xform zl -59.18 scale 0.859}
-		{TexMod "autlate"}
-	}
-	{Entity "pla01" 0x2518
-		{Position 8389.97 -2728.14}
-		{xform zl -31.47 scale 1.727}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "pla01" 0x2519
 		{Position 1217.96 1222.73}
 		{xform zl 12.22}
@@ -43594,12 +43408,6 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "pla01" 0x251b
-		{Position 8537.32 -1557.86}
-		{xform zl 75.24 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
 	{Entity "pla01" 0x251c
 		{Position 2675.3 838.27}
 		{xform zl 168.28 scale 1.727}
@@ -43609,54 +43417,6 @@
 	{Entity "pla01" 0x251d
 		{Position 1333.13 761.28}
 		{xform zl -73.01}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "new_tree1a" 0x251e
-		{Position 8505.02 -2731.84}
-		{xform zl 166.02 scale 1.449}
-		{TexMod "3"}
-	}
-	{Entity "tree_oak" 0x251f
-		{Position 8483.63 -2941.41}
-		{xform zl -116.89}
-	}
-	{Entity "new_tree1a" 0x2520
-		{Position 8541.19 -2280.36}
-		{xform zl -114.54 scale 1.369}
-		{TexMod "3"}
-	}
-	{Entity "pla01" 0x2521
-		{Position 8432.76 -2733.51}
-		{xform zl -24.63}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "ash_tree3" 0x2522
-		{Position 8498.43 -2002.44}
-		{xform zl 55.16}
-	}
-	{Entity "pla01" 0x2523
-		{Position 8707.19 -2412.06}
-		{xform zl -8.43}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2524
-		{Position 7937.33 -1913.04}
-		{xform zl 23.1 scale 1.727}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2525
-		{Position 7784.49 -1876.1}
-		{xform zl -22.02}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x2526
-		{Position 8115.51 -1850.44}
-		{xform zl -56.35 scale 1.23}
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
@@ -43676,28 +43436,6 @@
 		{Position 1297.45 1030.37}
 		{xform zl 11 scale 1.449}
 		{TexMod "3"}
-	}
-	{Entity "crash_stone1a" 0x252a
-		{Position 8132.38 -2145.44}
-		{xform zl 25.88}
-		{Color 0xff8e8261}
-	}
-	{Entity "new_tree1a" 0x252b
-		{Position 7966.62 -1846.58}
-		{xform zl -75.19 scale 1.369}
-		{TexMod "3"}
-	}
-	{Entity "pla01" 0x252c
-		{Position 7966.51 -1881.29}
-		{xform zl 29.94}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
-	}
-	{Entity "pla01" 0x252d
-		{Position 7977.2 -3901.58 -297.86}
-		{xform zl 84.88 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
 	}
 	{Entity "pla01" 0x252e
 		{Position 1222.03 591.26 -373.57}
@@ -44144,16 +43882,6 @@
 	{Entity "h_w_4_cut3" 0xb30
 		{Placer
 			{State "2" {Broken}}
-		}
-	}
-	{Entity "sels_win6" 0xbe9
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "sels_win7" 0xbea
-		{Volume "hole1"
-			{able {touch 0}}
 		}
 	}
 	{Entity "shed125_corn1" 0xbf0
@@ -44827,19 +44555,10 @@
 			{"/texture/common/entourage/wood_sh05" "1"}
 			{"/texture/common/wall/wall_stone115" "1"}
 		}
-		{Volume "hole2"
-			{able {touch 0}}
-		}
-		{Volume "hole4"
-			{able {touch 0}}
-		}
 	}
 	{Entity "house_wood123" 0xce9
 		{Position -1855.89 -6246.81 -269.3}
 		{xform zl -89.14}
-		{Volume "hole1"
-			{able {touch 0}}
-		}
 	}
 	{Entity "new_poplar1" 0xcea
 		{Position -1248.41 -5969.67 -188.72}
@@ -45669,9 +45388,6 @@
 	{Entity "house_wood122" 0x700b
 		{Position -221.96 -5992.49 -149.3}
 		{xform zl 93.08}
-		{Volume "hole4"
-			{able {touch 0}}
-		}
 	}
 	{Entity "fence_wood_r8" 0xdb3
 		{Position -138.39 -6088.46 -139.97}
@@ -47150,7 +46866,7 @@
 		{DecalOrder 1}
 	}
 	{Entity "shed_ru_124" 0xed6
-		{Position -567.28 -6737.93 -135.05}
+		{Position -567.28 -6737.93 -136.27}
 		{xform zl -179.63}
 	}
 	{Entity "bush_curly" 0xed7
@@ -47202,12 +46918,6 @@
 		{Position -155.06 -6387.14 -147.38}
 		{xform zl 165.08}
 		{TexMod "aut"}
-	}
-	{Entity "cane3" 0xee0
-		{Position -556.82 -7325 -180.38}
-		{xform zl -114.86}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
 	}
 	{Entity "bush_curly" 0xee1
 		{Position -499.88 -6565.47 -138.02}
@@ -47374,7 +47084,7 @@
 		{Color 0xffb8b8b8}
 	}
 	{Entity "new_poplar1" 0xefe
-		{Position -518 -7035.06 -164.9}
+		{Position -518 -7035.06 -172.67}
 		{xform zl 2.21}
 		{TexMod "bare"}
 	}
@@ -47407,35 +47117,13 @@
 		{xform zl -97.09}
 	}
 	{Entity "dried2" 0xf05
-		{Position -563.37 -6866.25 -134.67}
+		{Position -563.37 -6866.25 -145.46}
 		{xform zl -17.87}
-	}
-	{Entity "new_poplar1" 0xf06
-		{Position -571.72 -7272.62 -179.81}
-		{xform zl 153.09}
-		{TexMod "bare"}
 	}
 	{Entity "road_sand5w1" 0xf07
 		{Position -944.86 -7241.72 -202.17}
 		{xform zl -9.51}
 		{TexMod "pebble"}
-	}
-	{Entity "cane3" 0xf08
-		{Position -767.02 -7241.28 -189.04}
-		{xform zl 71.17}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "bush_curly" 0xf09
-		{Position -752.85 -7371.49 -191.3}
-		{xform zl -96.77}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0xf0a
-		{Position -764.8 -7241.24 -188.64}
-		{xform zl 88.64}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
 	}
 	{Entity "cane3" 0xf0b
 		{Position -767.85 -7439.2 -195.33}
@@ -47447,36 +47135,6 @@
 		{Position -757.91 -7469.09 -193.34}
 		{xform zl 27.45}
 		{TexMod "aut"}
-	}
-	{Entity "cane3" 0xf0d
-		{Position -787.04 -7343.75 -196.11}
-		{xform zl -89.21}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "cane3" 0xf0e
-		{Position -783.4 -7283.28 -192.03}
-		{xform zl -103.24}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "cane3" 0xf0f
-		{Position -748.96 -7324.05 -187.9}
-		{xform zl -86.82}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "ash_tree_bush1" 0xf10
-		{Position -604.78 -7290.53 -183.17}
-		{xform zl 73.01 scale 0.964}
-		{TexMod "bare1"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "dried2" 0xf11
-		{Position -799.63 -7205.09 -193.65}
-		{xform zl 76.46}
 	}
 	{Entity "cane3" 0xf12
 		{Position -817.04 -6719.84 -164.53}
@@ -47520,52 +47178,52 @@
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf1a
-		{Position -203.28 -6670.46 -132.83}
+		{Position -203.28 -6670.46 -136.26}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf1b
-		{Position -166.22 -6660.61 -135.62}
+		{Position -166.22 -6660.61 -136.22}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf1c
-		{Position -198.95 -6753.3 -134.06}
+		{Position -198.95 -6753.3 -147.54}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf1d
-		{Position -161.89 -6743.45 -137.92}
+		{Position -161.89 -6743.45 -141.3}
 		{xform zl -78.25}
 		{TexMod "aut1"}
 	}
 	{Entity "reed4" 0xf1e
-		{Position -197.28 -6831.92 -142.49}
+		{Position -197.28 -6831.92 -160.84}
 		{xform zl -78.25}
 		{TexMod "aut2"}
 	}
 	{Entity "reed4" 0xf1f
-		{Position -160.22 -6822.07 -141.04}
+		{Position -160.22 -6822.07 -145.13}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf20
-		{Position -193.73 -6921.85 -154.67}
+		{Position -193.73 -6921.85 -171.07}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf21
-		{Position -156.67 -6912 -154}
+		{Position -156.67 -6912 -160.43}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf22
-		{Position -188.25 -7006.82 -156.52}
+		{Position -188.25 -7006.82 -170.41}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0xf23
-		{Position -151.19 -6996.97 -157.84}
+		{Position -151.19 -6996.97 -165.25}
 		{xform zl -78.25}
 		{TexMod "aut"}
 	}
@@ -47669,12 +47327,12 @@
 		{TexMod "2"}
 	}
 	{Entity "wheat_big" 0xf38
-		{Position -327.14 -6884.69 -119.91}
+		{Position -327.14 -6884.69 -154.09}
 		{xform zl -20.67}
 		{DecalOrder 20}
 	}
 	{Entity "stack" 0xf39
-		{Position -334.84 -6880.04 -145.61}
+		{Position -334.84 -6880.04 -180.4}
 	}
 	{Entity "cane3" 0xf3a
 		{Position -488.79 -6486.73 -135.39}
@@ -47736,17 +47394,6 @@
 		{Position -666.74 -6998.49 -168.29}
 		{xform zl -97.11}
 		{TexMod "2"}
-	}
-	{Entity "bush_curly" 0xf43
-		{Position -565.1 -7124.87 -174.29}
-		{xform zl 89.68}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0xf44
-		{Position -679.73 -7155.01 -161.02}
-		{xform zl -84.91}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
 	}
 	{Entity "road_sand5w1" 0xf45
 		{Position -824.94 -6377.05 -142.13}
@@ -47910,36 +47557,6 @@
 		{Position -2012.03 -6300.55 -273.03}
 		{xform zl -115.83 scale 0.903}
 		{TexMod "aut"}
-	}
-	{Entity "fence-wood_3" 0xf62
-		{Position -408.98 -7371.33 -170.63}
-		{xform zl -81.31 scale 0.7}
-	}
-	{Entity "fence-wood_3" 0xf63
-		{Position -254.3 -7350.87 -166.13}
-		{xform zl -83.15 scale 0.7}
-	}
-	{Entity "bush_curly_b" 0xf64
-		{Position -217.66 -7362.52 -166.25}
-		{xform zl 88.54 scale 0.77}
-		{TexMod "aut"}
-	}
-	{Entity "bush_curly_b" 0xf65
-		{Position -246.79 -7364.62 -166.51}
-		{xform zl -15.23 scale 0.557}
-		{TexMod "2"}
-	}
-	{Entity "cane3" 0xf66
-		{Position -512.3 -7391.05 -178.92}
-		{xform zl -175.77}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "cane3" 0xf67
-		{Position -584.46 -7394.27 -184.47}
-		{xform zl 120.46}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
 	}
 	{Entity "cane2" 0xf68
 		{Position -1467.88 -6929.17 -243.84}
@@ -48479,27 +48096,6 @@
 		{Position -2132.24 -5472.96 -259.79}
 		{xform zl 84.16}
 	}
-	{Entity "bush_curly_b" 0x4108
-		{Position -558.18 -7641.42 -189.17}
-		{xform zl 6.24}
-		{TexMod "aut1"}
-	}
-	{Entity "cane2" 0x41ee
-		{Position -524.27 -7638.78 -188.44}
-		{xform zl -28.48}
-		{TexMod "aut1"}
-	}
-	{Entity "cane3" 0x41ef
-		{Position -538.01 -7674.33 -190.93}
-		{xform zl -28.48}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "new_poplar" 0x41fb
-		{Position -732.16 -7670.67}
-		{xform zl 74.36}
-		{TexMod "bare"}
-	}
 	{Entity "cane3" 0x4202
 		{Position -1192.39 -7437.77}
 		{xform zl 64.85}
@@ -48515,18 +48111,6 @@
 		{Position -1187.28 -7442.76}
 		{xform zl 120.85}
 		{TexMod "bare"}
-	}
-	{Entity "ash_tree_bush1" 0x4223
-		{Position -699.63 -7671.43 -203.35}
-		{xform zl 50.94 scale 1.217}
-		{TexMod "bare1"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "dried2" 0x4226
-		{Position -555.79 -7550.84 -186.87}
-		{xform zl -95.53}
 	}
 	{Entity "bush_curly" 0x4228
 		{Position -826.58 -7966.21 -238.52}
@@ -48552,17 +48136,6 @@
 		{xform zl -177.98}
 		{TexMod "aut"}
 		{Color 0xffb8b8b8}
-	}
-	{Entity "cane3" 0x422e
-		{Position -580.46 -7761.09}
-		{xform zl 56.74 scale 0.64}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "bush_curly" 0x422f
-		{Position -586.67 -7805.37 -204.32}
-		{xform zl 6.24}
-		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x4232
 		{Position -606.54 -7864.05 -210.66}
@@ -48961,12 +48534,6 @@
 		{xform zl 148.38}
 		{TexMod "aut"}
 	}
-	{Entity "cane3" 0x108e
-		{Position -455.5 -7737.91 -208.93}
-		{xform zl -82.95}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
 	{Entity "cane3" 0x108f
 		{Position -362.67 -7895.86 -211.95}
 		{xform zl -29.8}
@@ -49017,17 +48584,6 @@
 		{Volume "crown"
 			{able {visible 0}}
 		}
-	}
-	{Entity "cane3" 0x1098
-		{Position -5.61 -7515.66 -185.95}
-		{xform zl 165.18}
-		{TexMod "aut"}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "bush_curly_b" 0x1099
-		{Position 32.84 -7470.95 -186.67}
-		{xform zl 55.65 scale 1.27}
-		{TexMod "aut1"}
 	}
 	{Entity "fir" 0x50bd
 		{Position 1540.66 -8141.4}
@@ -61485,18 +61041,1114 @@
 		{TexMod "color"}
 		{Color 0xffdbab7e}
 	}
-	{Entity "pla01" 0x52ff
-		{Position 7739.1 -7041.01 -298.39}
-		{xform zl 80.64 scale 1.23}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
+	{Entity "corner14" 0x230
+		{Volume "hole26"
+			{able {touch 1}}
+		}
 	}
-	{Entity "pla01" 0x5300
-		{Position 7932.49 -7216.14}
-		{xform zl -118.16}
-		{TexMod "color"}
-		{Color 0xffdbab7e}
+	{Entity "corner19" 0x235
+		{Volume "hole36"
+			{able {touch 1}}
+		}
 	}
+	{Entity "cwps3_proj_point" 0x2f8
+		{Player 255}
+		{MID 10030}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x59f
+		{Player 255}
+		{MID 10033}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a0
+		{Player 255}
+		{MID 10034}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a1
+		{Player 255}
+		{MID 10035}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a2
+		{Player 255}
+		{MID 10036}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a3
+		{Player 255}
+		{MID 10040}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a4
+		{Player 255}
+		{MID 10041}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a5
+		{Player 255}
+		{MID 10042}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a6
+		{Player 255}
+		{MID 10044}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a7
+		{Player 255}
+		{MID 10047}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a8
+		{Player 255}
+		{MID 10049}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5a9
+		{Player 255}
+		{MID 10050}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5aa
+		{Player 255}
+		{MID 10051}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5ab
+		{Player 255}
+		{MID 10052}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5b8
+		{Player 255}
+		{MID 10053}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5b9
+		{Player 255}
+		{MID 10054}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5ba
+		{Player 255}
+		{MID 10055}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5d8
+		{Player 255}
+		{MID 10056}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5da
+		{Player 255}
+		{MID 10057}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x5df
+		{Player 255}
+		{MID 10058}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x824
+		{Player 255}
+		{MID 10059}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x856
+		{Player 255}
+		{MID 10060}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x857
+		{Player 255}
+		{MID 10061}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "cwps3_proj_point" 0x858
+		{Player 255}
+		{MID 10062}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "airfield" 0x1261
+		{Position 8436.66 -5749.65}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x1262
+		{Position 8425.99 -6547.81}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x1263
+		{Position 8415.7 -7294.97}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x1267
+		{Position 8041.22 -5766.5}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x1268
+		{Position 8030.55 -6564.66}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x126a
+		{Position 8020.27 -7311.83}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x126b
+		{Position -7908.05 -6369.58}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x126c
+		{Position -7918.72 -7167.74}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x126d
+		{Position -7929.01 -7914.9}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x126e
+		{Position -8303.49 -6386.43}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x126f
+		{Position -8314.16 -7184.59}
+		{xform zl 88.98}
+	}
+	{Entity "airfield" 0x1270
+		{Position -8324.44 -7931.76}
+		{xform zl 88.98}
+	}
+	{Entity "road_sand5w1" 0x12ad
+		{Position -684.39 -7127.77 -159.4}
+		{xform zl -83.41}
+		{TexMod "pebble"}
+	}
+	{Entity "road_sand5w1" 0x635f
+		{Position -299.27 -7114.62 -137.5}
+		{xform zl -111.32}
+		{TexMod "pebble"}
+	}
+	{Entity "school_ru" 0x3669
+		{Position -308.93 -7123.72 -168.94}
+		{xform zl -80.68}
+	}
+	{Entity "school_ru_inn_r_1_1" 0x37ce
+		{AreaDisable "left"}
+	}
+	{Link 0x2f8 {0x2402 "cwps_proj_point"}}
 	{Link 0x6c01 {0x2841 "station_corner3"}}
 	{Link 0x491 {0x2841 "station_corner4"}}
 	{Link 0x492 {0x2841 "station_corner5"}}
@@ -61673,7 +62325,23 @@
 	{Link 0x1f5 {0x204 "side"}}
 	{Link 0x1f6 {0x204 "roof"}}
 	{Link 0x1813 {0x182f "wall10"}}
+	{Link 0x59f {0x43f "cwps_proj_point"}}
+	{Link 0x5a1 {0x2271 "cwps_proj_point"}}
+	{Link 0x5a2 {0x441 "cwps_proj_point"}}
+	{Link 0x5a0 {0x442 "cwps_proj_point"}}
+	{Link 0x5aa {0x443 "cwps_proj_point"}}
+	{Link 0x5ab {0x445 "cwps_proj_point"}}
 	{Link 0x444 {0x445 "vehicle"}}
+	{Link 0x5a5 {0x4006 "cwps_proj_point"}}
+	{Link 0x5a4 {0x4036 "cwps_proj_point"}}
+	{Link 0x5a3 {0x4037 "cwps_proj_point"}}
+	{Link 0x5a6 {0x40f3 "cwps_proj_point"}}
+	{Link 0x5a7 {0x4197 "cwps_proj_point"}}
+	{Link 0x5a8 {0x419a "cwps_proj_point"}}
+	{Link 0x5a9 {0x419e "cwps_proj_point"}}
+	{Link 0x5b8 {0x419f "cwps_proj_point"}}
+	{Link 0x5b9 {0x41a1 "cwps_proj_point"}}
+	{Link 0x5ba {0x41a5 "cwps_proj_point"}}
 	{Link 0x41a2 {0x41a5 "vehicle"}}
 	{Link 0x40b7 {0x40fc "1"}}
 	{Link 0x40b8 {0x40fc "2"}}
@@ -61700,6 +62368,9 @@
 	{Link 0x40cd {0x40fc "58"}}
 	{Link 0x40ce {0x40fc "59"}}
 	{Link 0x40cf {0x40fc "60"}}
+	{Link 0x5d8 {0x21d5 "cwps_proj_point"}}
+	{Link 0x5da {0x3803 "cwps_proj_point"}}
+	{Link 0x5df {0x3804 "cwps_proj_point"}}
 	{Link 0x5c8 {0x615 "1"}}
 	{Link 0x5c9 {0x615 "8"}}
 	{Link 0x5ca {0x615 "7"}}
@@ -61752,6 +62423,10 @@
 	{Link 0x60c {0x18b4 "11"}}
 	{Link 0x60d {0x18b4 "side"}}
 	{Link 0x60e {0x18b4 "roof"}}
+	{Link 0x856 {0x652 "cwps_proj_point"}}
+	{Link 0x824 {0x653 "cwps_proj_point"}}
+	{Link 0x858 {0x2814 "cwps_proj_point"}}
+	{Link 0x857 {0x2817 "cwps_proj_point"}}
 	{Link 0x84c {0x88b "wall_b"}}
 	{Link 0x105e {0x1068 "wall_a"}}
 	{Link 0x105f {0x1069 "wall_a"}}
@@ -61806,6 +62481,8 @@
 	{Link 0x21fd {0x21fe "wall_a"}}
 	{Link 0x41ba {0x41d8 "wall_a"}}
 	{Link 0x41ca {0x420c "wall_a"}}
+	{Link 0x230 {0xad5 "c14"}}
+	{Link 0x235 {0xad5 "c19"}}
 	{Link 0x95d {0x6830 "station_corner1"}}
 	{Link 0x960 {0x6830 "station_corner2"}}
 	{Link 0x965 {0x6830 "station_corner3"}}
@@ -61893,8 +62570,6 @@
 	{Link 0xb2b {0xc33 "03"}}
 	{Link 0xb2c {0xc33 "02"}}
 	{Link 0xb30 {0xc34 "3"}}
-	{Link 0xbe9 {0xc35 "win6"}}
-	{Link 0xbea {0xc35 "win7"}}
 	{Link 0xbf0 {0xc36 "1"}}
 	{Link 0xbf1 {0xc36 "2"}}
 	{Link 0xbf2 {0xc36 "3"}}
@@ -61928,4 +62603,5 @@
 	{Link 0x125d {0x4830 "bone02"}}
 	{Link 0x482e {0x4830 "bone01"}}
 	{Link 0x482f {0x4830 "bone05"}}
+	{Link 0x37ce {0x3669 "72"}}
 }

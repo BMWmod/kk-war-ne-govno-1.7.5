@@ -6,20 +6,16 @@
 
  ;Корд
  {"kord_stan_ukr" {fore 1} ("v3" c(120) sc(10) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3001) cw(1) cp(5) t(all_nz)  c1(kord_stan) n(2) n1(vehicle_supporter:2)   ) }  
-
+ ;СПГ-9
+ {"spg_9_ukr" {fore 1} ("v3" c(120) sc(35) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(spg_9) n(2) n1(vehicle_supporter:2)   ) } 
+ 
   ;ТРО
  ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(ukr_tro) c(170) g(ukr_tro) 
   c1(ukr_comua:1) c2(ukr_mgunua:1) c3(ukr_mgunhelpua:1) c4(ukr_smgua:1) c5(ukr_smg2ua:1) c6(ukr_rpgua:1) c7(ukr_rpghelpua:1) c8(ukr_sniperua:1) 
   b(common) brig(common) t(all_nz inf_irg) cost(50) f(1.0) )
   
-  ;Икарус
-  {"liaz_ukr" {fore 1} ("v3" c(60) sc(10) g(ikarus)  b(common) brig(common) s(ukr)  i(846) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:1) )}
-  
   ;Срочники в Икарусе
   {"liaz_ukr_s" {fore 1} ("v3" c(60) sc(60) g(ikarus)  b(common) brig(common) s(ukr)  i(845) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:14) n2(ukr_srochnik_at:4) )}
-  
-  ;КРАЗ(просто краз)
-  {"kraz_6322_ukr" {fore 1} ("v3" c(120) sc(5) g(kraz_ukr) b(supl) brig(common) s(ukr)  i(304) cw(1) cp(5) t(all_nz) c1(kraz_6322) n(2) n1(vehicle_supporter:2) ) } 
   
   ;МТ-ЛБ
   {"mtlb_kord_ukr" {fore 0} ("v3" c(120) sc(25) g(kraz_ukr) b(supl) brig(common) s(ukr)  i(3090) cw(1) cp(5) t(all_nz) c1(mtlb_vmk) n(2) n1(vehicle_supporter:2) ) } 
@@ -35,10 +31,10 @@
   {"btr60_ukr1" {fore 1} ("v3" c(80) sc(25) g(btr)  b(common) brig(common) s(ukr)  i(87) cw(10) cp(10) t(all_nz) c1(btr60) n(2) n1(tankman:2))}  
   
   ;БМП-2
-  {"bmp2_new_without_ptyr" {fore 1} ("v3" c(200) sc(45) g(BWP)  b(common) brig(common) s(ukr)  i(787) cw(10) cp(10) t(all_nz) c1(bmp2_new_without_ptyr) n(3) n1(tankman:3))}  
+  {"bmp2_new_ukr" {fore 1} ("v3" c(200) sc(45) g(BWP)  b(common) brig(common) s(ukr)  i(787) cw(10) cp(10) t(all_nz) c1(bmp2_new) n(3) n1(tankman:3))}  
   
  ;БМП-2 с десантом
-  {"bmp2_new_without_ptyr_INF" {fore 1} ("v3" c(300) sc(115) g(BWP_INF)  b(common) brig(common) s(ukr)  i(7878) cw(10) cp(10) t(all_nz) c1(bmp2_new_without_ptyr) n(3) n1(tankman:3) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:1) ) }   
+  {"bmp2_new_ukr_INF" {fore 1} ("v3" c(300) sc(115) g(BWP_INF)  b(common) brig(common) s(ukr)  i(7878) cw(10) cp(10) t(all_nz) c1(bmp2_new) n(3) n1(tankman:3) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:1) ) }   
 
   ;Стрела-1
   {"brdm2_strela_ukr" {fore 0.5} ("v3" c(200) sc(90) g(strela)  b(common) brig(ppo_ua) s(ukr)  i(262) cw(0) cp(15) t(all_nz) c1(brdm2_strela) n(1) n1(tankman:3)   ) }
@@ -56,9 +52,6 @@
   {"toyota_hilux_dshkm_ukr1" {fore 1} ("v3" c(40) sc(75) g(pzrk_ua)  b(common) brig(common) s(ukr)  i(807) cw(10) cp(10) t(all_nz) c1(toyota_hilux_dshkm) n(3) n1(vehicle_supporter:1) n2(ukr_pzrk2:2) n3(ukr_pzrk1:2))}
   
 
- ;СПГ-9
- {"spg_9_ukr" {fore 1} ("v3" c(120) sc(35) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(spg_9) n(2) n1(vehicle_supporter:2)   ) } 
- 
 ;БРДМ-2
  {"brdm2_ukr" {fore 1} ("v3" c(120) sc(15) g(pystiy_ukr) b(common) brig(common) s(ukr)  i(3004) cw(1) cp(5) t(all_nz)  c1(brdm2) ) } 
  
@@ -70,9 +63,9 @@
  
  ("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(10) g(support) b(supl) brig(common) side(ukr)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
   
- {"toyota_hilux_ammo" {fore 1} ("v3" c(600) sc(70) g(69) b(supl) brig(common) s(ukr)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:2)      ) }
+ {"toyota_hilux_ammo_ukr" {fore 1} ("v3" c(600) sc(70) g(69) b(supl) brig(common) s(ukr)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:2)      ) }
  
- {"mtlb_supl" {fore 1} ("v3" c(100) sc(100) g(169) b(supl) brig(common) s(ukr)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
+ {"mtlb_supl_h8l8l" {fore 1} ("v3" c(100) sc(100) g(169) b(supl) brig(common) s(ukr)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
  
  {"kraz_6322_fuel_ukr" {fore 0} ("v3" c(120)	sc(50) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(kraz_6322_fuel) n(2) n1(vehicle_supporter:1)      ) }
  
@@ -83,7 +76,7 @@
   ;Зу-23-2
  {"zu23-2_ukr" {fore 1} ("v3" c(120) sc(30) g(zu23_ukr) b(supl) brig(ppo_ua) s(ukr)  i(3002) cw(1) cp(5) t(all_nz)  c1(zu23-2) n(2) n1(vehicle_supporter:2)   ) }  
  
- ;Зу-23-2
+ ;василек
  {"vasilek_ukr" {fore 1} ("v3" c(120) sc(50) g(vasilek_ukr) b(supl) brig(ppo_ua) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(vasilek) n(2) n1(vehicle_supporter:2)   ) }  
 
  ;МТЛБ с ЗУшкой
@@ -306,7 +299,7 @@
  {"uh60_ukr" {fore 1} ("v3" c(600) sc(180) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) } 	
  
  ;Ф-16 каб
- {"f-16c_sdb_ukr" {fore 0} ("v3" c(600) sc(280) g(f-16c_sdb_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(108200) cw(0) cp(69) t(all_nz) c1(f-16c_sdb) n(1) n1(pilot:1) ) }
+ ;{"f-16c_sdb_ukr" {fore 0} ("v3" c(600) sc(280) g(f-16c_sdb_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(108200) cw(0) cp(69) t(all_nz) c1(f-16c_sdb) n(1) n1(pilot:1) ) }
  
  ;Блек хуй
  {"bayraktar_tb2_maml_ukr" {fore 0} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	
@@ -320,9 +313,7 @@
   ;Челленджер 2
  {"challenger_2_ukr" {fore -1.0} ("v3" c(250) sc(120) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(21010) cw(0) cp(60) t(all_nz) c1(challenger_2) n(1) n1(tankman:4)) }
  
- ;T-62МД
- {"t62md"	("v" c(250) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldsovua)  sc(50) b(extra) i(12) cw(0) cp(2))  {fore 1.0}}
- 
+
  ;Варриор с дзшкой и третьей штурмовой
  {"warrior_wrap2_ukr_inf" {fore 0} ("v3" c(340) sc(50) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(9002) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3) n2(azov_mg:1) n3(azov_smg1:2) n4(azov_smg2:2) n5(azov_nlaw:2))}
  
