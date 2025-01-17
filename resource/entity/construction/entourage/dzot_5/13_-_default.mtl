@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/decor/wood_light_cut"}
-	{blend none}
-}

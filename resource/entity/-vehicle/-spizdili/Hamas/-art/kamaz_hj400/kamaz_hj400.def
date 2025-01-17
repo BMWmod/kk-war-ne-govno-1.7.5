@@ -3,7 +3,7 @@
 	(include "/properties/shadow/tank.inc"  scale(1.0))
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 	{collider "truck"}
-	{props "vehicle" "car" "truck" "turret" "windowed" "wheeled" "6_wheels" "vision_lev03" "man_kat" "cw_artillery" "kamaz_hj400"}
+	{props "vehicle" "car" "truck" "turret" "windowed" "wheeled" "6_wheels" "vision_lev03" "man_kat" "cw_artillery" "kamaz_hj400" "supply_5t"}
 	{able "emit_on_attack"}
 	("armor_car_truck")
 

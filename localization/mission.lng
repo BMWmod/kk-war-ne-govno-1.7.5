@@ -54,6 +54,8 @@
 			{"gostomel"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Аэродром</c>"}	}
 			{"k1234"			{"name" "<c(ffffff)e(shadow)>[INV]"									" <c(05BCE6)e(shadow)>Зимний ад</c>"}	}
 			{"hungry"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Польская провинция</c>"} }
+			{"piv_zavod"			{"name" "<c(b69b69)e(shadow)>[ФУРИНГЕЙТ]"									" <c(05BCE6)e(shadow)>Пивзавод</c>"} }
+			{"forest"			{"name" "<c(b69b69)e(shadow)>[ФУРИНГЕЙТ]"									" <c(05BCE6)e(shadow)>Лесочек</c>"} }
 			{"huyson"			{"name" "<c(ffffff)e(shadow)>[INV]"									" <c(05BCE6)e(shadow)>Два холма Хйсона</c>"}	}
 			{"avdos"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Авдеевка</c>"}	}
 			{"winter_walk"			{"name" "<c(ffffff)e(shadow)>[INV]"									" <c(05BCE6)e(shadow)>Зимняя прогулка</c>"}	}
@@ -62,6 +64,8 @@
 			{"negrila v3 kapustina edition"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>Капустино</c>"}	}
 			{"negrila v3 oleshki edition"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>Пески Алёшки</c>"}	}
 			{"nigrila v2 ss edition"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>2 моста</c>"}	}
+			{"negrilav_triangle"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>Снежные ущелья</c>"}	}
+			{"negrila_sudja"			{"name" "<c(fff700)e(shadow)>[БЕБРЯШ]"									" <c(05BCE6)e(shadow)>Бибки</c>"}	}
 			{"polskav2"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Польская граница V2</c>"}	}
 		
 			{"8v8_farmland"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Сельхозрайон</c>"}				}			;null

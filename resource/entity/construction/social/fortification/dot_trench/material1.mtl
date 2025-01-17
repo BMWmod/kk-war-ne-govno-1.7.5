@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/construction/dot_concrete"}
-	{blend none}
-}

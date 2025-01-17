@@ -1,5 +1,0 @@
-{material multiply
-	{diffuse "$/construction/sack"}
-	{diffuse1 "$/model/sack2_lm"}
-	{blend none}
-}
