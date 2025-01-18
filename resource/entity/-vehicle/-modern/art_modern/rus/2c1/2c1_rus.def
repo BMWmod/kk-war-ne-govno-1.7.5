@@ -51,8 +51,6 @@
 			{Size 8 7}
 			{weight 3000}
 			{item "ammo bullet122_RUS fg" 24}
-			{item "ammo bullet122_RUS cm" 5}
-			{item "ammo bullet122_RUS sm" 5}
 			{item "ammo bullet122_RUS rok" 5}
 		}
 	}
@@ -67,7 +65,11 @@
 		}
 		
 	}
-	
+	{brain
+		{properties
+			{fire_mode hold}
+		}
+	}
 	{sensor
 		{visor "gunner"
 			{bone "visor1"}

@@ -74,7 +74,7 @@
  {"mstar_v6usa" {fore 0} ("vs" c(900) sc(100) g(mstar) b(supl) brig(common) s(usa)  i(10) cw(1) cp(15) t(all_nz    ) n(2)               ) }
 
 ("squad_with1types" name(sappers) f(1)  c(240) cost(10) g(eng) b(supl) brig(common) side(usa)     t(all_nz    ) info(sappers) c1(saper:2)              ) 
-      
+     
 
 ;{"m60a3"	("v" c(500) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(60) b(supl) i(11) cw(0) cp(2))  {fore 1}}
 {"m1a1_new"	("v" c(700) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(90) b(supl) i(12) cw(0) cp(2))  {fore 1}}
@@ -110,7 +110,8 @@
 {"box_weapon_usa_excalibur" {fore -15} ("vs" c(1) sc(40) g(supply_spec) b(usart_hqcar) brig(usart) s(usa)  i(15) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
  {"box_weapon_usa_gmlrs_cl" {fore -10} ("vs" c(1) sc(100) g(supply_spec) b(usart_hqcar) brig(usart) s(usa)  i(16) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
 ("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(usart_hqcar) brig(usart) side(usa)     t(all_nz    ) info(miners) c1(antitank_miner:4) c2(antipersonel_miner:4)             ) 
-
+ ("squad_with1types" name(fpv) f(1)  c(240) cost(120) g(fpv) b(usart_hqcar) brig(usart) side(usa)     t(all_nz    )  c1(fpv_operator:1)              ) 
+ 
 
 
                                    

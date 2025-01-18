@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_gb_sas_belt"}
+	{portrait "_new/uk/sas"}
+	{icon brit_smg}
+	{icon_priority 0}
+	{nationality eng}
+	{armors
+		{head opscore_sas}
+	}
+
+	(include "perks_generic.inc")
+	("traits_scout")
+	{inventory
+	{item "smoke_gb grenade" 1}
+		
+		{item "556nato ammo" 120}
+		{item "l109a1 grenade" 1}
+        {item "bandage" 5}
+		{item "l119a2_silenced" filling "556nato ammo" 30}
+		{item "rq11_control"}
+		{item "fpv_drone" 6}
+		{in_hands 4}
+	}
+}

@@ -84,9 +84,8 @@
 
 {"brem-1" {fore 1} ("v3" c(900) sc(70) g(269)  b(iregular_mot_hqcar) brig(iregular_mot)s(iregular)  i(1) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
  
- 
+{"btr152_163" {fore 1} ("v" c(120) sc(90) g(163) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(3) cw(0) cp(10) t(all_nz   ) n(3)               ) } 
 {"t-55" {fore 1} ("v" c(100) sc(69) g(tonk) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(2) cw(0) cp(10) t(all_nz   ) n(4)               ) }
-;{"t64" {fore 1} ("v" c(120) sc(100) g(tonk3) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(3) cw(0) cp(10) t(all_nz   ) n(3)               ) }
 {"t62_isis" {fore 1} ("v" c(140) sc(100) g(tonk2) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(4) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 
 {"t72m_siriya" {fore 1} ("v" c(260) sc(100) g(tank_old_new1)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(5) cw(0) cp(30) t(all_nz    ) n(3)               ) }

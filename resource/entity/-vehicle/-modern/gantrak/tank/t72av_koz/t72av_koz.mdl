@@ -2,8 +2,8 @@
 ;Model created by: ??????
 ;Date: Sat Sep 16 21:34:37 2017
 ;File: G:\?????? ???\----????? 72\?????? ?-72\?-72?\T-72?_CCC?.max
-;Model create/rebuild by: Makimka
-;Last build date: Sunday 27 April 2024 [16:16:34]
+;Model create/rebuild by: Makimaglist
+;Last build date: Sunday 18 January 2025 [15:49:50]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -1107,6 +1107,16 @@
                                     -0.0219143	-44.568	0.00625992
                                 }
                             }
+                            {Bone "net_turret_1_1"
+                                {Parameters "ID=turret;"}
+                                {Matrix34
+                                    0.0219464	-1.8095	-0.0262419
+                                    0.910967	0.118997	-0.781008
+                                    0.795886	-0.00857053	0.921667
+                                    -0.961599	-2.8529	-1.4956
+                                }
+                                {VolumeView "net_gun.ply"}
+                            }
                         }
                         {Bone "sh_gun_72b"
                             {Matrix34
@@ -1466,6 +1476,36 @@
                             -1.92	-9.42	15
                         }
                         {VolumeView "sh2.ply"}
+                        {Bone "net_turret_1_2"
+                            {Parameters "ID=turret;"}
+                            {Matrix34
+                                -1.40259	0.0483387	0.322771
+                                -0.0545955	-1.31723	0.000419885
+                                0.34721	-0.0118662	1.26827
+                                0.308404	-2.15285	-0.605601
+                            }
+                            {VolumeView "net_turret.ply"}
+                        }
+                        {Bone "net_turret_0"
+                            {Parameters "ID=turret;"}
+                            {Matrix34
+                                0.434811	-1.15213	0.266364
+                                1.38669	0.391135	-0.0545944
+                                -0.0567385	0.358739	0.949952
+                                10.5484	-5.05285	4.0744
+                            }
+                            {VolumeView "net_turret.ply"}
+                        }
+                        {Bone "net_turret_1"
+                            {Parameters "ID=turret;"}
+                            {Matrix34
+                                0.992834	0.921125	0.256591
+                                -1.03122	0.924011	0.00515823
+                                -0.204018	-0.187891	1.28329
+                                18.9884	13.3471	0.344399
+                            }
+                            {VolumeView "net_turret.ply"}
+                        }
                     }
                 }
                 {Bone "shieldl1"
@@ -1823,6 +1863,62 @@
                         }
                         {VolumeView "d_a77.ply"}
                     }
+                }
+                {Bone "detail_tara3"
+                    {Matrix34
+                        0.972536	-0.0190789	0.231969
+                        -0.232002	0.00052841	0.972715
+                        -0.0186809	-0.999818	-0.00391244
+                        0.342621	40.7848	11.1967
+                    }
+                    {VolumeView "detail_tara3.ply"}
+                }
+                {Bone "detail_skatka3"
+                    {Matrix34
+                        0.0248065	-0.014837	0.999582
+                        -0.554043	0.832078	0.0261008
+                        -0.832117	-0.554459	0.0124202
+                        -28.0225	-39.68	9.2144
+                    }
+                    {VolumeView "detail_skatka3.ply"}
+                }
+                {Bone "detail_brevno_0"
+                    {Matrix34
+                        0.00693035	0.999971	0.00206056
+                        -0.614348	0.00263137	0.789028
+                        0.789002	-0.00673494	0.61435
+                        -33.7102	27.2732	6.87829
+                    }
+                    {VolumeView "detail_brevno.ply"}
+                }
+                {Bone "detail_doska1"
+                    {Matrix34
+                        0.960945	-0.272265	0.0495684
+                        0.272733	0.962086	-0.00280832
+                        -0.0469246	0.0162172	0.998766
+                        9.63944	47.369	9.2099
+                    }
+                    {VolumeView "detail_doska1.ply"}
+                }
+                {Bone "maskset2"
+                    {Parameters "ID=detail;"}
+                    {Matrix34
+                        0.974369	0.138514	-0.177255
+                        -0.162305	0.978458	-0.12758
+                        0.155765	0.15308	0.97586
+                        1.3851	-52.515	7.59209
+                    }
+                    {VolumeView "detail11.ply"}
+                }
+                {Bone "maskset"
+                    {Parameters "ID=detail;"}
+                    {Matrix34
+                        0.00791376	-0.999949	-0.00635748
+                        0.999961	0.00793787	-0.00379092
+                        0.00384117	-0.00632706	0.999973
+                        27.817	45.9631	8.77301
+                    }
+                    {VolumeView "detail123.ply"}
                 }
             }
         }

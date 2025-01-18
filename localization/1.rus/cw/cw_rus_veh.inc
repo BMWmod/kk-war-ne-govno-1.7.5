@@ -6,6 +6,7 @@
 
 
 
+{"btr152_163"							"<c(FFFFFF)e(shadow)>БТР-152 с M61 Vulcan</c>"} 
 {"amx_auf1"							"<c(FFFFFF)e(shadow)>AMX-30 AuF.1</c>"} 
 {"uh_1h_serb"							"<c(FFFFFF)e(shadow)>Bell UH-1 Iroquois</c>"} 
 {"uh_1h"							"<c(FFFFFF)e(shadow)>Bell UH-1 Iroquois</c>"} 

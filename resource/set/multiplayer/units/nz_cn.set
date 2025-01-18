@@ -109,6 +109,7 @@
 
 {"box_weapon_cn_krasnopol"	("vs" c(1) brig(cnart) t(all_nz supply nobot support_frontline precision_munition) s(cn) n(0) g(supplyart_spec) 	sc(1) b(cnart_hqcar) i(11) cw(0) cp(2)) {cost 50} {fore 1}}  
 ("squad_with2types" name(miners) side(cn) c(240) g(eng) c1(antipersonel_miner:2) c2(antitank_miner:6) b(cnart_hqcar) brig(cnart) t(all_nz nobot) cost(25) f(1) info(miners))
+("squad_with2types" name(fpv_operator_) side(cn) c(240) g(eng) c1(fpv_operator:1)  b(cnart_hqcar) brig(cnart) t(all_nz nobot) cost(125) f(1) )
 
 
 {"plz-07a"	("v" c(360) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(5) g(extra7)  sc(100) b(extra) i(7) cw(0) cp(25))  {fore -1.0}}

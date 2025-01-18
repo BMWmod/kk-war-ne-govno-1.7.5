@@ -94,13 +94,13 @@
 	{item "ur_83p_ammo ammo" 1 		{max 2}	{value 25}}
 )
 (define "UAV_rus"
-	{item "eleron3sv ammo" 1 {max 1}{value 150}}
+	{item "eleron3sv ammo" 1 {max 2}{value 50}}
 )
 (define "UAV_kamikadze_rus"
 	{item "lancet3m cm ammo" 1 {max 2}{value 150}}
 )
 (define "UAV_kamikadze_usa"
-	{item "switchblade600 ammo" 1 {max 2}{value 200}}
+	{item "switchblade600 ammo" 1 {max 2}{value 150}}
 )
 (define "smallarms_west"	;common for USA and NATO
 	{item "standart ammo" 10 {max 30}{value 1}}				
@@ -136,8 +136,8 @@
 	{item "grenade_xm25 ammo fg" 1 {max 6}{value 1}}
 	{item "m61 grenade" 1 {max 4}{value 1}}
 	{item "m67 grenade" 1 {max 4}{value 1}} 
-	{item "rq11raven" 1 {max 1}{value 115}}
-	{item "switchblade300 ammo" 1 {max 2}{value 51}}
+	{item "rq11raven" 1 {max 2}{value 45}}
+	{item "switchblade300 ammo" 1 {max 6}{value 25}}
 )
 (define "smallarms_nato"
 	{item "40x46ammo 40x46_natopg ammo cm" 1 {max 4}{value 1}}
@@ -150,7 +150,7 @@
 	{item "m61 grenade" 1 {max 4}{value 1}}
 	{item "m67 grenade" 1 {max 4}{value 1}}
 	{item "aladin" 1 {max 1}{value 125}}
-	{item "switchblade300 ammo" 1 {max 2}{value 51}}
+	{item "switchblade300 ammo" 1 {max 6}{value 25}}
 )
 (define "smallarms_cn"
 	{item "standart ammo" 10 				{max 20}	{value 1}}				
@@ -162,7 +162,7 @@
 	{item "type86p grenade" 1 			{max 4}	{value 1}}
 	{item "smoke grenade" 1 		{max 2}	{value 1}}
 	{item "bandage" 1 				{max 5}	{value 1}}
-	{item "ch802" 1 {max 1}{value 125}}
+	{item "ch802" 1 {max 2}{value 45}}
 )
 (define "hmgun_rus"
 	{item "Hcb_ammo ammo" 50 {max 300}{value 1}}				
@@ -187,22 +187,22 @@
 ;---------------Grenades----------------
 
 (define "ags30"
-	{item "agsammo ammo" 30 {max 180}{value 3}}				
+	{item "agsammo ammo" 30 {max 300}{value 3}}				
 )
 (define "mk19_usa"
-	{item "40x53ammo 40x53_usapg ammo cm" 30 {max 180}{value 3}}	
-	{item "mk19_ammo ammo fg" 30 {max 90}{value 3}}	
-	{item "40x53_usapg ammo cm" 30 {max 180}{value 3}}	
+	{item "40x53ammo 40x53_usapg ammo cm" 30 {max 250}{value 3}}	
+	{item "mk19_ammo ammo fg" 30 {max 250}{value 3}}	
+	{item "40x53_usapg ammo cm" 30 {max 250}{value 3}}	
 )
 (define "mk19_nato"
-	{item "40x53_natopg ammo cm" 30 {max 180}{value 3}}	
-	{item "40x53_natopg ammo fg" 30 {max 180}{value 3}}	
-	{item "40x53_gerpg ammo cm" 30 {max 180}{value 3}}	
-	{item "40x53_gerpg ammo fg" 30 {max 180}{value 3}}	
+	{item "40x53_natopg ammo cm" 30 {max 250}{value 3}}	
+	{item "40x53_natopg ammo fg" 30 {max 250}{value 3}}	
+	{item "40x53_gerpg ammo cm" 30 {max 250}{value 3}}	
+	{item "40x53_gerpg ammo fg" 30 {max 250}{value 3}}	
 )
 (define "ags_cn"
-    {item "35x32ammo fg ammo" 30 {max 180}{value 3}}
-	{item "35x32ammo cm ammo" 30 {max 180}{value 3}}							
+    {item "35x32ammo fg ammo" 30 {max 250}{value 3}}
+	{item "35x32ammo cm ammo" 30 {max 250}{value 3}}							
 )
 (define "mortar_usa"
 	{item "81mm of ammo" 4 {max 30}{value 3}}				
@@ -594,7 +594,7 @@
 ;	{item "grad cl ammo" 10 {max 40}{value 50}}				
 ;	{item "grad fg ammo" 10 {max 40}{value 50}}				
 ;	{item "grad spbe ammo" 10 {max 40}{value 50}}				
-;	{item "grad mine ammo" 10 {max 40}{value 50}}				
+	{item "grad mine ammo" 10 {max 40}{value 50}}				
 )
 (define "smerch"
     {item "smerch tornado_s 9m528 fg ammo" 3 {max 12}{value 130}}
@@ -611,11 +611,11 @@
 (define "m270"
 	{item "m270 fg ammo" 6 {max 12}{value 480}}
     {item "gmrlser ammo" 6 {max 6}{value 480}}	
-	;{item "m270 cl ammo" 6 {max 12}{value 20}}		
+	{item "m270 cl ammo" 6 {max 12}{value 20}}		
 )
 (define "m270_nato"
 	{item "m270 fg ammo" 6 {max 12}{value 480}}		
-	;{item "m270 cl ammo" 6 {max 12}{value 20}}		
+	{item "m270 cl ammo" 6 {max 12}{value 20}}		
 )
 (define "shahed136"
 	{item "shahed136 base ammo" 1 {max 5}{value 70}}
@@ -1705,7 +1705,7 @@
 			("atgm_rus")
 			("atgm_usa")
 			("atgm_nato")
-			
+			("type63_cn")
 				
 			("sam_rus")
 			("sam_usa")
@@ -1739,7 +1739,7 @@
 			("mk19_nato")
 			("mortar_usa")
 			("mortar_rus")
-			
+			("type63_cn")
             ("UAV_rus")
 			("autocannons_rus")
 			("autocannons_usa")

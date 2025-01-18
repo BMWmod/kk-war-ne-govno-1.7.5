@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_us_delta"}
+	{portrait "_new/usa/delta"}
+	{icon "us_delta_m136"}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{head opscore_delta}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_bazooker")
+	{inventory
+		{item "556nato ammo" 120}
+		{item "bandage" 10}
+		{item "hk416_aimpoint" filling "556nato ammo" 30}
+		{item "rq11_control"}
+		{item "fpv_drone" 3}
+		{item "fpv_drone" 3}
+		{in_hands 3}
+	}
+}

@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_cn_spec"}
+	{portrait "_new/cn/specnaz"}
+	{icon snipers}
+	{icon_priority 3}
+	{tags "sniper2"}
+	{nationality cn}
+	{armors
+		{head "opscore_cn"}
+	}
+	(include "perks_generic.inc")
+	("traits_elite_sniper")
+	{inventory
+		
+		{item "bandage" 10}
+		{item "QBU-191" filling "58ammo 58ammo_sn ammo" 30}
+		{item "58ammo 58ammo_sn ammo" 70}
+		{item "rq11_control"}
+		{item "fpv_drone" 6}
+		{in_hands 2}
+	}
+}

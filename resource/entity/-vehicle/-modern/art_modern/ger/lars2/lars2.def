@@ -60,7 +60,7 @@
 		{box
 			{Size 7 8}
 			{weight 3600}
-			;{item "ammo lars2 fg" 36}
+			{item "ammo lars2 mine" 18}
 			
 		}
 	}

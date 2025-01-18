@@ -7,6 +7,7 @@
 {"eitan_apc_mg"		{structure "cwds_apc8"}}
 {"eitan_apc_ags"	{structure "cwds_apc8"}}
 {"btr50"				{structure "cwds_ifv"}} 
+{"btr152_163"				{structure "cwds_ifv"}} 
 {"m46"				{structure "cwds_cannon"}} 
 {"toyota_radar"		{structure "cwds_radar"}}
 {"wingloong_ii"			{structure "cwds_plane_attack"}}
@@ -466,7 +467,7 @@
 	{"m2_adats"			{structure "cwds_sam"}}
 	{"m113a"			{structure "cwds_ifv"}}
 	{"m113a_israel"		{structure "cwds_ifv"}}
-	{"m163"				{structure "cwds_ifv"}}
+	{"m163"				{structure "cwds_ifv"}} 
 	{"m163machbet"		{structure "cwds_ifv"}}
 	{"aavp7"			{structure "cwds_ifv"}}
 	{"usarmy_hqcar"		{structure "cwds_apc8"}}

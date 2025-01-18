@@ -101,6 +101,7 @@
  {"box_weapon_rus_krasnopol" {fore -15} ("vs" c(60) sc(15) g(supplyart_spec1) b(artbr_hqcar) brig(artbr) s(rus)  i(19) cw(0) cp(2) t(all_nz supply support_frontline  ) n(0)               ) }
  {"box_weapon_rus_smerch_tb" {fore -2.5} ("vs" c(450) sc(200) g(supplyart_spec) b(artbr_hqcar) brig(artbr) s(rus)  i(21) cw(0) cp(2) t(all_nz supply support_frontline ) n(0)               ) }
  ("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(artbr_hqcar) brig(artbr) side(rus)     t(all_nz    ) info(miners) c1(antipersonel_miner:2) c2(antitank_miner:6)             ) 
+  ("squad_with2types" name(fpv_operator_) f(1)  c(240) cost(120) g(fpv) b(artbr_hqcar) brig(artbr) side(rus)     t(all_nz    )  c1(fpv_operator:1)              ) 
         
 ;=============== ПВО
  
@@ -235,7 +236,7 @@
   
  {"kornet_stan" {fore 0} ("vs" c(700) sc(50) g(stan3_extra) b(extra) brig(vdv) s(rus)  i(22) cw(1) m(10) cp(25) t(all_nz    ) n(2)               ) }
  {"mi8amtsh1_mgnar" {fore 0} ("v3" c(600) sc(100) g(sso_extra) b(extra) brig(vdv) s(rus)  i(69) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi8amtsh1_mgnar)brig(vdv) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
- {"mi-24vmi" {fore 0} ("v3" c(1000) sc(200) g(sso_extra) b(extra) brig(vdv) s(rus)  i(70) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi-24vm)brig(vdv) n1(vertpilot:2)         ) }
+ {"mi-24vmi" {fore 0} ("v3" c(1000) sc(50) g(sso_extra) b(extra) brig(vdv) s(rus)  i(70) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi-24vm)brig(vdv) n1(vertpilot:2)         ) }
   
 
  {"bm-30_smerch" {fore 0} ("vs" c(900) sc(200) g(rszo1extra) b(extra) brig(artbr) s(rus)  i(78) cw(0) m(14) cp(69) t(all_nz art support_frontline  ) n(4)               ) }

@@ -51,8 +51,6 @@
 			{Size 8 7}
 			{weight 3000}
 			{item "ammo bullet122_RUS fg" 24}
-			{item "ammo bullet122_RUS cm" 5}
-			{item "ammo bullet122_RUS sm" 5}
 			{item "ammo bullet122_RUS rok" 5}
 		}
 	}
@@ -82,7 +80,11 @@
 			{vision "tank_gunner_optic_IR_2g"}
 		}
 	}
-	
+	{brain
+		{properties
+			{fire_mode hold}
+		}
+	}
 	{mass 15700}
 	{Chassis
                 ("tank_trace" fx("tracks_sm") step(0.15) len(2.0))

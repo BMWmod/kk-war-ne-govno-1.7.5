@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/m113/other1"}
+	{bump "$/model/m113/other_bp"}
+	{specular "$/model/m113/other1_sp"}
+	{color "255 255 255 25"}
+	{emitsheat}
+{blend none}
+}

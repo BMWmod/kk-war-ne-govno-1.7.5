@@ -10,7 +10,7 @@
 			{Size 6 3}
 			{weight 10000}
 			
-			{item "ammo switchblade600" 1}
+			{item "ammo switchblade600" 5}
 
 		}	
 	}
