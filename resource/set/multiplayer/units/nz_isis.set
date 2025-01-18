@@ -82,7 +82,7 @@
  
 ;===================================== Тяжёлая бригада =====================================================
 
-{"brem-1" {fore 1} ("v3" c(900) sc(120) g(269)  b(iregular_mot_hqcar) brig(iregular_mot)s(iregular)  i(1) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
+{"brem-1" {fore 1} ("v3" c(900) sc(70) g(269)  b(iregular_mot_hqcar) brig(iregular_mot)s(iregular)  i(1) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
  
  
 {"t-55" {fore 1} ("v" c(100) sc(69) g(tonk) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(2) cw(0) cp(10) t(all_nz   ) n(4)               ) }
