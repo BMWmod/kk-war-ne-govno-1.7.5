@@ -63,7 +63,7 @@
 		{item "m67 grenade" 2}
 		{item "smoke grenade" 2}
 		{item "556nato ammo" 150}
-		{item "6b5-11"}
+		{item "vest_razgruz"}
 		{item "famas_f1" filling "556natomb ammo" 25}
 		{item "f1 grenade" 2}
 		{item "m136 weapon" filling "m136 ammo" 1}

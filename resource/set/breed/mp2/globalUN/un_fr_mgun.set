@@ -1,0 +1,71 @@
+{breed
+	{behaviour soldier}
+	{skin "chdf_inf"}
+	{portrait chdf_un}
+	{icon smgs}
+	{icon_priority 1}
+	{nationality fr}
+	{armors
+		{head pasgt_helmet_un}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_2
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "vest_razgruz"}
+		{item "bandage" 10}
+		{item "smoke_fr grenade"}
+		{item "smoke_fr grenade"}
+		{item "of37_grenade grenade" 2}
+		{item "m240" filling "762nato ammo" 100}
+		{item "762nato ammo" 300}
+		{in_hands 5}
+	}
+}

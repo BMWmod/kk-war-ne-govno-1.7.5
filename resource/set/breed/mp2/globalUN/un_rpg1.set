@@ -62,10 +62,11 @@
 		{item "bandage" 10}
 		{item "famas_f1" filling "556natomb ammo" 25}
 		{item "556nato ammo" 125}
+		{item "vest_razgruz"}
 		{item "rpg7 weapon" filling "pg-7vr rpg7 ammo" 1}
 		{item "pg-7vs rpg7 ammo"}
 		{item "pg-7vl rpg7 ammo"}
 		{item "rpg7_og-7v rpg7 ammo"}
-		{in_hands 1}
+		{in_hands 2}
 	}
 }

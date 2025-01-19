@@ -3,7 +3,7 @@
 	{portrait "_new/usa/tankman"}
 	{icon "us_army_tank"}
 	{icon_priority 0}
-	{nationality usa}
+	{nationality ukr}
 	{armors
 		{head cvc_helmet}
 	}
@@ -35,7 +35,7 @@
 		
 	}
 	{inventory
-		{item "us_tankman_vest"}
+		{item "vest_razgruz"}
 		{item "556nato ammo" 90}
 		{item "bandage" 10}
 		{item "m4iron" filling "556nato ammo" 30}

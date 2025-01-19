@@ -35,7 +35,7 @@
 		
 	}
 	{inventory
-		{item "lpsv_us_pilot"}
+		{item "vest_razgruz"}
 		{item "beretta92" filling "standart ammo" 15}
 		{item "standart ammo" 45}
 		{item "m4" filling "556nato ammo" 30}

@@ -35,7 +35,7 @@
 		
 	}
 	{inventory
-		{item "iotv_smg"}
+		{item "vest_razgruz"}
 		{item "bandage" 5}
 		{item "556nato ammo" 210}
 		{item "m4acog" filling "556nato ammo" 30}

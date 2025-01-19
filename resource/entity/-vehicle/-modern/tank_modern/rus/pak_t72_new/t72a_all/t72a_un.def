@@ -20,7 +20,7 @@
 		{tags "turret"}
 		{component "turret"}
 	}
-
+	{texmod "un"}
 	
 	("armor_heavy" turret(400 200 50 80) body(190 80 100 40)) ;ÂËÄ 82ã - 470 ÁÏÑ/ 503 ÊÑ
 	("comp_armor_increment" turret(50) body(7))

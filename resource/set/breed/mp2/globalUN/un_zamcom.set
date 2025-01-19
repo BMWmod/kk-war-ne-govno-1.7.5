@@ -64,7 +64,7 @@
 		{item "smoke grenade"}
 		{item "m16a4" filling "556nato ammo" 30}
 		{item "556nato ammo" 150}
-		{item "6b5-11"}
+		{item "vest_razgruz"}
 		{item "m136 weapon" filling "m136 ammo" 1}
 		{item "sandbag_kit"}
 		{in_hands 3}

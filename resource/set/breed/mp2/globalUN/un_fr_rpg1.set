@@ -1,0 +1,72 @@
+{breed
+	{behaviour soldier}
+	{skin "chdf_inf"}
+	{portrait chdf_un}
+	{icon smgs}
+	{icon_priority 1}
+	{nationality fr}
+	{armors
+		{head pasgt_helmet_un}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "bandage" 10}
+		{item "famas_f1" filling "556natomb ammo" 25}
+		{item "556nato ammo" 125}
+		{item "rpg7 weapon" filling "pg-7vr rpg7 ammo" 1}
+		{item "pg-7vs rpg7 ammo"}
+		{item "pg-7vl rpg7 ammo"}
+		{item "rpg7_og-7v rpg7 ammo"}
+		{item "vest_razgruz"}
+		{in_hands 2}
+	}
+}

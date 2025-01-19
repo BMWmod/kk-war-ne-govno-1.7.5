@@ -63,7 +63,7 @@
 	{inventory
 		{item "binocular"}
 		{item "bandage" 5}
-		{item "6b5-11"}
+		{item "vest_razgruz"}
 		{item "m67 grenade" 2}
 		{item "smoke grenade" 2}
 		{item "556nato ammo" 150}

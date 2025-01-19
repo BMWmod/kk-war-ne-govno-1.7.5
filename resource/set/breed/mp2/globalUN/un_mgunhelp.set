@@ -65,7 +65,7 @@
 		{item "m16a4" filling "556nato ammo" 30}
 		{item "556nato ammo" 150}
 		{item "556natomb" 400}
-		{item "6b5-11"}
+		{item "vest_razgruz"}
 		{in_hands 3}
 	}
 }

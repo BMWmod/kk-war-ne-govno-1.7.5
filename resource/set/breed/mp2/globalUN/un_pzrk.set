@@ -62,6 +62,7 @@
 		{item "bandage" 10}
 		{item "stinger weapon" filling "fim-92a_ammo ammo" 1}
 		{item "fim-92a_ammo ammo" 3}
-		{in_hands 1}
+		{item "vest_razgruz"}
+		{in_hands 2}
 	}
 }

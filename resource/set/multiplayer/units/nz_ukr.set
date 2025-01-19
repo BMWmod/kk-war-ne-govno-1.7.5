@@ -145,9 +145,7 @@
   ;AMX-10RCR
  {"AMX-10RCR_ukr" {fore 1} ("v3" c(120) sc(40) g(amx-10RCR)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(80) cw(10) cp(10) t(all_nz) c1(amx10rc) n(2) n1(tankman:4)) }
  
-  ;М60А3
- {"m60a3"	("v" c(140) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(85) b(brt_ua_hqcar) i(11) cw(0) cp(2))  {fore 1.0}}
- 
+
  ;Леопадла 1А4
  {"leopard_c1" ("v" c(240) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(90) b(brt_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
   

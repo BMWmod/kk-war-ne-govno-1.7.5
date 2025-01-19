@@ -1,0 +1,75 @@
+{breed
+	{behaviour soldier}
+	{skin "chdf_inf"}
+	{portrait chdf_un}
+	{icon smgs}
+	{icon_priority 1}
+	{nationality fr}
+	{armors
+		{head pasgt_helmet_un}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "vest_razgruz"}
+		{item "bandage" 10}
+		{item "556nato ammo" 240}
+		{item "famas_f1" filling "556nato ammo" 25}
+		{item "granata_famas_f1" filling "grenade_famas cm ammo" 1}
+		{item "grenade_famas fg ammo" 4}
+		{item "grenade_famas cm ammo" 5}
+		{item "grenade_famas sm ammo" 2}
+		{item "of37_grenade grenade" 2}
+		{item "sandbag_kit"}
+		{item "smoke_fr grenade" 2}
+		{in_hands 3}
+	}
+}

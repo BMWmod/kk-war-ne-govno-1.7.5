@@ -1,0 +1,33 @@
+;Exported by: PC
+;Date:        Mon Jan 24 23:31:59 2022
+;File:        D:\?????????? ?? ???????? 24.2020\??????\SVRV_max.max
+{Skeleton
+	{bone "lightvest"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "lightvest.ply"}
+	}
+}
+{Volume "select"
+	{Box 5.6476 7.43559 9.7288}
+	{Bone "lightvest"}
+	{Matrix34
+		0.932674	0	0
+		0	0	-1
+		0	1	0
+		-0.150876	2.49513	0.102179
+	}
+}
+{Volume "soft_plate"
+	{Box 5.6476 7.43559 9.7288}
+	{Bone "lightvest"}
+	{Matrix34
+		0.932674	0	0
+		0	0	-1
+		0	1	0
+		-0.150875	2.49513	0.10657
+	}
+}

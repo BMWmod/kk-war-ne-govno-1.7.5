@@ -68,7 +68,7 @@
 		{item "smoke grenade"}
 		{item "m21_sopmod" filling "762x51_x20" 20}
 		{item "762x51_x20" 80}
-		{item "6b5-11"}
+		{item "vest_razgruz"}
 		{in_hands 3}
 	}
 }

@@ -8,7 +8,7 @@
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
 	{props "heavy_M" "turret_rotator" "vision_lev06" "t72_cw" "with_open_zpu" "has_autoloader" "6_barrels_smoke"}
 	{targetSelector "tank"}
-
+	{texmod "un"}
 	{extender "enumerator"}
 
 	{volume "body"
