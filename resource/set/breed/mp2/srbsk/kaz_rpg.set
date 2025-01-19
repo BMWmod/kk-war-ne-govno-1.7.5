@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "lnr_kazaki_new_cifra"}
+	{skin "lnr_kazaki_gorka"}
 	{portrait "_new/rus/inf"}
 	{icon smgs}
 	{icon_priority 0}
