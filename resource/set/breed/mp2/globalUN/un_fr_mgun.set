@@ -6,7 +6,7 @@
 	{icon_priority 1}
 	{nationality fr}
 	{armors
-		{head pasgt_helmet_un}
+		{head "sh-68_flora"}
 	}
 	{perks
 		{"vision" mp_soldier
