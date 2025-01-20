@@ -131,14 +131,16 @@
 {"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(2) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
 {"spike_lr_stan_isis" {fore 0.} ("vart" c(300) sc(150) g(art_heavy) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(555) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(spike_lr_stan) n1(vehicle_supporter:2)           ) }
 
-{"l39_isis" {fore 0.4} ("p" c(700) sc(150) g(l39) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+;{"l39_isis" {fore 0.4} ("p" c(700) sc(150) g(l39) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
     
 {"mi24vbomb" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(6) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
 {"ee9_cascavel_isis" {fore 1} ("v3" c(220) sc(45) g(ee9)   b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)   i(12) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(ee9_cascavel) n(1) n1(tankman:3)   ) }     
 
 {"mtlb_kamikadze" {fore 1} ("v3" c(200) sc(45) g(3543)   b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)   i(13) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(mtlb_kamikadze) n(1) n1(tankman:1)   ) }     
 {"toyota_radar" {fore 1} ("v3" c(450) sc(69) g(pizdec_radar)   b(isis_vvs_hqcar) brig(isis_vvs)  s(iregular)   i(911) cw(0) cp(10) t(all_nz supply ) n(2) c1(toyota_radar) n1(vehicle_supporter:3) n2(spotter:1)     ) }  
-{"sso_irg" {fore 1} ("v3" c(900) sc(200) g(sso)  b(isis_vvs_hqcar) brig(iregular_specbr) s(iregular)  i(25) m(2) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_un) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
+;{"sso_irg" {fore 1} ("v3" c(900) sc(200) g(sso)  b(isis_vvs_hqcar) brig(iregular_specbr) s(iregular)  i(25) m(2) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_un) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
+
+{"sso_irg_"		("v3" c(900) c1(mi17_un) brig(iregular_specbr) b(isis_vvs_hqcar) t(all_nz  ) s(iregular) n(3)  n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)  g(heli1)  sc(110)  i(4545) cw(0) cp(5))  {fore 1}}
 
 
 ;========= СПЕЦ ОЧКИ
