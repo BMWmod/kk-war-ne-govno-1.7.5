@@ -7,7 +7,7 @@
 	{tags "officer"}
 	{nationality fr}
 	{armors
-		{head "sh-68_flora"}
+		{head pasgt_helmet_un}
 	}
 	{perks
 		{"vision" mp_officer

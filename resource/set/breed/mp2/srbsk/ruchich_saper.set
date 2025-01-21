@@ -5,7 +5,7 @@
 	{icon_priority 0}
 	{nationality cz}
 	{armors
-		{head "sh-68_flora"}
+		{head pasgt_helmet_un}
 	}
 	{perks
 		{"vision" mp_officer
