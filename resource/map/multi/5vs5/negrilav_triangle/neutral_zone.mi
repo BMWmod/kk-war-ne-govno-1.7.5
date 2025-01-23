@@ -2079,7 +2079,7 @@
 	{Tags "keep_places_without_door" {0xa1b "10_in"}}
 	{Tags "keep_places_without_door" {0x18ae "stall3"}}
 	{Tags "keep_places_without_door" {0x18ae "stall4"}}
-	{Environment "skirmish/rus-iskra_b"}
+	{Environment "skirmish/eng-narvik_b"}
 	{Helpers
 		{zone "poly"
 			{position -5772.82 -8997.17 0}
@@ -16462,39 +16462,39 @@
 						{apply}
 					}
 					{"delay"
-						{time 140}
+						{time 600}
 					}
 					{"environment"
 						{name "skirmish/rus-iskra_b"}
-						{time 150}
+						{time 600}
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 600}
 					}
 					{"environment"
 						{name "multi/frontline5_2x2"}
-						{time 150}
+						{time 600}
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 600}
 					}
 					{"environment"
 						{name "multi/slurb/slurb_heavyload"}
-						{time 150}
+						{time 600}
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 600}
 					}
 					{"environment"
 						{name "multi/frontline4_2x2"}
-						{time 150}
+						{time 600}
 						{apply}
 					}
 					{"delay"
-						{time 160}
+						{time 600}
 					}
 					{"trigger"
 						{name "service/mp_weather/normal"}

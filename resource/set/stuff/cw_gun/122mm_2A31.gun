@@ -1,0 +1,53 @@
+;Created by Pheonix 
+{from "pattern tank_gun"    ; "Д30А"
+   	
+	{filling "d30ammo"}
+	{fireSound "gun/d30_shot"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 8}
+	{range 235 235}
+	{ZeroingAccuracy 0.75 0.5 0.33}
+
+	{gravity 2.5}
+	("speed_artillery") 
+	("100-128caliber")
+	{calibre 5}	;нет ББ, только КС
+
+	("CW_acc_artillery" mils(6.1))
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+	;("relaxationtime" rt(4))
+	{parameters "bullet122_cn rok"	;BB-RA/HE BFF2
+		{range 333 333}	
+		{gravity 1.8}
+		;("CW_acc_artillery" mils(3.6))
+		("CW_acc_artillery" mils(11))
+	}
+	{parameters "bullet122_cn cl"         ;22км из-за донного ГГ
+		{gravity 2.0}
+		{range 300 300}
+		{cursor "cannon_on_heat_3"}
+		{cursorReloading "cannon_reload_heat"}
+	    {Spreading {SpreadYadjust	3.0} }
+	}
+	{parameters "bullet122_Rus rok"	;c переменым зарядом 
+		{range 263 263}	
+	}
+    {parameters "bullet122_Rus fg"	;c полным зарядом 
+		{range 250 250}	
+	}
+    {parameters "bullet122_cn fg"	;c полным зарядом 
+		{range 250 250}	
+	}
+    {parameters "bullet122_Rus sm"	;с полным зарядом 
+		{range 263 263}	
+		;{cursor "cannon_on_dm_0"}
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+	}            
+    {parameters "bullet122_Rus cm"	;1500м для БК-13. 
+		{range 85 85}	
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+	}            
+}
