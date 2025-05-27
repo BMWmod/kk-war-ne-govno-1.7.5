@@ -207,16 +207,7 @@
 		{"rus_active_asm_aj cwps2"  }
 		
 	}
-	{bomb
-		;{"rad_aa_passive" {volume "check_for_sam"}}
-		{"rad_aa" {volume "check_for_sam"}}	
-		{"rus_active cwps2"  }
-		{"rus_active_aj cwps2"  }
-		{"rus_active_asm_aj cwps2"  }
-		{"usa_active cwps2"  }
-		{"usa_active_aj cwps2"  }
-		{"usa_active_asm_aj cwps2"  }
-	}
+
 	
 	{proj_cwps3
 
