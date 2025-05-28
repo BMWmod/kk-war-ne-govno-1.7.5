@@ -1,0 +1,326 @@
+{mission
+	(include "/map/common_mp_scripts.inc")
+	{Entity "map_point" 0xc007
+		{Position -5603.67 -2238.48}
+		{xform zl -2.87}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "map_point" 0xa00b
+		{Position -5558.53 -2426.19}
+		{xform zl 1.91}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm1}
+			{team dm}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "map_point" 0x8006
+		{Position -5770.86 -616.94}
+		{xform zl -2.87}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0x8007
+		{Position -5959.87 1455.89}
+		{xform zl 32.82}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "map_point" 0x8008
+		{Position -5703.86 -100.02}
+		{xform zl 1.91}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm2}
+			{team dm}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "map_point" 0x8009
+		{Position -5849.05 2442.82}
+		{xform zl -25.81}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm3}
+			{team dm}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0x800a
+		{Position 7585.78 1666.64}
+		{xform zl -158.07}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm4}
+			{team dm}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x800b
+		{Position 7557.52 -845.67}
+		{xform zl -177.39}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm5}
+			{team dm}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "map_point" 0x800c
+		{Position 7710.04 -3309.66}
+		{xform zl 166.18}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm6}
+			{team dm}
+			{phase 0}
+			{order 6}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x800d
+		{Position -210.36 2842.95}
+		{xform zl -101.1}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm7}
+			{team dm}
+			{phase 0}
+			{order 7}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0x800e
+		{Position -586.77 -3933.1}
+		{xform zl 86.55}
+		{Color 0xff1b00fd}
+		{Extender "map_point"
+			{name dm8}
+			{team dm}
+			{phase 0}
+			{order 8}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "map_point" 0x800f
+		{Position 7619.14 -3109.54}
+		{xform zl 165.13}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "map_point" 0x8011
+		{Position 7499.21 1627.83}
+		{xform zl -163.3}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "map_point" 0x8012
+		{Position 7585.44 -337.6}
+		{xform zl -178.36}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "uaz_car" 0xc000
+		{Position -1821.13 -3416.7 0}
+		{xform zl -169.83 y 0.49 zw 169.83}
+		{Extender "enumerator"
+			{number 308}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "gaz_24" 0xc001
+		{Position 39.77 -1349.94 5.62}
+		{xform zl -30.53 y 2.11 zw -109.45}
+		{Player 0}
+		{MID 13}
+	}
+	{Entity "side_star" 0x8002
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "flag_point" 0x8003
+		{Position 1183.76 -460.11}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 25}
+			{zoneB 25}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Link 0x8002 {0x8003 "side_pointer"}}
+	{Inventory 0xc000
+		{box
+			{clear}
+		}
+	}
+	{Brain 0xc000
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xc001
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Environment "multi/forest/forest"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+
+		{triggers
+
+
+			
+			
+			
+			
+			
+			
+			
+			{"rend"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.6}
+							}
+							{"environment"
+								{name "multi/desert_hills/desert_hills"}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.6}
+							}
+							{"environment"
+								{name "multi/hunting/hunting_night"}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/forest/forest"}
+							}
+						}
+					}
+				}
+			}
+			
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+	{EntityManager {Enabled}
+		{CountScale "x2"}
+	}
+}
