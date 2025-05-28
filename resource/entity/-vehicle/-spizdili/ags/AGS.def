@@ -1,6 +1,5 @@
 ;By cAwX
 
-
 {Entity
 	(include "/properties/tank.ext")
 	(include "/properties/shadow/tank.inc"  scale(1.2))

@@ -8,7 +8,6 @@
  {"e-2c_hawkeye" {fore 0} ("p" c(300) sc(100) g(radar) b(extra) brig(usa_aa) s(usa) m(4)  i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
  
  {"m163" {fore 0} ("v_nation" c(240) sc(50) g(anitmissile) b(extra) brig(usa_aa) m(6) s(usa) crew_nation(usa) i(6) cw(0) cp(10) t(all_nz antiair aat support_frontline  ) n(3)               ) }
-
  {"mq9_recon" {fore 0.0} ("h" c(300) sc(50) g(recon_bigextra) b(extra) brig(usa_aa) s(usa)  i(757) m(7) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) } 
  {"m142_himarser" ("v" c(1000) brig(usart) t(all_nz art nobot support_frontline) s(usa) n(2) g(extra9) sc(300) b(extra) i(555) m(4) cw(0) cp(75))  {fore -0.2}}
  {"mrls_atacms_2" {fore 0} ("v" c(900) sc(200) g(otrkextraextra) b(extra) brig(usart) s(usa)  m(9) i(9) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
@@ -26,6 +25,7 @@
 ("squad_with7types" side(usa) name(navy_seals) c(600) g(extra16) c1(navyseal_com:1) c2(navyseal_smg:1) c3(navyseal_smg2:1) c4(navyseal_smg3:1) c5(navyseal_mgun:1) c6(navyseal_marksman:1) c7(navyseal_bazooker:3) b(extra) brig(usmc) t(all_nz specnaz infantry nobot) cost(50) f(0) info(navy_seals))
 {"m1a1_FEP"            ("v" c(600) brig(usmc) t(all_nz tanks_only duel_tanks90 tank_usa) s(usa) n(4) g(extra17)   sc(100) b(extra) i(14) m(14) cw(0) cp(60))  {fore -0.2}} 
 {"ah1z"            ("v_cust" c(1000) brig(usmc) t(all_nz duel_heli heli nobot) s(usa) n(2) crew(usa/vertpilot_viper) g(extra18)  sc(250) b(extra) i(15) cw(0) cp(60))  {fore 0.0}}
+{"ags"            ("v" c(600) brig(common) t(all_nz tanks_only duel_tanks90 tank_usa) s(usa) n(3) g(extra17)   sc(100) b(extra) i(16) m(16) cw(0) cp(20))  {fore -0.2}}
 
 ;==============================Common===========================================                                   
 
