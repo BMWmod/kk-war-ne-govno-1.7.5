@@ -94,13 +94,13 @@
 	{item "ur_83p_ammo ammo" 1 		{max 2}	{value 25}}
 )
 (define "UAV_rus"
-	{item "eleron3sv ammo" 1 {max 2}{value 50}}
+	{item "eleron3sv ammo" 1 {max 5}{value 15}}
 )
 (define "UAV_kamikadze_rus"
-	{item "lancet3m cm ammo" 1 {max 2}{value 150}}
+	{item "lancet3m cm ammo" 1 {max 5}{value 50}}
 )
 (define "UAV_kamikadze_usa"
-	{item "switchblade600 ammo" 1 {max 2}{value 150}}
+	{item "switchblade600 ammo" 1 {max 5}{value 50}}
 )
 (define "smallarms_west"	;common for USA and NATO
 	{item "standart ammo" 10 {max 30}{value 1}}				
@@ -122,8 +122,8 @@
 	{item "pkm_ammo ammo" 100 		{max 600}	{value 4}}
 )
 (define "fpv"
-	{item "fpv_drone" 1 {max 3}{value 20}}
-	{item "fpv_drone120" 1 {max 3}{value 20}}
+	{item "fpv_drone" 1 {max 4}{value 15}}
+	{item "fpv_drone120" 1 {max 3}{value 15}}
 
 )
 (define "tochka"
@@ -136,7 +136,7 @@
 	{item "grenade_xm25 ammo fg" 1 {max 6}{value 1}}
 	{item "m61 grenade" 1 {max 4}{value 1}}
 	{item "m67 grenade" 1 {max 4}{value 1}} 
-	{item "rq11raven" 1 {max 2}{value 45}}
+	{item "rq11raven" 1 {max 5}{value 15}}
 	{item "switchblade300 ammo" 1 {max 6}{value 25}}
 )
 (define "smallarms_nato"
@@ -149,7 +149,7 @@
 	{item "of37_grenade grenade" 1 {max 4}{value 1}}
 	{item "m61 grenade" 1 {max 4}{value 1}}
 	{item "m67 grenade" 1 {max 4}{value 1}}
-	{item "aladin" 1 {max 1}{value 125}}
+	{item "aladin" 1 {max 5}{value 15}}
 	{item "switchblade300 ammo" 1 {max 6}{value 25}}
 )
 (define "smallarms_cn"
@@ -162,7 +162,7 @@
 	{item "type86p grenade" 1 			{max 4}	{value 1}}
 	{item "smoke grenade" 1 		{max 2}	{value 1}}
 	{item "bandage" 1 				{max 5}	{value 1}}
-	{item "ch802" 1 {max 2}{value 45}}
+	{item "ch802" 1 {max 5}{value 15}}
 )
 (define "hmgun_rus"
 	{item "Hcb_ammo ammo" 50 {max 300}{value 1}}				
@@ -1005,7 +1005,7 @@
 		{resupply}
 		{radius 			20}
 		{resupplyPeriod 	5}
-		{regenerationPeriod 0}
+		{regenerationPeriod 1}
 		{limit 				1}
 	}
 	("supply_decal")
@@ -1179,6 +1179,7 @@
 			("UAV_rus")
 			("autocannons_rus")
 			("73mm")
+			("fpv")
 			("c8")
 			("c13")
 			("100mm")
@@ -1217,7 +1218,7 @@
 			("105mm_usa")
 			("120mm_USA")
 			("120mm_NATO_mine")
-			
+			("fpv")
 			("155mm_NATO")
 			("155mm_USA")
 			
@@ -1247,7 +1248,7 @@
 
 			("autocannons_nato")
 			("hydra")
-            
+            ("fpv")
 			("105mm_NATO")
 			("105mm_idf")
 			("105mm_ger")
@@ -1304,6 +1305,7 @@
 			("c5")
 			("rpg_rus")
 			("atgm_rus")
+			("fpv")
 		}
 		{radius 			10}
 		{resupplyPeriod 	8}
@@ -1323,6 +1325,7 @@
 			("UAV_rus")
 			("autocannons_rus")
 			("73mm")
+			("fpv")
 			("c8")
 			("c13")
 			("100mm")
@@ -1396,7 +1399,7 @@
 			("hmgun_nato")
 			("mk19_usa")
 			("mortar_usa")
-
+			("fpv")
 			("autocannons_usa")
 			("hydra")
             ("105mm_idf")
@@ -1470,7 +1473,7 @@
 
 			("autocannons_nato")
 			("hydra")
-            
+            ("fpv")
 			("105mm_NATO")			
 			("105mm_idf")
 			("105mm_ger")
@@ -1536,6 +1539,7 @@
 (define "mp_cwr_cn_common"
 	{extender "supply_zone"
 		{resupply
+			("fpv")
 			("smallarms_cn")
 			("hmgun_cn")
 			("ags_cn")
@@ -1574,6 +1578,7 @@
 (define "mp_cwr_cn_common_medium"
 	{extender "supply_zone"
 		{resupply
+			("fpv")
 			("smallarms_cn")
 			("hmgun_cn")
 			("ags_cn")
