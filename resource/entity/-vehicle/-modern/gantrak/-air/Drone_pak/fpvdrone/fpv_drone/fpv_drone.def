@@ -73,7 +73,7 @@
 }
 ("Chassis_parameters" 
 	Speed(35) TurnRadius(3) 
-	Fuel(3) Fuel_remain(3) Fuel_rate(0.03) 
+	Fuel(6) Fuel_remain(6) Fuel_rate(0.06) 
 ;	Acc_hor(2.00) Maneuvrability_hor(11.83)
 ;	Acc_ver(1.37) Maneuvrability_ver(2.65)
 	Acc_hor(10) Maneuvrability_hor(9)
