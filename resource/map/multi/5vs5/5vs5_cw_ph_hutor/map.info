@@ -1,0 +1,5 @@
+;SDL
+;Map by Pheonix 
+{game
+  {maxPlayers 10}
+}	

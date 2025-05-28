@@ -1,0 +1,414 @@
+{mission
+	(include "/map/common_mp_scripts.inc")
+	{Entity "map_point" 0xc00a
+		{Position 8020.07 -366.67}
+		{xform zl 164.11}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "map_point" 0xc007
+		{Position 8071.25 -888.29}
+		{xform zl 169.46}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0xc00d
+		{Position 8117.75 -2096.86}
+		{xform zl 170.08}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "map_point" 0xc002
+		{Position 8045.33 -1466.63}
+		{xform zl 166.95}
+		{Extender "map_point"
+			{name a5}
+			{team a}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 23}
+	}
+	{Entity "map_point" 0x802d
+		{Position 8084.64 -3251.1}
+		{xform zl 166.58}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 46}
+	}
+	{Entity "map_point" 0xc000
+		{Position -6169.1 -2582}
+		{xform zl 4.39}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0xc003
+		{Position -6452.06 -653.5}
+		{xform zl 8.46}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0x8014
+		{Position -6222.04 -2052.9}
+		{xform zl -2.04}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 20}
+	}
+	{Entity "map_point" 0x802c
+		{Position -6290.29 -1380.53}
+		{xform zl -0.62}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 45}
+	}
+	{Entity "map_point" 0xc006
+		{Position -6490.4 275.73}
+		{xform zl 2.16}
+		{Extender "map_point"
+			{name b5}
+			{team b}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "flag_point" 0x8005
+		{Position -1287.17 -930.42}
+		{xform zl -79.27 scale 0.75}
+		{Extender "map_point"
+			{name f7}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 7}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "flag_point" 0x8000
+		{Position -1496.3 2503.78}
+		{xform zl -128.42 scale 0.75}
+		{Extender "map_point"
+			{name f4}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "flag_point" 0x8006
+		{Position -1916.25 -3247.91}
+		{xform zl -141.94 scale 0.75}
+		{Extender "map_point"
+			{name f9}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 9}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_point" 0x8031
+		{Position 1304.4 -564.81}
+		{xform zl -141.94 scale 0.75}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 50}
+	}
+	{Entity "flag_point" 0x8003
+		{Position 3465.1 2594.55}
+		{xform zl -141.94 scale 0.75}
+		{Extender "map_point"
+			{name f8}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 8}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "flag_point" 0x8032
+		{Position 719.75 -2857.83}
+		{xform zl -141.94 scale 0.75}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 51}
+	}
+	{Entity "flag_point" 0xc00f
+		{Position 3472.96 -2260.55}
+		{xform zl -128.42 scale 0.75}
+		{Extender "map_point"
+			{name f5}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 28}
+	}
+	{Entity "flag_point" 0x8004
+		{Position 3395.53 293.19}
+		{xform zl -79.27 scale 0.75}
+		{Extender "map_point"
+			{name f6}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 6}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "flag_point" 0x8030
+		{Position 970.29 2605.96}
+		{xform zl -141.94 scale 0.75}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "a" "b"}
+				{release "a" "b"}
+			}
+		}
+		{Player 0}
+		{MID 49}
+	}
+	{Entity "side_star" 0x8001
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x8002
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x8007
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x8008
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x8009
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x800a
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x800b
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x800c
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Entity "side_star" 0x800d
+		{Extender "bone_rotator"
+			{"rotate"
+				{speed 10}
+			}
+		}
+	}
+	{Link 0x8001 {0x8005 "side_pointer"}}
+	{Link 0x8002 {0x8000 "side_pointer"}}
+	{Link 0x8007 {0x8006 "side_pointer"}}
+	{Link 0x8008 {0x8031 "side_pointer"}}
+	{Link 0x8009 {0x8003 "side_pointer"}}
+	{Link 0x800a {0x8032 "side_pointer"}}
+	{Link 0x800b {0xc00f "side_pointer"}}
+	{Link 0x800c {0x8004 "side_pointer"}}
+	{Link 0x800d {0x8030 "side_pointer"}}
+	{Tags "keep_places_without_door" 0xdb}
+	{Tags "keep_places_without_door" 0x3209}
+	{Tags "keep_places_without_door" {0x38c "fen3"}}
+	{Tags "keep_places_without_door" 0x6025}
+	{Tags "keep_places_without_door" 0x104c}
+	{Tags "keep_places_without_door" 0x493}
+	{Tags "keep_places_without_door" 0x419b}
+	{Tags "keep_places_without_door" 0x421b}
+	{Tags "keep_places_without_door" 0x891}
+	{Tags "keep_places_without_door" 0x8b2}
+	{Tags "keep_places_without_door" 0x1088}
+	{Tags "keep_places_without_door" 0x10b8}
+	{Tags "keep_places_without_door" 0x7e1}
+	{Tags "keep_places_without_door" 0xa97}
+	{Tags "keep_places_without_door" 0xa9a}
+	{Tags "keep_places_without_door" 0xa9b}
+	{Tags "keep_places_without_door" 0xa23}
+	{Tags "keep_places_without_door" {0x61ac "stall8"}}
+	{Environment "multi/forest/forest"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+	{Fog 1}
+}
