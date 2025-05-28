@@ -1,4 +1,6 @@
- 
+{"su-34_umpk3000"
+	("air_multibomb_launcher" weapon(bomber) shooter(ympk_body_) missile(umpk_3000_guided))
+} 
 {"toyota_radar"		
 	("btr80_sound")	  
 
