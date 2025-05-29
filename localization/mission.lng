@@ -75,7 +75,7 @@
 			{"5vs5_cw_baltyisk"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Baltiysk</c>"}				}			;null			;PG Cold War
 			{"5vs5_cw_frag_town"		{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Frag Town</c>"}				}			;null			;PG Cold War
 			{"5vs5_cw_karnitur"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Karnitur</c>"}				}			;null			;PG Cold War - Pheonix
-			{"5vs5_cw_ph_hutor"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Khutor</c>"}					}			;null			;PG Cold War - Pheonix
+			{"5vs5_cw_ph_hutor"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Свинницкое село</c>"}					}			;null			;PG Cold War - Pheonix
 			{"5vs5_dubovka"				{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(FFFFFF)e(shadow)>Dubovka</c>"}					}			;null
 			{"5vs5_russianland"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(FFFFFF)e(shadow)>Russian land</c>"}			}			;null
 			{"5vs5_winter hell"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Абдулино</c>"}				}			;winter

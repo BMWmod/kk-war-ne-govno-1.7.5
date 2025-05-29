@@ -48,8 +48,8 @@
 		{MID 11}
 	}
 	{Entity "map_point" 0xc00b
-		{Position -5998.61 2036.65}
-		{xform zl -7.41}
+		{Position -5821.86 -136.68}
+		{xform zl 0.63}
 		{Extender "map_point"
 			{name b3}
 			{team b}
@@ -67,8 +67,8 @@
 		{MID 10}
 	}
 	{Entity "map_point" 0xc00a
-		{Position -6399.92 -3965.35}
-		{xform zl -7.29}
+		{Position -6016.59 -1344.51}
+		{xform zl -1.21}
 		{Extender "map_point"
 			{name b2}
 			{team b}
@@ -86,8 +86,8 @@
 		{MID 9}
 	}
 	{Entity "map_point" 0xc009
-		{Position -6055.5 1489.11}
-		{xform zl -10.4}
+		{Position -6270.6 1286.39}
+		{xform zl 22.78}
 		{Extender "map_point"
 			{name b1}
 			{team b}
@@ -162,7 +162,7 @@
 		{MID 19}
 	}
 	{Entity "map_point" 0x802d
-		{Position 7748.41 1289.15}
+		{Position 8140.15 -3333.33}
 		{xform zl 179.35}
 		{Extender "map_point"
 			{name a3}
@@ -181,7 +181,7 @@
 		{MID 46}
 	}
 	{Entity "map_point" 0xc004
-		{Position 7734.32 1662.85}
+		{Position 7812.88 569.81}
 		{xform zl 169.35}
 		{Extender "map_point"
 			{name a1}
@@ -200,8 +200,8 @@
 		{MID 4}
 	}
 	{Entity "map_point" 0xc005
-		{Position 8237.84 -3317.08}
-		{xform zl 160.47}
+		{Position 8145.82 -1128.51}
+		{xform zl 170.89}
 		{Extender "map_point"
 			{name a2}
 			{team a}
@@ -219,7 +219,7 @@
 		{MID 5}
 	}
 	{Entity "map_point" 0xc006
-		{Position 8374.76 -2221.02}
+		{Position 8101.12 2820.34}
 		{xform zl 168.17}
 		{Extender "map_point"
 			{name a4}
@@ -238,7 +238,7 @@
 		{MID 6}
 	}
 	{Entity "map_point" 0xc007
-		{Position 7753.78 818.4}
+		{Position 8083.21 1884.09}
 		{xform zl -175.22}
 		{Extender "map_point"
 			{name a5}
@@ -276,7 +276,7 @@
 		{MID 8}
 	}
 	{Entity "map_point" 0x8006
-		{Position 7757.57 397.98}
+		{Position 8015.37 -349.66}
 		{xform zl 178.86}
 		{Extender "map_point"
 			{name a7}
@@ -314,7 +314,7 @@
 		{MID 65}
 	}
 	{Entity "flag_point_17" 0xa00b
-		{Position -3496.85 1283.67}
+		{Position 725.71 1263.13}
 		{Extender "map_point"
 			{name f13}
 			{zoneA 60}
@@ -354,7 +354,7 @@
 		{MID 26}
 	}
 	{Entity "flag_point_17" 0xa00d
-		{Position -5896.95 1283.44}
+		{Position -1565.85 46.52}
 		{Extender "map_point"
 			{name f15}
 			{zoneA 60}
@@ -414,7 +414,7 @@
 		{MID 32}
 	}
 	{Entity "flag_point_17" 0xa015
-		{Position -4753.18 1863.17}
+		{Position 3391.47 479.58}
 		{Extender "map_point"
 			{name f23}
 			{zoneA 60}
@@ -454,7 +454,7 @@
 		{MID 36}
 	}
 	{Entity "flag_point_17" 0xe003
-		{Position -3553.37 3063.43}
+		{Position -167 2684.17}
 		{Extender "map_point"
 			{name f31}
 			{zoneA 60}
@@ -474,7 +474,7 @@
 		{MID 37}
 	}
 	{Entity "flag_point_17" 0xe005
-		{Position -5953.47 3063.2}
+		{Position -977.47 915.59}
 		{Extender "map_point"
 			{name f33}
 			{zoneA 60}
@@ -554,7 +554,7 @@
 		{MID 42}
 	}
 	{Entity "flag_point_17" 0x8028
-		{Position 4015.56 -2732.62}
+		{Position 4024.07 -2307.77}
 		{Extender "map_point"
 			{name f122}
 			{zoneA 60}
@@ -615,7 +615,7 @@
 		{MID 126}
 	}
 	{Entity "flag_point_17" 0x8030
-		{Position 6103.3 -3515.8}
+		{Position 1535.32 -2891.1}
 		{Extender "map_point"
 			{name f130}
 			{zoneA 60}
@@ -635,7 +635,7 @@
 		{MID 130}
 	}
 	{Entity "flag_point_17" 0x8032
-		{Position 3703.2 -3516.03}
+		{Position 1624.96 -1422.39}
 		{Extender "map_point"
 			{name f132}
 			{zoneA 60}
@@ -676,7 +676,7 @@
 		{MID 134}
 	}
 	{Entity "flag_point_17" 0x803a
-		{Position 4903.34 -2315.77}
+		{Position 1509.98 195.6}
 		{Extender "map_point"
 			{name f140}
 			{zoneA 60}
@@ -736,7 +736,7 @@
 		{MID 207}
 	}
 	{Entity "flag_point_17" 0xc030
-		{Position -4557.16 -2942.06}
+		{Position 390.45 -2165.24}
 		{Extender "map_point"
 			{name f210}
 			{zoneA 60}
@@ -776,7 +776,7 @@
 		{MID 217}
 	}
 	{Entity "flag_point_17" 0xc038
-		{Position -3496.45 -3515.19}
+		{Position 1441.61 2115.4}
 		{Extender "map_point"
 			{name f218}
 			{zoneA 60}
@@ -796,7 +796,7 @@
 		{MID 218}
 	}
 	{Entity "flag_point_17" 0xc03a
-		{Position -5896.25 -3515.32}
+		{Position -290.79 -1613.37}
 		{Extender "map_point"
 			{name f220}
 			{zoneA 60}
@@ -816,7 +816,7 @@
 		{MID 220}
 	}
 	{Entity "flag_point_17" 0xc042
-		{Position -4696.27 -2314.79}
+		{Position -2482.86 -2257.98}
 		{Extender "map_point"
 			{name f228}
 			{zoneA 60}
@@ -836,7 +836,7 @@
 		{MID 228}
 	}
 	{Entity "flag_point_17" 0x8055
-		{Position 4903.29 1283.04}
+		{Position 2207.66 -586.24}
 		{Extender "map_point"
 			{name f167}
 			{zoneA 60}
@@ -896,7 +896,7 @@
 		{MID 169}
 	}
 	{Entity "flag_point_17" 0x805e
-		{Position 3433.53 -732.58}
+		{Position 3916.49 -644.56}
 		{Extender "map_point"
 			{name f224}
 			{zoneA 60}
@@ -936,7 +936,7 @@
 		{MID 242}
 	}
 	{Entity "flag_point_17" 0x8066
-		{Position 5712.71 2963.95}
+		{Position 4275.88 2430.66}
 		{Extender "map_point"
 			{name f248}
 			{zoneA 60}
@@ -1057,99 +1057,195 @@
 		{MID 39}
 	}
 	{Entity "invisible_wall_mp_nz" 0xc02f
-		{Position 566.18 -745.15}
+		{Position 5239.39 -830.63}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8004
-		{Position 568.54 -304.05}
+		{Position 5241.75 -389.53}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8005
-		{Position 566.68 128.23}
+		{Position 5241.74 48.02}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800a
-		{Position 566.9 577.08}
+		{Position 5241.96 496.87}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800b
-		{Position 564.54 1014.65}
+		{Position 5239.6 934.44}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800c
-		{Position 560.96 1442.3}
+		{Position 5236.02 1362.09}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800d
-		{Position 554.89 1892.56}
+		{Position 5229.95 1812.35}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800e
-		{Position 543.72 2347.02}
+		{Position 5218.78 2266.81}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800f
-		{Position 536.16 2785.83}
+		{Position 5211.22 2705.62}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8010
-		{Position 532.01 3231.76}
+		{Position 5207.07 3151.55}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8011
-		{Position 530.33 3670.64}
+		{Position 5205.39 3590.43}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8012
-		{Position 524 4091.24}
+		{Position 5199.06 4011.03}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8013
-		{Position 521.29 4408.18}
+		{Position 5196.35 4327.97}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8014
-		{Position 569.45 -1197.41}
+		{Position 5242.66 -1282.89}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8015
-		{Position 569.54 -1615.08}
+		{Position 5242.75 -1700.56}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8016
-		{Position 569.59 -2056.98}
+		{Position 5242.8 -2142.46}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8017
-		{Position 567.27 -2462.41}
+		{Position 5240.48 -2547.89}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8018
-		{Position 563.07 -2879.15}
+		{Position 5236.28 -2964.63}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8019
-		{Position 558.84 -3254.77}
+		{Position 5232.05 -3340.25}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x801a
-		{Position 562.87 -3693.63}
+		{Position 5236.08 -3779.11}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x801b
-		{Position 563.52 -4142.2}
+		{Position 5236.73 -4227.68}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x801c
-		{Position 564.13 -4588.21}
+		{Position 5237.34 -4673.69}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x801d
-		{Position 564.53 -5022.36}
+		{Position 5237.74 -5107.84}
 		{xform zl -90}
 	}
 	{Entity "invisible_wall_mp_nz" 0x801e
-		{Position 564.71 -5443.62}
+		{Position 5237.92 -5529.1}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x801f
+		{Position -3330.29 -5383.41}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8020
+		{Position -3330.47 -4962.14}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8021
+		{Position -3330.87 -4527.99}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8022
+		{Position -3331.48 -4081.98}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8023
+		{Position -3332.13 -3633.41}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8024
+		{Position -3336.16 -3194.55}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8025
+		{Position -3331.93 -2818.93}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8026
+		{Position -3327.73 -2402.19}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8027
+		{Position -3325.41 -1996.76}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8029
+		{Position -3325.46 -1554.86}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x802b
+		{Position -3328.82 -684.93}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x802e
+		{Position -3325.55 -1137.19}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x802f
+		{Position -3326.47 193.72}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8031
+		{Position -3326.46 -243.83}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8033
+		{Position -3326.25 642.57}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8035
+		{Position -3328.61 1080.14}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8036
+		{Position -3332.19 1507.79}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8037
+		{Position -3338.26 1958.05}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8038
+		{Position -3349.43 2412.51}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8039
+		{Position -3356.99 2851.32}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x803b
+		{Position -3361.14 3297.25}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x803d
+		{Position -3362.82 3736.13}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x803e
+		{Position -3369.15 4156.73}
+		{xform zl -90}
+	}
+	{Entity "invisible_wall_mp_nz" 0x803f
+		{Position -3371.86 4473.67}
 		{xform zl -90}
 	}
 	{Tags "keep_places_without_door" 0x6105}
@@ -1253,6 +1349,30 @@
 	{Tags "invisible_wall_mp_nz" 0x801c}
 	{Tags "invisible_wall_mp_nz" 0x801d}
 	{Tags "invisible_wall_mp_nz" 0x801e}
+	{Tags "invisible_wall_mp_nz" 0x801f}
+	{Tags "invisible_wall_mp_nz" 0x8020}
+	{Tags "invisible_wall_mp_nz" 0x8021}
+	{Tags "invisible_wall_mp_nz" 0x8022}
+	{Tags "invisible_wall_mp_nz" 0x8023}
+	{Tags "invisible_wall_mp_nz" 0x8024}
+	{Tags "invisible_wall_mp_nz" 0x8025}
+	{Tags "invisible_wall_mp_nz" 0x8026}
+	{Tags "invisible_wall_mp_nz" 0x8027}
+	{Tags "invisible_wall_mp_nz" 0x8029}
+	{Tags "invisible_wall_mp_nz" 0x802b}
+	{Tags "invisible_wall_mp_nz" 0x802e}
+	{Tags "invisible_wall_mp_nz" 0x802f}
+	{Tags "invisible_wall_mp_nz" 0x8031}
+	{Tags "invisible_wall_mp_nz" 0x8033}
+	{Tags "invisible_wall_mp_nz" 0x8035}
+	{Tags "invisible_wall_mp_nz" 0x8036}
+	{Tags "invisible_wall_mp_nz" 0x8037}
+	{Tags "invisible_wall_mp_nz" 0x8038}
+	{Tags "invisible_wall_mp_nz" 0x8039}
+	{Tags "invisible_wall_mp_nz" 0x803b}
+	{Tags "invisible_wall_mp_nz" 0x803d}
+	{Tags "invisible_wall_mp_nz" 0x803e}
+	{Tags "invisible_wall_mp_nz" 0x803f}
 	{Brain 0x48a8
 		{Properties
 			{fire_mode hold}
