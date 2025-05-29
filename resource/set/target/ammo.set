@@ -148,7 +148,6 @@
 		{"bullet" {volume "body"}}	
 	}
 	{fpv_kamikaze
-		{"bullet" {volume "body"}}
 		{"hmgun"  {volume "body"}}		
 	}
 	{medium_UAV_kamikaze

@@ -55,7 +55,7 @@
 {"m1097_avenger"        ("vradar" c1(m1097_avenger) c2(hawk_cwar) c(240) brig(common) t(all_nz antiair aat) s(usa) n(3) n1(vehicle_supporter:3) n2() g(pvo1)  sc(100) a(2) b(common) i(12) cw(0) cp(10))  {fore 1}}
 
 
-{"usapmc" {fore 1} ("v3" c(240) sc(80) g(inf4) b(common) brig(common) s(usa)  i(11) cw(0) cp(10) t(all_nz inf_usa infantry   n(3) c1(fv432_mk2) n1(priv_mil_smg:2) n2(priv_mil_marksman:1) n3(priv_mil_mg:1) n4(priv_mil_rpg:1) n5(priv_mil_rpg2:1) n6(priv_mil_smg1:2) n7(priv_mil_smg2:2) n8(priv_mil_smg3:2)       ) }
+;{"usapmc" {fore 1} ("v3" c(240) sc(80) g(inf4) b(common) brig(common) s(usa)  i(11) cw(0) cp(10) t(all_nz inf_usa infantry   n(3) c1(fv432_mk2) n1(priv_mil_smg:2) n2(priv_mil_marksman:1) n3(priv_mil_mg:1) n4(priv_mil_rpg:1) n5(priv_mil_rpg2:1) n6(priv_mil_smg1:2) n7(priv_mil_smg2:2) n8(priv_mil_smg3:2)       ) }
 
 ;===============================Вспомогательные войска===========================================                                   
  {"m939_art" {fore 1} ("vs" c(600) sc(50) g(supply5) b(supl) brig(common) s(usa)  i(1) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }

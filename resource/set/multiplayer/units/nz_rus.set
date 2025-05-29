@@ -232,7 +232,7 @@
 
   ("squad_with11types" side(rus) name(morspec) c(480) g(extra13) c1(morspec_com:1) c2(morspec_mgun:1) c3(morspec_rpg:1) c4(morspec_rpghelp:1) c5(morspec_smg:1) c6(morspec_smg2:1) c7(morspec_smg3:1) c8(morspec_sniper:1) c9(morspec_sniper1:1) ca(morspec_zamcom:1) b(extra) brig(specbr) t(all_nz specnaz infantry nobot) cost(50) f(0) info(morspec))
   {"t72b3_2017"	("v" c(600) brig(specbr) t(all_nz  tanks_only duel_tanks90 tank_rus) s(rus) n(3) g(extra14)  sc(100) b(extra) i(4) m(4) cw(0) cp(65))  {fore 0.0}}
-  {"btr90" {fore 1} ("v3" c(600) sc(50) g(advinf2_ext_23345) b(extra) brig(specbr) s(rus)  i(29) cw(0) m(18) cp(80) t(all_nz inf_rus  ) c1(btr90) n(3) n1(tankman:3)   ) } 
+  ;{"btr90" {fore 1} ("v3" c(600) sc(50) g(advinf2_ext_23345) b(extra) brig(specbr) s(rus)  i(29) cw(0) m(18) cp(80) t(all_nz inf_rus  ) c1(btr90) n(3) n1(tankman:3)   ) } 
   
  {"kornet_stan" {fore 0} ("vs" c(700) sc(50) g(stan3_extra) b(extra) brig(vdv) s(rus)  i(22) cw(1) m(10) cp(25) t(all_nz    ) n(2)               ) }
  {"mi8amtsh1_mgnar" {fore 0} ("v3" c(600) sc(100) g(sso_extra) b(extra) brig(vdv) s(rus)  i(69) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi8amtsh1_mgnar)brig(vdv) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
