@@ -226,17 +226,17 @@
 
  
   ("squad_with11types" name(elite) f(0)  c(600) cost(50) g(elite_333) b(extra) brig(mot) side(rus) m(7)    t(all_nz specnaz infantry  ) info(elite) c1(gru_com:1) c2(gru_mgun2:1) c3(gru_mgun:1) c4(gru_smg3:1) c5(gru_rpg:1) c6(gru_rpghelp:1) c7(gru_smg2:1) c8(gru_smg:1) c9(gru_sniper:1) ca(gru_zamcom:1)     ) 
-  {"t-90a" {fore 0.0} ("v" c(1000) sc(150) g(obt_mot) b(extra) brig(mot) s(rus)  i(5) cw(0) cp(65) m(5) t(all_nz tank_rus   ) n(3) c1(t90sm) n1(tankman:3)             ) }
-  {"bmpt" {fore 0} ("v" c(800) sc(200) g(bmpt) b(extra) brig(mot) s(rus)  i(6) cw(0) cp(60) m(6)	t(all_nz tank_rus   ) n(5)               ) }
+  {"t-90a" {fore 0.0} ("v" c(1000) sc(100) g(obt_mot) b(extra) brig(mot) s(rus)  i(5) cw(0) cp(65) m(5) t(all_nz tank_rus   ) n(3) c1(t90sm) n1(tankman:3)             ) }
+  {"bmpt" {fore 0} ("v" c(800) sc(150) g(bmpt) b(extra) brig(mot) s(rus)  i(6) cw(0) cp(60) m(6)	t(all_nz tank_rus   ) n(5)               ) }
 
 
   ("squad_with11types" side(rus) name(morspec) c(480) g(extra13) c1(morspec_com:1) c2(morspec_mgun:1) c3(morspec_rpg:1) c4(morspec_rpghelp:1) c5(morspec_smg:1) c6(morspec_smg2:1) c7(morspec_smg3:1) c8(morspec_sniper:1) c9(morspec_sniper1:1) ca(morspec_zamcom:1) b(extra) brig(specbr) t(all_nz specnaz infantry nobot) cost(50) f(0) info(morspec))
   {"t72b3_2017"	("v" c(600) brig(specbr) t(all_nz  tanks_only duel_tanks90 tank_rus) s(rus) n(3) g(extra14)  sc(100) b(extra) i(4) m(4) cw(0) cp(65))  {fore 0.0}}
-  {"btr90" {fore 1} ("v3" c(600) sc(50) g(advinf2_ext_23345) b(extra) brig(specbr) s(rus)  i(29) cw(0) m(18) cp(80) t(all_nz inf_rus  ) c1(btr90) n(3) n1(tankman:3)   ) } 
+  ;{"btr90" {fore 1} ("v3" c(600) sc(50) g(advinf2_ext_23345) b(extra) brig(specbr) s(rus)  i(29) cw(0) m(18) cp(80) t(all_nz inf_rus  ) c1(btr90) n(3) n1(tankman:3)   ) } 
   
  {"kornet_stan" {fore 0} ("vs" c(700) sc(50) g(stan3_extra) b(extra) brig(vdv) s(rus)  i(22) cw(1) m(10) cp(25) t(all_nz    ) n(2)               ) }
- {"mi8amtsh1_mgnar" {fore 0} ("v3" c(600) sc(100) g(sso_extra) b(extra) brig(vdv) s(rus)  i(69) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi8amtsh1_mgnar)brig(vdv) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
- {"ka52_germes" {fore 0} ("v3" c(1000) sc(200) g(sso_extra) b(extra) brig(vdv) s(rus)  i(70) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(ka52_germes) brig(vdv) n1(vertpilot:2)         ) }
+ {"mi8amtsh1_mgnar" {fore 0} ("v3" c(600) sc(50) g(sso_extra) b(extra) brig(vdv) s(rus)  i(69) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(mi8amtsh1_mgnar)brig(vdv) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
+ {"ka52_germes" {fore 0} ("v3" c(1000) sc(300) g(sso_extra) b(extra) brig(vdv) s(rus)  i(70) cw(0) cp(2) m(11) t(all_nz  ) n(2) c1(ka52_germes) brig(vdv) n1(vertpilot:2)         ) }
   
 
  {"bm-30_smerch" {fore 0} ("vs" c(900) sc(200) g(rszo1extra) b(extra) brig(artbr) s(rus)  i(78) cw(0) m(14) cp(69) t(all_nz art support_frontline  ) n(4)               ) }
@@ -245,7 +245,7 @@
 
 
 
- ;{"ka52_germes" {fore 0} ("h" c(900) sc(250) g(helik_extra) b(extra) brig(vvs) s(rus)  i(256) cw(0) m(12) cp(80) t(all_nz aircraft ) n(2)               ) }
+ ;{"ka52_germes" {fore 0} ("h" c(900) sc(300) g(helik_extra) b(extra) brig(vvs) s(rus)  i(256) cw(0) m(12) cp(80) t(all_nz aircraft ) n(2)               ) }
  
 ;{"bmp3_derivation" {fore 0} ("v_v" c(700) sc(150) g(advinf3_extra) b(extra) brig(specbr) s(rus)  i(18) m(8) cw(0) cp(10) t(all_nz tank_rus no_frontline ) n(3)               ) }
 

@@ -570,7 +570,7 @@
 
 (define "atacms"
 	{item "ATACMS fg ammo" 1 {max 2}{value 130}}
-;    {item "ATACMS ammo" 1 {max 2}{value 130}}		
+    {item "ATACMS ammo" 1 {max 2}{value 130}}		
 )
 (define "iskander"
 	{item "iskander tb ammo" 1 {max 2}{value 200}}			;лимит 3000		
@@ -580,7 +580,7 @@
 )
 (define "df15"
 	{item "df15b fg ammo" 1 {max 1}{value 100}}
-;	{item "df15b tb ammo" 1 {max 1}{value 250}}
+	{item "df15b tb ammo" 1 {max 1}{value 250}}
 )
 (define "phl03"
     {item "phl03 bre3 fg ammo" 4 {max 12}{value 160}}
@@ -591,9 +591,9 @@
 	{item "ammo 240mm_Mortar fg" 1 {max 10} {value 35}}	
 	{item "grad rok ammo" 8 {max 40}{value 100}}
     {item "tos1a fg ammo" 2 {max 24}{value 30}}	
-;	{item "grad cl ammo" 10 {max 40}{value 50}}				
-;	{item "grad fg ammo" 10 {max 40}{value 50}}				
-;	{item "grad spbe ammo" 10 {max 40}{value 50}}				
+	{item "grad cl ammo" 10 {max 40}{value 50}}				
+	{item "grad fg ammo" 10 {max 40}{value 50}}				
+	{item "grad spbe ammo" 10 {max 40}{value 50}}				
 	{item "grad mine ammo" 10 {max 40}{value 50}}				
 )
 (define "smerch"
@@ -602,7 +602,7 @@
 )
 (define "grad_cn"
 	{item "grad fgh ammo" 8 {max 40}{value 100}}
-;   {item "grad clcn ammo" 10 {max 40}{value 50}}	
+   {item "grad clcn ammo" 10 {max 40}{value 50}}	
 )
 (define "lars2"
 	{item "lars2 fg ammo" 9 {max 36}{value 70}}				
