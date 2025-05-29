@@ -1095,6 +1095,8 @@
 				{"t-64bm1"								"<c(FFFFFF)e(shadow)>T-64БМ1 Булат</c>"}
 				{"t-64bm2"								"<c(FFFFFF)e(shadow)>T-64БМ2 Булат</c>"}
 			;usa
+				;ags
+					{"ags"								"<c(FFFFFF)e(shadow)>TCM-AGS</c>"}
 				;m1a1_all_model
 					{"m1a1_FEP"							"<c(FFFFFF)e(shadow)>M1A1 FEP</c>"}
 					{"m1a1_new"							"<c(FFFFFF)e(shadow)>M1A1HA</c>"}
