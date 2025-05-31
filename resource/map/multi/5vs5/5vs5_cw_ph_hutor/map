@@ -43,49 +43,23 @@
 		{Position 1463.52 -1238.22}
 	}
 	{Entity "wood_cross1" 0x1006
-		{Position 1798.43 -933.87 84.61}
+		{Position 1798.43 -933.87 65.25}
 		{xform zl -136.58 y 7.69 zw 123.83}
 	}
 	{Entity "wood_cross1" 0x1007
-		{Position 1764.77 -856.42 66.01}
+		{Position 1764.77 -856.42 46.01}
 		{xform zl -157.17 y 4.13 zw 145.63}
 	}
 	{Entity "tree_wilow" 0x1008
-		{Position 1835.64 -852.73 68.1}
+		{Position 1835.64 -852.73 48.95}
 		{xform zl -3.81 y 4.04 zw -9.41 scale 1.533}
 		{TexMod "bare"}
 	}
 	{Entity "water8b" 0x1009
 		{Position 1593.72 -1208.92}
 	}
-	{Entity "ash_tree_bush1" 0x100c
-		{Position 1245.51 -1189.87 82.03}
-		{xform zl -85.39}
-		{TexMod "burned"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "topol02" 0x100f
-		{Position 1202.35 -1196.15 106.17}
-		{xform zl -142.97 y 91.23 zw -82.55}
-		{TexMod "autlate"}
-		{Volume "bole"
-			{able {contact 0}{blast 0}}
-		}
-		{PillarFallen}
-		{Simulation {Able 1}}
-	}
-	{Entity "ash_tree_bush1" 0x1010
-		{Position 1633.63 -1286.05}
-		{xform zl 109.39}
-		{TexMod "burned"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
 	{Entity "cane3" 0x1013
-		{Position 1501.01 -1249.26 97.22}
+		{Position 1501.01 -1249.26 77.25}
 		{xform zl 5.16 scale 1.163}
 		{TexMod "burned"}
 		{Volume "crown"
@@ -93,16 +67,16 @@
 		}
 	}
 	{Entity "ash_tree_bush1" 0x1027
-		{Position 1452.72 -984.81 79.15}
-		{xform zl -85.39}
+		{Position 1355.86 -499.16 67.03}
+		{xform zl -103.89}
 		{TexMod "burned"}
 		{Volume "crown"
 			{able {visible 0}}
 		}
 	}
 	{Entity "topol02" 0x1028
-		{Position 1406.32 -1001.7 102.18}
-		{xform zl -100.58 y 88.98 zw -159.85}
+		{Position 1306.5 -500.46 90.31}
+		{xform zl -100.58 y 88.98 zw -178.35}
 		{TexMod "autlate"}
 		{Volume "bole"
 			{able {contact 0}{blast 0}}
@@ -111,15 +85,15 @@
 		{Simulation {Able 1}}
 	}
 	{Entity "path_sand2a" 0x102a
-		{Position 1315.8 -985.21 97.07}
+		{Position 1315.8 -985.21 81.54}
 		{xform zl -135.54}
 	}
 	{Entity "path_sand2a" 0x102b
-		{Position 1104.76 -865.53 109.54}
+		{Position 1104.76 -865.53 81.54}
 		{xform zl 66.71}
 	}
 	{Entity "path_sand2a" 0x102c
-		{Position 892.08 -787.34 -5.46}
+		{Position 892.08 -787.34 81.54}
 		{xform zl -115.72}
 	}
 	{Entity "water8b" 0x102d
@@ -129,11 +103,11 @@
 		{Position 1110.09 -235.86}
 	}
 	{Entity "wood_cross1" 0x1030
-		{Position 1411.35 145.94 27.97}
+		{Position 1411.35 145.94 37.93}
 		{xform zl -157.17 y 4.13 zw 145.63}
 	}
 	{Entity "tree_wilow" 0x1031
-		{Position 1619.11 391.56 -13.28}
+		{Position 1619.11 391.56 -9.27}
 		{xform zl -3.81 y 4.04 zw -9.41 scale 1.533}
 		{TexMod "bare"}
 	}
@@ -141,12 +115,12 @@
 		{Position 1240.29 -206.56}
 	}
 	{Entity "ash_tree_bush1" 0x1033
-		{Position 892.08 -187.51 66.16}
+		{Position 892.08 -187.51 67.03}
 		{xform zl -85.39}
 		{TexMod "aut"}
 	}
 	{Entity "topol02" 0x1034
-		{Position 847.3 -183.68 57.79}
+		{Position 847.3 -183.68 62.69}
 		{xform zl 137.16}
 		{TexMod "autlate"}
 	}
@@ -156,11 +130,11 @@
 		{TexMod "aut"}
 	}
 	{Entity "reed4" 0x1036
-		{Position 1236.49 -264.03 89.29}
+		{Position 1236.49 -264.03 68.24}
 		{xform zl -103.99}
 	}
 	{Entity "reed4" 0x1037
-		{Position 1372.9 -301.03 96.33}
+		{Position 1372.9 -301.03 69.54}
 		{xform zl -16.49}
 		{TexMod "1"}
 	}
@@ -175,7 +149,7 @@
 		{TexMod "1"}
 	}
 	{Entity "cane3" 0x103a
-		{Position 959.25 -316.81 -8.78}
+		{Position 959.25 -316.81 78.22}
 		{xform zl 0.62 scale 1.163}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -183,7 +157,7 @@
 		}
 	}
 	{Entity "topol02" 0x103c
-		{Position 1054.51 21.38 51.06}
+		{Position 1054.51 21.38 62.69}
 		{xform zl 137.16}
 		{TexMod "autlate"}
 	}
@@ -251,7 +225,7 @@
 		{xform zl 179.57 y 90.12 zw -97.52}
 	}
 	{Entity "crash_brick3" 0x2c12
-		{Position 1775.64 -1137.28 105.03}
+		{Position 1775.64 -1137.28 102.36}
 		{xform zl 77.08 y 0.07 zw 77.08}
 	}
 	{Entity "piece_large_concrete" 0x2c15
@@ -458,9 +432,6 @@
 	{Entity "piece_large_concrete" 0x6105
 		{Position 1491.31 -1248.05 108.22}
 		{xform zl 2.93 y 73.21 zw -140.77}
-	}
-	{Entity "water8b" 0x7480
-		{Position -1678.66 -1942.83}
 	}
 	{Entity "water8b" 0x7481
 		{Position 519.07 -990.97}
@@ -1002,30 +973,6 @@
 		{Constrain surface}
 		{TexMod "cross95"}
 	}
-	{Entity "trench_ground_mgun" 0xb7
-		{Position -289.82 -2952.06 0}
-		{xform zl 90}
-		{Constrain surface}
-	}
-	{Entity "trench_ground_t" 0xb8
-		{Position -244.25 -3188.42 0}
-		{xform zl -90}
-		{Constrain surface}
-	}
-	{Entity "trench_ground" 0x600a
-		{Position -120.17 -3185.86 0}
-		{Constrain surface}
-	}
-	{Entity "trench_ground" 0xb9
-		{Position -267.88 -3052.57 0}
-		{xform zl -70}
-		{Constrain surface}
-	}
-	{Entity "trench_ground_exit2" 0x600c
-		{Position -244.4 -3290.82 -1.74}
-		{xform zl 90 y 17.29 zw 90}
-		{Constrain surface}
-	}
 	{Entity "new_birch" 0x584d
 		{Position -1003.2 -2857.06}
 		{TexMod "aut1"}
@@ -1150,11 +1097,6 @@
 		{Position -391.33 -3697.77}
 		{Constrain surface}
 	}
-	{Entity "barricade1" 0x3401
-		{Position -383.7 -3326.63}
-		{xform zl 90}
-		{Constrain surface}
-	}
 	{Entity "barricade2_b" 0x3404
 		{Position -173.47 -3429.78}
 		{xform zl 90}
@@ -1187,19 +1129,6 @@
 		{xform zl 90}
 		{Constrain surface}
 	}
-	{Entity "netting" 0xc07
-		{Position -83.97 -2991.36}
-		{Constrain surface}
-	}
-	{Entity "netting" 0xc08
-		{Position -378.4 -3369.08}
-		{xform zl -179.23}
-		{Constrain surface}
-	}
-	{Entity "new_oar" 0xc0a
-		{Position -155.76 -2925.01}
-		{Constrain surface}
-	}
 	{Entity "stuff" 0xc1
 		{Position -7.24 -3645.23}
 		{Constrain surface}
@@ -1208,25 +1137,8 @@
 		{Position -109.07 -3385.44}
 		{Constrain surface}
 	}
-	{Entity "new_birch" 0xcb
-		{Position 26.13 -2951.39}
-		{Constrain surface}
-		{TexMod "autlate"}
-	}
 	{Entity "stub_tree" 0xd8
 		{Position -719.11 -2963.91}
-		{Constrain surface}
-	}
-	{Entity "stub_tree" 0xd9
-		{Position -162.58 -3036.14}
-		{Constrain surface}
-	}
-	{Entity "stub_tree" 0xda
-		{Position -56.29 -3292.56}
-		{Constrain surface}
-	}
-	{Entity "stub_tree" 0xdb
-		{Position -15.8 -2925.04}
 		{Constrain surface}
 	}
 	{Entity "dried2" 0xdc
@@ -1381,11 +1293,6 @@
 		{Position -1037.59 -3324.01}
 		{Constrain surface}
 	}
-	{Entity "barricade2_b" 0x600d
-		{Position -94.69 -2945.34}
-		{xform zl 98.3}
-		{Constrain surface}
-	}
 	{Entity "house_wood122" 0x600f
 		{Position 258.4 -2341.84}
 		{xform zl 88.06}
@@ -1456,7 +1363,7 @@
 		{xform zl 1.23}
 	}
 	{Entity "church2" 0x609a
-		{Position 1629.78 -1128.1 104.27}
+		{Position 1629.78 -1128.1 92.27}
 		{xform zl 82.33}
 	}
 	{Entity "rusch_middle" 0x60a0
@@ -1854,11 +1761,6 @@
 		{xform zl 169.89}
 		{Constrain surface}
 	}
-	{Entity "topol02" 0x5423
-		{Position 121.24 -2548.47}
-		{xform zl -49.64 scale 1.113}
-		{TexMod "autlate"}
-	}
 	{Entity "ash_tree_bush1" 0x5424
 		{Position 87.26 -2571.4}
 		{xform zl 119.07}
@@ -1866,39 +1768,6 @@
 		{Volume "crown"
 			{able {visible 0}}
 		}
-	}
-	{Entity "ash_tree_bush1" 0x5425
-		{Position 151.04 -2506.11}
-		{xform zl 9.26}
-		{TexMod "bare"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "new_bush1a" 0x5426
-		{Position 226.08 -2548.43}
-		{xform zl 44.84}
-		{TexMod "aut"}
-	}
-	{Entity "new_bush1a" 0x5427
-		{Position 229.09 -2608.02 -0.61}
-		{xform zl 38.3}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x5428
-		{Position 325.18 -2663.46 -0.74}
-		{xform zl -40.94}
-		{TexMod "1"}
-	}
-	{Entity "ash_tree_bush1" 0x5429
-		{Position 288.56 -2588.1}
-		{xform zl 12.33 scale 0.87}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x542a
-		{Position -179.61 -2957.11}
-		{xform zl 12.33 scale 0.87}
-		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x542b
 		{Position -234.48 -3411.94}
@@ -2029,29 +1898,6 @@
 		{xform zl -14.8 y 2.51 zw -167.71}
 		{Constrain surface}
 	}
-	{Entity "trench_ground_exit2" 0x480f
-		{Position -291.25 -2874.18 0}
-	}
-	{Entity "trench_ground" 0x4810
-		{Position 12.8 -3187.21 0}
-	}
-	{Entity "trench_ground" 0x4811
-		{Position 141.35 -3187.46 16}
-	}
-	{Entity "trench_ground_exit2" 0x4813
-		{Position 229.95 -3187.98 -0.83}
-		{xform zl -90.83}
-	}
-	{Entity "woodframe_small" 0x3200
-		{Position 80.47 -3239.61 0.32}
-	}
-	{Entity "woodframe_small" 0x3201
-		{Position -14.95 -3240.78}
-	}
-	{Entity "barricade2_c_corner1" 0x3202
-		{Position 209.11 -2927.06}
-		{xform zl 15.87}
-	}
 	{Entity "barricade2_b" 0x3206
 		{Position -298.66 -2245.03}
 		{xform zl 98.3}
@@ -2060,11 +1906,6 @@
 	{Entity "barricade2_b" 0x3209
 		{Position 94.7 -2212.36}
 		{xform zl -128.29 y 3.79 zw -171.67}
-		{Constrain surface}
-	}
-	{Entity "barricade2_b" 0x320c
-		{Position 245.09 -2746.62}
-		{xform zl 141.05 y 3.79 zw -171.67}
 		{Constrain surface}
 	}
 	{Entity "fence_euro19a" 0x320d
@@ -2250,39 +2091,16 @@
 		{TexMod "1"}
 	}
 	{Entity "stonechip1" 0x5806
-		{Position 1645.96 -1242.15 191.81}
+		{Position 1645.96 -1242.15 173.41}
 		{xform zl -28.6 y 114.03 zw -28.6}
 	}
-	{Entity "building_part_concrete" 0x5809
-		{Position 1589.81 -1300.86 107.23}
-		{xform zl -0.33 y 89.97 zw -149.23}
-	}
-	{Entity "building_part_concrete" 0x580b
-		{Position 1581.87 -1292.22 114.3}
-		{xform zl 85.69 y 90.03 zw 141.88}
-	}
-	{Entity "building_part_concrete" 0x580d
-		{Position 1602.11 -1335.76 109.96}
-		{xform zl 178.34 y 3.27 zw -90.57}
-	}
 	{Entity "crash_brick3" 0x5813
-		{Position 1578.19 -1219.05 198.95}
+		{Position 1578.19 -1219.05 177.53}
 		{xform zl -23.2 y 55.77 zw -23.2}
 	}
-	{Entity "building_part_concrete" 0x5816
-		{Position 1589.13 -1326.6 103.05}
-		{xform zl 3.66 y 16.57 zw 62.03}
-		{Volume "piece01"
-			{able {obstacle 0}}
-		}
-	}
 	{Entity "building_part_concrete" 0x5818
-		{Position 1561.44 -1267.36 110.08}
+		{Position 1561.44 -1267.36 86.08}
 		{xform zl 92.64 y 71.39 zw -53.49}
-	}
-	{Entity "building_part_concrete" 0x581c
-		{Position 1618.47 -1382.12 102.51}
-		{xform zl 177.57 y 93.58 zw -129.97}
 	}
 	{Entity "building_part_concrete" 0x5822
 		{Position 1629.06 -1247.77 106.81}
@@ -2292,12 +2110,8 @@
 		}
 	}
 	{Entity "crash_brick3" 0x5824
-		{Position 1608.99 -1187.94 209.27}
+		{Position 1608.99 -1187.94 188.42}
 		{xform zl -15.94 y 104.71 zw -15.94}
-	}
-	{Entity "piece_large_concrete" 0x582d
-		{Position 1600.39 -1311.86 92.69}
-		{xform zl 104.89 y 3.23 zw -22.83}
 	}
 	{Entity "building_part_concrete" 0x582f
 		{Position 1578.83 -1183.47 107.61}
@@ -2305,17 +2119,6 @@
 		{Volume "piece01"
 			{able {obstacle 0}}
 		}
-	}
-	{Entity "building_part_concrete" 0x5837
-		{Position 1540.85 -1286.52 106.47}
-		{xform zl 18.82 y 17.4 zw -14.18}
-		{Volume "piece05"
-			{able {obstacle 0}}
-		}
-	}
-	{Entity "piece_large_concrete" 0x5841
-		{Position 1543.81 -1339.81 110.42}
-		{xform zl 107.71 y 92.88 zw -103.49}
 	}
 	{Entity "piece_large_concrete" 0x2007
 		{Position 1554.49 -1201.83 109.57}
@@ -2327,11 +2130,11 @@
 		{TexMod "ground"}
 	}
 	{Entity "crash_brick3a" 0x3222
-		{Position 1774.47 -1147.59 104.27}
+		{Position 1774.47 -1147.59 90.7}
 		{xform zl -10.71 y 41.79 zw -10.71}
 	}
 	{Entity "stonechip1" 0x3229
-		{Position 1768.57 -1098.77 195.86}
+		{Position 1768.57 -1098.77 174.95}
 		{xform zl -2.97 y 50.99 zw -2.97}
 	}
 	{Entity "building_part_concrete" 0x322e
@@ -2659,12 +2462,12 @@
 		{TexMod "aut"}
 	}
 	{Entity "tree_attach" 0x3604
-		{Position -1158.18 -1930.23 47.4}
+		{Position -1158.18 -1930.23 38}
 		{xform zl 63.26}
 		{TexMod "7"}
 	}
 	{Entity "ash_tree_bush1" 0x3605
-		{Position -891.04 -2085.33 42.14}
+		{Position -891.04 -2085.33 39.77}
 		{xform zl -163.66}
 		{TexMod "1"}
 	}
@@ -2673,7 +2476,7 @@
 		{xform zl -13.95}
 	}
 	{Entity "888" 0x5e01
-		{Position -1564.19 -2245.4 8.73}
+		{Position -1564.19 -2245.4 34.96}
 		{xform zl 1.59}
 	}
 	{Entity "888" 0x5e02
@@ -2681,11 +2484,11 @@
 		{xform zl -42.32}
 	}
 	{Entity "888" 0x5e03
-		{Position -1399.27 -2182.61 15.44}
+		{Position -1399.27 -2182.61 34.97}
 		{xform zl 33.22}
 	}
 	{Entity "888" 0x5e04
-		{Position -1278.8 -2031.94 -5.04}
+		{Position -1278.8 -2031.94 34.97}
 		{xform zl 71}
 	}
 	{Entity "topol02" 0x5e05
@@ -2750,15 +2553,15 @@
 		{Position -2131.91 -1862.81}
 	}
 	{Entity "wood_cross1" 0x5e10
-		{Position -2108.57 -1880.07 17.11}
+		{Position -2108.57 -1880.07 15.25}
 		{xform zl -136.58 y 7.69 zw 123.83}
 	}
 	{Entity "wood_cross1" 0x5e11
-		{Position -2142.22 -1802.62 -15.95}
+		{Position -2142.22 -1802.62 -5.37}
 		{xform zl -157.17 y 4.13 zw 145.63}
 	}
 	{Entity "tree_wilow" 0x5e12
-		{Position -2071.35 -1798.93 0.51}
+		{Position -2071.35 -1798.93 0.68}
 		{xform zl -3.81 y 4.04 zw -9.41 scale 1.533}
 		{TexMod "bare"}
 	}
@@ -3122,11 +2925,6 @@
 		{xform zl 3.57}
 		{Constrain surface}
 	}
-	{Entity "fence-wood_3" 0x200f
-		{Position -2981.48 -3322.57}
-		{xform zl -3.35}
-		{Constrain surface}
-	}
 	{Entity "fence-wood_3" 0x2010
 		{Position -2963.47 -3083.09 -1.25}
 		{xform zl -46.15 y 7.21 zw 42.58}
@@ -3320,10 +3118,6 @@
 		{Position -1177.9 -1593.91}
 		{xform zl 61.81}
 	}
-	{Entity "wood_swim" 0x780b
-		{Position -1560.14 -2055.1 -3.12}
-		{xform scale 1.187}
-	}
 	{Entity "wood_toilet" 0x780c
 		{Position -1016.68 -1757.22 0.1}
 		{xform zl -170.48}
@@ -3346,14 +3140,14 @@
 		{xform zl -14.4}
 	}
 	{Entity "camp_fire" 0x3405
-		{Position -1687.12 -1820.36 11.36}
+		{Position -1687.12 -1820.36 34.91}
 	}
 	{Entity "path_sand2a" 0x3406
 		{Position -1368.08 -1549.27 4.38}
 		{xform zl 143.38}
 	}
 	{Entity "path_sand2a" 0x3408
-		{Position -1541.36 -1754.61 11.64}
+		{Position -1541.36 -1754.61 28.67}
 		{xform zl -46.89}
 	}
 	{Entity "ash_tree_bush1" 0x3409
@@ -3504,11 +3298,6 @@
 	}
 	{Entity "leaves1a" 0x2802
 		{Position 111.28 -2804.66}
-		{xform zl -39.04}
-		{DecalOrder 2}
-	}
-	{Entity "leaves1a" 0x2804
-		{Position 258.69 -2636.78}
 		{xform zl -39.04}
 		{DecalOrder 2}
 	}
@@ -3736,24 +3525,6 @@
 		{xform zl -39.04}
 		{DecalOrder 2}
 	}
-	{Entity "shed125_corn2" 0x298
-		{TexMod
-			{"/texture/common/wall/wall_euro_sh_29" "1"}
-			{"/texture/common/roof/roof_sh32" "1"}
-		}
-	}
-	{Entity "shed125_corn3" 0x299
-		{TexMod
-			{"/texture/common/wall/wall_euro_sh_29" "1"}
-			{"/texture/common/roof/roof_sh32" "1"}
-		}
-	}
-	{Entity "shed125_corn4" 0x29a
-		{TexMod
-			{"/texture/common/wall/wall_euro_sh_29" "1"}
-			{"/texture/common/roof/roof_sh32" "1"}
-		}
-	}
 	{Entity "house_ru_141_1_1" 0x60b3
 		{TexMod
 			{"/texture/common/wall/wall_ru_141_2" "ruin4"}
@@ -3847,14 +3618,6 @@
 	{Entity "house_ru_141_11_3" 0x29e
 		{TexMod "burned"}
 	}
-	{Entity "shed_wood125" 0x2a8
-		{Position 847.51 1423.67}
-		{xform zl 171.87 y 5.03 zw 11.82}
-		{Constrain surface}
-		{Placer
-			{State "1" {Unlinked}}
-		}
-	}
 	{Entity "house_ru_141" 0x2a9
 		{Position 1420.69 1627.79}
 		{xform zl -75.3 y 3.03 zw -25.37}
@@ -3886,27 +3649,12 @@
 		{xform zl 176.25 y 4.57 zw -0.99}
 		{Constrain surface}
 	}
-	{Entity "wires2_x" 0x4099
-		{Position 618.87 1841.18}
-		{xform zl -151.34 y 3.8 zw 174.05}
-		{Constrain surface}
-	}
 	{Entity "sandbag2" 0x608b
 		{Position 819.7 1751.13 5}
 		{xform zl -133.11 y 2.3 zw 90}
 		{Constrain surface}
 		{TexMod "2"}
 		{Color 0xffd1d4bc}
-	}
-	{Entity "eg" 0x608c
-		{Position 813.06 1891.2}
-		{xform zl -176.59}
-		{Constrain surface}
-	}
-	{Entity "wires_x" 0x608d
-		{Position 768.9 1857.33}
-		{xform zl -17.23}
-		{Constrain surface}
 	}
 	{Entity "sandbag3" 0x608f
 		{Position 679.45 1796.31}
@@ -4350,11 +4098,6 @@
 		{TexMod "2"}
 		{Color 0xffd1d4bc}
 	}
-	{Entity "wires_x" 0x2cf
-		{Position 819.12 1828.36}
-		{xform zl 130.09 y 2.09 zw 180}
-		{Constrain surface}
-	}
 	{Entity "crash_wood1" 0x2d0
 		{Position 1054.38 1859.53}
 		{xform zl -24.03 y 2.32 zw 90}
@@ -4527,16 +4270,6 @@
 		{Volume "crown"
 			{able {visible 0}}
 		}
-	}
-	{Entity "eg" 0x2dd
-		{Position 520.09 1823.54}
-		{xform zl -113.48}
-		{Constrain surface}
-	}
-	{Entity "eg" 0x2de
-		{Position 481.42 1741.52}
-		{xform zl 70.02}
-		{Constrain surface}
 	}
 	{Entity "smoke_grey_storeable2" 0x2df
 		{Position 1423.53 1640.11}
@@ -4755,13 +4488,8 @@
 		{TexMod "aut"}
 	}
 	{Entity "eg" 0x307
-		{Position 1032.08 1267.6}
-		{xform zl 5.44 y 5.83 zw 65.19}
-		{Constrain surface}
-	}
-	{Entity "eg" 0x308
-		{Position 872.2 1275.62}
-		{xform zl -9.46 y 2.12 zw 79.7}
+		{Position 2323.18 1203.64}
+		{xform zl -22.53 y 4.57 zw 123.32}
 		{Constrain surface}
 	}
 	{Entity "ash_tree_bush1" 0x30a
@@ -4869,17 +4597,17 @@
 	}
 	{Entity "dog_house" 0x379
 		{Position 1315.5 -174.75}
-		{xform zl -126.91 y 3.99 zw 133.17}
+		{xform zl 6.32}
 		{Constrain surface}
 	}
 	{Entity "block_tree" 0x37a
-		{Position 1586.25 113.94}
-		{xform zl 141.55 y 8.9 zw 67.39}
+		{Position 1586.25 113.94 85.58}
+		{xform zl 28.6 y 5.27 zw 179.9}
 		{Constrain surface}
 	}
 	{Entity "cane3" 0x37b
 		{Position 1210.89 170.16}
-		{xform zl 169.17 y 5.71 zw 90 scale 0.5}
+		{xform zl -100.88 scale 0.5}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -4888,33 +4616,33 @@
 	}
 	{Entity "fence_wood_r4" 0x37c
 		{Position 1666.49 -25.7}
-		{xform zl -90 y 5.72 zw 86.42}
+		{xform zl -3.58}
 		{Constrain surface}
 	}
 	{Entity "beam_piles1" 0x37d
 		{Position 1324.82 69.39}
-		{xform zl 169.24 y 6.98 zw 93.07}
+		{xform zl -97.77}
 		{Constrain surface}
 	}
 	{Entity "beam_piles2" 0x37e
 		{Position 1551.83 147.04}
-		{xform zl -160.65 y 6.6 zw 90}
+		{xform zl -156.07 y 5.59 zw 90}
 		{Constrain surface}
 	}
 	{Entity "beam_piles2" 0x37f
 		{Position 1589.26 145.11}
-		{xform zl -28.21 y 11.17 zw 84.11}
+		{xform zl -68.78 y 5.66 zw 120.87}
 		{Constrain surface}
 	}
 	{Entity "apple-tree7" 0x856
 		{Position 1682.04 203.01}
-		{xform zl 147.74 y 7.1 zw 90}
+		{xform zl -167.06 y 8.13 zw 35.32}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "fence_wood_r3" 0x141a
 		{Position 1696.96 108.53}
-		{xform zl -64.86 y 7.95 zw 52.44}
+		{xform zl -99.66 y 1.75 zw 90}
 		{Constrain surface}
 	}
 	{Entity "house_wood_4" 0x2863
@@ -4924,22 +4652,22 @@
 	}
 	{Entity "trace_stone4" 0x380
 		{Position 1584.46 132.14}
-		{xform zl -90 y 5.71 zw 90}
+		{xform zl -110.48 y 2.45 zw 110.5}
 		{Constrain surface}
 	}
 	{Entity "trace_stone4" 0x381
 		{Position 1254.23 -159}
-		{xform zl 8.78 y 5.71 zw 90}
+		{xform zl 98.82}
 		{Constrain surface}
 	}
 	{Entity "woods1" 0x382
 		{Position 1346.88 -300.47}
-		{xform zl -82.32 y 3.58 zw 82.59}
+		{xform zl 0.25}
 		{Constrain surface}
 	}
 	{Entity "cane3" 0x7032
 		{Position 1316.51 -232.04}
-		{xform zl -13.47 y 5.71 zw 90 scale 1.07}
+		{xform zl 76.46 scale 1.07}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -4948,52 +4676,52 @@
 	}
 	{Entity "firewood1" 0x383
 		{Position 1509.43 -183.6}
-		{xform zl 99.64 y 5.12 zw 66.42}
+		{xform zl 166.16}
 		{Constrain surface}
 	}
 	{Entity "beam1" 0x384
 		{Position 1440.43 -319.08}
-		{xform zl 156.88 y 2.62 zw 92.85}
+		{xform zl -110.29}
 		{Constrain surface}
 	}
 	{Entity "linen2" 0x385
 		{Position 1621.18 35.69}
-		{xform zl 9.51 y 6.21 zw 66.75}
+		{xform zl 76.31}
 		{Constrain surface}
 	}
 	{Entity "cane3" 0x60ab
 		{Position 1544.73 -242.19}
-		{xform zl -166.56 y 3.54 zw 60.87 scale 1.07}
+		{xform zl -97.34 scale 1.07}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x386
 		{Position 1524.95 -294.43}
-		{xform zl 149.51 y 5.71 zw 90 scale 0.887}
+		{xform zl -120.62 scale 0.887}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x388
 		{Position 1392.44 -305.06}
-		{xform zl 110.45 y 5.65 zw 90 scale 1.07}
+		{xform zl -159.64 scale 1.07}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "new_bush1a" 0x389
 		{Position 1671.92 183.17}
-		{xform zl -137.43 y 5.71 zw 90}
+		{xform zl -80.21 y 1.87 zw 37.2}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "new_bush1a" 0x38a
 		{Position 1666.62 143.51}
-		{xform zl -135.93 y 8.93 zw 65.53 scale 0.753}
+		{xform zl -124.35 y 3.46 zw 54.78 scale 0.753}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x38b
 		{Position 1679.1 230.91}
-		{xform zl 171.05 y 9.36 zw 68.29 scale 0.78}
+		{xform zl -173.15 y 47.37 zw 51.86 scale 0.78}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5002,7 +4730,7 @@
 	}
 	{Entity "house_ru_141" 0x38c
 		{Position 1268.03 135.6}
-		{xform zl 169.3 y 5.71 zw 90}
+		{xform zl -100.75}
 		{Constrain surface}
 		{Placer
 			{State "4_2" {Unlinked}}
@@ -5013,22 +4741,22 @@
 	}
 	{Entity "broken_wall_stones" 0x38d
 		{Position 1306.33 42.57}
-		{xform zl 5.69 y 9.08 zw 117.61}
+		{xform zl 123.37}
 		{Constrain surface}
 	}
 	{Entity "broken_wall_stones" 0x38e
 		{Position 1256.73 50.07}
-		{xform zl 170.52 y 4.14 zw 99.98}
+		{xform zl -89.51}
 		{Constrain surface}
 	}
 	{Entity "broken_wall_stones" 0x38f
 		{Position 1226.89 191.93}
-		{xform zl 33.36 y 5.71 zw 90}
+		{xform zl 123.49}
 		{Constrain surface}
 	}
 	{Entity "broken_wall_stones" 0x390
 		{Position 1234.32 221.83}
-		{xform zl -159.29 y 5.74 zw 84.3}
+		{xform zl 41.5 y 1.56 zw -116.15}
 		{Constrain surface}
 	}
 	{Entity "crater_big" 0x391
@@ -5039,139 +4767,139 @@
 	}
 	{Entity "grenade_at_shellhole" 0x394
 		{Position 1198.56 211.11}
-		{xform zl -105.49 y 5.71 zw 90}
+		{xform zl -15.46}
 		{Constrain surface}
 		{DecalOrder 20}
 	}
 	{Entity "wood_floor1_a" 0x397
 		{Position 1259.12 110.4}
-		{xform zl -179.24 y 2.1 zw 169.19}
+		{xform zl -9.26}
 		{Constrain surface}
 	}
 	{Entity "wood_floor1_a" 0x398
 		{Position 1269.05 160.82}
-		{xform zl -99.07 y 8.3 zw 89.11}
+		{xform zl -9.86}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x399
 		{Position 1690.78 78.73}
-		{xform zl -101.77 y 5.71 zw 90}
+		{xform zl -11.74}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x39b
 		{Position 1684.48 48.1}
-		{xform zl -96.64 y 6.33 zw 84.85}
+		{xform zl 111.51 y 3.02 zw -123.23}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x39c
 		{Position 1686.24 254.85}
-		{xform zl -45.67 y 14.47 zw 80.01}
+		{xform zl -31.56 y 21.05 zw 64.87}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x39d
-		{Position 1663.26 269.42}
-		{xform zl 0.28 y 11.38 zw 83.68}
+		{Position 1663.26 269.42 44.13}
+		{xform zl 0.3 y 7.63 zw 83.76}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x39e
 		{Position 1632.59 272.53}
-		{xform zl -5.88 y 11.31 zw 90}
+		{xform zl 8.5 y 8.59 zw 75.57}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x39f
 		{Position 1601.99 275.54}
-		{xform zl -15.81 y 5.84 zw 99.96}
+		{xform zl 44.76 y 50.28 zw 48.35}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x3a0
 		{Position 1570.89 278.68}
-		{xform zl 12.76 y 8.01 zw 71.59}
+		{xform zl -2.61 y 38.9 zw 84.16}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x3a1
 		{Position 1540.29 281.69}
-		{xform zl -5.82 y 7.84 zw 90}
+		{xform zl -10.61 y 35.06 zw 94.23}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r1" 0x3a2
 		{Position 1509.45 284.73}
-		{xform zl -5.88 y 11.31 zw 90}
+		{xform zl -20.31 y 32.62 zw 110.38}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r3" 0x3a3
 		{Position 1675.81 17.53}
-		{xform zl -100.42 y 6.34 zw 88.28}
+		{xform zl -12.07}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r4" 0x3a7
 		{Position 1480.98 289.07}
-		{xform zl 8.37 y 11.31 zw 90}
+		{xform zl 49.09 y 43.34 zw 31.77}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r3" 0x3b2
-		{Position 1356.53 296.88}
-		{xform zl -80.58 y 40.87 zw 94.95}
+		{Position 1356.53 296.88 84.1}
+		{xform zl -144.09 y 17.05 zw 175.7}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r4" 0x3b3
-		{Position 1321.83 320.97}
-		{xform zl 102.22 y 21.41 zw 27.02}
+		{Position 1321.83 320.97 8.71}
+		{xform zl 113.8 y 19.55 zw 32.39}
 		{Constrain surface}
 	}
 	{Entity "road_cross1" 0x2817
-		{Position 1404.82 304.55}
-		{xform zl 12.15 y 20.39 zw 14.98}
+		{Position 1404.82 304.55 51.69}
+		{xform zl -58.21 y 109.96 zw 112.51}
 		{Constrain surface}
 		{DecalOrder 1}
 		{Color 0xffababab}
 	}
 	{Entity "road_cross1" 0x3b4
 		{Position 1432.74 1.57}
-		{xform zl 104.7 y 9.15 zw 88.93}
+		{xform zl -166.55}
 		{Constrain surface}
 		{TexMod "2brown"}
 		{DecalOrder 1}
 	}
 	{Entity "fence-wood_3" 0x3b5
 		{Position 1630.95 -176.9}
-		{xform zl 110.25 y 5.37 zw 54.35 scale 0.8}
+		{xform zl 164.42 scale 0.8}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r4" 0x3b6
 		{Position 1652.29 -79.86}
-		{xform zl -77.44 y 5.71 zw 90}
+		{xform zl 12.5}
 		{Constrain surface}
 	}
 	{Entity "fence-wood_3" 0x3b7
 		{Position 1584.99 -357.57}
-		{xform zl -13.66 y 0.56 scale 0.8}
+		{xform zl -15.06 scale 0.8}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r4" 0x3b8
 		{Position 1216.05 315.17}
-		{xform zl -52.75 y 5.88 zw 90}
+		{xform zl -51.4 y 6.74 zw 88.69}
 		{Constrain surface}
 	}
 	{Entity "fence_wood_r4" 0x3b9
 		{Position 1184.73 320.9}
-		{xform zl 4.95 y 11.31 zw 90}
+		{xform zl -27.14 y 10.07 zw 122.74}
 		{Constrain surface}
 	}
 	{Entity "apple-tree7" 0x3ba
 		{Position 1659.51 94.52}
-		{xform zl -72 y 6.15 zw 68.03}
+		{xform zl -4.64}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "new_tree1_big" 0x42db
 		{Position 1600.19 -211.63}
-		{xform zl -76.43 y 1.84 zw 69.84}
+		{xform zl -6.59}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x42dc
 		{Position 1669.68 86.33}
-		{xform zl -93.03 y 10.82 zw 74.41 scale 0.78}
+		{xform zl -18.63 scale 0.78}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5180,7 +4908,7 @@
 	}
 	{Entity "ash_tree_bush1" 0x42dd
 		{Position 1606.69 -254.82}
-		{xform zl -147.29 y 0.37 zw 26.75 scale 0.78}
+		{xform zl -120.54 scale 0.78}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5189,37 +4917,37 @@
 	}
 	{Entity "cane2" 0x42e6
 		{Position 1643.75 264.88}
-		{xform zl -101.58 y 11.2 zw 90 scale 0.52}
+		{xform zl -95.16 y 21.67 zw 83.32 scale 0.52}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "cane2" 0x42e7
 		{Position 1607.08 274.25}
-		{xform zl 112.19 y 6.41 zw 86.91 scale 0.52}
+		{xform zl 135.86 y 49.55 zw 49.78 scale 0.52}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "cane2" 0x42e8
 		{Position 1557.27 277.54}
-		{xform zl -114.96 y 8.59 zw 112.59 scale 0.52}
+		{xform zl -96.3 y 36.53 zw 93.5 scale 0.52}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "cane2" 0x42e9
 		{Position 1685.72 47.22}
-		{xform zl -133.44 y 6.23 zw 88.72 scale 0.52}
+		{xform zl 84.61 y 2.89 zw -128.96 scale 0.52}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "cane2" 0x42ea
 		{Position 1598.5 -316.92}
-		{xform zl -94.17 y 1.73 scale 0.52}
+		{xform zl -90.6 scale 0.52}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x3bc
 		{Position 1165.53 296.29}
-		{xform zl -22.07 y 9.05 zw 74.75 scale 0.816}
+		{xform zl -42.36 y 36.49 zw 93.25 scale 0.816}
 		{Constrain surface}
 		{TexMod "bare1"}
 		{Volume "crown"
@@ -5228,7 +4956,7 @@
 	}
 	{Entity "cane3" 0x2117
 		{Position 1298.62 -225.89}
-		{xform zl 88.76 y 5.98 zw 107.45 scale 0.923}
+		{xform zl -163.78 scale 0.923}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5237,20 +4965,20 @@
 	}
 	{Entity "crash_stone1a" 0x3bd
 		{Position 1295.24 222.42}
-		{xform zl -60.21 y 8.96 zw 59.91}
+		{xform zl -0.67 y 5.71}
 		{Constrain surface}
 		{DecalOrder 1}
 		{Color 0xffd5d5d5}
 	}
 	{Entity "cane3" 0x4ed
 		{Position 1325.49 141.19}
-		{xform zl 5.76 y 8.54 zw 87.2 scale 0.533}
+		{xform zl 92.9 scale 0.533}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x3be
 		{Position 1328.45 197.49}
-		{xform zl -100.32 y 10.07 zw 70.86 scale 0.603}
+		{xform zl -31.19 y 5.21 zw 2.56 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5259,7 +4987,7 @@
 	}
 	{Entity "cane3" 0x3c7
 		{Position 1279.13 209.6}
-		{xform zl 108.56 y 5.71 zw 90 scale 0.603}
+		{xform zl -101.16 y 3.86 zw -60.38 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5268,7 +4996,7 @@
 	}
 	{Entity "cane3" 0x3c8
 		{Position 1330.85 166.74}
-		{xform zl -173.72 y 6.45 zw 61.63 scale 0.603}
+		{xform zl -171.88 y 5.58 zw 59.87 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5276,19 +5004,19 @@
 		}
 	}
 	{Entity "fence_wood_r4" 0x4f5
-		{Position 1254.92 316.8}
-		{xform zl 15.14 y 9.01 zw 67.03}
+		{Position 1254.92 316.8 27.49}
+		{xform zl 75.42 y 90.78 zw -5.15}
 		{Constrain surface}
 	}
 	{Entity "crash_wood1" 0x3c9
 		{Position 1235.73 311.24}
-		{xform zl 94.61 y 9.81 zw 86.73}
+		{xform zl 120.82 y 29.56 zw 57.57}
 		{Constrain surface}
 		{Color 0xffcccccc}
 	}
 	{Entity "cane3" 0x3ca
 		{Position 1524.32 278.69}
-		{xform zl -106.44 y 10.63 zw 90 scale 0.603}
+		{xform zl -112.95 y 33.93 zw 101.91 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5297,7 +5025,7 @@
 	}
 	{Entity "cane3" 0x41ee
 		{Position 1694.61 71.8}
-		{xform zl -21.42 y 5.71 zw 90 scale 0.603}
+		{xform zl 68.4 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5348,19 +5076,19 @@
 	}
 	{Entity "road_sand5w1" 0x3d6
 		{Position 810.23 -702.35}
-		{xform zl 143.49 y 5.51 zw -41.6}
+		{xform zl 143.49 y 5.51 zw -12.32}
 		{Constrain surface}
 		{TexMod "cross95"}
 	}
 	{Entity "road_sand5w1" 0x3d7
 		{Position 1224.06 -616.37}
-		{xform zl -176.76 y 1 zw -81.68}
+		{xform zl 107.76 y 5.64 zw -5.35}
 		{Constrain surface}
 		{TexMod "cross95"}
 	}
 	{Entity "road_sand5w1" 0x3d8
 		{Position 1636.23 -573.58}
-		{xform zl 118.47 y 23.08 zw -24.72}
+		{xform zl 126.14 y 22.23 zw -32.26}
 		{Constrain surface}
 		{TexMod "cross95"}
 	}
@@ -5399,12 +5127,12 @@
 	}
 	{Entity "wires_x" 0x401f
 		{Position 737.11 -655.42}
-		{xform zl 10.04 y 5.71 zw 3.51}
+		{xform zl 10.04 y 5.71 zw -9.45}
 		{Constrain surface}
 	}
 	{Entity "wires_x" 0x4026
 		{Position 887.53 -1014.81}
-		{xform zl -76.84 y 8.01 zw 155.44}
+		{xform zl -49.55 y 4.44 zw 128.11}
 		{Constrain surface}
 	}
 	{Entity "ash_tree_bush1" 0x100e
@@ -5420,7 +5148,7 @@
 		{Color 0xffd1d4bc}
 	}
 	{Entity "sandbag3" 0x103d
-		{Position 919.34 -1065.95}
+		{Position 919.34 -1065.95 106.89}
 		{xform zl -67.83 y 4.96 zw 133.28}
 		{Constrain surface}
 		{TexMod "2"}
@@ -5428,7 +5156,7 @@
 	}
 	{Entity "eg" 0x103e
 		{Position 894.93 -1170.24}
-		{xform zl -16.75 y 6.51 zw -120.12}
+		{xform zl -3.29 y 3.76 zw -133.68}
 		{Constrain surface}
 	}
 	{Entity "sandbag3" 0x6019
@@ -5446,11 +5174,11 @@
 	}
 	{Entity "wires_x" 0x601b
 		{Position 666.27 -406.97}
-		{xform zl -43.33 y 1.8 zw 146.63}
+		{xform zl -43.33 y 1.8 zw 170.79}
 		{Constrain surface}
 	}
 	{Entity "cane3" 0x601c
-		{Position 565.98 -392.42 61.71}
+		{Position 565.98 -392.42 74.31}
 		{xform zl 59.5 scale 1.163}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -5459,19 +5187,19 @@
 	}
 	{Entity "cane3" 0x601d
 		{Position 785.88 -558.08}
-		{xform zl -11.98 y 13.1 zw -21.28 scale 0.65}
+		{xform zl -11.98 y 13.1 zw -56.73 scale 0.65}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x601e
 		{Position 667.35 -332.73}
-		{xform zl -177.73 y 67.71 zw -85.37 scale 0.713}
+		{xform zl 152.51 y 8.15 zw -49.39 scale 0.713}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "crash_wood1" 0x601f
 		{Position 1253.29 37.23}
-		{xform zl 64.98 y 5.2 zw 58.83}
+		{xform zl 149.52 y 5.95 zw -25.6}
 		{Constrain surface}
 		{DecalOrder 1}
 		{Color 0xffcccccc}
@@ -5542,7 +5270,7 @@
 		{xform zl -102.1}
 	}
 	{Entity "ground_clay5" 0x5019
-		{Position 2169.08 -728.01 39.03}
+		{Position 2169.08 -728.01 38.3}
 		{xform zl 159.82}
 	}
 	{Entity "ground_clay5" 0x501b
@@ -5657,12 +5385,8 @@
 		{Position 1954.67 243.25 26.16}
 		{xform zl -87.39}
 	}
-	{Entity "shellhole1" 0x7014
-		{Position 958.94 -477.38 -2.05}
-		{DecalOrder 20}
-	}
 	{Entity "shellhole4d3" 0x701e
-		{Position 991.13 -1278.48 95.24}
+		{Position 991.13 -1278.48 85.07}
 		{DecalOrder 20}
 	}
 	{Entity "shellhole4d3" 0x701f
@@ -5684,7 +5408,7 @@
 		{TexMod "autlate"}
 	}
 	{Entity "shellhole4d3" 0x2c03
-		{Position 1181.04 -438.42}
+		{Position 1407.86 -488.17}
 		{DecalOrder 20}
 	}
 	{Entity "shellhole4d3" 0x2c04
@@ -5720,7 +5444,7 @@
 	}
 	{Entity "ash_tree_bush1" 0x2c09
 		{Position 1549.44 634.01}
-		{xform zl -179.54 y 4.68 zw 83.14 scale 1.183}
+		{xform zl -176.2 y 10.01 zw 79.69 scale 1.183}
 		{Constrain surface}
 		{TexMod "1"}
 	}
@@ -5762,13 +5486,13 @@
 	}
 	{Entity "cane3" 0x2c14
 		{Position 1162.78 521.39}
-		{xform zl -80.77 y 7.23 zw -15.2 scale 0.893}
+		{xform zl -61.51 y 3.38 zw -34.45 scale 0.893}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x2c16
 		{Position 1511.19 383.55}
-		{xform zl -59.28 y 13.16 zw -32.61 scale 0.893}
+		{xform zl -9.25 y 31.53 zw -80.43 scale 0.893}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
@@ -5789,7 +5513,7 @@
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x2c1a
-		{Position 1033.83 -764.33 96.03}
+		{Position 1033.83 -764.33 67.03}
 		{xform zl -85.39}
 		{TexMod "burned"}
 		{Volume "crown"
@@ -5914,7 +5638,7 @@
 		{xform zl -95.21}
 	}
 	{Entity "tube01" 0x3e9
-		{Position 2224.45 -374.26 -32.28}
+		{Position 2975.32 2129.9 -59.01}
 		{xform zl -94.63}
 	}
 	{Entity "reed4" 0x3ea
@@ -6014,12 +5738,6 @@
 		{Position 1305.64 -2077.46 12.62}
 		{xform zl 20.62}
 		{TexMod "aut"}
-	}
-	{Entity "bridge_wood" 0x2006
-		{Position 2129.26 -2544.42 -7.13}
-		{xform zl 10.3 scale 1.157}
-		{TexMod "1"}
-		{Impregnability full}
 	}
 	{Entity "ash_tree_bush1" 0x2008
 		{Position 1922.89 -2671.92 -4.18}
@@ -6360,13 +6078,13 @@
 		{Position -2556.08 -3031.92 -7}
 	}
 	{Entity "bracket_post" 0x6026
-		{Position -1962.21 -2348.24 76.91}
+		{Position -1962.21 -2348.24 35.01}
 	}
 	{Entity "bracket_post" 0x6027
-		{Position -1612.97 -2420.71 74.01}
+		{Position -1612.97 -2420.71 34.78}
 	}
 	{Entity "bracket_post" 0x6028
-		{Position -1227.02 -2256.53 73.5}
+		{Position -1227.02 -2256.53 34.98}
 		{xform zl 25.09}
 	}
 	{Entity "cart" 0x103b
@@ -6400,7 +6118,7 @@
 		{Position -1910.27 -2693.7}
 	}
 	{Entity "new_boat3" 0x104a
-		{Position -1991.34 -1986.54 -11.82}
+		{Position -1991.34 -1986.54 34.98}
 	}
 	{Entity "plough" 0x104b
 		{Position -2887.85 -3463.65}
@@ -6696,7 +6414,7 @@
 		{Position 3342.5 -640.28}
 	}
 	{Entity "road_asfalt04" 0x7020
-		{Position 2222 -582 51.72}
+		{Position 2222 -582 46.08}
 		{xform zl -3.98}
 	}
 	{Entity "road_cross" 0x7021
@@ -6709,42 +6427,17 @@
 		{DecalOrder 1}
 	}
 	{Entity "pool_dirt2" 0x7023
-		{Position 2265.36 -599.9 84.98}
+		{Position 2265.36 -599.9 82}
 		{xform zl -49.36}
-	}
-	{Entity "ash_tree_bush1" 0x303f
-		{Position 2131.63 -657.25}
-		{xform zl 106.73}
-		{TexMod "aut"}
-	}
-	{Entity "reed4" 0x3040
-		{Position 2178.84 -487.27 82.01}
-		{xform zl -19.15}
-		{TexMod "1"}
 	}
 	{Entity "ash_tree_bush1" 0x3042
 		{Position 2174.06 -437.81}
 		{xform zl -163.66}
 		{TexMod "1"}
 	}
-	{Entity "ash_tree_bush1" 0x3043
-		{Position 2292.73 -659.09}
-		{xform zl -88.57}
-		{TexMod "1"}
-	}
-	{Entity "ash_tree_bush1" 0x3044
-		{Position 2089.48 -414.14}
-		{xform zl 15.63}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x3046
-		{Position 1955.16 -438.19}
-		{xform zl 60.62 scale 0.87}
-		{TexMod "aut"}
-	}
 	{Entity "ash_tree_bush1" 0x481a
 		{Position 1856.73 -792.96}
-		{xform zl -52.65 y 12.34 zw -135.59 scale 0.75}
+		{xform zl -49.25 y 12.64 zw -138.94 scale 0.75}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -6772,12 +6465,12 @@
 		{TexMod "aut"}
 	}
 	{Entity "topol02" 0x4822
-		{Position 2294.64 -476.83}
+		{Position 3045.51 2027.33}
 		{xform zl 99.37 scale 1.113}
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x4826
-		{Position 1654.13 -866.2 88}
+		{Position 1654.13 -866.2 67.03}
 		{xform zl -85.39}
 		{TexMod "burned"}
 		{Volume "crown"
@@ -6785,10 +6478,10 @@
 		}
 	}
 	{Entity "crash_wood1" 0x4827
-		{Position 1573.39 -979.04 103.31}
+		{Position 1573.39 -979.04 80.69}
 	}
 	{Entity "crash_wood1b" 0x4828
-		{Position 1442.53 -1165.58 100.96}
+		{Position 1442.53 -1165.58 85.17}
 	}
 	{Entity "destroy_sliver06" 0x4829
 		{Position 1344.58 -827.14}
@@ -6797,29 +6490,29 @@
 		{Position 1148.94 -1116.85}
 	}
 	{Entity "roof_destr" 0x850
-		{Position 1758.1 -1071.7}
+		{Position 1758.1 -1071.7 90.65}
 	}
 	{Entity "wood_cross1" 0x851
-		{Position 1320.27 -1055.15 80.24}
+		{Position 1320.27 -1055.15 65.24}
 		{xform zl 98.95 y 7.69 zw 123.83}
 	}
 	{Entity "road_cross1" 0x852
 		{Position 1308.01 -1122.07}
-		{xform zl 7.15 y 7.57 zw 61.58}
+		{xform zl -38.98 y 6.97 zw 107.98}
 		{Constrain surface}
 		{TexMod "2brown"}
 		{DecalOrder 1}
 	}
 	{Entity "broken_wall_stones" 0x857
 		{Position 1434.93 -1185.29}
-		{xform zl 177.09 y 18.88 zw 108.5}
+		{xform zl -166.01 y 17.89 zw 90.75}
 		{Constrain surface}
 	}
 	{Entity "stone10" 0x858
 		{Position 499.1 -553.58}
 	}
 	{Entity "cane3" 0x859
-		{Position 484.75 -533.51 59.82}
+		{Position 484.75 -533.51 60.25}
 		{xform zl 59.5 scale 1.163}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -6827,8 +6520,8 @@
 		}
 	}
 	{Entity "cane3" 0x85a
-		{Position 525.37 -580.25 72.56}
-		{xform zl 71.05 y 4.7 zw -32.32 scale 0.713}
+		{Position 525.37 -580.25 85.46}
+		{xform zl -149.99 y 30.01 zw -168.93 scale 0.713}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
@@ -6864,10 +6557,10 @@
 		{DecalOrder 2}
 	}
 	{Entity "wall-2level_2" 0x866
-		{Position 1620.39 -793.89 111.94}
+		{Position 1620.39 -793.89 84.94}
 	}
 	{Entity "part_wall1" 0x867
-		{Position 1594.21 -717.39 116.04}
+		{Position 1594.21 -717.39 85.04}
 	}
 	{Entity "part_wall2" 0x868
 		{Position 1556.18 -795.61}
@@ -6875,30 +6568,30 @@
 	}
 	{Entity "broken_wall_stones" 0x869
 		{Position 1654.28 -776.31}
-		{xform zl -170.19 y 21.42 zw 94.67}
+		{xform zl -178.52 y 24.36 zw 103.57}
 		{Constrain surface}
 	}
 	{Entity "broken_wall_stones" 0x86a
 		{Position 1538.54 -861.94}
-		{xform zl 163.59 y 19.34 zw 122.64}
+		{xform zl 179.32 y 21.76 zw 106.04}
 		{Constrain surface}
 	}
 	{Entity "broken_wall_stones" 0x86b
 		{Position 1549.44 -716.69}
-		{xform zl -139.74 y 16.1 zw 121.53}
+		{xform zl -134.57 y 20.33 zw 124.2}
 		{Constrain surface}
 		{Color 0xff9b908f}
 	}
 	{Entity "crash_stone1a" 0x86c
 		{Position 1656.75 -689.05}
-		{xform zl -36.77 y 11.32 zw 36.83}
+		{xform zl -63.74 y 7.56 zw 63.46}
 		{Constrain surface}
 		{DecalOrder 1}
 		{Color 0xffd5d5d5}
 	}
 	{Entity "cane3" 0x86d
 		{Position 1633.49 -693.39}
-		{xform zl -100.41 y 10.12 zw 70.47 scale 0.603}
+		{xform zl -133.83 y 9.8 zw 103.63 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -6915,7 +6608,7 @@
 		}
 	}
 	{Entity "ash_tree_bush1" 0x86f
-		{Position 1515.48 -794.03 95.03}
+		{Position 1515.48 -794.03 67.03}
 		{xform zl 11.5}
 		{TexMod "burned"}
 		{Volume "crown"
@@ -6927,10 +6620,11 @@
 		{xform zl -103.43}
 	}
 	{Entity "camp_fire" 0x876
-		{Position 1168.41 -723.09 112.87}
+		{Position 2221.24 -1887.43 -25.81}
+		{xform zl -164.81 y 24.85 zw 165.24}
 	}
 	{Entity "ash_tree_bush1" 0x877
-		{Position 1224.63 -789.53 94.45}
+		{Position 1224.63 -789.53 67.03}
 		{xform zl -85.39}
 		{TexMod "burned"}
 		{Volume "crown"
@@ -6938,8 +6632,8 @@
 		}
 	}
 	{Entity "ash_tree_bush1" 0x878
-		{Position 1279.08 -694.95 102.03}
-		{xform zl -102.53}
+		{Position 2331.91 -1859.29 -17.47}
+		{xform zl 92.66 y 24.85 zw 165.24}
 		{TexMod "burned"}
 		{Volume "crown"
 			{able {visible 0}}
@@ -7444,8 +7138,8 @@
 		{TexMod "aut"}
 	}
 	{Entity "stone1" 0x4e2
-		{Position -3425.69 -3249.48}
-		{xform zl -95.47}
+		{Position 3112.45 -4255.99}
+		{xform zl -10.13}
 	}
 	{Entity "ash_tree_bush1" 0x4e4
 		{Position -3428.3 -3424.85 63.79}
@@ -7535,26 +7229,6 @@
 	{Entity "rockwall2" 0x513
 		{Position -3629.79 -2739.69 0.5}
 		{xform zl 96.32}
-	}
-	{Entity "rockwall" 0x514
-		{Position -3641.77 -2580.91}
-		{xform zl 95.57}
-	}
-	{Entity "rockwall" 0x515
-		{Position -3657.1 -2505.58}
-		{xform zl 107.88}
-	}
-	{Entity "rockwall" 0x516
-		{Position -3672.48 -2438.44}
-		{xform zl 95.57}
-	}
-	{Entity "rockwall" 0x518
-		{Position -3686.66 -2293.56}
-		{xform zl 100.57}
-	}
-	{Entity "rockwall2" 0x519
-		{Position -3679.59 -2365.96 0.5}
-		{xform zl -84.99}
 	}
 	{Entity "rockwall2" 0x51a
 		{Position -3700.34 -2217.93 0.5}
@@ -7713,21 +7387,6 @@
 		{xform zl -86.78 scale 0.897}
 		{TexMod "aut"}
 	}
-	{Entity "ash_tree_bush1" 0x587
-		{Position -3616.75 -2538.61 0.04}
-		{xform zl -59.79 scale 0.897}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x588
-		{Position -3644.79 -2402.37 0.04}
-		{xform zl -86.78 scale 0.897}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x589
-		{Position -3667.63 -2311.65 0.04}
-		{xform zl -4.43 scale 0.897}
-		{TexMod "aut"}
-	}
 	{Entity "ash_tree_bush1" 0x58a
 		{Position -3625.55 -3192.77}
 		{xform zl -38.23 scale 0.897}
@@ -7832,14 +7491,6 @@
 		{Position -4509.17 -598.36}
 		{xform zl 172.14}
 	}
-	{Entity "rockwall" 0x5bd
-		{Position -4387.67 -611.2}
-		{xform zl 172.14}
-	}
-	{Entity "rockwall" 0x5bf
-		{Position -4244.99 -614.89}
-		{xform zl -172.22}
-	}
 	{Entity "rockwall" 0x5c0
 		{Position -4464.77 -569.73}
 		{xform zl 86.47}
@@ -7897,22 +7548,6 @@
 	{Entity "rockwall2" 0x4107
 		{Position -4397.09 152.23}
 		{xform zl -77.46}
-	}
-	{Entity "rockwall" 0x4108
-		{Position -4412.4 219.83}
-		{xform zl -80.91}
-	}
-	{Entity "rockwall2" 0x4109
-		{Position -4366.94 222.16}
-		{xform zl 13.38}
-	}
-	{Entity "rockwall" 0x410a
-		{Position -4317.84 237.62}
-		{xform zl -168.17}
-	}
-	{Entity "rockwall2" 0x410b
-		{Position -4250.46 250.52}
-		{xform zl 13.11}
 	}
 	{Entity "rockwall" 0x410d
 		{Position -4430.58 118.75}
@@ -8892,55 +8527,6 @@
 		{xform zl 13.36 scale 0.87}
 		{TexMod "aut"}
 	}
-	{Entity "greenhouse_corner4" 0x66f
-		{TexMod
-			{"/texture/common/entourage/greenhouse" "2"}
-		}
-	}
-	{Entity "greenhouse_corner3" 0x670
-		{TexMod
-			{"/texture/common/entourage/greenhouse" "2"}
-		}
-	}
-	{Entity "greenhouse_corner2" 0x671
-		{TexMod
-			{"/texture/common/entourage/greenhouse" "2"}
-		}
-	}
-	{Entity "greenhouse_corner1" 0x672
-		{TexMod
-			{"/texture/common/entourage/greenhouse" "2"}
-		}
-	}
-	{Entity "greenhouse_corner6" 0x673
-		{TexMod
-			{"/texture/common/entourage/greenhouse" "2"}
-		}
-	}
-	{Entity "greenhouse_corner5" 0x674
-		{TexMod
-			{"/texture/common/entourage/greenhouse" "2"}
-		}
-	}
-	{Entity "rockwall" 0x687
-		{Position -5902.77 -2669.48}
-		{xform zl -0.27}
-	}
-	{Entity "new_tree1" 0x68a
-		{Position -5942.68 -2698.49}
-		{xform zl 25.24 scale 1.1}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x68b
-		{Position -5601.43 -3082.68}
-		{xform zl -143.7}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x68c
-		{Position -5731.41 -2638.16}
-		{xform zl -158.59}
-		{TexMod "aut"}
-	}
 	{Entity "cane3" 0x1132
 		{Position -5687.56 -2017.51}
 		{xform zl 103.13}
@@ -8951,194 +8537,14 @@
 		{xform zl 103.41}
 		{Color 0xffe4d4b3}
 	}
-	{Entity "pla01" 0x68f
-		{Position -5833.1 -3126.64}
-		{xform zl -101.22}
-		{TexMod "autlate"}
-	}
-	{Entity "fence-wood_3" 0x690
-		{Position -5726.39 -3095.65 18.22}
-		{xform zl 96.37}
-		{Color 0xffc8c09a}
-	}
-	{Entity "fence-wood_3" 0x691
-		{Position -5455.6 -2939.08}
-		{xform zl -175.76}
-		{Color 0xffc8c09a}
-	}
-	{Entity "rockwall2" 0x182b
-		{Position -5828.27 -2673.01 24.36}
-		{xform zl 143.18 y 3.93 zw -147.4}
-	}
 	{Entity "new_tree1a" 0x698
 		{Position -5434.81 -3258.56}
 		{xform zl -131.68}
 		{TexMod "autlate"}
 	}
-	{Entity "pla_new1" 0x1112
-		{Position -5752.89 -3124.6}
-		{xform zl 90.55}
-		{TexMod "autlate"}
-	}
-	{Entity "pla01" 0x699
-		{Position -5632.63 -3088.43}
-		{xform zl 32.74 y 16.41 zw -109.44}
-		{TexMod "autlate"}
-	}
-	{Entity "pla01" 0x69a
-		{Position -5564.79 -3088.25}
-		{xform zl 32.74 y 16.41 zw -109.44}
-		{TexMod "autlate"}
-	}
-	{Entity "pla_new1" 0x69b
-		{Position -5437.64 -3075.18}
-		{xform zl 90.55}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x6a1
-		{Position -5831.63 -2691.29}
-		{xform zl 173.1}
-		{TexMod "aut"}
-	}
-	{Entity "rockwall" 0x6a4
-		{Position -5634.83 -2657.86}
-		{xform zl 0.37}
-	}
-	{Entity "rockwall2" 0x6a5
-		{Position -5562.79 -2662.28}
-		{xform zl -7.33}
-	}
-	{Entity "rockwall2" 0x117b
-		{Position -5712.31 -2655.23}
-		{xform zl -99.4 y 20.97 zw -80.45}
-	}
-	{Entity "cane3" 0x6a9
-		{Position -5822.05 -3008.68}
-		{xform zl -61.55}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x6aa
-		{Position -5734.43 -3001.31}
-		{xform zl -61.55}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x6ab
-		{Position -5833.54 -2887.26}
-		{xform zl -68.88}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x6b8
-		{Position -5680.5 -3114.68}
-		{xform zl 38.25}
-		{TexMod "aut"}
-	}
 	{Entity "pla01" 0x6b9
 		{Position -5350 -3270.14}
 		{xform zl 15.68 y 5.48 zw -24.38}
-		{TexMod "autlate"}
-	}
-	{Entity "pla01" 0x1193
-		{Position -5387.05 -3216.39}
-		{xform zl 58.1 y 16.41 zw -109.44}
-		{TexMod "autlate"}
-	}
-	{Entity "pla01" 0x6ba
-		{Position -5417.38 -3040.23}
-		{xform zl -82.19 y 10.81 zw 29.03}
-		{TexMod "autlate"}
-	}
-	{Entity "ash_tree_bush2" 0x6bb
-		{Position -5437.08 -2945.56}
-		{xform zl -63.75 y 8.73 zw 78.04}
-		{TexMod "aut"}
-	}
-	{Entity "greenhouse_basis" 0x6be
-		{Position -5748.04 -3000.28}
-		{xform zl -174.21}
-	}
-	{Entity "greenhouse_basis" 0x6bf
-		{Position -5755 -2869.25}
-		{xform zl -174.21}
-	}
-	{Entity "cane3" 0x1172
-		{Position -5762.81 -2871.22}
-		{xform zl -68.88}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x1173
-		{Position -5685.32 -2857.47}
-		{xform zl -68.88}
-		{TexMod "aut"}
-	}
-	{Entity "new_orchard2" 0x6c1
-		{Position -5954.81 -2878.88}
-		{TexMod "spring"}
-	}
-	{Entity "petals" 0x6c4
-		{Position -5572.2 -2722.85}
-		{xform zl -32.28}
-	}
-	{Entity "petals" 0x6c5
-		{Position -5955.93 -2788.51}
-		{xform zl -32.28}
-	}
-	{Entity "petals" 0x6c6
-		{Position -5949.67 -2875.63}
-		{xform zl -32.28}
-	}
-	{Entity "beam1" 0x6c9
-		{Position -5357.33 -2876.14 -34.51}
-		{xform zl 161.01}
-	}
-	{Entity "beam1" 0x6ca
-		{Position -5680.62 -2780.56 14.61}
-		{xform zl 95.5}
-	}
-	{Entity "beam1" 0x6cb
-		{Position -5419.26 -2846.57 -0.5}
-		{xform zl -8.19}
-	}
-	{Entity "wood_floor1_a" 0x6cf
-		{Position -5685.23 -2862.84}
-		{xform zl -83.15}
-	}
-	{Entity "wood_floor1_a" 0x6d0
-		{Position -5824.4 -2874.87}
-		{xform zl -83.15}
-	}
-	{Entity "wood_floor1_a" 0x6d1
-		{Position -5758.47 -2869.58}
-		{xform zl -83.15}
-	}
-	{Entity "wood_floor1_a" 0x6d2
-		{Position -5814.08 -3006.81}
-		{xform zl -83.15}
-	}
-	{Entity "wood_floor1_a" 0x6d3
-		{Position -5673.83 -2997.31}
-		{xform zl -83.15}
-	}
-	{Entity "wood_floor1_a" 0x6d4
-		{Position -5755.94 -3001.41}
-		{xform zl -83.15}
-	}
-	{Entity "pla01b" 0x1160
-		{Position -5862.16 -2812.41}
-		{xform zl -46.57}
-		{TexMod "autlate"}
-	}
-	{Entity "pla01b" 0x123c
-		{Position -5751.72 -2800.56}
-		{xform zl -20.35}
-		{TexMod "autlate"}
-	}
-	{Entity "pla01" 0x123d
-		{Position -5811.49 -2804.77}
-		{xform zl -80.75}
-		{TexMod "autlate"}
-	}
-	{Entity "ash_tree3" 0x1417
-		{Position -5624.06 -3179.8}
 		{TexMod "autlate"}
 	}
 	{Entity "pla01" 0x18a4
@@ -9151,30 +8557,10 @@
 		{xform zl 90.55 scale 1.15}
 		{TexMod "autlate"}
 	}
-	{Entity "cane3" 0x6d5
-		{Position -5466.79 -3023.05}
-		{xform zl -92.15}
-		{TexMod "autlate"}
-	}
 	{Entity "cane3" 0x6d6
 		{Position -5411.43 -3260.8}
 		{xform zl 168.14}
 		{TexMod "autlate"}
-	}
-	{Entity "path_sand2a" 0x429f
-		{Position -5411.62 -2653.95 55.93}
-		{xform zl 153.85}
-		{TexMod "clay1"}
-	}
-	{Entity "path_sand2a" 0x142a
-		{Position -5537.16 -2883.22 42.46}
-		{xform zl 138.93}
-		{TexMod "clay1"}
-	}
-	{Entity "path_sand2a" 0x42a0
-		{Position -5529.48 -2779.08 65.93}
-		{xform zl 124.02}
-		{TexMod "clay1"}
 	}
 	{Entity "path_sand2a" 0x6087
 		{Position -5303.11 -2461.84 55.93}
@@ -10317,7 +9703,7 @@
 		{xform zl -169.06}
 	}
 	{Entity "road_asfalt04" 0x7064
-		{Position -6120.86 -1357.37 -94.08}
+		{Position -6120.86 -1357.37 -83.54}
 		{xform zl 7.46}
 	}
 	{Entity "new_bush1a" 0x7065
@@ -10462,10 +9848,6 @@
 		{Position -4003.91 -870.44}
 		{xform zl -169.29}
 	}
-	{Entity "rockwall2" 0x482b
-		{Position -4322.45 -617.87 0.5}
-		{xform zl 171.84}
-	}
 	{Entity "rockwall2" 0x482c
 		{Position -3928.06 -859.26 0.5}
 		{xform zl -174.69}
@@ -10600,7 +9982,7 @@
 		{TexMod "1"}
 	}
 	{Entity "ash_tree_bush1" 0x306f
-		{Position -6565.79 -3529.92}
+		{Position -5484.9 -3105.57}
 		{xform zl -156.43 scale 0.997}
 		{TexMod "1"}
 	}
@@ -10614,7 +9996,7 @@
 		{xform zl 113.19}
 	}
 	{Entity "leaves4a" 0x3072
-		{Position -6918.5 -3361.11}
+		{Position -5837.61 -2936.76}
 		{xform zl 58.96}
 	}
 	{Entity "ash_tree_bush1" 0x3073
@@ -10789,17 +10171,17 @@
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree3" 0x3095
-		{Position -6557 -3141.77}
+		{Position -5476.11 -2717.42}
 		{xform zl 146.96 scale 0.896}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x3096
-		{Position -6651.94 -3347.67}
+		{Position -5571.05 -2923.32}
 		{xform zl -150.79}
 		{TexMod "aut"}
 	}
 	{Entity "cane3" 0x3097
-		{Position -6551.4 -3283.74}
+		{Position -5470.51 -2859.39}
 		{xform zl -54.8}
 		{TexMod "aut"}
 	}
@@ -10871,7 +10253,7 @@
 		{Color 0xffe4d4b3}
 	}
 	{Entity "post-wood3" 0x7813
-		{Position -6336.52 -1263.86 -42.6}
+		{Position -6336.52 -1263.86 -35.34}
 		{xform zl 103.41}
 		{Color 0xffe4d4b3}
 	}
@@ -10906,21 +10288,6 @@
 		{Position -5551.61 -1623.42}
 		{xform zl -39.04}
 		{DecalOrder 2}
-	}
-	{Entity "eg" 0x6408
-		{Position -5997.73 -1546.66}
-		{xform zl -164.66 y 26.85 zw -166.48}
-		{Constrain surface}
-	}
-	{Entity "eg" 0x640b
-		{Position -5845.58 -1608.95}
-		{xform zl -124.1 y 29.48 zw -172.2}
-		{Constrain surface}
-	}
-	{Entity "eg" 0x640c
-		{Position -5663.19 -1729.48}
-		{xform zl -109.42 y 28.51 zw 173.15}
-		{Constrain surface}
 	}
 	{Entity "cane3" 0x606b
 		{Position -6056.06 -1531.07}
@@ -11298,12 +10665,12 @@
 		}
 	}
 	{Entity "bush9b" 0x4f2
-		{Position -1410.61 458.56 -35.16}
+		{Position -1410.61 458.56 -22.77}
 		{xform zl 147.4 scale 0.893}
 		{TexMod "3"}
 	}
 	{Entity "ash_tree_bush1" 0x4f9
-		{Position -1381.36 553.78 -25.51}
+		{Position -1381.36 553.78 -14}
 		{xform zl 9.48 y 4.86 zw -157.05 scale 0.927}
 		{TexMod "aut"}
 	}
@@ -11313,22 +10680,22 @@
 		{TexMod "aut"}
 	}
 	{Entity "bush9b" 0x4fc
-		{Position -1462.92 602.75 -33.07}
+		{Position -1462.92 602.75 -7.39}
 		{xform zl -22 scale 0.893}
 		{TexMod "3"}
 	}
 	{Entity "bush9b" 0x4fd
-		{Position -1546.26 602.12 -43.28}
+		{Position -1546.26 602.12 -9.52}
 		{xform zl -22 scale 0.893}
 		{TexMod "3"}
 	}
 	{Entity "bush9b" 0x4fe
-		{Position -1551.41 610.85 -41.18}
+		{Position -1551.41 610.85 -7.55}
 		{xform zl -109.94 scale 0.893}
 		{TexMod "3"}
 	}
 	{Entity "bush9b" 0x4ff
-		{Position -1495.31 578.66 -39.96}
+		{Position -1495.31 578.66 -8.91}
 		{xform zl 26.3 scale 0.79}
 		{TexMod "3"}
 	}
@@ -11453,11 +10820,6 @@
 		{xform zl -72.21}
 		{TexMod "1"}
 	}
-	{Entity "tree_oak" 0x60f
-		{Position -1532.6 972.67}
-		{xform zl 5}
-		{TexMod "aut"}
-	}
 	{Entity "tree_oak" 0x610
 		{Position -1619.95 1150.17}
 		{xform zl 92.7}
@@ -11477,17 +10839,17 @@
 		{xform zl 106.56}
 	}
 	{Entity "poplar_white3a" 0x1a
-		{Position -1425.48 564.41 -32.35}
+		{Position -1425.48 564.41 -12.77}
 		{xform zl -95.64}
 		{TexMod "1"}
 	}
 	{Entity "ash_tree_bush1" 0x21
-		{Position -1462.52 610.45 -34.3}
+		{Position -1462.52 610.45 -8.7}
 		{xform zl -54.65}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x22
-		{Position -1433.86 524.62 -38.12}
+		{Position -1433.86 524.62 -18.84}
 		{xform zl -168.01}
 		{TexMod "1"}
 	}
@@ -11570,7 +10932,7 @@
 		{TexMod "3"}
 	}
 	{Entity "ash_tree_bush1" 0x1b
-		{Position -1568.5 591.01 -39.3}
+		{Position -1568.5 591.01 -10.9}
 		{xform zl 20.62}
 		{TexMod "aut"}
 	}
@@ -11790,7 +11152,7 @@
 		}
 	}
 	{Entity "ash_tree_bush1" 0x7000
-		{Position -1422.62 754.05 -23.31}
+		{Position -1422.62 754.05 -2}
 		{xform zl -29.7}
 		{TexMod "bare1"}
 		{Volume "crown"
@@ -11838,7 +11200,7 @@
 		}
 	}
 	{Entity "ash_tree_bush1" 0x7006
-		{Position -1386.16 687.68 -27.57}
+		{Position -1386.16 687.68 -9.09}
 		{xform zl -78.35 scale 0.753}
 		{TexMod "bare1"}
 		{Volume "crown"
@@ -12236,7 +11598,7 @@
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x7802
-		{Position -1890.81 866.9 -7.1}
+		{Position -1890.81 866.9 -9.46}
 		{xform zl -85.39}
 		{TexMod "aut"}
 	}
@@ -12258,8 +11620,8 @@
 		{xform zl -163.48}
 	}
 	{Entity "wind_mill2" 0x1014
-		{Position -1428.73 1038.76}
-		{xform zl -70.16}
+		{Position 1352.1 340.63}
+		{xform zl 101.15}
 	}
 	{Entity "brok_wall5" 0x1015
 		{Position -755.26 695.95}
@@ -12292,7 +11654,7 @@
 		{xform zl 99.74}
 	}
 	{Entity "bush9b" 0x101d
-		{Position -1809 -53.21 -33.79}
+		{Position -1809 -53.21 -11}
 		{xform zl 139.32 scale 0.893}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -12309,7 +11671,7 @@
 		{xform zl 43.4}
 	}
 	{Entity "road_asfalt04" 0x1020
-		{Position -1676.74 -41.26 -19.33}
+		{Position -1676.74 -41.26 -18.33}
 		{xform zl 49.27}
 	}
 	{Entity "road_asfalt04" 0x1021
@@ -12331,7 +11693,7 @@
 		{xform zl -135.54}
 	}
 	{Entity "beam1" 0x1029
-		{Position -1666.65 562.45 -0.05}
+		{Position -1666.65 562.45 5.2}
 		{xform zl 30.91}
 	}
 	{Entity "bush9b" 0x849
@@ -12389,7 +11751,7 @@
 		{TexMod "1"}
 	}
 	{Entity "bush9b" 0x540a
-		{Position -1298.54 732.28 -33.04}
+		{Position -1298.54 732.28 -29.24}
 		{xform zl 109.1 scale 0.893}
 		{TexMod "3"}
 	}
@@ -12600,8 +11962,8 @@
 		{TexMod "7"}
 	}
 	{Entity "tree_attach" 0x43d3
-		{Position -2083.28 125.89}
-		{xform zl 50.79 y 18.65 zw -137 scale 1.133}
+		{Position -2083.28 125.89 -35.55}
+		{xform zl -135.09 y 39.24 zw 39.92 scale 1.133}
 		{Constrain surface}
 		{TexMod "7"}
 	}
@@ -12672,8 +12034,8 @@
 		}
 	}
 	{Entity "cane3" 0x403a
-		{Position -2289.4 -4.55}
-		{xform zl 101.66}
+		{Position -2289.4 -4.55 46.99}
+		{xform zl -8.52 y 23.22 zw 112.98}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
@@ -12690,8 +12052,8 @@
 		{TexMod "autlate"}
 	}
 	{Entity "bush9" 0x28d
-		{Position -2220.54 -209.02}
-		{xform zl 155.73 scale 1.09}
+		{Position -2220.54 -209.02 9.46}
+		{xform zl -109.55 y 44.37 zw -90.97 scale 1.09}
 		{Constrain surface}
 		{TexMod "3"}
 	}
@@ -12702,14 +12064,14 @@
 		{TexMod "autlate"}
 	}
 	{Entity "new_birch" 0x28f
-		{Position -2202.41 -194.52}
-		{xform zl 121.54 scale 1.103}
+		{Position -2202.41 -194.52 22.51}
+		{xform zl -140.47 y 44.43 zw -93.57 scale 1.103}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "new_birch" 0x4044
-		{Position -2100.16 10.92}
-		{xform zl -134.52}
+		{Position -2100.16 10.92 -7.09}
+		{xform zl 163.36 y 23.27 zw 61.8}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
@@ -12732,25 +12094,25 @@
 		{TexMod "autlate"}
 	}
 	{Entity "leaves1a" 0x296
-		{Position -2143.49 47.53}
+		{Position -2143.49 47.53 -10.34}
 		{xform zl -39.04}
 		{DecalOrder 2}
 	}
 	{Entity "cane3" 0x4007
 		{Position -1604.33 210.75}
-		{xform zl 18.83 y 6.24 zw 26.83}
+		{xform zl -108.44 y 6.39 zw 153.82}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x4008
 		{Position -1721.14 36.76}
-		{xform zl -84.28 y 14.46 zw 129.66}
+		{xform zl -23.09 y 11.05 zw 67.95}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x4009
-		{Position -1951.1 184.59}
-		{xform zl 46.62 y 9.28 zw -2.34}
+		{Position -1951.1 184.59 -27.13}
+		{xform zl 9.77 y 9.85 zw 48.06}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
@@ -12883,14 +12245,14 @@
 		{xform zl 55.25}
 	}
 	{Entity "poplar_evr" 0x2c1c
-		{Position -1909.81 423.02}
+		{Position -1909.81 423.02 7.75}
 		{xform zl 38.36}
 		{TexMod "aut2"}
 		{Color 0xff000000}
 	}
 	{Entity "cane3" 0x303
-		{Position -1772.87 219.5}
-		{xform zl -99.38 y 12.43 zw -144.41}
+		{Position -1772.87 219.5 10}
+		{xform zl 70.15 y 17.8 zw 43.59}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
@@ -12961,15 +12323,15 @@
 		{xform zl 80.05}
 	}
 	{Entity "stone10" 0x860
-		{Position -2276 218.13}
+		{Position -2276 218.13 10.98}
 	}
 	{Entity "cane3" 0x861
-		{Position -2251.5 244.07}
+		{Position -2251.5 244.07 12.44}
 		{xform zl 101.66}
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x862
-		{Position -2301.79 251.84}
+		{Position -2301.79 251.84 19.15}
 		{xform zl 13.36 scale 0.87}
 		{TexMod "aut"}
 	}
@@ -13800,22 +13162,6 @@
 		{Position -3618.37 571.04}
 		{xform zl 100.73}
 	}
-	{Entity "rockwall2" 0x59e
-		{Position -3674.67 763.99}
-		{xform zl -69.81}
-	}
-	{Entity "rockwall" 0x59f
-		{Position -3708.93 837.32}
-		{xform zl -60.57}
-	}
-	{Entity "rockwall" 0x5a0
-		{Position -3736.23 894.87}
-		{xform zl 113.1}
-	}
-	{Entity "rockwall2" 0x5a1
-		{Position -3782.68 947.85}
-		{xform zl -41.64}
-	}
 	{Entity "rockwall" 0x5a2
 		{Position -3845.03 990.16}
 		{xform zl -31.6}
@@ -14109,31 +13455,31 @@
 	}
 	{Entity "reed4" 0x419e
 		{Position -1578.69 423.41}
-		{xform zl 96.21 y 15.42 zw 23.25}
+		{xform zl 32.44 y 6.04 zw 75.15}
 		{Constrain surface}
 		{TexMod "1"}
 	}
 	{Entity "reed4" 0x419f
 		{Position -1552.51 343.33}
-		{xform zl 95.44 y 19.88 zw 42.94}
+		{xform zl 58.88 y 7.11 zw 59.09}
 		{Constrain surface}
 		{TexMod "1"}
 	}
 	{Entity "reed4" 0x41a0
 		{Position -1659.48 685.55}
-		{xform zl 134.89 y 12.64 zw 3.08}
+		{xform zl 128.62 y 4.17 zw 11.05}
 		{Constrain surface}
 		{TexMod "1"}
 	}
 	{Entity "reed4" 0x41a1
 		{Position -1500.92 890.05}
-		{xform zl 70.56 y 5.92 zw 68.84}
+		{xform zl 60.12 y 11.43 zw 79.3}
 		{Constrain surface}
 		{TexMod "1"}
 	}
 	{Entity "reed4" 0x41a2
 		{Position -1437.23 875.65}
-		{xform zl 60.22 y 6.97 zw 78.34}
+		{xform zl 73.87 y 21.62 zw 64.72}
 		{Constrain surface}
 		{TexMod "1"}
 	}
@@ -14145,13 +13491,13 @@
 	}
 	{Entity "reed4" 0x41a4
 		{Position -1372.61 808.51}
-		{xform zl 7.06 y 4.26 zw 131.76}
+		{xform zl 91.18 y 10.97 zw 46.94}
 		{Constrain surface}
 		{TexMod "1"}
 	}
 	{Entity "reed4" 0x41a5
 		{Position -1347.65 685.68}
-		{xform zl 9.37 y 9.88 zw 34.54}
+		{xform zl 22.01 y 14.94 zw 26.74}
 		{Constrain surface}
 		{TexMod "1"}
 	}
@@ -14513,17 +13859,17 @@
 		{Color 0xffe4d4b3}
 	}
 	{Entity "ground_clay5" 0x6812
-		{Position -1974.76 376.06}
+		{Position -1974.76 376.06 -0.62}
 		{xform zl 98.5}
 	}
 	{Entity "cane3" 0x2800
 		{Position -1738.74 396.47}
-		{xform zl 19.54 y 3.19 zw -71.5 scale 0.817}
+		{xform zl 37.18 y 3.07 zw -92.58 scale 0.817}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x2818
-		{Position -1803.64 501.55 -13.18}
+		{Position -1803.64 501.55 -25.96}
 		{xform zl 162.6}
 		{TexMod "1"}
 	}
@@ -15532,8 +14878,8 @@
 		{Color 0xffffecbc}
 	}
 	{Entity "fence_wood_r8" 0x897
-		{Position -985.24 2934.95}
-		{xform zl -130.12}
+		{Position -986.26 2924.6}
+		{xform zl 0.76 y 86.13 zw -102.12}
 		{TexMod "win"}
 		{Color 0xffffecbc}
 	}
@@ -15994,11 +15340,6 @@
 		{Position -3687.49 1872.97}
 		{xform zl 38.83 scale 0.997}
 		{TexMod "autlate"}
-	}
-	{Entity "chicken" 0x183d
-		{Position -1030.21 2873.5}
-		{Player 0}
-		{MID 10006}
 	}
 	{Entity "chicken" 0x1843
 		{Position -843.57 3169.14}
@@ -16510,65 +15851,6 @@
 		{xform zl -72.05 y 3.31 zw -115.72}
 		{Constrain surface}
 		{TexMod "aut"}
-	}
-	{Entity "new_bush1a" 0x380b
-		{Position -300.33 -3149.43 -0.61}
-		{xform zl 38.3}
-		{TexMod "aut"}
-	}
-	{Entity "new_bush1a" 0x3812
-		{Position 65.8 -3259.17 -0.61}
-		{xform zl -133.17}
-		{TexMod "autlate"}
-	}
-	{Entity "bush9_a" 0x3814
-		{Position -165.3 -3140.8 6.51}
-		{xform zl 60.55 scale 0.666}
-		{TexMod "autlate"}
-		{Color 0xffd8d8d8}
-	}
-	{Entity "bush9_a" 0x3815
-		{Position -203.04 -3279.51 3.75}
-		{xform zl 60.55 scale 0.666}
-		{TexMod "autlate"}
-		{Color 0xffd8d8d8}
-	}
-	{Entity "bush9_a" 0x3816
-		{Position -334.46 -2874.12 5.25}
-		{xform zl 60.55 scale 0.666}
-		{TexMod "autlate"}
-		{Color 0xffd8d8d8}
-	}
-	{Entity "ash_tree_bush1" 0x3817
-		{Position 167.03 -3115.91}
-		{xform zl 42.65 scale 0.87}
-		{TexMod "aut"}
-	}
-	{Entity "bush9_a" 0x3818
-		{Position -37.2 -3138.69}
-		{xform zl 60.55 scale 0.666}
-		{TexMod "1"}
-		{Color 0xffd8d8d8}
-	}
-	{Entity "bush9_a" 0x381a
-		{Position -205.95 -2950.25}
-		{xform zl 60.55 scale 0.666}
-		{TexMod "1"}
-		{Color 0xffd8d8d8}
-	}
-	{Entity "bush9_a" 0x381b
-		{Position -319.38 -3120.73}
-		{xform zl 60.55 scale 0.666}
-		{TexMod "1"}
-		{Color 0xffd8d8d8}
-	}
-	{Entity "ash_tree_bush1" 0x381c
-		{Position -95.19 -3238.63}
-		{xform zl -90.67}
-		{TexMod "bare1"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "broken_wall_stones" 0x381d
 		{Position 442.94 -2560.37}
@@ -18991,7 +18273,7 @@
 		}
 	}
 	{Entity "stone10" 0x10d4
-		{Position 3814.46 -33.98}
+		{Position 1416.29 -490.52}
 		{xform zl 130.23}
 		{TexMod "2"}
 		{Impregnability harmless}
@@ -19796,7 +19078,7 @@
 		{xform zl 174.57}
 	}
 	{Entity "ground_clay5" 0x61a9
-		{Position -6405.24 -1117.42 4.01}
+		{Position -6405.24 -1117.42 10.87}
 		{xform zl 174.57}
 	}
 	{Entity "branch_stone" 0x20b4
@@ -21646,11 +20928,6 @@
 		{Position -5784.45 -527.16}
 		{xform zl 47.08}
 	}
-	{Entity "eg" 0x2812
-		{Position -6136.83 -1116.6}
-		{xform zl -115.06 y 27.98 zw -179.59}
-		{Constrain surface}
-	}
 	{Entity "pla01" 0x347
 		{Position -5530.32 470.81}
 		{xform zl -143.75 y 5.48 zw -76.36}
@@ -21668,7 +20945,7 @@
 		{xform zl -130.47}
 	}
 	{Entity "road_aero" 0x34b
-		{Position -5921.89 -1217.67 -32.89}
+		{Position -5921.89 -1217.67 -20.61}
 		{xform zl 115.34}
 	}
 	{Entity "road_cross1" 0x34c
@@ -21827,13 +21104,13 @@
 	}
 	{Entity "cane2" 0x3ac
 		{Position 2241.43 -427.88}
-		{xform zl 74.53 y 32.17 zw 110.59 scale 0.61}
+		{xform zl 73.65 y 31.05 zw 111.67 scale 0.61}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "cane2" 0x3ad
 		{Position 2048.99 -388.72}
-		{xform zl -71.25 y 17.13 zw 45.82 scale 0.61}
+		{xform zl -66.41 y 15.83 zw 40.84 scale 0.61}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
@@ -21887,7 +21164,7 @@
 		{Position 1018.43 2953.86}
 	}
 	{Entity "fence_part2" 0x400
-		{Position 1641.88 2888.56 2.57}
+		{Position 1641.88 2888.56 -0.35}
 	}
 	{Entity "fence_part3" 0x401
 		{Position 1537.64 2559.16}
@@ -21986,7 +21263,7 @@
 	}
 	{Entity "beam_piles1" 0x47d
 		{Position 1471.92 2940.02}
-		{xform zl -39.22 y 3.93 zw -58.37}
+		{xform zl -116.83 y 5.9 zw 19.02}
 		{Constrain surface}
 	}
 	{Entity "crash_wood1b" 0x47e
@@ -21997,7 +21274,7 @@
 	}
 	{Entity "broken_wall_stones" 0x488
 		{Position 1453.43 2913.19}
-		{xform zl -124.74 y 6.6 zw -112.45}
+		{xform zl 57.67 y 4.85 zw 65.5}
 		{Constrain surface}
 	}
 	{Entity "broken_wall_stones" 0x48d
@@ -22012,23 +21289,23 @@
 	}
 	{Entity "broken_wall_stones" 0x49c
 		{Position 1304.61 2933.5}
-		{xform zl -2.24 y 7.07 zw -72.55}
+		{xform zl -126.19 y 3.85 zw 51.32}
 		{Constrain surface}
 	}
 	{Entity "grenade_at_shellhole" 0x49d
 		{Position 1265.79 2916.97}
-		{xform zl 4.04 y 9.18 zw -19.54}
+		{xform zl -4.1 y 8.93 zw -11.32}
 		{Constrain surface}
 		{DecalOrder 20}
 	}
 	{Entity "fence_wood_r4" 0x4a0
-		{Position 1392.12 3032.63}
-		{xform zl -125.2 y 22.04 zw -87.41}
+		{Position 1392.12 3032.63 24.24}
+		{xform zl -130.48 y 18.02 zw -81.92}
 		{Constrain surface}
 	}
 	{Entity "ash_tree_bush1" 0x4a5
 		{Position 1235.82 3007.96}
-		{xform zl 143.73 y 11.85 zw -91.08 scale 0.816}
+		{xform zl 144.29 y 7.66 zw -91.17 scale 0.816}
 		{Constrain surface}
 		{TexMod "bare1"}
 		{Volume "crown"
@@ -22037,7 +21314,7 @@
 	}
 	{Entity "crash_stone1a" 0x4a6
 		{Position 1365.53 2934.09}
-		{xform zl 45.43 y 6.93 zw -45.15}
+		{xform zl -25.06 y 7.7 zw 25.63}
 		{Constrain surface}
 		{DecalOrder 1}
 		{Color 0xffd5d5d5}
@@ -22070,7 +21347,7 @@
 	}
 	{Entity "cane3" 0x4b2
 		{Position 1398.74 2909.16}
-		{xform zl 43.39 y 10.1 zw -73 scale 0.603}
+		{xform zl -10.45 y 3.7 zw -18.52 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -22079,7 +21356,7 @@
 	}
 	{Entity "cane3" 0x4c1
 		{Position 1349.42 2921.27}
-		{xform zl -52.28 y 6.31 zw -109.2 scale 0.603}
+		{xform zl 90.72 y 3.11 zw 107.42 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -22088,7 +21365,7 @@
 	}
 	{Entity "cane3" 0x4d1
 		{Position 1401.14 2878.41}
-		{xform zl -45.64 y 9.72 zw -66.33 scale 0.603}
+		{xform zl -45.91 y 9.62 zw -66.07 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
 		{Volume "crown"
@@ -22097,23 +21374,13 @@
 	}
 	{Entity "crash_wood1" 0x4d2
 		{Position 1306.02 3022.91}
-		{xform zl -94.89 y 28.55 zw -84.28}
+		{xform zl -105.89 y 25.08 zw -71.94}
 		{Constrain surface}
 		{Color 0xffcccccc}
 	}
 	{Entity "wires_x" 0x4086
 		{Position 393.98 2407.37}
 		{xform zl 89.2}
-		{Constrain surface}
-	}
-	{Entity "wires_x" 0x4087
-		{Position -146.09 2597.03}
-		{xform zl 83.2}
-		{Constrain surface}
-	}
-	{Entity "wires_x" 0x4088
-		{Position 212.5 2808.35}
-		{xform zl -8.91}
 		{Constrain surface}
 	}
 	{Entity "road_cross" 0x4089
@@ -22186,11 +21453,6 @@
 		{xform zl -24.03 y 2.32 zw 91.33}
 		{Constrain surface}
 	}
-	{Entity "eg" 0x20e6
-		{Position 329.31 2395.87}
-		{xform zl 170.52 y 4.14 zw -170.54}
-		{Constrain surface}
-	}
 	{Entity "cane3" 0x20e7
 		{Position 346.49 2463.53}
 		{xform zl -125.47 y 7.03 zw -144.09 scale 0.713}
@@ -22202,21 +21464,6 @@
 		{xform zl 128.55 y 5.35 zw -22.67 scale 0.713}
 		{Constrain surface}
 		{TexMod "autlate"}
-	}
-	{Entity "eg" 0x20e9
-		{Position -152.93 2593.61}
-		{xform zl 170.52 y 4.14 zw -170.54}
-		{Constrain surface}
-	}
-	{Entity "eg" 0x20ea
-		{Position -53.89 2857.57}
-		{xform zl 170.52 y 4.14 zw -170.54}
-		{Constrain surface}
-	}
-	{Entity "eg" 0x20ee
-		{Position 499.03 2901.67}
-		{xform zl 170.52 y 4.14 zw -170.54}
-		{Constrain surface}
 	}
 	{Entity "eg" 0x20f1
 		{Position 1413.15 2379.97}
@@ -22230,7 +21477,7 @@
 	}
 	{Entity "wires_x" 0x20fe
 		{Position 1781.39 2911.11}
-		{xform zl -51.69 y 5.11 zw 162.77}
+		{xform zl -18.76 y 12.72 zw 130.14}
 		{Constrain surface}
 	}
 	{Entity "wires_x" 0x2101
@@ -22256,7 +21503,7 @@
 	}
 	{Entity "cane3" 0x61ab
 		{Position 1557.4 2862.33}
-		{xform zl -44.89 y 27.84 zw -43.88 scale 0.893}
+		{xform zl -51.52 y 25.27 zw -37.99 scale 0.893}
 		{Constrain surface}
 		{TexMod "autlate"}
 	}
@@ -22282,7 +21529,7 @@
 		}
 	}
 	{Entity "barrel_woods" 0x1118
-		{Position 1311.56 2965.59 8.59}
+		{Position 1311.56 2965.59 2.02}
 	}
 	{Entity "grenade_at_shellhole" 0x1119
 		{Position 1418.61 2478.82}
@@ -22522,7 +21769,7 @@
 		}
 	}
 	{Entity "ash_tree_bush1" 0x514e
-		{Position 729.7 3347.91}
+		{Position 729.7 3347.91 -6.21}
 		{xform zl 68.96 scale 0.997}
 		{TexMod "1"}
 	}
@@ -22542,7 +21789,7 @@
 		{TexMod "1"}
 	}
 	{Entity "new_birch" 0x5152
-		{Position 664.31 3485.38}
+		{Position 664.31 3485.38 18.82}
 		{xform zl 87.75 scale 1.193}
 		{TexMod "aut1"}
 	}
@@ -22584,7 +21831,7 @@
 		{xform zl 54.73}
 	}
 	{Entity "ground_clay5" 0x515b
-		{Position 608.41 3383.42}
+		{Position 608.41 3383.42 -24.64}
 		{xform zl 120.48}
 	}
 	{Entity "ground_clay5" 0x515c
@@ -22628,25 +21875,10 @@
 		{xform zl 117.55}
 		{TexMod "autlate"}
 	}
-	{Entity "eg" 0x702f
-		{Position 404.81 3313.02}
-		{xform zl -42.82 y 6.99 zw 42.99}
-		{Constrain surface}
-	}
-	{Entity "eg" 0x7036
-		{Position 633.63 3196.04}
-		{xform zl 158.66 y 7.18 zw -158.68}
-		{Constrain surface}
-	}
 	{Entity "eg" 0x7037
 		{Position 347.02 3694.58}
 		{xform zl 170.52 y 4.14 zw -170.54}
 		{Constrain surface}
-	}
-	{Entity "cane3" 0x703c
-		{Position 439.59 3288.07}
-		{xform zl 140.03}
-		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x703d
 		{Position 343.56 3657.36}
@@ -23452,7 +22684,7 @@
 		{Color 0xffc2c2c2}
 	}
 	{Entity "ground_clay5" 0x4820
-		{Position 6885.92 2035.3 -0.01}
+		{Position 6885.92 2035.3}
 		{xform zl 129.36}
 	}
 	{Entity "ground_clay5" 0x4821
@@ -23551,6 +22783,7 @@
 	}
 	{Entity "transformer_part1" 0x79f
 		{Position 5080.24 -3626.2}
+		{xform zl -0.89}
 	}
 	{Entity "transformer_part2" 0x7a0
 		{Position 5024.94 -3622.14}
@@ -23564,34 +22797,6 @@
 	{Entity "tube03" 0x7b5
 		{Position 5138.59 -3459.77}
 		{xform zl 147.6}
-	}
-	{Entity "watch_tower_1" 0x7b6
-		{Position 4758.92 -3208.57}
-		{xform zl 47.17}
-	}
-	{Entity "mg34_tower" 0x7b7
-		{Position 0 0}
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		{Player 0}
-		{MID 10028}
-	}
-	{Entity "mg34_tower" 0x7b9
-		{Position 0 0}
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		{Player 0}
-		{MID 10029}
-	}
-	{Entity "watch_tower_1" 0x7ba
-		{Position 5468.54 -3256.77}
-		{xform zl -33.34}
 	}
 	{Entity "bags2" 0x7bc
 		{Position 5366.44 -3671.96}
@@ -23668,8 +22873,8 @@
 		{Constrain surface}
 	}
 	{Entity "wall-2level_1" 0x704e
-		{Position 5516.96 579.88}
-		{xform zl -37.26}
+		{Position 776.34 2370.34}
+		{xform zl -93.83}
 	}
 	{Entity "barrels_trash" 0x7069
 		{Position 5105.87 163.51}
@@ -24508,22 +23713,22 @@
 		{TexMod "aut"}
 	}
 	{Entity "stone5" 0x7f5
-		{Position 4506.2 -3310.88 -0.16}
+		{Position 3891.42 -2522.07 -2.16}
 		{xform zl -23.85}
 	}
 	{Entity "ash_tree_bush1" 0x7f6
-		{Position 4479.02 -3276.27}
-		{xform zl -62.4 y 0.91 zw -97.16}
+		{Position 3864.24 -2487.46}
+		{xform zl -62.4 y 0.91 zw -97.23}
 		{Constrain surface}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x7f7
-		{Position 4512.65 -3377.53}
+		{Position 3897.87 -2588.72}
 		{xform zl -61.28}
 		{TexMod "autlate"}
 	}
 	{Entity "cane3" 0x7f8
-		{Position 4516.21 -3332.62}
+		{Position 3901.43 -2543.81}
 		{xform zl 72.63 y 24.29 zw -176.17 scale 0.603}
 		{Constrain surface}
 		{TexMod "bare"}
@@ -24951,14 +24156,6 @@
 	{Entity "shed_euro_102a" 0x938
 		{Position 6596.88 -1390.62}
 		{xform zl 87.95}
-	}
-	{Entity "rockwall" 0x939
-		{Position 6853.69 -1664.87}
-		{xform zl 164.06}
-	}
-	{Entity "rockwall" 0x93a
-		{Position 6919.8 -1707.54}
-		{xform zl -48.75}
 	}
 	{Entity "fence-wood_3" 0x93b
 		{Position 6537.08 -2017.36}
@@ -25523,25 +24720,6 @@
 		{xform zl 55.81 scale 0.743}
 		{TexMod "aut2"}
 	}
-	{Entity "ash_tree3" 0x61c8
-		{Position 7589.75 -2715.48}
-		{xform zl -77.11 scale 0.896}
-	}
-	{Entity "cane3" 0x61c9
-		{Position 7819.4 -2512.37}
-		{xform zl -9.19}
-		{TexMod "aut"}
-	}
-	{Entity "new_bush1a" 0x61ca
-		{Position 7859.93 -2541.43}
-		{xform zl 52.13 scale 0.927}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x61cb
-		{Position 7880.83 -2550.86}
-		{xform zl 25.44 scale 0.927}
-		{TexMod "aut"}
-	}
 	{Entity "ash_tree_bush1" 0x61cc
 		{Position 7134.52 -2728.47}
 		{xform zl 156.52 scale 0.997}
@@ -25871,7 +25049,7 @@
 		{TexMod "autlate"}
 	}
 	{Entity "ground_clay5" 0x99e
-		{Position 5196.33 3731.47 39.94}
+		{Position 5196.33 3731.47 30.53}
 		{xform zl -148.06}
 	}
 	{Entity "new_bush1a" 0x99f
@@ -26093,67 +25271,6 @@
 		{xform zl 115.27 scale 0.997}
 		{TexMod "aut"}
 	}
-	{Entity "crate" 0x9af
-		{Position 7690.8 -2703.24}
-		{TexMod "3"}
-	}
-	{Entity "crate2" 0x9b0
-		{Position 7779.47 -2709.76}
-		{TexMod "3"}
-	}
-	{Entity "crate3" 0x9b2
-		{Position 7838.08 -2730.09}
-		{xform zl 148.9}
-		{TexMod "3"}
-	}
-	{Entity "eg" 0x9b3
-		{Position 7417.37 -2597.91}
-	}
-	{Entity "eg" 0x9b4
-		{Position 7604.31 -2501.95}
-	}
-	{Entity "eg" 0x9b5
-		{Position 7844.19 -2482.33}
-	}
-	{Entity "light_tower" 0x4174
-		{Position 7539.64 -2592.33}
-		{xform zl -29.47}
-	}
-	{Entity "searchlight2" 0x4176
-		{Extender "bone_rotator"
-			{watchBone gun}
-		}
-		{Player 0}
-		{MID 10030}
-	}
-	{Entity "netting1" 0x2178
-		{Position 7683.95 -2677.14}
-	}
-	{Entity "netting" 0x2179
-		{Position 7794.16 -2701.7}
-	}
-	{Entity "new_coil" 0x217a
-		{Position 7854.29 -2617.32}
-	}
-	{Entity "sack_3" 0x217b
-		{Position 7866.76 -2679.36 106.1}
-	}
-	{Entity "sack_1" 0x217c
-		{Position 7638.86 -2739.02}
-	}
-	{Entity "bags2" 0x217d
-		{Position 7714.17 -2737.2}
-	}
-	{Entity "barrel_woods_small" 0x217e
-		{Position 7839.71 -2672.73}
-	}
-	{Entity "barrel_woods6" 0x217f
-		{Position 7479.68 -2606.59}
-	}
-	{Entity "barricade1" 0x2180
-		{Position 7509.7 -2510.67}
-		{xform zl 136.33}
-	}
 	{Entity "pool3" 0x2183
 		{Position 7937.13 -2812.58}
 		{xform zl 98.21}
@@ -26200,14 +25317,8 @@
 		{xform zl 55.81 scale 0.743}
 		{TexMod "aut2"}
 	}
-	{Entity "cane3" 0x218c
-		{Position 7603.15 -2274.51}
-		{xform zl -175.59 y 21.04 zw 173.44 scale 0.893}
-		{Constrain surface}
-		{TexMod "autlate"}
-	}
 	{Entity "post_light12" 0x218d
-		{Position 7553.53 -2771.8}
+		{Position 7686.59 -2751.91}
 		{xform zl -130.25}
 	}
 	{Entity "post_light12" 0x218e
@@ -27022,9 +26133,6 @@
 	{Entity "wheel" 0xc28
 		{Position 2686.78 1340.16}
 	}
-	{Entity "wood_swim" 0x48a5
-		{Position 2262.23 1393.82 0.54}
-	}
 	{Entity "path_sand2a" 0x48a6
 		{Position 2480.53 1263.37 8.24}
 		{xform zl 122.77}
@@ -27033,12 +26141,6 @@
 	{Entity "pier" 0x48a7
 		{Position 2340.49 1204.75 -21.42}
 		{xform zl -89.9}
-	}
-	{Entity "air-bag" 0x48a8
-		{Position 2318.83 1378.81 -5.43}
-		{xform zl 26.03 y 5.41 zw -141.79}
-		{Player 0}
-		{MID 10031}
 	}
 	{Entity "ash_tree_bush1" 0x2805
 		{Position 2580.12 553.06}
@@ -27112,7 +26214,7 @@
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x282b
-		{Position 1888.86 -28.08}
+		{Position 1865.8 -218.44}
 		{xform zl 43.44 scale 0.87}
 		{TexMod "aut"}
 	}
@@ -28758,7 +27860,7 @@
 		{TexMod "1"}
 	}
 	{Entity "leaves4a" 0xab4
-		{Position 2821.28 3838.68}
+		{Position 2821.28 3838.68 158.9}
 		{xform zl -131.23}
 	}
 	{Entity "ash_tree_bush1" 0xab5
@@ -29030,7 +28132,7 @@
 		{xform zl -164.56}
 	}
 	{Entity "branch_stone" 0xaeb
-		{Position 644.15 3475.44}
+		{Position 644.15 3475.44 11.67}
 		{xform zl 127.82}
 	}
 	{Entity "ash_tree3" 0xaec
@@ -30604,17 +29706,17 @@
 		}
 	}
 	{Entity "ash_tree_bush1" 0x380e
-		{Position -7182.21 -3479.28}
+		{Position -6101.32 -3054.93}
 		{xform zl -156.43 scale 0.997}
 		{TexMod "1"}
 	}
 	{Entity "leaves1a" 0x380f
-		{Position -7076.94 -3430.57}
+		{Position -5996.05 -3006.22}
 		{xform zl -39.04}
 		{DecalOrder 2}
 	}
 	{Entity "pla01" 0x3810
-		{Position -7206.95 -2949.37}
+		{Position -6126.06 -2525.02}
 		{xform zl -50.28}
 		{TexMod "autlate"}
 	}
@@ -30624,22 +29726,22 @@
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x3813
-		{Position -7237.2 -2749 174.94}
+		{Position -6156.31 -2324.65 77.34}
 		{xform zl 138.07 scale 0.997}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree3" 0x3819
-		{Position -7173.42 -3091.13}
+		{Position -6092.53 -2666.78}
 		{xform zl 146.96 scale 0.896}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x3823
-		{Position -7268.36 -3297.03}
+		{Position -6187.47 -2872.68}
 		{xform zl -150.79}
 		{TexMod "aut"}
 	}
 	{Entity "cane3" 0x3824
-		{Position -7167.82 -3233.1}
+		{Position -6086.93 -2808.75}
 		{xform zl -54.8}
 		{TexMod "aut"}
 	}
@@ -30663,7 +29765,7 @@
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x382a
-		{Position -7088.21 -2635.12 146.09}
+		{Position -6007.32 -2210.77 46.56}
 		{xform zl 157.78 scale 0.997}
 		{TexMod "1"}
 	}
@@ -30673,50 +29775,45 @@
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x382c
-		{Position -6884.33 -3351.83}
+		{Position -5803.44 -2927.48}
 		{xform zl -24.9 scale 1.177}
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree3" 0x382d
-		{Position -6698.28 -3882.87}
+		{Position -5617.39 -3458.52}
 		{xform zl -36.02 scale 0.743}
 		{TexMod "aut2"}
 	}
 	{Entity "ash_tree3" 0x382e
-		{Position -6761.55 -4153.43 86.4}
+		{Position -5680.66 -3729.08 27.38}
 		{xform zl -77.11 scale 0.896}
 	}
-	{Entity "new_birch" 0x382f
-		{Position -7019.14 -3552.31 123.83}
-		{xform zl 117.47 scale 1.193}
-		{TexMod "aut"}
-	}
 	{Entity "ash_tree_bush1" 0x3830
-		{Position -7093.95 -3769.96 122.82}
+		{Position -6013.06 -3345.61 49.17}
 		{xform zl 147.55 scale 0.997}
 		{TexMod "aut"}
 	}
 	{Entity "leaves3a" 0x3831
-		{Position -6949.41 -3870.01}
+		{Position -5868.52 -3445.66}
 		{xform zl 24.52}
 	}
 	{Entity "ash_tree_bush1" 0x3832
-		{Position -7064.42 -4312.25 60.34}
+		{Position -5983.53 -3887.9 60.68}
 		{xform zl -43.26 scale 0.997}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x3833
-		{Position -6957.08 -4376.41 55.14}
+		{Position -5876.19 -3952.06 55.49}
 		{xform zl 147.55 scale 0.997}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree3" 0x3834
-		{Position -7138.73 -4344.77}
+		{Position -6057.84 -3920.42}
 		{xform zl -30.96 scale 0.743}
 		{TexMod "aut"}
 	}
 	{Entity "ash_tree_bush1" 0x3835
-		{Position -6743.5 -4006.32}
+		{Position -5662.61 -3581.97}
 		{xform zl 18.45 scale 0.64}
 		{TexMod "aut"}
 	}
@@ -30726,32 +29823,32 @@
 		{TexMod "1"}
 	}
 	{Entity "tree_attach" 0x3837
-		{Position -6813.45 -4469.56}
+		{Position -5732.56 -4045.21}
 		{xform zl -91.18 scale 1.133}
 		{TexMod "7"}
 	}
 	{Entity "cane3" 0x3838
-		{Position -6890.46 -4565.6}
+		{Position -5809.57 -4141.25}
 		{xform zl 68.86}
 		{TexMod "autlate"}
 	}
 	{Entity "pla01" 0x3839
-		{Position -6843.99 -2997.47}
+		{Position -5763.1 -2573.12}
 		{xform zl -50.28}
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree3" 0x383a
-		{Position -6848.41 -2791.99}
+		{Position -5767.52 -2367.64}
 		{xform zl 146.96 scale 0.896}
 		{TexMod "aut"}
 	}
 	{Entity "pla01" 0x383b
-		{Position -7008.02 -3012.54}
+		{Position -5927.13 -2588.19}
 		{xform zl 58.1 y 16.41 zw -109.44}
 		{TexMod "autlate"}
 	}
 	{Entity "ash_tree_bush1" 0x383c
-		{Position -6923.59 -3171.48 165.87}
+		{Position -5842.7 -2747.13 50.06}
 		{xform zl 138.07 scale 0.997}
 		{TexMod "aut"}
 	}
@@ -31893,7 +30990,7 @@
 		{Position -3501.07 3231.1 206.96}
 	}
 	{Entity "birds" 0x438e
-		{Position 2472.34 3543.63 260.36}
+		{Position 2472.34 3543.63 214.48}
 	}
 	{Entity "birds" 0x438f
 		{Position 7834.77 -4102.37 115.5}
@@ -31901,28 +30998,18 @@
 	{Entity "landing" 0x4390
 		{Position 1246.98 -535.43}
 	}
-	{Entity "sandbag2" 0xa23
-		{Position 1795.04 -317.61}
-		{xform zl -100.03}
-		{TexMod "2"}
-		{Color 0xffd1d4bc}
-	}
-	{Entity "sandbag2" 0xa27
-		{Position 1771.67 -254.13}
-		{xform zl -49.88}
-		{TexMod "2"}
-		{Color 0xffd1d4bc}
-	}
 	{Entity "wood_floor2a" 0xa3c
 		{Position -1425.79 1044.24 175.41}
 		{xform zl 160.74}
 		{Constrain none}
 	}
 	{Entity "bags1" 0x4391
-		{Position -1433.47 1067.6}
+		{Position 1106.03 -195.88}
+		{xform zl -16.7}
 	}
 	{Entity "bags2" 0x4392
-		{Position -1438.62 1020.83}
+		{Position 1087.66 -239.2}
+		{xform zl -16.7}
 	}
 	{Entity "path_sand2a" 0x4393
 		{Position -725.66 591.05 -3.46}
@@ -31998,16 +31085,16 @@
 		{Position 813.02 -3643.49}
 	}
 	{Entity "wood_floor1a" 0x1872
-		{Position 1512.82 -1116.9 101.73}
+		{Position 1512.82 -1116.9 89.2}
 	}
 	{Entity "wood_floor1a_a" 0x1873
-		{Position 1601.2 -1182.15}
+		{Position 1601.2 -1182.15 85}
 	}
 	{Entity "wood_floor1a_a" 0x1874
 		{Position 1620.97 -1085.77}
 	}
 	{Entity "wood_floor1a_a" 0x1875
-		{Position 1722.47 -1129.53}
+		{Position 1722.47 -1129.53 86}
 	}
 	{Entity "wood_floor1b_a" 0x5839
 		{Position 1441.01 -239.98}
@@ -32032,8 +31119,8 @@
 		{Color 0xffcfcfcf}
 	}
 	{Entity "t64_xx" 0x623f
-		{Position 1159.42 -736.33}
-		{xform zl -10}
+		{Position 2212.25 -1900.67 -29.52}
+		{xform zl -174.81 y 24.85 zw 165.24}
 	}
 	{Entity "ural375_xx" 0x1144
 		{Position 3389.41 -39.66}
@@ -32044,67 +31131,6 @@
 		{xform zl 60}
 		{Player 0}
 		{MID 10003}
-	}
-	{Entity "mg34_tower" 0x65d
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		{Player 0}
-		{MID 10002}
-	}
-	{Entity "mg34_tower" 0x775
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		{Player 0}
-		{MID 10004}
-	}
-	{Entity "cwps3_proj_point" 0x9cd
-		{Player 255}
-		{MID 10005}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
 	}
 	{Entity "cwps3_proj_point" 0xa2e
 		{Player 255}
@@ -32149,6 +31175,86 @@
 			{State broken}
 		}
 	}
+	{Entity "bridge_wood" 0x2221
+		{Position 2128.08 -2536.78 -8.24}
+		{xform zl 10.26}
+	}
+	{Entity "admin_house" 0x4600
+		{Position -275.25 -3079.05 2}
+		{xform zl 90.79}
+	}
+	{Entity "corner14" 0x4609
+		{Volume "hole26"
+			{able {touch 1}}
+		}
+	}
+	{Entity "corner19" 0x4611
+		{Volume "hole36"
+			{able {touch 1}}
+		}
+	}
+	{Entity "corner14" 0x4622
+		{Volume "hole26"
+			{able {touch 1}}
+		}
+	}
+	{Entity "corner19" 0x4628
+		{Volume "hole36"
+			{able {touch 1}}
+		}
+	}
+	{Entity "admin_house" 0x463a
+		{Position 124.86 -3081.29}
+		{xform zl -88.59}
+	}
+	{Entity "shark" 0x2006
+		{Position 2082.94 -1863.61 -7}
+	}
+	{Entity "shark" 0x200f
+		{Position 2033.04 -1977.58 22.99}
+		{xform zl -156.96 scale 2.537}
+	}
+	{Entity "swan" 0x2075
+		{Position 2007.71 -2271.83 -7}
+	}
+	{Entity "fish" 0x208d
+		{Position 2054.4 -2180.48 -9.61}
+	}
+	{Entity "wood_cross1" 0x681e
+		{Position 1081.93 -802.82 46.01}
+		{xform zl -157.17 y 4.13 zw -9.24}
+	}
+	{Entity "ash_tree_bush1" 0x681f
+		{Position 1156.54 -942.18}
+		{xform zl 119.74}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree_bush1" 0x6820
+		{Position 1177.95 -746.99 67.03}
+		{xform zl 119.74}
+		{TexMod "burned"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "wall-2level_2" 0x6821
+		{Position 1239.2 -798.12 84.94}
+		{xform zl -154.87}
+	}
+	{Entity "broken_wall_stones" 0x6822
+		{Position 1215.98 -828.43}
+		{xform zl -178.52 y 24.36 zw -51.3}
+		{Constrain surface}
+	}
+	{Entity "ash_tree_bush1" 0x6823
+		{Position 1842.86 -7.76}
+		{xform zl 43.44 scale 0.87}
+		{TexMod "aut"}
+	}
+	{Entity "shed_wood125" 0x3c00
+		{Position 847.99 1415.47 8.69}
+		{xform zl 10.05}
+	}
 	{Link 0x6017 {0x6012 "3"}}
 	{Link 0x6035 {0x604f "3"}}
 	{Link 0x60a0 {0x609a "rusch_middle_p"}}
@@ -32163,9 +31269,6 @@
 	{Link 0x60b4 {0x609a "rusch_mid8_p"}}
 	{Link 0x3871 {0x3801 "72"}}
 	{Link 0x103f {0x1058 "3"}}
-	{Link 0x298 {0x2a8 "2"}}
-	{Link 0x299 {0x2a8 "3"}}
-	{Link 0x29a {0x2a8 "4"}}
 	{Link 0x60b3 {0x2a9 "1_1"}}
 	{Link 0x29b {0x2a9 "1_2"}}
 	{Link 0x60b5 {0x2a9 "2_1"}}
@@ -32201,12 +31304,6 @@
 	{Link 0x36b {0x38c "9_2"}}
 	{Link 0x36e {0x38c "10_3"}}
 	{Link 0x36f {0x38c "11_3"}}
-	{Link 0x66f {0x6be "4"}}
-	{Link 0x670 {0x6be "3"}}
-	{Link 0x671 {0x6be "2"}}
-	{Link 0x672 {0x6be "1"}}
-	{Link 0x673 {0x6be "6"}}
-	{Link 0x674 {0x6be "5"}}
 	{Link 0x1001 {0x1000 "wind_mill2_corner2"}}
 	{Link 0x1003 {0x1000 "wind_mill2_top_corner2"}}
 	{Link 0x100a {0x1014 "wind_mill2_corner2"}}
@@ -32217,19 +31314,19 @@
 	{Link 0x237 {0x238 "2"}}
 	{Link 0x769 {0x778 "wind_mill2_corner2"}}
 	{Link 0x76a {0x778 "wind_mill2_top_corner2"}}
-	{Link 0x65d {0x7b6 "mgun"}}
-	{Link 0x775 {0x7ba "mgun"}}
 	{Link 0x886 {0x938 "1"}}
 	{Link 0x887 {0x938 "2"}}
 	{Link 0x888 {0x938 "3"}}
 	{Link 0x889 {0x938 "4"}}
-	{Link 0x4176 {0x4174 "light"}}
-	{Link 0x9cd {0x48a8 "cwps_proj_point"}}
 	{Link 0x9d3 {0x9dd "1"}}
 	{Link 0x9d6 {0x9dd "2"}}
 	{Link 0x9d7 {0x9dd "3"}}
 	{Link 0x9d8 {0x9dd "4"}}
 	{Link 0xa2e {0x1145 "cwps_proj_point"}}
+	{Link 0x4609 {0x4600 "c14"}}
+	{Link 0x4611 {0x4600 "c19"}}
+	{Link 0x4622 {0x463a "c14"}}
+	{Link 0x4628 {0x463a "c19"}}
 	{Inventory 0x40bb
 		{box
 			{clear}
@@ -32338,17 +31435,17 @@
 		{"piece07" 0x3238}
 	}
 	{Slicer 0x60ad
-		{"piece01" 0x5809}
-		{"piece02" 0x580b}
-		{"piece03" 0x580d}
+		{"piece01"}
+		{"piece02"}
+		{"piece03"}
 		{"piece04"}
 		{"piece05"}
 	}
 	{Slicer 0x60ae
-		{"piece01" 0x5816}
+		{"piece01"}
 		{"piece02" 0x5818}
 		{"piece03"}
-		{"piece04" 0x581c}
+		{"piece04"}
 		{"piece05"}
 		{"piece06"}
 		{"piece07" 0x5822}
@@ -32358,20 +31455,8 @@
 		{"piece02"}
 		{"piece03"}
 		{"piece04"}
-		{"piece05" 0x5837}
+		{"piece05"}
 		{"piece06"}
-	}
-	{Slicer 0x580b
-		0x60ad
-		{"sub_piece02" "building_part_concrete_subpiece"}
-	}
-	{Slicer 0x580d
-		0x60ad
-		{"sub_piece03" 0x582d "building_part_concrete_subpiece"}
-	}
-	{Slicer 0x581c
-		0x60ae
-		{"sub_piece04" 0x5841 "building_part_concrete_subpiece"}
 	}
 	{Slicer 0x3230
 		0x60a3
