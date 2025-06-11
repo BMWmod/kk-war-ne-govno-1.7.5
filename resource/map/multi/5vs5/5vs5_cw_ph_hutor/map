@@ -6078,7 +6078,7 @@
 		{Position -2556.08 -3031.92 -7}
 	}
 	{Entity "bracket_post" 0x6026
-		{Position -1962.21 -2348.24 35.01}
+		{Position -1962.21 -2348.24}
 	}
 	{Entity "bracket_post" 0x6027
 		{Position -1612.97 -2420.71 34.78}
@@ -15343,12 +15343,14 @@
 	}
 	{Entity "chicken" 0x1843
 		{Position -843.57 3169.14}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10011}
 	}
 	{Entity "chicken" 0x1844
 		{Position -941.43 2970.93}
 		{xform zl -42.47}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10012}
 	}
@@ -20772,18 +20774,21 @@
 	{Entity "chicken" 0x1840
 		{Position -1382.05 2866.66}
 		{Constrain none}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10007}
 	}
 	{Entity "chicken" 0x1841
 		{Position -1594.6 2721.53}
 		{Constrain none}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10008}
 	}
 	{Entity "chicken" 0x1842
 		{Position -1646.35 2800.15}
 		{Constrain none}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10010}
 	}
@@ -22768,43 +22773,6 @@
 		{Position 5189.5 882.73 50.04}
 		{xform zl -32.69}
 	}
-	{Entity "transformer2" 0x79a
-		{Position 5035.39 -3468.09}
-	}
-	{Entity "transformer2" 0x79b
-		{Position 4833.6 -3484.47}
-	}
-	{Entity "transformer2" 0x79c
-		{Position 4831.51 -3707.86}
-	}
-	{Entity "transformer2" 0x79e
-		{Position 5362.57 -3438.79}
-		{xform zl 107.04}
-	}
-	{Entity "transformer_part1" 0x79f
-		{Position 5080.24 -3626.2}
-		{xform zl -0.89}
-	}
-	{Entity "transformer_part2" 0x7a0
-		{Position 5024.94 -3622.14}
-	}
-	{Entity "transformer_part1" 0x7a1
-		{Position 5288.97 -3629.03}
-	}
-	{Entity "transformer_part2" 0x7b4
-		{Position 5233.67 -3624.97}
-	}
-	{Entity "tube03" 0x7b5
-		{Position 5138.59 -3459.77}
-		{xform zl 147.6}
-	}
-	{Entity "bags2" 0x7bc
-		{Position 5366.44 -3671.96}
-	}
-	{Entity "bags1" 0x7bd
-		{Position 5384 -3384.48}
-		{xform zl -37.95}
-	}
 	{Entity "path_sand2a" 0x7be
 		{Position 5551.09 181.28 -39.33}
 		{xform zl 41.68}
@@ -23407,142 +23375,6 @@
 		{xform zl 27.27}
 		{TexMod "aut"}
 	}
-	{Entity "post_light12" 0x7e1
-		{Position 5571.06 -3325.09}
-		{xform zl -23.67}
-	}
-	{Entity "crate" 0x7e2
-		{Position 5540.26 -3412.5}
-	}
-	{Entity "transformer2" 0x409b
-		{Position 5283.96 -3633.19}
-		{xform zl 85.71}
-	}
-	{Entity "transformer2" 0x409d
-		{Position 5072.65 -3623.9}
-	}
-	{Entity "transformer2" 0x409e
-		{Position 5493.97 -3692.12}
-	}
-	{Entity "transformer2" 0x409f
-		{Position 5490.45 -3507.57}
-	}
-	{Entity "coil_tros" 0x40a0
-		{Position 5405.65 -3762.37}
-	}
-	{Entity "wires_11_post" 0x40a1
-		{Position 5627.6 -3511.35}
-		{xform zl -87.7}
-	}
-	{Entity "wires_11_post" 0x40a2
-		{Position 5630.29 -3662.73}
-		{xform zl -87.6}
-	}
-	{Entity "wires_11_post" 0x40a3
-		{Position 5603.2 -3805.61}
-		{xform zl -114.38}
-	}
-	{Entity "wires_11_post" 0x40a4
-		{Position 5498.47 -3873.63}
-		{xform zl 3.33}
-	}
-	{Entity "wires_11_post" 0x40a5
-		{Position 5348.71 -3879.93}
-		{xform zl 2.52}
-	}
-	{Entity "searchlight_round" 0x40a6
-		{Position 4961.29 -3496.79}
-	}
-	{Entity "searchlight_round" 0x40a7
-		{Position 5295.38 -3430.33}
-		{xform zl 90.09}
-	}
-	{Entity "searchlight_round" 0x40a8
-		{Position 4955.93 -3739.67}
-	}
-	{Entity "wires_11_post" 0x40a9
-		{Position 5209 -3873.65}
-		{xform zl -7.69}
-	}
-	{Entity "wires_11_post" 0x40aa
-		{Position 5065.08 -3853.36}
-		{xform zl -8.5}
-	}
-	{Entity "wires_11_post" 0x40ab
-		{Position 4918.32 -3845.08}
-		{xform zl 3.33}
-	}
-	{Entity "wires_11_post" 0x40ac
-		{Position 4768.56 -3851.38}
-		{xform zl 2.52}
-	}
-	{Entity "wires_11_post" 0x40ad
-		{Position 4689.24 -3785.22}
-		{xform zl 94.31}
-	}
-	{Entity "wires_11_post" 0x40ae
-		{Position 4677.96 -3652.14}
-		{xform zl 94.31}
-	}
-	{Entity "coil_tros" 0x40af
-		{Position 4827.41 -3600.59}
-		{xform zl 89.75}
-	}
-	{Entity "wires_11_post" 0x40b0
-		{Position 4670.22 -3497.84}
-		{xform zl 94.31}
-	}
-	{Entity "wires_11_post" 0x40b1
-		{Position 4662.58 -3361.19}
-		{xform zl 94.12}
-	}
-	{Entity "wires_11_post" 0x40b2
-		{Position 4667.8 -3217.29}
-		{xform zl 83.84}
-	}
-	{Entity "wires_11_post" 0x40b4
-		{Position 4750.99 -3137.64}
-		{xform zl -178.44}
-	}
-	{Entity "wires_11_post" 0x40b5
-		{Position 4905.38 -3134.11}
-		{xform zl -178.97}
-	}
-	{Entity "wires_11_post" 0x40b6
-		{Position 5620.72 -3356.5}
-		{xform zl -84.49}
-	}
-	{Entity "wires_11_post" 0x40b7
-		{Position 5574.26 -3216.6}
-		{xform zl -64.49}
-	}
-	{Entity "wires_11_post" 0x40b8
-		{Position 5468.11 -3136.58}
-		{xform zl -10.79}
-	}
-	{Entity "crate" 0x40b9
-		{Position 4892.07 -3177.21}
-	}
-	{Entity "crate" 0x40bb
-		{Position 4751.74 -3339.63}
-		{xform zl 129.67}
-	}
-	{Entity "crate" 0x40bc
-		{Position 5532.84 -3800.36}
-		{xform zl -98.84}
-	}
-	{Entity "wires_x" 0x40be
-		{Position 5326.87 -3165.96}
-		{xform zl 30.2}
-	}
-	{Entity "wires_x" 0x40bf
-		{Position 5053.49 -3165.92}
-		{xform zl 161.23}
-	}
-	{Entity "post_light12" 0x40c2
-		{Position 4743.73 -3762.08}
-		{xform zl -16.3}
-	}
 	{Entity "road_slush_new5b" 0x40c4
 		{Position 5230.81 -3105.09}
 		{xform zl -26.94}
@@ -23556,160 +23388,13 @@
 		{xform zl 34.02}
 		{Color 0xffbdb7a5}
 	}
-	{Entity "ash_tree_bush1" 0x40cc
-		{Position 4697.15 -3486.66}
-		{xform zl -159.46}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x40ce
-		{Position 4936.69 -3260.25}
-		{xform zl -75.17 scale 1.183}
-		{TexMod "1"}
-	}
-	{Entity "ash_tree_bush1" 0x2109
-		{Position 5570.19 -3575.6}
-		{xform zl 14.6}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x2132
-		{Position 5023.51 -3142.27}
-		{xform zl -174.14 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x2133
-		{Position 4922.74 -3118.49}
-		{xform zl 168.2 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x2134
-		{Position 5577.72 -3188.47}
-		{xform zl -43.81 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x2135
-		{Position 5196.91 -3853.41}
-		{xform zl 176.16 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x2136
-		{Position 4900.5 -3849.83}
-		{xform zl -177.82 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x2137
-		{Position 4854.26 -3731.51}
-		{xform zl -130.88 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x2138
-		{Position 5104.11 -3694.24}
-		{xform zl -103.11 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x213d
-		{Position 5000.19 -3440.3}
-		{xform zl -116.53 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "ash_tree_bush1" 0x213e
-		{Position 5398.25 -3225.65}
-		{xform zl -18.71 y 6.51 zw 162.78}
-		{Constrain surface}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x213f
-		{Position 4722.92 -3664.85}
-		{xform zl -49.32 y 16.45 zw -25.08 scale 1.183}
-		{Constrain surface}
-		{TexMod "1"}
-	}
-	{Entity "leaves1a" 0x2140
-		{Position 5052.24 -3327.16}
-		{xform zl -39.04}
-		{DecalOrder 2}
-	}
-	{Entity "leaves1a" 0x2141
-		{Position 5516.1 -3629.57}
-		{xform zl -39.04}
-		{DecalOrder 2}
-	}
-	{Entity "cane3" 0x214b
-		{Position 5635.64 -3669.07}
-		{xform zl -99.11 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x214c
-		{Position 5650.86 -3737.92}
-		{xform zl -97.66 scale 1.163}
-		{TexMod "autlate"}
-	}
-	{Entity "ash_tree_bush1" 0x214d
-		{Position 5662.32 -3531.54}
-		{xform zl -34.25}
-		{TexMod "autlate"}
-	}
-	{Entity "ash_tree_bush1" 0x214e
-		{Position 5324.46 -3787.33}
-		{xform zl 44.01}
-		{TexMod "autlate"}
-	}
-	{Entity "cane3" 0x214f
-		{Position 5389.74 -3425.17}
-		{xform zl 33.87 y 7.9 zw 100.36}
-		{Constrain surface}
-		{TexMod "autlate"}
-	}
 	{Entity "pool1" 0x2150
 		{Position 5163.68 -3423.33}
 		{xform zl -90.79}
 	}
-	{Entity "ash_tree_bush2" 0x7de
-		{Position 5152.48 -3520.29}
-	}
-	{Entity "ash_tree_bush2" 0x7df
-		{Position 4718.51 -3303.13}
-		{TexMod "aut"}
-	}
-	{Entity "bush9" 0x7e0
-		{Position 4854.91 -3447.02}
-	}
-	{Entity "bush9" 0x7e3
-		{Position 5370.01 -3548.81}
-		{TexMod "aut1"}
-	}
-	{Entity "bush8" 0x7e4
-		{Position 4938.92 -3462.31}
-		{xform zl 30.55}
-		{TexMod "aut"}
-	}
-	{Entity "bush8" 0x7e5
-		{Position 5600.93 -3434.34}
-		{xform zl 89.19}
-		{TexMod "aut"}
-	}
-	{Entity "bush8" 0x7ee
-		{Position 5436.63 -3692.08}
-		{xform zl 127.1}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x7ef
-		{Position 5499.81 -3119.71}
-		{xform zl -5.58 scale 1.163}
-		{TexMod "aut"}
-	}
 	{Entity "cane3" 0x7f2
 		{Position 5646.82 -3294.31}
 		{xform zl 110.35 scale 1.163}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x7f3
-		{Position 4953 -3625.81}
-		{xform zl 97.27 scale 1.163}
-		{TexMod "aut"}
-	}
-	{Entity "cane3" 0x7f4
-		{Position 5204.93 -3671.42}
-		{xform zl -35.03 scale 1.163}
 		{TexMod "aut"}
 	}
 	{Entity "stone5" 0x7f5
@@ -25227,11 +24912,6 @@
 		{xform zl 8.41}
 		{TexMod "7"}
 	}
-	{Entity "ash_tree_bush1" 0x2170
-		{Position 4902.07 -3926.93}
-		{xform zl -56.21 scale 0.997}
-		{TexMod "aut"}
-	}
 	{Entity "ash_tree3" 0x2171
 		{Position 5442.71 -3996.93}
 		{xform zl -1.76 scale 0.743}
@@ -25246,16 +24926,6 @@
 		{Position 5243.01 -3968.76}
 		{xform zl 85.53 scale 0.743}
 		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x2174
-		{Position 5384.15 -3960.57}
-		{xform zl -178.19 scale 0.997}
-		{TexMod "aut"}
-	}
-	{Entity "ash_tree_bush1" 0x2175
-		{Position 4812.97 -4055.48}
-		{xform zl 138.07 scale 0.997}
-		{TexMod "1"}
 	}
 	{Entity "leaves3a" 0x2176
 		{Position 4848.79 -4037.29}
@@ -26822,11 +26492,6 @@
 		{Position 3908.74 -3721.08}
 		{xform zl -43.26 scale 0.997}
 		{TexMod "1"}
-	}
-	{Entity "ash_tree3" 0x6219
-		{Position 4690.37 -4032.37}
-		{xform zl -30.96 scale 0.743}
-		{TexMod "aut2"}
 	}
 	{Entity "ash_tree_bush1" 0x621a
 		{Position 4717.38 -4345.92}
@@ -31255,6 +30920,241 @@
 		{Position 847.99 1415.47 8.69}
 		{xform zl 10.05}
 	}
+	{Entity "ash_tree_bush1" 0x100c
+		{Position 4761.31 -3272.69}
+		{xform zl 145.65}
+		{TexMod "aut"}
+	}
+	{Entity "tree_attach" 0x100f
+		{Position 4808.38 -3105.06}
+		{xform zl 8.41}
+		{TexMod "7"}
+	}
+	{Entity "ash_tree3" 0x1010
+		{Position 5059.37 -3161.41}
+		{xform zl -1.76 scale 0.743}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree_bush1" 0x1112
+		{Position 4910.34 -3286.4}
+		{xform zl 95.69 scale 0.997}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree3" 0x1146
+		{Position 5060.83 -3013.89}
+		{xform zl 85.53 scale 0.743}
+		{TexMod "aut"}
+	}
+	{Entity "leaves3a" 0x1147
+		{Position 4666.61 -3082.42}
+		{xform zl -145.67}
+	}
+	{Entity "ash_tree_bush1" 0x1148
+		{Position 5831.56 -2973.59}
+		{xform zl 68.96 scale 0.997}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree_bush1" 0x1149
+		{Position 5695.4 -2884.79}
+		{xform zl -156.43 scale 0.997}
+		{TexMod "autlate"}
+		{UseShadow 0}
+	}
+	{Entity "ash_tree_bush1" 0x114a
+		{Position 5712.41 -2936.19}
+		{xform zl 18.45 scale 0.64}
+	}
+	{Entity "petals" 0x114b
+		{Position 5441.35 -3136.38}
+		{xform zl -143.74}
+		{DecalOrder 2}
+	}
+	{Entity "ash_tree_bush1" 0x114d
+		{Position 5765.11 -3000.54}
+		{xform zl 115.27 scale 0.997}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree_bush1" 0x114e
+		{Position 5725.45 -2748.76}
+		{xform zl 38.83 scale 0.997}
+		{TexMod "autlate"}
+		{UseShadow 0}
+	}
+	{Entity "ash_tree_bush1" 0x114f
+		{Position 5863.27 -3082.71}
+		{xform zl -74.75 scale 1.183}
+		{TexMod "autlate1"}
+	}
+	{Entity "topol02" 0x1150
+		{Position 5456.38 -3067.39}
+		{xform zl 123.93 scale 1.113}
+		{TexMod "autlate"}
+	}
+	{Entity "ash_tree_bush1" 0x1151
+		{Position 5422.02 -3106.14}
+		{xform zl -177.17}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "ash_tree_bush1" 0x1152
+		{Position 5642.63 -2798.66}
+		{xform zl -150.02}
+		{TexMod "aut"}
+	}
+	{Entity "leaves1a" 0x1153
+		{Position 5368.14 -3095.5}
+		{xform zl -39.04}
+		{DecalOrder 2}
+	}
+	{Entity "ash_tree_bush1" 0x1155
+		{Position 5525 -3256.03}
+		{xform zl -150.94 scale 0.997}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree3" 0x1157
+		{Position 5730.56 -3350.57}
+		{xform zl -15.6 scale 0.896}
+	}
+	{Entity "ash_tree3" 0x1158
+		{Position 5020.77 -3601.37}
+		{xform zl 55.81 scale 0.743}
+		{TexMod "aut2"}
+	}
+	{Entity "ash_tree3" 0x1159
+		{Position 5588.74 -3066.05}
+		{xform zl 55.81 scale 0.743}
+		{TexMod "aut2"}
+	}
+	{Entity "new_birch" 0x115a
+		{Position 5609.75 -3509.81}
+		{xform zl 90.74 scale 1.193}
+		{TexMod "aut1"}
+	}
+	{Entity "new_birch" 0x115b
+		{Position 5429.21 -3544.72}
+		{xform zl 56.48 scale 1.193}
+		{TexMod "aut1"}
+	}
+	{Entity "ash_tree_bush1" 0x115c
+		{Position 5361.2 -3548.25}
+		{xform zl 120.82 scale 0.997}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree_bush1" 0x115d
+		{Position 4802.29 -3445.27}
+		{xform zl -156.43 scale 0.997}
+		{TexMod "1"}
+	}
+	{Entity "leaves4a" 0x115e
+		{Position 4764.2 -3474.74}
+		{xform zl 58.96}
+	}
+	{Entity "ash_tree3" 0x115f
+		{Position 5115.21 -3700.42}
+		{xform zl -77.11 scale 0.896}
+	}
+	{Entity "new_birch" 0x1160
+		{Position 5308.14 -3495.56}
+		{xform zl 87.75 scale 1.193}
+		{TexMod "aut1"}
+	}
+	{Entity "ash_tree3" 0x1161
+		{Position 5300.83 -3526.44}
+		{xform zl 55.81 scale 0.743}
+		{TexMod "aut2"}
+	}
+	{Entity "ash_tree_bush1" 0x1162
+		{Position 4996.73 -3359.21}
+		{xform zl 77.17 scale 1.177}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree_bush1" 0x1163
+		{Position 4858.23 -3539.23}
+		{xform zl -124.14 scale 1.177}
+		{TexMod "1"}
+	}
+	{Entity "topol02" 0x1164
+		{Position 4871.33 -3535.2}
+		{xform zl 123.93 scale 1.113}
+		{TexMod "autlate"}
+	}
+	{Entity "ash_tree_bush1" 0x1165
+		{Position 4836.97 -3573.95}
+		{xform zl -177.17}
+		{TexMod "bare"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "cane3" 0x1166
+		{Position 5300.44 -3541.18}
+		{xform zl 67.04}
+		{TexMod "autlate"}
+	}
+	{Entity "ash_tree3" 0x1167
+		{Position 4644.63 -3506.42}
+		{xform zl 146.96 scale 0.896}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree_bush1" 0x1168
+		{Position 4568.62 -3607.76}
+		{xform zl 157.78 scale 0.997}
+		{TexMod "aut"}
+	}
+	{Entity "leaves4a" 0x1169
+		{Position 4585.67 -3527.14}
+		{xform zl -131.23}
+	}
+	{Entity "ash_tree_bush1" 0x116a
+		{Position 4510.48 -3635.26}
+		{xform zl -150.02}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree_bush1" 0x116b
+		{Position 4535.2 -3391.05}
+		{xform zl -56.21 scale 0.997}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree_bush1" 0x116c
+		{Position 5791.66 -3903.82}
+		{xform zl -156.43 scale 0.997}
+		{TexMod "1"}
+	}
+	{Entity "leaves4a" 0x116d
+		{Position 4919.34 -3781.78}
+		{xform zl 58.96}
+	}
+	{Entity "ash_tree_bush1" 0x116e
+		{Position 5258.16 -3852.3}
+		{xform zl -124.14 scale 1.177}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree3" 0x116f
+		{Position 4930.69 -3740.69}
+		{xform zl 146.96 scale 0.896}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree_bush1" 0x1170
+		{Position 4723.76 -3914.8}
+		{xform zl 157.78 scale 0.997}
+		{TexMod "aut"}
+	}
+	{Entity "ash_tree_bush1" 0x1171
+		{Position 4406.12 -3842.67}
+		{xform zl -5.19 scale 1.177}
+		{TexMod "1"}
+	}
+	{Entity "leaves4a" 0x1172
+		{Position 4740.81 -3834.18}
+		{xform zl -131.23}
+	}
+	{Entity "ash_tree_bush1" 0x1173
+		{Position 4665.62 -3942.3}
+		{xform zl -150.02}
+		{TexMod "aut"}
+	}
 	{Link 0x6017 {0x6012 "3"}}
 	{Link 0x6035 {0x604f "3"}}
 	{Link 0x60a0 {0x609a "rusch_middle_p"}}
@@ -31327,12 +31227,6 @@
 	{Link 0x4611 {0x4600 "c19"}}
 	{Link 0x4622 {0x463a "c14"}}
 	{Link 0x4628 {0x463a "c19"}}
-	{Inventory 0x40bb
-		{box
-			{clear}
-			{item "f1" "grenade" 3 {cell 0 0}}
-		}
-	}
 	{Slicer 0x812
 		0x401e
 		{"sub_piece04" 0x3807 "building_part_concrete_subpiece"}
