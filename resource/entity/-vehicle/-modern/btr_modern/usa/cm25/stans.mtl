@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/ptur_tow/texture1"}
+	{emitsheat}
+{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/cm11/rifled_barrel_a_c"}
+	{blend none}
+}

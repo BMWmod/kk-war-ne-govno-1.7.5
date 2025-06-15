@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/cm11/m60a1_body_c_us_camo_olive"}
+	{blend none}
+}

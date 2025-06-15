@@ -1,0 +1,130 @@
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	{collider "tank.light"}
+	{props "m113a" "light_M" "turret_rotator" "vision_lev04" "amphibia" "with_open_zpu"  "hmmwv_tow"}
+        {targetClass "light_tank"}	
+	{PatherID "amphibia"}
+	
+    
+	
+	("armor_IFV" turret(15 15 15 15) body(13 13 13 11))
+	("armor_engine"  t(20))
+	
+	;CM25侧面的装甲被重新填充为泡沫，没有防护能力
+	
+	{armor
+		{setting "armor_02"
+			{thickness 5 5 5 5}		
+			{durability {blast {value 100}} {pierce {koef 999}}}
+			{threshold {blast {koef 2} {value 50}}}
+			{volumes "armor_02"}
+		}
+		{setting "armor_05"
+			{thickness 20 20 20 20}		
+			{durability {blast {value 100}} {pierce {koef 999}}}
+			{threshold {blast {koef 2} {value 50}}}
+			{volumes "armor_05"}
+		}
+	}
+	
+	("shield_t-64a_1981")
+	{extender "shield"
+		{on}
+	}
+{component "shieldl1" {tags "shield"}} 
+ {component "shieldr1" {tags "shield"}} 
+ {component "shieldl2" {tags "shield"}} 
+ {component "shieldr2" {tags "shield"}} 
+ {component "shieldl3" {tags "shield"}} 
+ {component "shieldr3" {tags "shield"}} 
+
+	{extension "crew.ext"}
+  
+  
+  
+  
+	
+	
+
+	{extender "inventory"
+		{box
+			{item "ammo 50NatoAP" 2100}
+			{item "ammo smoke_shtora" 8}	
+			{item "ammo tow2b" 8}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "weapon TOW" filling "ammo tow2b" 1}
+			{foresight "foresight1"}
+			{basic}
+			{charger "gunner2"}
+			{gunner "charger"}
+		}
+
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{weapon "browning_m2hb" filled}
+			{LinkBone "link1"}
+			{LinkAnimation "off"}
+			{foresight "foresight4"}
+			("CW_stab_no_stabiliser")
+			
+			{basic}
+		}
+
+		{place "mgun17"			
+			{type "mgun_right"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "driver"}
+			{charger "driver"}
+			{foresight "foresight21"}
+			{barrels 4}
+			{basic}
+		}
+		{place "mgun18"			
+			{type "mgun_left"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "driver"}
+			{charger "driver"}
+			{foresight "foresight22"}
+			{barrels 4}
+			{basic}
+		}		
+	}	
+
+	
+
+
+
+	{mass 12700}
+
+	{Chassis
+    	("tank_trace" fx("tracks_sm") step(0.2) len(0.8))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(12.7)
+			Width(2.686)
+			Power(215)
+			Realspeed(66)
+			Gamespeed(40) 
+		)
+		{RearGears		0.2 0.46}}
+		("CW_fuelbag" Range(550) Fuelvolume(420))
+		("CW_speed_lev" Gamespeed(37))
+	}
+	("CW_amphibia" Waterline(1.7) )
+	("two_headlights")
+	{Extension "cm25.mdl"}
+	("missile_aimpoint_tanksize")
+
+	;("cwts_buksir")
+
+
+
+	
+
+}

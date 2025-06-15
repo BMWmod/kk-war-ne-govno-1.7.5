@@ -1,0 +1,196 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "heavy_M" "turret_rotator" "vision_lev05" "with_open_zpu" "m1a1_new" "6_barrels_smoke"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	("armor_heavy" turret(173 76 55 25) body(109 114 50 35))  
+	("armor_mantlet" t(160))
+	("armor_engine"  t(50))
+	
+		{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "mgun_m2"
+			{forward	{begin	"board_tank_left"} {end "M1a1_mgun1"} {base "open" 1}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open" -1}}
+		}
+		{anm "mgun_m240"
+			{forward	{begin	"board_tank_left"} {end "M1a2_mgun"} {base "open2" 1}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open2" -1}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_highArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_IR_3g"};类似M1A1的观瞄
+			{bone "visor_gunner"}
+		}
+		{visor "driver"
+			{vision "vehicle_main"}
+			{bone "visor_dri"}
+		}
+	}
+	
+	("crew_inside")
+	("crew_human" place(charger) door1(emit2) visor(main) animation(left))
+	("crew_human" place(driver)	door1(emit1) visor(driver) animation(driver))
+
+	 	 {placer
+		{place "driver"	{visor "driver"}}
+		{place "charger"	{visor "main"}}
+		 }
+
+	
+	
+	{placer
+		{place "gunner3"
+			{group "crew"}
+			{linkbone "gunner3"}
+			{turnoff {shadow}}
+			{openForCrush}
+			{useVision}
+		}
+	}
+	{placer
+		{place "gunner2"
+			{group "crew"}
+			{linkbone "gunner2"}
+			{turnoff {shadow}}
+			{openForCrush}
+			{useVision}
+		}
+	}	
+	{boarder
+		{door "emit3"}
+		{link "emit3" "gunner3" {anm "mgun_m240"} {forward putoff} {reverse puton}}
+		{door "emit2"}
+		{link "emit2" "gunner2" {anm "mgun_m2"} {forward putoff} {reverse puton}}
+		
+	}
+	
+	{extender "inventory"
+		{box
+			{item "ammo 50Nato" 800}
+			{item "ammo nato_ptr ap" 200}
+			{item "ammo 762Nato" 11400}
+			{item "ammo bullet105_usa fg" 15}
+			{item "ammo bullet105_usa apcr_h" 33}
+			{item "ammo bullet105_usa cm" 13}
+			{item "ammo bullet105_usa sm" 2}
+			{item "ammo smoke_shtora" 12}	
+		
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_M68" filling "ammo bullet105_usa apcr_h" 1}
+			{gunner "charger"}
+			{charger "charger"}	
+			("CW_stab_abm" abm(0.37))
+			("CW_stab_ldwind_suo")
+		}
+		{place "mgun1"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{weapon "browning_m2hb" filled}
+			{LinkBone "link1"}
+			{LinkAnimation "off"}
+			{foresight "foresight4"}
+			("CW_stab_no_stabiliser")
+			
+			{basic}
+		}
+		{place "mgun4"
+			{type "mgun_rear"}
+			{weapon "M240" filled}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			{LinkBone "link2"}
+			{foresight "foresight7"}
+			{LinkAnimation "off"}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "M240" filled}
+			{foresight "foresight2"}
+			{gunner "charger"}
+			{charger "charger"}	
+			("CW_stab_abm" abm(0.60))
+			("CW_stab_ld_suo")
+			{basic}
+		}
+    
+    {place "mgun17"			;��?����������?
+			{type "mgun_right"}
+			{weapon "6xsmokegun_adrams" filling "smoke_shtora ammo" 6}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight20"}
+			{barrels 6}
+			{basic}
+		}
+		{place "mgun18"			;��?����������?
+			{type "mgun_left"}
+			{weapon "6xsmokegun_adrams" filling "smoke_shtora ammo" 6}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+			{barrels 6}
+			{basic}
+		}
+
+	}
+
+	{mass 50000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(2.1))
+		("CW_tracks"
+			Mass(50.0)
+			Width(3.27)
+			Power(750)
+			Realspeed(48)
+			Gamespeed(33) 
+			Range(480)
+			Fuelvolume(1457)
+		)
+	}
+	("two_headlights")
+	{Extension "m48.mdl"}
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+	
+	("CW_turr_speed" deg_per_s(24))
+
+	
+}

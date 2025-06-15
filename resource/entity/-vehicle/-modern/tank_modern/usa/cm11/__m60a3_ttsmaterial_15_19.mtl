@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/cm11/us_m60a1_track_c"}
+	{blend test}
+}
