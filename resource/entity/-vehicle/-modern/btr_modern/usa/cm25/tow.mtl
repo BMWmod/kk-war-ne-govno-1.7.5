@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/cm21series/bgm_71_tow_c_us_camo_olive"}
+	{blend none}
+}

@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/ptur_tow/glass"}
+	{emitsheat}
+{blend blend}
+}

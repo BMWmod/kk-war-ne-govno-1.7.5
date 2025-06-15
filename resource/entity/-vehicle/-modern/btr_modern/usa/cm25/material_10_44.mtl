@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/cm21series/us_m163_vulcan_track_c"}
+	{bump "$/model/cm21series/us_m163_vulcan_track_n"}
+	{specular "$/model/cm21series/us_m163_vulcan_track_n_s"}
+	{color "230 230 230 25"}
+	{blend test}
+}

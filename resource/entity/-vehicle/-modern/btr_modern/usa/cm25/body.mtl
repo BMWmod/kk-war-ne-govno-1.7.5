@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/ptur_tow/main"}
+	{bump "$/model/ptur_tow/main_bp"}
+	{specular "$/model/ptur_tow/main_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

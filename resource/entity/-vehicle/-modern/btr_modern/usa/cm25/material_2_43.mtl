@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/cm21series/headlight_glass_c"}
+	{bump "$/model/cm21series/headlight_glass_n"}
+	{specular "$/model/cm21series/headlight_glass_n_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

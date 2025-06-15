@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/cm21series/mg_browning_m2hb_mount_c_us_camo_olive"}
+	{bump "$/model/cm21series/mg_browning_m2hb_mount_n"}
+	{specular "$/model/cm21series/mg_browning_m2hb_mount_n_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}
