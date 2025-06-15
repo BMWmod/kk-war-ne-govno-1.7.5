@@ -1,6 +1,6 @@
 ;===============================RUS===========================================                                   
 ;===============================Common===========================================                                   
-{"brdm2" {fore 1} ("vs" c(420) sc(45) g(reco) b(common) brig(common) s(rus)  i(1) cw(10) cp(10) t(all_nz recon   ) n(4)               ) }      
+{"brdm2" {fore 1} ("vs" c(420) sc(25) g(reco) b(common) brig(common) s(rus)  i(1) cw(10) cp(10) t(all_nz recon   ) n(4)               ) }      
 {"btr82a"		("v3" c(480) c1(btr82a)brig(common) t(all_nz inf_rus infantry) s(rus) n(2) n1(tankman:2) g(bmp_common2)  sc(30) b(common) i(3) cw(20) cp(15))  {fore 1}}
 
 {"ural375i"		("v3" c(94) c1(ural375)brig(common) t(all_nz inf_rus infantry ) s(rus) n(1) 
