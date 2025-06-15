@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/cm11/us_turret_glass_c"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/cm11/cm_11_armor_c_us_camo_olive"}
+	{blend none}
+}
