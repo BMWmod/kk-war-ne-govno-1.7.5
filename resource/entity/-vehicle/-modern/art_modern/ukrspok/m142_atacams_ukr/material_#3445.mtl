@@ -1,0 +1,9 @@
+{material simple
+	{diffuse "$/model/mtrv_cargo/mtvr_interier"}
+	{emitsheat}
+{blend none}
+}
+
+
+
+

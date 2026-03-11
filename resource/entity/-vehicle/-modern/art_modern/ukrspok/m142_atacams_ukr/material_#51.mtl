@@ -1,0 +1,15 @@
+{material bump
+	{diffuse "$/model/himars/body"}
+	{bump "$/model/himars/body_bp"}
+	{specular "$/model/himars/body_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}
+
+
+
+
+
+
+

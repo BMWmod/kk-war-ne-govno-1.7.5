@@ -1,0 +1,15 @@
+{material simple
+	{diffuse "$/model/himars/interier_himars"}
+	{emitsheat}
+{blend none}
+}
+
+
+
+
+
+
+
+
+
+

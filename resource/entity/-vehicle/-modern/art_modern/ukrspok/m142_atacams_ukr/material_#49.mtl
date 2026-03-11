@@ -1,0 +1,12 @@
+{material simple
+	{diffuse "$/model/himars/fmtv_glass"}
+	{emitsheat}
+{blend blend}
+}
+
+
+
+
+
+
+

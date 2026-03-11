@@ -1,0 +1,32 @@
+;Created by Pheonix
+{game_entity
+	(include "m142.inc")
+	
+	{extender "inventory"
+		{box
+			{Size 10 7}
+			{weight 3000}
+			{item "ammo ATACMS fg" 1}
+			{item "ammo ATACMS cl" 1}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "weapon ATACMS_Himars" filling "ammo ATACMS fg" 1}
+			{foresight "foresight"}
+			{RestoreIKAfterAim}
+			{Barrels 1}
+			{charger "gunner"}
+			{gunner "gunner"}
+			("CW_stab_artillery")
+			;{StationaryFiring}
+				{basic}
+		}
+	}
+	("two_headlights")
+	
+	{Extension "m142_himars.mdl"}
+	("missile_aimpoint_trucksize")
+        ("recoil_side_common")
+
+}
