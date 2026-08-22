@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "Tu-141_glaz_diffuse"}
+	{blend none}
+}

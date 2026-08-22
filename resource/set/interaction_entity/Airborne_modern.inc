@@ -6363,6 +6363,51 @@
 		}
 	}
 }
+
+{
+	"tu141"
+	{
+		on "add_movement_sound" overload
+		{
+			link_sound "engine_start"		"vehicle/airborne/small_uav/small_uav_start"
+		}
+		{
+			link_sound "engine_work"		"vehicle/airborne/small_uav/small_uav_work"
+		}
+		{
+			link_sound "engine_stop"		"vehicle/airborne/small_uav/small_uav_stop"
+		}
+	}
+	{
+		on "link_flare_fx" overload
+	}
+	{
+		on "engine_on"
+		{
+			if not "engine_started"
+			{
+				set "engine_started" 1
+			}
+			{
+				play_sound "engine_start"
+			}
+			{
+				ani_play "engine_start" callback
+			}
+		}
+	}
+	{
+		on animation_end "engine_start"
+		{
+			ani_play "engine_work" loop
+		}
+		{
+			play_sound "engine_work" 1
+		}
+	}
+	("loitering_munition" missilename(tu141_base))
+}
+
 {
 	"rq11raven_b_ammo"
 	{
@@ -7509,3 +7554,4 @@
 		}
 	}
 }
+
