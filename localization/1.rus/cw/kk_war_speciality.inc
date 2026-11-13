@@ -1,4 +1,9 @@
-﻿;Создано maaa - DTTGOC
+﻿{"t62m_ukr_trophy" "<c(FFFF00)e(shadow)>Трофейный средний танк</c>"}
+{"btr4e_ukr_mor" "<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
+{"bmp2_ukr_mor" "<c(FFFF00)e(shadow)>БМП с дополнительной бронёй и решётчатым козырьком</c>"}
+{"btr4e_ukr_mor_inf" "<c(FFFF00)e(shadow)>Бронетранспортёр с морской пехотой</c>"}
+{"bmp2_ukr_mor_inf" "<c(FFFF00)e(shadow)>БМП с дополнительной бронёй, козырьком и морской пехотой</c>"}
+;Создано maaa - DTTGOC
 ;LocalGen2
 ;Проверено Bizon и zkv2000
 ;Перепроверено и переделано за Bizon и zkv2000

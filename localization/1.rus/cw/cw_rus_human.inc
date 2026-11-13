@@ -988,6 +988,11 @@
 				{"vehicle_supporter" "<c(FFFFFF)>Оператор воор./техн.<c(FFFFFF)>"}
 			}
 			{"ukr"
+				{"marine_com" "<c(FFFFFF)>Командир морской пехоты</c>"}
+				{"marine_smg" "<c(FFFFFF)>Стрелок морской пехоты</c>"}
+				{"marine_mg" "<c(FFFFFF)>Пулемётчик морской пехоты</c>"}
+				{"marine_rpg" "<c(FFFFFF)>Гранатомётчик морской пехоты</c>"}
+				{"marine_marksman" "<c(FFFFFF)>Марксман морской пехоты</c>"}
 				{"smg" "<c(FFFFFF)>Солдат<c(FFFFFF)>"}
 				{"vehicle_supporter" "<c(FFFFFF)>Оператор воор./техн.<c(FFFFFF)>"}
 				{"tankman" "<c(FFFFFF)>Танкист<c(FFFFFF)>"}

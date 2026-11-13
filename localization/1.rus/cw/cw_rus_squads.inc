@@ -37,6 +37,11 @@
 			{"pilot(iregular)" 						"<c(FFFFFF)e(shadow)>Пилот</c>"}	
 ;________________________________________________________________________________________________________
 ;Украина
+			{"ukr_dshv(ukr)" "<c(FFFFFF)e(shadow)>Отделение ДШВ</c>"}
+			{"ukr_marines(ukr)" "<c(FFFFFF)e(shadow)>Отделение морской пехоты</c>"}
+			{"ukr_marines_at(ukr)" "<c(FFFFFF)e(shadow)>Противотанковая группа морской пехоты</c>"}
+			{"btr4e_ukr_mor_inf" "<c(FFFFFF)e(shadow)>Морская пехота на БТР-4Е</c>"}
+			{"bmp2_ukr_mor_inf" "<c(FFFFFF)e(shadow)>Морская пехота на БМП-2</c>"}
 			{"ukr_tro(ukr)"							"<c(FFFFFF)e(shadow)>Территориальная оборона</c>"}
 			{"pzrk_ua(ukr)"							"<c(FFFFFF)e(shadow)>Расчет ПЗРК</c>"}
 			{"tankman(ukr)"							"<c(FFFFFF)e(shadow)>Танкисты</c>"}

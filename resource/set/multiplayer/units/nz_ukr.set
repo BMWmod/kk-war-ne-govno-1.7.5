@@ -179,8 +179,8 @@
  ;Leopard 1A4
  {"leopard_c1" ("v" c(240) brig(vsu_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(90) b(vsu_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
 
- ;Т-64БВ
- {"t-64bv_ukr" {fore 0.5} ("v3" c(260) sc(120) g(oldsovua)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(23) cw(0) cp(25) t(all_nz) c1(t-64bv) n(1) n1(tankman:3)) }
+ ;Трофейный Т-62М
+ {"t62m_ukr_trophy" {fore 1} ("v3" c(240) sc(100) g(oldsovua) b(vsu_ua_hqcar) brig(vsu_ua) s(ukr) i(24) cw(0) cp(25) t(all_nz) c1(t62m) n(1) n1(tankman:4)) }
 
 
 ;=========================================НГУ «Азов»=============================
@@ -221,7 +221,34 @@
  {"bmp1u" {fore 0} ("v" c(300) sc(80) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80344) cw(10) cp(10) t(all_nz) n(3) n1(tankman:3)) }
 
 
-;=========================================ССО (ДШВ, спецназ)=============================
+;=========================================ССО (ДШВ, спецназ, морская пехота)=============================
+
+ ;Пешее отделение ДШВ
+ ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(ukr_dshv) c(170) g(ukr_dshv)
+  c1(dshv_rpg:2) c2(dshv_smg:2) c3(dshv_mg:1) c4(dshv_miner:1) c5(dshv_marksman:1)
+  b(sso_ua_hqcar) brig(sso_ua) t(all_nz) cost(65) f(1.0) info(ukr_dshv) )
+
+ ;Отделение морской пехоты (7 бойцов)
+ ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(ukr_marines) c(170) g(ukr_marines)
+  c1(marine_com:1) c2(marine_smg:3) c3(marine_mg:1) c4(marine_rpg:1) c5(marine_marksman:1)
+  b(sso_ua_hqcar) brig(sso_ua) t(all_nz) cost(70) f(1.0) info(ukr_marines) )
+
+ ;Противотанковая группа морской пехоты
+ ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(ukr_marines_at) c(170) g(ukr_marines_at)
+  c1(marine_rpg:2) c2(marine_smg:1) c3(marine_mg:1)
+  b(sso_ua_hqcar) brig(sso_ua) t(all_nz) cost(55) f(1.0) info(ukr_marines_at) )
+
+ ;БТР-4Е морской пехоты, только экипаж
+ {"btr4e_ukr_mor" {fore 0.5} ("v3" c(220) sc(100) g(ukr_mor_armor) b(sso_ua_hqcar) brig(sso_ua) s(ukr) i(3010) cw(10) cp(15) t(all_nz) c1(btr4e1_ptur) n(1) n1(tankman:3)) }
+
+ ;БТР-4Е с отделением морской пехоты
+ {"btr4e_ukr_mor_inf" {fore 0.5} ("v3" c(300) sc(170) g(ukr_mor_mech) b(sso_ua_hqcar) brig(sso_ua) s(ukr) i(3011) cw(10) cp(15) t(all_nz) c1(btr4e1_ptur) n(1) n1(tankman:3) n2(marine_com:1) n3(marine_smg:3) n4(marine_mg:1) n5(marine_rpg:1) n6(marine_marksman:1)) }
+
+ ;БМП-2 морской пехоты, только экипаж
+ {"bmp2_ukr_mor" {fore 1} ("v3" c(200) sc(45) g(ukr_mor_armor) b(sso_ua_hqcar) brig(sso_ua) s(ukr) i(3012) cw(10) cp(10) t(all_nz) c1(bmp2_ukr_mor) n(1) n1(tankman:3)) }
+
+ ;БМП-2 с отделением морской пехоты
+ {"bmp2_ukr_mor_inf" {fore 1} ("v3" c(300) sc(115) g(ukr_mor_mech) b(sso_ua_hqcar) brig(sso_ua) s(ukr) i(3013) cw(10) cp(10) t(all_nz) c1(bmp2_ukr_mor) n(1) n1(tankman:3) n2(marine_com:1) n3(marine_smg:3) n4(marine_mg:1) n5(marine_rpg:1) n6(marine_marksman:1)) }
 
  ;Fennek
  {"fennek_ua" {fore 1} ("v3" c(240) sc(30) g(fennek)  b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(14) cw(10) cp(10) t(all_nz) c1(fennek) n(1) n1(tankman:3)) }
@@ -240,6 +267,9 @@
 
  ;UH-60 с ДШВ
  {"uh60_ukr" {fore 1} ("v3" c(600) sc(180) g(uh60_ua88) b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) }
+
+ ;Challenger 2
+ {"challenger_2_ukr" {fore -1.0} ("v3" c(250) sc(120) g(newua) b(sso_ua_hqcar) brig(sso_ua) s(ukr) i(21010) cw(0) cp(60) t(all_nz) c1(challenger_2) n(1) n1(tankman:4)) }
 
 
 ;=========================================Штурмовая бригада===========================================
@@ -262,6 +292,9 @@
  ;Штурм-С
  {"shturm-s_ukr" {fore 0} ("v3" c(120) sc(80) g(shturm-s)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(7) cw(10) cp(10) t(all_nz) c1(9p149_shturm-s) n(2) n1(tankman:2)) }
 
+ ;Т-64БВ
+ {"t-64bv_ukr" {fore 0.5} ("v3" c(260) sc(120) g(oldsovua) b(brt_ua_hqcar) brig(brt_ua) s(ukr) i(23) cw(0) cp(25) t(all_nz) c1(t-64bv) n(1) n1(tankman:3)) }
+
  ;Т-64БМ
  {"t-64bm1_ukr" {fore 0.5} ("v3" c(260) sc(160) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(23543) cw(0) cp(25) t(all_nz) c1(t-64bm1) n(1) n1(tankman:3)) }
 
@@ -282,9 +315,6 @@
 
  ;Ту-141
  {"tu141_base"	("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot tu141) s(ukr) n(0) g(extra01)  sc(20) b(extra) i(1083) cw(0) cp(2))  {fore -90.0}}
-
- ;Challenger 2
- {"challenger_2_ukr" {fore -1.0} ("v3" c(250) sc(120) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(21010) cw(0) cp(60) t(all_nz) c1(challenger_2) n(1) n1(tankman:4)) }
 
  ;БМ «Оплот»
  {"bm_oplot_ukr" {fore -1.0} ("v3" c(250) sc(130) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(25433) cw(0) cp(10) t(all_nz) c1(bm_oplot) n(1) n1(tankman:3)) }

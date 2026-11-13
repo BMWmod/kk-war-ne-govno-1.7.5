@@ -1,4 +1,9 @@
-﻿;Создано maaa - DTTGOC
+﻿{"bmp2_ukr_mor_inf" "<c(FFFFFF)e(shadow)>БМП-2 морской пехоты (экраны)</c>"}
+;Техника ТРО и морской пехоты ВСУ
+{"t62m_ukr_trophy" "<c(FFFFFF)e(shadow)>Т-62М (трофейный)</c>"}
+{"btr4e_ukr_mor" "<c(FFFFFF)e(shadow)>БТР-4Е морской пехоты</c>"}
+{"bmp2_ukr_mor" "<c(FFFFFF)e(shadow)>БМП-2 морской пехоты (экраны)</c>"}
+;Создано maaa - DTTGOC
 ;LocalGen2
 ;Проверено Bizon и zkv2000
 ;Перепроверено и переделано за Bizon и zkv2000
