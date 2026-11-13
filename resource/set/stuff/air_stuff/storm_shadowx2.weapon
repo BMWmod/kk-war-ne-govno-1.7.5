@@ -8,8 +8,8 @@
 	{recoveryTime 1}
 	{rechargeTime 220}
 	{inventory {noView}}
-	{maxRange 640}
-	{aimRange 640}
+	{maxRange 500}
+	{aimRange 500}
 	{cursor "cannon_on_fg_9"}
 	{cursorReloading "cannon_reload_fg"}
 }
