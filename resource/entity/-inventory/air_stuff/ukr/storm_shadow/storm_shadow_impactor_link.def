@@ -3,7 +3,7 @@
 	{Extension "storm_shadow.mdl"}
 	{props "projectile_impactor"}
 	{extender "stuff"
-		{item "taurus_impactor"}
+		{item "storm_shadow_impactor"}
 	}
 	;following record interrupts detonation, it must not be in _impactor, only in _impactor_link
 	("targetable_impactor")
