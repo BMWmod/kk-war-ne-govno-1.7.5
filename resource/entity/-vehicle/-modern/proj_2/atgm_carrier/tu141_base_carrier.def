@@ -1,0 +1,23 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "tandem"}
+	("missile_placer" missile("tu141_base_impactor_link") country(rus) type(other) calibre(600)
+	speed(slow) guidance(prop))
+	("maneuvrability_SAMs_short_cwps3" deg_per_s(60))
+;	("allow_manual_control")
+	("targetable_missile")
+	{targetClass 	"medium_UAV"}
+	{Volume "missile1"
+		{Cylinder (* 0.01 76) 80}
+		{Bone "missile_point"}
+		{Matrix34
+			0	0	-1
+			0	1	0
+			1	0	0
+			24.5	0	0
+		}
+	}
+	{Volume "missile1" {able clear {contact 1}}}
+
+}

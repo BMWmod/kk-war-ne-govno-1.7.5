@@ -58,6 +58,6 @@
 		{item "6b23-1_6sh92"}
 		{item "rpg26 weapon" 2 filling "rpg26 ammo" 1}
 		{item "rpg22 weapon" filling "rpg22 ammo" 1}
-		{in_hands 4}
+		{in_hands 5}
 	}
 }

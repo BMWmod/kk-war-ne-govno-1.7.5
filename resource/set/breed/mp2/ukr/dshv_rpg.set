@@ -53,6 +53,6 @@
 		{item "smaw cm ammo" 4}
 		{item "smaw fg ammo" 1}
 		{item "556nato ammo" 90}
-		{in_hands 4}
+		{in_hands 3}
 	}
 }	

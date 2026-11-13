@@ -56,6 +56,6 @@
 		{item "mosin_s" filling "svd_ammo ammo" 5}
 		{item "svd_ammo ammo" 125}
 		{item "6b23-1_smersh"}
-		{in_hands 3}
+		{in_hands 4}
 	}
 }

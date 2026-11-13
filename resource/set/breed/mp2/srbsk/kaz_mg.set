@@ -58,6 +58,6 @@
 		{item "bandage" 10}
 		{item "sandbag_kit"}
 		{item "pkm" filling "pkm_ammo ammo" 100}
-		{in_hands 3}
+		{in_hands 5}
 	}
 }

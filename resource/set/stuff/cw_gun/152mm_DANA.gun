@@ -11,10 +11,10 @@
 	{gravity 2.4}
 	("speed_artillery") 
 	("100-128caliber")
-	{ZeroingAccuracy 0.75 0.5}
+	{ZeroingAccuracy 0.6 0.4}
 	{calibre 5}
 	;("CW_acc_artillery" mils(2.75))	;it is 2A64
-	("CW_acc_artillery" mils(5.5))
+	("CW_acc_artillery" mils(3.5))	;was 5.5
 	{cursor "cannon_on_fg_5"}
 	{cursorReloading "cannon_reload_fg"}
 	;("relaxationtime" rt(3))
@@ -36,6 +36,7 @@
 	}                   
 	{parameters "bullet152_RUS_a"       ;ΞΤ-25  17.4κμ - 255 θμ.
 		{range 275 275}
+		("CW_acc_artillery" mils(3.5))
 		{cursor "cannon_on_fg_5"}
 		;{cursor "cannon_on_fg_4"}
 		{cursorReloading "cannon_reload_fg"}

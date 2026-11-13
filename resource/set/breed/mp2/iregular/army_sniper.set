@@ -51,6 +51,6 @@
 		{item "svd_ammo ammo" 100}
 		{item "svd"}
 		{item "f1 grenade" 3}
-		{in_hands 5}
+		{in_hands 4}
 	}
 }

@@ -151,6 +151,14 @@
 {"su24_x31"
 ("air_multibarrel_launcher" weapon(ptur4) shooter(Shooter_r31_) missile(x31p) flashbarrel(Shooter_r31_))			
 }	
+{"su24m_storm_ukr"
+("air_multibarrel_launcher" weapon(ptur4) shooter(Shooter_r31_) missile(storm_shadow) flashbarrel(Shooter_r31_))
+	{on spawn
+		{delay 0.2
+			{tex_mod "ukr_pix"}
+		}
+	}
+}
 {"su24_x25"
 ("air_multibarrel_launcher" weapon(ptur) shooter(shooter_) missile(x_25ml_su25_ammo) flashbarrel(shooter_))				
 }

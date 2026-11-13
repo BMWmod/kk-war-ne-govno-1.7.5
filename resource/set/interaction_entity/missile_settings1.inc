@@ -173,6 +173,7 @@
 	("spawn_proj_7" country(rus) type(laser) weapon_tag(ag300m_ammo_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
 	else stuff "shahed136_base_ammo ammo"				
 	("spawn_proj_5" country(rus) type(other) weapon_tag(shahed136_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
+	else stuff "tu141_base_ammo ammo"	("spawn_proj_5" country(rus) type(other) weapon_tag(tu141_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
 
 ;air-to-ground
 	else stuff "x_25ml_su25_ammo ammo"	
@@ -187,6 +188,7 @@
 	("spawn_proj_15" country(usa) type(active) weapon_tag(sdb_target) decoytype(chaff) decoyprob(0.15) min_alt(-100))
 	else stuff "taurus ammo"			
 	("spawn_proj_15" country(usa) type(other) weapon_tag(taurus_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
+	else stuff "storm_shadow ammo"	("spawn_proj_15" country(usa) type(other) weapon_tag(storm_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
 ;	else stuff "agm-154 ammo"		
 ;	("spawn_proj_15" country(usa) type(other) weapon_tag(agm-154_target) decoytype(chaff) decoyprob(0.01) min_alt(-100))
 	else stuff "3m14 ammo"		

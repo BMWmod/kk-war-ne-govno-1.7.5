@@ -57,6 +57,6 @@
 		{item "ak74" filling "545 ammo" 30}
 		{item "knife_japan"}
 		{item "rkg3 grenade" 2}
-		{in_hands 3}
+		{in_hands 4}
 	}
 }

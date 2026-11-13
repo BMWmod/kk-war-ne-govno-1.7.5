@@ -67,6 +67,6 @@
 		{item "fpv_drone" 3}
 		{item "g36e" filling "556natomb ammo" 30}
 		{item "556nato ammo" 100}
-		{in_hands 5}
+		{in_hands 4}
 	}
 }

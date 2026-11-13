@@ -56,6 +56,6 @@
 		{item "knife_union"}
 		{item "smoke grenade"}
 		{item "sandbag_kit"}
-		{in_hands 6}
+		{in_hands 5}
 	}
 }

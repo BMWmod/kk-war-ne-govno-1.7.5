@@ -52,6 +52,6 @@
 		{item "pg-29v rpg29 ammo" 3}
 		{item "akm" filling "762 ammo" 30}
 		{item "762 ammo" 100}
-		{in_hands 4}
+		{in_hands 3}
 	}
 }

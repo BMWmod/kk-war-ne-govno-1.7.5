@@ -36,6 +36,18 @@
 			{"vehicle_supporter(iregular)" 						"<c(FFFFFF)e(shadow)>Операторы воор./техн.</c>"}
 			{"pilot(iregular)" 						"<c(FFFFFF)e(shadow)>Пилот</c>"}	
 ;________________________________________________________________________________________________________
+;Украина
+			{"ukr_tro(ukr)"							"<c(FFFFFF)e(shadow)>Территориальная оборона</c>"}
+			{"pzrk_ua(ukr)"							"<c(FFFFFF)e(shadow)>Расчет ПЗРК</c>"}
+			{"tankman(ukr)"							"<c(FFFFFF)e(shadow)>Танкисты</c>"}
+			{"vehicle_supporter(ukr)"				"<c(FFFFFF)e(shadow)>Операторы воор./техн.</c>"}
+			{"operator_bpla(ukr)"					"<c(FFFFFF)e(shadow)>Оператор БПЛА</c>"}
+			{"azov_at(ukr)"							"<c(FFFFFF)e(shadow)>Противотанковое отделение</c>"}
+			{"azov_zzzzzz(ukr)"						"<c(FFFFFF)e(shadow)>Бригада Азов</c>"}
+			{"azov_zsniper(ukr)"					"<c(FFFFFF)e(shadow)>Снайперы Азова</c>"}
+			{"terminator(ukr)"						"<c(FFFFFF)e(shadow)>Терминатор</c>"}
+			{"hacipuri(ukr)"						"<c(FFFFFF)e(shadow)>Грузинский легион</c>"}
+;________________________________________________________________________________________________________
 ;Китай
 	;общие войска
 			{"bazookers2(cn)" 						"<c(FFFFFF)e(shadow)>Расчет РПГ</c>"}

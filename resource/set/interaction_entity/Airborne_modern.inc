@@ -6369,17 +6369,76 @@
 	{
 		on "add_movement_sound" overload
 		{
-			link_sound "engine_start"		"vehicle/airborne/small_uav/small_uav_start"
+			link_sound "engine_start"		"vehicle/airborne/jet_engine_start"
 		}
 		{
-			link_sound "engine_work"		"vehicle/airborne/small_uav/small_uav_work"
+			link_sound "engine_work"		"vehicle/airborne/jet_engine_work"
 		}
 		{
-			link_sound "engine_stop"		"vehicle/airborne/small_uav/small_uav_stop"
+			link_sound "engine_stop"		"vehicle/airborne/jet_engine_stop"
 		}
 	}
 	{
 		on "link_flare_fx" overload
+	}
+	;damage model: replaces the one-hit detonate/fall of small_UAV and loitering_uav,
+	;Tu-141 falls only when engine, wings, tail or a fuel tank is knocked out
+	{
+		on blast_hit overload
+		{
+			delay 0.1
+			{
+				call "tu141_check_modules"
+			}
+		}
+	}
+	{
+		on pierce overload
+		{
+			delay 0.1
+			{
+				call "tu141_check_modules"
+			}
+		}
+	}
+	{
+		on "tu141_check_modules"
+		{
+			if not work "engine"
+			{
+				call "fall"
+			}
+		}
+		{
+			if not work "wingl1"
+			{
+				call "fall"
+			}
+		}
+		{
+			if not work "wingr1"
+			{
+				call "fall"
+			}
+		}
+		{
+			if not work "tail"
+			{
+				call "fall"
+			}
+		}
+		{
+			if not work "fuel_tank_internal_a"
+			{
+				call "fall"
+			}
+		}
+		{
+			if not work "fuel_tank_internal_b"
+			{
+				call "fall"
+			}
+		}
 	}
 	{
 		on "engine_on"
@@ -6393,6 +6452,36 @@
 			}
 			{
 				ani_play "engine_start" callback
+			}
+		}
+		{
+			if not "booster_used"
+			{
+				set "booster_used" 1
+			}
+			{
+				link_sound "rocket"		"vehicle/airborne/small_uav/shahed136_rocket"
+			}
+			{
+				play_sound "rocket"
+			}
+			{
+				add_view	"proj_jet_atgm"			"proj_jet"			"fx_starter"
+			}
+			{
+				view start "proj_jet"
+			}
+			{
+				view show "proj_jet"
+			}
+			{
+				delay 2
+				{
+					view stop "proj_jet"
+				}
+				{
+					view hide "proj_jet"
+				}
 			}
 		}
 	}

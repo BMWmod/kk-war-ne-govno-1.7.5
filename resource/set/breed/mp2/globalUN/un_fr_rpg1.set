@@ -67,6 +67,6 @@
 		{item "pg-7vl rpg7 ammo"}
 		{item "rpg7_og-7v rpg7 ammo"}
 		{item "vest_razgruz"}
-		{in_hands 2}
+		{in_hands 1}
 	}
 }

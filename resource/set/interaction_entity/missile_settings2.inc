@@ -700,6 +700,20 @@
 		}
 	}
 };ручное управление, нет запаса топлива на маневр во избежание фаршотов
+{("CWPS_proj" missilename(tu141_base) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(35) tail(none) eng_time(1))
+}
+{"tu141_base_impactor"
+	{on "detonate" overload
+	    {if altitude 0
+		 {spawn "proj_restrictor" "root" x}
+		 {delay 0.05 {stuff_detonate}}
+		  else
+			{gravity 0}
+			{impulse up 2.0}
+			{call "underground_detonate"}
+		}
+	}
+}
 {("CWPS_proj" missilename(lancet3m_fg) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(21) tail(none) eng_time(1))("speed_slow" coeff(0.8))
 	{on "link_effects" overload
 		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
@@ -800,6 +814,16 @@
 			{tear "piece_small_steel" bone "part1" {impulse forward 25}}
 			{tear "piece_small_steel" bone "part2" {impulse forward 25}}
 		}
+	}
+	{on "top_attack"	
+		{delay 0.9 {call "detonate"}}
+	}
+	{on "destroyed_by_kaz" overload}
+}
+;Storm Shadow (UA F-16): wings always deploy right after launch
+{("CWPS_proj_2stage" missilename(storm_shadow) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range40plus(40) tail(proj_jet_main) eng_time(3))
+	{on "launch_procedures"
+		{delay 0.1 {with_linked_entity "missile" {ani_play "on_start"}}}
 	}
 	{on "top_attack"	
 		{delay 0.9 {call "detonate"}}

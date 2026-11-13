@@ -54,7 +54,7 @@
 		{item "m61 grenade" 1}
 		{item "M240" filling "ammo 762Nato" 100}
 		{item "ammo 762Nato" 400}
-		{in_hands 4}
+		{in_hands 5}
 
 
 	}

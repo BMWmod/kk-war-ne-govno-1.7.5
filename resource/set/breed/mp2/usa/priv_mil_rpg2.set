@@ -67,6 +67,6 @@
 		{item "panzerfaust3 weapon" filling "pzf3 dm12a1 ammo" 1}
 		{item "pzf3 dm12a1 ammo" 2}
 		{item "sandbag_kit"}
-		{in_hands 4}
+		{in_hands 3}
 	}
 }

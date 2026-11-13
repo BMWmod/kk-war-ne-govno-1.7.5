@@ -1,5 +1,5 @@
 (define "unit_limits"
-{unitLimits "tankman=6;strike=1;vs=4;p=2;t14=2;max5=5;shahed136=20;max6=6;precision_munition=5"}
+{unitLimits "tankman=6;strike=1;vs=4;p=2;t14=2;max5=5;shahed136=20;tu141=20;max6=6;precision_munition=5"}
 )
 (define "buttons"
 {buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar"}

@@ -67,6 +67,6 @@
 		{item "m61 grenade" 2}
 		{item "m136 weapon" 1 filling "m136 ammo" 1}
 		{item "sandbag_kit"}
-		{in_hands 5}
+		{in_hands 3}
 	}
 }

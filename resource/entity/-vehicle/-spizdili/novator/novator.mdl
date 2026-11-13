@@ -45,8 +45,8 @@
                 {Parameters "ID=wheelleft2;"}
                 {Matrix34
                     1	0	0
-                    0	0	1
-                    0	-1	0
+                    0	0	-1
+                    0	1	0
                     -0.184271	20.1612	-4.22222
                 }
                 {VolumeView "wheell2.ply"}
@@ -113,8 +113,8 @@
                     {Parameters "ID=wheelleft1;"}
                     {Matrix34
                         1	0	0
-                        0	0	-1
-                        0	1	0
+                        0	0	1
+                        0	-1	0
                         -0.285351	-3.23412	-0.312848
                     }
                     {VolumeView "wheell1.ply"}

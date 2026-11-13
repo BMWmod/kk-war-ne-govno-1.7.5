@@ -20,6 +20,6 @@
 		{item "rgo grenade" 2}
 		{item "ak74m_1p78" filling "545 ammo" 30}
 		{item "sandbag_kit"}
-		{in_hands 7}
+		{in_hands 6}
 	}
 }

@@ -4,16 +4,62 @@
 	(include "/properties/shadow/airborn.inc" scale(1.1))
 	(include "/properties/selection/airborne.inc" scale(3.0))
 	(include "/properties/car_crew.ext")
-	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "tu141" "smalluav_irn" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}	
+	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "tu141" "-smalluav_irn" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}	
 	;controller prop - "smalluav_irn_control"
 	{Extension "tu141_base.mdl"}
 		("missile_aimpoint_custom" height(0) front(0) side(0))
 	{collider "particle.big"}
-	{targetClass 	"medium_UAV"}
+	{targetClass 	"tu141_uav"}
 	{targetSelector "cannon_bullet"}
 	{mass 200}
+	{Volume "armor1"}
+	;own damage model instead of "air_armor": module durability is ~1/3 of the standard airborne values
 	{armor
-		("air_armor" body(1) wing(1) avionics(1) engine(3) hydrosystem(3) electronics(1) fuel(2))
+		{setting "body" {thickness 3}
+			{durability {blast {value 20}} {pierce {value 33}}}
+			{threshold {blast {value 3}} {pierce {value 3}}}
+			{volumes "body*"}
+		}
+		{setting "wing" {thickness 3}
+			{durability {blast {value 5}} {pierce {value 27}}}
+			{threshold {blast {value 3}} {pierce {value 3}}}
+			{volumes "wing*"}
+		}
+		{setting "tail" {thickness 3}
+			{durability {blast {value 3}} {pierce {value 27}}}
+			{threshold {blast {value 3}} {pierce {value 3}}}
+			{volumes "tail*"}
+		}
+		{setting "engine" {thickness 3}
+			{durability {blast {value 2}} {pierce {value 10}}}
+			{threshold {blast {value 1.5}} {pierce {value 3}}}
+			{volumes "engine*"}
+		}
+		{setting "hydrosystem" {thickness 3}
+			{durability {blast {value 2}} {pierce {value 5}}}
+			{threshold {blast {value 3}} {pierce {value 3}}}
+			{volumes "hydrosystem*"}
+		}
+		{setting "electronics" {thickness 3}
+			{durability {blast {value 2}} {pierce {value 5}}}
+			{threshold {blast {value 3}} {pierce {value 3}}}
+			{volumes "electronics*"}
+		}
+		{setting "fuel_tank_internal_a" {thickness 3}
+			{durability {blast {value 3}} {pierce {value 12}}}
+			{threshold {blast {value 3}} {pierce {value 3}}}
+			{volumes "fuel_tank_internal_a*"}
+		}
+		{setting "fuel_tank_internal_b" {thickness 3}
+			{durability {blast {value 3}} {pierce {value 12}}}
+			{threshold {blast {value 3}} {pierce {value 3}}}
+			{volumes "fuel_tank_internal_b*"}
+		}
+		("armor_panel" name(armor) thickness(2.5))
+		{setting "armor"
+			{thickness 2.5}
+			{volumes "armor*"}
+		}
 	}
 	{extender "inventory"
 		{box
@@ -62,7 +108,7 @@
 	}
 }
 ("Chassis_parameters" 
-	Speed(70) TurnRadius(25) 
+	Speed(77) TurnRadius(25) 
 	Fuel(60) Fuel_remain(59) Fuel_rate(0.05) 
 ;	Acc_hor(4.31) Maneuvrability_hor(8.97)
 ;	Acc_ver(1.46) Maneuvrability_ver(0.46)

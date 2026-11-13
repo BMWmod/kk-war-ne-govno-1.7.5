@@ -1,0 +1,74 @@
+{Skeleton
+	{animation
+		{sequence "on_start"}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-50.5	0	0
+			}
+		}
+		{bone "wingl1"
+			{Matrix34
+				0.5060338	0	0.8625137
+				0	1	0
+				-0.8625137	0	0.5060338
+				-1.08	-4.7	0
+			}
+			{VolumeView "wingl1.ply"}
+		}
+		{bone "wingr1"
+			{Matrix34
+				0.5060338	0	-0.8625137
+				0	1	0
+				0.8625137	0	0.5060338
+				-1.08	-5.14	0
+			}
+			{VolumeView "wingr1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 100 13 10}
+	{Bone "body"}
+	{Position 0 0.6 0}
+}
+{Volume "select"
+	{Box 100 13 10}
+	{Bone "body"}
+	{Position 0 0.6 0}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 35.6963	-5.95053	-189.619}
+			{lookat 4.616	8.23726	-27.6177}
+			{fov 31.7555}
+			{horizon -114.242}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -14.1681	15.3364	-36.4551}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0663742	-0.3194	0.378917}
+			}
+			{"2"
+				{type point}
+				{position -4.17519	11.9135	-35.3548}
+			}
+		}
+	}
+}

@@ -57,6 +57,6 @@
 		{item "f1 grenade" 2}
 		{item "smoke grenade"}
 		{item "sandbag_kit"}
-		{in_hands 6}
+		{in_hands 5}
 	}
 }

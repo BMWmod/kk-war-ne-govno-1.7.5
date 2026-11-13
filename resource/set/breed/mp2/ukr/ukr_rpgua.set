@@ -56,6 +56,6 @@
 		{item "sandbag_kit"}
 		{item "bandage" 10}
 		{item "smoke grenade"}
-		{in_hands 1}
+		{in_hands 0}
 	}
 }

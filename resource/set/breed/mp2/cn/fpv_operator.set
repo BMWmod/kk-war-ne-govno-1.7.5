@@ -17,6 +17,6 @@
 		{item "58ammo 58ammo_sn ammo" 70}
 		{item "rq11_control"}
 		{item "fpv_drone" 6}
-		{in_hands 2}
+		{in_hands 1}
 	}
 }

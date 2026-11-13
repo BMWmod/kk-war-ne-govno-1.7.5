@@ -58,6 +58,6 @@
 		{item "rpg7 weapon" filling "pg-7v rpg7 ammo" 1}
 		{item "pg-7vs rpg7 ammo" 4}
 		{item "molotov_coctail grenade"}
-		{in_hands 4}
+		{in_hands 5}
 	}
 }

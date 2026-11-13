@@ -60,6 +60,6 @@
 		{item "ak74m_1p78" filling "545 ammo" 30}
 		{item "smoke grenade" 2}
 		{item "sandbag_kit"}
-		{in_hands 9} 
+		{in_hands 8} 
 	}
 }

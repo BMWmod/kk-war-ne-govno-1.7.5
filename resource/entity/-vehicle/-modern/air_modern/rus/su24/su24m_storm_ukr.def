@@ -1,0 +1,92 @@
+{game_entity
+	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.1))
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+	{props "airborne_M" "assault" "vision_lev_plane" "su-25sm"}	
+	{Extension "su24m_storm_ukr.mdl"}
+	("missile_aimpoint_air")
+	{mass 22300}
+
+	{armor
+	("air_armor" body(3) wing(3) avionics(3) engine(3) hydrosystem(3) electronics(3) fuel(3))
+	}
+
+	{extender "inventory"
+		{box
+			{size 6 10}
+			{item "GSH-30_ammo ap ammo" 50}
+			{item "GSH-30_ammo fg ammo" 100}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "GSH-30-2" filling "GSH-30_ammo ap ammo" 100}	;встроенная пушка
+			{foresight "foresight1"}
+			{shooter "foresight1"}
+			{charger "driver"}
+			{gunner "driver"}
+		}
+		{place "ptur4"
+			{weapon "storm_shadowx2" filled}
+			{foresight "foresight_11"}
+			{charger "commander"}
+			{gunner "commander"}
+			{barrels 2}
+			{basic}
+		}
+		{place "flare_dropper"
+			{weapon "flare_dropper_128" filled}
+			{foresight "foresight_ltc"}
+			{charger "commander"}
+			{gunner "commander"}
+		}
+	}	
+
+("Chassis_parameters" 
+	Speed(83) TurnRadius(36) 
+	Fuel(3100) Fuel_remain(2468) Fuel_rate(3.65) 
+	Acc_hor(6.66) Maneuvrability_hor(6.17)
+	Acc_ver(6.25) Maneuvrability_ver(4.77)
+)
+	{props "cwfs_fuel_3000"}
+
+;Maneuvrability - маневренность по десятибалльной шкале. 10 - истребитель с УВТ, 1 - стратегический бомбардировщик.
+;==========================
+(mod "mp"
+	{Chassis "airborne"
+			{Altitude 25}
+		}
+	{ChassisManager
+			{Current "airborne"}
+	}
+)
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_big-midcar_driver"} {end "seat_driver_car"} {base "open1"}}
+			{reverse 	{end	"board_big-midcar_driver" -1} {base "open1" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_big-midcar"} {end "seat_driver_car"} {base "open2"}}
+			{reverse 	{end	"board_big-midcar" -1} {base "open2" -1}}
+		}
+		{anm "passenger"
+			{forward	{end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver))
+	("crew_human" place(commander) bone(commander) door(emit2) animation(commander))
+
+;	{Placer
+;		{place "driver" {turnOff {targetable}}}
+;		{place "commander" {turnOff {targetable}}}
+;	}
+
+	{placer
+		{place "driver"		{group "crew"}}
+		{place "commander"	{group "crew"}}
+	}
+}

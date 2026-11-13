@@ -5,5 +5,5 @@
 	{extender "stuff"
 		{item "tu141 base ammo"}
 	}
-	{Extension "Tu_141_base.mdl"}
+	{Extension "tu141_ammo.mdl"}
 }

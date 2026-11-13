@@ -108,6 +108,13 @@
 					{"cnart" "Артбригада КНР"}
 					{"cnheavy" "Тяжелая бригада КНР"}
 					{"cnmed" "Средняя бригада КНР"}
+					{"avia_ua" "Воздушные силы ВСУ"}
+					{"ppo_ua" "ПВО ВСУ"}
+					{"art_ua" "Артиллерия ВСУ"}
+					{"vsu_ua" "ТРО"}
+					{"ngu_ua" "НГУ «Азов»"}
+					{"sso_ua" "ССО / ДШВ"}
+					{"brt_ua" "Штурмовая бригада ВСУ"}
 					
 					{"common" "Общие войска"}
 					{"supl" "Вспомогательные войска"}
@@ -914,6 +921,14 @@
 					{"hint_srbs_vdv_hqcar" "<c(FFFFFF)>Механизированая бригада"}
 					{"hint_srbs_art_hqcar" "<c(FFFFFF)>Бригада огневой поддержки"}
 					{"hint_srbs_pmc_hqcar" "<c(FFFFFF)>Бригада оперативной поддержки"}
+				;ukr
+					{"hint_avia_ua_hqcar" "<c(FFFFFF)>Воздушные силы ВСУ"}
+					{"hint_ppo_ua_hqcar" "<c(FFFFFF)>Зенитные ракетные войска (ПВО) ВСУ"}
+					{"hint_art_ua_hqcar" "<c(FFFFFF)>Ракетные войска и артиллерия ВСУ"}
+					{"hint_vsu_ua_hqcar" "<c(FFFFFF)>Силы территориальной обороны (ТРО)"}
+					{"hint_ngu_ua_hqcar" "<c(FFFFFF)>Национальная гвардия Украины — бригада «Азов»"}
+					{"hint_sso_ua_hqcar" "<c(FFFFFF)>Силы специальных операций и ДШВ"}
+					{"hint_brt_ua_hqcar" "<c(FFFFFF)>Отдельная штурмовая бригада"}
 			;unavailable brigades
 				;usa
 					{"hint_ngrd_hqcar" "<c(FFFFFF)>Национальная гвардия США"}

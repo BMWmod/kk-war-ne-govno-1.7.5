@@ -20,6 +20,6 @@
 		{item "switchblade300 ammo" 3}
 		{item "rq11_control"}
 		{item "binocular"}
-		{in_hands 5}
+		{in_hands 4}
 	}
 }

@@ -50,6 +50,6 @@
 	    {item "m4" filling "556nato ammo" 30}
 		{item "556nato ammo" 120}
 		{item "antitank_tm62m" 7}
-		{in_hands 2}
+		{in_hands 1}
 	}
 }	

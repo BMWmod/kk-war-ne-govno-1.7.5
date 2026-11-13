@@ -63,6 +63,6 @@
 		{item "stinger weapon" filling "fim-92a_ammo ammo" 1}
 		{item "fim-92a_ammo ammo" 3}
 		{item "vest_razgruz"}
-		{in_hands 2}
+		{in_hands 1}
 	}
 }

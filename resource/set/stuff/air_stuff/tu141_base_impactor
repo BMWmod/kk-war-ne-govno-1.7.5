@@ -1,22 +1,19 @@
 {from "pattern proj_impactor"
 	{entity "tu141_base_impactor"}
-              {inventory
+	{inventory
 		{weight 100}
 		{size 5 1}
 	}
-	{tag "no_ricochet" "big" "size4" "88to105" "pierce" "ptrk" "fx_upto50kg"} 
-	;БЧ около 40 кг (оск-фуг), вес ВВ можно оценить в 20кг (достаточно произвольно, но с учетом выбранного шаблона)
-	;Тип БЧ смешанный: рубашка из ГПЭ плюс кумулятивы по радиусам.
-	;волны 2,5-25 берем от ОФ шаблона (т. е. как сейчас), волны 0,7-1,2 из шаблона ГПЭ
-	{damage blastwave {energy 0.7} {area 17.7 20.3}}
-	{damage add blastwave {energy 1.2} {area 15 17.3}}
-	{damage add blastwave {energy 2.5} {area 8.8 10.1}}
-    {damage add blastwave {energy 6.5} {area 6.8 7.8}}
-    {damage add blastwave {energy 11} {area 3.5 4}}
-	{damage add blastwave	 ; HE, kinetic, direct hit
-		{energy 25}
-		{area 0.2 0.4}
-	}
+	{tag "no_ricochet" "fg" "fragmentary" "big" "size5" "fx_upto250kg" "he_over30"}
+	;warhead: FAB-500 equivalent (values from fab_500.ammo)
+	{damage blastwave {energy 0.7} {area 28.6 32.9}}
+	{damage add blastwave {energy 1.2} {area 23.8 27.4}}
+	{damage add blastwave {energy 2.5} {area 18.1 20.9}}
+	{damage add blastwave {energy 6.5} {area 13.7 15.8}}
+	{damage add blastwave {energy 11} {area 6.6 7.6}}
+	{damage add blastwave {energy 22} {area 3 4}}
+	{damage add blastwave {energy 40} {area 0.5 1}}
+	;remaining fuel
 	{damage add fire
 		{radius 7}
 		{heating 15}
@@ -27,5 +24,4 @@
 		{heating 50}
 		{time 1}
 	}
- 
 }

@@ -65,6 +65,6 @@
 		{item "rpg29 weapon" filling "pg-29v rpg29 ammo" 1}
 		{item "pg-29v rpg29 ammo" 2}
 		{item "vest_razgruz"}
-		{in_hands 2}
+		{in_hands 1}
 	}
 }

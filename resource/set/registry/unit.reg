@@ -249,6 +249,7 @@
 	{"f-16c_support_pol"	{structure "cwds_plane_attack"}}
 	{"f-16c_antirad_2"	{structure "cwds_plane_attack"}}
 	{"f-16c_strike"		{structure "cwds_plane_attack"}}
+	{"su24m_storm_ukr"	{structure "cwds_plane_attack"}}
 	{"f-16c_antiship"	{structure "cwds_plane_attack"}}
 	{"f-16c_support"	{structure "cwds_plane_attack"}}
 	{"rq11raven"		{structure "cwds_plane_attack"}}
@@ -293,6 +294,7 @@
 	{"jh-7a_kab"		    {structure "cwds_plane_attack"}}
 	{"jh-7a_strike"		    {structure "cwds_plane_attack"}}
 	{"shahed136_base"		{structure "cwds_plane_attack"}}
+	{"tu141_base"		{structure "cwds_plane_attack"}}
 	{"sikorsky s-70c2"		{structure "cwds_heli_common"}}
 	{"ch802"		        {structure "cwds_plane_attack"}}
 	{"z-10_support"		    {structure "cwds_heli_common"}}
@@ -883,6 +885,7 @@
 	{"lancet3m_fg_carrier"			{structure "cwds_missile"}}
 	{"switchblade300_carrier"			{structure "cwds_missile"}}
 	{"shahed136_base_carrier"			{structure "cwds_missile"}}
+	{"tu141_base_carrier"			{structure "cwds_missile"}}
 ;===================Other
 	{"cistern"}
 	{"crane_m"}

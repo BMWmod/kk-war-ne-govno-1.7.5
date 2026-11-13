@@ -41,6 +41,6 @@
 		
 		{item "f1 grenade" 2}
 		
-		{in_hands 4}
+		{in_hands 3}
 	}
 }

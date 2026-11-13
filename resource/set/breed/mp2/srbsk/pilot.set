@@ -49,6 +49,6 @@
 		{item "bandage" 15}
 		{item "tt" filling "standart ammo" 8}
 		{item "standart ammo" 30}
-		{in_hands 2}
+		{in_hands 1}
 	}
 }

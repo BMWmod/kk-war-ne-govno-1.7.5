@@ -202,6 +202,7 @@
    {"strela-10_ukr"								    "<c(FFFFFF)e(shadow)>Стрела-10</c>"}
    {"nasams_ukr"								    "<c(FFFFFF)e(shadow)>NASAMS</c>"}
    {"hawk_cwar_ukr"								    "<c(FFFFFF)e(shadow)>Радар HAWK CWAR</c>"}
+   {"kupol_ukr"								    "<c(FFFFFF)e(shadow)>9С18 Купол</c>"}
    
    ;Сапка
    {"mtlb_supl"								    "<c(FFFFFF)e(shadow)>МТ-ЛБ с универсальными боеприпасами</c>"}
@@ -216,6 +217,57 @@
    {"mi-24v_ukr"								    "<c(FFFFFF)e(shadow)>Ми-24В</c>"}
    {"bayraktar_tb2_maml_ukr"								    "<c(FFFFFF)e(shadow)>Байрактар))))</c>"}
    {"toyota_hilux_dshkm_ukr1"								    "<c(FFFFFF)e(shadow)>Мобильные ПЗРК</c>"}
+
+   ;Коммон
+   {"liaz_ukr_s"								    "<c(FFFFFF)e(shadow)>Срочники на ЛиАЗе</c>"}
+   {"btr70_ukr_if"								    "<c(FFFFFF)e(shadow)>БТР-70 с ПТ-десантом</c>"}
+   {"bmp2_new_ukr"								    "<c(FFFFFF)e(shadow)>БМП-2</c>"}
+   {"bmp2_new_ukr_INF"								    "<c(FFFFFF)e(shadow)>БМП-2 с десантом</c>"}
+   {"brdm2_ukr"								    "<c(FFFFFF)e(shadow)>БРДМ-2</c>"}
+
+   ;Сапка
+   {"toyota_hilux_ammo_ukr"								    "<c(FFFFFF)e(shadow)>Toyota Hilux с боеприпасами</c>"}
+   {"mtlb_supl_h8l8l"								    "<c(FFFFFF)e(shadow)>МТ-ЛБ с универсальными боеприпасами</c>"}
+   {"novator_ukr"								    "<c(FFFFFF)e(shadow)>Новатор с сапёрами</c>"}
+   {"vasilek_ukr"								    "<c(FFFFFF)e(shadow)>2Б9 Василёк</c>"}
+
+   ;НГУ
+   {"oshkosh_m-atv_ua_at"								    "<c(FFFFFF)e(shadow)>Oshkosh M-ATV с Mk 19 и ПТ-десантом</c>"}
+   {"bmp1u"								    "<c(FFFFFF)e(shadow)>БМП-1У Шквал</c>"}
+
+   ;Бронетанковые
+   {"t-64bm1_ukr"								    "<c(FFFFFF)e(shadow)>БМ Булат</c>"}
+
+   ;ЗСУ
+   {"bmd2_ukr_tro"								    "<c(FFFFFF)e(shadow)>БМД-2 с десантом</c>"}
+   {"bmp1_ukr_tro_at"								    "<c(FFFFFF)e(shadow)>БМП-1 с десантом и ПТ-стрелками</c>"}
+   {"marder_1a3_ukr"								    "<c(FFFFFF)e(shadow)>Marder 1A3</c>"}
+   {"marder_1a3_ukr_inf"								    "<c(FFFFFF)e(shadow)>Marder 1A3 с ДШВ</c>"}
+   {"m2a3_brat_ukr"								    "<c(FFFFFF)e(shadow)>M2 Bradley</c>"}
+   {"m2a3_brat_ukr_ifv"								    "<c(FFFFFF)e(shadow)>M2 Bradley с ДШВ</c>"}
+
+   ;Арта и ПВО
+   {"d30_ukr"								    "<c(FFFFFF)e(shadow)>Д-30</c>"}
+   {"caesar_ukr_ukr"								    "<c(FFFFFF)e(shadow)>CAESAR</c>"}
+   {"tochka_y_ukr"								    "<c(FFFFFF)e(shadow)>Точка-У</c>"}
+   {"buk_m1_ukr"								    "<c(FFFFFF)e(shadow)>Бук-М1</c>"}
+
+   ;Наёмники
+   {"ypr_765_inf"								    "<c(FFFFFF)e(shadow)>YPR-765 с Грузинским легионом</c>"}
+
+   ;Авиация
+   {"su-25sm_support_light_ukr"								    "<c(FFFFFF)e(shadow)>Су-25 поддержки лёгкий</c>"}
+   {"uh60_ukr"								    "<c(FFFFFF)e(shadow)>UH-60 Black Hawk с ДШВ</c>"}
+
+   ;Спец очки
+   {"f-16c_strike_ukr88"								    "<c(FFFFFF)e(shadow)>Су-24М со Storm Shadow</c>"}
+   {"challenger_2_ukr"								    "<c(FFFFFF)e(shadow)>Challenger 2</c>"}
+   {"warrior_wrap2_ukr_inf"								    "<c(FFFFFF)e(shadow)>Варриор с ДЗ и 3-й штурмовой</c>"}
+   {"bm_oplot_ukr"								    "<c(FFFFFF)e(shadow)>БМ Оплот</c>"}
+   {"uaz469_spg9_ukr"								    "<c(FFFFFF)e(shadow)>УАЗ-469 с СПГ-9</c>"}
+   {"pzh2000_ukr"								    "<c(FFFFFF)e(shadow)>PzH 2000</c>"}
+   {"m142_atacams_ukr"								    "<c(FFFFFF)e(shadow)>M142 HIMARS с ATACMS</c>"}
+   {"tu141_base"								    "<c(FFFFFF)e(shadow)>Ту-141 Стриж</c>"}
 
 
 
@@ -364,6 +416,7 @@
 					{"f-16c_antirad_2"					"<c(FFFFFF)e(shadow)><c(FFFFFF)e(shadow)>F-16C противорадиолокационный</c>"}
 					{"f-16c_antiship"					"<c(FFFFFF)e(shadow)>F-16C противокорабельный</c>"}
 					{"f-16c_strike"						"<c(FFFFFF)e(shadow)>F-16C ударный</c>"}
+					{"su24m_storm_ukr"						"<c(FFFFFF)e(shadow)>Су-24М (Storm Shadow)</c>"}
 					{"f-16c_support"					"<c(FFFFFF)e(shadow)>F-16C поддержки</c>"}
 					{"f-16c_support_pol"				"<c(FFFFFF)e(shadow)>F-16C поддержки</c>"}
 				;f-22

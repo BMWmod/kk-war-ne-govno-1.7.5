@@ -1,332 +1,306 @@
 
 
-;===============================Украина===========================================  
+;===============================Украина===========================================
+; Вкладки (как у РФ): common, supl, avia_ua (ВВС), ppo_ua (ПВО), art_ua (Арта),
+; vsu_ua (ТРО), ngu_ua (НГУ «Азов»), sso_ua (ССО), brt_ua (Штурмовая бригада), extra (спецочки)
 
-;================================Коммон============================================
+;================================Общее============================================
 
  ;Корд
- {"kord_stan_ukr" {fore 1} ("v3" c(120) sc(10) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3001) cw(1) cp(5) t(all_nz)  c1(kord_stan) n(2) n1(vehicle_supporter:2)   ) }  
+ {"kord_stan_ukr" {fore 1} ("v3" c(120) sc(10) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3001) cw(1) cp(5) t(all_nz)  c1(kord_stan) n(2) n1(vehicle_supporter:2)   ) }
  ;СПГ-9
- {"spg_9_ukr" {fore 1} ("v3" c(120) sc(35) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(spg_9) n(2) n1(vehicle_supporter:2)   ) } 
- 
-  ;ТРО
- ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(ukr_tro) c(170) g(ukr_tro) 
-  c1(ukr_comua:1) c2(ukr_mgunua:1) c3(ukr_mgunhelpua:1) c4(ukr_smgua:1) c5(ukr_smg2ua:1) c6(ukr_rpgua:1) c7(ukr_rpghelpua:1) c8(ukr_sniperua:1) 
-  b(common) brig(common) t(all_nz inf_irg) cost(50) f(1.0) )
-  
-  ;Срочники в Икарусе
-  {"liaz_ukr_s" {fore 1} ("v3" c(60) sc(60) g(ikarus)  b(common) brig(common) s(ukr)  i(845) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:14) n2(ukr_srochnik_at:4) )}
-  
-  ;МТ-ЛБ
-  {"mtlb_kord_ukr" {fore 0} ("v3" c(120) sc(25) g(kraz_ukr) b(supl) brig(common) s(ukr)  i(3090) cw(1) cp(5) t(all_nz) c1(mtlb_vmk) n(2) n1(vehicle_supporter:2) ) } 
+ {"spg_9_ukr" {fore 1} ("v3" c(120) sc(35) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(spg_9) n(2) n1(vehicle_supporter:2)   ) }
+ ;Конкурс
+ {"ptur_konkurs_ukr" {fore 1} ("v3" c(120) sc(40) g(spg_9_ukr) b(common) brig(common) s(ukr)  i(1) cw(1) cp(5) t(all_nz)  c1(ptur_konkurs) n(2) n1(vehicle_supporter:2)   ) }
 
-  ;БТР-70 с ПТ десантом
-  {"btr70_ukr_if" {fore 0} ("v3" c(80) sc(150) g(btrif)  b(common) brig(common) s(ukr)  i(85) cw(10) cp(10) t(all_nz) c1(btr70) n(2) n1(tankman:2) n2(ukr_at:4) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1))}
-  
-
-  ;БТР-70
-  {"btr70_ukr1" {fore 0} ("v3" c(80) sc(30) g(btr)  b(common) brig(common) s(ukr)  i(86) cw(10) cp(10) t(all_nz) c1(btr70) n(2) n1(tankman:2))}
-  
-  ;БТР-60
-  {"btr60_ukr1" {fore 1} ("v3" c(80) sc(25) g(btr)  b(common) brig(common) s(ukr)  i(87) cw(10) cp(10) t(all_nz) c1(btr60) n(2) n1(tankman:2))}  
-  
-  ;БМП-2
-  {"bmp2_new_ukr" {fore 1} ("v3" c(200) sc(45) g(BWP)  b(common) brig(common) s(ukr)  i(787) cw(10) cp(10) t(all_nz) c1(bmp2_new) n(3) n1(tankman:3))}  
-  
- ;БМП-2 с десантом
-  {"bmp2_new_ukr_INF" {fore 1} ("v3" c(300) sc(115) g(BWP_INF)  b(common) brig(common) s(ukr)  i(7878) cw(10) cp(10) t(all_nz) c1(bmp2_new) n(3) n1(tankman:3) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:1) ) }   
-
-  ;Стрела-1
-  {"brdm2_strela_ukr" {fore 0.5} ("v3" c(200) sc(90) g(strela)  b(common) brig(ppo_ua) s(ukr)  i(262) cw(0) cp(15) t(all_nz) c1(brdm2_strela) n(1) n1(tankman:3)   ) }
-  
-  ;Стрела-10
-  {"strela-10_ukr" {fore 0.5} ("v3" c(200) sc(140) g(strela)  b(common) brig(ppo_ua) s(ukr)  i(2676) cw(0) cp(15) t(all_nz) c1(9k35_strela-10mn) n(1) n1(tankman:3)   ) }
-  
-  
-  ;ПЗРК сквад
- ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(pzrk_ua) c(90) g(pzrk_ua) 
-  c1(ukr_pzrk2:2) c2(ukr_pzrk1:2) 
+ ;ПЗРК сквад
+ ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(pzrk_ua) c(90) g(pzrk_ua)
+  c1(ukr_pzrk2:2) c2(ukr_pzrk1:2)
   b(common) brig(common) t(all_nz) cost(55) f(1.0) )
-  
-  ;Мобильная ПЗРК группа
-  {"toyota_hilux_dshkm_ukr1" {fore 1} ("v3" c(40) sc(75) g(pzrk_ua)  b(common) brig(common) s(ukr)  i(807) cw(10) cp(10) t(all_nz) c1(toyota_hilux_dshkm) n(3) n1(vehicle_supporter:1) n2(ukr_pzrk2:2) n3(ukr_pzrk1:2))}
-  
 
-;БРДМ-2
- {"brdm2_ukr" {fore 1} ("v3" c(120) sc(15) g(pystiy_ukr) b(common) brig(common) s(ukr)  i(3004) cw(1) cp(5) t(all_nz)  c1(brdm2) ) } 
- 
+ ;Мобильная ПЗРК группа
+ {"toyota_hilux_dshkm_ukr1" {fore 1} ("v3" c(40) sc(75) g(pzrk_ua)  b(common) brig(common) s(ukr)  i(807) cw(10) cp(10) t(all_nz) c1(toyota_hilux_dshkm) n(3) n1(vehicle_supporter:1) n2(ukr_pzrk2:2) n3(ukr_pzrk1:2))}
 
-;=========================================Сапплаи==============================
-  
-   ;Танкисты
- ("squad_with2types" name(tankman) f(1)  c(1) cost(30) g(eng2) b(supl) brig(common) side(ukr)     t(all_nz    ) info(tankman) c1(tankman:2)) 
- 
- ("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(10) g(support) b(supl) brig(common) side(ukr)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
-  
+ ;Стрела-1
+ {"brdm2_strela_ukr" {fore 0.5} ("v3" c(200) sc(90) g(strela)  b(common) brig(common) s(ukr)  i(262) cw(0) cp(15) t(all_nz) c1(brdm2_strela) n(1) n1(tankman:3)   ) }
+
+ ;Стрела-10
+ {"strela-10_ukr" {fore 0.5} ("v3" c(200) sc(140) g(strela)  b(common) brig(common) s(ukr)  i(2676) cw(0) cp(15) t(all_nz) c1(9k35_strela-10mn) n(1) n1(tankman:3)   ) }
+
+ ;БРДМ-2
+ {"brdm2_ukr" {fore 1} ("v3" c(120) sc(15) g(pystiy_ukr) b(common) brig(common) s(ukr)  i(3004) cw(1) cp(5) t(all_nz)  c1(brdm2) ) }
+
+ ;БМП-2
+ {"bmp2_new_ukr" {fore 1} ("v3" c(200) sc(45) g(BWP)  b(common) brig(common) s(ukr)  i(787) cw(10) cp(10) t(all_nz) c1(bmp2_new) n(3) n1(tankman:3))}
+
+ ;БМП-2 с десантом
+ {"bmp2_new_ukr_INF" {fore 1} ("v3" c(300) sc(115) g(BWP_INF)  b(common) brig(common) s(ukr)  i(7878) cw(10) cp(10) t(all_nz) c1(bmp2_new) n(3) n1(tankman:3) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:1) ) }
+
+
+;=========================================Тыл (сапплаи)==============================
+
+ ;Танкисты
+ ("squad_with2types" name(tankman) f(1)  c(1) cost(30) g(eng2) b(supl) brig(common) side(ukr)     t(all_nz    ) info(tankman) c1(tankman:2))
+
+ ("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(10) g(support) b(supl) brig(common) side(ukr)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              )
+
  {"toyota_hilux_ammo_ukr" {fore 1} ("v3" c(600) sc(70) g(69) b(supl) brig(common) s(ukr)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:2)      ) }
- 
+
  {"mtlb_supl_h8l8l" {fore 1} ("v3" c(100) sc(100) g(169) b(supl) brig(common) s(ukr)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
- 
+
  {"kraz_6322_fuel_ukr" {fore 0} ("v3" c(120)	sc(50) g(fuel) b(supl) brig(common) s(ukr)  i(1700) cw(0) cp(15) t(all_nz ) c1(kraz_6322_fuel) n(2) n1(vehicle_supporter:1)      ) }
- 
+
  {"brem-1_ukr" {fore 1} ("v3" c(900) sc(110) g(269)  b(supl) brig(common) s(ukr)  i(1701) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
- 
+
  {"novator_ukr" {fore 1} ("v3" c(900) sc(110) g(270)  b(supl) brig(common) s(ukr)  i(1702) cw(0) cp(10) t(all_nz supply ) n(2) c1(novator) n1(ukr_miner:4)      ) }
- 
-  ;Зу-23-2
- {"zu23-2_ukr" {fore 1} ("v3" c(120) sc(30) g(zu23_ukr) b(supl) brig(ppo_ua) s(ukr)  i(3002) cw(1) cp(5) t(all_nz)  c1(zu23-2) n(2) n1(vehicle_supporter:2)   ) }  
- 
- ;василек
- {"vasilek_ukr" {fore 1} ("v3" c(120) sc(50) g(vasilek_ukr) b(supl) brig(ppo_ua) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(vasilek) n(2) n1(vehicle_supporter:2)   ) }  
 
- ;МТЛБ с ЗУшкой
-  {"mtlb_zu_ukr" {fore 1} ("v3" c(50) sc(45) g(btr)  b(supl) brig(ppo_ua) s(ukr)  i(806) cw(10) cp(10) t(all_nz) c1(mtlb_zu) n(2) n1(tankman:5))}  
-  
-   ;Шилка
-  {"Shilka_ukr" {fore 1} ("v3" c(150) sc(90) g(pvo2)  b(supl) brig(ppo_ua) s(ukr)  i(23) cw(0) cp(15) t(all_nz) c1(Shilka) n(1) n1(tankman:4)      ) }
-  
-  ;Оператор БПЛА
-  ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(operator_bpla) c(170) g(ukr_bpla) 
+ ;Оператор БПЛА
+ ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(operator_bpla) c(170) g(ukr_bpla)
   c1(operator_bpla_ukr:1)
-  b(supl) brig(ngu_ua) t(all_nz inf_irg) cost(60) f(1.0) )
-  
-  ;Пидор
-  {"spotter" {fore 1} ("v3" c(550) sc(220) g(FPV) b(supl) brig(common) s(ukr)  i(232) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:1)  n2(spotter:2)     ) }
- 
-;======================== НГУ =============================
-;Поднос
- {"2b14_ukr" {fore 1} ("v3" c(120) sc(60) g(mino_ukr) b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(3005) cw(1) cp(5) t(all_nz)  c1(2b14_podnos) n(2) n1(vehicle_supporter:2)   ) }     
+  b(supl) brig(common) t(all_nz inf_irg) cost(60) f(1.0) )
 
-;ПТ сквад 
- ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_at) c(170) g(azov_at) 
-  c1(ukr_at:4) c2(ukr_mgunua:2) 
-  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz inf_irg) cost(60) f(1.0) )
-  
-;Бригада АЗОВ
- ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_zzzzzz) c(170) g(azov_zzzzzz) 
+ ;Корректировщики
+ {"spotter" {fore 1} ("v3" c(550) sc(220) g(FPV) b(supl) brig(common) s(ukr)  i(232) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:1)  n2(spotter:2)     ) }
+
+
+;=========================================ВВС=================================
+
+ ;Ф-16 с противорадиолокационными ракетами
+ {"f-16c_antirad_ukr" {fore -1} ("v3" c(660) sc(250) g(air_F-16ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1076) cw(0) cp(69) t(all_nz) c1(f-16c_antirad) n(1) n1(pilot:1) ) }
+
+ ;МиГ-29 противовоздушный
+ {"mig-29s_aa_ukr" {fore 0} ("v3" c(600) sc(210) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(pilot:1) ) }
+
+ ;Су-25СМ ударный
+ {"su-25sm_support_light_ukr" {fore 0} ("v3" c(600) sc(260) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1082) cw(0) cp(69) t(all_nz) c1(su-25sm_support_light) n(1) n1(pilot:1) ) }
+
+ ;Ми-17
+ {"mi17_ukr" {fore 0} ("v3" c(300) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(pilot:2) ) }
+
+ ;Ми-24
+ {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(200) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(pilot:2) ) }
+
+ ;Ф-16 каб
+ ;{"f-16c_sdb_ukr" {fore 0} ("v3" c(600) sc(280) g(f-16c_sdb_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(108200) cw(0) cp(69) t(all_nz) c1(f-16c_sdb) n(1) n1(pilot:1) ) }
+
+ ;Байрактар
+ {"bayraktar_tb2_maml_ukr" {fore 0} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) }
+
+
+;=========================================ПВО=================================
+
+ ;ЗУ-23-2
+ {"zu23-2_ukr" {fore 1} ("v3" c(120) sc(30) g(zu23_ukr) b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(3002) cw(1) cp(5) t(all_nz)  c1(zu23-2) n(2) n1(vehicle_supporter:2)   ) }
+
+ ;МТ-ЛБ с ЗУ
+ {"mtlb_zu_ukr" {fore 1} ("v3" c(50) sc(45) g(btr)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(806) cw(10) cp(10) t(all_nz) c1(mtlb_zu) n(2) n1(tankman:5))}
+
+ ;Шилка
+ {"Shilka_ukr" {fore 1} ("v3" c(150) sc(90) g(pvo2)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(23) cw(0) cp(15) t(all_nz) c1(Shilka) n(1) n1(tankman:4)      ) }
+
+ ;Гепард
+ {"Gepard_ukr" {fore 0.5} ("v3" c(300) sc(110) g(pvo2)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(22) cw(0) cp(15) t(all_nz) c1(Gepard) n(1) n1(tankman:4)      ) }
+
+ ;NASAMS
+ {"nasams_ukr" {fore -1} ("v3" c(200) sc(230) g(strela)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(263) cw(0) cp(15) t(all_nz) c1(nasams_ii_launcher) n(2) n1(tankman:2)   ) }
+
+ ;Бук-М1
+ {"buk_m1_ukr" {fore 0.0} ("v3" c(250) sc(300) g(buk) b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(9676) cw(0) cp(25) t(all_nz) c1(buk_m1) n(2)  n1(tankman:3)  ) }
+
+ ;HAWK
+ {"hawk_cwar_ukr" {fore -1} ("v3" c(200) sc(30) g(radar)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(264) cw(0) cp(15) t(all_nz) c1(hawk_cwar) n(2)  ) }
+
+ ;РЛС Купол
+ {"kupol_ukr" {fore 0.0} ("v3" c(1000) sc(110) g(kupol) b(ppo_ua_hqcar) brig(ppo_ua) s(ukr) i(9677) cw(5) cp(15) t(all_nz) n(2) c1(9s18_kupol) n1(vehicle_supporter:5) ) }
+
+
+;=========================================Артиллерия===========================================
+
+ ;Д-30
+ {"d30_ukr"  {fore 0.75}  ("v3" c(600) sc(100) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(23200) cw(0) cp(15) t(all_nz) c1(d30) n(1) n1(vehicle_supporter:2)  ) }
+
+ ;M777A2
+ {"m777a2_ukr" {fore 0} ("v3" c(500) sc(185) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2320) cw(0) cp(15) t(all_nz) c1(m777a1) n(1) n1(vehicle_supporter:4)   ) }
+
+ ;Дана
+ {"dana_ukr" {fore -1} ("v3" c(300) sc(180) g(artstvolc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(232) cw(0) cp(15) t(all_nz) c1(dana_152mm) n(1) n1(tankman:4)   ) }
+
+ ;Цезарь
+ {"caesar_ukr_ukr" {fore -0.5} ("v3" c(240) sc(220) g(zilart)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2041) cw(0) cp(15) t(all_nz) c1(caesar_ukr) n(1) n1(tankman:4)   ) }
+
+ ;HIMARS
+ {"himars_ukr" {fore -1} ("v3" c(500) sc(450) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(204) cw(0) cp(15) t(all_nz) c1(m142_himars) n(1) n1(tankman:2)   ) }
+
+ ;КамАЗ Град
+ {"kamaz_grad_ukr" {fore 0} ("v3" c(600) sc(400) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
+
+ ;Точка-У
+ {"tochka_y_ukr" {fore 0} ("v3" c(1330) sc(325) g(visocotoc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(tochka_y) n(1) n1(tankman:2)   ) }
+
+
+;=========================================ТРО (терроборона)===========================================
+; лёгкое/дешёвое вооружение, эрзацы, старые и трофейные танки
+
+ ;Пехота ТРО
+ ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(ukr_tro) c(170) g(ukr_tro)
+  c1(ukr_comua:1) c2(ukr_mgunua:1) c3(ukr_mgunhelpua:1) c4(ukr_smgua:1) c5(ukr_smg2ua:1) c6(ukr_rpgua:1) c7(ukr_rpghelpua:1) c8(ukr_sniperua:1)
+  b(vsu_ua_hqcar) brig(vsu_ua) t(all_nz inf_irg) cost(50) f(1.0) )
+
+ ;Срочники в ЛиАЗе
+ {"liaz_ukr_s" {fore 1} ("v3" c(60) sc(60) g(ikarus)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(845) cw(10) cp(10) t(all_nz) c1(bus_liaz) n(2) n1(ukr_srochnik:14) n2(ukr_srochnik_at:4) )}
+
+ ;Поднос
+ {"2b14_ukr" {fore 1} ("v3" c(120) sc(60) g(mino_ukr) b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(3005) cw(1) cp(5) t(all_nz)  c1(2b14_podnos) n(2) n1(vehicle_supporter:2)   ) }
+
+ ;Василёк
+ {"vasilek_ukr" {fore 1} ("v3" c(120) sc(50) g(vasilek_ukr) b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(3003) cw(1) cp(5) t(all_nz)  c1(vasilek) n(2) n1(vehicle_supporter:2)   ) }
+
+ ;МТ-ЛБ с Кордом
+ {"mtlb_kord_ukr" {fore 0} ("v3" c(120) sc(25) g(kraz_ukr) b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(3090) cw(1) cp(5) t(all_nz) c1(mtlb_vmk) n(2) n1(vehicle_supporter:2) ) }
+
+ ;МТ-ЛБ с МТ-12
+ {"mt12_with_mtlb" {fore 1} ("v" c(120) sc(30) g(mtlb12)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(mt12_with_mtlb) n(4) n1(tankman:4))  }
+
+ ;БТР-60
+ {"btr60_ukr1" {fore 1} ("v3" c(80) sc(25) g(btr)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(87) cw(10) cp(10) t(all_nz) c1(btr60) n(2) n1(tankman:2))}
+
+ ;БТР-70
+ {"btr70_ukr1" {fore 0} ("v3" c(80) sc(30) g(btr)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(86) cw(10) cp(10) t(all_nz) c1(btr70) n(2) n1(tankman:2))}
+
+ ;БТР-70 с ПТ десантом
+ {"btr70_ukr_if" {fore 0} ("v3" c(80) sc(150) g(btrif)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(85) cw(10) cp(10) t(all_nz) c1(btr70) n(2) n1(tankman:2) n2(ukr_at:4) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1))}
+
+ ;БМП-1
+ {"bmp1_ukr" {fore 1} ("v3" c(60) sc(50) g(bmp)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(5) cw(10) cp(10) t(all_nz) c1(bmp1_new) n(2) n1(tankman:3)) }
+
+ ;БМП-1 с десантом и ПТ стрелками
+ {"bmp1_ukr_tro_at" {fore 1} ("v3" c(150) sc(120) g(mihail)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(6) cw(10) cp(10) t(all_nz) c1(bmp1_new) n(2) n1(tankman:3) n2(ukr_at:3) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1))}
+
+ ;Leopard 1A4
+ {"leopard_c1" ("v" c(240) brig(vsu_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(90) b(vsu_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
+
+ ;Т-64БВ
+ {"t-64bv_ukr" {fore 0.5} ("v3" c(260) sc(120) g(oldsovua)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(23) cw(0) cp(25) t(all_nz) c1(t-64bv) n(1) n1(tankman:3)) }
+
+
+;=========================================НГУ «Азов»=============================
+
+ ;Бригада «Азов»
+ ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_zzzzzz) c(170) g(azov_zzzzzz)
  c1(azov_mg:2) c2(azov_smg1:2) c3(azov_smg2:2) c4(azov_nlaw:2)
  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(90) f(1.0) )
-  
-;Снайперы АЗОВ
-("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_zsniper) c(170) g(azov_zsniper) 
- c1(azov_sniper:2) c2(azov_officer:1) 
+
+ ;ПТ сквад
+ ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_at) c(170) g(azov_at)
+  c1(ukr_at:4) c2(ukr_mgunua:2)
+  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz inf_irg) cost(60) f(1.0) )
+
+ ;Снайперы «Азова»
+ ("squad_with5types_custom" side(ukr) crew_nation(ukr) name(azov_zsniper) c(170) g(azov_zsniper)
+ c1(azov_sniper:2) c2(azov_officer:1)
  b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz) cost(50) f(1.0) )
- 
- ;Терминатор))))
-("squad_with1types_custom" side(ukr) crew_nation(ukr) name(terminator) c(170) g(ukr_terminator) 
+
+ ;Терминатор
+ ("squad_with1types_custom" side(ukr) crew_nation(ukr) name(terminator) c(170) g(ukr_terminator)
   c1(ukr_terminator:1)
   b(ngu_ua_hqcar) brig(ngu_ua) t(all_nz inf_irg) cost(90) f(1.0) )
- 
- ;Пилооооот
- ;("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(srbsk)     t(all_nz    ) info(pilot) c1(Pilot:1)) 
- 
- ;феннек
-  {"fennek_ua" {fore 1} ("v3" c(240) sc(30) g(fennek)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(14) cw(10) cp(10) t(all_nz) c1(fennek) n(1) n1(tankman:3)) }
-  
- ;Ошкош с МК-19
+
+ ;Oshkosh M-ATV с МК-19
  {"oshkosh_m-atv_ua" {fore 1} ("v3" c(240) sc(60) g(oshkosh)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(oshkosh_m-atv_mk19) n(2) n1(tankman:2))}
-  
- ;ошкош с МК-19 и десантом
-  {"oshkosh_m-atv_ua_at" {fore 1} ("v3" c(240) sc(90) g(atmob)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(oshkosh_m-atv_mk19) n(2) n1(tankman:2) n2(ukr_at:3)) }
-  
 
- ;скипидар
+ ;Oshkosh M-ATV с МК-19 и десантом
+ {"oshkosh_m-atv_ua_at" {fore 1} ("v3" c(240) sc(90) g(atmob)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(oshkosh_m-atv_mk19) n(2) n1(tankman:2) n2(ukr_at:3)) }
+
+ ;Scimitar
  {"fv107scimitar_mk2"{fore 1} ("v3" c(240) sc(50) g(scipidar)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(200) cw(10) cp(10) t(all_nz) c1(fv107scimitar_mk2) n(2) n1(tankman:2))}
- 
-  ;Варриор с дзшкой
-  {"warrior_wrap2_ukr" {fore 0} ("v3" c(300) sc(60) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80343) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
-  
-  ;БМП-1У
-  {"bmp1u" {fore 0} ("v" c(300) sc(80) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80344) cw(10) cp(10) t(all_nz) n(3) n1(tankman:3)) }
-  
- 
- ;===============================БРОНЕТАНКОВЫЕ=========================================== 
- 
-  ;AMX-10RCR
- {"AMX-10RCR_ukr" {fore 1} ("v3" c(120) sc(40) g(amx-10RCR)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(80) cw(10) cp(10) t(all_nz) c1(amx10rc) n(2) n1(tankman:4)) }
- 
 
- ;Леопадла 1А4
- {"leopard_c1" ("v" c(240) brig(brt_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(90) b(brt_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
-  
- ;t72m1
- {"t72m1" ("v" c(260) brig(brt_ua) t(all_nz) s(ukr) n(4) g(medium)  sc(115) b(brt_ua_hqcar)   i(64) m(2) cw(0) cp(25))  {fore 1.0}}
- 
- ;ПТ-91
- {"pt-91_ukr" {fore 1} ("v3" c(240) sc(120) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(22) cw(0) cp(25) t(all_nz) c1(pt-91) n(1) n1(tankman:3)) }
- 
- ;Т-64БВ
- {"t-64bv_ukr" {fore 0.5} ("v3" c(260) sc(120) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(23) cw(0) cp(25) t(all_nz) c1(t-64bv) n(1) n1(tankman:3)) }
- 
- ;М1А1
- {"m1ip_2"	("v" c(280) brig(brt_ua) t(all_nz) s(ukr) n(4) g(newua)  sc(120) b(brt_ua_hqcar) i(13) cw(0) cp(2))  {fore 0.5}}
-  
- ;Леопадла 2А4 с дзшкой
- {"leopard_2a4_dz" ("v" c(350) sc(150) g(newua) b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(11) cw(0) cp(45) m(1) t(all_nz) n(4)){fore -1.0}}
- 
-  ;Леопадла 2А6
- {"leopard_2a6_ukr" {fore -1.0} ("v3" c(250) sc(180) g(newua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(21) cw(0) cp(60) t(all_nz) c1(leopard_2a6_dz) n(1) n1(tankman:4)) }
- 
+ ;Warrior с ДЗ
+ {"warrior_wrap2_ukr" {fore 0} ("v3" c(300) sc(60) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80343) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) }
+
+ ;БМП-1У
+ {"bmp1u" {fore 0} ("v" c(300) sc(80) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80344) cw(10) cp(10) t(all_nz) n(3) n1(tankman:3)) }
+
+
+;=========================================ССО (ДШВ, спецназ)=============================
+
+ ;Fennek
+ {"fennek_ua" {fore 1} ("v3" c(240) sc(30) g(fennek)  b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(14) cw(10) cp(10) t(all_nz) c1(fennek) n(1) n1(tankman:3)) }
+
+ ;БМД-2
+ {"bmd2_ukr" {fore 0.5} ("v3" c(120) sc(60) g(bmd)  b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(3) cw(10) cp(10) t(all_nz) c1(bmd2) n(2) n1(tankman:2)) }
+
+ ;БМД-2 с десантом
+ {"bmd2_ukr_tro" {fore 0.5} ("v3" c(100) sc(150) g(mihail)  b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(4) cw(10) cp(10) t(all_nz) c1(bmd2) n(2) n1(tankman:2) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:2) ) }
+
+ ;Marder с ДШВ
+ {"marder_1a3_ukr_inf" {fore 0} ("v3" c(340) sc(115) g(mobshtorm)  b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(9) cw(10) cp(10) t(all_nz) c1(marder_1a3) n(5) n1(tankman:2) n2(dshv_rpg:2) n3(dshv_smg:2) n4(dshv_mg:1) n5(dshv_miner:1) n6(dshv_marksman:1)) }
+
+ ;Bradley с ДШВ
+ {"m2a3_brat_ukr_ifv" {fore 0} ("v3" c(300) sc(125) g(mobshtorm)  b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(89676) cw(10) cp(10) t(all_nz) c1(m2a3_brat) n(5) n1(tankman:3) n2(dshv_rpg:2) n3(dshv_smg:2) n4(dshv_mg:1) n5(dshv_miner:1) n6(dshv_marksman:1) ) }
+
+ ;UH-60 с ДШВ
+ {"uh60_ukr" {fore 1} ("v3" c(600) sc(180) g(uh60_ua88) b(sso_ua_hqcar) brig(sso_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) }
+
+
+;=========================================Штурмовая бригада===========================================
+
+ ;AMX-10RC
+ {"AMX-10RCR_ukr" {fore 1} ("v3" c(120) sc(40) g(amx-10RCR)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(80) cw(10) cp(10) t(all_nz) c1(amx10rc) n(2) n1(tankman:4)) }
+
+ ;YPR-765
+ {"ypr_765" {fore 1} ("v3" c(120) sc(35) g(yrp)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(8023) cw(10) cp(10) t(all_nz) c1(ypr_765) n(2) n1(tankman:2)) }
+
+ ;YPR-765 с пехотой
+ {"ypr_765_inf" {fore 1} ("v3" c(240) sc(90) g(kall)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(8024) cw(10) cp(10) t(all_nz) c1(ypr_765) n(2) n1(tankman:2) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:1) n8(ukr_rpghelpua:1) ) }
+
+ ;Marder
+ {"marder_1a3_ukr" {fore 0} ("v3" c(300) sc(75) g(btr)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(89674) cw(10) cp(10) t(all_nz) c1(marder_1a3) n(2) n1(tankman:3)) }
+
+ ;Bradley
+ {"m2a3_brat_ukr" {fore 0} ("v3" c(300) sc(90) g(btr)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(89675) cw(10) cp(10) t(all_nz) c1(m2a3_brat) n(2) n1(tankman:3)) }
+
+ ;Штурм-С
+ {"shturm-s_ukr" {fore 0} ("v3" c(120) sc(80) g(shturm-s)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(7) cw(10) cp(10) t(all_nz) c1(9p149_shturm-s) n(2) n1(tankman:2)) }
+
  ;Т-64БМ
  {"t-64bm1_ukr" {fore 0.5} ("v3" c(260) sc(160) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(23543) cw(0) cp(25) t(all_nz) c1(t-64bm1) n(1) n1(tankman:3)) }
 
+ ;M1A1
+ {"m1ip_2"	("v" c(280) brig(brt_ua) t(all_nz) s(ukr) n(4) g(newua)  sc(120) b(brt_ua_hqcar) i(13) cw(0) cp(2))  {fore 0.5}}
 
- ;===============================ЗСУ=================================================== 
-  
+ ;Leopard 2A4 с ДЗ
+ {"leopard_2a4_dz" ("v" c(350) sc(150) g(newua) b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(11) cw(0) cp(45) m(1) t(all_nz) n(4)){fore -1.0}}
 
- ;Конкурс
- {"ptur_konkurs_ukr" {fore 1} ("v3" c(120) sc(40) g(spg_9_ukr) b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(1) cw(1) cp(5) t(all_nz)  c1(ptur_konkurs) n(2) n1(vehicle_supporter:2)   ) }    
-  
-  ;мотолыга с МТ-12
-  {"mt12_with_mtlb" {fore 1} ("v" c(120) sc(30) g(mtlb12)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(mt12_with_mtlb) n(4) n1(tankman:4))  }
-  
-  ;БМД-2
-  {"bmd2_ukr" {fore 0.5} ("v3" c(120) sc(60) g(bmd)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(3) cw(10) cp(10) t(all_nz) c1(bmd2) n(2) n1(tankman:2)) }
-  
-  ;БМД-2 с десантом
-  {"bmd2_ukr_tro" {fore 0.5} ("v3" c(100) sc(150) g(mihail)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(4) cw(10) cp(10) t(all_nz) c1(bmd2) n(2) n1(tankman:2) n2(ukr_comua:1) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1) n7(ukr_rpgua:2) ) }
-  
-  ;БМП-1
-  {"bmp1_ukr" {fore 1} ("v3" c(60) sc(50) g(bmp)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(5) cw(10) cp(10) t(all_nz) c1(bmp1_new) n(2) n1(tankman:3)) }
-  
-  ;БМП-1 с десантом и ПТ стрелками
-  {"bmp1_ukr_tro_at" {fore 1} ("v3" c(150) sc(120) g(mihail)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(6) cw(10) cp(10) t(all_nz) c1(bmp1_new) n(2) n1(tankman:3) n2(ukr_at:3) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1))}
-  
-  ;Штурм-С
-  {"shturm-s_ukr" {fore 0} ("v3" c(120) sc(80) g(shturm-s)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(7) cw(10) cp(10) t(all_nz) c1(9p149_shturm-s) n(2) n1(tankman:2)) }
-  
-  
-  ;Мардер
-  {"marder_1a3_ukr" {fore 0} ("v3" c(300) sc(75) g(btr)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(89674) cw(10) cp(10) t(all_nz) c1(marder_1a3) n(2) n1(tankman:3)) }
-  
- ;Мардер с ДШВ
- {"marder_1a3_ukr_inf" {fore 0} ("v3" c(340) sc(115) g(mobshtorm)  b(vsu_ua_hqcar) brig(ngu_ua) s(ukr)  i(9) cw(10) cp(10) t(all_nz) c1(marder_1a3) n(5) n1(tankman:2) n2(dshv_rpg:2) n3(dshv_smg:2) n4(dshv_mg:1) n5(dshv_miner:1) n6(dshv_marksman:1)) } 
- 
- ;Бредли
- {"m2a3_brat_ukr" {fore 0} ("v3" c(300) sc(90) g(btr)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(89675) cw(10) cp(10) t(all_nz) c1(m2a3_brat) n(2) n1(tankman:3)) }
- 
-  ;Бредли с ДШВ
- {"m2a3_brat_ukr_ifv" {fore 0} ("v3" c(300) sc(125) g(mobshtorm)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(89676) cw(10) cp(10) t(all_nz) c1(m2a3_brat) n(5) n1(tankman:3) n2(dshv_rpg:2) n3(dshv_smg:2) n4(dshv_mg:1) n5(dshv_miner:1) n6(dshv_marksman:1) ) }
- 
-  
-  ;===============================АРТА=========================================== 
-  
-   ;Д-30
-  {"d30_ukr"  {fore 0.75}  ("v3" c(600) sc(100) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(23200) cw(0) cp(15) t(all_nz) c1(d30) n(1) n1(vehicle_supporter:2)  ) }
-  
-  ;Мста-Б
-  {"2a65_msta_b_ukr" {fore 0} ("v3" c(500 ) sc(170) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(232) cw(0) cp(15) t(all_nz) c1(2a65_msta_b) n(1) n1(vehicle_supporter:2)   ) }
-  
-   ;M777A1
-  {"m777a2_ukr" {fore 0} ("v3" c(500) sc(185) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2320) cw(0) cp(15) t(all_nz) c1(m777a1) n(1) n1(vehicle_supporter:4)   ) }
-  
-  ;Дана
-  {"dana_ukr" {fore -1} ("v3" c(300) sc(180) g(artstvolc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(232) cw(0) cp(15) t(all_nz) c1(dana_152mm) n(1) n1(tankman:4)   ) }
-  
-  ;Пивон
-  {"2s7_ukr" {fore 0.13} ("v3" c(1100) sc(325) g(artstvols)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(252) cw(0) cp(15) t(all_nz) c1(2s7_pion) n(1) n1(tankman:3)   ) }
-  
-  ;Хуймарс
-  {"himars_ukr" {fore -1} ("v3" c(500) sc(450) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(204) cw(0) cp(15) t(all_nz) c1(m142_himars) n(1) n1(tankman:2)   ) }
- 
-  ;АСС-90
-  {"as_90_ukr" {fore -2.0} ("v3" c(300) sc(300) g(artstvolz)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(225) cw(0) cp(15) t(all_nz) c1(as_90) n(1) n1(tankman:5)  )}
-  
-  ;Зил с 2с1
-  {"zil2c1_ukr" {fore -1} ("v3" c(200) sc(160) g(zilart)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2040) cw(0) cp(15) t(all_nz) c1(zil131_2s1) n(1) n1(tankman:4)   ) }
-  
-  ;Цезарь
-  {"caesar_ukr_ukr" {fore -0.5} ("v3" c(240) sc(220) g(zilart)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2041) cw(0) cp(15) t(all_nz) c1(caesar_ukr) n(1) n1(tankman:4)   ) }
-  
-  ;Камаз град
-  {"kamaz_grad_ukr" {fore 0} ("v3" c(600) sc(400) g(RSZO)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(231) cw(0) cp(15) t(all_nz) c1(kamaz_grad) n(1) n1(tankman:2)   ) }
-  
-  ;Точка-У
-  {"tochka_y_ukr" {fore 0} ("v3" c(1330) sc(325) g(visocotoc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(tochka_y) n(1) n1(tankman:2)   ) }
-  
-  
-  
-  ;Гепард
-  {"Gepard_ukr" {fore 0.5} ("v3" c(300) sc(110) g(pvo2)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(22) cw(0) cp(15) t(all_nz) c1(Gepard) n(1) n1(tankman:4)      ) }
-  
-  ;Насамс
-  {"nasams_ukr" {fore -1} ("v3" c(200) sc(230) g(strela)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(263) cw(0) cp(15) t(all_nz) c1(nasams_ii_launcher) n(2) n1(tankman:2)   ) }
-  
-  ;Буб-М1
-  {"buk_m1_ukr" {fore 0.0} ("v3" c(250) sc(300) g(buk) b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(9676) cw(0) cp(25) t(all_nz) c1(buk_m1) n(2)  n1(tankman:3)  ) }
-  
-  ;ХАВК
-  {"hawk_cwar_ukr" {fore -1} ("v3" c(200) sc(30) g(radar)  b(art_ua_hqcar) brig(ppo_ua) s(ukr)  i(264) cw(0) cp(15) t(all_nz) c1(hawk_cwar) n(2)  ) }
- 
-
-  
-  ;===============================ПВО===========================================  ppo_ua_hqcar теперь здесь буду наёмники
-  ;УПР-765
-  {"ypr_765" {fore 1} ("v3" c(120) sc(35) g(yrp)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(8023) cw(10) cp(10) t(all_nz) c1(ypr_765) n(2) n1(tankman:2)) }
-  ;Грузины на Юрпе
- 
-   {"ypr_765_inf" {fore 1} ("v3" c(240) sc(90) g(kall)  b(ppo_ua_hqcar) brig(ppo_ua) s(ukr)  i(8024) cw(10) cp(10) t(all_nz) c1(ypr_765) n(2) n1(geo_smg:2) n2(geo_smg2:2) n3(geo_mgun:2) n4(geo_smg:2) n5(geo_bazooker:2) n6(geo_sniper:1) ) }
-  
-  
-  
-  ("squad_with11types_custom" side(ukr) crew_nation(ukr) name(hacipuri) c(120) g(inf) 
-	  c1(geo_smg2:1) c2(geo_mgun:1) c3(geo_bazooker:1) c4(geo_bazooker:1) c5(geo_sniper:1) c6(geo_smg2:1) c7(geo_smg:2)
-	  b(ppo_ua_hqcar) brig(ppo_ua) t(all_nz ) cost(80) f(1.0) 
-  )
+ ;Leopard 2A6
+ {"leopard_2a6_ukr" {fore -1.0} ("v3" c(250) sc(180) g(newua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(21) cw(0) cp(60) t(all_nz) c1(leopard_2a6_dz) n(1) n1(tankman:4)) }
 
 
- ;==========================================Авиация=================================
- 
+;=========================== Спецочки (должны быть кратны ~ 1488)
 
- ;Ф-16 с противолокационками
- {"f-16c_antirad_ukr" {fore -1} ("v3" c(660) sc(250) g(air_F-16ukr) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1076) cw(0) cp(69) t(all_nz) c1(f-16c_antirad) n(1) n1(pilot:1) ) }
- 
- ;МиГ-29 противовоздушный
- {"mig-29s_aa_ukr" {fore 0} ("v3" c(600) sc(210) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1077) cw(0) cp(69) t(all_nz) c1(mig-29s_aa) n(1) n1(pilot:1) ) }
- 
- ;Су-25СМ ударный
- {"su-25sm_support_light_ukr" {fore 0} ("v3" c(600) sc(260) g(air_mig-29s_aa_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1082) cw(0) cp(69) t(all_nz) c1(su-25sm_support_light) n(1) n1(pilot:1) ) }
- 
- ;mi17
- {"mi17_ukr" {fore 0} ("v3" c(300) sc(230) g(mi17_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1079) cw(0) cp(69) t(all_nz) c1(mi17) n(1) n1(pilot:2) ) }
- 
- ;Ми-24
- {"mi-24v_ukr" {fore 0} ("v3" c(400) sc(200) g(mi-24v_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1078) cw(0) cp(69) t(all_nz) c1(mi-24v) n(1) n1(pilot:2) ) }
- 
- ;Блек хуй
- {"uh60_ukr" {fore 1} ("v3" c(600) sc(180) g(uh60_ua88) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1080) cw(0) cp(69) t(all_nz) c1(uh60) n(8) n1(pilot:1) n2(dshv_rpg:2) n3(dshv_smg:4) n4(dshv_mg:2) n5(dshv_miner:4) n6(dshv_marksman:2)) } 	
- 
- ;Ф-16 каб
- ;{"f-16c_sdb_ukr" {fore 0} ("v3" c(600) sc(280) g(f-16c_sdb_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(108200) cw(0) cp(69) t(all_nz) c1(f-16c_sdb) n(1) n1(pilot:1) ) }
- 
- ;Блек хуй
- {"bayraktar_tb2_maml_ukr" {fore 0} ("v3" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) } 	
- 
- 
- ;=========================== Спец очки должны быть кратны ~ 1488
- 
- ;Ф-16 с крылатками
- {"f-16c_strike_ukr88" {fore 0} ("v3" c(600) sc(200) g(air_su22ukr) b(extra) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(f-16c_strike) n(2) n1(pilot:1) ) }
- 
-  ;Челленджер 2
+ ;Су-24М со Storm Shadow
+ {"f-16c_strike_ukr88" {fore 0} ("v3" c(600) sc(200) g(air_su22ukr) b(extra) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(su24m_storm_ukr) n(2) n1(pilot:2) ) }
+
+ ;Ту-141
+ {"tu141_base"	("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot tu141) s(ukr) n(0) g(extra01)  sc(20) b(extra) i(1083) cw(0) cp(2))  {fore -90.0}}
+
+ ;Challenger 2
  {"challenger_2_ukr" {fore -1.0} ("v3" c(250) sc(120) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(21010) cw(0) cp(60) t(all_nz) c1(challenger_2) n(1) n1(tankman:4)) }
- 
 
- ;Варриор с дзшкой и третьей штурмовой
- {"warrior_wrap2_ukr_inf" {fore 0} ("v3" c(340) sc(50) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(9002) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3) n2(azov_mg:1) n3(azov_smg1:2) n4(azov_smg2:2) n5(azov_nlaw:2))}
- 
-  ;БМ Оплот
+ ;БМ «Оплот»
  {"bm_oplot_ukr" {fore -1.0} ("v3" c(250) sc(130) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(25433) cw(0) cp(10) t(all_nz) c1(bm_oplot) n(1) n1(tankman:3)) }
- 
-  ;УАЗ с СПГ-9
- {"uaz469_spg9_ukr" {fore 1.0} ("v3" c(250) sc(10) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(25434) cw(0) cp(10) t(all_nz) c1(uaz469_spg9) n(1) n1(tankman:3)) }
- 
-   ;Панзергаубица
-  {"pzh2000_ukr" {fore 0.45} ("v3" c(1500) sc(200) g(artstvolger)  b(extra) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(pzh2000) n(1) n1(tankman:5)   ) }
- 
-   ;БМ-30
-  {"bm30_ukr" {fore 0} ("v3" c(900) sc(200) g(RSZO)  b(extra) brig(art_ua) s(ukr)  i(233) cw(0) cp(15) t(all_nz) c1(bm-30_tornado_s) n(1) n1(tankman:4)   ) }
-  
-  ;атахрякс
-  {"m142_atacams_ukr" {fore 0} ("v3" c(900) sc(200) g(RSZO)  b(extra) brig(art_ua) s(ukr)  i(23785) cw(0) cp(15) t(all_nz) c1(m142_himars_atacams_ukr) n(1) n1(tankman:2)   ) }
- 
+
+ ;Warrior с ДЗ и третьей штурмовой
+ {"warrior_wrap2_ukr_inf" {fore 0} ("v3" c(340) sc(50) g(mobshtorm)  b(extra) brig(ngu_ua) s(ukr)  i(9002) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(5) n1(tankman:3) n2(azov_mg:1) n3(azov_smg1:2) n4(azov_smg2:2) n5(azov_nlaw:2))}
+
+ ;УАЗ с СПГ-9
+ {"uaz469_spg9_ukr" {fore 1.0} ("v3" c(250) sc(10) g(newua)  b(extra) brig(vsu_ua) s(ukr)  i(25434) cw(0) cp(10) t(all_nz) c1(uaz469_spg9) n(1) n1(tankman:3)) }
+
+ ;PzH 2000
+ {"pzh2000_ukr" {fore 0.45} ("v3" c(1500) sc(200) g(artstvolger)  b(extra) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(pzh2000) n(1) n1(tankman:5)   ) }
+
+ ;БМ-30
+ {"bm30_ukr" {fore 0} ("v3" c(900) sc(200) g(RSZO)  b(extra) brig(art_ua) s(ukr)  i(233) cw(0) cp(15) t(all_nz) c1(bm-30_tornado_s) n(1) n1(tankman:4)   ) }
+
+ ;HIMARS с ATACMS
+ {"m142_atacams_ukr" {fore 0} ("v3" c(900) sc(200) g(RSZO)  b(extra) brig(art_ua) s(ukr)  i(23785) cw(0) cp(15) t(all_nz) c1(m142_himars_atacams_ukr) n(1) n1(tankman:2)   ) }
+

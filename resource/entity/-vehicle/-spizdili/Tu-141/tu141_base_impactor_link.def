@@ -1,11 +1,11 @@
 {actor
 	(include "/properties/projectile_impactor.ext")
-	{Extension "Tu_141_base.mdl"}
+	{Extension "tu141_ammo.mdl"}
 	{props "projectile_impactor" "propfan"}
 	{extender "stuff"
 		{item "tu141_base_impactor"}
 	}
-	{volume "base"
+	{volume "body"
 		{able {contact} {bullet} {blast} {contact_ground}}
 	}
 	;following record interrupts detonation, it must not be in _impactor, only in _impactor_link
