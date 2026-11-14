@@ -176,8 +176,8 @@
  ;БМП-1 с десантом и ПТ стрелками
  {"bmp1_ukr_tro_at" {fore 1} ("v3" c(150) sc(120) g(mihail)  b(vsu_ua_hqcar) brig(vsu_ua) s(ukr)  i(6) cw(10) cp(10) t(all_nz) c1(bmp1_new) n(2) n1(tankman:3) n2(ukr_at:3) n3(ukr_mgunua:1) n4(ukr_mgunhelpua:1) n5(ukr_smgua:1) n6(ukr_smg2ua:1))}
 
- ;Leopard 1A4
- {"leopard_c1" ("v" c(240) brig(vsu_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(90) b(vsu_ua_hqcar)   i(1) m(2) cw(0) cp(25))  {fore 1.0}}
+ ;Leopard 1A5 UA with ERA (Kontakt-1 + Nozh), replaces Leopard C1
+ {"leopard_1a5_ukr" ("v" c(300) brig(vsu_ua) t(all_nz) s(ukr) n(4) g(oldua)  sc(120) b(vsu_ua_hqcar)   i(1) m(2) cw(0) cp(30))  {fore 1.0}}
 
  ;Трофейный Т-62М
  {"t62m_ukr_trophy" {fore 1} ("v3" c(240) sc(100) g(oldsovua) b(vsu_ua_hqcar) brig(vsu_ua) s(ukr) i(24) cw(0) cp(25) t(all_nz) c1(t62m) n(1) n1(tankman:4)) }

@@ -122,6 +122,7 @@
 {"m113a_ser"			{structure "cwds_ifv"}}
 {"ypr_765"			{structure "cwds_ifv"}}
 {"leopard_2a4_dz"			{structure "cwds_tank"}}
+{"leopard_1a5_ukr"			{structure "cwds_tank"}}
 {"tochka_y"				{structure "cwds_otrk8"}}
 {"tochka_y_wagner"				{structure "cwds_otrk8"}}
 {"mt12_with_mtlb"				{structure "cwds_ifv"}}

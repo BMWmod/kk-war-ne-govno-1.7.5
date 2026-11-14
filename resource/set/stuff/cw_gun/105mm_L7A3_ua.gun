@@ -1,0 +1,100 @@
+;Leopard 1A5 UA: clone of 105mm_M68 (L7A3) with Leopard 2A4 level range and accuracy
+{from "pattern tank_gun"
+	{filling "bullet105_NATO" 3}
+	{fireSound "gun/m68"}
+	{reloadSound "Abrams-Reload"}
+	{RecoveryTime 6.7}
+	{rechargeTime 6.7}
+	{range 150 155}
+	("speed" s(737))
+	("100-128caliber")
+	{calibre 15}
+	("damage4" a(200) b(200) c(200) d(200) e(200))
+	("CW_acc_common" mils(0.26))
+	("CW_acc_common_140" mils(0.26))
+	{cursor "cannon_on_HESH"}
+	{cursorReloading "cannon_reload_HESH"}
+	{parameters "bullet105_USA apcr_h"
+		("CW_APCR_damage_DU1650" penetr_2000m(420))
+		{range 150 155}
+		{RecoveryTime 5.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1475))
+	}
+	{parameters "bullet105_USA apcr"
+		("CW_APCR_damage_WC1500" penetr_2000m(350))
+		{range 150 155}
+		{RecoveryTime 5.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1475))
+	}
+	{parameters "bullet105_cn apcr_h"
+		("CW_APCR_damage_WC1500" penetr_2000m(600))
+		{range 150 155}
+		{RecoveryTime 5.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1540))
+	}
+	{parameters "bullet105_cn apcr"
+		("CW_APCR_damage_WC1500" penetr_2000m(501))
+		{range 150 155}
+		{RecoveryTime 5.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1530))
+	}
+	{parameters "bullet105_cn rok"
+		("damage4" a(0.3) b(0.3) c(0.3) d(0.3) e(0.3))
+		{range 1 1}
+		("CW_acc_common" mils(0))
+		("CW_acc_common_170" mils(0))
+		{cursor "cannon_on_heat_2"}
+		{cursorReloading "cannon_reload_heat"}
+		{speed 1000}
+	}
+	{parameters "bullet105_IDF apcr"
+		("CW_APCR_damage_WC1500" penetr_2000m(475))
+		{range 150 155}
+		{RecoveryTime 5.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1475))
+	}
+	{parameters "cm"
+		("CW_acc_common" mils(0.26))
+		("CW_acc_common_140" mils(0.26))
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+		{range 150 155}
+		("speed" s(1174))
+	}
+	{parameters "fg"
+		("CW_acc_common" mils(0.2))
+		("CW_acc_common_140" mils(0.2))
+		{cursor "cannon_on_fg_4"}
+		{cursorReloading "cannon_reload_fg"}
+		{range 150 155}
+		("speed" s(1174))
+	}
+	{parameters "sm"
+		("CW_acc_common" mils(0.26))
+		("CW_acc_common_140" mils(0.26))
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+		{range 150 155}
+		("speed" s(1174))
+	}
+}

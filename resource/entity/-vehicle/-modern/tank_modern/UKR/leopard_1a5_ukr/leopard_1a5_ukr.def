@@ -1,0 +1,294 @@
+{Entity
+	
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium_M" "turret_rotator" "vision_lev05" "leopard" "with_open_zpu" "cw_panorama"}
+	{targetSelector "tank"}
+
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+
+
+	("armor_medium" turret(140 140 30 25) body(70 32 25 20))  
+	("comp_armor_increment" turret(28 28 28 40) body(28))	
+	("armor_mantlet" t(80)) 
+	("armor_engine"  t(30))
+
+;Ukrainian Leopard 1A5 with ERA: Kontakt-1 on turret, gun shield and hull sides; Nozh on upper glacis.
+;d_a1-d_a14 = Nozh (glacis), d_a15-d_a129 = Kontakt-1. Each element disappears when it fires. Tuned for this tank: Kontakt-1 +250 vs HEAT, Nozh 150 vs all +300 vs HEAT.
+("ERA_element" args 1)("ERA_element" args 2)("ERA_element" args 3)("ERA_element" args 4)("ERA_element" args 5)
+("ERA_element" args 6)("ERA_element" args 7)("ERA_element" args 8)("ERA_element" args 9)("ERA_element" args 10)
+("ERA_element" args 11)("ERA_element" args 12)("ERA_element" args 13)("ERA_element" args 14)("ERA_element" args 15)
+("ERA_element" args 16)("ERA_element" args 17)("ERA_element" args 18)("ERA_element" args 19)("ERA_element" args 20)
+("ERA_element" args 21)("ERA_element" args 22)("ERA_element" args 23)("ERA_element" args 24)("ERA_element" args 25)
+("ERA_element" args 26)("ERA_element" args 27)("ERA_element" args 28)("ERA_element" args 29)("ERA_element" args 30)
+("ERA_element" args 31)("ERA_element" args 32)("ERA_element" args 33)("ERA_element" args 34)("ERA_element" args 35)
+("ERA_element" args 36)("ERA_element" args 37)("ERA_element" args 38)("ERA_element" args 39)("ERA_element" args 40)
+("ERA_element" args 41)("ERA_element" args 42)("ERA_element" args 43)("ERA_element" args 44)("ERA_element" args 45)
+("ERA_element" args 46)("ERA_element" args 47)("ERA_element" args 48)("ERA_element" args 49)("ERA_element" args 50)
+("ERA_element" args 51)("ERA_element" args 52)("ERA_element" args 53)("ERA_element" args 54)("ERA_element" args 55)
+("ERA_element" args 56)("ERA_element" args 57)("ERA_element" args 58)("ERA_element" args 59)("ERA_element" args 60)
+("ERA_element" args 61)("ERA_element" args 62)("ERA_element" args 63)("ERA_element" args 64)("ERA_element" args 65)
+("ERA_element" args 66)("ERA_element" args 67)("ERA_element" args 68)("ERA_element" args 69)("ERA_element" args 70)
+("ERA_element" args 71)("ERA_element" args 72)("ERA_element" args 73)("ERA_element" args 74)("ERA_element" args 75)
+("ERA_element" args 76)("ERA_element" args 77)("ERA_element" args 78)("ERA_element" args 79)("ERA_element" args 80)
+("ERA_element" args 81)("ERA_element" args 82)("ERA_element" args 83)("ERA_element" args 84)("ERA_element" args 85)
+("ERA_element" args 86)("ERA_element" args 87)("ERA_element" args 88)("ERA_element" args 89)("ERA_element" args 90)
+("ERA_element" args 91)("ERA_element" args 92)("ERA_element" args 93)("ERA_element" args 94)("ERA_element" args 95)
+("ERA_element" args 96)("ERA_element" args 97)("ERA_element" args 98)("ERA_element" args 99)("ERA_element" args 100)
+("ERA_element" args 101)("ERA_element" args 102)("ERA_element" args 103)("ERA_element" args 104)("ERA_element" args 105)
+("ERA_element" args 106)("ERA_element" args 107)("ERA_element" args 108)("ERA_element" args 109)("ERA_element" args 110)
+("ERA_element" args 111)("ERA_element" args 112)("ERA_element" args 113)("ERA_element" args 114)("ERA_element" args 115)
+("ERA_element" args 116)("ERA_element" args 117)("ERA_element" args 118)("ERA_element" args 119)("ERA_element" args 120)
+("ERA_element" args 121)("ERA_element" args 122)("ERA_element" args 123)("ERA_element" args 124)("ERA_element" args 125)
+("ERA_element" args 126)("ERA_element" args 127)("ERA_element" args 128)("ERA_element" args 129)
+	{armor
+		{setting "d_a_nozh"
+			{thickness 150}
+			{durability {blast {koef 12}} {pierce {value 75}}}
+			{threshold {blast {koef 1}} {pierce {koef 2} {calibre 6}}}
+			{volumes "d_a1" "d_a2" "d_a3" "d_a4" "d_a5" "d_a6" "d_a7" "d_a8" "d_a9" "d_a10"
+				"d_a11" "d_a12" "d_a13" "d_a14"}
+		}
+		{setting "comp_d_a_nozh"
+			{thickness 300}
+			{durability {blast {koef 12}} {pierce {value 120}}}
+			{threshold {blast {koef 1}} {pierce {koef 2} {calibre 6}}}
+			{volumes "comp_d_a1" "comp_d_a2" "comp_d_a3" "comp_d_a4" "comp_d_a5" "comp_d_a6" "comp_d_a7" "comp_d_a8" "comp_d_a9" "comp_d_a10"
+				"comp_d_a11" "comp_d_a12" "comp_d_a13" "comp_d_a14"}
+		}
+		{setting "d_a_k1"
+			{thickness 10}
+			{durability {blast {koef 12}} {pierce {value 16}}}
+			{threshold {blast {koef 1}} {pierce {koef 2} {calibre 6}}}
+			{volumes "d_a15" "d_a16" "d_a17" "d_a18" "d_a19" "d_a20" "d_a21" "d_a22" "d_a23" "d_a24"
+				"d_a25" "d_a26" "d_a27" "d_a28" "d_a29" "d_a30" "d_a31" "d_a32" "d_a33" "d_a34"
+				"d_a35" "d_a36" "d_a37" "d_a38" "d_a39" "d_a40" "d_a41" "d_a42" "d_a43" "d_a44"
+				"d_a45" "d_a46" "d_a47" "d_a48" "d_a49" "d_a50" "d_a51" "d_a52" "d_a53" "d_a54"
+				"d_a55" "d_a56" "d_a57" "d_a58" "d_a59" "d_a60" "d_a61" "d_a62" "d_a63" "d_a64"
+				"d_a65" "d_a66" "d_a67" "d_a68" "d_a69" "d_a70" "d_a71" "d_a72" "d_a73" "d_a74"
+				"d_a75" "d_a76" "d_a77" "d_a78" "d_a79" "d_a80" "d_a81" "d_a82" "d_a83" "d_a84"
+				"d_a85" "d_a86" "d_a87" "d_a88" "d_a89" "d_a90" "d_a91" "d_a92" "d_a93" "d_a94"
+				"d_a95" "d_a96" "d_a97" "d_a98" "d_a99" "d_a100" "d_a101" "d_a102" "d_a103" "d_a104"
+				"d_a105" "d_a106" "d_a107" "d_a108" "d_a109" "d_a110" "d_a111" "d_a112" "d_a113" "d_a114"
+				"d_a115" "d_a116" "d_a117" "d_a118" "d_a119" "d_a120" "d_a121" "d_a122" "d_a123" "d_a124"
+				"d_a125" "d_a126" "d_a127" "d_a128" "d_a129"}
+		}
+		{setting "comp_d_a_k1"
+			{thickness 250}
+			{durability {blast {koef 12}} {pierce {value 16}}}
+			{threshold {blast {koef 1}} {pierce {koef 2} {calibre 6}}}
+			{volumes "comp_d_a15" "comp_d_a16" "comp_d_a17" "comp_d_a18" "comp_d_a19" "comp_d_a20" "comp_d_a21" "comp_d_a22" "comp_d_a23" "comp_d_a24"
+				"comp_d_a25" "comp_d_a26" "comp_d_a27" "comp_d_a28" "comp_d_a29" "comp_d_a30" "comp_d_a31" "comp_d_a32" "comp_d_a33" "comp_d_a34"
+				"comp_d_a35" "comp_d_a36" "comp_d_a37" "comp_d_a38" "comp_d_a39" "comp_d_a40" "comp_d_a41" "comp_d_a42" "comp_d_a43" "comp_d_a44"
+				"comp_d_a45" "comp_d_a46" "comp_d_a47" "comp_d_a48" "comp_d_a49" "comp_d_a50" "comp_d_a51" "comp_d_a52" "comp_d_a53" "comp_d_a54"
+				"comp_d_a55" "comp_d_a56" "comp_d_a57" "comp_d_a58" "comp_d_a59" "comp_d_a60" "comp_d_a61" "comp_d_a62" "comp_d_a63" "comp_d_a64"
+				"comp_d_a65" "comp_d_a66" "comp_d_a67" "comp_d_a68" "comp_d_a69" "comp_d_a70" "comp_d_a71" "comp_d_a72" "comp_d_a73" "comp_d_a74"
+				"comp_d_a75" "comp_d_a76" "comp_d_a77" "comp_d_a78" "comp_d_a79" "comp_d_a80" "comp_d_a81" "comp_d_a82" "comp_d_a83" "comp_d_a84"
+				"comp_d_a85" "comp_d_a86" "comp_d_a87" "comp_d_a88" "comp_d_a89" "comp_d_a90" "comp_d_a91" "comp_d_a92" "comp_d_a93" "comp_d_a94"
+				"comp_d_a95" "comp_d_a96" "comp_d_a97" "comp_d_a98" "comp_d_a99" "comp_d_a100" "comp_d_a101" "comp_d_a102" "comp_d_a103" "comp_d_a104"
+				"comp_d_a105" "comp_d_a106" "comp_d_a107" "comp_d_a108" "comp_d_a109" "comp_d_a110" "comp_d_a111" "comp_d_a112" "comp_d_a113" "comp_d_a114"
+				"comp_d_a115" "comp_d_a116" "comp_d_a117" "comp_d_a118" "comp_d_a119" "comp_d_a120" "comp_d_a121" "comp_d_a122" "comp_d_a123" "comp_d_a124"
+				"comp_d_a125" "comp_d_a126" "comp_d_a127" "comp_d_a128" "comp_d_a129"}
+		}
+		{setting "era_backing_sheets"
+			{thickness 8}
+			{durability {blast {value 100}} {pierce {koef 999}}}
+			{threshold {blast {koef 2} {value 50}}}
+			{volumes "era_sheet1" "era_sheet2" "era_sheet3" "era_sheet4" "era_sheet5" "era_sheet6" "era_sheet7" "era_sheet8" "era_sheet9" "era_sheet10"
+				"era_sheet11" "era_sheet12" "era_sheet13" "era_sheet14" "era_sheet15" "era_sheet16" "era_sheet17" "era_sheet18" "era_sheet19" "era_sheet20"
+				"era_sheet21" "era_sheet22" "era_sheet23" "era_sheet24" "era_sheet25" "era_sheet26" "era_sheet27" "era_sheet28" "era_sheet29" "era_sheet30"
+				"era_sheet31" "era_sheet32" "era_sheet33" "era_sheet34" "era_sheet35" "era_sheet36" "era_sheet37" "era_sheet38" "era_sheet39" "era_sheet40"
+				"era_sheet41" "era_sheet42" "era_sheet43" "era_sheet44" "era_sheet45"}
+		}
+		{setting "mantlet_backing_sheets"
+			{thickness 20}
+			{durability {blast {value 100}} {pierce {koef 999}}}
+			{threshold {blast {koef 2} {value 50}}}
+			{volumes "era_sheet46" "era_sheet47" "era_sheet48" "era_sheet49" "era_sheet50" "era_sheet51" "era_sheet52" "era_sheet53"}
+		}
+		{setting "glacis_appl_plates"
+			{thickness 15}
+			{durability {blast {value 100}} {pierce {koef 999}}}
+			{threshold {blast {koef 2} {value 50}}}
+			{volumes "app_plate1" "app_plate2" "app_plate3" "app_plate4"}
+		}
+	}
+
+
+
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldr5" {tags "shield"}}
+
+("shield_t-64a_1981")
+
+
+
+;====================================
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "M1a1_mgun2"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "M1a1_mgun2"}{base "open"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "M1a1_mgun2"}{base "open_c"}}
+			{reverse 	{end	"emit_tank_2_hold"}	{base "open_c" -1}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_highArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	("crew_inside")	
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{boarder
+		{door "emit0"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+	("crew_human" place(commander)		door1(emit2) door2(emit1) visor(commander))
+	("crew_human" place(gunner)	 	door1(emit2) door2(emit1)  visor(main))
+	("gunner_visible")
+
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_IR_2g"}
+			{bone "visor_emes"}
+		}
+		{visor "commander"
+			{vision "tank_gunner_optic_2g"}
+			{bone "Visor3"}
+		}
+		{visor "up"
+			{vision "vehicle_top_mgun"}
+			{bone "mgun3"}
+		}
+	}
+
+
+;=================================================	
+	{extender "inventory"
+		{box
+			{item "ammo bullet105_GER ap" 10}
+			{item "ammo bullet105_IDF apcr" 22}
+			{item "ammo bullet105_USA cm" 22}
+			{item "ammo 762Nato" 5500}
+			{item "ammo smoke_shtora" 8}	
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_L7A3_ua" filling "ammo bullet105_IDF apcr" 1}	
+			{gunner "gunner"}
+			{charger "gunner"}                 
+			("CW_stab_abm" abm(0.37))
+			("CW_stab_ld_suo")
+		}
+		{place "mgun1"
+			{type "mgun_aa"}
+			{weapon "MG3" filled}
+			{linkbone "mgun3"}
+			{foresight "foresight6"}
+			{gunner "gunner2"}
+			{charger "gunner2"}                 
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "MG3" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"} 
+			{basic}
+			("CW_stab_abm" abm(0.86))
+			("CW_stab_ld_suo")
+		}
+		{place "mgun18"			
+			{type "mgun_left"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+			{barrels 4}
+			{basic}
+		}
+		{place "mgun19"			
+			{type "mgun_right"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight20"}
+			{barrels 4}
+			{basic}
+		}
+	}
+
+	{mass 45000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(10.47) len(1.0))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(45.0)
+			Width(3.37)
+			Power(819)
+			Realspeed(65)
+			Gamespeed(41) 
+		)
+		{RearGears		0.20 0.50}}
+		("CW_fuelbag" Range(600) Fuelvolume(985))
+		("CW_speed_lev" Gamespeed(41))
+	}
+	{props "cwfs_fuel_800"}
+
+	("two_headlights")
+	{Extension "leopard_1a5_ukr.mdl"}
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+	("recoil_side_common")
+	("CW_turr_speed" deg_per_s(30))
+	("cw_suspension_7tracks" downmax(-0.12) upmax(0.28))
+}
+

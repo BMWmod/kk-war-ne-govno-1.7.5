@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/leopard_1a4_c1/track"}
+	{emitsheat}
+{blend test}
+}

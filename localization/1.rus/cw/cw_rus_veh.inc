@@ -1060,6 +1060,7 @@
 					{"leopard_1a4"						"<c(FFFFFF)e(shadow)>Leopard 1A4</c>"}
 					{"leopard_1a5"						"<c(FFFFFF)e(shadow)>Leopard 1A5</c>"}
 					{"leopard_c1"						"<c(FFFFFF)e(shadow)>Leopard C1</c>"}
+					{"leopard_1a5_ukr"						"<c(FFFFFF)e(shadow)>Leopard 1A5 с ДЗ</c>"}
 				;leopard_2a0_2a4
 					{"leopard_2a0"						"<c(FFFFFF)e(shadow)>Leopard 2</c>"}
 					{"leopard_2a4"						"<c(FFFFFF)e(shadow)>Leopard 2A4</c>"}
