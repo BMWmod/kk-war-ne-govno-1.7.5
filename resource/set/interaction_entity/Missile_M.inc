@@ -8547,7 +8547,7 @@
 			}
 		}
 	}
-	("proj_impulse_movement" cont_impulse(1) main_impulse(0.6) const_vel(3))
+	("proj_impulse_movement" cont_impulse(1) main_impulse(0.65) const_vel(3))
 }
 {
 	"umpk_500_guided"

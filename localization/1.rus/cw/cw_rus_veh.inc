@@ -74,7 +74,7 @@
 {"2s7_pion"						"<c(FFFFFF)e(shadow)>2C7 Пион</c>"}
 
 {"su-34_umpk"						"<c(FFFFFF)e(shadow)>СУ-34 УМПК</c>"}
-{"su-34_umpk3000"						"<c(FFFFFF)e(shadow)>СУ-34 УМПК ФАБ-3000</c>"}
+{"su-34_fab3000"						"<c(FFFFFF)e(shadow)>СУ-34 УМПК ФАБ-3000</c>"}
 {"mi17_unarmed_supl"						"<c(FFFFFF)e(shadow)>МИ-17 снабжения</c>"}
 {"kornet_base_stan_isis"						"<c(FFFFFF)e(shadow)>9П163М-1 Корнет-П</c>"}
 {"ptur_tow_isis"						"<c(FFFFFF)e(shadow)>BMG-71 TOW</c>"}
