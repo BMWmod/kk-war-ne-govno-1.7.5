@@ -8687,3 +8687,22 @@
 		}
 	}
 }
+
+{
+	"an196_base_impactor_link"
+	{
+		on "link_sound" overload
+		{
+			if linked
+			{
+				link_sound "fly"	"vehicle/airborne/small_uav/shahed136_engine"
+			}
+			{
+				play_sound "fly" 1
+			}
+			{
+				tags add "cwps_missile_minimap"
+			}
+		}
+	}
+}

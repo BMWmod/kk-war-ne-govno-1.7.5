@@ -316,6 +316,10 @@
  ;Ту-141
  {"tu141_base"	("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot tu141) s(ukr) n(0) g(extra01)  sc(20) b(extra) i(1083) cw(0) cp(2))  {fore -90.0}}
 
+ ;АН-196 «Лютый»: 10 спецочков
+ {"an196_base" ("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot an196) s(ukr) n(0) g(extra01) sc(10) b(extra) i(1084) cw(0) cp(2)) {fore -90.0}}
+
+
  ;БМ «Оплот»
  {"bm_oplot_ukr" {fore -1.0} ("v3" c(250) sc(130) g(newua)  b(extra) brig(brt_ua) s(ukr)  i(25433) cw(0) cp(10) t(all_nz) c1(bm_oplot) n(1) n1(tankman:3)) }
 

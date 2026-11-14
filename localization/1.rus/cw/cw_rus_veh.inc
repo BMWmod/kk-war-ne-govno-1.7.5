@@ -327,6 +327,7 @@
 				{"aladin"								"<c(00FF00)e(shadow)>EMT Aladin<c(FFFFFF)e(shadow)></c>"}
 			;ir
 				{"shahed136_base"						"<c(00FF00)e(shadow)>Shahed-136<c(FFFFFF)e(shadow)></c>"}
+				{"an196_base"						"<c(00FF00)e(shadow)>АН-196 «Лютый»<c(FFFFFF)e(shadow)></c>"}
 			;rus
 				;an-12
 					{"an-12"							"<c(FFFFFF)e(shadow)>Ан-12</c>"}
@@ -1040,6 +1041,7 @@
 				{"spike_nlos_fg_carrier"				"<c(FFFFFF)e(shadow)>Spike NLOS - ОФ</c>"}
 				{"switchblade300_carrier"				"<c(FFFFFF)e(shadow)>Switchblade 300</c>"}
 				{"shahed136_base_carrier"				"<c(FFFFFF)e(shadow)>Shahed-136</c>"}
+				{"an196_base_carrier"				"<c(FFFFFF)e(shadow)>АН-196 «Лютый»</c>"}
 			;sam_carrier
 				{"x59m_carrier"							"<c(FFFFFF)e(shadow)>Х-59М Овод-М  изд. Д-9М</c>"}
 		;tank_modern

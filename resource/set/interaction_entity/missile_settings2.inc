@@ -1388,3 +1388,31 @@
 {("CWPS_torpedo" missilename(mk48_torpedo) rotation(0) rand_move(0) smoke_vulnerable(0) range(40) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
 {("CWPS_torpedo" missilename(ugmt1_torpedo) rotation(0) rand_move(0) smoke_vulnerable(0) range(18) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
 {("CWPS_torpedo" missilename(torpedo_mk46) rotation(0) rand_move(0) smoke_vulnerable(0) range(18) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
+
+{("CWPS_proj" missilename(an196_base) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(35) tail(none) eng_time(1))
+	{on "link_effects" overload
+		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
+	}
+}
+{"an196_base_impactor"
+	(define "cut_part"
+		{tear "piece_medium_steel" bone %0
+			{impulse up 8 1 dir 5 2 cx 5 2 cy 5 2 rnd_dir 10 no_position}
+			{volumes enable contact contact_ground}
+			{call "check_delete_part"}
+		}
+	)
+	{on "detonate" overload
+		{if rand 0.3 ("cut_part" args "part1")}
+		{if rand 0.3 ("cut_part" args "tail1")}
+		{if rand 0.3 ("cut_part" args "tail2")}
+	    {if altitude 0
+		 {spawn "proj_restrictor" "root" x}
+		 {delay 0.05 {stuff_detonate}}
+		  else
+			{gravity 0}
+			{impulse up 2.0}
+			{call "underground_detonate"}
+		}
+	}
+}

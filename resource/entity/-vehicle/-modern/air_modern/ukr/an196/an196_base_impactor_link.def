@@ -1,0 +1,28 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{Extension "an196_ammo.mdl"}
+	{props "projectile_impactor" "propfan"}
+	{extender "stuff"
+		{item "an196_base_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	;following record interrupts detonation, it must not be in _impactor, only in _impactor_link
+	("targetable_impactor_small")	;low speed and high flight altitude
+	{Volume "body3"
+		{tags "part"}
+	}
+	{Volume "body4"
+		{tags "part"}
+	}
+	{Volume "engine"
+		{tags "part"}
+	}
+	{Volume "tail1"
+		{tags "part"}
+	}
+	{Volume "tail2"
+		{tags "part"}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "an196_propeller" {MipMap 1}}
+ {blend none}
+}

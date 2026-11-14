@@ -1,0 +1,5 @@
+{material bump
+ {diffuse "an196_body" {MipMap 1}}
+ {bump "an196_body_bp"}
+ {blend none}
+}

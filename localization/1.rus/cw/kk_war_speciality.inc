@@ -194,6 +194,7 @@
 				{"aladin"								"<c(FFFF00)>Разведывательный БПЛА</c>"}
 			;ir
 				{"shahed136_base"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
+				{"an196_base"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
 			;rus
 				;an-12
 					{"an-12"							"<c(FFFF00)>Военно-транспортный самолёт</c>"}
@@ -906,6 +907,7 @@
 				{"spike_nlos_fg_carrier"				"<c(FFFF00)>Противотанковая управляемая ракета</c>"}
 				{"switchblade300_carrier"				"<c(FFFF00)>Барражирующий боеприпас</c>"}
 				{"shahed136_base_carrier"				"<c(FFFF00)>Барражирующий боеприпас</c>"}
+				{"an196_base_carrier"				"<c(FFFF00)>Барражирующий боеприпас</c>"}
 			;sam_carrier
 				{"x59m_carrier"							"<c(FFFF00)>Ракета воздух-земля</c>"}
 		;tank_modern

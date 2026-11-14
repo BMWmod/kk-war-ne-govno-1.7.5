@@ -1,0 +1,254 @@
+;Exported by: Timosh
+;Date:        Tue Nov 22 15:24:29 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????? ?????????\TRUCK DAF CD 380 Drone Kamikadze pre final\Shahed 136\Shahed_136 7.max
+{Skeleton
+	{animation
+		{sequence "move" {Speed 1}}
+	}
+	{bone "basis"
+		{Parameters "SteerMax=20;Wheelradius=0.15;"}
+		{Orientation
+			1	0	0
+			0	0	1
+			0	1	0
+		}
+		{bone revolute "rudder_proj"
+			{Limits -20 20}
+			{Speed 0.04}
+			{bone revolute "elevator_proj"
+				{Limits -20 20}
+				{Speed 0.04}
+			}
+		}
+		{bone "pivot_front"
+			{Position 31 0 -13}
+			{bone "supportfront"
+				{Parameters "support;"}
+			}
+		}
+		{bone "pivot_back"
+			{Position 4 0 -13}
+			{bone "supportleft"
+				{Parameters "support;"}
+				{Position 0 12 0}
+			}
+			{bone "supportright"
+				{Parameters "support;"}
+				{Position 0 -12 0}
+			}
+		}
+		{bone "body"
+			{Parameters "ID=body;"}
+			{VolumeView "body.ply"}
+			{bone "body_systems"}
+			{bone "ir_2gen_emitter"
+				{Position -6 0 2}
+			}
+			{bone "ir_1gen_emitter"
+				{Position -6 0 2}
+			}
+			{bone "visor_ols"
+				{Position 33 0 0}
+			}
+			{bone "aiming_mark"
+				{Position 33 0 0}
+			}
+			{bone revolute "foresight1_rot"
+				{Limits -30 30}
+				{Speed 1}
+				{Position 32 0 0}
+				{bone revolute "foresight1"
+					{Limits -20 35}
+					{Speed 1}
+					{Orientation
+						1	0	0
+						0	0	-1
+						0	1	0
+					}
+				}
+			}
+			{bone "foresight_spawn"}
+			{bone "part4"
+				{bone "fx_starter"}
+			}
+			{bone revolute "aileron2"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone revolute "elevator2"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone "steer_elevator2"
+				{Parameters "ID=body;"}
+			}
+			{bone "steer_aileron2"
+				{Parameters "ID=body;"}
+			}
+			{bone revolute "elevator1"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone revolute "aileron1"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone "steer_aileron1"
+				{Parameters "ID=body;"}
+			}
+			{bone "steer_elevator1"
+				{Parameters "ID=body;"}
+			}
+			{bone "part1"
+				{Parameters "ID=engine;"}
+				{Position -5.8 0 1.76}
+				{VolumeView "part1.ply"}
+				{bone "kolpak"
+					{Parameters "ID=body;"}
+					{Position -1.4 0 0}
+					{bone "propeller"
+						{Parameters "ID=body;"}
+						{VolumeView "propeller.ply"}
+					}
+					{bone "propeller_work1"}
+				}
+			}
+			{bone "tail2"
+				{Parameters "ID=body;"}
+				{VolumeView "tail2.ply"}
+				{bone "enumerator"}
+			}
+			{bone "tail1"
+				{Parameters "ID=body;"}
+				{VolumeView "tail1.ply"}
+				{bone "enumerator1"}
+			}
+			{bone "wingl1"
+				{Parameters "ID=body;"}
+				{VolumeView "wingl1.ply"}
+			}
+			{bone "wingr1"
+				{Parameters "ID=body;"}
+				{VolumeView "wingr1.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 42 8.6 7.7}
+	{Bone "body"}
+	{Position 12 0 0}
+}
+{Volume "body1"
+	{Box 14 53 2.2}
+	{Bone "wingl1"}
+	{Position 7 -29 -1.6}
+}
+{Volume "body2"
+	{Box 14 53 2.2}
+	{Bone "wingr1"}
+	{Position 7 29 -1.6}
+}
+{Volume "body3"
+	{Box 38 1 6.6}
+	{Bone "tail1"}
+	{Position -16 -11.7 1.2}
+}
+{Volume "body4"
+	{Box 38 1 6.6}
+	{Bone "tail2"}
+	{Position -16 11.7 1.2}
+}
+{Volume "tail1"
+	{Box 6 12 8}
+	{Bone "tail1"}
+	{Position -34 -6 8}
+}
+{Volume "tail2"
+	{Box 6 12 8}
+	{Bone "tail2"}
+	{Position -34 6 8}
+}
+{Volume "engine"
+	{Box 6 10 6}
+	{Bone "part1"}
+}
+{Volume "ammo_storage_autocannon"
+	{Box 15 6 6}
+	{Bone "body_systems"}
+	{Position 23 0 0}
+}
+{Volume "fuel_tank_internal_a"
+	{Box 15 6 5}
+	{Bone "body_systems"}
+	{Position 7 0 0}
+}
+{Volume "electronics"
+	{Box 4 5 3}
+	{Bone "body_systems"}
+	{Position 30 0 1}
+}
+{Volume "pilot_panel"
+	{Box 3 3 2}
+	{Bone "body_systems"}
+	{Position 18 0 2}
+}
+{Volume "ppu"
+	{Box 2 2 2}
+	{Bone "body_systems"}
+	{Position 20 0 0}
+}
+{Volume "ptur"
+	{Box 3 3 2}
+	{Bone "body_systems"}
+	{Position 24 0 0}
+}
+{Volume "ptur1"
+	{Box 2 2 2}
+	{Bone "body_systems"}
+	{Position 25 0 0}
+}
+{Volume "ols"
+	{Box 3 3 3}
+	{Bone "body_systems"}
+	{Position 34 0 0}
+}
+{Volume "steering_eler_l"
+	{Box 3 12 1}
+	{Bone "body_systems"}
+	{Position 5 -40 -2}
+}
+{Volume "steering_eler_r"
+	{Box 3 12 1}
+	{Bone "body_systems"}
+	{Position 5 40 -2}
+}
+{Volume "steering_elev"
+	{Box 3 14 1}
+	{Bone "body_systems"}
+	{Position -34 0 9}
+}
+{Volume "steering_rudder"
+	{Box 3 1 4}
+	{Bone "body_systems"}
+	{Position -34 0 10}
+}
+{Volume "gear_front"
+	{Box 4 2 6}
+	{Bone "body_systems"}
+	{Position 32 0 -10}
+}
+{Volume "gear_left"
+	{Box 4 2 6}
+	{Bone "body_systems"}
+	{Position 4 -11 -10}
+}
+{Volume "gear_right"
+	{Box 4 2 6}
+	{Bone "body_systems"}
+	{Position 4 11 -10}
+}

@@ -7644,3 +7644,92 @@
 	}
 }
 
+{
+	"an196"
+	{
+		on "add_movement_sound" overload
+		{
+			link_sound "engine_start"		"vehicle/airborne/small_uav/shahed136_start"
+		}
+		{
+			link_sound "engine_work"		"vehicle/airborne/small_uav/shahed136_engine"
+		}
+		{
+			link_sound "engine_stop"		"vehicle/airborne/small_uav/shahed136_engine_end"
+		}
+	}
+	{
+		on "link_flare_fx" overload
+	}
+	{
+        on "engine_on"
+        {
+            if not "engine_started"
+            {set "engine_started" 1}
+            {play_sound "engine_start"}
+            {ani_play "engine_start" callback}
+        }
+    }
+	{
+		on "check_altitude"
+		{
+			reset_manual_control
+		}
+	}
+	{
+		on animation_end "engine_start"
+		{
+			ani_play "engine_work" loop
+		}
+		{
+			play_sound "engine_work" 1
+		}
+	}
+	("loitering_munition" missilename(an196_base))		(define "cut_part"
+	{
+		tear "piece_medium_steel" bone %0
+		{
+			impulse up 8 1 dir 5 2 cx 5 2 cy 5 2 rnd_dir 10 no_position
+		}
+		{
+			call "check_delete_part"
+		}
+	}
+	)
+	{
+		on "detonate" overload
+		{
+			if rand 0.3 ("cut_part" args "part1")
+		}
+		{
+			if rand 0.3 ("cut_part" args "tail1")
+		}
+		{
+			if rand 0.3 ("cut_part" args "tail2")
+		}
+		{
+			inherited
+		}
+		{
+			stuff_detonate
+		}
+	}
+	{
+		on "underground_detonate" overload
+		{
+			if rand 0.3 ("cut_part" args "part1")
+		}
+		{
+			if rand 0.3 ("cut_part" args "tail1")
+		}
+		{
+			if rand 0.3 ("cut_part" args "tail2")
+		}
+		{
+			inherited
+		}
+		{
+			stuff_detonate
+		}
+	}
+}
