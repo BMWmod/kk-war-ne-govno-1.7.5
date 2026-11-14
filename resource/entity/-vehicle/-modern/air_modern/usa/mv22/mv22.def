@@ -1,0 +1,62 @@
+{actor
+ (include "/properties/Helicopter_M.ext")
+ (include "/properties/car_crew.ext")
+ (include "/properties/shadow/airborn.inc" scale(1.4))
+ (include "/properties/selection/airborne.inc" scale(4.0))
+ {PatherID "airborne"}
+ {Extension "mv22.mdl"}
+ {props "Helicopter_M" "mv22_transport" "steel" "vision_lev_heli" "laser_spo" "IR_spo" "radar_spo"}
+ {targetClass "Helicopter"}
+ {mass 15000}
+ ("missile_aimpoint_air")
+ ("air_armor" main_rotor(5) tail_rotor(3) cabin(3) engine(4) mechanics(2) electronics(2) fuel(2))
+ {Volume "body" {tags "body"} {component "body"} {thickness 2}}
+ {Volume "body1" {tags "body"} {component "body"} {thickness 2}}
+ {Volume "body2" {tags "body"} {component "body"} {thickness 2}}
+ {Volume "body3" {tags "body"} {component "body"} {thickness 2}}
+ {Volume "body4" {tags "body"} {component "body"} {thickness 2}}
+ {Volume "body5" {tags "body"} {component "body"} {thickness 2}}
+ {boarder
+  ; One shared ramp is controlled by landing/takeoff (basis animation).
+  ; Per-person base animations must not move it during a boarding queue.
+  {anm "pilot"
+   {forward {begin "board_dodge_bodyback"} {end "seat_driver_car"}}
+   {reverse {end "emit_body" 1}}
+  }
+  {anm "passenger"
+   {forward {begin "board_dodge_bodyback"} {end "seat_passenger"}}
+   {reverse {end "emit_body" 1}}
+  }
+  {door "emit3" {auto_release_time 1.2}}
+ }
+ (define "mv22_crew"
+  {placer {place "%place" {group "crew"} {linkbone "%place"} {visor "%visor"} {turnoff {sensor} {shadow} {targetable}}}}
+  {boarder {link "%door" "%place" {anm "pilot"} {forward putoff} {reverse puton}}}
+ )
+ (define "mv22_passenger"
+  {placer {place "%place" {group "desant"} {linkbone "%place"} {turnoff {sensor} {shadow} {targetable}}}}
+  {boarder {link "%door" "%place" {anm "passenger"} {forward putoff} {reverse puton}}}
+ )
+ ("mv22_crew" place(driver) door(emit3) visor(driver))
+ ("mv22_crew" place(commander) door(emit3) visor(1))
+ ("mv22_passenger" place(seat1) door(emit3))
+ ("mv22_passenger" place(seat2) door(emit3))
+ ("mv22_passenger" place(seat3) door(emit3))
+ ("mv22_passenger" place(seat4) door(emit3))
+ ("mv22_passenger" place(seat5) door(emit3))
+ ("mv22_passenger" place(seat6) door(emit3))
+ ("mv22_passenger" place(seat7) door(emit3))
+ ("mv22_passenger" place(seat8) door(emit3))
+ {extender "inventory" {box {Size 8 8} {weight 6000}}}
+ ; Unarmed transport: countermeasures only, no guns, missiles or attack ammunition.
+ {Weaponry
+  {place "flare_dropper" {weapon "flare_dropper_128" filled} {foresight "foresight_flare_1"} {charger "driver"} {gunner "driver"}}
+ }
+ {Sensor
+  {Visor "driver" {vision "mp_soldier"} {bone "visor1"}}
+  {Visor "1" {vision "aircraft_optic_IR_3g"} {bone "visor2"}}
+ }
+ ("CW_heli_chassis" Maxspeed(60) turnRadius(22) Acc(4.0) Climb(4.6) Fuel(5500) Fuel_rate(5.5) Fuel_remain(4125))
+ {props "cwfs_fuel_1000"}
+ ("two_headlights")
+}

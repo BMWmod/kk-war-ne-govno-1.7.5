@@ -311,3 +311,4 @@
 		{"box_weapon_usa_gmlrs_cl"					"GMLRS<c(FFAF00)> M31A1 кассетный<c(FFFFFF)>"}
 		{"box_weapon_usa_gmlrs_aw"					"GMLRS<c(FFAF00)> M31A1 Alternate Warhead<c(FFFFFF)>"}
 ;________________________________________________________________________________________________________
+{"mv22" "<c(FFFFFF)e(shadow)>Отделение КМП на MV-22B Osprey</c>"}

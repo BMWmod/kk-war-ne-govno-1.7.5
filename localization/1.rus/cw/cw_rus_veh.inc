@@ -1315,4 +1315,5 @@
 		{"m2a3_btr"										"<c(FFFFFF)e(shadow)>M2A3 Bradley</c>"}
 		{"m2a3_new"										"<c(FFFFFF)e(shadow)>M2A3 Bradley</c>"}
 		{"mortarfru"									"<c(FFFFFF)e(shadow)>MO-120-RT61</c>"}
-		{"ngrd_mp_flag"									"<c(FFFFFF)e(shadow)>Национальная гвардия США</c>"}	
+		{"ngrd_mp_flag"									"<c(FFFFFF)e(shadow)>Национальная гвардия США</c>"}
+{"mv22" "<c(FFFFFF)e(shadow)>MV-22B Osprey</c>"}

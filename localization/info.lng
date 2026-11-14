@@ -15,10 +15,8 @@
 		(include			"1.rus/cw/cw_rus_desc_usa.inc")						;USA units description
 		(include			"1.rus/cw/cw_rus_desc_nato.inc")					;NATO units description
 		(include			"1.rus/custom/custom_rus_desc.inc")					;Custom units description
-		
-		
-		
-	}
+{"mv22" "MV-22B Osprey — транспортный конвертоплан Корпуса морской пехоты США. Поворотные гондолы позволяют переходить между самолётным полётом и зависанием, выполнять вертикальный взлёт и посадку. Предназначен для переброски, высадки и эвакуации пехоты.\n\nЭкипаж: 2 пилота. Десант: 8 морских пехотинцев. Вариант без наступательного вооружения; оснащён тепловыми ловушками."}
+}
 	{"special"
 		(include			"1.rus/cw/cw_rus_speciality.inc")					;Entities specialty/role names
 		(include			"1.rus/custom/custom_rus_speciality.inc")			;Custom entities specialty/role names

@@ -216,6 +216,7 @@
 	{"il-76td"			{structure "cwds_plane_cargo"}}
 ;===================US planes
 	{"uh1y"				{structure "cwds_heli_common"}}
+	{"mv22"				{structure "cwds_heli_common"}}
 	{"apache"			{structure "cwds_heli_attack"}}
 	{"apache_brit"		{structure "cwds_heli_attack"}}
 	{"apache_spike"		{structure "cwds_heli_attack"}}

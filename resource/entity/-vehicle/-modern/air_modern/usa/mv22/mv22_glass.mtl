@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "mv22_glass" {MipMap 1}}
+ {blend none}
+}
