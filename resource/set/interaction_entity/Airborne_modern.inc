@@ -7934,7 +7934,7 @@
                 {spawn "geran5_base" "geran5_launch_%0" x no_normal no_position
                     {set "booster_used" 1}
                     {tags add "g5_air_launched"}
-                    {impulse up -10 forward 45 com}
+                    {impulse up -10 forward 25 com}
                     {chassis_work 1}
                     ; End the ballistic release phase after half a second.
                     {delay 0.5
