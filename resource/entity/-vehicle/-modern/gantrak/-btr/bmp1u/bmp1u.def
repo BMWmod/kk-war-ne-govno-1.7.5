@@ -51,6 +51,7 @@
 			{item "rpg7 weapon" 1}
 	  		{item "f1 grenade" 9}
 			{item "PG-7VL rpg7 ammo" 3}                     
+			{item "ammo shershen cm" 2}
 		}
 	}
     {Weaponry
@@ -63,6 +64,14 @@
 			("CW_stab_abm" abm(0.68))
 			("CW_stab_ld_suo")
         }     
+		{place "gun2"
+			{weapon "weapon shershenx2" filling "ammo shershen cm" 2}
+			{foresight "foresight6"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{barrels 2}
+			{basic}
+		}
 		{place "mgun"
 			{gunner "gunner"}
 			{charger "gunner"}
