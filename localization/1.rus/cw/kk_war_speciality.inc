@@ -243,7 +243,8 @@
 					{"su-25sm_miner"					"<c(FFFF00)>Штурмовик</c>"}
 					{"su-25sm_support"					"<c(FFFF00)>Штурмовик</c>"}
 					{"su-25sm_support_light"			"<c(FFFF00)>Штурмовик</c>"}
-					{"su-25sm_geran5"					""}
+					{"su-25sm_support_light"			"<c(FFFF00)>Штурмовик</c>"}
+					{"su-25sm_geran5"					"<c(FFFF00)>Штурмовик</c>"}
 				;su-25sm_part2
 					{"su-25sm_at"						"<c(FFFF00)>Штурмовик</c>"}
 					{"su-25sm_strike"					"<c(FFFF00)>Штурмовик</c>"}

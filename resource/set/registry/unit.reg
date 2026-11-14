@@ -184,6 +184,7 @@
 	{"su-35_at"			{structure "cwds_plane_attack"}}
 	{"su-35_strike"		{structure "cwds_plane_attack"}}
 	{"su-35_aa_china"		{structure "cwds_plane_attack"}}
+	{"su-25sm_geran5"	{structure "cwds_plane_attack"}}
 	{"su-25sm_support"	{structure "cwds_plane_attack"}}
 	{"su-25sm_support_light"	{structure "cwds_plane_attack"}}
 	{"su-25sm_at"		{structure "cwds_plane_attack"}}
@@ -875,6 +876,7 @@
 	{"torpedotube_rus_x5_right"	{structure "cwds_shipmissile"}}
 ;===================Missile
 	{"x59m_carrier"			{structure "cwds_missile"}}
+	{"geran5_base"			{structure "cwds_missile"}}
 	{"spike_nlos_carrier"			{structure "cwds_missile"}}
 	{"spike_nlos_fg_carrier"			{structure "cwds_missile"}}
 	{"spike-er_carrier"			{structure "cwds_missile"}}
