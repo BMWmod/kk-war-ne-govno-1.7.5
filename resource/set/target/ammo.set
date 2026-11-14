@@ -184,7 +184,9 @@
 		{"bullet" {volume "body"}}	
 	}
 	{fpv_kamikaze
-		{"hmgun"  {volume "body"}}		
+		{"hmgun"  {volume "body"}}
+		{"hrifle" {volume "body"}}
+		{"bullet" {volume "body"}}
 	}
 	{medium_UAV_kamikaze
 		{"rad_aa_passive" {volume "body"}}
