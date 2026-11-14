@@ -1,5 +1,0 @@
-{material bump
- {diffuse "$/model/geran5/g5_wing" {MipMap 1}}
- {bump "$/model/geran5/g5_wing_bp"}
- {blend none}
-}

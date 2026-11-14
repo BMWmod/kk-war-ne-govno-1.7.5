@@ -305,7 +305,7 @@
 					}
 					{bone "rocket02"
 						{Position 1.17798	-3.21233	-7.63804}
-						{VolumeView "rocket02.ply"}
+						{VolumeView "rocket00.ply"}
 					}
 				}
 				{bone "pilonl3"
@@ -366,11 +366,11 @@
 					{VolumeView "pilonr.ply"}
 					{bone "rocket03"
 						{Position 1.17797	3.09428	-7.5669}
-						{VolumeView "rocket03.ply"}
+						{VolumeView "rocket00.ply"}
 					}
 					{bone "rocket01"
 						{Position 1.17797	-3.10208	-7.62053}
-						{VolumeView "rocket01.ply"}
+						{VolumeView "rocket00.ply"}
 					}
 				}
 				{bone "pilonr3"

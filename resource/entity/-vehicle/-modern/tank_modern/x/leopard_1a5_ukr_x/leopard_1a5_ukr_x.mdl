@@ -1281,7 +1281,7 @@
 							0	-1	0
 							-0.28001	-24.53573	4.948899
 						}
-						{VolumeView "sheet_br16_b26.ply"}
+						{VolumeView "sheet_br12_b22.ply"}
 					}
 					{bone "era_sheet9"
 						{Matrix34
@@ -1362,7 +1362,7 @@
 							0	1	0
 							-25.603085	24.064272	4.948897
 						}
-						{VolumeView "sheet_br6_b35.ply"}
+						{VolumeView "sheet_br2_b30.ply"}
 					}
 					{bone "era_sheet18"
 						{Matrix34
@@ -1535,7 +1535,7 @@
 						0.483077	0	0.875578
 						67.675331	-4.345243	-0.970694
 					}
-					{VolumeView "era_noz4_b2.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a3"
 					{Matrix34
@@ -1544,7 +1544,7 @@
 						0.483077	0	0.875578
 						67.675331	-1.584742	-0.970694
 					}
-					{VolumeView "era_noz4_b3.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a4"
 					{Matrix34
@@ -1553,7 +1553,7 @@
 						0.483077	0	0.875578
 						67.675331	1.175758	-0.970694
 					}
-					{VolumeView "era_noz4_b4.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a5"
 					{Matrix34
@@ -1562,7 +1562,7 @@
 						0.483077	0	0.875578
 						67.675331	3.936259	-0.970694
 					}
-					{VolumeView "era_noz4_b5.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a6"
 					{Matrix34
@@ -1571,7 +1571,7 @@
 						0.483077	0	0.875578
 						67.675331	6.69676	-0.970694
 					}
-					{VolumeView "era_noz4_b6.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a7"
 					{Matrix34
@@ -1580,7 +1580,7 @@
 						0.483077	0	0.875578
 						60.011028	-9.864654	3.280511
 					}
-					{VolumeView "era_noz4_b7.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a8"
 					{Matrix34
@@ -1589,7 +1589,7 @@
 						0.483077	0	0.875578
 						60.011028	-7.070544	3.280511
 					}
-					{VolumeView "era_noz4_b8.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a9"
 					{Matrix34
@@ -1598,7 +1598,7 @@
 						0.483077	0	0.875578
 						60.011028	-4.279323	3.280511
 					}
-					{VolumeView "era_noz4_b9.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a10"
 					{Matrix34
@@ -1607,7 +1607,7 @@
 						0.483077	0	0.875578
 						60.011028	-1.563908	3.280511
 					}
-					{VolumeView "era_noz4_b10.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a11"
 					{Matrix34
@@ -1616,7 +1616,7 @@
 						0.483077	0	0.875578
 						60.011028	1.21374	3.280511
 					}
-					{VolumeView "era_noz4_b11.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a12"
 					{Matrix34
@@ -1625,7 +1625,7 @@
 						0.483077	0	0.875578
 						60.011028	3.936293	3.280511
 					}
-					{VolumeView "era_noz4_b12.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a13"
 					{Matrix34
@@ -1634,7 +1634,7 @@
 						0.483077	0	0.875578
 						60.011028	6.727012	3.280511
 					}
-					{VolumeView "era_noz4_b13.ply"}
+					{VolumeView "era_noz4_b1.ply"}
 				}
 				{bone "d_a14"
 					{Matrix34
@@ -2264,7 +2264,7 @@
 						0.483077	0	0.875578
 						67.746269	14.681772	-0.652567
 					}
-					{VolumeView "era_pl_a2_b16.ply"}
+					{VolumeView "era_pl_a2_b15.ply"}
 				}
 				{bone "app_plate3"
 					{Matrix34
@@ -2282,7 +2282,7 @@
 						0.483077	0	0.875578
 						60.95092	15.069526	3.502183
 					}
-					{VolumeView "era_pl_b2_b18.ply"}
+					{VolumeView "era_pl_b2_b17.ply"}
 				}
 				{bone "era_sheet21"
 					{Matrix34
@@ -2309,7 +2309,7 @@
 						0	1	0
 						53.831547	-33.00449	-0.346196
 					}
-					{VolumeView "sheet_hull_r_front_b41.ply"}
+					{VolumeView "sheet_hull_l_front_b39.ply"}
 				}
 				{bone "era_sheet24"
 					{Matrix34
@@ -2318,7 +2318,7 @@
 						0	1	0
 						12.981548	-33.00449	1.228801
 					}
-					{VolumeView "sheet_hull_r_rear_b42.ply"}
+					{VolumeView "sheet_hull_l_rear_b40.ply"}
 				}
 				{bone "era_sheet25"
 					{Matrix34

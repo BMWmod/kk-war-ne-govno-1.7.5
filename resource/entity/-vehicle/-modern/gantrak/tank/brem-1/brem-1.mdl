@@ -35,7 +35,7 @@
 						{bone "wheel_point"
 							{parameters "ID=Body;"}
 							{Position 29.1205	-5.82153	-9.6826}
-							{VolumeView "wheel_point.ply"}
+							{VolumeView "dop_point.ply"}
 							{bone revolute "wheell"
 								{parameters "ID=Wheell;"}
 								{Matrix34

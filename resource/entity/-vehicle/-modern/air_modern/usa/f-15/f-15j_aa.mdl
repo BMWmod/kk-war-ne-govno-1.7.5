@@ -775,7 +775,7 @@
 						0.707107	0	-0.707107
 						29.9326	-58.1197	-8.46797
 					}
-					{VolumeView "aim7_02.ply"}
+					{VolumeView "aim7_00.ply"}
 				}
 				{bone "aim7_03"
 					{Matrix34
@@ -784,7 +784,7 @@
 						-0.707107	0	-0.707107
 						-29.0976	-58.1197	-8.46797
 					}
-					{VolumeView "aim7_03.ply"}
+					{VolumeView "aim7_01.ply"}
 				}
 				{bone "aim7_00"
 					{Matrix34

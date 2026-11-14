@@ -450,7 +450,7 @@
                     -0.999969	0.00713147	-0.00338323
                     118.394	10.4502	-13.2164
                 }
-                {VolumeView "wheels2.ply"}
+                {VolumeView "wheels1.ply"}
             }
             {Bone "wheels4"
                 {Matrix34
@@ -459,7 +459,7 @@
                     0.999969	-0.00713115	0.00338347
                     151.643	10.2131	-13.1039
                 }
-                {VolumeView "wheels4.ply"}
+                {VolumeView "wheels3.ply"}
             }
             {Bone "wheels3"
                 {Matrix34

@@ -236,7 +236,7 @@
 					0	1	0
 					-41.4836	-3.84905	-3.8378
 				}
-				{VolumeView "wheelr2.ply"}
+				{VolumeView "wheelr09.ply"}
 			}
 			{bone revolute "wheelr09"
 				{parameters "ID=Wheelr2;"}
@@ -256,7 +256,7 @@
 					0	1	0
 					-10.1819	-3.84905	-3.8378
 				}
-				{VolumeView "wheelr10.ply"}
+				{VolumeView "wheelr09.ply"}
 			}
 			{bone revolute "wheelr11"
 				{parameters "ID=Wheelr2;"}
@@ -266,7 +266,7 @@
 					0	1	0
 					5.20015	-3.84905	-3.8378
 				}
-				{VolumeView "wheelr11.ply"}
+				{VolumeView "wheelr09.ply"}
 			}
 			{bone revolute "wheelr12"
 				{parameters "ID=Wheelr2;"}
@@ -276,7 +276,7 @@
 					0	1	0
 					20.6082	-3.84905	-3.8378
 				}
-				{VolumeView "wheelr12.ply"}
+				{VolumeView "wheelr09.ply"}
 			}
 			{bone revolute "wheelr13"
 				{parameters "ID=Wheelr2;"}
@@ -286,7 +286,7 @@
 					0	1	0
 					36.2352	-3.84905	-3.8378
 				}
-				{VolumeView "wheelr13.ply"}
+				{VolumeView "wheelr09.ply"}
 			}
 		}
 		{bone "wheelsl"
@@ -314,7 +314,7 @@
 					0	1	0
 					-41.4804	3.90854	-3.76734
 				}
-				{VolumeView "wheell2.ply"}
+				{VolumeView "wheell10.ply"}
 			}
 			{bone revolute "wheell09"
 				{parameters "ID=Wheell2;"}
@@ -354,7 +354,7 @@
 					0	1	0
 					20.6114	3.90854	-3.76734
 				}
-				{VolumeView "wheell12.ply"}
+				{VolumeView "wheell10.ply"}
 			}
 			{bone revolute "wheell13"
 				{parameters "ID=Wheell2;"}
@@ -364,7 +364,7 @@
 					0	1	0
 					36.2384	3.90854	-3.76734
 				}
-				{VolumeView "wheell13.ply"}
+				{VolumeView "wheell10.ply"}
 			}
 		}
 	}

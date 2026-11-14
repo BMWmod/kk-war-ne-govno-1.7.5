@@ -761,7 +761,7 @@
 						0.707107	0	0.707107
 						-29.1225	-51.0458	-8.15108
 					}
-					{VolumeView "aim-120c7_05.ply"}
+					{VolumeView "aim-120c7_03.ply"}
 				}
 				{bone "aim-120c7_04"
 					{Matrix34
@@ -770,7 +770,7 @@
 						-0.707107	0	0.707107
 						29.6439	-51.0458	-8.08982
 					}
-					{VolumeView "aim-120c7_04.ply"}
+					{VolumeView "aim-120c7_02.ply"}
 				}
 				{bone "aim120c_shooter_02"
 					{Matrix34

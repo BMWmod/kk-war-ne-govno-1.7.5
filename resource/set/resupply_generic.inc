@@ -756,6 +756,7 @@
 	{item "fab_250_270 ammo" 6 {max 6}{value 60}}				
 	{item "fab_500 ammo" 1 {max 8}{value 12}}
 	{item "umpk_500 ammo" 1 {max 4}{value 25}}
+	{item "umpk_3000 ammo" 1 {max 1}{value 75}}
 	{item "kab-250 ammo" 1 {max 9}{value 25}}				
 	{item "kab-500s ammo" 1 {max 4}{value 30}}
     {item "kab-500kr ammo" 1 {max 4}{value 30}}	

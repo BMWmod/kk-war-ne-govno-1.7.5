@@ -695,7 +695,7 @@
                     1.00653e-05	-0.152013	0.988379
                     -57.7558	6.43515	15.0537
                 }
-                {VolumeView "detail7.ply"}
+                {VolumeView "detail3.ply"}
                 {Bone "detail8"
                     {Position -2.67029e-05	-1.46282	3.15906}
                     {VolumeView "detail8.ply"}

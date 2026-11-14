@@ -1,5 +1,5 @@
 {Entity
-	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
+	(include "/properties/airborne_M.ext")	;
 	{PatherID  "airborne"}
 	(include "/properties/shadow/airborn.inc" scale(1.1))
 	(include "/properties/selection/airborne.inc" scale(3.0))
@@ -108,13 +108,13 @@
 	}
 }
 ("Chassis_parameters" 
-	Speed(77) TurnRadius(25) 
+	Speed(80) TurnRadius(25)
 	Fuel(60) Fuel_remain(59) Fuel_rate(0.05) 
 ;	Acc_hor(4.31) Maneuvrability_hor(8.97)
 ;	Acc_ver(1.46) Maneuvrability_ver(0.46)
 	Acc_hor(2.15) Maneuvrability_hor(4.5)
 	Acc_ver(5) Maneuvrability_ver(5)
-	;Стандартная шкала не годится, подобрано по удобству использования.
+	;пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 )
  {Chassis "wheel"
 	{locomotion ("locomotion")
@@ -137,7 +137,15 @@
 		}
 	}
 	{Chassis "airborne"
-			{Altitude 25}
+			{Altitude 15}
+			; Air launch: engage flight speed without the inherited ground-style run-up.
+			{locomotion
+				{Maxspeed 80}
+				{turnRadius 25}
+				{StartTime 0.1}
+				{BrakeTime 6.4}
+				{StopTime 9.6}
+			}
 		}
 	{ChassisManager
 			{Current "airborne"}

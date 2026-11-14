@@ -39,7 +39,7 @@
 			{foresight "foresight7"}
 			{charger "driver"}
 			{gunner "driver"}
-			{barrels 1}
+			{barrels 2}
 			{shooter "ympk_body_"}
 			{basic}
 		}
@@ -144,6 +144,7 @@
 		{speed 1}
         }
         {bone "gun_rot1" {limits -5 0}}
-        {bone "bomb_rot3" {limits -45 25}}
+        {bone "bomb1_rot3" {speed 1}}
+        {bone "bomb_rot3" {limits -45 25} {speed 1}}
 
 }

@@ -21,7 +21,7 @@
 
 
 ("squad_with11types_custom" side(nato) crew_nation(frg) name(frg_ksk) c(460) g(extra10) c1(ksk_com:1) c2(ksk_marksman:1) c3(ksk_mgun:1) c4(ksk_rpg:1) c5(ksk_smg:2) c6(ksk_smg2:1) c7(ksk_smg3:1) b(extra) brig(bund) t(all_nz specnaz infantry nobot) cost(50) f(0) info(frg_ksk))
-{"puma_pturi" ("v3g" c(1200) c1(puma)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n8(frg_rpg2:1) g(extra11)  sc(100) b(extra) i(43) cw(0) cp(5))  {fore 0.0}}
+{"puma_pturi" ("v_explicit" c(1200) c1(puma)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n8(frg_rpg2:1) g(extra11)  sc(100) b(extra) i(43) cw(0) cp(5)) {content "puma ( mp2/frg/tankman:3 mp2/frg/frg_com:1 mp2/frg/frg_gren:1 mp2/frg/frg_rpg:1 mp2/frg/frg_mgun:1 mp2/frg/frg_rifleman:1 mp2/frg/frg_rpg2:1 )"}  {fore 0.0}}
 {"leopard_2a7plus_gmg" ("v_nation" c(1200) brig(bund) t( all_nz tanks_only tank_nato) s(nato) n(4) crew_nation(frg) g(extra12)   sc(150) b(extra) i(490000) cw(0) cp(70))  {fore 0.0}}
 
 ("squad_with11types_custom" side(nato) crew_nation(brit) name(brit_squad_elite) c(460) g(extra13) c1(sas_com:1) c2(sas_bazooker:1) c3(sas_marksman:1) c4(sas_mgun:1) c5(sas_rifleman:2) c6(sas_rocket_launcher:1) c7(sas_smg:2) c8(sas_light_mgun:1) b(extra) brig(gb) t(all_nz elite infantry) cost(50) f(0) info(brit_squad))
@@ -41,15 +41,15 @@
   b(common) brig(common) t(all_nz infantry) cost(50) f(1) info(cz)
 )
 
- {"tatra_t810i" {fore 1} ("v3cz" c(180) sc(55) g(inf1) b(common) brig(common) s(nato)  i(2) cw(0) cp(2) t(all_nz inf_nato infantry  ) n(1) c1(tatra_t810) n1(vehicle_supporter:2) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) n7(cz_sniper:1)       ) }
+ {"tatra_t810i" {fore 1} ("v_explicit" c(180) sc(55) g(inf1) b(common) brig(common) s(nato)  i(2) cw(0) cp(2) t(all_nz inf_nato infantry  ) n(1) c1(tatra_t810) n1(vehicle_supporter:2) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) n7(cz_sniper:1)       ) {content "tatra_t810 ( mp2/cz/vehicle_supporter:2 mp2/cz/cz_com:1 mp2/cz/cz_mgun:1 mp2/cz/cz_mgunhelper:1 mp2/cz/cz_bazooker2:1 mp2/cz/cz_smg:1 mp2/cz/cz_sniper:1 )"} }
 
-{"vab_t20" ("v3cz" c(480) c1(vab_t20)brig(common) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp_common)  sc(30) b(common) i(912) cw(5) cp(5))  {fore 1}}
-{"vab_t20i" ("v3cz" c(480) c1(vab_t20)brig(common) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) g(inf0)  sc(80	) b(common) i(513) cw(0) cp(15))  {fore 1}}
+{"vab_t20" ("v_explicit" c(480) c1(vab_t20)brig(common) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp_common)  sc(30) b(common) i(912) cw(5) cp(5)) {content "vab_t20 ( mp2/cz/tankman:3 )"}  {fore 1}}
+{"vab_t20i" ("v_explicit" c(480) c1(vab_t20)brig(common) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) g(inf0)  sc(80	) b(common) i(513) cw(0) cp(15)) {content "vab_t20 ( mp2/cz/tankman:3 mp2/cz/cz_com:1 mp2/cz/cz_mgun:1 mp2/cz/cz_mgunhelper:1 mp2/cz/cz_bazooker2:1 mp2/cz/cz_smg:1 )"}  {fore 1}}
 
 
- {"cv9040" {fore 1} ("v3cz" c(250) sc(50) g(inf3) b(common) brig(common) s(nato)  i(1213) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(cv9040) n1(tankman:3)     ) }
+ {"cv9040" {fore 1} ("v_explicit" c(250) sc(50) g(inf3) b(common) brig(common) s(nato)  i(1213) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(cv9040) n1(tankman:3)     ) {content "cv9040 ( mp2/cz/tankman:3 )"} }
     
- {"cv9040i" {fore 0} ("v3cz" c(250) sc(110) g(cv90) b(common) brig(common) s(nato)  i(243) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(cv9040) n1(tankman:3) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1)     ) }
+ {"cv9040i" {fore 0} ("v_explicit" c(250) sc(110) g(cv90) b(common) brig(common) s(nato)  i(243) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(cv9040) n1(tankman:3) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1)     ) {content "cv9040 ( mp2/cz/tankman:3 mp2/cz/cz_com:1 mp2/cz/cz_mgun:1 mp2/cz/cz_mgunhelper:1 mp2/cz/cz_bazooker2:1 mp2/cz/cz_smg:1 )"} }
     
 
 
@@ -66,13 +66,13 @@
  {"milan_stan" {fore 0} ("vs_nation" c(150) sc(35) g(mil) b(common) brig(common) s(nato) crew_nation(frg) i(7) cw(1) cp(5) t(all_nz    ) n(1)               ) }
  {"ptur_tow_nato" {fore 1} ("vs_nation" c(250) sc(60) g(tow) b(common) brig(common) s(nato) crew_nation(frg) i(8) cw(1) cp(5) t(all_nz    ) n(2)               ) }
  {"spike_stan" {fore 0.0} ("vs_nation" c(600) sc(130) g(spike) b(common) brig(common) s(nato) crew_nation(frg) i(9) cw(1) cp(30) t(all_nz    ) n(2)               ) }
- {"land_rover_atgm" {fore 1} ("v3bgcz" c(180) sc(55) g(car) b(common) brig(common) s(nato)  i(10) cw(0) cp(10) t(all_nz att   ) n(3) c1(land_rover_atgm) n1(vehicle_supporter:3)             ) }
+ {"land_rover_atgm" {fore 1} ("v_explicit" c(180) sc(55) g(car) b(common) brig(common) s(nato)  i(10) cw(0) cp(10) t(all_nz att   ) n(3) c1(land_rover_atgm) n1(vehicle_supporter:3)             ) {content "land_rover_atgm ( mp2/brit/vehicle_supporter:3 )"} }
                                    
 ("squad_with11types_custom" name(pzrk) f(1)  c(250) cost(40) g(pzrk_mob) b(common) brig(common) side(nato) crew_nation(cz)    t(all_nz antiair   ) info(pzrk) c1(pzrk_soldier:1) c2(pzrk_help_soldier:1)             ) 
- {"pzrk2_nato" {fore 0.9} ("v3gercz" c(500) sc(90) g(pzrk) b(common) brig(common) s(nato)  i(11) cw(0) cp(0) t(all_nz inf_nato   ) n(2) c1(fv103_spartan) n1(vehicle_supporter:2) n2(pzrk_soldier:2) n3(pzrk_help_soldier:2)           ) }
+ {"pzrk2_nato" {fore 0.9} ("v_explicit" c(500) sc(90) g(pzrk) b(common) brig(common) s(nato)  i(11) cw(0) cp(0) t(all_nz inf_nato   ) n(2) c1(fv103_spartan) n1(vehicle_supporter:2) n2(pzrk_soldier:2) n3(pzrk_help_soldier:2)           ) {content "fv103_spartan ( mp2/frg/vehicle_supporter:2 mp2/cz/pzrk_soldier:2 mp2/cz/pzrk_help_soldier:2 )"} }
  {"mistral_stan" {fore 1} ("vs_nation" c(500) sc(40) g(pzrk_stan) b(common) brig(common) s(nato) crew_nation(fr) i(12) cw(1) cp(5) t(all_nz    ) n(2)               ) }
   
-  {"wiesel_2_leflasys" {fore 1} ("v3bgcz" c(180) sc(80) g(pvo_start) b(common) brig(common) s(nato)  i(110) cw(0) cp(10) t(all_nz att   ) n(3) c1(wiesel_2_leflasys) n1(vehicle_supporter:3)             ) }
+  {"wiesel_2_leflasys" {fore 1} ("v_explicit" c(180) sc(80) g(pvo_start) b(common) brig(common) s(nato)  i(110) cw(0) cp(10) t(all_nz att   ) n(3) c1(wiesel_2_leflasys) n1(vehicle_supporter:3)             ) {content "wiesel_2_leflasys ( mp2/brit/vehicle_supporter:3 )"} }
       
 
 ;===============================Вспомогательные войска===========================================                                   
@@ -106,7 +106,7 @@
 {"f-16c_sdb_pol"            ("v_cust" c(500)  brig(nrf) t(all_nz aircraft nobot support_frontline) crew(pol/pilot)  s(nato)  n(1)  g(air_at)   sc(350) b(nrf_hqcar) i(5) cw(0) cp(50))  {fore -0.4}}
 {"tornado_gr4_at" ("air_nation" c(600) brig(nrf) t(all_nz additional aircraft nobot support_frontline no_frontline)  s(nato) n(2) crew_nation(brit) g(s1)   sc(500) b(nrf_hqcar) i(8) cw(0) cp(100))  {fore -1.0}}
 {"tornado_gr4_antirad" ("air_nation" c(500) brig(nrf) t(all_nz additional aircraft nobot support_frontline)  s(nato) n(2) crew_nation(brit) g(antirad)   sc(170) b(nrf_hqcar) i(7) cw(0) cp(50))  {fore 0.0}}
-{"nh90sas"            ("v3b" c(600) c1(nh90_sas) brig(nrf) t(all_nz aircraft nobot support_frontline) s(nato) n(2) n1(pilot:2) n2(2sas_com:1) n3(2sas_scout_bazooker:1) n4(2sas_smg2:2) n5(2sas_marksman:1) n6(2sas_rocket_launcher:1) n7(2sas_heavy_mgun:1) n8(2sas_smg:2) g(sso)  sc(80) b(nrf_hqcar) i(11) cw(0) cp(5))  {fore 0.8}}
+{"nh90sas"            ("v_explicit" c(600) c1(nh90_sas) brig(nrf) t(all_nz aircraft nobot support_frontline) s(nato) n(2) n1(pilot:2) n2(2sas_com:1) n3(2sas_scout_bazooker:1) n4(2sas_smg2:2) n5(2sas_marksman:1) n6(2sas_rocket_launcher:1) n7(2sas_heavy_mgun:1) n8(2sas_smg:2) g(sso)  sc(80) b(nrf_hqcar) i(11) cw(0) cp(5)) {content "nh90_sas ( mp2/brit/pilot:2 mp2/brit/2sas_com:1 mp2/brit/2sas_scout_bazooker:1 mp2/brit/2sas_smg2:2 mp2/brit/2sas_marksman:1 mp2/brit/2sas_rocket_launcher:1 mp2/brit/2sas_heavy_mgun:1 mp2/brit/2sas_smg:2 )"}  {fore 0.8}}
 
 	  
                           
@@ -155,19 +155,19 @@
 ("squad_with11types_custom" side(nato) crew_nation(frg) name(frg) c(120) g(ger_inf) c1(frg_com:1) c2(frg_gren:1) c3(frg_rpg:1) c4(frg_mgun:1) c5(frg_rifleman:1) c6(frg_rpghelp:1) c7(frg_rpg2:1)b(bund_hqcar) brig(bund) t(all_nz infantry) cost(70) f(1.0) info(frg))
 
 
-{"marder_1a3_B" ("v3g" c(300) c1(marder_1a3)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp1)  sc(55) b(bund_hqcar) i(391) cw(20) cp(5))  {fore 1.0}}
-{"boxer_gun_B" ("v3g" c(450) c1(boxer_gun)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp4)  sc(110) b(bund_hqcar) i(421) cw(20) cp(15))  {fore 1}}
-{"puma_noptur_B" ("v3g" c(400) c1(puma_noptur)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp4)  sc(80) b(bund_hqcar) i(431) cw(20) cp(25))  {fore 0}}
+{"marder_1a3_B" ("v_explicit" c(300) c1(marder_1a3)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp1)  sc(55) b(bund_hqcar) i(391) cw(20) cp(5)) {content "marder_1a3 ( mp2/frg/tankman:3 )"}  {fore 1.0}}
+{"boxer_gun_B" ("v_explicit" c(450) c1(boxer_gun)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp4)  sc(110) b(bund_hqcar) i(421) cw(20) cp(15)) {content "boxer_gun ( mp2/frg/tankman:3 )"}  {fore 1}}
+{"puma_noptur_B" ("v_explicit" c(400) c1(puma_noptur)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) g(bmp4)  sc(80) b(bund_hqcar) i(431) cw(20) cp(25)) {content "puma_noptur ( mp2/frg/tankman:3 )"}  {fore 0}}
 
-{"man_passenjeri" ("v3g" c(120) c1(man_passenjer)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) 
+{"man_passenjeri" ("v_explicit" c(120) c1(man_passenjer)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3)
   n1(vehicle_supporter:2) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpghelp:1) n8(frg_rpg2:1) 
-  g(first_inf1)  sc(70) b(bund_hqcar) i(1) cw(0) cp(5))  {fore 1}
+  g(first_inf1)  sc(70) b(bund_hqcar) i(1) cw(0) cp(5)) {content "man_passenjer ( mp2/frg/vehicle_supporter:2 mp2/frg/frg_com:1 mp2/frg/frg_gren:1 mp2/frg/frg_rpg:1 mp2/frg/frg_mgun:1 mp2/frg/frg_rifleman:1 mp2/frg/frg_rpghelp:1 mp2/frg/frg_rpg2:1 )"}  {fore 1}
 }
-{"marder_1a3i" ("v3g" c(300) c1(marder_1a3)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpg2:1) g(bmp1)  sc(111) b(bund_hqcar) i(39) cw(0) cp(5))  {fore 1}}
-{"boxer_gmgi" ("v3g" c(400) c1(boxer_gmg)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpghelp:1) n8(frg_rpg2:1) g(bmp2)  sc(145) b(bund_hqcar) i(40) cw(20) cp(20))  {fore 1}}
-{"boxer_mguni" ("v3g" c(120) c1(boxer_mgun)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpghelp:1) n8(frg_rpg2:1) g(bmp13)  sc(100) b(bund_hqcar) i(41) cw(0) cp(5))  {fore 1}}
-{"boxer_guni" ("v3g" c(500) c1(boxer_gun)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpg2:1) g(bmp4)  sc(150) b(bund_hqcar) i(42) cw(0) cp(5))  {fore -0.5}}
-{"pumai" ("v3g" c(400) c1(puma_noptur)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n8(frg_rpg2:1) g(bmp4)  sc(160) b(bund_hqcar) i(43) cw(0) cp(5))  {fore -0.5}}
+{"marder_1a3i" ("v_explicit" c(300) c1(marder_1a3)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpg2:1) g(bmp1)  sc(111) b(bund_hqcar) i(39) cw(0) cp(5)) {content "marder_1a3 ( mp2/frg/tankman:3 mp2/frg/frg_com:1 mp2/frg/frg_gren:1 mp2/frg/frg_rpg:1 mp2/frg/frg_mgun:1 mp2/frg/frg_rifleman:1 mp2/frg/frg_rpg2:1 )"}  {fore 1}}
+{"boxer_gmgi" ("v_explicit" c(400) c1(boxer_gmg)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpghelp:1) n8(frg_rpg2:1) g(bmp2)  sc(145) b(bund_hqcar) i(40) cw(20) cp(20)) {content "boxer_gmg ( mp2/frg/tankman:3 mp2/frg/frg_com:1 mp2/frg/frg_gren:1 mp2/frg/frg_rpg:1 mp2/frg/frg_mgun:1 mp2/frg/frg_rifleman:1 mp2/frg/frg_rpghelp:1 mp2/frg/frg_rpg2:1 )"}  {fore 1}}
+{"boxer_mguni" ("v_explicit" c(120) c1(boxer_mgun)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpghelp:1) n8(frg_rpg2:1) g(bmp13)  sc(100) b(bund_hqcar) i(41) cw(0) cp(5)) {content "boxer_mgun ( mp2/frg/tankman:3 mp2/frg/frg_com:1 mp2/frg/frg_gren:1 mp2/frg/frg_rpg:1 mp2/frg/frg_mgun:1 mp2/frg/frg_rifleman:1 mp2/frg/frg_rpghelp:1 mp2/frg/frg_rpg2:1 )"}  {fore 1}}
+{"boxer_guni" ("v_explicit" c(500) c1(boxer_gun)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpg2:1) g(bmp4)  sc(150) b(bund_hqcar) i(42) cw(0) cp(5)) {content "boxer_gun ( mp2/frg/tankman:3 mp2/frg/frg_com:1 mp2/frg/frg_gren:1 mp2/frg/frg_rpg:1 mp2/frg/frg_mgun:1 mp2/frg/frg_rifleman:1 mp2/frg/frg_rpg2:1 )"}  {fore -0.5}}
+{"pumai" ("v_explicit" c(400) c1(puma_noptur)brig(bund) t(all_nz inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n8(frg_rpg2:1) g(bmp4)  sc(160) b(bund_hqcar) i(43) cw(0) cp(5)) {content "puma_noptur ( mp2/frg/tankman:3 mp2/frg/frg_com:1 mp2/frg/frg_gren:1 mp2/frg/frg_rpg:1 mp2/frg/frg_mgun:1 mp2/frg/frg_rifleman:1 mp2/frg/frg_rpg2:1 )"}  {fore -0.5}}
 	
 {"wiesel1_gun" ("v_nation" c(400) brig(bund) t(all_nz) s(nato) n(2) crew_nation(frg) g(larm1) sc(30) b(bund_hqcar) i(44) cw(0) cp(8))  {fore 1.0}}
 
@@ -184,12 +184,12 @@
 ("squad_with11types_custom" side(nato) crew_nation(brit) name(gb) c(120) g(inf_brit) c1(brit_com:1) c2(brit_bazooker:2) c3(brit_marksman:1) c4(brit_smg:2) c5(brit_gren:2) c6(brit_heavy_mgun:1)b(gb_hqcar) brig(gb) t(all_nz infantry) cost(70) f(1.0) info(gb))
 
 
- {"man_sx44i" {fore 1} ("v3b" c(200) sc(75) g(first_inf2) b(gb_hqcar) brig(gb) s(nato)  i(1) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(man_sx44)  n1(vehicle_supporter:2) n2(brit_com:1) n3(brit_bazooker:2) n4(brit_marksman:1) n5(brit_smg:2) n6(brit_gren:2) n7(brit_heavy_mgun:1)      ) }
- {"warriori" {fore 0} ("v3b" c(200) sc(85) g(inf4) b(gb_hqcar) brig(gb) s(nato)  i(2) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(warrior)  n1(tankman:3) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_marksman:1) n5(brit_smg:1) n6(brit_gren:1) n7(brit_smg:1) n8(brit_heavy_mgun:1)     ) }
- {"warrior23234" {fore 1} ("v3b" c(200) sc(45) g(warrior) b(gb_hqcar) brig(gb) s(nato)  i(223) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(warrior)  n1(tankman:3)     ) }
- {"fv432_mk2i" {fore 1} ("v3b" c(200) sc(90) g(inf423) b(gb_hqcar) brig(gb) s(nato)  i(3) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(fv432_mk2)  n1(tankman:2) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_marksman:1) n5(brit_smg:1) n6(brit_gren:1) n7(brit_smg:1) n8(brit_gren:1) n9(brit_heavy_mgun:1)    ) }
- {"boxer_gun_noptur_gbi" {fore 0.9} ("v3b" c(240) sc(130) g(inf334) b(gb_hqcar) brig(gb) s(nato)  i(4) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(boxer_gun_noptur_gb)  n1(tankman:3) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_smg:1) n5(brit_gren:1) n6(brit_marksman:1) n7(brit_heavy_mgun:1)      ) }
- {"nh90" {fore 0.95} ("v3b" c(300) sc(95) g(inf433) b(gb_hqcar) brig(gb) s(nato)  i(5) cw(0) cp(5) t(all_nz inf_nato   ) n(4) c1(nh90)  n1(pilot:2) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_gren:2) n5(brit_marksman:1) n6(brit_bazooker_help:1) n7(brit_heavy_mgun:1) n8(brit_smg:2)     ) }
+ {"man_sx44i" {fore 1} ("v_explicit" c(200) sc(75) g(first_inf2) b(gb_hqcar) brig(gb) s(nato)  i(1) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(man_sx44)  n1(vehicle_supporter:2) n2(brit_com:1) n3(brit_bazooker:2) n4(brit_marksman:1) n5(brit_smg:2) n6(brit_gren:2) n7(brit_heavy_mgun:1)      ) {content "man_sx44 ( mp2/brit/vehicle_supporter:2 mp2/brit/brit_com:1 mp2/brit/brit_bazooker:2 mp2/brit/brit_marksman:1 mp2/brit/brit_smg:2 mp2/brit/brit_gren:2 mp2/brit/brit_heavy_mgun:1 )"} }
+ {"warriori" {fore 0} ("v_explicit" c(200) sc(85) g(inf4) b(gb_hqcar) brig(gb) s(nato)  i(2) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(warrior)  n1(tankman:3) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_marksman:1) n5(brit_smg:1) n6(brit_gren:1) n7(brit_smg:1) n8(brit_heavy_mgun:1)     ) {content "warrior ( mp2/brit/tankman:3 mp2/brit/brit_com:1 mp2/brit/brit_bazooker:1 mp2/brit/brit_marksman:1 mp2/brit/brit_smg:1 mp2/brit/brit_gren:1 mp2/brit/brit_smg:1 mp2/brit/brit_heavy_mgun:1 )"} }
+ {"warrior23234" {fore 1} ("v_explicit" c(200) sc(45) g(warrior) b(gb_hqcar) brig(gb) s(nato)  i(223) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(warrior)  n1(tankman:3)     ) {content "warrior ( mp2/brit/tankman:3 )"} }
+ {"fv432_mk2i" {fore 1} ("v_explicit" c(200) sc(90) g(inf423) b(gb_hqcar) brig(gb) s(nato)  i(3) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(fv432_mk2)  n1(tankman:2) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_marksman:1) n5(brit_smg:1) n6(brit_gren:1) n7(brit_smg:1) n8(brit_gren:1) n9(brit_heavy_mgun:1)    ) {content "fv432_mk2 ( mp2/brit/tankman:2 mp2/brit/brit_com:1 mp2/brit/brit_bazooker:1 mp2/brit/brit_marksman:1 mp2/brit/brit_smg:1 mp2/brit/brit_gren:1 mp2/brit/brit_smg:1 mp2/brit/brit_gren:1 mp2/brit/brit_heavy_mgun:1 )"} }
+ {"boxer_gun_noptur_gbi" {fore 0.9} ("v_explicit" c(240) sc(130) g(inf334) b(gb_hqcar) brig(gb) s(nato)  i(4) cw(0) cp(10) t(all_nz inf_nato infantry  ) n(3) c1(boxer_gun_noptur_gb)  n1(tankman:3) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_smg:1) n5(brit_gren:1) n6(brit_marksman:1) n7(brit_heavy_mgun:1)      ) {content "boxer_gun_noptur_gb ( mp2/brit/tankman:3 mp2/brit/brit_com:1 mp2/brit/brit_bazooker:1 mp2/brit/brit_smg:1 mp2/brit/brit_gren:1 mp2/brit/brit_marksman:1 mp2/brit/brit_heavy_mgun:1 )"} }
+ {"nh90" {fore 0.95} ("v_explicit" c(300) sc(95) g(inf433) b(gb_hqcar) brig(gb) s(nato)  i(5) cw(0) cp(5) t(all_nz inf_nato   ) n(4) c1(nh90)  n1(pilot:2) n2(brit_com:1) n3(brit_bazooker:1) n4(brit_gren:2) n5(brit_marksman:1) n6(brit_bazooker_help:1) n7(brit_heavy_mgun:1) n8(brit_smg:2)     ) {content "nh90 ( mp2/brit/pilot:2 mp2/brit/brit_com:1 mp2/brit/brit_bazooker:1 mp2/brit/brit_gren:2 mp2/brit/brit_marksman:1 mp2/brit/brit_bazooker_help:1 mp2/brit/brit_heavy_mgun:1 mp2/brit/brit_smg:2 )"} }
                                    
 ("squad_with11types_custom" name(brit_shipers) f(1)  c(240) cost(30) g(snip) b(gb_hqcar) brig(g	) side(nato) crew_nation(brit)    t(all_nz    ) info(brit_shipers) c1(brit_sniper:1) c2(brit_spotter:1)             ) 
 ("squad_with11types_custom" name(at_rifle_brit) f(0)  c(240) cost(35) g(snip) b(gb_hqcar) brig(gb) side(nato) crew_nation(brit)    t(all_nz    ) info(at_rifle_brit) c1(brit_at_rifle:1) c2(brit_at_rifle_help:1)             ) 
@@ -199,7 +199,7 @@
  {"challenger_2_applique" {fore 1} ("v_nation" c(600) sc(180) g(tank_gb) b(gb_hqcar) brig(gb) s(nato)  i(9) cw(0) cp(60) t(all_nz  tank_nato  ) n(4)   crew_nation(brit)            ) }
                               
  {"starstreak_stan" ("vs_nation" c(400) brig(gb) t(all_nz nobot) s(nato) crew_nation(brit) n(2) g(pvo_st1) sc(40) b(gb_hqcar) i(9) cw(1) cp(5))  {fore 1}} 
- {"ajax" {fore 0.0} ("v3b" c(500) sc(90) g(spc) b(gb_hqcar) brig(gb) s(nato)  i(9) cw(0) cp(45) t(all_nz    ) n(4) c1(ajax) n1(tankman:4)             ) }
+ {"ajax" {fore 0.0} ("v_explicit" c(500) sc(90) g(spc) b(gb_hqcar) brig(gb) s(nato)  i(9) cw(0) cp(45) t(all_nz    ) n(4) c1(ajax) n1(tankman:4)             ) {content "ajax ( mp2/brit/tankman:4 )"} }
                                    
 
                           
@@ -210,16 +210,16 @@
 
  {"vab_reco" {fore 1} ("v_nation" c(400) sc(25) g(vab) b(fra_hqcar) brig(fra) s(nato) crew_nation(fr) i(100) cw(0) cp(10) t(all_nz att   ) n(2)               ) }
      
- {"renault_gbc_180i" {fore 1} ("v3f" c(220) sc(80) g(first_inf3) b(fra_hqcar) brig(fra) s(nato)  i(1) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(renault_gbc_180) n1(vehicle_supporter:2) n2(fr_com:1) n3(fr_smg2:2) n4(fr_smg:2) n5(fr_marksman:1) n6(fr_eryx:1) n7(fr_eryx_help:1)       ) }
+ {"renault_gbc_180i" {fore 1} ("v_explicit" c(220) sc(80) g(first_inf3) b(fra_hqcar) brig(fra) s(nato)  i(1) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(renault_gbc_180) n1(vehicle_supporter:2) n2(fr_com:1) n3(fr_smg2:2) n4(fr_smg:2) n5(fr_marksman:1) n6(fr_eryx:1) n7(fr_eryx_help:1)       ) {content "renault_gbc_180 ( mp2/fr/vehicle_supporter:2 mp2/fr/fr_com:1 mp2/fr/fr_smg2:2 mp2/fr/fr_smg:2 mp2/fr/fr_marksman:1 mp2/fr/fr_eryx:1 mp2/fr/fr_eryx_help:1 )"} }
  
- {"vbci_vpci" {fore 1} ("v3f" c(220) sc(90) g(inf3) b(fra_hqcar) brig(fra) s(nato)  i(2) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(vbci_vpc) n1(tankman:3) n2(fr_com:1) n3(fr_smg2:2) n4(fr_smg:2) n5(fr_marksman:1) n6(fr_eryx:1) n7(fr_eryx_help:1)       ) }
- {"vbcii" {fore 1} ("v3f" c(220) sc(105) g(inf333) b(fra_hqcar) brig(fra) s(nato)  i(3) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(vbci) n1(tankman:3) n2(fr_com:1) n3(fr_smg2:2) n4(fr_smg:2) n5(fr_light_mguns:1) n6(fr_gren:1) n7(fr_eryx:1) n8(fr_eryx_help:1)      ) }
- {"vbci_2i" {fore 0.0} ("v3f" c(400) sc(160) g(inf69) b(fra_hqcar) brig(fra) s(nato)  i(4) cw(0) cp(15) t(all_nz inf_nato infantry  ) n(3) c1(vbci_2) n1(tankman:3) n2(fr_com:1) n3(fr_smg2:1) n4(fr_smg:2) n5(fr_light_mguns:1) n6(fr_gren:1) n7(fr_marksman:1) n7(fr_eryx:1) n8(fr_eryx_help:1)     ) }
+ {"vbci_vpci" {fore 1} ("v_explicit" c(220) sc(90) g(inf3) b(fra_hqcar) brig(fra) s(nato)  i(2) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(2) c1(vbci_vpc) n1(tankman:3) n2(fr_com:1) n3(fr_smg2:2) n4(fr_smg:2) n5(fr_marksman:1) n6(fr_eryx:1) n7(fr_eryx_help:1)       ) {content "vbci_vpc ( mp2/fr/tankman:3 mp2/fr/fr_com:1 mp2/fr/fr_smg2:2 mp2/fr/fr_smg:2 mp2/fr/fr_marksman:1 mp2/fr/fr_eryx:1 mp2/fr/fr_eryx_help:1 )"} }
+ {"vbcii" {fore 1} ("v_explicit" c(220) sc(105) g(inf333) b(fra_hqcar) brig(fra) s(nato)  i(3) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(vbci) n1(tankman:3) n2(fr_com:1) n3(fr_smg2:2) n4(fr_smg:2) n5(fr_light_mguns:1) n6(fr_gren:1) n7(fr_eryx:1) n8(fr_eryx_help:1)      ) {content "vbci ( mp2/fr/tankman:3 mp2/fr/fr_com:1 mp2/fr/fr_smg2:2 mp2/fr/fr_smg:2 mp2/fr/fr_light_mguns:1 mp2/fr/fr_gren:1 mp2/fr/fr_eryx:1 mp2/fr/fr_eryx_help:1 )"} }
+ {"vbci_2i" {fore 0.0} ("v_explicit" c(400) sc(160) g(inf69) b(fra_hqcar) brig(fra) s(nato)  i(4) cw(0) cp(15) t(all_nz inf_nato infantry  ) n(3) c1(vbci_2) n1(tankman:3) n2(fr_com:1) n3(fr_smg2:1) n4(fr_smg:2) n5(fr_light_mguns:1) n6(fr_gren:1) n7(fr_marksman:1) n7(fr_eryx:1) n8(fr_eryx_help:1)     ) {content "vbci_2 ( mp2/fr/tankman:3 mp2/fr/fr_com:1 mp2/fr/fr_smg2:1 mp2/fr/fr_smg:2 mp2/fr/fr_light_mguns:1 mp2/fr/fr_gren:1 mp2/fr/fr_eryx:1 mp2/fr/fr_eryx_help:1 )"} }
 
 
 
- {"vbci3243" {fore 1} ("v3cz" c(250) sc(45) g(btrfra1) b(fra_hqcar) brig(fra) s(nato)  i(213) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(vbci) n1(tankman:3)     ) }
- {"vbci_245" {fore 1} ("v3cz" c(250) sc(90) g(btrfra2) b(fra_hqcar) brig(fra) s(nato)  i(123) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(vbci_2) n1(tankman:3)     ) }
+ {"vbci3243" {fore 1} ("v_explicit" c(250) sc(45) g(btrfra1) b(fra_hqcar) brig(fra) s(nato)  i(213) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(vbci) n1(tankman:3)     ) {content "vbci ( mp2/cz/tankman:3 )"} }
+ {"vbci_245" {fore 1} ("v_explicit" c(250) sc(90) g(btrfra2) b(fra_hqcar) brig(fra) s(nato)  i(123) cw(0) cp(5) t(all_nz inf_nato infantry  ) n(3) c1(vbci_2) n1(tankman:3)     ) {content "vbci_2 ( mp2/cz/tankman:3 )"} }
     
 
 ("squad_with11types_custom" name(fr_scouts) f(1)  c(300) cost(35) g(spc) b(fra_hqcar) brig(fra) side(nato) crew_nation(fr)    t(all_nz    ) info(fr_scouts) c1(fr_scout_com:1) c2(fr_scout_mgun:1) c3(fr_scout_smg:1)            ) 
@@ -237,8 +237,8 @@
  {"vbl_mistral" ("v_nation" c(400) brig(fra) t(all_nz att) s(nato) n(3) crew_nation(fr) g(extra17)  sc(25) b(fra_hqcar) i(69) cw(0) cp(10))  {fore 0.0}}
                                   
 ;===============================Не захватывает территорию===========================================                                   
- {"nh90_sas" {fore 1} ("v3b" c(300) sc(20) g(nzt) b(nzt) brig(nzt) s(nato)  i(0) cw(0) cp(20) t(nzt    ) n(4) n1(pilot:2) c1(nh90)             ) }
- {"aladin" {fore 1} ("v3b" c(300) sc(20) g(nzt) b(nzt) brig(nzt) s(nato)  i(0) cw(0) cp(20) t(nzt    ) n(4) n1(pilot:2) c1(nh90)             ) }
+ {"nh90_sas" {fore 1} ("v_explicit" c(300) sc(20) g(nzt) b(nzt) brig(nzt) s(nato)  i(0) cw(0) cp(20) t(nzt    ) n(4) n1(pilot:2) c1(nh90)             ) {content "nh90 ( mp2/brit/pilot:2 )"} }
+ {"aladin" {fore 1} ("v_explicit" c(300) sc(20) g(nzt) b(nzt) brig(nzt) s(nato)  i(0) cw(0) cp(20) t(nzt    ) n(4) n1(pilot:2) c1(nh90)             ) {content "nh90 ( mp2/brit/pilot:2 )"} }
                                    
 ;===============================||||||||===========================================                                   
  ;{"tatra_t810i" {fore 0} ("h" c(900) sc(5) g(nzt) b(nzt) brig(common) s(nato)  i(0) cw(1) cp(0) t(nzt    ) n(2)               ) }

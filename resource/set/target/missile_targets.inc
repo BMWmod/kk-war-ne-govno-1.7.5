@@ -400,6 +400,22 @@
 ("umpk_500_selector" n(02))
 ("umpk_500_selector" n(03))
 
+	{proj_umpk_3000_gps
+		{"rus_gps cwps2" {volume "target_gbu"}}	
+	}
+
+(define "umpk_3000_selector"	
+	{proj_umpk_3000_gps_%n
+		{"rus_gps cwps2" {volume "target_gorka"}}
+		{"rus_gps cwps2" {ground}}
+		
+	}
+)
+("umpk_3000_selector" n(00))
+("umpk_3000_selector" n(01))
+("umpk_3000_selector" n(02))
+("umpk_3000_selector" n(03))
+
 	{proj_ls6_gps
 		{"rus_gps cwps2" {volume "target_gbu"}}	
 	}

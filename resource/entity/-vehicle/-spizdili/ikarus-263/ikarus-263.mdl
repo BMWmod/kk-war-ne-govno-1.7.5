@@ -51,7 +51,7 @@
 				{bone "doorglass22"
 					{parameters "ID=glass;"}
 					{Position -5.14984e-005	0.0127411	-0.000228882}
-					{VolumeView "doorglass22.ply"}
+					{VolumeView "doorglass21.ply"}
 				}
 			}
 			{bone "door21"
@@ -62,7 +62,7 @@
 					0.0355682	0.00113442	0.999367
 					-3.93227	-24.379	2.85841
 				}
-				{VolumeView "door21.ply"}
+				{VolumeView "door11.ply"}
 				{bone "doorglass21"
 					{parameters "ID=glass;"}
 					{Position -0.00143051	0.359631	-0.00661087}
@@ -122,7 +122,7 @@
 					0.0355682	0.00113442	0.999367
 					-95.3291	-24.344	4.75839
 				}
-				{VolumeView "door31.ply"}
+				{VolumeView "door11.ply"}
 				{bone "doorglass31"
 					{parameters "ID=glass;"}
 					{Position -0.00143051	0.359627	-0.00661087}

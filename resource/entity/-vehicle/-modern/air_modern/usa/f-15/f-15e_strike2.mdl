@@ -373,7 +373,7 @@
 					0	0	1
 					0.397225	-83.8286	-18.9951
 				}
-				{VolumeView "catapult1.ply"}
+				{VolumeView "catapult.ply"}
 				{bone "fx_eject1"
 					{Matrix34
 						-0.819152	0	-0.573576
@@ -654,7 +654,7 @@
 				}
 				{bone "slam_er_01"
 					{Position 12.6019	-120.563	-11.7218}
-					{VolumeView "slam_er_01.ply"}
+					{VolumeView "slam_er_00.ply"}
 				}
 			}
 			{bone "wingr1"
@@ -802,22 +802,22 @@
 						0	-0.0871557	0.996195
 						-35.0066	70.4034	-50.2446
 					}
-					{VolumeView "btu61a_3.ply"}
+					{VolumeView "btu61a_2.ply"}
 					{bone "sdb2_06"
 						{Position 19.2081	2.58289	-3.67813}
-						{VolumeView "sdb2_06.ply"}
+						{VolumeView "sdb2_02.ply"}
 					}
 					{bone "sdb2_04"
 						{Position -20.6946	2.58289	-3.67814}
-						{VolumeView "sdb2_04.ply"}
+						{VolumeView "sdb2_01.ply"}
 					}
 					{bone "sdb2_05"
 						{Position -20.6946	-2.70644	-3.67814}
-						{VolumeView "sdb2_05.ply"}
+						{VolumeView "sdb2_01.ply"}
 					}
 					{bone "sdb2_07"
 						{Position 19.2081	-2.70644	-3.67813}
-						{VolumeView "sdb2_07.ply"}
+						{VolumeView "sdb2_02.ply"}
 					}
 				}
 				{bone "btu61a_2"

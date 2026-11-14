@@ -172,6 +172,23 @@
 ("umpk_500_selector" x(02) a(01) b(00) c(03))
 ("umpk_500_selector" x(03) a(01) b(02) c(00))
 
+(define "umpk_3000_selector"
+{selector
+	{type "umpk_3000_%x"}
+	{group
+		{sort {in_range 5000} {class proj_umpk_3000_gps_%x}}
+		{sort {in_range 10} {class proj_umpk_3000_gps}}
+		{ignore {class proj_umpk_3000_gps_%a}}
+		{ignore {class proj_umpk_3000_gps_%b}}
+		{ignore {class proj_umpk_3000_gps_%c}}
+	}
+}
+)
+("umpk_3000_selector" x(00) a(01) b(02) c(03))
+("umpk_3000_selector" x(01) a(00) b(02) c(03))
+("umpk_3000_selector" x(02) a(01) b(00) c(03))
+("umpk_3000_selector" x(03) a(01) b(02) c(00))
+
 (define "ls6_selector"
 {selector
 	{type "ls6_%x"}

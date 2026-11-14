@@ -6,7 +6,7 @@
 	}
 	{filling "ammo umpk_3000" 1}
 	{fillingVisible "ympk_body_"}
-	{fireSound "reactive_cw/bomb"}
+	{fireSound "reactive/bomb"}
 	{recoveryTime 0.75}
 	{rechargeTime 120}
 	{range 475 475}
@@ -19,6 +19,6 @@
 	{speed 3000}
 	{aimtype adaptive}
 
-	("accuracy_kab" kvo_meters(12.0))
+	("accuracy_kab" kvo_meters(21.2))
 
 }

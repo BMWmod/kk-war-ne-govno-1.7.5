@@ -1,4 +1,4 @@
 {material simple
-	{diffuse "drone_albedo.tga"}
+	{diffuse "$/model/fpv_shared/drone_albedo_979b2148344a"}
 	{blend none}
 }

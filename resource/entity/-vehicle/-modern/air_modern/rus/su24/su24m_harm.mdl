@@ -161,7 +161,7 @@
 					0	0	1
 					1.17097	-42.3269	-28.4956
 				}
-				{VolumeView "agm88_01.ply"}
+				{VolumeView "agm88_00.ply"}
 			}
 
 			{bone "agm-86-88_shooter_01"

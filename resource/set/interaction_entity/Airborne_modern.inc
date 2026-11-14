@@ -3353,6 +3353,9 @@
 	"su-34_umpk"		("air_multibomb_launcher" weapon(bomber) shooter(ympk_body_) missile(umpk_500_guided))
 }
 {
+	"su-34_umpk3000"		("air_multibomb_launcher" weapon(bomber) shooter(bomb_spawn_) missile(umpk_3000_guided))
+}
+{
 	"su-34_accurate_2"		("air_multibomb_launcher" weapon(bomber) shooter(ympk_body_) missile(umpk_500_guided))
 }
 {
@@ -7751,65 +7754,122 @@
 	{
 		on "link_flare_fx" overload
 	}
-	;damage model: replaces the one-hit detonate/fall of small_UAV and loitering_uav,
-	;Geran-5 falls only when engine, wings, tail or a fuel tank is knocked out
+	; Geran-5 damage handlers begin
 	{
 		on blast_hit overload
 		{
-			delay 0.1
+			if min_energy 1
 			{
-				call "geran5_check_modules"
+				call "geran5_destroy"
 			}
+		}
+		{
+			delay 0.1 {call "geran5_check_modules"}
 		}
 	}
 	{
 		on pierce overload
 		{
-			delay 0.1
+			if not stuff "proj_pointer"
 			{
-				call "geran5_check_modules"
+				if not stuff "bullet"
+				{
+					call "geran5_destroy"
+				}
+			}
+		}
+		{
+			delay 0.1 {call "geran5_check_modules"}
+		}
+	}
+	{
+		on break
+		{
+			delay 0.1 {call "geran5_check_modules"}
+		}
+	}
+	{
+		on "geran5_destroy"
+		{
+			if not "geran5_destroyed"
+			{
+				set "geran5_destroyed" 1
+			}
+			{
+				tags add "destroyed"
+			}
+			{
+				chassis_work 0
+			}
+			{
+				drop_orders
+			}
+			{
+				call "stat_break"
+			}
+			{
+				call "detonate"
 			}
 		}
 	}
 	{
 		on "geran5_check_modules"
 		{
+			if not work "body"
+			{
+				call "geran5_destroy"
+			}
+		}
+		{
 			if not work "engine"
 			{
-				call "fall"
+				call "geran5_destroy"
 			}
 		}
 		{
 			if not work "wingl1"
 			{
-				call "fall"
+				call "geran5_destroy"
 			}
 		}
 		{
 			if not work "wingr1"
 			{
-				call "fall"
+				call "geran5_destroy"
 			}
 		}
 		{
 			if not work "tail"
 			{
-				call "fall"
+				call "geran5_destroy"
 			}
 		}
 		{
 			if not work "fuel_tank_internal_a"
 			{
-				call "fall"
+				call "geran5_destroy"
 			}
 		}
 		{
 			if not work "fuel_tank_internal_b"
 			{
-				call "fall"
+				call "geran5_destroy"
+			}
+		}
+		{
+			if not work "electronics"
+			{
+				call "geran5_destroy"
+			}
+		}
+		{
+			if not work "hydrosystem"
+			{
+				call "geran5_destroy"
 			}
 		}
 	}
+	; Geran-5 damage handlers end
 	{
 		on "engine_on"
 		{
@@ -7877,7 +7937,7 @@
                 {spawn "geran5_base" "geran5_launch_%0" x no_normal no_position
                     {set "booster_used" 1}
                     {tags add "g5_air_launched"}
-                    {impulse forward 35 com}
+                    {impulse up -10 forward 25 com}
                     {chassis_work 1}
                     ; End the ballistic release phase after half a second.
                     {delay 0.5

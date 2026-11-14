@@ -780,7 +780,7 @@
                             0	1	0
                             -3.42952	2.75732	-8.32042
                         }
-                        {VolumeView "missile01.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile02"
                         {Matrix34
@@ -789,7 +789,7 @@
                             0	1	0
                             -3.42952	2.75732	-5.54712
                         }
-                        {VolumeView "missile02.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile03"
                         {Matrix34
@@ -798,7 +798,7 @@
                             0	1	0
                             -3.42952	2.75732	-2.80272
                         }
-                        {VolumeView "missile03.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile04"
                         {Matrix34
@@ -807,7 +807,7 @@
                             0	1	0
                             -3.42952	2.75732	-0.0378852
                         }
-                        {VolumeView "missile04.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile05"
                         {Matrix34
@@ -816,7 +816,7 @@
                             0	1	0
                             -3.42952	2.75732	2.72627
                         }
-                        {VolumeView "missile05.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile06"
                         {Matrix34
@@ -825,7 +825,7 @@
                             0	1	0
                             -3.42952	2.75732	5.46345
                         }
-                        {VolumeView "missile06.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile07"
                         {Matrix34
@@ -834,7 +834,7 @@
                             0	1	0
                             -3.42952	2.75732	8.20953
                         }
-                        {VolumeView "missile07.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile08"
                         {Matrix34
@@ -843,7 +843,7 @@
                             0	1	0
                             -3.42952	2.75732	10.9835
                         }
-                        {VolumeView "missile08.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile09"
                         {Matrix34
@@ -852,7 +852,7 @@
                             0	1	0
                             -3.42952	0.0265083	-8.32042
                         }
-                        {VolumeView "missile09.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile10"
                         {Matrix34
@@ -861,7 +861,7 @@
                             0	1	0
                             -3.42952	0.0265083	-5.54712
                         }
-                        {VolumeView "missile10.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile11"
                         {Matrix34
@@ -870,7 +870,7 @@
                             0	1	0
                             -3.42952	0.0265083	-2.80272
                         }
-                        {VolumeView "missile11.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile12"
                         {Matrix34
@@ -879,7 +879,7 @@
                             0	1	0
                             -3.42952	0.0265083	-0.0378851
                         }
-                        {VolumeView "missile12.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile13"
                         {Matrix34
@@ -888,7 +888,7 @@
                             0	1	0
                             -3.42952	0.0265083	2.72627
                         }
-                        {VolumeView "missile13.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile14"
                         {Matrix34
@@ -897,7 +897,7 @@
                             0	1	0
                             -3.42952	0.0265083	5.46345
                         }
-                        {VolumeView "missile14.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile15"
                         {Matrix34
@@ -906,7 +906,7 @@
                             0	1	0
                             -3.42952	0.0265083	8.20953
                         }
-                        {VolumeView "missile15.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile16"
                         {Matrix34
@@ -915,7 +915,7 @@
                             0	1	0
                             -3.42952	-2.7043	-8.32042
                         }
-                        {VolumeView "missile16.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile17"
                         {Matrix34
@@ -924,7 +924,7 @@
                             0	1	0
                             -3.42952	-2.7043	-5.54712
                         }
-                        {VolumeView "missile17.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile18"
                         {Matrix34
@@ -933,7 +933,7 @@
                             0	1	0
                             -3.42952	-2.7043	-2.80272
                         }
-                        {VolumeView "missile18.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile19"
                         {Matrix34
@@ -942,7 +942,7 @@
                             0	1	0
                             -3.42952	-2.7043	2.72627
                         }
-                        {VolumeView "missile19.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile20"
                         {Matrix34
@@ -951,7 +951,7 @@
                             0	1	0
                             -3.42952	-2.7043	5.46345
                         }
-                        {VolumeView "missile20.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "missile21"
                         {Matrix34
@@ -960,7 +960,7 @@
                             0	1	0
                             -3.42952	-2.7043	8.20953
                         }
-                        {VolumeView "missile21.ply"}
+                        {VolumeView "missile00.ply"}
                     }
                     {Bone "tail00"
                         {Matrix34

@@ -4,7 +4,7 @@ Imports both user OBJ parts, builds UVs, separates damage parts, and exports
 aircraft/attack models with the distinct GEM coordinate bases.
 """
 from pathlib import Path
-import bpy, bmesh, importlib, copy, json, math
+import bpy, bmesh, importlib, copy, json, math, shutil, subprocess
 from mathutils import Matrix, Vector
 
 ROOT=Path(r'C:\Program Files (x86)\Steam\steamapps\common\Men of War Assault Squad 2\mods\kk-war-ne-govno-1.7.5')
@@ -173,6 +173,12 @@ model.write(str(DEST/'geran5.mdl'))
 ammo=copy.deepcopy(model);ammo.bones[0].matrix=(1,0,0,0,0,1,0,1,0,0,0,0)
 ammo.sequences=[s for s in ammo.sequences if s.name=='move']
 ammo.write(str(DEST/'geran5_ammo.mdl'))
+# Consolidate the freshly exported paint groups before loading the game model.
+# This only changes UV/material vertex data; the aircraft rig is unchanged.
+# Pillow is installed in the system texture-build Python, not Blender's Python.
+texture_python=shutil.which('python')
+if not texture_python:raise RuntimeError('System Python with Pillow/numpy is required for the atlas build')
+subprocess.run([texture_python,str(ROOT/'tools/build_geran5_atlas.py')],check=True)
 staging.hide_viewport=True
 for c in bpy.data.collections:
     if c.name.startswith(('an196','shahed136','Geran5 Sources')):c.hide_viewport=True

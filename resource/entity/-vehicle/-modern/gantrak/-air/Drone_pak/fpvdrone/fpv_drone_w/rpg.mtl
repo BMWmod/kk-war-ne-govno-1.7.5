@@ -1,4 +1,4 @@
 {material simple
-	{diffuse "rpg7rocket_albedo"}
+	{diffuse "$/model/fpv_shared/rpg7rocket_albedo_15f8511e98e2"}
 	{blend none}
 }

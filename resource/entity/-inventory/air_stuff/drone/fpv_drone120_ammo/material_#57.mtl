@@ -1,4 +1,4 @@
 {material simple
-	{diffuse "drone_roughness.tga"}
+	{diffuse "$/model/fpv_shared/drone_roughness_2ca67ba33f93"}
 	{blend none}
 }

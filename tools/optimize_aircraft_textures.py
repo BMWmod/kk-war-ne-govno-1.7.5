@@ -1,8 +1,8 @@
-"""Shared legacy DDS textures, full mip chains, unchanged source resolution.
+"""Shared legacy DDS textures with full mip chains.
 
-Original TGA source images are kept for Blender/rebuilds. Runtime materials
-reference only $/model/... DDS files, so local carrier copies are not loaded.
-Normal maps use the same X-in-alpha, Y-in-green DXT5 packing as the mod.
+AN-196 retains its source resolution and packed normal map. Geran-5 uses
+one 1024x1024 diffuse atlas; its procedural source art is rebuilt on demand.
+Runtime materials reference only $/model/... DDS files.
 """
 import io
 import struct
@@ -52,19 +52,8 @@ def material(folder, name):
 
 
 def install_g5():
-    shared = TEXTURES / 'geran5'
-    shared.mkdir(parents=True, exist_ok=True)
-    for part in PARTS:
-        name = 'g5_' + part
-        with Image.open(G5 / (name + '.tga')) as im:
-            save_dds(shared / (name + '.dds'), im, 'DXT1')
-        # Already packed/compressed correctly: copy bytes, no lossy recompression.
-        normal = (G5 / (name + '_bp.dds')).read_bytes()
-        assert normal[:4] == b'DDS ' and normal[84:88] == b'DXT5'
-        (shared / (name + '_bp.dds')).write_bytes(normal)
-        for folder in (G5, SU25):
-            if folder.exists():
-                (folder / (name + '.mtl')).write_bytes(material('geran5', name))
+    from build_geran5_atlas import install
+    install()
 
 
 def install_an196():
@@ -82,4 +71,4 @@ def install_an196():
 if __name__ == '__main__':
     install_g5()
     install_an196()
-    print('Shared DDS assets installed: Geran-5/Su-25 payload and AN-196; source dimensions retained.')
+    print('Shared DDS assets installed: single Geran-5/Su-25 atlas and original-resolution AN-196.')

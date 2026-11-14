@@ -112,7 +112,7 @@
                     3.42481	-3.38278	1.21486
                 }
                 {Visibility 0}
-                {VolumeView "propeller_work2.ply"}
+                {VolumeView "propeller_work.ply"}
             }
             {Bone "propeller_work3"
                 {Matrix34
@@ -122,7 +122,7 @@
                     3.42481	3.38504	1.21486
                 }
                 {Visibility 0}
-                {VolumeView "propeller_work3.ply"}
+                {VolumeView "propeller_work.ply"}
             }
             {Bone "propeller_work4"
                 {Matrix34
@@ -132,7 +132,7 @@
                     -3.36313	3.38504	1.21486
                 }
                 {Visibility 0}
-                {VolumeView "propeller_work4.ply"}
+                {VolumeView "propeller_work.ply"}
             }
             {Bone "body_systems"
                 {Matrix34

@@ -86,7 +86,7 @@
         {Bone "wheelsr"
             {Parameters "ID=trackright;"}
             {Position 2.19004	-20.0884	11.2109}
-            {VolumeView "wheelsr.ply"}
+            {VolumeView "wheelsl.ply"}
             {Bone revolute "wheelr2"
                 {Parameters "ID=trackright;"}
                 {Matrix34
