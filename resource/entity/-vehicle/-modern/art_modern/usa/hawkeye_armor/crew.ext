@@ -1,0 +1,68 @@
+;SDL
+;move  : driver commander(bone seat2) (cab)   seat3 seat4 (rear shelves)
+;attack: gunner charger (behind the platform). Cab crew (driver, seat2) are NOT mode workers - they stay seated.
+;mdl rest pose = deployed; "close" folds it (played when switching to move).
+
+(define "hk_crew_human"
+	{placer
+		{place "%place" {LinkBone "%bone"} {group "crew"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+{placer
+	{crew}
+}
+{boarder
+	{anm "walk"
+		{forward {speed 1}}
+		{reverse {speed 1}}
+	}
+	{anm "cab_l"
+		{forward	{begin "board_Kubel_driver"} {end "seat_driver_car"} {base "doorleft"}}
+		{reverse	{end "board_Kubel_driver" -1} {base "doorleft" -1}}
+	}
+	{anm "cab_r"
+		{forward	{begin "board_Kubel_commander"} {end "seat_passenger"} {base "doorright"}}
+		{reverse	{end "board_Kubel_commander" -1} {base "doorright" -1}}
+	}
+	{anm "shelf"
+		{forward	{begin "board_LowTank_stand"} {end "seat_passenger"}}
+		{reverse	{end "emit_tank_1_hold" 1}}
+	}
+	{anm "gun_place"
+		{forward	{begin "stand_idle_empty_1" 3} {end "pose_155gpf_charger"}}
+		{reverse	{begin "pose_155gpf_charger"} {end "stand_idle_empty_1" 3}}
+	}
+}
+
+;cab
+("hk_crew_human" place(driver)	bone(driver)	door(emit1) animation(cab_l) visor(driver))
+("hk_crew_human" place(commander)	bone(seat2)	door(emit2) animation(cab_r) visor(commander))
+;rear shelves (travel)
+("hk_crew_human" place(seat3)	bone(seat3)	door(emit3) animation(shelf) visor(none))
+("hk_crew_human" place(seat4)	bone(seat4)	door(emit4) animation(shelf) visor(none))
+
+;gun crew (deployed)
+{placer
+	{place "gunner"	{LinkBone "gunner"}	{group "crew"} {visor "main"} {openForCrush} {useVision}}
+	{place "charger"	{LinkBone "charger"}	{group "crew"} {visor "main"} {openForCrush} {useVision}}
+}
+{boarder
+	{node "node3"}
+	{node "node4"}
+	{node "node5"}
+	{node "node6"}
+	{link "emit3" "node3" {forward putoff} {reverse puton}}
+	{link "emit4" "node4" {forward putoff} {reverse puton}}
+	{link "node3" "node5" {anm "[fsm]"}}
+	{link "node4" "node6" {anm "[fsm]"}}
+	{link "node5" "gunner" {anm "gun_place"}}
+	{link "node6" "charger" {anm "gun_place"}}
+	{link "node3" "seat3" {anm "shelf"}}
+	{link "node4" "seat4" {anm "shelf"}}
+
+}

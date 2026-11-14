@@ -1,0 +1,37 @@
+;105mm M20 (Hawkeye soft-recoil mount) - based on CW 105mm_l118 (M119), a bit more accurate and longer-ranged
+{from "pattern tank_gun"
+	{filling "bullet_105_how"}
+	{fireSound "gun/2B11"}
+	{reloadSound "L118_ 105mm_reload"}
+	{rechargeTime 7}	; ~8.5 rounds per minute
+	{range 280 280}
+	{ZeroingAccuracy 0.75 0.5 0.33}
+	{gravity 2.15}	; v^2/g ~ 10.5 x range, so 283 is reachable at 45 deg (M119: 2.5 for 250)
+	("speed_artillery")
+	("100-128caliber")
+	{calibre 5}
+	("damage4" a(1) b(1) c(1) d(1) e(1))
+	("CW_acc_artillery" mils(4.7))	; M119/L118: 5.5
+	{cursorReloading "cannon_reload_fg"}
+	{parameters "bullet105how_uk fg"
+		{range 283 283}
+	}
+	{parameters "bullet105how_uk sm"
+		{range 275 275}
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+	}
+	{parameters "bullet105how_usa fg"	; M119: 250
+		{range 275 275}
+	}
+	{parameters "bullet105how_usa_ar fg"	; M119: 295
+		{range 325 325}
+		{gravity 1.85}	; reaches 325 at 45 deg
+		("CW_acc_artillery" mils(6.3))	; M119: 7.33
+	}
+	{parameters "bullet105how_usa sm"
+		{range 275 275}
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+	}
+}

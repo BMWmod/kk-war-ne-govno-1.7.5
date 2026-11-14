@@ -329,6 +329,9 @@
  ;УАЗ с СПГ-9
  {"uaz469_spg9_ukr" {fore 1.0} ("v3" c(250) sc(10) g(newua)  b(extra) brig(vsu_ua) s(ukr)  i(25434) cw(0) cp(10) t(all_nz) c1(uaz469_spg9) n(1) n1(tankman:3)) }
 
+ ;Hawkeye (105-мм гаубица на бронированном HMMWV): 100 спецочков
+ {"hawkeye_armor_ukr" {fore 0.5} ("v3" c(200) sc(100) g(zilart)  b(extra) brig(art_ua) s(ukr)  i(2042) cw(0) cp(15) t(all_nz) c1(hawkeye_armor) n(1) n1(tankman:4)   ) }
+
  ;PzH 2000
  {"pzh2000_ukr" {fore 0.45} ("v3" c(1500) sc(200) g(artstvolger)  b(extra) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(pzh2000) n(1) n1(tankman:5)   ) }
 

@@ -1758,3 +1758,39 @@
 		}
 	}
 }
+{
+	"hawkeye_armor"
+	{
+		on "add_movement_sound" overload
+		{
+			link_sound "move"			"vehicle/wheels/hmmwv"
+		}
+		{
+			link_sound "engine"		"vehicle/engine/Humvee"
+		}
+		{
+			link_sound "engine_end"		"vehicle/engine/Humvee_stop"
+		}
+		{
+			link_sound "rotate_turret"	"vehicle/turret/light1"
+		}
+		{
+			link_sound "exhaust"		"vehicle/engine/humvee_start"
+		}
+	}
+	{
+		on fire "gun"			("tank_gun")
+		{
+			spawn "dust_shot_norm" "basis"
+		}
+		{
+			spawn "tank_canon_fire" "Foresight1" x
+		}
+		{
+			blastwave c4 1 r0 1.0 r1 2.5 bone "Foresight1"
+		}
+		{
+			ani_play "fire"
+		}
+	}
+}

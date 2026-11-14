@@ -254,6 +254,8 @@
    ;Арта и ПВО
    {"d30_ukr"								    "<c(FFFFFF)e(shadow)>Д-30</c>"}
    {"caesar_ukr_ukr"								    "<c(FFFFFF)e(shadow)>CAESAR</c>"}
+   {"hawkeye_armor"								    "<c(FFFFFF)e(shadow)>Hawkeye (бронированный HMMWV)</c>"}
+   {"hawkeye_armor_ukr"							    "<c(FFFFFF)e(shadow)>Hawkeye (бронированный HMMWV)</c>"}
    {"tochka_y_ukr"								    "<c(FFFFFF)e(shadow)>Точка-У</c>"}
    {"buk_m1_ukr"								    "<c(FFFFFF)e(shadow)>Бук-М1</c>"}
 

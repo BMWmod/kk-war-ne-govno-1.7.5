@@ -27,6 +27,8 @@
 {"t72av_turmst"	"<c(FFFF00)e(shadow)>Основной боевой танк</c>"}
 {"ypr_765"	"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
 {"caesar"	"<c(FFFF00)e(shadow)>Самоходная артиллерийская установка</c>"}
+{"hawkeye_armor"	"<c(FFFF00)e(shadow)>Самоходная 105-мм гаубица</c>"}
+{"hawkeye_armor_ukr"	"<c(FFFF00)e(shadow)>Самоходная 105-мм гаубица</c>"}
 {"an_2_bomb_isis"							"<c(FFFF00)>Транспортный самолёт</c>"}
 {"an_2_bomb"							"<c(FFFF00)>Транспортный самолёт</c>"}
 {"an_2_no_wp_isis"							"<c(FFFF00)>Транспортный самолёт</c>"}

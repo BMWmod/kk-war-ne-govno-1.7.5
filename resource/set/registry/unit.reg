@@ -317,6 +317,7 @@
 	{"2s7m_malka"			{structure "cwds_tank2"}}
 	{"dana_152mm"			{structure "cwds_apc8"}}
 	{"caesar"				{structure "cwds_apc6"}}
+	{"hawkeye_armor"		{structure "cwds_armcar"}}
 	{"pzh2000"				{structure "cwds_tank2"}}
 	{"as_90"				{structure "cwds_tank2"}}
 	{"paladin"				{structure "cwds_tank2"}}
