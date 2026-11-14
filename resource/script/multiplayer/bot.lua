@@ -6,31 +6,39 @@ local Context = {
 	Purchase = nil,
 	SpawnInfo = nil,
 	SquadTimers = {},
-	TimedUnits = {}
+	TimedUnits = {},
+	Running = false,
+	Generation = 0
 }
 
 function addTimedUnit(unit)
-	table.insert(Context.TimedUnits, {u=unit, bought_at=Quants})
+	Context.TimedUnits[unit] = Quants + unit.charge * 100
 end
 
 function updateTimedUnits(unit_to_search)
-	local res=1
-	if #Context.TimedUnits>0 then
-		for i, timed_unit in pairs(Context.TimedUnits) do
-			if timed_unit.u==unit_to_search then
-				res=0
-			end
-			if (Quants-timed_unit.bought_at) > (timed_unit.u.charge*100) then
-				Context.TimedUnits[i]=nil
-			end
-		end
+	local expires = Context.TimedUnits[unit_to_search]
+	if expires and Quants <= expires then
+		return 0
 	end
-	return res
+	Context.TimedUnits[unit_to_search] = nil
+	return 1
+end
+
+local function clearBotState()
+	Context.Running = false
+	Context.Generation = Context.Generation + 1
+	for squad, timer in pairs(Context.SquadTimers) do
+		BotApi.Events:KillQuantTimer(timer)
+	end
+	Context.SquadTimers = {}
+	Context.TimedUnits = {}
+	Context.Purchase = nil
+	Context.SpawnInfo = nil
 end
 
 function readUnitsRaw(fname, units, army) 								-- Credit for parser goes to the maker of AggroAi.
 	--if verbose then print("reading ", fname , " for ", army) end		-- You can enable prints for debug purposes.
-	f=io.open(fname, "r")
+	local f=io.open(fname, "r")
 	if f~=nil then 
 		while true do
 			local asRead = f:read("*l")
@@ -216,7 +224,7 @@ function getUnitPriority(unit, enemy_has_tanks, flags)
 end
 
 function getUnitToSpawn(units)
-	if not units then
+	if not units or #units == 0 then
 		return nil
 	end
 	
@@ -272,6 +280,8 @@ function getUnitToSpawn(units)
 end
 
 function onGameStart()
+	clearBotState()
+	Context.Running = true
 	math.randomseed(os.time()*BotApi.Instance.hostId)
 	Quants=0
 
@@ -285,16 +295,24 @@ function onGameStart()
 end
 
 function onGameStop()
-	for squad, timer in pairs(Context.SquadTimers) do
-		if timer then
-			BotApi.Events:KillQuantTimer(timer)
-		end
-	end
+	clearBotState()
 	collectgarbage("collect")		-- Maybe gc helps a little the game engine not to run out of memory after multiple games. At least i hope so...
 end
 
 function onGameQuant()
+	if not Context.Running then return end
 	Quants=Quants+1
+	-- Release dead squads immediately, rather than retaining their callbacks
+	-- until the two-minute order timer fires.
+	for squad, timer in pairs(Context.SquadTimers) do
+		if not BotApi.Scene:IsSquadExists(squad) then
+			BotApi.Events:KillQuantTimer(timer)
+			Context.SquadTimers[squad] = nil
+		end
+	end
+	for unit, expires in pairs(Context.TimedUnits) do
+		if Quants > expires then Context.TimedUnits[unit] = nil end
+	end
 	if not Context.SpawnInfo or BotApi.Commands:Spawn(Context.SpawnInfo.unit, MaxSquadSize) then
 		Context.SpawnInfo=getUnitToSpawn(Context.Purchase)
 	end
@@ -314,17 +332,24 @@ function captureFlag(squad)
 end
 
 function setSquadOrder(order, squad, delay)
+	if not Context.Running or Context.SquadTimers[squad]
+		or not BotApi.Scene:IsSquadExists(squad) then return end
+	local generation = Context.Generation
 	order(squad)
-	local setTimer=function(callback)
-		Context.SquadTimers[squad]=BotApi.Events:SetQuantTimer(function()
+	local function schedule()
+		local timer
+		timer = BotApi.Events:SetQuantTimer(function()
+			if not Context.Running or Context.Generation ~= generation
+				or Context.SquadTimers[squad] ~= timer then return end
+			Context.SquadTimers[squad] = nil
+			if BotApi.Scene:IsSquadExists(squad) then
 				order(squad)
-				Context.SquadTimers[squad]=nil
-				if BotApi.Scene:IsSquadExists(squad) then
-					callback(callback)
-				end
-			end, delay)
+				schedule()
+			end
+		end, delay)
+		Context.SquadTimers[squad] = timer
 	end
-	setTimer(setTimer)
+	schedule()
 end
 
 function onGameSpawn(args)

@@ -16,13 +16,8 @@ def copy_payload(destination):
     destination.mkdir(parents=True,exist_ok=True)
     for part in PARTS:
         shutil.copy2(SOURCE/(part+'.ply'),destination/('g5_payload_'+part+'.ply'))
-    # The PLY material strings already use the unique g5_ prefix. Keep them
-    # unchanged and supply their diffuse/normal textures in the same folder.
-    for pattern in ('g5_*.mtl','g5_*.tga','g5_*.dds'):
-        for path in SOURCE.glob(pattern):shutil.copy2(path,destination/path.name)
-    for name in ('body','wing','panels','metal','dark'):
-        if (SOURCE/('g5_'+name+'_bp.dds')).exists():
-            (destination/('g5_'+name+'_bp.tga')).unlink(missing_ok=True)
+    # Both carriers share the same global atlas; local texture copies are unused.
+    shutil.copy2(SOURCE/'g5_atlas.mtl',destination/'g5_atlas.mtl')
 
 def install():
     copy_payload(DEST)
@@ -32,6 +27,6 @@ def install():
         data=data.replace(('../geran5/'+part+'.ply').encode('ascii'),('g5_payload_'+part+'.ply').encode('ascii'))
     assert b'../geran5/' not in data
     path.write_bytes(data)
-    print('Carrier payload: 7 local meshes, 5 materials, 10 textures; no parent-directory VolumeView references.')
+    print('Carrier payload: 7 local meshes, 1 material, 1 shared atlas; no parent-directory VolumeView references.')
 
 if __name__=='__main__':install()

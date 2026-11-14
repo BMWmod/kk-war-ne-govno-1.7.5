@@ -1,4 +1,4 @@
 {material simple
-	{diffuse "drone_body_bycawx"}
+	{diffuse "$/model/fpv_shared/drone_body_bycawx_c1255340ca5e"}
 	{blend none}
 }

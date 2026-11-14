@@ -9,6 +9,11 @@
     {cp %cp}
 	{cost %sc} 
 )
+; Exact content is supplied by the purchasing squad: no optional crew slots.
+(define "v_explicit"
+    ("generic_v" c(%c) sc(%sc) t(%t %s %brig) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+)
+
 ;plane
 (define "p"
     ("generic_v" c(%c) sc(%sc) t(%t %s %brig) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))

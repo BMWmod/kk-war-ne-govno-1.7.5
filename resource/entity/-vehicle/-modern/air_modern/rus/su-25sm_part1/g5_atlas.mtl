@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "$/model/geran5/g5_atlas" {MipMap 1}}
+ {blend none}
+}
