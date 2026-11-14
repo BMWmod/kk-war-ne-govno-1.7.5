@@ -1,0 +1,21 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun"}
+	{filling "ammo geran5_launch" 2}
+	{fillingVisible "geran5_"}	
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{entity "geran5_launch_item"}
+	{recoveryTime 3}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 10000}
+	{aimRange 10000}
+	{AimingTolerance 180}
+	{aimtype direct}
+	; Two independent aircraft; 160-second magazine reload from supplied ammunition.
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_6"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

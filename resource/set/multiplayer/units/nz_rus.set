@@ -215,6 +215,7 @@
  {"su-35_strike" {fore 0} ("p" c(1500) sc(200) g(air_strike69) b(extra) brig(vvs) s(rus)  i(3) m(2) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
  {"su-50_aa" {fore 0} ("p" c(1200) sc(100) g(antiair_sp) b(extra) brig(pvo) s(rus)  i(172) cw(0) m(1) cp(40) t(all_nz aircraft   ) n(1)               ) } 
  {"shahed136_base"	("p" c(5) brig(vvs) t(all_nz additional aircraft aat nobot shahed136) s(rus) n(0) g(extra01)  sc(10) b(extra) i(222) cw(0) cp(2))  {fore -90.0}}
+ {"su-25sm_geran5" {fore 0} ("p" c(720) sc(200) g(extra01) b(extra) brig(vvs) s(rus) i(223) cw(0) cp(20) t(all_nz additional aircraft nobot geran5_carrier) n(1))}
 
  
   ("squad_with11types" name(elite) f(0)  c(600) cost(50) g(elite_333) b(extra) brig(mot) side(rus) m(7)    t(all_nz specnaz infantry  ) info(elite) c1(gru_com:1) c2(gru_mgun2:1) c3(gru_mgun:1) c4(gru_smg3:1) c5(gru_rpg:1) c6(gru_rpghelp:1) c7(gru_smg2:1) c8(gru_smg:1) c9(gru_sniper:1) ca(gru_zamcom:1)     ) 
@@ -246,5 +247,3 @@
 
  {"eleron3sv" {fore 0} ("h" c(900) sc(5) g(nzt) b(nzt) brig(nzt) s(rus)  i(0) cw(0) cp(0) t(nzt    ) n(2)               ) }
  {"x59x_carrier" {fore 0} ("h" c(900) sc(5) g(nzt) b(nzt) brig(nzt) s(rus)  i(0) cw(0) cp(0) t(nzt    ) n(2)               ) }
-                        
-            

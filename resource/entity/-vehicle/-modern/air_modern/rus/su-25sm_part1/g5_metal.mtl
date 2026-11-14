@@ -1,0 +1,5 @@
+{material bump
+ {diffuse "g5_metal" {MipMap 1}}
+ {bump "g5_metal_bp"}
+ {blend none}
+}

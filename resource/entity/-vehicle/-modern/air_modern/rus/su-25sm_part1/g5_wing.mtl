@@ -1,0 +1,5 @@
+{material bump
+ {diffuse "g5_wing" {MipMap 1}}
+ {bump "g5_wing_bp"}
+ {blend none}
+}

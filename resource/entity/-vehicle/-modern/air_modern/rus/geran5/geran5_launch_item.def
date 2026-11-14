@@ -1,0 +1,6 @@
+{game_entity
+    (include "/properties/Projectile_ammo.ext")
+    {collider "ammo"}
+    {Extension "geran5_launch_item.mdl"}
+    {extender "stuff" {item "geran5_launch ammo"}}
+}

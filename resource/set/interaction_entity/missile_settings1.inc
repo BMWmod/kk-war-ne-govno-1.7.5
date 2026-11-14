@@ -176,6 +176,7 @@
 	else stuff "an196_base_ammo ammo"
 	("spawn_proj_5" country(rus) type(other) weapon_tag(an196_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
 	else stuff "tu141_base_ammo ammo"	("spawn_proj_5" country(rus) type(other) weapon_tag(tu141_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
+	else stuff "geran5_base_ammo ammo"	("spawn_proj_5" country(rus) type(other) weapon_tag(geran5_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
 
 ;air-to-ground
 	else stuff "x_25ml_su25_ammo ammo"	

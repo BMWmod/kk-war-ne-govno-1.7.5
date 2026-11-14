@@ -1416,3 +1416,18 @@
 		}
 	}
 }
+
+{("CWPS_proj" missilename(geran5_base) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(35) tail(none) eng_time(1))
+}
+{"geran5_base_impactor"
+	{on "detonate" overload
+	    {if altitude 0
+		 {spawn "proj_restrictor" "root" x}
+		 {delay 0.05 {stuff_detonate}}
+		  else
+			{gravity 0}
+			{impulse up 2.0}
+			{call "underground_detonate"}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{Skeleton
+ {bone "basis"
+  {Orientation 1 0 0 0 -1 0 0 0 1}
+  {bone "body" {VolumeView "body.ply"}}
+  {bone "panels" {VolumeView "panels.ply"}}
+  {bone "wingl1" {VolumeView "wingl1.ply"}}
+  {bone "wingr1" {VolumeView "wingr1.ply"}}
+  {bone "tail" {VolumeView "tail.ply"}}
+  {bone "engine" {VolumeView "engine.ply"}}
+  {bone "booster" {VolumeView "booster.ply"}}
+ }
+}

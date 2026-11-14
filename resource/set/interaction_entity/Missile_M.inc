@@ -8706,3 +8706,22 @@
 		}
 	}
 }
+
+{
+	"geran5_base_impactor_link"
+	{
+		on "link_sound" overload
+		{
+			if linked
+			{
+				link_sound "fly"	"vehicle/airborne/jet_engine_work"
+			}
+			{
+				play_sound "fly" 1
+			}
+			{
+				tags add "cwps_missile_minimap"
+			}
+		}
+	}
+}

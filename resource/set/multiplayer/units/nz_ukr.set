@@ -314,10 +314,10 @@
  {"f-16c_strike_ukr88" {fore 0} ("v3" c(600) sc(200) g(air_su22ukr) b(extra) brig(avia_ua) s(ukr)  i(1075) cw(0) cp(69) t(all_nz) c1(su24m_storm_ukr) n(2) n1(pilot:2) ) }
 
  ;Ту-141
- {"tu141_base"	("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot tu141) s(ukr) n(0) g(extra01)  sc(20) b(extra) i(1083) cw(0) cp(2))  {fore -90.0}}
+ {"tu141_base"	("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot tu141) s(ukr) n(0) g(extra01)  sc(20) b(extra) i(1083) cw(0) cp(2))  {fore -35.0}}
 
  ;АН-196 «Лютый»: 10 спецочков
- {"an196_base" ("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot an196) s(ukr) n(0) g(extra01) sc(10) b(extra) i(1084) cw(0) cp(2)) {fore -90.0}}
+ {"an196_base" ("p" c(5) brig(avia_ua) t(all_nz additional aircraft aat nobot an196) s(ukr) n(0) g(extra01) sc(10) b(extra) i(1084) cw(0) cp(2)) {fore -59.0}}
 
 
  ;БМ «Оплот»

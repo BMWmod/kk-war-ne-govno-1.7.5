@@ -748,7 +748,8 @@
 )
 ;Особо тяжелые бомбы и ракеты имеют половинную цену
 
-(define "air_stuff_rus"	
+(define "air_stuff_rus"
+	{item "geran5_launch ammo" 1 {max 2}{value 40}}
     {item "vixr_ammo ammo" 2 {max 12}{value 12}}
 	{item "germes ammo" 2 {max 8}{value 40}}				
 	{item "fab_250 ammo" 1 {max 2}{value 10}}				

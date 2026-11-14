@@ -1,0 +1,13 @@
+{from "pattern proj_impactor"
+    {entity "geran5_base_impactor"}
+    {inventory {weight 100} {size 5 1}}
+    {tag "no_ricochet" "fg" "fragmentary" "big" "size4" "fx_upto50kg" "he_over30"}
+    ; UAV warhead: no cruise-missile penetration or FAB-500 blast envelope.
+    {damage blastwave {energy 0.7} {area 20 23}}
+    {damage add blastwave {energy 1.2} {area 16 18.4}}
+    {damage add blastwave {energy 2.5} {area 10 11.5}}
+    {damage add blastwave {energy 6.5} {area 7.5 8.6}}
+    {damage add blastwave {energy 11} {area 3.5 4}}
+    {damage add blastwave {energy 25} {area 0.2 0.4}}
+    {damage add fire {radius 3} {heating 10} {time 1.5}}
+}

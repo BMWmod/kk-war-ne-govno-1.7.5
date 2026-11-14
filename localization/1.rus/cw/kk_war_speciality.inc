@@ -194,6 +194,7 @@
 				{"aladin"								"<c(FFFF00)>Разведывательный БПЛА</c>"}
 			;ir
 				{"shahed136_base"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
+				{"geran5_base"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
 				{"an196_base"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
 			;rus
 				;an-12
@@ -242,6 +243,7 @@
 					{"su-25sm_miner"					"<c(FFFF00)>Штурмовик</c>"}
 					{"su-25sm_support"					"<c(FFFF00)>Штурмовик</c>"}
 					{"su-25sm_support_light"			"<c(FFFF00)>Штурмовик</c>"}
+					{"su-25sm_geran5"					""}
 				;su-25sm_part2
 					{"su-25sm_at"						"<c(FFFF00)>Штурмовик</c>"}
 					{"su-25sm_strike"					"<c(FFFF00)>Штурмовик</c>"}
@@ -907,6 +909,7 @@
 				{"spike_nlos_fg_carrier"				"<c(FFFF00)>Противотанковая управляемая ракета</c>"}
 				{"switchblade300_carrier"				"<c(FFFF00)>Барражирующий боеприпас</c>"}
 				{"shahed136_base_carrier"				"<c(FFFF00)>Барражирующий боеприпас</c>"}
+				{"geran5_base_carrier"				"<c(FFFF00)>Барражирующий боеприпас</c>"}
 				{"an196_base_carrier"				"<c(FFFF00)>Барражирующий боеприпас</c>"}
 			;sam_carrier
 				{"x59m_carrier"							"<c(FFFF00)>Ракета воздух-земля</c>"}
