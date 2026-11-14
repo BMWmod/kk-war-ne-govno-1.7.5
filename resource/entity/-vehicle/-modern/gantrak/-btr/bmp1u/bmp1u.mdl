@@ -435,9 +435,9 @@
                     0.999976	0.00698127	0
                     -0.00698127	0.999976	0
                     0	0	1
-                    -2.3276	9.39499	13.7867
+                    0.37145	10.6125	10.7368
                 }
-                {VolumeView "turret.ply"}
+                {VolumeView "turret_shkval.ply"}
                 {Bone revolute "gun_rot"
                     {Parameters "ID=gun;"}
                     {Limits -7 48}
@@ -445,50 +445,47 @@
                         0	-1	0
                         0	0	1
                         -1	0	0
-                        3.21596	-1.89837	5.39961
+                        -0.0286231	-4.0999	8.13
                     }
-                    {VolumeView "gun_rot.ply"}
+                    {VolumeView "gun_rot_shkval.ply"}
                     {Bone "gun"
                         {Parameters "ID=gun;"}
                         {Matrix34
                             1	0	0
                             0	0	-1
                             0	1	0
-                            23.4044	-3.27238	2.40694
+                            0	7.40555e-06	0
                         }
-                        {VolumeView "gun.ply"}
+                        {VolumeView "gun_shkval.ply"}
                         {Bone "foresight1"
-                            {Position 21.1775	-0.1522	0.153481}
+                            {Position 49.9988	-0.349059	8.06997e-06}
                         }
                     }
                     {Bone "mgun2"
                         {Parameters "ID=gun;"}
-                        {Position 0.844007	0	-0.385381}
-                        {VolumeView "mgun2.ply"}
+                        {Position 1.8312	1.47	-18.7877}
                         {Bone "foresight5"
                             {Matrix34
                                 1	0	0
                                 0	0	-1
                                 0	1	0
-                                7.49666	-2.04216	-4.29683
+                                0.299993	6.75925e-06	0.00209404
                             }
                         }
                     }
                     {Bone revolute "mgun_rot"
                         {Parameters "ID=gun;"}
                         {Limits -6 12}
-                        {Position 7.03625	-0.134361	-2.60419}
-                        {VolumeView "mgun_rot.ply"}
+                        {Position 15.0101	-1.14999	-1.39524}
                         {Bone "mgun"
                             {Parameters "ID=gun;"}
-                            {Position -6.19224	0.134365	2.21881}
-                            {VolumeView "mgun.ply"}
+                            {Position 5.80268e-07	-6.60289e-06	0}
                             {Bone "foresight3"
                                 {Matrix34
                                     1	0	0
                                     0	0	-1
                                     0	1	0
-                                    9.53227	-1.25747	-1.89907
+                                    1.29997	-6.48884e-06	0.0090755
                                 }
                             }
                         }
@@ -496,40 +493,33 @@
                 }
                 {Bone revolute "gun_rot2"
                     {Parameters "ID=gun2;"}
-                    {Limits -7 14}
+                    {Limits -7 30}
                     {Matrix34
                         0	-1	0
                         0	0	1
                         -1	0	0
-                        -13.4458	-2.17735	5.63939
+                        -19.6995	0.137531	8.68
                     }
-                    {VolumeView "gun_rot2.ply"}
-                    {Bone "opener"
+                    {VolumeView "gun_rot2_shkval.ply"}
+                    {Bone "gun2"
                         {Parameters "ID=gun2;"}
                         {Matrix34
-                            0.173648	-0.984808	0
+                            1	0	0
                             0	0	-1
-                            0.984808	0.173648	0
-                            -0.952562	-1.27704	-31.6355
+                            0	1	0
+                            -9.63468e-07	0	0
                         }
-                        {VolumeView "opener.ply"}
-                    }
-                }
-                {Bone "mgun19"
-                    {Parameters "ID=gun;"}
-                    {Matrix34
-                        0	-1	0
-                        1	0	0
-                        0	0	1
-                        -6.07783	-12.0926	2.59793
-                    }
-                    {VolumeView "mgun19.ply"}
-                    {Bone "foresight21"
-                        {Matrix34
-                            0.996195	-0.0871557	0
-                            0.0871557	0.996195	0
-                            0	0	1
-                            1.6416	-0.25784	3.02588
+                        {Bone "foresight6"
+                            {Position 14.6996	-0.102623	6.22}
+                        }
+                        {Bone "foresight6_0"
+                            {Position 19.9995	-0.139625	-0.879997}
+                        }
+                        {Bone "tail_00"
+                            {Position -13.6997	0.095642	4.22}
+                        }
+                        {Bone "tail_01"
+                            {Position -8.39979	0.058639	-2.78}
                         }
                     }
                 }
@@ -539,24 +529,40 @@
                         0	-1	0
                         1	0	0
                         0	0	1
-                        11.0892	-12.0926	2.59793
+                        10.8362	-9.17587	8
                     }
-                    {VolumeView "mgun18.ply"}
                     {Bone "foresight20"
                         {Matrix34
                             0.996195	-0.0871557	0
                             0.0871557	0.996195	0
                             0	0	1
-                            3.006	0.409977	2.95264
+                            2.99993	-0.0209434	1.5
+                        }
+                    }
+                }
+                {Bone "mgun19"
+                    {Parameters "ID=gun;"}
+                    {Matrix34
+                        0	-1	0
+                        1	0	0
+                        0	0	1
+                        -8.96331	-9.03764	8
+                    }
+                    {Bone "foresight21"
+                        {Matrix34
+                            0.996195	-0.0871557	0
+                            0.0871557	0.996195	0
+                            0	0	1
+                            2.99993	-0.0209434	1.5
                         }
                     }
                 }
                 {Bone "visor1"
                     {Matrix34
-                        -0	-1	-0
-                        1	-0	-0
-                        0	-0	1
-                        18.2646	-14.5143	5.07681
+                        0	-1	0
+                        1	0	0
+                        0	0	1
+                        -7.14939	-7.05026	14.5
                     }
                 }
             }
@@ -882,12 +888,12 @@
 {Volume "ammo_storage_main"
     {Polyhedron "ammo_storage_main.vol"}
     {Bone "turret"}
-    {Position -9.73057	-14.7755	-16.5649}
+    {Position -12.4381	-15.9741	-13.515}
 }
 {Volume "ammo_storage_mgun3"
     {Polyhedron "ammo_storage_mgun3.vol"}
     {Bone "turret"}
-    {Position 2.21606	-5.15938	-15.5218}
+    {Position -0.491423	-6.35798	-12.4719}
 }
 {Volume "body2"
     {Polyhedron "body2.vol"}
@@ -912,7 +918,7 @@
 {Volume "commander_triplex"
     {Polyhedron "commander_triplex.vol"}
     {Bone "turret"}
-    {Position 4.83661	5.78578	-0.43325}
+    {Position 2.12913	4.58718	2.61665}
 }
 {Volume "driver_panel"
     {Polyhedron "driver_panel.vol"}
@@ -1010,19 +1016,19 @@
     }
 }
 {Volume "gun2"
-    {Polyhedron "gun2.vol"}
+    {Box 26.6437 3.99336 5.386}
     {Bone "gun_rot"}
-    {Position 12.7042	4.06606	-1.57327}
+    {Position 16.8424	-0.144635	-0.798241}
 }
 {Volume "gun"
-    {Polyhedron "gun.vol"}
+    {Box 36.786 2.82544 2.73281}
     {Bone "gun_rot"}
-    {Position 16.4792	-0.0936127	-1.03982}
+    {Position 31.614	-0.00060159	0.214302}
 }
 {Volume "gunner_place"
     {Polyhedron "gunner_place.vol"}
     {Bone "turret"}
-    {Position -3.20723	4.70171	-19.6029}
+    {Position -5.91471	3.50311	-16.553}
 }
 {Volume "hull_integrity"
     {Polyhedron "hull_integrity.vol"}
@@ -1057,7 +1063,7 @@
 {Volume "mgun"
     {Polyhedron "mgun.vol"}
     {Bone "gun_rot"}
-    {Position 3.14951	-0.598988	1.64092}
+    {Position 2.14658	-0.279477	1.10382}
 }
 {Volume "panel_engine_connectors"
     {Polyhedron "panel_engine_connectors.vol"}
@@ -1192,7 +1198,7 @@
 {Volume "stabilizer"
     {Polyhedron "stabilizer.vol"}
     {Bone "gun_rot"}
-    {Position -7.431	-2.89562	0.0642252}
+    {Position -8.43393	-2.57611	-0.472875}
 }
 {Volume "trackleft"
     {Polyhedron "trackleft.vol"}
@@ -1217,7 +1223,7 @@
 {Volume "turret_move_engine"
     {Polyhedron "turret_move_engine.vol"}
     {Bone "turret"}
-    {Position 0.529308	10.9256	-7.31979}
+    {Position -2.17817	9.727	-4.26989}
 }
 {Volume "turret_ring"
     {Polyhedron "turret_ring.vol"}
@@ -1230,7 +1236,7 @@
     }
 }
 {Volume "turret"
-    {Polyhedron "turret.vol"}
+    {Box 38.7812 38.7658 13.1342}
     {Bone "turret"}
-    {Position 2.40461	-0.318143	-5.36395}
+    {Position 1.82488	2.37545	8.44112}
 }

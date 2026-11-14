@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/bmp1u_shkval/bmp1u_turret"}
+	{emitsheat}
+	{blend none}
+}
