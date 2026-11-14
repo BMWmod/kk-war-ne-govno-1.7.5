@@ -1,5 +1,5 @@
 {material bump
- {diffuse "an196_body" {MipMap 1}}
- {bump "an196_body_bp"}
+ {diffuse "$/model/an196/an196_body" {MipMap 1}}
+ {bump "$/model/an196/an196_body_bp"}
  {blend none}
 }

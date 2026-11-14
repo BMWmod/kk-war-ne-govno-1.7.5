@@ -61,7 +61,7 @@
 			{foresight "foresight2"}
 			{charger "driver"}
 			{gunner "driver"}
-			{shooter "geran5_launch_"}
+			{shooter "x-25_shooter_"}
 			{barrels 2}
 			{basic}
 		}
@@ -126,7 +126,7 @@
 	{texmod "vksred10"}
 
     {brain {properties {control user} {fire_mode hold}}}
-    ; This sight selects a release point, not a missile engagement direction.
-    {bone "missile_rot" {limits -180 180} {speed 100}}
-    {bone "missile_rot1" {limits -180 180} {speed 100}}
+    ; Release cone: 35 degrees left/right, at most 35 degrees below the nose.
+    {bone "missile_rot" {limits -35 35} {speed 100}}
+    {bone "missile_rot1" {limits -5 35} {speed 100}}
 }

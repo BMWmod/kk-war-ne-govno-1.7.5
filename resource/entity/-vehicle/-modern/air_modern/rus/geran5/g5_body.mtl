@@ -1,5 +1,5 @@
 {material bump
- {diffuse "g5_body" {MipMap 1}}
- {bump "g5_body_bp"}
+ {diffuse "$/model/geran5/g5_body" {MipMap 1}}
+ {bump "$/model/geran5/g5_body_bp"}
  {blend none}
 }

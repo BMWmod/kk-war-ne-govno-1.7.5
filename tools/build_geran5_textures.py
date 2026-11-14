@@ -90,4 +90,6 @@ for name,im in [('body',body),('wing',wing),('panels',panels),('metal',metal),('
     save_normal('g5_'+name+'_bp',Image.fromarray(np.uint8(np.clip((n+1)*127.5,0,255))))
     text='{material bump\n {diffuse "g5_'+name+'" {MipMap 1}}\n {bump "g5_'+name+'_bp"}\n {blend none}\n}\n'
     (DEST/('g5_'+name+'.mtl')).write_bytes(text.replace('\n','\r\n').encode('ascii'))
-print('Created five TGA diffuse textures and five DXT5 normal maps with mipmaps.')
+from optimize_aircraft_textures import install_g5
+install_g5()
+print('Created source textures and shared compressed runtime DDS textures.')

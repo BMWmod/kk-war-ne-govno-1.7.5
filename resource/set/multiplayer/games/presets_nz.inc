@@ -1,7 +1,7 @@
 ;Лис пустыни
 ;====Тест мод=====  
 (define "unit_limits"
-{unitLimits ";9k72=1;tankman=6;strike=1;rogatka=1;vs=4;p=2;t14=2;max5=5;max6=6;susemx59=2"}
+{unitLimits "9k72=1;tankman=6;strike=1;rogatka=1;vs=4;p=2;t14=2;max5=5;max6=6;susemx59=2;geran5_carrier=1"}
 )
 (define "instant_test"
 	{common
@@ -9,7 +9,7 @@
 			{value "%unitset"}
 		}
 				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
-		{unitLimits ""}
+		{unitLimits "geran5_carrier=1"}
 		{balancingFactorBonus {cp 55000.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=0"}

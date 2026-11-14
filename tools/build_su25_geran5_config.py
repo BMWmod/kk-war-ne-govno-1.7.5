@@ -22,12 +22,13 @@ def install():
         match=re.search(r'\{place "'+place+'"',definition)
         old=block_at(definition,match.start());definition=definition.replace(old,'',1)
     definition=definition.replace('"x_25ml_su25x2"','"geran5_airlaunch_x2"')
-    definition=definition.replace('{barrels 2}','{shooter "geran5_launch_"}\n\t\t\t{barrels 2}',1)
+    # Enforce the release cone with the aimed sight; spawn drones from the fixed sockets.
+    definition=definition.replace('{barrels 2}','{shooter "x-25_shooter_"}\n\t\t\t{barrels 2}',1)
     # Launch only on the player's order; spawned drones keep their own user-controlled brain.
     definition=definition[:-2]+'''\n    {brain {properties {control user} {fire_mode hold}}}
-    ; This sight selects a release point, not a missile engagement direction.
-    {bone "missile_rot" {limits -180 180} {speed 100}}
-    {bone "missile_rot1" {limits -180 180} {speed 100}}
+    ; Release cone: 35 degrees left/right, at most 35 degrees below the nose.
+    {bone "missile_rot" {limits -35 35} {speed 100}}
+    {bone "missile_rot1" {limits -5 35} {speed 100}}
 }
 '''
     write(DEST/'su-25sm_geran5.def',definition)
@@ -37,7 +38,7 @@ def install():
     weapon=weapon.replace('{recoveryTime 1}','{recoveryTime 3}')
     weapon=weapon.replace('{mass 25}','{mass 25}\n\t{entity "geran5_launch_item"}')
     weapon=weapon.replace('{maxRange 140}','{maxRange 10000}')
-    weapon=weapon.replace('{aimRange 140}','{aimRange 10000}\n\t{AimingTolerance 180}\n\t{aimtype direct}')
+    weapon=weapon.replace('{aimRange 140}','{aimRange 10000}\n\t{AimingTolerance 0.01}\n\t{aimtype direct}')
     weapon=weapon.replace(';{cursor "Su253"}','; Two independent aircraft; 160-second magazine reload from supplied ammunition.')
     write(STUFF/'geran5_airlaunch_x2.weapon',weapon)
     write(STUFF/'geran5_launch.ammo','''{bullet
@@ -104,11 +105,14 @@ def install():
         anchor=next(line for line in text.splitlines() if '"shahed136_base"' in line)
         text=text.replace(anchor,anchor+'\n'+entry,1)
     write(units,text.rstrip()+'\n')
-    presets=ROOT/'resource/set/multiplayer/games/presets.inc'
-    text=read(presets).replace('geran5=20;','geran5_carrier=20;')
-    if 'geran5_carrier=20;' not in text:
-        text=text.replace('shahed136=20;','shahed136=20;geran5_carrier=20;',1)
-    write(presets,text)
+    # Preserve the one-carrier cap in both game modes, including test presets.
+    for name in ('presets.inc', 'presets_nz.inc'):
+        presets=ROOT/'resource/set/multiplayer/games'/name
+        def carrier_limit(match):
+            values=[v for v in match[1].split(';')
+                    if v and not re.match(r'geran5(?:_carrier)?=', v)]
+            return '{unitLimits "' + ';'.join(values + ['geran5_carrier=1']) + '"}'
+        write(presets,re.sub(r'\{unitLimits "([^"]*)"\}',carrier_limit,read(presets)))
     supply=ROOT/'resource/set/resupply_generic.inc'
     text=read(supply)
     if '"geran5_launch ammo"' not in text:
@@ -134,6 +138,8 @@ def install():
             assert anchor in text
             text=text.replace(anchor,anchor+'\n\t\t{"'+key+'" "'+label+'"}',1)
     write(labels,text)
+    from optimize_aircraft_textures import install_g5
+    install_g5()
     print('Su-25 installed: RF, 200 special points, two selectable Geran-5 aircraft, reload 160 s, supply cap 2.')
 
 if __name__=='__main__':install()

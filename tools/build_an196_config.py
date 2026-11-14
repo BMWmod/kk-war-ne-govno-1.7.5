@@ -144,6 +144,8 @@ def install():
             if file == 'cw_rus_veh.inc': line = line.replace('Shahed-136','АН-196 «Лютый»')
             text = text.replace(anchor,anchor+'\n'+line,1)
         write(path,text)
+    from optimize_aircraft_textures import install_an196
+    install_an196()
     print('AN-196 installed: Ukraine / extra / sc(10); independent flight and impact entities.')
 
 if __name__ == '__main__':

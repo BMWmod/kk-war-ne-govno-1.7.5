@@ -1,5 +1,5 @@
 (define "unit_limits"
-{unitLimits "tankman=6;strike=1;vs=4;p=2;t14=2;max5=5;shahed136=20;geran5_carrier=20;an196=20;tu141=20;max6=6;precision_munition=5"}
+{unitLimits "tankman=6;strike=1;vs=4;p=2;t14=2;max5=5;shahed136=20;an196=20;tu141=20;max6=6;precision_munition=5;geran5_carrier=1"}
 )
 (define "buttons"
 {buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar"}
@@ -11,7 +11,7 @@
 			{value "%unitset"}
 		}
 				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
-		{unitLimits ""}
+		{unitLimits "geran5_carrier=1"}
 ;		{chargeFactors "*=%cf"}
        ;  ("unit_limits")
 		{balancingFactorBonus {cp 55000.0} {mp 1.0}}
