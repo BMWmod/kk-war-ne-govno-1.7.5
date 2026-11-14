@@ -194,6 +194,25 @@
 						}
 						{altitude 3}
 					}
+					{"air_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop geran5}
+									}
+								}
+								{exclude
+									{tag
+										{tag cw_autotakeoff_activated}
+									}
+								}
+							}
+						}
+						{altitude 15}
+					}
 					{"action"
 						{selector
 							{source advanced}
