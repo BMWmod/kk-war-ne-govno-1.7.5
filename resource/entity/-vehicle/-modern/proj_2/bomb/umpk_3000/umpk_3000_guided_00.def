@@ -1,0 +1,5 @@
+{actor
+	(include "umpk_3000_guided.inc")
+	{targetselector "umpk_3000_00"}
+	{props "kab_guided_00"}
+}

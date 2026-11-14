@@ -67,15 +67,16 @@
                            
 
  {"su-34_umpk" {fore 0} ("p" c(960) sc(360) g(air_umpk) b(vvs_hqcar) brig(vvs) s(rus)  i(333) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ {"su-34_umpk3000" {fore 0} ("p" c(1500) sc(450) g(air_umpk) b(vvs_hqcar) brig(vvs) s(rus)  i(432543) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  {"su-34_antirad" {fore 0} ("p" c(600) sc(200) g(air_sead) b(vvs_hqcar) brig(vvs) s(rus)  i(12) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  
  
-{"su-34_medbomber_light" {fore 0} ("p" c(900) sc(300) g(air_tac69) b(vvs_hqcar) brig(vvs) s(rus) m(1)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+;{"su-34_medbomber_light" {fore 0} ("p" c(900) sc(300) g(air_tac69) b(vvs_hqcar) brig(vvs) s(rus) m(1)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  
 
 
  
- {"ural_avia" {fore 1} ("vs" c(28) sc(100) g(123) b(vvs_hqcar) brig(vvs) s(rus)  i(18) cw(0) cp(-2) t(all_nz supply   ) n(2)               ) }
+ {"ural_avia" {fore 1} ("vs" c(28) sc(35) g(123) b(vvs_hqcar) brig(vvs) s(rus)  i(18) cw(0) cp(-2) t(all_nz supply   ) n(2)               ) }
  
   ;{"su-25sm_strike" {fore 0} ("p" c(840) sc(400) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(6) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
                                    

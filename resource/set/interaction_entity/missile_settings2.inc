@@ -646,6 +646,8 @@
 {("CWPS_proj_2stage" missilename(hq16a_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.36) range40plus(01) tail(proj_jet_sam) eng_time(3))("speed_fast" coeff(0.94)) ("antislip")}
 {("CWPS_proj_2stage" missilename(hq16b_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.36) range40plus(03) tail(proj_jet_sam) eng_time(4)) ("antislip")}
 {("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}
+{("CWPS_proj" missilename(9m33_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.35) range(24) tail(proj_jet_sam) eng_time(3))}
+{("CWPS_proj" missilename(3m9_kub) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.45) range(30) tail(proj_jet_sam) eng_time(4))}
 {("CWPS_proj" missilename(milan_rock) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(26) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.25))}
 {("CWPS_proj" missilename(milan-er) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(28) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.25))}
 {("CWPS_proj" missilename(hot_rock) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(23) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))}	

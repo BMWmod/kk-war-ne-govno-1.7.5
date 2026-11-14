@@ -8511,10 +8511,10 @@
 	{
 		on "on_spawn_custom"
 		{
-			impulse up -1.5 0.5 forward 20 4 com
+			impulse up -1.5 0.5 forward 2 0.4 com
 		}
 		{
-			constrain_velocity 30
+			constrain_velocity 3
 		}
 		{
 			delay 0.1
@@ -8541,13 +8541,13 @@
 			}
 		}
 		{
-			delay 22
+			delay 150
 			{
 				call "fall"
 			}
 		}
 	}
-	("proj_impulse_movement" cont_impulse(10) main_impulse(3) const_vel(30))
+	("proj_impulse_movement" cont_impulse(1) main_impulse(0.6) const_vel(3))
 }
 {
 	"umpk_500_guided"
