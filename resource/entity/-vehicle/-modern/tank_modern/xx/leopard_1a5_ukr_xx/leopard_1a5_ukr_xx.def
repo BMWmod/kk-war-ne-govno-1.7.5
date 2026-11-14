@@ -1,0 +1,26 @@
+{game_entity
+	{Extension "leopard_1a5_ukr_xx.mdl"}
+	(include "/properties/shadow/tank.inc"  scale(1))
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 100}   
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 100}   
+	}
+	{Volume "gun"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 200}   
+	}
+	{mass 40000}
+}

@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/leopard_1a5_ukr/body"}
+	{amount 0.95}
+	{emitsheat}
+{blend none}
+}

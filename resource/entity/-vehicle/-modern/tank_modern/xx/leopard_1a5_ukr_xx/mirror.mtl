@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/leopard_1a4_c1/body_xx"}
+	{amount 0.95}
+	{emitsheat}
+{blend none}
+}

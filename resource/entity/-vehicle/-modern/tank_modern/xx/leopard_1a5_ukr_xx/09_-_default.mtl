@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/leopard_1a5_ukr/dz_bm_xx"}
+	{bump "$/model/t64_new/t64b(bv)/dz_bm_bp"}
+	{specular "$/model/t64_new/t64b(bv)/dz_bm_sp"}
+	{color "229 229 229 127"}
+	{emitsheat}
+{blend none}
+}
