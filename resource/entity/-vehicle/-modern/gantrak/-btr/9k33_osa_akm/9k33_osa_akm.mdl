@@ -362,7 +362,7 @@
 							0	1	0
 							-0.954424	12.6369	8.85429
 						}
-						{VolumeView "rocket03.ply"}
+						{VolumeView "rocket02.ply"}
 					}
 					{bone "rocket04"
 						{Matrix34
@@ -371,7 +371,7 @@
 							0	1	0
 							-0.9545	12.637	15.9011
 						}
-						{VolumeView "rocket04.ply"}
+						{VolumeView "rocket00.ply"}
 					}
 					{bone "rocket05"
 						{Matrix34
@@ -380,7 +380,7 @@
 							0	1	0
 							-0.954424	12.6369	22.8508
 						}
-						{VolumeView "rocket05.ply"}
+						{VolumeView "rocket02.ply"}
 					}
 					{bone "shooter00"
 						{Matrix34

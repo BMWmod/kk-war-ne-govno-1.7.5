@@ -483,7 +483,7 @@
                     -0.0209023	0.0884828	0.995859
                     -6.5492	-5.55488	-1.54441
                 }
-                {VolumeView "rocket05.ply"}
+                {VolumeView "rocket06.ply"}
             }
             {Bone "shooter_r73rvvsd_01"
                 {Matrix34

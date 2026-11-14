@@ -7,6 +7,9 @@ local Context = {
 	SpawnInfo = nil,
 	SquadTimers = {},
 	TimedUnits = {},
+	CandidateUnits = {},
+	CandidateRates = {},
+	FlagCounts = {},
 	Running = false,
 	Generation = 0
 }
@@ -32,6 +35,9 @@ local function clearBotState()
 	end
 	Context.SquadTimers = {}
 	Context.TimedUnits = {}
+	Context.CandidateUnits = {}
+	Context.CandidateRates = {}
+	Context.FlagCounts = {}
 	Context.Purchase = nil
 	Context.SpawnInfo = nil
 end
@@ -180,11 +186,12 @@ function getFlagToCapture(flagPoints)
 	end
 end
 
-function getFlagTable()
+function getFlagTable(flags)
 	local team_my=BotApi.Instance.team
 	local team_enemy=BotApi.Instance.enemyTeam
 
-	local flags = {captured=0, enemy=0, neutral=0}
+	flags = flags or {}
+	flags.captured, flags.enemy, flags.neutral = 0, 0, 0
 	for i, flag in pairs(BotApi.Scene.Flags) do
 		if 	   flag.occupant == team_my    then flags.captured = flags.captured+1
 		elseif flag.occupant == team_enemy then flags.enemy    = flags.enemy+1
@@ -228,17 +235,17 @@ function getUnitToSpawn(units)
 		return nil
 	end
 	
-	local units_to_spawn={}
+	-- Reuse flat buffers instead of allocating a wrapper table per candidate.
+	local candidates, rates = Context.CandidateUnits, Context.CandidateRates
+	local candidate_count = 0
 	local team_size=BotApi.Instance.teamSize
-	local income, enemy_has_tanks, current_flags = BotApi.Commands:Income(BotApi.Instance.playerId), BotApi.Commands:EnemyHasTanks(), getFlagTable()
+	local income, enemy_has_tanks, current_flags = BotApi.Commands:Income(BotApi.Instance.playerId), BotApi.Commands:EnemyHasTanks(), getFlagTable(Context.FlagCounts)
 	local quants, updateTU, getUP = Quants, updateTimedUnits, getUnitPriority -- Some optimisation things here.
 	local formula=(374*income-31.3*income*income+1.1*income*income*income-1.3) + (354.5*team_size-23*team_size*team_size-342)
 
 	local total_rate=1
-	for i, unit in pairs(units) do
-		if type(unit)~="table" then
-			break
-		end
+	-- The catalog is a dense array with a separate 'count' metadata field.
+	for i, unit in ipairs(units) do
 
 		if formula >= unit.cost and quants>unit.wait_at_quant then	-- Formulas
 			if unit.charge>25 then
@@ -250,33 +257,38 @@ function getUnitToSpawn(units)
 			local rate = getUP(unit, enemy_has_tanks, current_flags)
 			total_rate=total_rate+rate
 			if rate>0 then
-				table.insert(units_to_spawn, {u=unit, r=rate})
+				candidate_count = candidate_count + 1
+				candidates[candidate_count], rates[candidate_count] = unit, rate
 			end
 		end
 		::continue::
 	end
 
-	if #units_to_spawn == 0 then
+	if candidate_count == 0 then
 		return nil
 	end
 	
 	local selected_unit
 	local rnd = math.floor(math.random()*total_rate)
-	for i, unit in pairs(units_to_spawn) do
-		rnd=rnd - unit.r
+	for i = 1, candidate_count do
+		rnd=rnd - rates[i]
 		if rnd < 1 then
-			selected_unit=unit
+			selected_unit=candidates[i]
 			break
 		end
 	end
-	if selected_unit.u.charge>25 then
-		addTimedUnit(selected_unit.u)
+	-- Keep buffer capacity, but retain no references to candidates between calls.
+	for i = 1, candidate_count do
+		candidates[i], rates[i] = nil, nil
 	end
-	if selected_unit.u.class==Hero then
-		SpecialPoints=SpecialPoints-selected_unit.u.cost
+	if selected_unit.charge>25 then
+		addTimedUnit(selected_unit)
+	end
+	if selected_unit.class==Hero then
+		SpecialPoints=SpecialPoints-selected_unit.cost
 	end
 
-	return selected_unit.u
+	return selected_unit
 end
 
 function onGameStart()

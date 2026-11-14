@@ -374,7 +374,7 @@
 					0	0	1
 					0.397225	-83.8286	-18.9951
 				}
-				{VolumeView "catapult1.ply"}
+				{VolumeView "catapult.ply"}
 				{bone "fx_eject1"
 					{Matrix34
 						-0.819152	0	-0.573576
@@ -858,7 +858,7 @@
 						0	0	1
 						-34.9203	-23.622	-54.902
 					}
-					{VolumeView "bombc_01.ply"}
+					{VolumeView "bombc_00.ply"}
 				}
 				{bone "bombc_03"
 					{Matrix34
@@ -867,7 +867,7 @@
 						0	-0.0871557	0.996195
 						-34.9203	73.6462	-51.5343
 					}
-					{VolumeView "bombc_03.ply"}
+					{VolumeView "bombc_02.ply"}
 				}
 				{bone "bombc_02"
 					{Matrix34

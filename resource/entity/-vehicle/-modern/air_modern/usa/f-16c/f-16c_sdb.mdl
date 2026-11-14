@@ -494,11 +494,11 @@
 					{VolumeView "btu61a_0.ply"}
 					{bone "sdb1_02"
 						{Position 19.1416	-2.69661	-3.59052}
-						{VolumeView "sdb1_02.ply"}
+						{VolumeView "sdb1_00.ply"}
 					}
 					{bone "sdb1_03"
 						{Position 19.1416	2.5647	-3.59052}
-						{VolumeView "sdb1_03.ply"}
+						{VolumeView "sdb1_00.ply"}
 					}
 					{bone "sdb1_00"
 						{Position -20.7895	-2.69661	-3.59052}
@@ -506,7 +506,7 @@
 					}
 					{bone "sdb1_01"
 						{Position -20.7895	2.5647	-3.59052}
-						{VolumeView "sdb1_01.ply"}
+						{VolumeView "sdb1_00.ply"}
 					}
 					{bone "bombera_01"
 						{Position -20.1883	2.57979	-5.6555}
@@ -543,15 +543,15 @@
 					{VolumeView "btu61a_1.ply"}
 					{bone "sdb1_06"
 						{Position 19.1416	2.5647	-3.59052}
-						{VolumeView "sdb1_06.ply"}
+						{VolumeView "sdb1_04.ply"}
 					}
 					{bone "sdb1_07"
 						{Position 19.1416	-2.69661	-3.59052}
-						{VolumeView "sdb1_07.ply"}
+						{VolumeView "sdb1_04.ply"}
 					}
 					{bone "sdb1_05"
 						{Position -20.7895	-2.69661	-3.59052}
-						{VolumeView "sdb1_05.ply"}
+						{VolumeView "sdb1_04.ply"}
 					}
 					{bone "sdb1_04"
 						{Position -20.7895	2.5647	-3.59052}

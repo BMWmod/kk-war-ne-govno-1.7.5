@@ -71,7 +71,7 @@
                     115.411	195.194	-39.4239
                 }
                 {Visibility 0}
-                {VolumeView "propeller_work_4.ply"}
+                {VolumeView "propeller_work_3.ply"}
             }
             {Bone "propeller_work_3"
                 {Matrix34

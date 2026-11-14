@@ -138,7 +138,7 @@
                         0	1	0
                         -0.0281706	-4.20314	-0.206209
                     }
-                    {VolumeView "wheelr4.ply"}
+                    {VolumeView "wheelr3.ply"}
                 }
             }
             {Bone prizmatic "suspension_r4"

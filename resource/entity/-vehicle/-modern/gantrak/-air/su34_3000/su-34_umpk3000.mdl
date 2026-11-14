@@ -596,7 +596,7 @@
                     0	0	1
                     -8.4727	-113.291	-18.1221
                 }
-                {VolumeView "catapult1.ply"}
+                {VolumeView "catapult.ply"}
                 {Bone "fx_eject1"
                     {Matrix34
                         -0.819152	0	-0.573576

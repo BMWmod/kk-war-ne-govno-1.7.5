@@ -723,7 +723,7 @@
 					{VolumeView "pilon6.ply"}
 					{bone "bomba_01"
 						{Position -2.62196	0.0901871	-5.0}
-						{VolumeView "bomb_01.ply"}
+						{VolumeView "bomb_00.ply"}
 						{bone "bombera_01"
 							{Position -3.1683	0.702606	-7.06123}
 						}

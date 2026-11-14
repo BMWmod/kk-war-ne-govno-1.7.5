@@ -170,7 +170,7 @@
 					0	0	1
 					-20.9134	-8.45294	-43.974
 				}
-				{VolumeView "bomb_02.ply"}
+				{VolumeView "bomb_00.ply"}
 			}
 			{bone "bomb_03"
 				{Matrix34
@@ -179,7 +179,7 @@
 					0	0	1
 					-20.9134	10.9771	-43.974
 				}
-				{VolumeView "bomb_03.ply"}
+				{VolumeView "bomb_01.ply"}
 			}
 			{bone revolute "bomb_rot3"
 					{limits -10 15}

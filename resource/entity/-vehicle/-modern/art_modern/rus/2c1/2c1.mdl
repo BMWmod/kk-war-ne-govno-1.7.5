@@ -30,7 +30,7 @@
 					0	0	1
 					-24.6	2.79044	10.7416
 				}
-				{VolumeView "trackr.ply"}
+				{VolumeView "trackl.ply"}
 			}
 			{bone revolute "wheelr2"
 				{parameters "ID=trackright;"}

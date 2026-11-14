@@ -58,7 +58,7 @@
 					0	1	0
 					14.2097	-20.0882	-5.52936
 				}
-				{VolumeView "wheelr4.ply"}
+				{VolumeView "wheelr3.ply"}
 			}
 			{bone revolute "wheelr3"
 				{parameters "ID=trackright;"}
@@ -98,7 +98,7 @@
 					0	1	0
 					-20.115	-20.0882	-5.52936
 				}
-				{VolumeView "wheelr6.ply"}
+				{VolumeView "wheelr3.ply"}
 			}
 			{bone revolute "wheelr7"
 				{parameters "ID=trackright;"}
@@ -171,7 +171,7 @@
 					0	1	0
 					2.53585	14.4039	-0.60826
 				}
-				{VolumeView "wheell5.ply"}
+				{VolumeView "wheell3.ply"}
 			}
 			{bone revolute "wheell4"
 				{parameters "ID=trackleft;"}

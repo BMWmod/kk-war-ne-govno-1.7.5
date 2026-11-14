@@ -112,7 +112,7 @@
 					0	1	0
 					-0.557713	-20.4391	1.9192
 				}
-				{VolumeView "wheelr2.ply"}
+				{VolumeView "wheelr1.ply"}
 			}
 			{bone revolute "wheell2"
 				{parameters "ID=wheelleft2;"}
@@ -122,7 +122,7 @@
 					0	1	0
 					-0.557713	20.1278	1.9192
 				}
-				{VolumeView "wheell2.ply"}
+				{VolumeView "wheell1.ply"}
 			}
 		}
 		{bone "pivot_back1"

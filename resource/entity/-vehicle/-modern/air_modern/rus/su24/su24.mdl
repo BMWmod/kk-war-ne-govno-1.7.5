@@ -161,7 +161,7 @@
 					0	0	1
 					1.17097	-42.3269	-31.4956
 				}
-				{VolumeView "x31pd_01.ply"}
+				{VolumeView "x31pd_00.ply"}
 			}
 			{bone "shooter_r31_01"
 				{Position 4.6229	-42.3895	-31.5748}
