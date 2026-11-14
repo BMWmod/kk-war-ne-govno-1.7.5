@@ -6386,22 +6386,37 @@
 	}
 	;damage model: replaces the one-hit detonate/fall of small_UAV and loitering_uav,
 	;Tu-141 falls only when engine, wings, tail or a fuel tank is knocked out
+	;MP sync: the kill goes through one guarded "tu141_down" (fall is started once),
+	;and engine off no longer runs loitering_uav "detonate" (mid-air FAB-500 airburst
+	;+ gravity 0 / impulse loop) - the drone falls and explodes on ground_hit instead
 	{
 		on blast_hit overload
 		{
-			delay 0.1
+			if not "tu141_down"
 			{
-				call "tu141_check_modules"
+				delay 0.1
+				{
+					call "tu141_check_modules"
+				}
 			}
 		}
 	}
 	{
 		on pierce overload
 		{
-			delay 0.1
+			if not "tu141_down"
 			{
-				call "tu141_check_modules"
+				delay 0.1
+				{
+					call "tu141_check_modules"
+				}
 			}
+		}
+	}
+	{
+		on engine off overload
+		{
+			call "tu141_down"
 		}
 	}
 	{
@@ -6409,35 +6424,37 @@
 		{
 			if not work "engine"
 			{
-				call "fall"
+				call "tu141_down"
 			}
-		}
-		{
-			if not work "wingl1"
+			else not work "wingl1"
 			{
-				call "fall"
+				call "tu141_down"
 			}
-		}
-		{
-			if not work "wingr1"
+			else not work "wingr1"
 			{
-				call "fall"
+				call "tu141_down"
 			}
-		}
-		{
-			if not work "tail"
+			else not work "tail"
 			{
-				call "fall"
+				call "tu141_down"
 			}
-		}
-		{
-			if not work "fuel_tank_internal_a"
+			else not work "fuel_tank_internal_a"
 			{
-				call "fall"
+				call "tu141_down"
+			}
+			else not work "fuel_tank_internal_b"
+			{
+				call "tu141_down"
 			}
 		}
+	}
+	{
+		on "tu141_down"
 		{
-			if not work "fuel_tank_internal_b"
+			if not "tu141_down"
+			{
+				set "tu141_down" 1
+			}
 			{
 				call "fall"
 			}
