@@ -6,6 +6,7 @@
 	
 ;foldername
 	{"ammo"
+		{"gbu28" "GBU-28"}
 		{"fpv_drone"													"<c(00FF00)>FPV-дрон<c(FFFFFF)> с кумулятивной БЧ ПГ-7\n бронебойность - <c(FF1F00)>600<c(FFFFFF)> мм\n связь - <c(FFAF00)>200<c(FFFFFF)> м от оператора"}
 		{"fpv_drone120"												"<c(00FF00)>FPV-дрон<c(FFFFFF)> с фугасной БЧ (120-мм мина)\n против пехоты и лёгкой техники\n связь - <c(FFAF00)>200<c(FFFFFF)> м от оператора"}
 		{"cvadropoter_drone"											"<c(00FF00)>Разведывательный квадрокоптер<c(FFFFFF)>\n лазерный целеуказатель"}
@@ -26,6 +27,8 @@
 		{"example_item"													"Example name"}
 	}
 	{"weapon"
+		{"gbu28x1" "GBU-28"}
+		{"f15_jdam_erx2" "JDAM-ER x2"}
 		{"fpv_drone_mark"												"<c(FFAF00)>FPV-дрон<c(FFFFFF)> выбор цели"}
 		{"geran5_airlaunch_x2" "Герань-5"}
 		{"example_item"													"Example name"}

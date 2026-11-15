@@ -797,6 +797,7 @@
 	{item "gbu-31 ammo" 1 {max 2}{value 30}}				
 	{item "gbu-38 ammo" 1 {max 4}{value 30}}
 	{item "jdam_er ammo" 1 {max 4}{value 30}}
+	{item "gbu28 ammo" 1 {max 1}{value 60}}
     {item "sdb1 ammo" 8 {max 16}{value 150}}	
 	{item "jsm ammo" 1 {max 6}{value 100}}
 	{item "mam_c ammo" 2 {max 2}{value 35}}

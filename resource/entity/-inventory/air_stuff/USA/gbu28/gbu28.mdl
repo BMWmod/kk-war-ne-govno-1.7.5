@@ -1,0 +1,7 @@
+{Skeleton
+ {bone "basis"
+  {bone "body" {VolumeView "gbu28.ply"}}
+ }
+}
+{Volume "body" {Box 116 7.4 7.4} {Bone "body"}}
+{Volume "select" {Box 116 14 14} {Bone "body"}}

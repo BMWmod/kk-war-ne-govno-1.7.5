@@ -2310,6 +2310,8 @@
 }
 {
 	"f-15e_kab"		("air_multibomb_launcher" weapon(bomber1) shooter(bomberc_) missile(jdam_er_guided))
+
+	("air_multibarrel_launcher" weapon(ptur) shooter(AIM120C_shooter_) missile(aim-120c7) flashbarrel(AIM120C_shooter_))
 }
 {
 	"f-15e_sdb"		("air_multibomb_launcher" weapon(bomber1) shooter(bombera_) missile(gbu39_guided))		("air_multibomb_launcher" weapon(bomber2) shooter(sdb2_launch_) missile(gbu53b_guided))
