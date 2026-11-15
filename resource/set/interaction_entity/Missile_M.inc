@@ -3918,6 +3918,24 @@
 	}
 }
 {
+	"molniya1_impactor_link"
+	{
+		on "link_sound" overload
+		{
+			if linked
+			{
+				link_sound "fly"	"vehicle/airborne/small_UAV/small_UAV_work"
+			}
+			{
+				play_sound "fly" 1
+			}
+			{
+				tags add "cwps_missile_minimap"
+			}
+		}
+	}
+}
+{
 	"tu141_base_impactor_link"
 	{
 		on "link_sound" overload

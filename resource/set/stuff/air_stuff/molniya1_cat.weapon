@@ -1,0 +1,21 @@
+{from "pattern proj_weapon_air"
+; Molniya-1 launcher (Eleron-3SV rail)
+	{tag "gun" "weapon"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo molniya1" 1}
+	{fillingVisible "Starter_vis_00"}
+	{foresight "Foresight1"}
+	{fireSound "gun/katapulta"}
+	{mass 5}
+	{speed 10}
+	{gravity 1}
+	{recoveryTime 90}
+	{rechargeTime 90}
+	{inventory {noView}}
+	{maxRange 100}
+	{aimRange 100}
+	{cursor "attack"}
+	{cursorReloading "cannon_reload_all"}
+}

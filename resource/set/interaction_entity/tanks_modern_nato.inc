@@ -1787,9 +1787,6 @@
 			spawn "tank_canon_fire" "Foresight1" x
 		}
 		{
-			blastwave c4 1 r0 1.0 r1 2.5 bone "Foresight1"
-		}
-		{
 			ani_play "fire"
 		}
 	}

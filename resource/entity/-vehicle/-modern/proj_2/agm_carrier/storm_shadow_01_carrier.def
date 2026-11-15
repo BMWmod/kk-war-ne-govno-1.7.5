@@ -1,0 +1,94 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "agm_carrier_forward.mdl"}
+	;Storm Shadow, launch slot 01: fire-and-forget on its own GPS marker proj_point_storm_shadow_gps_ground_01
+	;(spawned where the aircraft's pointer bullet hit). Inline copy of "missile_placer" because there is
+	;no "usa_gps_aj cwps2 ammo" - both targeting places use "usa_gps cwps2 ammo".
+	{props "normal" "gps_seeker" "gps"}
+	{Placer
+		{place "missile"
+			{entity "storm_shadow_impactor_link"}
+			{Linkbone "missile_point"}
+			{obstacle disable}
+		}
+	}
+	{Weaponry
+		{place "targeting_sys_anti_jamming"
+			{weapon "missilets_long" filling "usa_gps cwps2 ammo" 200}
+			{foresight "missle_foresight"}
+			{charger "driver"}
+			{gunner "driver"}
+			{basic}
+			{SequentialAim 0}
+		}
+		{place "targeting_sys"
+			{weapon "missilets_long" filling "usa_gps cwps2 ammo" 200}
+			{foresight "missle_foresight"}
+			{charger "driver"}
+			{gunner "driver"}
+			{basic}
+			{SequentialAim 0}
+		}
+	}
+	{Volume "precursor"
+		{Polyhedron "precursor.vol"}
+		{Bone "missle_foresight"}
+		{Matrix34
+			1	0	0
+			0	0	-1
+			0	1	0
+			10.6507	-9.84252	0
+		}
+	}
+	{Volume "missile"
+		{Cylinder 9 40}
+		{Bone "missile_point"}
+		{Matrix34
+			0	0	-1
+			0	1	0
+			1	0	0
+			24.5	0	0
+		}
+	}
+	{Volume "target"
+		{Cylinder 9 20}
+		{Bone "missile_point"}
+		{Matrix34
+			0	0	-1
+			0	1	0
+			1	0	0
+			-4.6	0	0
+		}
+	}
+	{Volume "rangefinder1"
+		{Polyhedron "rangefinder30.vol"}
+		{Bone "missle_foresight"}
+		{Matrix34
+			1	0	0
+			0	0	-1
+			0	1	0
+			-10.6507	-9.84252	0
+		}
+	}
+	{Volume "overlap_volume"
+		{Cylinder 10 1}
+		{Bone "missle_foresight"}
+		{Matrix34
+			0	0	-1
+			0	1	0
+			1	0	0
+			800.0	0	0
+		}
+	}
+	("maneuvrability_cwps3" deg_per_s(60))
+	("cwps_rangefinder")
+	("targetable_missile")
+	{targetSelector "storm_shadow_01"}
+	;sees its marker only when close: flies straight (level) until then, then turns and dives
+	{sensor
+		{Visor "main"
+			{vision "storm_shadow_missile"}
+			{bone "missle_foresight"}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{from "pattern proj_impactor"
+	{entity "molniya1_impactor"}
+	{inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag "no_ricochet" "big" "size4" "fx_146_299"}
+	; TM-62M blast, same values as stuff/explosive/antitank_tm62m.mine
+	{damage blastwave {energy 2.5} {area 6.9 7.9}}
+	{damage add blastwave {energy 6.5} {area 4 4.6}}
+	{damage add blastwave {energy 11} {area 2 2.3}}
+}

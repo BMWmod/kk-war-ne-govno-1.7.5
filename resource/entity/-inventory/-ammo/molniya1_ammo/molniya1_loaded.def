@@ -1,0 +1,15 @@
+{Game_entity
+	(include "/properties/Projectile_ammo.ext")
+	(include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "molniya1 tm62 ammo"}
+	}
+	{Extension "molniya1_ammo.mdl"}
+	{Volume "wingl1"
+		{tags "part"}
+	}
+	{Volume "wingr1"
+		{tags "part"}
+	}
+}

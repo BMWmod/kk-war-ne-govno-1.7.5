@@ -1,0 +1,13 @@
+{from "pattern proj_pointer"
+; Molniya-1 target pointer. Only "ground_other_rus": the hit drops a static ground marker
+; (proj_point_rus_other_ground / _acc), there is deliberately NO entry in missile_settings1.inc,
+; so a hit on a vehicle does not make the UAV follow that vehicle - it dives on the point.
+	{mass 200}
+	{entity "molniya1_ammo"}
+	{inventory
+		{weight 100}
+		{size 6 5}
+	}
+	{tag "no_ricochet" "big" "size4" "fx_146_299" "ground_other_rus"}
+	{tag "kamikaze"}
+}

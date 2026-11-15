@@ -1,0 +1,18 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{Extension "molniya1_ammo.mdl"}
+	{props "projectile_impactor" "propfan"}
+	{extender "stuff"
+		{item "molniya1_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+
+	{Volume "wingl1"
+		{tags "part"}
+	}
+	{Volume "wingr1"
+		{tags "part"}
+	}
+}

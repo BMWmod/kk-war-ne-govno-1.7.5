@@ -1,0 +1,70 @@
+;Exported by: Timosh
+;Date:        Mon May  8 17:09:16 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\??????-3?\LANCET 3M item.max
+{Skeleton
+	{animation
+		{sequence "move" {Speed 0.6}}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "foresight_spawn"
+			{Position 3 0.5 0}
+		}
+		{bone "wingl1"
+			{Parameters "ID=WingL1;"}
+			{Position 5 0.2999999 -3.5}
+			{VolumeView "wingl1.ply"}
+		}
+		{bone "wingr1"
+			{Parameters "ID=WingR1;"}
+			{Position 5 0.3000002 3.5}
+			{VolumeView "wingr1.ply"}
+		}
+		{bone "propeller"
+			{Parameters "ID=body;"}
+			{Position 11.35269 0.2117527 11.00324}
+			{VolumeView "propeller.ply"}
+		}
+		{bone "propeller2"
+			{Parameters "ID=body;"}
+			{Position 11.35269 0.2117518 -10.99676}
+			{VolumeView "propeller2.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 36.2 3.1 6.600003}
+	{Bone "body"}
+	{Position -0.1000004 0.3499999 0}
+}
+{Volume "select"
+	{Box 38 5.999997 64}
+	{Bone "body"}
+	{Position 0 1.5 0}
+}
+{Volume "wingl1"
+	{Box 9.700003 0.6999988 27.8}
+	{Bone "wingl1"}
+	{Position 0.6500011 0.04999936 -13.9}
+}
+{Volume "wingr1"
+	{Box 9.700003 0.6999988 27.8}
+	{Bone "wingr1"}
+	{Position 0.6499991 0.05000061 13.9}
+}
+{Extender "preview"
+	{"Stuff"
+		; camera taken from shahed136_ammo.mdl (same in-flight axes: X nose, +Y up, Z span)
+		{camera {origin 114.9 34.2 220.1} {lookat 0 0.5 0} {fov 18} {horizon -101.61}}
+		{lights
+			{"0" {type point} {position 4.23843 10.8797 5.67377}}
+			{"1" {type directional} {direction -0.0793778 -0.317993 -0.377597}}
+			{"2" {type point} {position -4.39621 8.11212 4.88661}}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{item
+	{tag "keepEntity itemin2hands"}
+	{entity "molniya1_catapult_ukr"}
+	{inventory
+		{size 6 5}
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 20}
+}

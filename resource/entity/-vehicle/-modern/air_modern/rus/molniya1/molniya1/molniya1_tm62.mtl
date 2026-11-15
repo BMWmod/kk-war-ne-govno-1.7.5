@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/molniya1/molniya1_tm62"}
+	{blend none}
+}

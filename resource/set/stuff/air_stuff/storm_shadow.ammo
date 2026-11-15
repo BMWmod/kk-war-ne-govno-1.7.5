@@ -5,6 +5,6 @@
 		{weight 100}
 		{size 5 2}
 	}
-	{tag "no_ricochet" "cm" "big" "size4" "88to105" "ptrk"}
+	{tag "no_ricochet" "cm" "big" "size4" "88to105" "ptrk" "storm_shadow_gps"}
     {tag "heavy_agm"} ; only for ammo.set
 }

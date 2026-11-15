@@ -263,6 +263,19 @@
 }
 
 
+;BMP-1U with Shkval turret: 30mm 2A72 + Barrier (shershen) ATGM from gun2/foresight6.
+;Own prop instead of "bmp1", whose block fires a Malyutka from the missing foresight2.
+{"bmp1u_shkval"
+	("bmp1_sound")
+	("autocannon")
+	("atgm_single_launcher"
+		weapon(gun2)
+		foresight(foresight6)
+		tail(foresight6)
+	)
+}
+
+
 {"btr3e"	
 	("atgm_single_launcher"
 		weapon(gun2)

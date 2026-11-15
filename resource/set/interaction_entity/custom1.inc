@@ -149,7 +149,28 @@
 ("air_multibarrel_launcher" weapon(ptur4) shooter(Shooter_r31_) missile(x31p) flashbarrel(Shooter_r31_))			
 }	
 {"su24m_storm_ukr"
-("air_multibarrel_launcher" weapon(ptur4) shooter(Shooter_r31_) missile(storm_shadow) flashbarrel(Shooter_r31_))
+;Storm Shadow: each pylon is a GPS slot. "launch_NN" tells the pointer-bullet hit which marker
+;(proj_point_storm_shadow_gps_ground_NN) to drop, and storm_shadow_NN_carrier homes only on that marker,
+;so two missiles can be sent to two different points.
+	{on fire "ptur4"			("low_speed_bullet")
+		{
+		if name "00"
+		{tags remove "launch_01"}
+		{tags add "launch_00"}
+		{spawn "startsmoke" "Shooter_r31_00" x}
+		{delay 0.1 {spawn "storm_shadow_00_carrier" "Shooter_r31_00" x}}
+		{view start "Shooter_r31_00"}
+		{delay 0.4 {view pause "Shooter_r31_00"}}
+		else name "01"
+		{tags remove "launch_00"}
+		{tags add "launch_01"}
+		{spawn "startsmoke" "Shooter_r31_01" x}
+		{delay 0.1 {spawn "storm_shadow_01_carrier" "Shooter_r31_01" x}}
+		{view start "Shooter_r31_01"}
+		{delay 0.4 {view pause "Shooter_r31_01"}}
+		}
+		("cw_check_shooting" weap_id(ptur4))
+	}
 	{on spawn
 		{delay 0.2
 			{tex_mod "ukr_pix"}
@@ -210,5 +231,13 @@
 		{Delay 0.2
 			{tex_mod "medic_ua"}
 		}
+	}
+}
+
+;Storm Shadow GPS markers live 45 s instead of the generic 25 s
+{"storm_shadow_gps_marker"
+	{on spawn
+		{delay 0.1 {kill_delay "gps_marker_life"}}
+		{delay 45 {delete}}
 	}
 }

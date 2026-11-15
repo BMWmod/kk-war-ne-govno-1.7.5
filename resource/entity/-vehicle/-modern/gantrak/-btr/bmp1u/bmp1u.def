@@ -5,7 +5,7 @@
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 
 	{collider "tank.light"}
-	{props "light_M" "turret_rotator" "amphibia" "vision_lev04" "bmp1"}
+	{props "light_M" "turret_rotator" "amphibia" "vision_lev04" "bmp1u_shkval"}
 	{PatherID "amphibia"}
         {targetClass "light_tank"}
 

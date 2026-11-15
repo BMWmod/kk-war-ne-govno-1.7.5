@@ -82,6 +82,7 @@
                                    
 ;===============================Артиллеристы=========================================== 2a65_msta_b  d30                                   
  {"lancet3m_catapult" {fore 1} ("vart" c(669) sc(180) g(lancet)  b(artbr_hqcar) brig(artbr) s(rus)  i(69) cw(0) cp(30) t(all_nz art   ) c1(eleron_control) c2(lancet3m_catapult)  n1(vehicle_supporter:1)            ) }
+ {"molniya1_catapult" {fore 1} ("vart" c(500) sc(100) g(lancet)  b(artbr_hqcar) brig(artbr) s(rus)  i(70) cw(0) cp(20) t(all_nz art   ) c1(eleron_control) c2(molniya1_catapult)  n1(vehicle_supporter:1)            ) }
                                
  {"d30" {fore 0} ("vart" c(400) sc(100) g(art_extra223) b(artbr_hqcar) brig(artbr) s(rus)  i(334) cw(5)  cp(20) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(d30) n1(vehicle_supporter:2)            ) }	
  {"2a65_msta_b" {fore 0} ("vart" c(700) sc(170) g(art_extra22) b(artbr_hqcar) brig(artbr) s(rus)  i(123) cw(5)  cp(30) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(2a65_msta_b) n1(vehicle_supporter:2)            ) }

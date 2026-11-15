@@ -1,0 +1,9 @@
+;MTL Created by CB_MtlFixer
+{material bump
+	{diffuse "$/model/eleron/body"}
+	{bump "$/model/eleron/body_bp"}
+	{specular "$/model/eleron/body_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

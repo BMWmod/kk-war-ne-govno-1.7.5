@@ -222,3 +222,16 @@
 ("csbbm2_selector" x(01) a(00) b(02) c(03))
 ("csbbm2_selector" x(02) a(01) b(00) c(03))
 ("csbbm2_selector" x(03) a(01) b(02) c(00))
+
+;Storm Shadow GPS slots: each missile homes only on its own marker
+(define "storm_shadow_selector"
+{selector
+	{type "storm_shadow_%x"}
+	{group
+		{sort {in_range 5000} {class proj_storm_shadow_gps_%x}}
+		{ignore {class proj_storm_shadow_gps_%a}}
+	}
+}
+)
+("storm_shadow_selector" x(00) a(01))
+("storm_shadow_selector" x(01) a(00))

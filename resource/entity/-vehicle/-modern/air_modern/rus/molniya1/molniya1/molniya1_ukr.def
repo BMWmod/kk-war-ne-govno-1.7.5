@@ -1,0 +1,107 @@
+{Entity
+	; Bliskavka (UKR name of Molniya-1) loitering UAV with a TM-62 anti-tank mine. Launched from molniya1_catapult_ukr,
+	; controlled from eleron_control (prop smalluav_rus), dives on a ground point (no vehicle tracking).
+	(include "/properties/airborne_M.ext")
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.6))
+	(include "/properties/selection/airborne.inc" scale(4.0))
+	(include "/properties/car_crew.ext")
+	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "molniya1" "smalluav_rus" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}
+	;controller prop - "smalluav_rus_control" (eleron_control)
+	{props "ecm_vulnerable_rus"}
+
+	{Extension "molniya1.mdl"}
+		("missile_aimpoint_custom" height(0) front(0) side(0))
+	{collider "particle.big"}
+	{targetClass 	"medium_UAV_kamikaze"}
+	{targetSelector "cannon_bullet"}
+	{mass 13}
+	{armor
+		("air_armor" body(1) wing(1) avionics(1) engine(2) hydrosystem(1) electronics(1) fuel(1))
+	}
+	{extender "inventory"
+		{box
+			{clear}
+		}
+	}
+	{Weaponry
+		{place "mark"
+			{weapon "molniya1_mark" filling "molniya1_ammo tm62 ammo" 1}
+			{foresight "foresight1"}
+			{charger "driver"}
+			{gunner "driver"}
+			{basic}
+		}
+		{place "straight"
+			{weapon "spot" filled}
+			{foresight "aiming_mark"}
+			{basic}
+		}
+	}
+	; shot down / crashed UAV goes off like the mine it carries
+	{extender "stuff"
+		{item "molniya1_impactor_direct_hit"}
+	}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 70	-140	22}
+			{lookat 0	0	0.5}
+			{fov 12}
+			{horizon 2.83041}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.23843	-5.67377	10.8797}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793779	0.377597	-0.317993}
+			}
+			{"2"
+				{type point}
+				{position -4.39621	-4.88662	8.11211}
+			}
+		}
+	}
+}
+; same flight numbers as lancet3m_cm (it starts flying right after the catapult; ours with Speed 28 / Acc 4 hovered)
+("Chassis_parameters"
+	Speed(35) TurnRadius(15)
+	Fuel(8) Fuel_remain(8) Fuel_rate(0.05)
+	Acc_hor(6) Maneuvrability_hor(6)
+	Acc_ver(5) Maneuvrability_ver(6)
+)
+ {Chassis "wheel"
+	{locomotion ("locomotion")
+		{MaxSpeed 1}
+		{StartTime 		1  }
+		{BrakeTime 		0.01  }
+		{StopTime		0.01  }
+	}
+ }
+	{Sensor
+		{Visor "OLS"
+			{vision "aircraft_optic_2g"}
+			{bone "visor_ols"}
+		}
+	}
+	{brain
+		{properties
+			{control user}
+			{fire_mode hold}
+		}
+	}
+	{Chassis "airborne"
+			{Altitude 25}
+		}
+	{ChassisManager
+			{Current "airborne"}
+	}
+       {autooperatable 1}
+       {placer
+          {crew 0}
+          {place "driver" remove}
+       }
+}

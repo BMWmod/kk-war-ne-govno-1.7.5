@@ -211,6 +211,10 @@
 	{"lancet3m_cm"		{structure "cwds_plane_attack"}}
 	{"lancet3m_fg"		{structure "cwds_plane_attack"}}
 	{"lancet3m_catapult"{structure "cwds_mortar"}}
+	{"molniya1"		{structure "cwds_plane_attack"}}
+	{"molniya1_catapult"	{structure "cwds_mortar"}}
+	{"molniya1_ukr"		{structure "cwds_plane_attack"}}
+	{"molniya1_catapult_ukr"	{structure "cwds_mortar"}}
 	{"an-12"			{structure "cwds_plane_cargo"}}
 	{"an-12bk"			{structure "cwds_plane_cargo"}}
 	{"il-76td"			{structure "cwds_plane_cargo"}}
@@ -299,6 +303,11 @@
 	{"jh-7a_strike"		    {structure "cwds_plane_attack"}}
 	{"shahed136_base"		{structure "cwds_plane_attack"}}
 	{"tu141_base"		{structure "cwds_plane_attack"}}
+	{"an196_base"		{structure "cwds_plane_attack"}}
+	{"m142_himars_atacams_ukr"	{structure "cwds_mlrs6"}}
+	{"caesar_ukr"		{structure "cwds_apc6"}}
+	{"bmp1u"			{structure "cwds_ifv"}}
+	{"bus_liaz"		{structure "cwds_truck4"}}
 	{"sikorsky s-70c2"		{structure "cwds_heli_common"}}
 	{"ch802"		        {structure "cwds_plane_attack"}}
 	{"z-10_support"		    {structure "cwds_heli_common"}}
@@ -890,6 +899,7 @@
 	{"red_arrow_10b_carrier"			{structure "cwds_missile"}}
 	{"lancet3m_cm_carrier"			{structure "cwds_missile"}}
 	{"lancet3m_fg_carrier"			{structure "cwds_missile"}}
+	{"molniya1_carrier"			{structure "cwds_missile"}}
 	{"switchblade300_carrier"			{structure "cwds_missile"}}
 	{"shahed136_base_carrier"			{structure "cwds_missile"}}
 	{"tu141_base_carrier"			{structure "cwds_missile"}}

@@ -31,6 +31,7 @@
 {"hawkeye_armor_ukr"	"<c(FFFF00)e(shadow)>Самоходная 105-мм гаубица</c>"}
 {"bohdana_bg"	"<c(FFFF00)e(shadow)>Буксируемая 155-мм гаубица</c>"}
 {"bohdana_bg_ukr"	"<c(FFFF00)e(shadow)>Буксируемая 155-мм гаубица</c>"}
+{"m1a1_new_ukr"	"<c(FFFF00)>Основной боевой танк</c>"}
 {"an_2_bomb_isis"							"<c(FFFF00)>Транспортный самолёт</c>"}
 {"an_2_bomb"							"<c(FFFF00)>Транспортный самолёт</c>"}
 {"an_2_no_wp_isis"							"<c(FFFF00)>Транспортный самолёт</c>"}
@@ -217,6 +218,10 @@
 					{"lancet3m_catapult"				"<c(FFFF00)>Пусковая установка БПЛА</c>"}
 					{"lancet3m_cm"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
 					{"lancet3m_fg"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
+					{"molniya1_catapult"				"<c(FFFF00)>Пусковая установка БПЛА</c>"}
+					{"molniya1"						"<c(FFFF00)>Барражирующий боеприпас</c>"}
+					{"molniya1_catapult_ukr"			"<c(FFFF00)>Пусковая установка БПЛА</c>"}
+					{"molniya1_ukr"					"<c(FFFF00)>Барражирующий боеприпас</c>"}
 				;mi-24v
 					{"mi-24v"							"<c(FFFF00)>Многоцелевой ударный вертолет</c>"}
 					{"mi-24v_2"							"<c(FFFF00)>Многоцелевой ударный вертолет</c>"}
@@ -906,6 +911,7 @@
 			;atgm_carrier
 				{"lancet3m_cm_carrier"					"<c(FFFF00)>Барражирующий боеприпас</c>"}
 				{"lancet3m_fg_carrier"					"<c(FFFF00)>Барражирующий боеприпас</c>"}
+				{"molniya1_carrier"					"<c(FFFF00)>Барражирующий боеприпас</c>"}
 				{"mmp_missile_carrier"					"<c(FFFF00)>Противотанковая управляемая ракета</c>"}
 				{"red_arrow_10b_carrier"				"<c(FFFF00)>Противотанковая управляемая ракета</c>"}
 				{"Spike-er2_carrier"					"<c(FFFF00)>Противотанковая управляемая ракета</c>"}

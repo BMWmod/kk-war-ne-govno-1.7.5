@@ -1,0 +1,11 @@
+{bullet
+	{entity "molniya1_loaded"}
+	{tag "smallitemin1hand keepentity dropboxed"}
+	{inventory
+		{weight 100}
+		{size 6 4}
+		{fsm "belt"}
+	}
+	{mass 30}
+	{tag "no_ricochet"}
+}

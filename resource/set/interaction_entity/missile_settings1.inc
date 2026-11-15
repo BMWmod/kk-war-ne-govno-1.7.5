@@ -191,7 +191,7 @@
 	("spawn_proj_15" country(usa) type(active) weapon_tag(sdb_target) decoytype(chaff) decoyprob(0.15) min_alt(-100))
 	else stuff "taurus ammo"			
 	("spawn_proj_15" country(usa) type(other) weapon_tag(taurus_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
-	else stuff "storm_shadow ammo"	("spawn_proj_15" country(usa) type(other) weapon_tag(storm_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
+	;Storm Shadow: GPS fire-and-forget (own marker per launch slot), see storm_shadow_00/01_carrier
 ;	else stuff "agm-154 ammo"		
 ;	("spawn_proj_15" country(usa) type(other) weapon_tag(agm-154_target) decoytype(chaff) decoyprob(0.01) min_alt(-100))
 	else stuff "3m14 ammo"		

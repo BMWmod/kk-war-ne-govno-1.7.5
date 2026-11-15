@@ -885,6 +885,50 @@
 	}
 }
 {
+	"molniya1_catapult_ukr"
+	{
+		on spawn
+		{
+			tags add "cannon_proj"
+		}
+	}
+	{
+		on fire "gun" overload
+		{
+			ani_play "fire" callback
+		}
+		("cw_check_shooting" weap_id(gun))
+	}
+	{
+		on animation_end "fire"
+		{
+			spawn "molniya1_ukr" "spawn_level" x
+		}
+	}
+}
+{
+	"molniya1_catapult"
+	{
+		on spawn
+		{
+			tags add "cannon_proj"
+		}
+	}
+	{
+		on fire "gun" overload
+		{
+			ani_play "fire" callback
+		}
+		("cw_check_shooting" weap_id(gun))
+	}
+	{
+		on animation_end "fire"
+		{
+			spawn "molniya1" "spawn_level" x
+		}
+	}
+}
+{
 	"lancet3m_catapult"
 	{
 		on spawn

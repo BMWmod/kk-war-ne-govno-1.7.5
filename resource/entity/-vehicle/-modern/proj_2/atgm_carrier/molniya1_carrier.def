@@ -1,0 +1,24 @@
+{actor
+	; Molniya-1 dive: Shahed-style carrier (no manual control, no own seeker) homing on the
+	; ground marker left by the molniya1_mark pointer -> lands on the chosen point.
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "tandem"}
+	("missile_placer" missile("molniya1_impactor_link") country(rus) type(other) calibre(600)
+	speed(slow) guidance(prop))
+	("maneuvrability_SAMs_short_cwps3" deg_per_s(60))
+	("targetable_missile")
+	{targetClass 	"medium_UAV"}
+	{Volume "missile1"
+		{Cylinder (* 0.01 76) 80}
+		{Bone "missile_point"}
+		{Matrix34
+			0	0	-1
+			0	1	0
+			1	0	0
+			24.5	0	0
+		}
+	}
+	{Volume "missile1" {able clear {contact 1}}}
+
+}

@@ -259,6 +259,7 @@
    {"hawkeye_armor_ukr"							    "<c(FFFFFF)e(shadow)>Hawkeye (бронированный HMMWV)</c>"}
    {"bohdana_bg"								    "<c(FFFFFF)e(shadow)>2С22 «Богдана-БГ»</c>"}
    {"bohdana_bg_ukr"								    "<c(FFFFFF)e(shadow)>2С22 «Богдана-БГ»</c>"}
+   {"m1a1_new_ukr"								    "<c(FFFFFF)e(shadow)>M1A1HA</c>"}
    {"tochka_y_ukr"								    "<c(FFFFFF)e(shadow)>Точка-У</c>"}
    {"buk_m1_ukr"								    "<c(FFFFFF)e(shadow)>Бук-М1</c>"}
 
@@ -350,6 +351,10 @@
 					{"lancet3m_catapult"				"<c(FFFFFF)e(shadow)>Ланцет-3М</c>"}
 					{"lancet3m_cm"						"<c(FFFFFF)e(shadow)>Ланцет-3М - Кум.</c>"}
 					{"lancet3m_fg"						"<c(FFFFFF)e(shadow)>Ланцет-3М - ОФ</c>"}
+					{"molniya1_catapult"				"<c(FFFFFF)e(shadow)>Молния-1</c>"}
+					{"molniya1"						"<c(FFFFFF)e(shadow)>Молния-1 - ТМ-62</c>"}
+					{"molniya1_catapult_ukr"			"<c(FFFFFF)e(shadow)>Блискавка</c>"}
+					{"molniya1_ukr"					"<c(FFFFFF)e(shadow)>Блискавка - ТМ-62</c>"}
 				;mi-24v
 					{"mi-24v"							"<c(FFFFFF)e(shadow)>Ми-24В</c>"}
 					{"mi-24v_2"							"<c(FFFFFF)e(shadow)>Ми-24В</c>"}
@@ -1039,6 +1044,7 @@
 			;atgm_carrier
 				{"lancet3m_cm_carrier"					"<c(FFFFFF)e(shadow)>Ланцет-3М - Кум.</c>"}
 				{"lancet3m_fg_carrier"					"<c(FFFFFF)e(shadow)>Ланцет-3М - ОФ</c>"}
+				{"molniya1_carrier"					"<c(FFFFFF)e(shadow)>Молния-1 - ТМ-62</c>"}
 				{"mmp_missile_carrier"					"<c(FFFFFF)e(shadow)>MMP</c>"}
 				{"red_arrow_10b_carrier"				"<c(FFFFFF)e(shadow)>HJ-10</c>"}
 				{"Spike-er2_carrier"					"<c(FFFFFF)e(shadow)>Spike ER2</c>"}

@@ -1,0 +1,107 @@
+;Exported by: Timosh
+;Date:        Sat Oct 08 08:22:23 2016
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Прислано Tahir9413\BPLA_Eleron\Элерон катапульта 3.max
+{Skeleton
+	{animation
+		{sequence "close" {Speed 1}}
+		{sequence "fire" {Speed 3}}
+	}
+	{bone revolute "basis"
+		{Limits 0 0}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "support1"
+			{Position 4.50391 7.57427 0}
+		}
+		{bone "gunner"
+			{Position -20.1789 9.27503 0}
+		}
+		{bone "emit1"
+			{Position -21.7105 9.15467 0}
+		}
+		{bone "driver1"
+			{Position -0.392522 -3.54267 0}
+		}
+		{bone "support2"
+			{Position 4.45173 -7.79797 0}
+		}
+		{bone "support3"
+			{Position -22.6438 0 0}
+		}
+		{bone "spawn_level"
+			{Position 60 0 29.5}
+		}
+		{bone "body"
+			{Matrix34
+				0.996195	0	-0.0871557
+				0	1	0
+				0.0871557	0	0.996195
+				0.578465	0	7.62948
+			}
+			{VolumeView "body.ply"}
+			{bone "starter"
+				{Matrix34
+					0.939693	0	0.34202
+					0	1	0
+					-0.34202	0	0.939693
+					0.354878	-0.00358005	1.16351
+				}
+				{Visibility 0}
+				{VolumeView "starter.ply"}
+			}
+			{bone "foresight1"
+				{Matrix34
+					0.939693	0	0.34202
+					0	1	0
+					-0.34202	0	0.939693
+					34.3817	0	16.2563
+				}
+			}
+			{bone "starter_vis_00"
+				{Matrix34
+					0.939693	0	0.34202
+					0	1	0
+					-0.34202	0	0.939693
+					0.354878	-0.00358005	1.16351
+				}
+				{VolumeView "starter_vis_00.ply"}
+			}
+			{bone revolute "handle"
+				{Matrix34
+					0.939692	0	0.34202
+					0.34202	0	-0.939693
+					0	1	0
+					-0.00580573	0.074092	0.108774
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.67704 1.93489 49.9544}
+	{Bone "body"}
+	{Matrix34
+		0.34202	0	-0.939692
+		0	1	0
+		0.939692	0	0.34202
+		-0.056242	0	-0.277638
+	}
+}
+{Volume "select"
+	{Box 47.3049 23.6906 2.5935}
+	{Bone "basis"}
+	{Position 0 0 1.29675}
+}
+{Extender "preview"
+	{Stuff
+		{camera {origin 26.5947 -58.7985 24.2348} {lookat 4.17549 -6.97499 14.5825} {fov 45}}
+		{lights
+			{"0" {type point} {position 4.00087 -8.6835 9.17327}}
+			{"1" {type directional} {direction 0.375917 0.263804 -0.197722} {ambient 0x666666}}
+			{"2" {type point} {position 5.66867 -10.0867 9.10099}}
+		}
+	}
+}

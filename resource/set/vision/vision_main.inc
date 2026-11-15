@@ -556,6 +556,14 @@
     ("v_fov" v(90))
     ("vision_missile")
 }
+;Storm Shadow: sees its GPS marker only within 300 m (in any direction) -> flies level, then dives
+{"storm_shadow_missile"
+    ("radius" r(300))
+    ("uncover" u(300))
+    ("h_fov" h(360))
+    ("v_fov" v(180))
+    ("vision_missile")
+}
 {"vertical_LRmissile"
     ("radius" r(690))
     ("uncover" u(420))

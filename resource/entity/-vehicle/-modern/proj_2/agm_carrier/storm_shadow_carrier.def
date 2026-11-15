@@ -3,9 +3,15 @@
 	{Extension "agm_carrier_forward.mdl"}
 	("missile_placer" missile("storm_shadow_impactor_link") country(usa) type(other) calibre(900)
 	speed(normal) guidance())
-	("maneuvrability_cwps3" deg_per_s(25))
+	("maneuvrability_cwps3" deg_per_s(60))
 	("cwps_rangefinder")
 	("LR_missile"  country(usa) type(other))
 	("targetable_missile")
 	{targetSelector "corr"}
+	{sensor
+		{Visor "main"
+			{vision "storm_shadow_missile"}
+			{bone "missle_foresight"}
+		}
+	}
 }

@@ -444,3 +444,11 @@
 ("csbbm2_selector" n(02))
 ("csbbm2_selector" n(03))
 
+(define "storm_shadow_selector"
+	{proj_storm_shadow_gps_%n
+		{"usa_gps cwps2" {volume "target"}}
+		{"usa_gps cwps2" {ground}}
+	}
+)
+("storm_shadow_selector" n(00))
+("storm_shadow_selector" n(01))

@@ -1,0 +1,19 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{Extension "molniya1_ammo.mdl"}
+	{props "projectile_impactor" "propfan"}
+	{extender "stuff"
+		{item "molniya1_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	;following record interrupts detonation, it must not be in _impactor, only in _impactor_link
+	("targetable_impactor_small_kamikadze")
+	{Volume "wingl1"
+		{tags "part"}
+	}
+	{Volume "wingr1"
+		{tags "part"}
+	}
+}

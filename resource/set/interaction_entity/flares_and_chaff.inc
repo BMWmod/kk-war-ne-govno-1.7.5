@@ -1650,5 +1650,218 @@
 		}
 		("cwps3_stop" country(%country) type(%type))
 	}
+	)				(define "spawn_proj_30"
+	{
+		tags add "cwps_mis_cntrl_15"
+	}
+	{
+		tags remove "cwps_abort_%country_%type"
+	}
+	{
+		if operatable
+		{
+			if not tagged "destroyed"					("%decoytype_decoy_spawn" country(%country) type(%type) min_alt(%min_alt) decoytype(%decoytype) decoyprob(%decoyprob))
+			{
+				call "cwps_mis_cntrl_%country_%type"
+			}
+		}
+	}
+	{
+		kill_delay "CWPS3_%country_%type"
+	}
+	{
+		if not altitude 15
+		{
+			delay 2.0				("point_move")
+		}
+	}
+	("cwps3_start" country(%country) type(%type))					("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	{
+		delay 0.5 "CWPS_guidance1" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 1.0 "CWPS_guidance2" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 1.5 "CWPS_guidance3" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 2.0 "CWPS_guidance4" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 2.5 "CWPS_guidance5" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 3.0 "CWPS_guidance6" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 3.5 "CWPS_guidance7" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 4.0 "CWPS_guidance8" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 4.5 "CWPS_guidance9" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 5.0 "CWPS_guidance10" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 5.5 "CWPS_guidance11" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 6.0 "CWPS_guidance12" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 6.5 "CWPS_guidance13" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 7.0 "CWPS_guidance14" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 7.5 "CWPS_guidance15" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 8.0 "CWPS_guidance16" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 8.5 "CWPS_guidance17" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 9.0 "CWPS_guidance18" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 9.5 "CWPS_guidance19" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 10.0 "CWPS_guidance20" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 10.5 "CWPS_guidance21" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 11.0 "CWPS_guidance22" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 11.5 "CWPS_guidance23" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 12.0 "CWPS_guidance24" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 12.5 "CWPS_guidance25" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 13.0 "CWPS_guidance26" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 13.5 "CWPS_guidance27" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 14.0 "CWPS_guidance28" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 14.5 "CWPS_guidance29" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 15.0 "CWPS_guidance30" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 15.5 "CWPS_guidance31" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 16.0 "CWPS_guidance32" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 16.5 "CWPS_guidance33" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 17.0 "CWPS_guidance34" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 17.5 "CWPS_guidance35" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 18.0 "CWPS_guidance36" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 18.5 "CWPS_guidance37" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 19.0 "CWPS_guidance38" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 19.5 "CWPS_guidance39" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 20.0 "CWPS_guidance40" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 20.5 "CWPS_guidance41" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 21.0 "CWPS_guidance42" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 21.5 "CWPS_guidance43" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 22.0 "CWPS_guidance44" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 22.5 "CWPS_guidance45" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 23.0 "CWPS_guidance46" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 23.5 "CWPS_guidance47" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 24.0 "CWPS_guidance48" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 24.5 "CWPS_guidance49" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 25.0 "CWPS_guidance50" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 25.5 "CWPS_guidance51" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 26.0 "CWPS_guidance52" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 26.5 "CWPS_guidance53" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 27.0 "CWPS_guidance54" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 27.5 "CWPS_guidance55" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 28.0 "CWPS_guidance56" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 28.5 "CWPS_guidance57" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 29.0 "CWPS_guidance58" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 29.5 "CWPS_guidance59" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 30.0 "CWPS_guidance60" ("spawn_proj_point" country(%country) type(%type) min_alt(%min_alt))
+	}
+	{
+		delay 30.5 "CWPS3_delay"
+		{
+			ani_stop "rand1"
+		}
+		("cwps3_stop" country(%country) type(%type))
+	}
 	)	(include "Missile_settings1.inc")
 }

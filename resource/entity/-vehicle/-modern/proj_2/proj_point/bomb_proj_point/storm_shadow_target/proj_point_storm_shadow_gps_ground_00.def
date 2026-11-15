@@ -1,0 +1,6 @@
+{actor
+(include "/properties/proj_point_gps_ground.ext")
+
+{targetClass 	"proj_storm_shadow_gps_00"}
+{props "storm_shadow_gps_marker"}
+}

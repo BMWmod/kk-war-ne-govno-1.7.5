@@ -754,6 +754,34 @@
 ("lancet_impactor" impactor(lancet3m_fg_impactor))
 ("lancet_impactor" impactor(lancet3m_cm_impactor))
 
+;Molniya-1 (TM-62): dives on the marked ground point, explodes on ground/object contact
+{("CWPS_proj" missilename(molniya1) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(35) tail(none) eng_time(1))("speed_slow" coeff(0.8))
+	{on "link_effects" overload
+		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
+	}
+}
+{"molniya1_impactor"
+	(define "cut_part"
+		{tear "piece_medium_steel" bone %0
+			{impulse up 8 1 dir 5 2 cx 5 2 cy 5 2 rnd_dir 10 no_position}
+			{volumes enable contact contact_ground}
+			{call "check_delete_part"}
+		}
+	)
+	{on "detonate" overload
+		{if rand 0.5 ("cut_part" args "WingL1")}
+		{if rand 0.5 ("cut_part" args "WingR1")}
+		{if altitude 0
+		 {spawn "proj_restrictor" "root" x}
+		 {delay 0.05 {stuff_detonate}}
+		  else
+			{gravity 0}
+			{impulse up 2.0}
+			{call "underground_detonate"}
+		}
+	}
+}
+
 {("CWPS_proj" missilename(hq7b) rotation(0) rand_move(1) smoke_vulnerable(0) decoyprob(0.4) range(26) tail(proj_jet_sam) eng_time(3))("speed_fast" coeff(0.96))}
 
 {("CWPS_proj" missilename(mmp_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(37) tail(proj_jet_atgm) eng_time(1))};ручное управление, нет запаса топлива на маневр во избежание фаршотов
@@ -824,6 +852,26 @@
 }
 ;Storm Shadow (UA F-16): 3-stage carrier = 120 stages (was 2-stage, 80); wings deploy only on the first carrier
 {("CWPS_proj_3stage" missilename(storm_shadow) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range80plus(40) tail(proj_jet_main) eng_time(3))
+	{on "launch_procedures"
+		{delay 0.1 {if not tagged "cwps_not_first_stage" {with_linked_entity "missile" {ani_play "on_start"}}}}
+	}
+	{on "top_attack"	
+		{delay 0.9 {call "detonate"}}
+	}
+	{on "destroyed_by_kaz" overload}
+}
+;Storm Shadow GPS slot 00: 3-stage carrier = 120 stages (was 2-stage, 80); wings deploy only on the first carrier
+{("CWPS_proj_3stage" missilename(storm_shadow_00) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range80plus(40) tail(proj_jet_main) eng_time(3))
+	{on "launch_procedures"
+		{delay 0.1 {if not tagged "cwps_not_first_stage" {with_linked_entity "missile" {ani_play "on_start"}}}}
+	}
+	{on "top_attack"	
+		{delay 0.9 {call "detonate"}}
+	}
+	{on "destroyed_by_kaz" overload}
+}
+;Storm Shadow GPS slot 01: 3-stage carrier = 120 stages (was 2-stage, 80); wings deploy only on the first carrier
+{("CWPS_proj_3stage" missilename(storm_shadow_01) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range80plus(40) tail(proj_jet_main) eng_time(3))
 	{on "launch_procedures"
 		{delay 0.1 {if not tagged "cwps_not_first_stage" {with_linked_entity "missile" {ani_play "on_start"}}}}
 	}
