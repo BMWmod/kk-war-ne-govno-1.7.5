@@ -1,0 +1,11 @@
+{actor
+ (include "/properties/projectile.ext")
+ {Extension "atgm_carrier_forward.mdl"}
+ ("missile_placer" missile("harpy_prr_impactor_link") country(usa) type(antirad) calibre(250) speed(slow) guidance(prop))
+ ("maneuvrability_cwps3" deg_per_s(27))
+ {sensor
+  {Visor "htc-pod" {vision "harm_passive_radar"} {bone "missle_foresight"}}
+ }
+ ("missile_antirad" country(usa) type(antirad))
+ ("targetable_missile")
+}

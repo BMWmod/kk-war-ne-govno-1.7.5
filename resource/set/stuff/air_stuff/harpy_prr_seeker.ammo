@@ -1,0 +1,5 @@
+{from "pattern proj_pointer"
+ {entity "harpy_prr_ammo"}
+ {inventory {weight 100} {size 6 2}}
+ {tag "no_ricochet" "fg" "big" "size4" "88to105" "missile_antirad_usa"}
+}

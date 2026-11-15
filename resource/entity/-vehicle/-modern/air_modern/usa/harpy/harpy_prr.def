@@ -1,0 +1,113 @@
+{Entity
+	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.1))
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "harpy" "-smalluav_irn" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}	
+	;controller prop - "smalluav_irn_control"
+	; Passive seeker: no remote command-link controller.
+	{Extension "harpy.mdl"}
+		("missile_aimpoint_custom" height(0) front(0) side(0))
+	{collider "particle.big"}
+	{targetClass 	"medium_UAV"}
+	{targetSelector "missile_antirad"}
+	{mass 200}
+	{armor
+		("air_armor" body(1) wing(1) avionics(1) engine(3) hydrosystem(3) electronics(1) fuel(2))
+	}
+	{extender "inventory"
+		{box
+			{clear}
+		}
+	}
+	{Weaponry
+		{place "mark"
+			{weapon "harpy_prr_mark" filling "harpy_prr_seeker ammo" 1}
+			{foresight "foresight1"}
+			{charger "driver"}
+			{gunner "driver"}
+			{basic}
+		}
+		
+	}
+	{extender "stuff"
+		{item "harpy_prr_impactor_direct_hit fg"}
+	}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 47.1027	-91.7563	14.3619}
+			{lookat 1.33385	-4.0601	0.945669}
+			{fov 9.5929}
+			{horizon 2.83041}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.23843	-5.67377	10.8797}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793779	0.377597	-0.317993}
+			}
+			{"2"
+				{type point}
+				{position -4.39621	-4.88662	8.11211}
+			}
+		}
+	}
+}
+("Chassis_parameters" 
+	Speed(33) TurnRadius(25) 
+	Fuel(60) Fuel_remain(59) Fuel_rate(0.05) 
+;	Acc_hor(4.31) Maneuvrability_hor(8.97)
+;	Acc_ver(1.46) Maneuvrability_ver(0.46)
+	Acc_hor(2.15) Maneuvrability_hor(4.5)
+	Acc_ver(5) Maneuvrability_ver(5)
+	;Стандартная шкала не годится, подобрано по удобству использования.
+)
+ {Chassis "wheel"
+	{locomotion ("locomotion")
+		{MaxSpeed 1} 
+		{StartTime 		1  } 
+		{BrakeTime 		0.01  } 
+		{StopTime		0.01  }    
+	}
+ }
+	{Sensor
+ {Visor "harpy_passive" {vision "harm_passive_radar"} {bone "visor_ols"}}
+}		
+	{brain
+		{properties
+			{control user}
+			{fire_mode hold}
+		}
+	}
+	{Chassis "airborne"
+			{Altitude 25}
+		}
+	{ChassisManager
+			{Current "airborne"}
+	}
+       {autooperatable 1}
+       {placer
+          {crew 0}
+          {place "driver" remove}
+       }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}

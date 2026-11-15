@@ -1,0 +1,24 @@
+{from "pattern proj_weapon_air"
+ {tag "gun"}
+ {filling "ammo harpy_prr_seeker" 1}
+ {preloaded}
+ {ammoLocked}
+ {Automatic}
+ {foresight "Foresight8"}
+ {mass 1}
+ {recoveryTime 1}
+ {rechargeTime 9999}
+ {inventory {noView}}
+ {maxRange 350}
+ {aimRange 350}
+ {AimingTolerance 2}
+ {cursor "antiradar"}
+ {spreading 4
+		{SpreadRadius 4}
+		{radiusTable 
+			{0 10000}
+		}
+		{SpreadXYRatio	2.0}
+		{SpreadPower	0.1}
+	}
+}

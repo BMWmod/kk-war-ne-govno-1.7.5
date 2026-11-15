@@ -221,3 +221,9 @@
  ;{"f-35c_stealthaa" {fore 0} ("p" c(2200)  sc(170) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(16) cw(0) cp(40) t(all_nz aircraft support_frontline  ) n(1)               ) }
  
  ;.у
+
+; IDF one-way antiradar UAV: four launches cost 240 vs F-16C PRR 250.
+{"harpy_prr" {fore 0}
+ ("generic_v" c(600) sc(60) t(all_nz usa idf aircraft support_frontline nobot) g(harpy_prr) i(8) b(idf_hqcar) cw(0) cp(5))
+ {content "harpy_prr"}
+}
