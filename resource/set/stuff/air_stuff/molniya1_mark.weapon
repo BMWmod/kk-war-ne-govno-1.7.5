@@ -23,11 +23,15 @@
 	{range 100 100}
 	{gravity 3}
 	{speed 100}
-	; miss: the target marker lands up to ~16 off the aim point (Shahed/An-196 use 8)
+	; miss: the target marker lands up to ~8 off the aim point (same radius as Shahed/An-196).
+	; SpreadPower > 1 pulls hits toward the centre (without it the marker hugged the edge of the circle):
+	; most strikes land on or near the point, full 8 misses are rare. XYRatio 1 = round circle.
 	{spreading
 		{radiusTable
-			{0 16.00}
+			{0 8.00}
 		}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	3}
 	}
 	{AimingTolerance 1}
 	{cursor "bpla"}

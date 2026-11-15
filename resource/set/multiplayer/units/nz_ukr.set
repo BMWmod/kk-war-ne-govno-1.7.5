@@ -137,7 +137,7 @@
  ;Точка-У
  {"tochka_y_ukr" {fore 0} ("v_explicit" c(1330) sc(325) g(visocotoc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(234) cw(0) cp(15) t(all_nz) c1(tochka_y) n(1) n1(tankman:2)   ) {content "tochka_y ( mp2/ukr/tankman:2 )"} }
  ;Блискавка (Молния-1 с ТМ-62), пуск с катапульты Элерона
- {"molniya1_catapult_ukr" {fore 1} ("vart" c(500) sc(100) g(lancet)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2350) cw(0) cp(20) t(all_nz art) c1(eleron_control) c2(molniya1_catapult_ukr)  n1(vehicle_supporter:1)            ) }
+ {"molniya1_catapult_ukr" {fore 1} ("vart" c(500) sc(100) g(lancet)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2350) cw(0) cp(20) t(all_nz art) c1(eleron_control_ukr) c2(molniya1_catapult_ukr)  n1(vehicle_supporter:1)            ) }
 
 
 ;=========================================ТРО (терроборона)===========================================

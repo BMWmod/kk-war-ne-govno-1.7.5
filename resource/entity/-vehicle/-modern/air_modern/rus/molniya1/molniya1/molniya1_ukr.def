@@ -1,13 +1,13 @@
 {Entity
 	; Bliskavka (UKR name of Molniya-1) loitering UAV with a TM-62 anti-tank mine. Launched from molniya1_catapult_ukr,
-	; controlled from eleron_control (prop smalluav_rus), dives on a ground point (no vehicle tracking).
+	; controlled from eleron_control_ukr (prop smalluav_ukr), dives on a ground point (no vehicle tracking).
 	(include "/properties/airborne_M.ext")
 	{PatherID  "airborne"}
 	(include "/properties/shadow/airborn.inc" scale(1.6))
 	(include "/properties/selection/airborne.inc" scale(4.0))
 	(include "/properties/car_crew.ext")
-	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "molniya1" "smalluav_rus" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}
-	;controller prop - "smalluav_rus_control" (eleron_control)
+	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "molniya1" "smalluav_ukr" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}
+	;controller prop - "smalluav_ukr_control" (eleron_control_ukr)
 	{props "ecm_vulnerable_rus"}
 
 	{Extension "molniya1.mdl"}

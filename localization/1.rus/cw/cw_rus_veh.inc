@@ -355,6 +355,7 @@
 					{"molniya1"						"<c(FFFFFF)e(shadow)>Молния-1 - ТМ-62</c>"}
 					{"molniya1_catapult_ukr"			"<c(FFFFFF)e(shadow)>Блискавка</c>"}
 					{"molniya1_ukr"					"<c(FFFFFF)e(shadow)>Блискавка - ТМ-62</c>"}
+					{"eleron_control_ukr"			"<c(FFFFFF)e(shadow)>Ретранслятор Блискавки</c>"}
 				;mi-24v
 					{"mi-24v"							"<c(FFFFFF)e(shadow)>Ми-24В</c>"}
 					{"mi-24v_2"							"<c(FFFFFF)e(shadow)>Ми-24В</c>"}

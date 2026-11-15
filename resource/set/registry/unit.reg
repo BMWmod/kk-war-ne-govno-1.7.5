@@ -216,6 +216,7 @@
 	{"molniya1_catapult"	{structure "cwds_mortar"}}
 	{"molniya1_ukr"		{structure "cwds_plane_attack"}}
 	{"molniya1_catapult_ukr"	{structure "cwds_mortar"}}
+	{"eleron_control_ukr"	{structure "cwds_radar"}}
 	{"an-12"			{structure "cwds_plane_cargo"}}
 	{"an-12bk"			{structure "cwds_plane_cargo"}}
 	{"il-76td"			{structure "cwds_plane_cargo"}}

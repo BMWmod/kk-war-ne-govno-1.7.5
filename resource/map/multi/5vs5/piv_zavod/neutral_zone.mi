@@ -10688,6 +10688,727 @@
 					}
 				}
 			}
+			{"service/smalluav/bliskavka_ukr/loose_control"
+				{autoreset}
+				{condition
+					{expression "!1"}
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_ukr}
+										}
+									}
+									{exclude
+										{tag
+											{tag smalluav_no_connect}
+										}
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+								{sort
+									{type entity}
+									{entity
+										{source advanced}
+										{ignore_captured_by_user 0}
+										{group
+											{include
+												{prop
+													{prop smalluav_ukr_control}
+												}
+												{state
+													{state operatable}
+												}
+											}
+											{exclude
+												{state
+													{state inactive}
+												}
+											}
+										}
+									}
+									{mode farthest}
+								}
+								{amount 1
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_ukr_control}
+										}
+										{state
+											{state "operatable inhabited"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+									}
+								}
+							}
+							{distance 340}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+								}
+								{exclude
+									{tag
+										{tag smalluav_no_connect}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop smalluav_ukr_control}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{tag_add smalluav_no_connect}
+					}
+					{"ables"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag smalluav_no_connect}
+						}
+						{remove select}
+					}
+					{"effect"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+							}
+						}
+						{effect reset_manual_control}
+					}
+					{"delay"
+						{time 2}
+					}
+					{"action"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{drop orders}
+						{action move}
+						{target
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr_control}
+									}
+									{state
+										{state "operatable inhabited"}
+									}
+								}
+								{exclude
+									{tag
+										{tag hidden}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{tag
+												{tag smalluav_no_connect}
+											}
+											{prop
+												{prop smalluav_ukr}
+											}
+										}
+										{exclude
+											{tag
+												{tag destroyed}
+											}
+											{tag
+												{tag ally}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/bliskavka_ukr/loose_control"}
+					}
+				}
+			}
+			{"service/smalluav/bliskavka_ukr/regain_control"
+				{autoreset}
+				{condition
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_ukr}
+										}
+										{tag
+											{tag smalluav_no_connect}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+										{tag
+											{tag uav_jammed}
+										}
+									}
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_ukr_control}
+										}
+										{state
+											{state "operatable inhabited"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+									}
+								}
+							}
+							{distance 330}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag uav_jammed}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop smalluav_ukr_control}
+											}
+											{state
+												{state operatable}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_remove smalluav_no_connect}
+					}
+					{"ables"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+									{tag
+										{tag uav_jammed}
+									}
+								}
+							}
+						}
+						{add select}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/bliskavka_ukr/regain_control"}
+					}
+				}
+			}
+			{"service/smalluav/bliskavka_ukr/return"
+				{autoreset}
+				{condition
+					{terms
+						{"2.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag smalluav_return}
+										}
+									}
+									{include
+										{prop
+											{prop smalluav_ukr}
+										}
+									}
+									{exclude
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"air_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_return}
+									}
+								}
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{altitude 30}
+					}
+					{"action"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+									{tag
+										{tag smalluav_return}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{drop orders}
+						{action move}
+						{target
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr_control}
+									}
+									{state
+										{state "operatable inhabited"}
+									}
+								}
+								{exclude
+									{tag
+										{tag hidden}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{tag
+												{tag smalluav_return}
+											}
+											{prop
+												{prop smalluav_ukr}
+											}
+										}
+										{exclude
+											{tag
+												{tag destroyed}
+											}
+											{tag
+												{tag ally}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_return}
+									}
+								}
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+								}
+								{exclude
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag destroyed}
+									}
+								}
+							}
+						}
+						{tag_add smalluav_land}
+						{tag_remove smalluav_return}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/bliskavka_ukr/return"}
+					}
+				}
+			}
+			{"service/smalluav/bliskavka_ukr/land"
+				{autoreset}
+				{condition
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_ukr}
+										}
+										{tag
+											{tag smalluav_land}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_ukr_control}
+										}
+										{state
+											{state "operatable inhabited"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+									}
+								}
+							}
+							{distance 70}
+						}
+					}
+				}
+				{actions
+					{"air_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_land}
+									}
+								}
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop smalluav_ukr_control}
+											}
+											{state
+												{state operatable}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{ground}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_ukr}
+									}
+									{tag
+										{tag smalluav_land}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop smalluav_ukr_control}
+											}
+											{state
+												{state operatable}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_remove smalluav_land}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/bliskavka_ukr/land"}
+					}
+				}
+			}
 			{"service/smalluav/raven/land"
 				{autoreset}
 				{condition
