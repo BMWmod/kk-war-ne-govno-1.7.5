@@ -23,6 +23,12 @@
 	{range 100 100}
 	{gravity 3}
 	{speed 100}
+	; miss: the target marker lands up to ~16 off the aim point (Shahed/An-196 use 8)
+	{spreading
+		{radiusTable
+			{0 16.00}
+		}
+	}
 	{AimingTolerance 1}
 	{cursor "bpla"}
 }

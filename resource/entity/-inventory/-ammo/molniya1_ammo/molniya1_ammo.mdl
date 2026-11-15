@@ -59,8 +59,8 @@
 }
 {Extender "preview"
 	{"Stuff"
-		; camera taken from shahed136_ammo.mdl (same in-flight axes: X nose, +Y up, Z span)
-		{camera {origin 114.9 34.2 220.1} {lookat 0 0.5 0} {fov 18} {horizon -101.61}}
+		; camera from shahed136_ammo.mdl, rolled 180 deg (horizon -101.61 -> 78.39): with Shahed's roll the icon was upside down
+		{camera {origin 114.9 34.2 220.1} {lookat 0 0.5 0} {fov 18} {horizon 78.39}}
 		{lights
 			{"0" {type point} {position 4.23843 10.8797 5.67377}}
 			{"1" {type directional} {direction -0.0793778 -0.317993 -0.377597}}
