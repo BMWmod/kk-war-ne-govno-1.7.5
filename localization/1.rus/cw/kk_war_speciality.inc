@@ -317,6 +317,10 @@
 				;switchblade300
 					{"switchblade300"					"<c(FFFF00)e(shadow)>Барражирующий боеприпас</c>"}
 					{"switchblade300_catapult"			"<c(FFFF00)e(shadow)>Катапульта</c>"}
+				;fpv drones
+					{"fpv_drone"						"<c(FFFF00)e(shadow)>FPV-дрон-камикадзе (противотанковый)</c>"}
+					{"fpv_drone120"					"<c(FFFF00)e(shadow)>FPV-дрон-камикадзе (фугасный)</c>"}
+					{"cvadropoter"					"<c(FFFF00)e(shadow)>Разведывательный БПЛА</c>"}
 				;uh60
 					{"sikorsky s-70c2"					"<c(FFFF00)>Многоцелевой вертолёт</c>"}
 					{"uh60"								"<c(FFFF00)>Многоцелевой вертолёт</c>"}

@@ -10,7 +10,11 @@
 		}
                
 		{"mp2"
+			{"ukr"
+				{"spotter" "<c(FFFFFF)>Оператор FPV-дронов<c(FFFFFF)>"}
+			}
 			{"srbsk"
+				{"spotter" "<c(FFFFFF)>Оператор FPV-дронов<c(FFFFFF)>"}
 				{"1st_com" "<c(FFFFFF)>Командир отделения<c(FFFFFF)>"}
 				{"1st_mg" "<c(FFFFFF)>Пулеметчик<c(FFFFFF)>"}
 				{"army_sniper" "<c(FFFFFF)>Снайпер<c(FFFFFF)>"}
@@ -41,6 +45,7 @@
 				{"pmc_zek3" "<c(FFFFFF)>Солдат-зек ЧВК<c(FFFFFF)>"}
 			}
 			{"iregular"
+				{"spotter" "<c(FFFFFF)>Оператор FPV-дронов<c(FFFFFF)>"}
 			 	{"army_com" "<c(FFFFFF)>Командир отделения<c(FFFFFF)>"}
 				{"army_mgun" "<c(FFFFFF)>Пулеметчик<c(FFFFFF)>"}
 				{"army_mgunhelp" "<c(FFFFFF)>Помощник пулеметчика<c(FFFFFF)>"}
@@ -57,6 +62,7 @@
 			}
 		
 			{"rus"
+				{"fpv_operator" "<c(FFFFFF)>Оператор FPV-дронов<c(FFFFFF)>"}
 				
 				
 				
@@ -180,6 +186,7 @@
 				{"scout_mso_sniper" "<c(FFFFFF)>Разведчик<c(FFFFFF)>"}
             }
 			{"usa"
+				{"fpv_operator" "<c(FFFFFF)>Оператор FPV-дронов<c(FFFFFF)>"}
 				{"antipersonel_miner" "<c(FFFFFF)>ПП минер<c(FFFFFF)>"}
 				{"antitank_miner" "<c(FFFFFF)>ПТ минер<c(FFFFFF)>"}
 				{"bazooker" "<c(FFFFFF)>Гранатометчик<c(FFFFFF)>"}
@@ -455,6 +462,7 @@
 
 			}
 			{"brit"
+				{"fpv_operator" "<c(FFFFFF)>Оператор FPV-дронов<c(FFFFFF)>"}
 				{"brit_at_rifle" "<c(FFFFFF)>Анти-снайпер<c(FFFFFF)>"}
 				{"brit_at_rifle_help" "<c(FFFFFF)>Наводчик<c(FFFFFF)>"}
 				{"brit_marksman" "<c(FFFFFF)>Марксман<c(FFFFFF)>"}
@@ -559,6 +567,7 @@
 				{"vehicle_supporter" "<c(FFFFFF)>Оператор воор./техн.<c(FFFFFF)>"}
 			}
             {"cn"
+				{"fpv_operator" "<c(FFFFFF)>Оператор FPV-дронов<c(FFFFFF)>"}
 				{"antipersonel_miner" "<c(FFFFFF)>ПП минер<c(FFFFFF)>"}
 				{"antitank_miner" "<c(FFFFFF)>ПТ минер<c(FFFFFF)>"}
 				{"at_rifle" "<c(FFFFFF)>Тяж. снайпер<c(FFFFFF)>"}

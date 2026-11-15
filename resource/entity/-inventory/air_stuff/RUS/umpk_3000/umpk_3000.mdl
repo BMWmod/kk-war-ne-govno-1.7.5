@@ -17,9 +17,9 @@
         }
         {Bone "ympk_body"
             {Orientation
-                2.29857	0	0
-                0	4.06214	0
-                0	0	3.03068
+                5.17179	0	0
+                0	9.13982	0
+                0	0	6.81903
             }
             {VolumeView "ympk_body.ply"}
             {Bone "fab500_m62"

@@ -51,6 +51,7 @@
 		{item "m16a4full" filling "556natos ammo" 30}
 		{item "556nato ammo" 125}
 		{item "rq11_control"}
+		{item "fpv_control_lr"}
 			
 		{item "fpv_drone" 4}
 		{item "fpv_drone120" 4}

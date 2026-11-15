@@ -13,11 +13,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 UNITS = ROOT / 'resource/set/multiplayer/units'
 ALIASES = {
-    '2c1_rus': '2c1', 'tochka_y_wagner': 'tochka_y',
-    'brdm2_un': 'brdm2', 'brdm2kz': 'brdm2', 'btr4e1i': 'btr4e1',
+    # Never alias an entity whose name is also a purchase ID (2c1_rus, brdm2_un,
+    # ypr_765_un): the hover tooltip loads the entity named like the purchase ID,
+    # and if content doesn't preload it the game crashes
+    # ("Loading raw entity outside quant").
+    'tochka_y_wagner': 'tochka_y',
+    'brdm2kz': 'brdm2', 'btr4e1i': 'btr4e1',
     'milan_stan_un': 'milan_stan_2', '2b11_odkb': '2b11_isis',
     'metis_m_odkb': 'metis_m', 'ptur_tow_un': 'ptur_tow_nato',
-    '9k33_osa_akm_isis': '9k33_osa_akm', 'ypr_765_un': 'ypr_765',
+    '9k33_osa_akm_isis': '9k33_osa_akm',
 }
 EXPLICIT = '''; Exact content is supplied by the purchasing squad: no optional crew slots.
 (define "v_explicit"

@@ -257,6 +257,9 @@
 	{"f-16c_antiship"	{structure "cwds_plane_attack"}}
 	{"f-16c_support"	{structure "cwds_plane_attack"}}
 	{"rq11raven"		{structure "cwds_plane_attack"}}
+	{"fpv_drone"		{structure "cwds_missile"}}
+	{"fpv_drone120"		{structure "cwds_missile"}}
+	{"cvadropoter"		{structure "cwds_plane_attack"}}
 	{"mq9"				{structure "cwds_plane_attack"}}
 	{"mq9_nato"			{structure "cwds_plane_attack"}}
 	{"mq9_nato_recon"	{structure "cwds_plane_attack"}}

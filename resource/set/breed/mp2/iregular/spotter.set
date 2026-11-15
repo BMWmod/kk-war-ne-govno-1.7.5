@@ -63,6 +63,7 @@
 		{item "bandage" 5}
 		
 		{item "rq11_control"}
+		{item "fpv_control_lr"}
 		{item "fpv_drone" 3}
 		{item "fpv_drone" 3}
 		{item "g36e" filling "556natomb ammo" 30}
