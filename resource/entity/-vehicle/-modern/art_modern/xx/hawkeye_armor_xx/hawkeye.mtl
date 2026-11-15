@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/hawkeye_armor/hawkeye_xx"}
+	{emitsheat}
+	{blend none}
+}

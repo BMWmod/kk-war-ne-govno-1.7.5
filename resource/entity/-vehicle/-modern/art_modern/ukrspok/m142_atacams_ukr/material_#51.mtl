@@ -1,5 +1,5 @@
 {material bump
-	{diffuse "$/model/himars/body"}
+	{diffuse "$/model/himars_atacms_ukr/body"}
 	{bump "$/model/himars/body_bp"}
 	{specular "$/model/himars/body_sp"}
 	{color "229 229 229 25"}

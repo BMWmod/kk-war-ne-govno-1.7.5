@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/bohdana_bg/bohdana_gun"}
+	{bump "$/model/bohdana_bg/bohdana_gun_n"}
+	{blend none}
+}

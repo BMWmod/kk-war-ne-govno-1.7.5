@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/himars_atacms_ukr/atacms_cell"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

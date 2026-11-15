@@ -532,6 +532,7 @@
 	{"exactor_mk2"	{structure "cwds_atgm"}}
 	{"l118"			{structure "cwds_cannon"}}
 	{"fh-70"		{structure "cwds_cannon"}}
+	{"bohdana_bg"	{structure "cwds_cannon"}}
 	{"mstar_v6"		{structure "cwds_radar"}}
 	{"mstar_v6usa"	{structure "cwds_radar"}}
 	{"tampella_120mm"	{structure "cwds_mortar"}}

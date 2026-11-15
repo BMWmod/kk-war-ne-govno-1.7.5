@@ -22,4 +22,5 @@
 		{"storm_shadowx2"												"<c(00FF00)>Storm Shadow<c(FFFFFF)>"}
 		{"105mm_L7A3_ua gun"											"<c(FFFFFF)>105мм <c(FFAF00)>L7A3<c(FFFFFF)> (модерн.)\n дальность - <c(FFAF00)>150<c(FFFFFF)> м.\n кучность -<c(4d6ff7)> 0,14..0,26<c(FFFFFF)> т.д. "}
 		{"105mm_m20_hawkeye gun"											"<c(FFFFFF)>105мм гаубица <c(FFAF00)>M20<c(FFFFFF)> (Hawkeye)\n дальность - <c(FFAF00)>275..325<c(FFFFFF)> м.\n скорострельность - <c(FFAF00)>8,5<c(FFFFFF)> выстр./мин "}
+		{"155mm_bohdana_bg gun"											"<c(FFFFFF)>155мм гаубица <c(FFAF00)>2С22<c(FFFFFF)> (Богдана-БГ)\n дальность - <c(FFAF00)>290..385<c(FFFFFF)> м.\n скорострельность - <c(FFAF00)>7,5<c(FFFFFF)> выстр./мин "}
 	}

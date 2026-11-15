@@ -2492,6 +2492,48 @@
 	}
 }
 {
+	"bohdana_bg"
+	{
+		on spawn
+		{
+			add_view 	"smoke_zenit" 	"zenite_smoke" 		"foresight1"
+		}
+	}
+	{
+		on fire "gun"
+		{
+			spawn "canon_gaub_fire" "Foresight1" x
+		}
+		{
+			spawn "dust_shot_big_2" "basis"
+		}
+		{
+			view start "smoke_add"
+		}
+		{
+			delay 0.16 "shell_off"
+			{
+				view start "zenite_smoke"
+			}
+			{
+				view pause "smoke_add"
+			}
+			{
+				view pause "flashbarrel_gun"
+			}
+			{
+				delay 5
+				{
+					view pause "zenite_smoke"
+				}
+			}
+		}
+	}
+	{
+		on "cut_parts"			("cut_part" args "wheelleft")			("cut_part" args "wheelright")			("cut_part" args "turret")			("cut_part" args "part1")			("cut_part" args "part2")
+	}
+}
+{
 	"cannon m777"
 	{
 		on spawn

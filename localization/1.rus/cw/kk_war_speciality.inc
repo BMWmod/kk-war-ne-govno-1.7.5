@@ -29,6 +29,8 @@
 {"caesar"	"<c(FFFF00)e(shadow)>Самоходная артиллерийская установка</c>"}
 {"hawkeye_armor"	"<c(FFFF00)e(shadow)>Самоходная 105-мм гаубица</c>"}
 {"hawkeye_armor_ukr"	"<c(FFFF00)e(shadow)>Самоходная 105-мм гаубица</c>"}
+{"bohdana_bg"	"<c(FFFF00)e(shadow)>Буксируемая 155-мм гаубица</c>"}
+{"bohdana_bg_ukr"	"<c(FFFF00)e(shadow)>Буксируемая 155-мм гаубица</c>"}
 {"an_2_bomb_isis"							"<c(FFFF00)>Транспортный самолёт</c>"}
 {"an_2_bomb"							"<c(FFFF00)>Транспортный самолёт</c>"}
 {"an_2_no_wp_isis"							"<c(FFFF00)>Транспортный самолёт</c>"}

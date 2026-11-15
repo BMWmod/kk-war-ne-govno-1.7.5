@@ -119,8 +119,8 @@
  ;Д-30
  {"d30_ukr"  {fore 0.75}  ("v_explicit" c(600) sc(100) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(23200) cw(0) cp(15) t(all_nz) c1(d30) n(1) n1(vehicle_supporter:2)  ) {content "d30 ( mp2/ukr/vehicle_supporter:2 )"} }
 
- ;M777A2
- {"m777a2_ukr" {fore 0} ("v_explicit" c(500) sc(185) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2320) cw(0) cp(15) t(all_nz) c1(m777a1) n(1) n1(vehicle_supporter:4)   ) {content "m777a1 ( mp2/ukr/vehicle_supporter:4 )"} }
+ ;2С22 Богдана-БГ
+ {"bohdana_bg_ukr" {fore 0} ("v_explicit" c(500) sc(185) g(artbux)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(2320) cw(0) cp(15) t(all_nz) c1(bohdana_bg) n(1) n1(vehicle_supporter:4)   ) {content "bohdana_bg ( mp2/ukr/vehicle_supporter:4 )"} }
 
  ;Дана
  {"dana_ukr" {fore -1} ("v_explicit" c(300) sc(180) g(artstvolc)  b(art_ua_hqcar) brig(art_ua) s(ukr)  i(232) cw(0) cp(15) t(all_nz) c1(dana_152mm) n(1) n1(tankman:4)   ) {content "dana_152mm ( mp2/ukr/tankman:4 )"} }
@@ -299,7 +299,7 @@
  {"t-64bm1_ukr" {fore 0.5} ("v_explicit" c(260) sc(160) g(oldsovua)  b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(23543) cw(0) cp(25) t(all_nz) c1(t-64bm1) n(1) n1(tankman:3)) {content "t-64bm1 ( mp2/ukr/tankman:3 )"} }
 
  ;M1A1
- {"m1ip_2"	("v" c(280) brig(brt_ua) t(all_nz) s(ukr) n(4) g(newua)  sc(120) b(brt_ua_hqcar) i(13) cw(0) cp(2))  {fore 0.5}}
+ {"m1a1_new"	("v" c(280) brig(brt_ua) t(all_nz) s(ukr) n(4) g(newua)  sc(160) b(brt_ua_hqcar) i(12) cw(0) cp(2))  {fore 0.5}}
 
  ;Leopard 2A4 с ДЗ
  {"leopard_2a4_dz" ("v" c(350) sc(150) g(newua) b(brt_ua_hqcar) brig(brt_ua) s(ukr)  i(11) cw(0) cp(45) m(1) t(all_nz) n(4)){fore -1.0}}

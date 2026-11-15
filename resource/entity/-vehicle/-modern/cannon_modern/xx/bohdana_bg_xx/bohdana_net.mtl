@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/bohdana_bg/net2_sewn_xx"}
+	{bump "$/model/bohdana_bg/net2_n"}
+	{specular "$/model/bohdana_bg/net2_c"}
+	{color "230 230 230 125"}
+	{blend test}
+}

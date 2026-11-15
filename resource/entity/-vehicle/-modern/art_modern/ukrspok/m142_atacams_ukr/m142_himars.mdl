@@ -353,61 +353,7 @@
 								0	-1	0
 								31.122	-13.5259	0.0426117
 							}
-							{VolumeView "module.ply"}
-							{bone "rocket01"
-								{Matrix34
-									0	0	-1
-									-1	0	0
-									0	1	0
-									6.27881	-35.0852	2.9083
-								}
-								{VolumeView "rocket01.ply"}
-							}
-							{bone "rocket02"
-								{Matrix34
-									0	0	-1
-									-1	0	0
-									0	1	0
-									1.69575e-05	-35.085	2.91235
-								}
-								{VolumeView "rocket02.ply"}
-							}
-							{bone "rocket05"
-								{Matrix34
-									0	0	-1
-									-1	0	0
-									0	1	0
-									-6.27779	-35.194	2.91174
-								}
-								{VolumeView "rocket05.ply"}
-							}
-							{bone "rocket04"
-								{Matrix34
-									0	0	-1
-									-1	0	0
-									0	1	0
-									-6.27881	-35.0497	-3.39969
-								}
-								{VolumeView "rocket04.ply"}
-							}
-							{bone "rocket03"
-								{Matrix34
-									0	0	-1
-									-1	0	0
-									0	1	0
-									1.69575e-05	-35.0499	-3.3997
-								}
-								{VolumeView "rocket03.ply"}
-							}
-							{bone "rocket00"
-								{Matrix34
-									0	0	-1
-									-1	0	0
-									0	1	0
-									6.27579	-35.0497	-3.40374
-								}
-								{VolumeView "rocket00.ply"}
-							}
+							{VolumeView "module_atacms.ply"}
 						}
 						{bone "rok_tail00"
 							{Matrix34

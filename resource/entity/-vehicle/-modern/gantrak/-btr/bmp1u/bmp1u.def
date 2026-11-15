@@ -48,10 +48,9 @@
 			{item "ammo pkm_ammo" 400}
             {item "ammo mortar pdb" 120}          
 			{item "pkt" filled {user "mgun"}}
-			{item "rpg7 weapon" 1}
 	  		{item "f1 grenade" 9}
-			{item "PG-7VL rpg7 ammo" 3}                     
 			{item "ammo shershen cm" 2}
+			{item "ammo shershen fg" 2}
 		}
 	}
     {Weaponry

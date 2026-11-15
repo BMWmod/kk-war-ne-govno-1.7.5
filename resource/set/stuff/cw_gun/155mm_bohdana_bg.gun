@@ -1,0 +1,34 @@
+﻿; 2S22-B Bohdana-BG (towed), 155 mm L52. Built from FH-70 gun (sound, reload).
+; Range and accuracy: midpoint between AS-90 (155mm_L31/M284) and PzH 2000 (155mm_L52).
+{from "155mm_fh70 gun"
+	{range 300 300}
+	{gravity 1.9}
+	("CW_acc_artillery" mils(4.75))
+	{ZeroingAccuracy 0.62 0.5}
+	{parameters "bullet155_GER fg"
+		{gravity 1.76}
+		{range 330 330}
+		{cursor "cannon_on_fg_5"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "bullet155_GER_r fg"
+		{gravity 1.76}
+		{range 330 330}
+		{cursor "cannon_on_fg_5"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "bullet155_GER_ar fg"
+		{gravity 1.52}
+		{range 385 385}
+		("CW_acc_artillery" mils(5.75))
+		{cursor "cannon_on_fg_5"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "bullet155_USA cl"
+		{gravity 2.02}
+		{range 290 290}
+		{cursor "cannon_on_heat_3"}
+		{cursorReloading "cannon_reload_heat"}
+		{Spreading {SpreadYadjust 3.0} }
+	}
+}
