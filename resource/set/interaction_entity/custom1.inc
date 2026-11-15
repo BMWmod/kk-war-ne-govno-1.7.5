@@ -81,39 +81,63 @@
 }
 
 {"2k12_kub"
-	("Shilka_sound")	  	
-	{on spawn			
-	{add_view	 "flash_gun_big"	"shooter00"	"shooter00"}	{add_view	 "flash_gun_big"	"shooter01"	"shooter01"}
-	{add_view	 "flash_gun_big"	"shooter02"	"shooter02"}
-
-	{add_view	 "startsmoke_big"	"shooter00"	"shooter00"}			
-	{add_view	 "startsmoke_big"	"shooter01"	"shooter01"}
-	{add_view	 "startsmoke_big"	"shooter02"	"shooter02"}			 	
-	}		
-	{on fire "ptur" 			
-	(define "fire_barrel"				name "%0"					
-	{delay 0.1 
-	{spawn "3m9_kub_carrier" "shooter%0"   x}
-	}					
-	{ani_play "fire"}					
-	{view start "shooter%0"}					
-	{delay 0.42					
-	{view pause "shooter%0"}					
-	}			
-	)				
-	{if    ("fire_barrel" args 00)			
-	  else ("fire_barrel" args 01)			
-	  else ("fire_barrel" args 02)				 			
-	}		
-	}	
+	("Shilka_sound")
+	{on spawn
+		{add_view	"flash_gun_big"		"flash00"	"shooter00"}
+		{add_view	"flash_gun_big"		"flash01"	"shooter01"}
+		{add_view	"flash_gun_big"		"flash02"	"shooter02"}
+		{add_view	"startsmoke_big"	"smoke00"	"shooter00"}
+		{add_view	"startsmoke_big"	"smoke01"	"shooter01"}
+		{add_view	"startsmoke_big"	"smoke02"	"shooter02"}
 	}
-
-	{"2k12_kub"
-	
-
-	("radar_lifting90_params" triplex(additional_triplex) visor(visor2) anim_rotate(radar) anim_lift(radar) marker(antirad_generator_usa))	  
-	
+	;3M9 is semi-active: 3m9_kub_carrier homes only on a target illuminated by 1s91_kub_radar
+	{on fire "ptur"
+		(define "fire_barrel"	name "%0"
+			{delay 0.1
+				{spawn "3m9_kub_carrier" "shooter%0" x}
+			}
+			{view start "flash%0"}
+			{view start "smoke%0"}
+			{delay 0.42
+				{view pause "flash%0"}
+				{view pause "smoke%0"}
+			}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		}
 	}
+}
+
+{"1s91_kub_radar"
+	("Shilka_sound")
+	("radar_lifting90_params" triplex(additional_triplex) visor(visor2) anim_rotate(radar) anim_lift(radar) marker(antirad_generator_large_rus))
+	;illumination radar works only while stationary, powered and intact (same rules as buk_launcher)
+	{on move on
+		{delay 0.1
+			{call "update_radar"}
+		}
+	}
+	{on move off
+		{delay 0.1
+			{call "update_radar"}
+		}
+	}
+	{on "update_radar"
+		{if tagged "radar_off"
+			{weapon_work "laser" 0}
+		else not work "additional_triplex"
+			{weapon_work "laser" 0}
+		else tagged "no_power"
+			{weapon_work "laser" 0}
+		else velocity 0
+			{weapon_work "laser" 0}
+		else
+			{weapon_work "laser" 1}
+		}
+	}
+}
 
 
 

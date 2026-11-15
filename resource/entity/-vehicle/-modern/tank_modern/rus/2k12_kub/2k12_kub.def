@@ -1,0 +1,121 @@
+;Model by cAwx
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "light_M" "turret_rotator" "vision_lev05" "remote_turret" "has_apu" "2k12_kub"}
+	{targetSelector "missile"}
+	
+	{extender "enumerator"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+	("armor_light" turret(15 15 15 15) body(15 15 5 15))
+
+;===================================================================
+
+	{sensor
+		{visor "Driver"
+			{bone "visor1"}
+			{vision "vehicle_top_mgun"}
+		}
+		;no own radar: the launcher only sees targets illuminated by 1S91 (proj_point markers)
+		{visor "passive"
+			{bone "visor1"}
+			{vision "vertical_antimissile_side"}
+		}
+		{RecognizeTime 0.01}
+		{InformRange 300 300}
+	}
+	
+;===================================================================
+
+	{boarder
+	{anm "left"
+		{forward	{begin	"board_tank_left"} {base"cover_left"}}
+		{reverse 	{end	"emit_tank_1_hold"} {base"cover_left"}}
+	}
+	{anm "right"
+		{forward	{begin	"board_tank_right"} {base"cover_right"}}
+		{reverse 	{end	"emit_tank_1_hold"} {base"cover_right"}}
+	}
+	}
+	
+{placer 
+	{place "driver" {group "crew"} }
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+("crew_human" place(driver)		animation(left)	door(emit1))
+("crew_human" place(commander)		animation(right)	door(emit2))
+("crew_human" place(gunner)		animation(left)	door(emit1))
+
+;===================================================================
+
+	{extender "inventory"
+		{box
+			{size 10 10} 
+			{item "repair_kit" 1}
+			{item "ammo 3m9_kub_rocket" 3}
+            {item "netting_kit" 2}
+		}
+	}
+	{Weaponry
+		{place "ptur"
+			{weapon "3m9_x3_pu" filling "ammo 3m9_kub_rocket" 3}
+			{foresight "foresight1"}
+			{barrels 3}
+			{charger "gunner"}
+			{gunner "gunner"}
+			{shooter "none"}
+			{SequentialAim 0}
+			{RestoreIKAfterAim}
+		;	{StationaryFiring}
+			{basic}
+		}
+	}
+	
+;===================================================================
+	
+	{mass 23500}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(21.5)
+			Width(3.25)
+			Power(280)
+			Realspeed(44)
+			Gamespeed(37) 
+		)
+		{RearGears		0.20 0.44}}
+		("CW_fuelbag" Range(500) Fuelvolume(990))
+		("CW_speed_lev" Gamespeed(41))
+		{DisableMoveWhileFiring}
+	}
+	{props "cwfs_fuel_800"}
+
+	{Extension "2k12_kub.mdl"}
+
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+}

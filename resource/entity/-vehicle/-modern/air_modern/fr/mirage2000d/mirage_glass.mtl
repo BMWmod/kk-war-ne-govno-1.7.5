@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "mirage_glass" {MipMap 1}}
+ {blend none}
+}

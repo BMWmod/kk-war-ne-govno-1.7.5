@@ -1,0 +1,4 @@
+; The fired round uses the dedicated GBU-28 impactor profile directly.
+; No secondary explosive spawn: one impact applies one damage profile.
+{from "gbu28_impactor ammo"
+}

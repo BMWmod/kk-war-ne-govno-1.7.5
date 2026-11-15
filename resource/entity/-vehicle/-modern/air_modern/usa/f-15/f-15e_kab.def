@@ -26,22 +26,40 @@
 			{charger "driver"}
 			{gunner "driver"}
 		}
-
+		{place "bomber2"
+			{weapon "gbu28x1" filled}
+			{foresight "foresight_gbu28"}
+			{charger "driver1"}
+			{gunner "driver1"}
+			{barrels 1}
+			{shooter "gbu28_launch_"}
+			{basic}
+		}
 		{place "bomber1"
-			{weapon "jdam_erx4" filled}
+			{weapon "f15_jdam_erx2" filled}
 			{foresight "foresight5"}
 			{charger "driver1"}
 			{gunner "driver1"}
-			{barrels 4}
+			{barrels 2}
 			{shooter "bomberc_"}
 			{basic}
 		}			
 		{place "ptur1"
-			{weapon "aim-9lx4" filled}
+			{weapon "aim-9lx2" filled}
 			{foresight "foresight3"}
 			{charger "driver"}
 			{gunner "driver"}
-			{barrels 4}
+			{barrels 2}
+			{basic}
+		}
+
+
+		{place "ptur"
+			{weapon "aim-120c7x2" filled}
+			{foresight "foresight2"}
+			{charger "driver"}
+			{gunner "driver"}
+			{barrels 2}
 			{basic}
 		}
 		{place "flare_dropper"

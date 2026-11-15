@@ -1,0 +1,12 @@
+;SDL
+;long-range FPV control set: operator radius 250 m instead of 200 m (see service/smalluav/fpv/relay2_* map triggers)
+{item
+	{tag "smallitemin1hand"}
+	{entity "rq11_control"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 1.5}
+}

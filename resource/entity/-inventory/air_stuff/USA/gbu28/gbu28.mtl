@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "gbu28_co"}
+	{blend none}
+}

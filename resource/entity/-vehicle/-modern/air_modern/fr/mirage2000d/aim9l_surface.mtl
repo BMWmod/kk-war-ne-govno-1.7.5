@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "aim9l_surface" {MipMap 1}}
+ {blend none}
+}

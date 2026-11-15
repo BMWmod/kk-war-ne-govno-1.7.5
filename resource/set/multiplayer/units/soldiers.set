@@ -684,6 +684,9 @@
 ("soldier"   breed(iran_heavy_sniper)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
 ("soldier"   breed(iran_spotter)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
 )
+(define "fpv_operators"
+("soldier"   breed(fpv_operator)	side(%side) brig(%brig)	sc(10)	cp(4)	cw(0.5)	c(2)	tags())
+)
 ;=========Russia==========
 
 ("common_troops" side(rus) brig(common))
@@ -822,3 +825,8 @@
 ("iran_squad_elite_kuds" side(iran) brig(iran))
 ("iran_crew" side(odkb) brig(iran))
 ("iran_shipers" side(odkb) brig(iran))
+;FPV operators
+("fpv_operators" side(rus) brig(artbr))
+("fpv_operators" side(usa) brig(usart))
+("fpv_operators" side(cn) brig(cnart))
+("fpv_operators" side(brit) brig(abn))

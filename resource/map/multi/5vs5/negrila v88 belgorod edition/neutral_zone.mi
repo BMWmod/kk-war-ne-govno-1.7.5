@@ -1561,46 +1561,6 @@
 			{Point 1411.25 617.023}
 			{Point 1416.03 -689.422}
 		}
-		{zone "poly"
-			{position -18100 -2325 0}
-			{Name "nz_fwd_spawn_a_s"}
-			{Point -1500 -675}
-			{Point -1500 675}
-			{Point 1500 675}
-			{Point 1500 -675}
-		}
-		{zone "poly"
-			{position -18100 -525 0}
-			{Name "nz_fwd_spawn_a_m"}
-			{Point -1500 -1125}
-			{Point -1500 1125}
-			{Point 1500 1125}
-			{Point 1500 -1125}
-		}
-		{zone "poly"
-			{position -18100 1800 0}
-			{Name "nz_fwd_spawn_a_n"}
-			{Point -1500 -1200}
-			{Point -1500 1200}
-			{Point 1500 1200}
-			{Point 1500 -1200}
-		}
-		{zone "poly"
-			{position 24200 -1500 0}
-			{Name "nz_fwd_spawn_b_s"}
-			{Point -800 -1500}
-			{Point -800 1500}
-			{Point 800 1500}
-			{Point 800 -1500}
-		}
-		{zone "poly"
-			{position 24200 1500 0}
-			{Name "nz_fwd_spawn_b_n"}
-			{Point -800 -1500}
-			{Point -800 1500}
-			{Point 800 1500}
-			{Point 800 -1500}
-		}
 		{reinforcements
 			{scoreTotal 0}
 			{scoreCurrent 0}
@@ -10625,6 +10585,1457 @@
 					}
 				}
 			}
+			{"service/smalluav/fpv/land"
+				{autoreset}
+				{condition
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_fpv}
+										}
+										{tag
+											{tag smalluav_land}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop human}
+										}
+										{with_item
+											{type existance}
+											{item "rq11_control"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+										{state
+											{state dead}
+										}
+									}
+								}
+							}
+							{distance 70}
+						}
+					}
+				}
+				{actions
+					{"air_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_land}
+									}
+								}
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+									{state
+										{state inactive}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop human}
+											}
+											{with_item
+												{type existance}
+												{item "rq11_control"}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+											{tag
+												{tag hidden}
+											}
+											{state
+												{state dead}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{ground}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+									{tag
+										{tag smalluav_land}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop human}
+											}
+											{with_item
+												{type existance}
+												{item "rq11_control"}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+											{tag
+												{tag hidden}
+											}
+											{state
+												{state dead}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_remove smalluav_land}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/land"}
+					}
+				}
+			}
+			{"service/smalluav/fpv/loose_control"
+				{autoreset}
+				{condition
+					{expression "!1"}
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_fpv}
+										}
+									}
+									{exclude
+										{tag
+											{tag fpv_relay_link}
+										}
+										{tag
+											{tag fpv_relay_link2}
+										}
+										{tag
+											{tag smalluav_no_connect}
+										}
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+								{sort
+									{type entity}
+									{entity
+										{source advanced}
+										{ignore_captured_by_user 0}
+										{group
+											{include
+												{prop
+													{prop human}
+												}
+												{with_item
+													{type existance}
+													{item "rq11_control"}
+												}
+											}
+											{exclude
+												{state
+													{state inactive}
+												}
+												{tag
+													{tag hidden}
+												}
+												{state
+													{state dead}
+												}
+											}
+										}
+									}
+									{mode farthest}
+								}
+								{amount 1
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop human}
+										}
+										{with_item
+											{type existance}
+											{item "rq11_control"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+										{state
+											{state dead}
+										}
+									}
+								}
+							}
+							{distance 200}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag fpv_relay_link}
+									}
+									{tag
+										{tag fpv_relay_link2}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop human}
+											}
+											{with_item
+												{type existance}
+												{item "rq11_control"}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+											{tag
+												{tag hidden}
+											}
+											{state
+												{state dead}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{tag_add smalluav_no_connect}
+					}
+					{"ables"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag smalluav_no_connect}
+						}
+						{remove select}
+					}
+					{"effect"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+							}
+						}
+						{effect reset_manual_control}
+					}
+					{"delay"
+						{time 2}
+					}
+					{"action"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{drop orders}
+						{action move}
+						{target
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop human}
+									}
+									{with_item
+										{type existance}
+										{item "rq11_control"}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag hidden}
+									}
+									{state
+										{state dead}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{tag
+												{tag smalluav_no_connect}
+											}
+											{prop
+												{prop smalluav_fpv}
+											}
+										}
+										{exclude
+											{tag
+												{tag destroyed}
+											}
+											{tag
+												{tag ally}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/loose_control"}
+					}
+				}
+			}
+			{"service/smalluav/fpv/regain_control"
+				{autoreset}
+				{condition
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_fpv}
+										}
+										{tag
+											{tag smalluav_no_connect}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop human}
+										}
+										{with_item
+											{type existance}
+											{item "rq11_control"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+										{state
+											{state dead}
+										}
+									}
+								}
+							}
+							{distance 190}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop human}
+											}
+											{with_item
+												{type existance}
+												{item "rq11_control"}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+											{tag
+												{tag hidden}
+											}
+											{state
+												{state dead}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_remove smalluav_no_connect}
+					}
+					{"ables"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+							}
+						}
+						{add select}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/regain_control"}
+					}
+				}
+			}
+			{"service/smalluav/fpv/relay_on"
+				{autoreset}
+				{condition
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_fpv}
+										}
+									}
+									{exclude
+										{tag
+											{tag fpv_relay_link}
+										}
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop fpv_relay}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{distance 390}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag fpv_relay_link}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop fpv_relay}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_add fpv_relay_link}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{tag
+										{tag fpv_relay_link}
+									}
+									{prop
+										{prop smalluav_fpv}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{tag_remove smalluav_no_connect}
+					}
+					{"ables"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+							}
+						}
+						{add select}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/relay_on"}
+					}
+				}
+			}
+			{"service/smalluav/fpv/relay_off"
+				{autoreset}
+				{condition
+					{expression "!1"}
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{tag
+											{tag fpv_relay_link}
+										}
+										{prop
+											{prop smalluav_fpv}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+								{sort
+									{type entity}
+									{entity
+										{source advanced}
+										{ignore_captured_by_user 0}
+										{group
+											{include
+												{prop
+													{prop fpv_relay}
+												}
+												{state
+													{state operatable}
+												}
+											}
+											{exclude
+												{state
+													{state inactive}
+												}
+											}
+										}
+									}
+									{mode farthest}
+								}
+								{amount 1
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop fpv_relay}
+										}
+										{state
+											{state operatable}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+									}
+								}
+							}
+							{distance 400}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{tag
+										{tag fpv_relay_link}
+									}
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop fpv_relay}
+											}
+											{state
+												{state operatable}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{tag_remove fpv_relay_link}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/relay_off"}
+					}
+				}
+			}
+			{"service/smalluav/fpv/relay2_on"
+				{autoreset}
+				{condition
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop smalluav_fpv}
+										}
+									}
+									{exclude
+										{tag
+											{tag fpv_relay_link2}
+										}
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop human}
+										}
+										{with_item
+											{type existance}
+											{item "fpv_control_lr"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+										{state
+											{state dead}
+										}
+									}
+								}
+							}
+							{distance 240}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag fpv_relay_link2}
+									}
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop human}
+											}
+											{with_item
+												{type existance}
+												{item "fpv_control_lr"}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+											{tag
+												{tag hidden}
+											}
+											{state
+												{state dead}
+											}
+										}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_add fpv_relay_link2}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{tag
+										{tag fpv_relay_link2}
+									}
+									{prop
+										{prop smalluav_fpv}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{tag_remove smalluav_no_connect}
+					}
+					{"ables"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag smalluav_no_connect}
+									}
+								}
+							}
+						}
+						{add select}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/relay2_on"}
+					}
+				}
+			}
+			{"service/smalluav/fpv/relay2_off"
+				{autoreset}
+				{condition
+					{expression "!1"}
+					{terms
+						{"1.near"
+							{units
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{tag
+											{tag fpv_relay_link2}
+										}
+										{prop
+											{prop smalluav_fpv}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+								{sort
+									{type entity}
+									{entity
+										{source advanced}
+										{ignore_captured_by_user 0}
+										{group
+											{include
+												{prop
+													{prop human}
+												}
+												{with_item
+													{type existance}
+													{item "fpv_control_lr"}
+												}
+											}
+											{exclude
+												{state
+													{state inactive}
+												}
+												{tag
+													{tag hidden}
+												}
+												{state
+													{state dead}
+												}
+											}
+										}
+									}
+									{mode farthest}
+								}
+								{amount 1
+								}
+							}
+							{near_to
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{include
+										{prop
+											{prop human}
+										}
+										{with_item
+											{type existance}
+											{item "fpv_control_lr"}
+										}
+									}
+									{exclude
+										{state
+											{state inactive}
+										}
+										{tag
+											{tag hidden}
+										}
+										{state
+											{state dead}
+										}
+									}
+								}
+							}
+							{distance 250}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{tag
+										{tag fpv_relay_link2}
+									}
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{prop
+												{prop human}
+											}
+											{with_item
+												{type existance}
+												{item "fpv_control_lr"}
+											}
+										}
+										{exclude
+											{state
+												{state inactive}
+											}
+											{tag
+												{tag hidden}
+											}
+											{state
+												{state dead}
+											}
+										}
+									}
+								}
+								{mode farthest}
+							}
+							{amount 1
+							}
+						}
+						{tag_remove fpv_relay_link2}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/relay2_off"}
+					}
+				}
+			}
+			{"service/smalluav/fpv/return"
+				{autoreset}
+				{condition
+					{terms
+						{"2.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag smalluav_return}
+										}
+									}
+									{include
+										{prop
+											{prop smalluav_fpv}
+										}
+									}
+									{exclude
+										{tag
+											{tag destroyed}
+										}
+										{tag
+											{tag ally}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"air_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_return}
+									}
+								}
+								{include
+									{prop
+										{prop eleron3sv}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{altitude 30}
+					}
+					{"action"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+									{tag
+										{tag smalluav_return}
+									}
+								}
+								{exclude
+									{tag
+										{tag destroyed}
+									}
+									{tag
+										{tag ally}
+									}
+								}
+							}
+						}
+						{drop orders}
+						{action move}
+						{target
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{include
+									{prop
+										{prop human}
+									}
+									{with_item
+										{type existance}
+										{item "rq11_control"}
+									}
+								}
+								{exclude
+									{state
+										{state inactive}
+									}
+									{tag
+										{tag hidden}
+									}
+									{state
+										{state dead}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type entity}
+								{entity
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{include
+											{tag
+												{tag smalluav_return}
+											}
+											{prop
+												{prop smalluav_fpv}
+											}
+										}
+										{exclude
+											{tag
+												{tag destroyed}
+											}
+											{tag
+												{tag ally}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag smalluav_return}
+									}
+								}
+								{include
+									{prop
+										{prop smalluav_fpv}
+									}
+								}
+								{exclude
+									{tag
+										{tag ally}
+									}
+									{tag
+										{tag destroyed}
+									}
+								}
+							}
+						}
+						{tag_add smalluav_land}
+						{tag_remove smalluav_return}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "service/smalluav/fpv/return"}
+					}
+				}
+			}
 			{"service/smalluav/aladin/land"
 				{autoreset}
 				{condition
@@ -16048,1463 +17459,6 @@
 						}
 					}
 				}
-			}
-			{"service/nz_fwd_spawn/stage"
-				{condition
-				}
-				{actions
-					{"set_i"
-						{var "nz_fwd_stage"}
-						{op "="}
-						{value 0}
-					}
-					{"delay"
-						{time 3}
-					}
-					{"set_i"
-						{var "nz_fwd_stage"}
-						{op "="}
-						{value 1}
-					}
-					{"delay"
-						{time 297}
-					}
-					{"set_i"
-						{var "nz_fwd_stage"}
-						{op "="}
-						{value 2}
-					}
-					{"delay"
-						{time 600}
-					}
-					{"set_i"
-						{var "nz_fwd_stage"}
-						{op "="}
-						{value 3}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/a_s_h"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_a_s"}
-										}
-									}
-									{include
-										{prop
-											{prop human}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_a_s"}
-									}
-								}
-								{include
-									{prop
-										{prop human}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_a_s_h}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_s_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_s_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_s_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_s_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_a_s_h}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_a_s_h}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/a_s_h"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/a_s_v"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_a_s"}
-										}
-									}
-									{include
-										{prop
-											{prop vehicle}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{prop
-											{prop human}
-										}
-										{prop
-											{prop airborne}
-										}
-										{prop
-											{prop airborne_m}
-										}
-										{prop
-											{prop small_uav}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_a_s"}
-									}
-								}
-								{include
-									{prop
-										{prop vehicle}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{prop
-										{prop human}
-									}
-									{prop
-										{prop airborne}
-									}
-									{prop
-										{prop airborne_m}
-									}
-									{prop
-										{prop small_uav}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_a_s_v}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_s_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_s_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_s_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_s_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_a_s_v}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_a_s_v}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/a_s_v"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/a_m_h"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_a_m"}
-										}
-									}
-									{include
-										{prop
-											{prop human}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_a_m"}
-									}
-								}
-								{include
-									{prop
-										{prop human}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_a_m_h}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_m_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_m_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_m_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_m_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_a_m_h}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_a_m_h}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/a_m_h"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/a_m_v"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_a_m"}
-										}
-									}
-									{include
-										{prop
-											{prop vehicle}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{prop
-											{prop human}
-										}
-										{prop
-											{prop airborne}
-										}
-										{prop
-											{prop airborne_m}
-										}
-										{prop
-											{prop small_uav}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_a_m"}
-									}
-								}
-								{include
-									{prop
-										{prop vehicle}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{prop
-										{prop human}
-									}
-									{prop
-										{prop airborne}
-									}
-									{prop
-										{prop airborne_m}
-									}
-									{prop
-										{prop small_uav}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_a_m_v}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_m_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_m_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_m_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_m_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_a_m_v}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_a_m_v}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/a_m_v"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/a_n_h"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_a_n"}
-										}
-									}
-									{include
-										{prop
-											{prop human}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_a_n"}
-									}
-								}
-								{include
-									{prop
-										{prop human}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_a_n_h}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_n_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_n_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_n_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_n_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_a_n_h}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_a_n_h}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/a_n_h"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/a_n_v"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_a_n"}
-										}
-									}
-									{include
-										{prop
-											{prop vehicle}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{prop
-											{prop human}
-										}
-										{prop
-											{prop airborne}
-										}
-										{prop
-											{prop airborne_m}
-										}
-										{prop
-											{prop small_uav}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_a_n"}
-									}
-								}
-								{include
-									{prop
-										{prop vehicle}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{prop
-										{prop human}
-									}
-									{prop
-										{prop airborne}
-									}
-									{prop
-										{prop airborne_m}
-									}
-									{prop
-										{prop small_uav}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_a_n_v}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_n_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_n_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_a_n_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_a_n_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_a_n_v}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_a_n_v}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/a_n_v"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/b_s_h"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_b_s"}
-										}
-									}
-									{include
-										{prop
-											{prop human}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_b_s"}
-									}
-								}
-								{include
-									{prop
-										{prop human}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_b_s_h}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_s_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_s_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_s_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_s_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_b_s_h}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_b_s_h}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/b_s_h"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/b_s_v"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_b_s"}
-										}
-									}
-									{include
-										{prop
-											{prop vehicle}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{prop
-											{prop human}
-										}
-										{prop
-											{prop airborne}
-										}
-										{prop
-											{prop airborne_m}
-										}
-										{prop
-											{prop small_uav}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_b_s"}
-									}
-								}
-								{include
-									{prop
-										{prop vehicle}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{prop
-										{prop human}
-									}
-									{prop
-										{prop airborne}
-									}
-									{prop
-										{prop airborne_m}
-									}
-									{prop
-										{prop small_uav}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_b_s_v}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_s_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_s_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_s_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_s_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_b_s_v}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_b_s_v}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/b_s_v"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/b_n_h"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_b_n"}
-										}
-									}
-									{include
-										{prop
-											{prop human}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_b_n"}
-									}
-								}
-								{include
-									{prop
-										{prop human}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_b_n_h}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_n_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_n_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_n_h}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_n_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_b_n_h}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_b_n_h}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/b_n_h"}
-					}
-				}
-			}
-			{"service/nz_fwd_spawn/b_n_v"
-				{condition
-					{terms
-						{"1.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "nz_fwd_spawn_b_n"}
-										}
-									}
-									{include
-										{prop
-											{prop vehicle}
-										}
-									}
-									{exclude
-										{tag
-											{tag nz_fwd_done}
-										}
-										{prop
-											{prop human}
-										}
-										{prop
-											{prop airborne}
-										}
-										{prop
-											{prop airborne_m}
-										}
-										{prop
-											{prop small_uav}
-										}
-										{state
-											{state linked}
-										}
-										{state
-											{state dead}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				{actions
-					{"entity_state"
-						{selector
-							{source advanced}
-							{ignore_captured_by_user 0}
-							{group
-								{select
-									{zone
-										{zone "nz_fwd_spawn_b_n"}
-									}
-								}
-								{include
-									{prop
-										{prop vehicle}
-									}
-								}
-								{exclude
-									{tag
-										{tag nz_fwd_done}
-									}
-									{prop
-										{prop human}
-									}
-									{prop
-										{prop airborne}
-									}
-									{prop
-										{prop airborne_m}
-									}
-									{prop
-										{prop small_uav}
-									}
-									{state
-										{state linked}
-									}
-									{state
-										{state dead}
-									}
-								}
-							}
-						}
-						{tag_add nz_fwd_cur_b_n_v}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 1}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_n_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_n_near"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "nz_fwd_stage"}
-								{op "=="}
-								{value 2}
-							}
-							{"waypoint"
-								{who
-									{type actor}
-									{actors
-										{ignore_captured_by_user 0}
-										{tag nz_fwd_cur_b_n_v}
-									}
-								}
-								{action
-									{type start}
-									{waypoint "nz_fwd_b_n_mid"}
-									{approach "safe teleport"}
-								}
-							}
-						}
-					}
-					{"entity_state"
-						{selector
-							{ignore_captured_by_user 0}
-							{tag nz_fwd_cur_b_n_v}
-						}
-						{tag_add nz_fwd_done}
-						{tag_remove nz_fwd_cur_b_n_v}
-					}
-					{"delay"
-						{time 0.5}
-					}
-					{"trigger"
-						{name "service/nz_fwd_spawn/b_n_v"}
-					}
-				}
-			}
-		}
-		{waypoints "nz_fwd_spawn"
-			{"nz_fwd_a_s_near"
-				{position -10000 -2600 0}
-			}
-			{"nz_fwd_a_s_mid"
-				{position -14000 -2600 0}
-			}
-			{"nz_fwd_a_m_near"
-				{position -10400 -970 0}
-			}
-			{"nz_fwd_a_m_mid"
-				{position -14300 -670 0}
-			}
-			{"nz_fwd_a_n_near"
-				{position -10700 2280 0}
-			}
-			{"nz_fwd_a_n_mid"
-				{position -14800 2280 0}
-			}
-			{"nz_fwd_b_s_near"
-				{position 22000 -1870 0}
-			}
-			{"nz_fwd_b_s_mid"
-				{position 23000 -2020 0}
-			}
-			{"nz_fwd_b_n_near"
-				{position 22200 1960 0}
-			}
-			{"nz_fwd_b_n_mid"
-				{position 23000 1810 0}
 			}
 		}
 		{waypoints "auto_landing_a"

@@ -212,6 +212,11 @@
 			{"tankmans3(usa)"						"<c(FFFFFF)e(shadow)>Танкисты</c>"}
 			{"vehicle_supporter(usa)"				"<c(FFFFFF)e(shadow)>Оператор воор./техн.</c>"}
 			{"operator_bpla(usa)"					"<c(FFFFFF)e(shadow)>RQ-11 Raven БПЛА</c>"}
+	;fpv
+			{"fpv_operator_(rus)"					"<c(FFFFFF)e(shadow)>Оператор FPV-дронов</c>"}
+			{"fpv_operator_(cn)"					"<c(FFFFFF)e(shadow)>Оператор FPV-дронов</c>"}
+			{"fpv_operator_(nato)"					"<c(FFFFFF)e(shadow)>Оператор FPV-дронов</c>"}
+			{"fpv(usa)"							"<c(FFFFFF)e(shadow)>Оператор FPV-дронов</c>"}
 			{"pilot(usa)"							"<c(FFFFFF)e(shadow)>Пилот</c>"}
 	;ввс сша (usaf)
 			{"sso_usa"								"<c(FFFFFF)e(shadow)>Отделение Delta force на MH-6</c>"}
@@ -312,3 +317,5 @@
 		{"box_weapon_usa_gmlrs_aw"					"GMLRS<c(FFAF00)> M31A1 Alternate Warhead<c(FFFFFF)>"}
 ;________________________________________________________________________________________________________
 {"mv22" "<c(FFFFFF)e(shadow)>Отделение КМП на MV-22B Osprey</c>"}
+
+{"mirage2000d" "<c(FFFFFF)e(shadow)>Mirage 2000D</c>"}

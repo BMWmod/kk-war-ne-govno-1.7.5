@@ -1,0 +1,132 @@
+;Model by cAwx
+
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "light_M" "turret_rotator" "vision_lev05" "remote_turret" "has_apu" "sam_radar"}
+	{targetSelector "missile"}
+	
+	{extender "enumerator"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+	("armor_light" turret(15 15 15 15) body(15 15 5 15))
+
+;===================================================================
+
+	{sensor
+		{RecognizeTime 0.01}
+		{visor "Driver"
+			{bone "visor1"}
+			{vision "vehicle_top_mgun"}
+		}
+        {visor "Radar"
+			{bone "visor2"}
+			{vision "radarX_buk_85km"}
+		}
+        {visor "Laser"
+			{bone "visor3"}
+			{vision "radarX_buk_85km"}
+		}
+	}
+	
+;===================================================================
+
+	{boarder
+	{anm "left"
+		{forward	{begin	"board_tank_left"} {base"cover_left"}}
+		{reverse 	{end	"emit_tank_1_hold"} {base"cover_left"}}
+	}
+	{anm "right"
+		{forward	{begin	"board_tank_right"} {base"cover_right"}}
+		{reverse 	{end	"emit_tank_1_hold"} {base"cover_right"}}
+	}
+	}
+	
+{placer 
+	{place "driver" {group "crew"} }
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+("crew_human" place(driver)		animation(left)	door(emit1))
+("crew_human" place(commander)		animation(right)	door(emit2))
+("crew_human" place(gunner)		animation(left)	door(emit1))
+
+;===================================================================
+
+	{extender "inventory"
+		{box
+			{size 10 10} 
+			{item "repair_kit" 1}
+            {item "netting_kit" 2}
+		}
+	}
+	{Weaponry
+		{place "laser"
+			{weapon "targeting_radar_kub" filled}
+			{foresight "foresight1"}
+			{charger "gunner"}
+			{gunner "gunner"}
+			{SequentialAim 0}
+			{RestoreIKAfterAim}
+		;	{StationaryFiring}
+		}
+	}
+	
+;===================================================================
+	
+	;must stay AFTER the crew places: it adds place "vehicle9" (antirad marker slot),
+	;if declared first the crew is put there on spawn and deleted with the marker
+	("sam_radar" type(rus_large))
+
+	{mass 21500}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(21.5)
+			Width(3.25)
+			Power(280)
+			Realspeed(44)
+			Gamespeed(37) 
+		)
+		{RearGears		0.20 0.44}}
+		("CW_fuelbag" Range(500) Fuelvolume(990))
+		("CW_speed_lev" Gamespeed(41))
+		{DisableMoveWhileFiring}
+	}
+	{props "cwfs_fuel_800"}
+
+	{Extension "1s91_kub_radar.mdl"}
+
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+}

@@ -11,7 +11,7 @@
 
 
 {"m113a_un"		("v_explicit" c(120) c1(m113a_un) brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(btr1)  sc(25) b(common) i(1) cw(10) cp(5)) {content "m113a_un ( mp2/globalUN/vehicle_supporter:2 )"}  {fore 1}}
-{"ypr_765_un"		("v_explicit" c(120) c1(ypr_765_un) brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(btr)  sc(15) b(common) i(2) cw(10) cp(5)) {content "ypr_765 ( mp2/globalUN/vehicle_supporter:2 )"}  {fore 1}}
+{"ypr_765_un"		("v_explicit" c(120) c1(ypr_765_un) brig(common) t(all_nz  ) s(globalUN) n(3) n1(vehicle_supporter:2) g(btr)  sc(15) b(common) i(2) cw(10) cp(5)) {content "ypr_765_un ( mp2/globalUN/vehicle_supporter:2 )"}  {fore 1}}
 
 {"m939_un_i"		("v_explicit" c(240) c1(m939)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:1) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(gmoznovyat)  sc(70) b(common) i(34) cw(0) cp(5)) {content "m939 ( mp2/globalUN/vehicle_supporter:1 mp2/globalUN/un_com:1 mp2/globalUN/un_smg:1 mp2/globalUN/un_mgun:1 mp2/globalUN/un_radio:1 mp2/globalUN/un_sniper:1 mp2/globalUN/un_smg2:1 mp2/globalUN/un_smg:1 )"}  {fore 1}}
 {"m113a_un_i"		("v_explicit" c(240) c1(m113a_un)brig(common) t(all_nz  ) s(globalUN) n(3)  n1(vehicle_supporter:2) n2(un_com:1) n3(un_smg:1) n4(un_mgun:1) n5(un_radio:1) n6(un_sniper:1) n7(un_smg2:1) n8(un_smg:1) g(inf222)  sc(100) b(common) i(3) cw(0) cp(5)) {content "m113a_un ( mp2/globalUN/vehicle_supporter:2 mp2/globalUN/un_com:1 mp2/globalUN/un_smg:1 mp2/globalUN/un_mgun:1 mp2/globalUN/un_radio:1 mp2/globalUN/un_sniper:1 mp2/globalUN/un_smg2:1 mp2/globalUN/un_smg:1 )"}  {fore 1}}
@@ -47,7 +47,7 @@
 
 ;================== 
 
-{"brdm2_un"		("v_explicit" c(240) c1(brdm2_un) brig(mchbrun) b(mchbrun_hqcar) t(all_nz  ) s(globalUN) n(4)  n1(tankman:4)  g(inf222)  sc(40)  i(1) cw(0) cp(5)) {content "brdm2 ( mp2/globalUN/tankman:4 )"}  {fore 1}}
+{"brdm2_un"		("v_explicit" c(240) c1(brdm2_un) brig(mchbrun) b(mchbrun_hqcar) t(all_nz  ) s(globalUN) n(4)  n1(tankman:4)  g(inf222)  sc(40)  i(1) cw(0) cp(5)) {content "brdm2_un ( mp2/globalUN/tankman:4 )"}  {fore 1}}
 
 
 {"btr80_2_new_un"		("v_explicit" c(240) c1(btr80_2_new_un) brig(mchbrun) b(mchbrun_hqcar) t(all_nz  ) s(globalUN) n(4)  n1(tankman:2)  g(inf222)  sc(60)  i(2) cw(0) cp(5)) {content "btr80_2_new_un ( mp2/globalUN/tankman:2 )"}  {fore 1}}

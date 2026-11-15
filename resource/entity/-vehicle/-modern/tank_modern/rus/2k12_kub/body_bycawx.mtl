@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/kub_radar_bycawx/body_bycawx"}
+	{blend none}
+}

@@ -1,0 +1,23 @@
+; Gameplay balance: strongest US bomb, with a reinforced central blast.
+; Areas/energies are game values, not a simulation of bunker penetration.
+{from "pattern proj_impactor"
+ {tag "ammo" "itemin2hands" "bomb"}
+ {tag "no_ricochet" "fg" "fragmentary" "big" "size5" "fx_upto1000kg" "he_over30"}
+ {inventory
+  {weight 2268}
+  {size 6 2}
+  {noView}
+  {fsm "stuff"}
+ }
+ {mass 2268}
+ {entity "gbu28"}
+ {view "gbu28_flight" {tail ""}}
+ {possibleDamageRadius 50}
+ {damage blastwave {energy 1.0} {area 46 50}}
+ {damage add blastwave {energy 1.2} {area 38 44}}
+ {damage add blastwave {energy 2.5} {area 30 35}}
+ {damage add blastwave {energy 6.5} {area 23 27}}
+ {damage add blastwave {energy 11} {area 14 17}}
+ {damage add blastwave {energy 22} {area 11 15}}
+ {damage add blastwave {energy 75} {area 6 8}}
+}

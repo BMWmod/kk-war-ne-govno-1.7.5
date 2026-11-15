@@ -173,14 +173,14 @@
         }
     }
 }
-;hit volumes scaled 0.4: FPV is small and fast, hard to hit with small arms
+;hit volumes scaled 0.28: FPV is small and fast, hard to hit with small arms
 {Volume "ammo_storage_main"
     {Polyhedron "ammo_storage_main.vol"}
     {Bone "body"}
     {Matrix34
-        0	-0.4	0
-        0	0	0.4
-        -0.4	0	0
+        0	-0.28	0
+        0	0	0.28
+        -0.28	0	0
         2.9817	0.0571987	-1.72618
     }
 }
@@ -188,9 +188,9 @@
     {Polyhedron "body.vol"}
     {Bone "body"}
     {Matrix34
-        0	-0.4	0
-        0	0	0.4
-        -0.4	0	0
+        0	-0.28	0
+        0	0	0.28
+        -0.28	0	0
         -0.633106	-0.0400994	-0.277906
     }
 }

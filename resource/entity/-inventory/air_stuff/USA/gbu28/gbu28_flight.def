@@ -1,0 +1,9 @@
+; Visual skeleton copied onto the engine's bullet entity after release.
+; Separate from the inventory entity and the aircraft's gbu28_00 bone.
+{entity
+ {skeleton
+  {bone "gbu28_flight_body"
+   {VolumeView "gbu28.ply"}
+  }
+ }
+}

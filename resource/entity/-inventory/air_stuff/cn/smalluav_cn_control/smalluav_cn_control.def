@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "ch802_control.mdl"}
+	{extender "stuff"
+		{item "smalluav_cn_control"}
+	}
+}

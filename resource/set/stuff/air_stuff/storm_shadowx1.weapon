@@ -1,0 +1,15 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{filling "ammo storm_shadow" 1}
+	{fillingVisible "storm_nato00"}	
+	{foresight "foresight_storm"}
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{recoveryTime 1}
+	{rechargeTime 220}
+	{inventory {noView}}
+	{maxRange 650}
+	{aimRange 650}
+	{cursor "cannon_on_fg_9"}
+	{cursorReloading "cannon_reload_fg"}
+}

@@ -699,7 +699,8 @@
 	;{item "9m38 buk ammo" 1 {max 4}{value 50}}				
 	{item "9m317 buk ammo" 2 {max 4}{value 25}}				
 	{item "9m311 ammo" 2 {max 8}{value 25}}
-    {item "9m33_rocket ammo" 2 {max 12}{value 9}}	
+    {item "9m33_rocket ammo" 2 {max 12}{value 9}}
+	{item "3m9_kub_rocket ammo" 1 {max 3}{value 25}}
 	{item "pantsir 57e6e ammo" 6 {max 12}{value 20}}
     {item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
@@ -779,6 +780,7 @@
 	{item "rvv-sd ammo" 1 {max 10}{value 5}}				
 )
 (define "air_stuff_usa"
+ {item "magic2_ammo ammo" 2 {max 4}{value 7}}
 	{item "aim-9l_ammo ammo" 2 {max 4}{value 5}}				
 	{item "AIM-120C7 ammo" 2 {max 6}{value 5}}				
 ;	{item "agm-114 k ammo" 1 {max 4}{value 10}}				
@@ -796,6 +798,7 @@
 	{item "gbu-31 ammo" 1 {max 2}{value 30}}				
 	{item "gbu-38 ammo" 1 {max 4}{value 30}}
 	{item "jdam_er ammo" 1 {max 4}{value 30}}
+	{item "gbu28 ammo" 1 {max 1}{value 60}}
     {item "sdb1 ammo" 8 {max 16}{value 150}}	
 	{item "jsm ammo" 1 {max 6}{value 100}}
 	{item "mam_c ammo" 2 {max 2}{value 35}}
@@ -806,6 +809,7 @@
     {item "spike_nlos fg ammo" 1 {max 4}{value 70}}	
 )
 (define "air_stuff_nato"
+ {item "magic2_ammo ammo" 2 {max 4}{value 7}}
     {item "agm-65D ammo" 1 {max 3}{value 22}}
 	{item "aim-9l_ammo ammo" 2 {max 4}{value 5}}
 	{item "mistral_missile ammo" 1 {max 4}{value 15}}				

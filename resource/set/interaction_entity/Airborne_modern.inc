@@ -2310,6 +2310,8 @@
 }
 {
 	"f-15e_kab"		("air_multibomb_launcher" weapon(bomber1) shooter(bomberc_) missile(jdam_er_guided))
+
+	("air_multibarrel_launcher" weapon(ptur) shooter(AIM120C_shooter_) missile(aim-120c7) flashbarrel(AIM120C_shooter_))
 }
 {
 	"f-15e_sdb"		("air_multibomb_launcher" weapon(bomber1) shooter(bombera_) missile(gbu39_guided))		("air_multibomb_launcher" weapon(bomber2) shooter(sdb2_launch_) missile(gbu53b_guided))
@@ -3353,7 +3355,29 @@
 	"su-34_umpk"		("air_multibomb_launcher" weapon(bomber) shooter(ympk_body_) missile(umpk_500_guided))
 }
 {
-	"su-34_fab3000"		("air_multibomb_launcher" weapon(bomber) shooter(bomb_spawn_) missile(umpk_3000_guided))
+	"su-34_fab3000"
+	{
+		on fire "bomber"			("low_speed_bullet")
+		{
+			bone hide "ympk_body_00"
+		}
+		{
+			tags add "launch_00"
+		}
+		{
+			delay 0.1
+			{
+				spawn "umpk_3000_guided_00" "bomb_spawn_00" x
+			}
+		}
+		{
+			delay 2.0
+			{
+				tags remove "launch_00"
+			}
+		}
+		("cw_check_shooting" weap_id(bomber))
+	}
 }
 {
 	"su-34_accurate_2"		("air_multibomb_launcher" weapon(bomber) shooter(ympk_body_) missile(umpk_500_guided))
@@ -8031,4 +8055,36 @@
         ("cw_check_shooting" weap_id(ptur1))
     }
     {on "u_w_electronics_damaged" {weapon_work "ptur1" 0}}
+}
+
+{"mirage2000d"
+ {on spawn
+  {add_view "flash_cannon_big" "storm_shooter_00" "storm_shooter_00"}
+  {add_view "flash_cannon_big" "aam_shooter_00" "aam_shooter_00"}
+  {add_view "flash_cannon_big" "aam_shooter_01" "aam_shooter_01"}
+  ("link_damage_sound_usa")
+ }
+ {on "link_engine_effects" overload
+  {add_view "airstream_exhaust" "engine_exhaust" "engine_exhaust"}
+  {add_view "overburn" "engine_overburn" "engine_exhaust"}
+ }
+ ("air_compact_launcher" weapon(ptur4) foresight(storm_release) missile(storm_nato) flashbarrel(storm_shooter_00))
+ ("air_multibarrel_launcher" weapon(ptur1) shooter(aam_shooter_) missile(magic2) flashbarrel(aam_shooter_))
+ {on "update_weaponry"
+  {if not tagged "destroyed"
+   {weapon_work "flare_dropper" 1}
+   {if not work "flares1"
+    {if not work "flares2" {weapon_work "flare_dropper" 0}}
+   }
+   {if not work "electronics" {weapon_work "flare_dropper" 0}}
+  }
+ }
+ {on "u_w_electronics_damaged"
+  {weapon_work "ptur4" 0}
+  {weapon_work "ptur1" 0}
+ }
+ {on "_burn" overload
+  {damage_report "engine" "component/burn_fire"}
+  {if not burned ("burn_engine" engine(1) engine1(0) engine2(0) enginea(0) engineb(0) enginec(0) engined(0))}
+ }
 }

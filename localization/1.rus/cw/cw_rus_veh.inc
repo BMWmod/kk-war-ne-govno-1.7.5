@@ -455,6 +455,10 @@
 				;switchblade300
 					{"switchblade300"					"<c(FFFFFF)e(shadow)>Switchblade-300</c>"}
 					{"switchblade300_catapult"			"<c(FFFFFF)e(shadow)>Switchblade-300</c>"}
+				;fpv drones
+					{"fpv_drone"						"<c(FFFFFF)e(shadow)>FPV-дрон (кумулятивный, ПГ-7)</c>"}
+					{"fpv_drone120"					"<c(FFFFFF)e(shadow)>FPV-дрон (фугасный, 120-мм мина)</c>"}
+					{"cvadropoter"					"<c(FFFFFF)e(shadow)>Разведывательный квадрокоптер</c>"}
 				;uh60
 					{"sikorsky s-70c2"					"<c(FFFFFF)e(shadow)>S-70c2</c>"}
 					{"uh60"								"<c(FFFFFF)e(shadow)>UH-60 Black Hawk</c>"}
@@ -1325,3 +1329,5 @@
 		{"mortarfru"									"<c(FFFFFF)e(shadow)>MO-120-RT61</c>"}
 		{"ngrd_mp_flag"									"<c(FFFFFF)e(shadow)>Национальная гвардия США</c>"}
 {"mv22" "<c(FFFFFF)e(shadow)>MV-22B Osprey</c>"}
+
+{"mirage2000d" "<c(FFFFFF)e(shadow)>Mirage 2000D</c>"}

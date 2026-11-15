@@ -83,7 +83,7 @@
 {"furgon" {fore 1} ("v_explicit" c(550) sc(200) g(FPV_OPERATOR)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(1st_com:1) n2(spotter:1)     ) {content "furgon ( mp2/srbsk/1st_com:1 mp2/srbsk/spotter:1 )"} }
 
  {"uaz469_ub32" {fore 1} ("v" c(300) sc(69) g(pizdec_kakoyto) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(8) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(4)               ) }
- {"2c1_rus" {fore 0} ("v_explicit" c(450) sc(200) g(med_art)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(4) cw(0) cp(35) t(all_nz inf_irg infantry ) c1(2c1_rus) n(1) n1(tankman:3)   ) {content "2c1 ( mp2/srbsk/tankman:3 )"} }
+ {"2c1_rus" {fore 0} ("v_explicit" c(450) sc(200) g(med_art)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(4) cw(0) cp(35) t(all_nz inf_irg infantry ) c1(2c1_rus) n(1) n1(tankman:3)   ) {content "2c1_rus ( mp2/srbsk/tankman:3 )"} }
  {"2c3_akaciyarus" {fore 0} ("v_explicit" c(800) sc(220) g(mcacatiya)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(44) cw(0) cp(45) t(all_nz inf_irg infantry ) c1(2c3_akaciya) n(1) n1(tankman:4)   ) {content "2c3_akaciya ( mp2/srbsk/tankman:4 )"} }
  
  {"mtlb_c5_vasilek" {fore 1} ("v" c(250) sc(125) g(mtlbvasilek) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(512) cw(0) cp(20) t(all_nz   ) n(4)               ) }
@@ -96,6 +96,9 @@
  {"mtlb_vmk_ogon" {fore 1} ("v" c(1000) sc(169) g(mtlbogn)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(1) cw(0) cp(20) t(all_nz   ) n(3)               ) }
  {"2c23" {fore 0} ("v" c(540) sc(170) g(nonasvk) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(15) cw(0) cp(20) t(all_nz art   ) n(2)               ) }
  {"tochka_y" {fore 0.0} ("v" c(1330) sc(350) g(otrk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(7) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+ 
+ {"2k12_kub" {fore 0.0} ("v" c(600) sc(160) g(buk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(20) cw(0) cp(15) t(all_nz art aat support_frontline  ) n(3)               ) }
+ {"1s91_kub_radar" {fore 0.0} ("v" c(600) sc(140) g(kupol)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(21) cw(0) cp(15) t(all_nz art support_frontline  ) n(3)               ) }
  
  ;{"l39_serb" {fore 0.4} ("p" c(700) sc(150) g(susem) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(8791) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  {"su-25sm_support_light_ser" {fore 0} ("v_explicit" c(600) sc(100) g(su25) b(extra) brig(srbs_vdv) s(srbsk)  i(3393) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) {content "su-25sm_support_light ( mp2/srbsk/pilot:1 )"} }
