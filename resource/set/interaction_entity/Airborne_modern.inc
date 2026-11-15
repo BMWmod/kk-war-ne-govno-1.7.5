@@ -8088,3 +8088,33 @@
   {if not burned ("burn_engine" engine(1) engine1(0) engine2(0) enginea(0) engineb(0) enginec(0) engined(0))}
  }
 }
+
+; Harpy PRR: player-directed launch, followed by USA antiradar homing.
+{"harpy"
+ {on spawn
+  {weapon_work "mark" 0}
+ }
+ 
+ {on "takeoff" {weapon_work "mark" 1}}
+ {on "specability" overload}
+ {on "add_movement_sound" overload
+  {link_sound "engine_start" "vehicle/airborne/small_uav/shahed136_start"}
+  {link_sound "engine_work" "vehicle/airborne/small_uav/shahed136_engine"}
+  {link_sound "engine_stop" "vehicle/airborne/small_uav/shahed136_engine_end"}
+ }
+ {on "link_flare_fx" overload}
+ {on "engine_on"
+  {if not "engine_started"
+   {set "engine_started" 1}
+   {play_sound "engine_start"}
+   {ani_play "engine_start" callback}
+  }
+ }
+ {on animation_end "engine_start"
+  {ani_play "engine_work" loop}
+  {play_sound "engine_work" 1}
+ }
+ ("loitering_munition" missilename(harpy_prr))
+ {on "detonate" overload {inherited} {stuff_detonate}}
+ {on "underground_detonate" overload {inherited} {stuff_detonate}}
+}

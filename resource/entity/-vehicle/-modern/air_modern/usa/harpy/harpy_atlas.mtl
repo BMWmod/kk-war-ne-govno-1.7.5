@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "$/model/harpy/harpy_atlas" {MipMap 1}}
+ {blend none}
+}

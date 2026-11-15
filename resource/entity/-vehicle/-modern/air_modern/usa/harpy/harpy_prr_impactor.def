@@ -1,0 +1,8 @@
+{actor
+ (include "/properties/projectile_impactor.ext")
+ {Extension "harpy_ammo.mdl"}
+ {props "projectile_impactor" "propfan"}
+ {extender "stuff" {item "harpy_prr_impactor"}}
+ {volume "body" {able {contact} {bullet} {blast} {contact_ground}}}
+ ; Terminal entity: targetable macro would interrupt detonation.
+}

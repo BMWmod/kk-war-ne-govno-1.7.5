@@ -1,0 +1,250 @@
+; Harpy PRR: model_0.obj supplied by user.
+{Skeleton
+	{animation
+		{sequence "move" {Speed 1}}
+	}
+	{bone "basis"
+		{Parameters "SteerMax=20;Wheelradius=0.15;"}
+		{Orientation
+			1	0	0
+			0	0	1
+			0	1	0
+		}
+		{bone revolute "rudder_proj"
+			{Limits -20 20}
+			{Speed 0.04}
+			{Orientation
+				1	0	0
+				0	-1	0
+				0	0	-1
+			}
+			{bone revolute "elevator_proj"
+				{Limits -20 20}
+				{Speed 0.04}
+				{Orientation
+					1	0	0
+					0	0	1
+					0	-1	0
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 14 0 -3.7}
+			{bone "supportfront"
+				{Parameters "support;"}
+			}
+		}
+		{bone "pivot_back"
+			{Position -14 0 -3.7}
+			{bone "supportleft"
+				{Parameters "support;"}
+				{Position 0 6 0}
+			}
+			{bone "supportright"
+				{Parameters "support;"}
+				{Position 0 -6 0}
+			}
+		}
+		{bone "body"
+			{Parameters "ID=body;"}
+			{VolumeView "body.ply"}
+			{bone "body_systems"}
+			{bone "ir_2gen_emitter"
+				{Position -17 0 0}
+			}
+			{bone "ir_1gen_emitter"
+				{Position -17 0 0}
+			}
+			{bone "visor_ols"
+				{Position 18 0 0}
+			}
+			{bone "aiming_mark"
+				{Position 20 0 0}
+			}
+			{bone revolute "foresight1_rot"
+				{Limits -180 180}
+				{Speed 1}
+				{bone revolute "foresight1"
+					{Limits -80 80}
+					{Speed 1}
+					{Orientation
+						1	0	0
+						0	0	-1
+						0	1	0
+					}
+					{bone "foresight_spawn"
+						{Orientation
+							1	0	0
+							0	0	1
+							0	-1	0
+						}
+					}
+				}
+			}
+			{bone "part4"
+				{bone "fx_starter"
+					{Position -19 0 -1}
+				}
+			}
+			{bone revolute "aileron2"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone revolute "elevator2"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone "steer_elevator2"
+				{Parameters "ID=body;"}
+			}
+			{bone "steer_aileron2"
+				{Parameters "ID=body;"}
+			}
+			{bone revolute "elevator1"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone revolute "aileron1"
+				{Parameters "ID=body;"}
+				{Limits -15 15}
+				{Speed 0.27}
+			}
+			{bone "steer_aileron1"
+				{Parameters "ID=body;"}
+			}
+			{bone "steer_elevator1"
+				{Parameters "ID=body;"}
+			}
+			{bone "part1"
+				{Parameters "ID=engine;"}
+				{bone "kolpak"
+					{Parameters "ID=body;"}
+					{bone "propeller"
+						{Parameters "ID=body;"}
+						{Position -19.75 0 -0.62}
+						{VolumeView "propeller.ply"}
+					}
+					{bone "propeller_work1"}
+				}
+			}
+			{bone "tail2"
+				{Parameters "ID=body;"}
+				{bone "enumerator"}
+			}
+			{bone "tail1"
+				{Parameters "ID=body;"}
+				{bone "enumerator1"}
+			}
+			{bone "wingl1"
+				{Parameters "ID=body;"}
+				{VolumeView "wingl1.ply"}
+			}
+			{bone "wingr1"
+				{Parameters "ID=body;"}
+				{VolumeView "wingr1.ply"}
+			}
+			{bone "panels"}
+			{bone "tail"}
+			{bone "engine"
+				{VolumeView "engine.ply"}
+			}
+			{bone "booster"}
+			{bone "body3"}
+			{bone "body4"}
+		}
+	}
+}
+{Volume "body"
+	{Box 38 5 5}
+	{Bone "body_systems"}
+	{Position 0 0 -0.6}
+}
+{Volume "armor1"
+	{Box 38.1 5.1 5.1}
+	{Bone "body_systems"}
+	{Position 0 0 -0.6}
+}
+{Volume "wingl1"
+	{Box 14 24 0.8}
+	{Bone "body_systems"}
+	{Position -9 13 -0.4}
+}
+{Volume "wingr1"
+	{Box 14 24 0.8}
+	{Bone "body_systems"}
+	{Position -9 -13 -0.4}
+}
+{Volume "tail"
+	{Box 5 12 1}
+	{Bone "body_systems"}
+	{Position -16 0 -0.4}
+}
+{Volume "tail1"
+	{Box 7 0.5 5}
+	{Bone "body_systems"}
+	{Component "tail"}
+	{Position -15 -16 1}
+}
+{Volume "tail2"
+	{Box 7 0.5 5}
+	{Bone "body_systems"}
+	{Component "tail"}
+	{Position -15 16 1}
+}
+{Volume "engine"
+	{Box 5 5 4}
+	{Bone "body_systems"}
+	{Position -16 0 -0.5}
+}
+{Volume "fuel_tank_internal_a"
+	{Box 10 3 3}
+	{Bone "body_systems"}
+	{Position -3 0 0}
+}
+{Volume "fuel_tank_internal_b"
+	{Box 5 3 3}
+	{Bone "body_systems"}
+	{Position -10 0 0}
+}
+{Volume "electronics"
+	{Box 5 3 3}
+	{Bone "body_systems"}
+	{Position 16 0 0}
+}
+{Volume "hydrosystem"
+	{Box 3 2 2}
+	{Bone "body_systems"}
+}
+{Volume "ammo_storage_autocannon"
+	{Box 8 3 3}
+	{Bone "body_systems"}
+	{Position 8 0 0}
+}
+{Volume "pilot_panel"
+	{Box 2 2 2}
+	{Bone "body_systems"}
+	{Position 13 0 0}
+}
+{Volume "ppu"
+	{Box 2 2 2}
+	{Bone "body_systems"}
+	{Position 13 0 0}
+}
+{Volume "ptur"
+	{Box 2 2 2}
+	{Bone "body_systems"}
+	{Position 13 0 0}
+}
+{Volume "ptur1"
+	{Box 2 2 2}
+	{Bone "body_systems"}
+	{Position 13 0 0}
+}
+{Volume "ols"
+	{Box 2 2 2}
+	{Bone "body_systems"}
+	{Position 13 0 0}
+}

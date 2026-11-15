@@ -1517,3 +1517,39 @@
 
 ; Mirage Magic 2: stock AIM-9 lifecycle, independent game balance.
 {("CWPS_proj" missilename(magic2) rotation(0) rand_move(0) smoke_vulnerable(1) decoyprob(0.13) range(19) tail(proj_jet_sam) eng_time(3)) ("speed_fast" coeff(0.90)) ("antislip")}
+
+{("CWPS_proj_2stage" missilename(harpy_prr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range40plus(21) tail(none) eng_time(1))}
+; Specialize the base carrier in a more specific selector: events from the macro
+; cannot be defined twice inside the same interaction block, even with overload.
+{"harpy_prr_carrier antirad"
+ ; Match AGM-88's flight budget, retaining the UAV's slow flight speed.
+ {on "link_effects" overload
+  {tags add "cwps_extended_range"}
+  {delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
+ }
+ ; A slow UAV must reach the target, not detonate on AGM-88's 0.7 s proximity timer.
+ {on "top_attack" overload}
+ ; No rocket booster or wing-deployment animation on the second flight segment.
+ {on "spawn_second_stage" overload
+  {spawn "harpy_prr_carrier" "missile_point" x
+   {tags add "cwps_not_first_stage"}
+   {delay 0.1 {tags remove "cwps_extended_range"}}
+   {delay 0.2 {tags remove "cwps_extended_range"}}
+   {delay 0.3 {tags remove "cwps_extended_range"}}
+  }
+  {with_linked_entity "missile" {delete}}
+  {delete}
+ }
+}
+{"harpy_prr_impactor"
+ {on "detonate" overload
+  {if altitude 0
+   {spawn "proj_restrictor" "root" x}
+   {delay 0.05 {stuff_detonate}}
+   else
+   {gravity 0}
+   {impulse up 2}
+   {call "underground_detonate"}
+  }
+ }
+}

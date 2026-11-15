@@ -99,6 +99,9 @@
 (define "UAV_kamikadze_rus"
 	{item "lancet3m cm ammo" 1 {max 5}{value 50}}
 )
+(define "UAV_molniya"
+	{item "molniya1 ammo" 1 {max 3}{value 50}}
+)
 (define "UAV_kamikadze_usa"
 	{item "switchblade600 ammo" 1 {max 5}{value 50}}
 )
@@ -1368,6 +1371,7 @@
 			("mines")
 			("sam_rus")
 			("UAV_kamikadze_rus")
+			("UAV_molniya")
 			("autocannons_rus")		
 		}
 		{radius 			10}
@@ -1676,6 +1680,7 @@
 			("mortar_rus")
 			
             ("UAV_rus")
+			("UAV_molniya")
 			("autocannons_rus")
 			("autocannons_usa")
 			("autocannons_nato")
@@ -1753,6 +1758,7 @@
 			("mortar_rus")
 			("type63_cn")
             ("UAV_rus")
+			("UAV_molniya")
 			("autocannons_rus")
 			("autocannons_usa")
 			("autocannons_nato")

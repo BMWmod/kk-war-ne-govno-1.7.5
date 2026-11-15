@@ -1331,3 +1331,8 @@
 {"mv22" "<c(FFFFFF)e(shadow)>MV-22B Osprey</c>"}
 
 {"mirage2000d" "<c(FFFFFF)e(shadow)>Mirage 2000D</c>"}
+
+{"harpy_prr" "<c(FFFFFF)e(shadow)>Harpy ПРР</c>"}
+{"harpy_prr_carrier" "<c(FFFFFF)e(shadow)>Harpy ПРР</c>"}
+{"harpy_prr_mark" "Пассивное противорадиолокационное наведение"}
+{"harpy_prr_seeker" "Harpy: захват излучателя"}
