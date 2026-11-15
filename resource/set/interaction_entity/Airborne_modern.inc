@@ -7995,3 +7995,35 @@
     }
     {on "u_w_electronics_damaged" {weapon_work "ptur1" 0}}
 }
+
+{"mirage2000d"
+ {on spawn
+  {add_view "flash_cannon_big" "storm_shooter_00" "storm_shooter_00"}
+  {add_view "flash_cannon_big" "aam_shooter_00" "aam_shooter_00"}
+  {add_view "flash_cannon_big" "aam_shooter_01" "aam_shooter_01"}
+  ("link_damage_sound_usa")
+ }
+ {on "link_engine_effects" overload
+  {add_view "airstream_exhaust" "engine_exhaust" "engine_exhaust"}
+  {add_view "overburn" "engine_overburn" "engine_exhaust"}
+ }
+ ("air_compact_launcher" weapon(ptur4) foresight(storm_release) missile(storm_nato) flashbarrel(storm_shooter_00))
+ ("air_multibarrel_launcher" weapon(ptur1) shooter(aam_shooter_) missile(aim-9l) flashbarrel(aam_shooter_))
+ {on "update_weaponry"
+  {if not tagged "destroyed"
+   {weapon_work "flare_dropper" 1}
+   {if not work "flares1"
+    {if not work "flares2" {weapon_work "flare_dropper" 0}}
+   }
+   {if not work "electronics" {weapon_work "flare_dropper" 0}}
+  }
+ }
+ {on "u_w_electronics_damaged"
+  {weapon_work "ptur4" 0}
+  {weapon_work "ptur1" 0}
+ }
+ {on "_burn" overload
+  {damage_report "engine" "component/burn_fire"}
+  {if not burned ("burn_engine" engine(1) engine1(0) engine2(0) enginea(0) engineb(0) enginec(0) engined(0))}
+ }
+}

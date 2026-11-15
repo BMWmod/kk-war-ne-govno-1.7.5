@@ -1,5 +1,6 @@
 ;SDL
 {units
+ {"mirage2000d" {structure "cwds_plane_attack"}}
 
 {"amx_auf1"					{structure "cwds_tank2"}} 
 {"uh_1h_serb"			{structure "cwds_heli_common"}}

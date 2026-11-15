@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "storm_nato" {MipMap 1}}
+ {blend none}
+}

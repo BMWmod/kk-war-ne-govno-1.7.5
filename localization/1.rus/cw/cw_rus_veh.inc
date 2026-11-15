@@ -1323,3 +1323,5 @@
 		{"mortarfru"									"<c(FFFFFF)e(shadow)>MO-120-RT61</c>"}
 		{"ngrd_mp_flag"									"<c(FFFFFF)e(shadow)>Национальная гвардия США</c>"}
 {"mv22" "<c(FFFFFF)e(shadow)>MV-22B Osprey</c>"}
+
+{"mirage2000d" "<c(FFFFFF)e(shadow)>Mirage 2000D</c>"}

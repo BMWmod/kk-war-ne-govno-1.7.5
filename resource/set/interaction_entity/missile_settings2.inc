@@ -1433,3 +1433,36 @@
 		}
 	}
 }
+
+{("CWPS_proj_3stage" missilename(storm_nato) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range80plus(40) tail(proj_jet_main) eng_time(3))
+ {on "launch_procedures"
+  {delay 0.1 {if not tagged "cwps_not_first_stage" {with_linked_entity "missile" {ani_play "on_start"}}}}
+  ; The rangefinder extends back into the launch aircraft's guidance marker.
+  ; Arm it after separation; later stages are already clear of the aircraft.
+  {volumes "rangefinder1" disable overlap}
+  {delay 0.1
+   {if tagged "cwps_not_first_stage"
+    {tags add "storm_launch_clear"}
+    {volumes "rangefinder1" enable overlap}
+    else
+    {delay 0.9
+     {tags add "storm_launch_clear"}
+     {volumes "rangefinder1" enable overlap}
+    }
+   }
+  }
+ }
+ {on "top_attack"
+  {if tagged "storm_launch_clear" {delay 0.9 {call "detonate"}}}
+ }
+ {on contact overload
+  {if tagged "storm_launch_clear" {inherited}
+   else
+   {if effector "airborne"
+    else effector "proj_point"
+    else {inherited}
+   }
+  }
+ }
+ {on "destroyed_by_kaz" overload}
+}
