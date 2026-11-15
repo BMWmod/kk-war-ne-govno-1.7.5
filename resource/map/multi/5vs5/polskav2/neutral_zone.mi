@@ -17838,11 +17838,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 210}
-						{title "ЧЁ НАХУЙ"}
+						{time 160}
+						{title "Барьер исчезнет через:"}
 					}
 					{"delay"
-						{time 210}
+						{time 160}
 					}
 					{"timer"
 						{hide}

@@ -23077,11 +23077,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 210}
-						{title "ЧЁ НАХУЙ"}
+						{time 120}
+						{title "Барьер исчезнет через:"}
 					}
 					{"delay"
-						{time 210}
+						{time 120}
 					}
 					{"timer"
 						{hide}
