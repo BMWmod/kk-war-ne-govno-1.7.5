@@ -61,7 +61,6 @@
 	{inventory
 		{item "bandage" 10}
 		{item "m16a2_m203" filling "556nato ammo" 30}
-		{item "m203a" filling "40x46ammo 40x46_natopg ammo fg" 1}
 		{item "556nato ammo" 150}
 		{item "40x46ammo 40x46_natopg ammo fg" 8}
 		{item "vest_razgruz"}

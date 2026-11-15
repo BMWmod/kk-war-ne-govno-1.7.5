@@ -50,7 +50,6 @@
 		{item "f1 grenade" 2}
 		{item "sandbag_kit"}
 		{item "m16a2_m203" filling "556nato ammo" 30}
-		{item "m203a" filling "40x46ammo 40x46_gerpg ammo cm" 1}
 		{item "40x46ammo 40x46_natopg ammo cm" 4}
 		{item "40x46ammo 40x46_natopg ammo fg" 4}
 		{item "556natos ammo" 200}
