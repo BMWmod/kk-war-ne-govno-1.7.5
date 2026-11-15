@@ -343,3 +343,10 @@ for area in bpy.context.screen.areas:
         spc=area.spaces.active;spc.shading.type='MATERIAL';spc.overlay.show_relationship_lines=False
         spc.region_3d.view_location=(0,0,1.5);spc.region_3d.view_rotation=Vector((14,-16,10)).to_track_quat('Z','Y');spc.region_3d.view_distance=20
 print('EXPORTED',str(DEST),sum(stats.values()),'faces')
+# Preserve the installed custom loadout when rebuilding the airframe. The
+# collision, aiming and launch bones are deliberately unchanged by this step.
+if (ROOT/'tools/magic2_asset.json').exists():
+    import sys
+    sys.path.insert(0,str(ROOT/'tools'))
+    from install_magic2 import apply_magic2_to_plane
+    apply_magic2_to_plane()

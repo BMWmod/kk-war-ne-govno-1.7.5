@@ -1,7 +1,8 @@
 """Install Mirage 2000D gameplay integration; preserves existing text encodings.
 
 350 purchase points (sc), 600-second recharge (c), NATO aviation (nrf_hqcar).
-AIM-9L uses the stock weapon, ammunition, carrier and warhead.
+AIM-9L is the bootstrap loadout; install_magic2 applies the custom Matra assets
+when tools/magic2_asset.json exists, using the stock CWPS event lifecycle.
 Storm Shadow reuses the existing pointer/damage, with an independent neutral skin.
 """
 from pathlib import Path
@@ -238,4 +239,8 @@ if '"mirage2000d"' not in s:
     anchor='{"mv22"';idx=s.index(anchor)
     desc='{"mirage2000d" "Mirage 2000D — французский двухместный тактический ударный самолёт. Вооружение: одна крылатая ракета Storm Shadow / SCALP-EG для поражения наземных целей и две УРВВ AIM-9L Sidewinder с ИК-наведением для самообороны.\\n\\nЭкипаж: пилот и оператор вооружения. 64 тепловые ловушки. Встроенная пушка отсутствует. Игровая скорость: 90; дальность пуска Storm Shadow: 650 м. Стоимость: 350 очков."}\n'
     s=s[:idx]+desc+s[idx:];write(p,s)
-print('Installed Mirage 2000D: NATO aviation, 350 points, 2 AIM-9L + 1 Storm Shadow.')
+if (ROOT/'tools/magic2_asset.json').exists():
+    from install_magic2 import main as install_magic2
+    install_magic2()
+else:
+    print('Installed Mirage 2000D: NATO aviation, 350 points, 2 AIM-9L + 1 Storm Shadow.')

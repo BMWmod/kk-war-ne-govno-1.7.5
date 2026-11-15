@@ -14,6 +14,7 @@ md=importlib.import_module('m2k_formats.mdl');ply=importlib.import_module('m2k_f
 vol=importlib.import_module('m2k_formats.vol')
 PLANE=ROOT/'resource/entity/-vehicle/-modern/air_modern/fr/mirage2000d'
 STORM=ROOT/'resource/entity/-inventory/air_stuff/nato/storm_nato'
+MAGIC=ROOT/'resource/entity/-vehicle/-modern/missile_modern/magic2'
 def read(p):
     b=p.read_bytes()
     try:return b.decode('utf-8-sig')
@@ -27,7 +28,7 @@ def balanced(s):
         elif c in '})':assert stack and stack.pop()==('{' if c=='}' else '('),'Unbalanced SDL'
     assert not stack,'Unbalanced SDL'
 count={'models':0,'meshes':0,'triangles':0,'animations':0,'textures':0,'collision_hulls':0}
-for directory in [PLANE,STORM]:
+for directory in [PLANE,STORM,MAGIC]:
     for p in directory.glob('*.mdl'):
         model=md.Model.read(str(p));count['models']+=1
         bs=[b for r in model.bones for b,pa in r.walk()];names={b.name.lower():b for b in bs}
@@ -52,7 +53,7 @@ for directory in [PLANE,STORM]:
             for tex in section.textures:
                 assert (directory/tex).exists() or (directory/(tex+'.mtl')).exists(),(p,tex)
             if directory==PLANE:assert section.flags & ply.FLAG_LIGHT,(p,'Unlit material')
-        if directory==PLANE:
+        if directory in [PLANE,MAGIC]:
             vertices=mesh.vertices();pos=vertices['pos'];normals=vertices['normal']
             wrong=0;checked=0
             for a,b,c in zip(mesh.indices[::3],mesh.indices[1::3],mesh.indices[2::3]):
@@ -95,7 +96,7 @@ for p in PLANE.glob('*.mdl'):
     flare_bones={b.name:b for r in m.bones for b,pa in r.walk() if b.name in ['foresight_flare_1','foresight_flare_1a']}
     assert len(flare_bones)==2 and all(b.kind=='revolute' and b.speed==1 for b in flare_bones.values()),(p,'Invalid flare bone type/speed')
 stuff=ROOT/'resource/set/stuff/air_stuff'
-for weapon,prefix,ammo in [('storm_shadowx1','storm_nato',1),('aim-9lx2','aim_9l_',2)]:
+for weapon,prefix,ammo in [('storm_shadowx1','storm_nato',1),('magic2x2','magic2_',2)]:
     path=stuff/(weapon+'.weapon')
     text=read(path if path.exists() else ROOT/'_mirage_work/reference'/(weapon+'.weapon'));balanced(text)
     # A single round uses an exact bone name; multiple rounds use a prefix.
@@ -190,7 +191,7 @@ air=read(ROOT/'resource/set/interaction_entity/Airborne_modern.inc')
 assert '("air_compact_launcher" weapon(ptur4) foresight(storm_release) missile(storm_nato) flashbarrel(storm_shooter_00))' in air
 assert bones['storm_nato00'].matrix==bones['storm_shooter_00'].matrix
 for i in range(2):
-    mount=bones[f'aim_9l_{i:02}'].matrix;launch=bones[f'aam_shooter_{i:02}'].matrix
+    mount=bones[f'magic2_{i:02}'].matrix;launch=bones[f'aam_shooter_{i:02}'].matrix
     assert launch[:9]==mount[:9] and launch[10:]==mount[10:]
     assert abs(launch[9]-mount[9]-23)<.001,'AIM-9L launch must clear the rail'
 # Test the stock carrier's contact-cylinder center against EVERY plane volume,
@@ -217,6 +218,41 @@ for i in range(2):
     hits=[v.name for v in model.volumes if point_inside_volume(center,v)]
     assert not hits,('AIM-9 contact cylinder starts inside plane volumes',i,hits)
 count['launch_centers_clear']=2
+# Conservative capsule test covers the entire length and radius of the launch
+# contact cylinder, including Magic 2's larger calibre(157), not just its center.
+def launch_capsule_hits(a,b,radius,v):
+    planes=[]
+    if v.shape=='polyhedron':
+        hull=vol.read(str(PLANE/v.file))
+        vertices=[world_point(v.bone,transform(v.matrix,p)) for p in hull.verts]
+        for i,j,k in hull.triangles():
+            normal=cross(sub(vertices[j],vertices[i]),sub(vertices[k],vertices[i]))
+            length=math.sqrt(dot(normal,normal))
+            if length>1e-8:planes.append(([n/length for n in normal],vertices[i]))
+    else:
+        assert v.shape=='box'
+        center=world_point(v.bone,transform(v.matrix,(0,0,0)))
+        for axis,size in enumerate(v.size):
+            unit=[0,0,0];unit[axis]=1
+            direction=sub(world_point(v.bone,transform(v.matrix,unit)),center)
+            for sign in [-1,1]:
+                normal=[sign*x for x in direction]
+                planes.append((normal,[center[i]+normal[i]*size/2 for i in range(3)]))
+    lo,hi=0.,1.;direction=sub(b,a)
+    for normal,point in planes:
+        offset=dot(normal,sub(a,point))-radius;slope=dot(normal,direction)
+        if abs(slope)<1e-8:
+            if offset>1e-6:return False
+        elif slope<0:lo=max(lo,-offset/slope)
+        else:hi=min(hi,-offset/slope)
+        if lo>hi:return False
+    return True
+for launch,radius in [('aam_shooter_00',1.57),('aam_shooter_01',1.57),('storm_release',9)]:
+    a=world_point(launch,(39.8117457+24.6063-20,0,0))
+    b=world_point(launch,(39.8117457+24.6063+20,0,0))
+    hits=[v.name for v in model.volumes if launch_capsule_hits(a,b,radius,v)]
+    assert not hits,('Launch contact capsule intersects plane',launch,hits)
+count['launch_capsules_clear']=3
 missiles=read(ROOT/'resource/set/interaction_entity/missile_settings2.inc')
 # Validate macro event declarations as well as braces: overload cannot resolve
 # duplicate events in the same entity block.
@@ -262,19 +298,35 @@ for bad_header in ['on spawn','on spawn overload']:
 assert '{volumes "rangefinder1" disable overlap}' in storm
 assert '{volumes "rangefinder1" enable overlap}' in storm
 assert '{if tagged "storm_launch_clear" {delay 0.9 {call "detonate"}}}' in storm
-assert '("air_multibarrel_launcher" weapon(ptur1) shooter(aam_shooter_) missile(aim-9l)' in air
-assert '{weapon "aim-9lx2" filled}' in read(PLANE/'mirage2000d.def')
+assert '("air_multibarrel_launcher" weapon(ptur1) shooter(aam_shooter_) missile(magic2)' in air
+assert '{weapon "magic2x2" filled}' in read(PLANE/'mirage2000d.def')
 assert '{weapon "storm_shadowx1" filled}' in read(PLANE/'mirage2000d.def')
 supply=read(ROOT/'resource/set/resupply_generic.inc')
 nato=supply[supply.index('(define "air_stuff_nato"'):]
 nato=nato[:nato.index('(define ',1)]
-assert '{item "aim-9l_ammo ammo"' in nato and '{item "storm_shadow ammo"' in nato
+assert '{item "magic2_ammo ammo"' in nato and '{item "storm_shadow ammo"' in nato
 truck=supply[supply.index('(define "mp_cwr_nato_avia"'):]
 truck=truck[:truck.index('(define ',1)]
 assert '("air_stuff_nato")' in truck
 # Weapon filling IDs must match the stock ammo types available from MAN aviation.
 assert '{filling "ammo storm_shadow" 1}' in read(stuff/'storm_shadowx1.weapon')
-assert '{filling "ammo aim-9l_ammo" 2}' in read(ROOT/'_mirage_work/reference/aim-9lx2.weapon')
+assert '{filling "ammo magic2_ammo" 2}' in read(stuff/'magic2x2.weapon')
+magic=entity_block(missiles,'missilename(magic2)')
+check_event_collisions([macro_body(n) for n in ['CWPS_proj','missile_missed','speed_fast','antislip']]+[magic])
+assert '{on ' not in magic,'Magic 2 must inherit stock fuse/launch handlers'
+assert 'decoyprob(0.13)' in magic and 'range(19)' in magic and 'coeff(0.90)' in magic
+pointer=read(ROOT/'resource/set/interaction_entity/missile_settings1.inc')
+assert pointer.count('stuff "magic2_ammo ammo"')==1
+assert 'weapon_tag(magic2_target) decoytype(flare) decoyprob(0.07)' in pointer
+carrier=read(ROOT/'resource/entity/-vehicle/-modern/proj_2/sam_carrier/magic2_carrier.def')
+assert 'missile("magic2_impactor")' in carrier and 'calibre(157)' in carrier and 'deg_per_s(62)' in carrier
+assert 'sam_carrier_offset_far_forward_proximity.mdl' in carrier
+for path in [stuff/'magic2x2.weapon',stuff/'magic2_ammo.ammo',ROOT/'resource/set/stuff/atgm/magic2_impactor']:
+    balanced(read(path))
+assert '{entity "magic2_ammo"}' in read(stuff/'magic2_ammo.ammo')
+assert '{entity "magic2_impactor"}' in read(ROOT/'resource/set/stuff/atgm/magic2_impactor')
+assert '{item "magic2_impactor"}' in read(MAGIC/'magic2_impactor.def')
+assert '{item "magic2_ammo ammo"}' in read(MAGIC/'magic2_ammo.def')
 # These large shared files also contain unrelated legacy SDL; check our complete
 # appended entity blocks without changing existing aircraft/missile definitions.
 balanced(air[air.index('{"mirage2000d"'):])
@@ -323,5 +375,5 @@ for folder,size in [('unit_icon',(104,52)),('unit_icon_small',(78,39))]:
     for i in range(4):
         b=(ROOT/f'resource/interface/scene/{folder}/mirage2000d_{i:02}.tga').read_bytes()
         assert b[2]==2 and struct.unpack_from('<HH',b,12)==size
-count['asset_bytes']=sum(p.stat().st_size for d in [PLANE,STORM] for p in d.iterdir() if p.is_file())
+count['asset_bytes']=sum(p.stat().st_size for d in [PLANE,STORM,MAGIC] for p in d.iterdir() if p.is_file())
 print(json.dumps({'result':'PASS','checks':count,'game_runtime_tested':False},indent=2))

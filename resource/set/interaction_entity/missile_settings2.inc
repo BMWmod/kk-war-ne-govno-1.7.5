@@ -1466,3 +1466,6 @@
  }
  {on "destroyed_by_kaz" overload}
 }
+
+; Mirage Magic 2: stock AIM-9 lifecycle, independent game balance.
+{("CWPS_proj" missilename(magic2) rotation(0) rand_move(0) smoke_vulnerable(1) decoyprob(0.13) range(19) tail(proj_jet_sam) eng_time(3)) ("speed_fast" coeff(0.90)) ("antislip")}

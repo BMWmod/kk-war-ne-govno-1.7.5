@@ -344,9 +344,9 @@
 			{bone "wingl1"
 				{Parameters "ID=wingl1;"}
 				{VolumeView "wingl1.ply"}
-				{bone "aim_9l_01"
+				{bone "magic2_01"
 					{Position -39 -55.42 20.8}
-					{VolumeView "aim9l_pylon.ply"}
+					{VolumeView "magic2_pylon.ply"}
 				}
 				{bone "aam_shooter_01"
 					{Position -16 -55.42 20.8}
@@ -360,9 +360,9 @@
 			{bone "wingr1"
 				{Parameters "ID=wingr1;"}
 				{VolumeView "wingr1.ply"}
-				{bone "aim_9l_00"
+				{bone "magic2_00"
 					{Position -39 55.42 20.8}
-					{VolumeView "aim9l_pylon.ply"}
+					{VolumeView "magic2_pylon.ply"}
 				}
 				{bone "aam_shooter_00"
 					{Position -16 55.42 20.8}

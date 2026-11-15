@@ -21,7 +21,7 @@
    {barrels 1} {basic}
   }
   {place "ptur1"
-   {weapon "aim-9lx2" filled}
+   {weapon "magic2x2" filled}
    {foresight "foresight_aam"}
    {shooter "aam_pointer_"}
    {charger "driver"} {gunner "driver"}

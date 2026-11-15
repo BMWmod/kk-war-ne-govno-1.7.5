@@ -355,7 +355,7 @@
 				{Parameters "ID=wingl1;"}
 				{Color 0xff454545}
 				{VolumeView "wingl1.ply"}
-				{bone "aim_9l_01"
+				{bone "magic2_01"
 					{Position -39 -55.42 20.8}
 				}
 				{bone "aam_shooter_01"
@@ -372,7 +372,7 @@
 				{Parameters "ID=wingr1;"}
 				{Color 0xff454545}
 				{VolumeView "wingr1.ply"}
-				{bone "aim_9l_00"
+				{bone "magic2_00"
 					{Position -39 55.42 20.8}
 				}
 				{bone "aam_shooter_00"

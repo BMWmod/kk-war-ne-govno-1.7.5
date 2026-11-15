@@ -1,0 +1,10 @@
+{from "pattern proj_impactor"
+ {entity "magic2_impactor"}
+ {inventory {weight 100} {size 6 1}}
+ {tag "big" "size3" "88to105" "AA_missile" "-ap" "-rocketlauncher" "-low_speed" "fx_111_145"}
+ ; Game balance: denser damage close to the target, slightly smaller outer zone.
+ {damage blastwave {energy 0.78} {area 12.6 14.5}}
+ {damage add blastwave {energy 1.35} {area 10.8 12.4}}
+ {damage add blastwave {energy 2.75} {area 5.4 6.2}}
+ {damage add blastwave {energy 6.8} {area 1.35 1.55}}
+}

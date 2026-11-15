@@ -243,6 +243,8 @@
 	else stuff "9m338 ammo"	
 	("spawn_proj_7" country(rus) type(active) weapon_tag(9m338_target) decoytype(chaff) decoyprob(0.03) min_alt(6))
 ;AA missiles
+	else stuff "magic2_ammo ammo"
+ ("spawn_proj_7" country(usa) type(ir) weapon_tag(magic2_target) decoytype(flare) decoyprob(0.07) min_alt(4))
 	else stuff "aim-9l_ammo ammo"	
 	("spawn_proj_7" country(usa) type(ir) weapon_tag(aim-9l_target) decoytype(flare) decoyprob(0.10) min_alt(4))
 	else stuff "r-3c ammo"			

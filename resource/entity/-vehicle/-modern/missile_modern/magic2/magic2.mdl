@@ -1,0 +1,18 @@
+{Skeleton
+	{bone "basis"
+		{bone "body"
+			{Parameters "ID=body;"}
+			{VolumeView "magic2.ply"}
+			{bone "tail"
+				{Position -22.7 0 0}
+			}
+			{bone "nose"
+				{Position 22.9 0 0}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 45.6 2.62 2.62}
+	{Bone "body"}
+}

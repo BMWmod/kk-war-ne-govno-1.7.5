@@ -1,0 +1,15 @@
+{from "pattern proj_weapon_air"
+ {tag "gun"}
+ {filling "ammo magic2_ammo" 2}
+ {fillingVisible "magic2_"}
+ {foresight "foresight_aam"}
+ {fireSound "reactive/missile_small/"}
+ {mass 50}
+ {recoveryTime 2}
+ {rechargeTime 145}
+ {inventory {noView}}
+ {maxRange 220}
+ {aimRange 185}
+ {cursor "cannon_on_aa"}
+ {cursorReloading "cannon_reload_fg"}
+}

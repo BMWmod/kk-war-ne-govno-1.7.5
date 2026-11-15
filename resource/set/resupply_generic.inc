@@ -780,6 +780,7 @@
 	{item "rvv-sd ammo" 1 {max 10}{value 5}}				
 )
 (define "air_stuff_usa"
+ {item "magic2_ammo ammo" 2 {max 4}{value 7}}
 	{item "aim-9l_ammo ammo" 2 {max 4}{value 5}}				
 	{item "AIM-120C7 ammo" 2 {max 6}{value 5}}				
 ;	{item "agm-114 k ammo" 1 {max 4}{value 10}}				
@@ -808,6 +809,7 @@
     {item "spike_nlos fg ammo" 1 {max 4}{value 70}}	
 )
 (define "air_stuff_nato"
+ {item "magic2_ammo ammo" 2 {max 4}{value 7}}
     {item "agm-65D ammo" 1 {max 3}{value 22}}
 	{item "aim-9l_ammo ammo" 2 {max 4}{value 5}}
 	{item "mistral_missile ammo" 1 {max 4}{value 15}}				

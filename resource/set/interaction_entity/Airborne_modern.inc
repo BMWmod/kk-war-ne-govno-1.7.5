@@ -8008,7 +8008,7 @@
   {add_view "overburn" "engine_overburn" "engine_exhaust"}
  }
  ("air_compact_launcher" weapon(ptur4) foresight(storm_release) missile(storm_nato) flashbarrel(storm_shooter_00))
- ("air_multibarrel_launcher" weapon(ptur1) shooter(aam_shooter_) missile(aim-9l) flashbarrel(aam_shooter_))
+ ("air_multibarrel_launcher" weapon(ptur1) shooter(aam_shooter_) missile(magic2) flashbarrel(aam_shooter_))
  {on "update_weaponry"
   {if not tagged "destroyed"
    {weapon_work "flare_dropper" 1}
