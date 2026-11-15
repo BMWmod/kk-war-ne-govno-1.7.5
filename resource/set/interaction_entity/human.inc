@@ -2415,7 +2415,11 @@
 		}
 		(define "paradrop_crew_member_with_alt_"
 		{
-			if linked "mi17"
+			
+            ; MV22 native exit timing v3
+            if linked "mv22"
+            {delay 1.2 ("paradrop_crew_member_with_alt" args %0)}
+            else linked "mi17"
 			{
 				if name "emit1" "emit2"
 				{
@@ -2665,7 +2669,14 @@
 				else
 			}
 		}
-	}
+	} 
+ 
+ 
+ 
+ 
+ 
+ 
+
 	{
 		on "start_heal"
 		{

@@ -67,7 +67,7 @@
                            
 
  {"su-34_umpk" {fore 0} ("p" c(960) sc(360) g(air_umpk) b(vvs_hqcar) brig(vvs) s(rus)  i(333) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
- {"su-34_umpk3000" {fore 0} ("p" c(1500) sc(450) g(air_umpk) b(vvs_hqcar) brig(vvs) s(rus)  i(432543) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ {"su-34_fab3000" {fore 0} ("p" c(1500) sc(470) g(air_umpk3000) b(vvs_hqcar) brig(vvs) s(rus)  i(432543) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  {"su-34_antirad" {fore 0} ("p" c(600) sc(200) g(air_sead) b(vvs_hqcar) brig(vvs) s(rus)  i(12) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  
  

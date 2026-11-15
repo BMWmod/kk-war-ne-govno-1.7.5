@@ -3353,7 +3353,7 @@
 	"su-34_umpk"		("air_multibomb_launcher" weapon(bomber) shooter(ympk_body_) missile(umpk_500_guided))
 }
 {
-	"su-34_umpk3000"		("air_multibomb_launcher" weapon(bomber) shooter(bomb_spawn_) missile(umpk_3000_guided))
+	"su-34_fab3000"		("air_multibomb_launcher" weapon(bomber) shooter(bomb_spawn_) missile(umpk_3000_guided))
 }
 {
 	"su-34_accurate_2"		("air_multibomb_launcher" weapon(bomber) shooter(ympk_body_) missile(umpk_500_guided))

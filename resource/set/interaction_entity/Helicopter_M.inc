@@ -7256,3 +7256,89 @@
 	}
 }
 (include "Helicopter_modern.inc")
+{
+ "mv22_transport"
+ {on spawn
+  {add_view "exhaust_dark" "engine_steam1" "FXsmoke1"}
+  {add_view "exhaust_dark" "engine_steam2" "FXsmoke2"}
+  ("link_damage_sound_usa")
+  {ani_wind "conversion" end}
+  {ani_wind "wheels" end}
+  {ani_wind "basis" end}
+  {tags add "mv22_cruise"}
+ }
+ {on "mv22_sync_mode"
+  {if not dead
+   {
+    if tagged "cwhs_landing"
+    {call "mv22_vertical"}
+    else chassis "wheel"
+    {call "mv22_vertical"}
+    else tagged "cwhs_deccelerate_me"
+    {call "mv22_vertical"}
+    else tagged "cwhs_hovering"
+    {call "mv22_vertical"}
+    else tagged "cwhs_accelerate_me"
+    {call "mv22_forward"}
+    else tagged "heli_in_flight"
+    {call "mv22_forward"}
+   }
+  }
+ }
+ {on "check_altitude" {call "mv22_sync_mode"}}
+ ; Handle the ramp on the aircraft, never by switching a departing human's actor.
+ {on crew out
+  {if not dead
+   {if chassis "airborne"
+    {if not tagged "cwhs_landing" {call "mv22_airdrop_ramp"}}
+   }
+  }
+ }
+ ; Airborne exits share the same ramp. Each soldier extends the open interval.
+ {on "mv22_airdrop_ramp"
+  {if not tagged "mv22_airdrop_ramp_open"
+   {ani_play "basis" -2}
+   {tags add "mv22_airdrop_ramp_open"}
+  }
+  {kill_delay "mv22_airdrop_close"}
+  {delay 5 "mv22_airdrop_close" {call "mv22_airdrop_close"}}
+ }
+ {on "mv22_airdrop_close"
+  {tags remove "mv22_airdrop_ramp_open"}
+  {if not dead
+   {if not tagged "cwhs_landing"
+    {if chassis "airborne" {ani_play "basis" 0.4}}
+   }
+  }
+ }
+ ; The generic toggle sets accelerate/decelerate before calling this event.
+ {on "cwhs_change_speed" {call "mv22_sync_mode"}}
+ ; Run after the shared takeoff handler has switched chassis and cleared landing.
+ {on "takeoff" {delay 0.15 "mv22_takeoff_sync" {call "mv22_sync_mode"}}}
+ {on "mv22_vertical"
+  {if tagged "mv22_cruise"
+   {ani_play "conversion" -1}
+   {tags remove "mv22_cruise"}
+  }
+ }
+ {on "mv22_forward"
+  {if not tagged "mv22_cruise"
+   {ani_play "conversion"}
+   {tags add "mv22_cruise"}
+  }
+ }
+ {on "landing"
+  {kill_delay "mv22_takeoff_sync"}
+  {call "mv22_vertical"}
+ }
+ {on "landing_load"
+  {ani_wind "conversion" begin}
+  {tags remove "mv22_cruise"}
+ }
+ {on "takeoff_load"
+  {if tagged "mv22_cruise" {ani_wind "conversion" end}
+   else {ani_wind "conversion" begin}
+  }
+  {delay 0.15 "mv22_takeoff_sync" {call "mv22_sync_mode"}}
+ }
+}
