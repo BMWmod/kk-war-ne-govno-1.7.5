@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/fv107scimitar_mk2/miscdiff"}
+	{blend test}
+}

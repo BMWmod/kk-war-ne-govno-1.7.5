@@ -213,8 +213,8 @@
  ;Oshkosh M-ATV с МК-19 и десантом
  {"oshkosh_m-atv_ua_at" {fore 1} ("v_explicit" c(240) sc(90) g(atmob)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(2) cw(10) cp(10) t(all_nz) c1(oshkosh_m-atv_mk19) n(2) n1(tankman:2) n2(ukr_at:3)) {content "oshkosh_m-atv_mk19 ( mp2/ukr/tankman:2 mp2/ukr/ukr_at:3 )"} }
 
- ;Scimitar
- {"fv107scimitar_mk2"{fore 1} ("v_explicit" c(240) sc(50) g(scipidar)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(200) cw(10) cp(10) t(all_nz) c1(fv107scimitar_mk2) n(2) n1(tankman:2)) {content "fv107scimitar_mk2 ( mp2/ukr/tankman:2 )"}}
+ ;FV101 Kastet (was FV107 Scimitar)
+ {"fv101_kastet"{fore 1} ("v_explicit" c(240) sc(100) g(scipidar)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(200) cw(10) cp(10) t(all_nz) c1(fv101_kastet) n(2) n1(tankman:2)) {content "fv101_kastet ( mp2/ukr/tankman:2 )"}}
 
  ;Warrior с ДЗ
  {"warrior_wrap2_ukr" {fore 0} ("v_explicit" c(300) sc(60) g(btr)  b(ngu_ua_hqcar) brig(ngu_ua) s(ukr)  i(80343) cw(10) cp(10) t(all_nz) c1(warrior_wrap2) n(2) n1(tankman:3)) {content "warrior_wrap2 ( mp2/ukr/tankman:3 )"} }

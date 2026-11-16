@@ -1,0 +1,151 @@
+{actor
+	; FV101 Scorpion with the Ukrainian "Kastet" combat module, built on the FV107 Scimitar hull/rig.
+	; Armament and ammo load as BTR-4E1 (30mm 2A72-type ZTM-1, PKT, AGS-17, 2x ATGM, 2x3 smoke),
+	; ATGM is NEU "Barrier" (barier_x2_l / p2c). Crew 2: driver + gunner (gunner under the hatch, visor1).
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	{props "light_M" "turret_rotator" "vision_lev03" "fv101_kastet"}
+	{PatherID "amphibia"}
+	{targetClass "light_tank"}
+
+	{volume "apploque_inter"	{Thickness 4}}
+
+	("armor_IFV" turret(10 9 9 9) body(14 7 7 7))
+	{armor
+		{setting "apploque_inter"
+			{thickness 4}
+			{durability {blast {value 100}} {pierce {koef 999}}}
+			{threshold {blast {koef 2} {value 50}}}
+			{volumes "apploque_inter"}
+		}
+	}
+
+	{extender "shield"
+		{on}
+	}
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_right"} {base "open_driver"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base "open_driver" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_cromwell"} {base "open_gunner"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base "open_gunner" -1}}
+		}
+	}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "crew"} {visor "%visor"} }
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+	("crew_human" place(driver)		door(emit0) group(crew)		animation(driver) visor(driver))
+	("crew_human" place(gunner)		door(emit1) group(crew)	    animation(gunner) visor(main))
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon link_mmg"}
+		}
+		{box
+			{item "ammo bullet30_rus" 320 }
+			{item "ammo bullet30_RUS fg" 300}
+			{item "ammo pkm_ammo" 400}
+
+			{item "pkt" filled {user "mgun"}}
+			{item "ammo mortar pdb" 120}
+			{item "rpg7 weapon" 1}
+			{item "f1 grenade" 9}
+			{item "PG-7VL rpg7 ammo" 3}
+			{item "ammo p2c cm" 2}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "30mm_2A72" filled}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("CW_stab_abm" abm(0.68))
+			("CW_stab_ld_suo")
+		}
+		{place "gun2"
+			{weapon "barier_x2_l" filling "ammo p2c cm" 2}
+			{foresight "foresight6"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{barrels 2}
+			{basic}
+		}
+		{place "mgun"
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight3"}
+			{LinkAnimation "off"}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun2"
+			{weapon "ags17 weapon" filling "ammo mortar pdb" 30}
+			{foresight "foresight5"}
+			{LinkAnimation "off"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun18"			; smoke, left mortar group
+			{type "mgun_left"}
+			{weapon "3xsmokegun_bmp2" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight20"}
+		}
+		{place "mgun19"			; smoke, right mortar group
+			{type "mgun_right"}
+			{weapon "3xsmokegun_bmp2" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+		}
+	}
+	{sensor
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor2"}
+		}
+		{visor "main"
+			{vision "tank_gunner_optic_IR_2g"}
+			{bone "visor1"}
+		}
+	}
+	{mass 8200}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.2) len(0.45))
+		{Locomotion ("CW_track_moveparam"
+			Mass(8.2)
+			Width(2.24)
+			Power(235)
+			Realspeed(80)
+			Gamespeed(47)
+		)
+		{RearGears			0.12 0.29 0.5 0.68 1}}
+		("CW_fuelbag" Range(450) Fuelvolume(423))
+		("CW_speed_lev" Gamespeed(47))
+	}
+	{props "cwfs_fuel_400"}
+
+	("CW_amphibia" Waterline(1.35) )
+	("two_headlights")
+
+	{Extension "fv101_kastet.mdl"}
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+	("CW_turr_speed" deg_per_s(45))
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/fv107scimitar_mk2/body"}
+	{bump "$/model/fv107scimitar_mk2/body_bp"}
+	{specular "$/model/fv107scimitar_mk2/body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

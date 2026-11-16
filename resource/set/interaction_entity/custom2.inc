@@ -276,6 +276,43 @@
 }
 
 
+{"fv101_kastet"
+	{on spawn
+		{add_view "smoke_zenit" 	"zenite_smoke" "foresight1"}
+	}
+	{on fire "gun"
+		{spawn "BMP2_canon_fire" "Foresight1" x}
+		{view start "flashbarrel_gun"}
+		{view start "smoke_add"}
+		{delay 0.16 "shell_off"
+			{view start "zenite_smoke"}
+		}
+		{view pause "smoke_add"}
+		{view pause "flashbarrel_gun"}
+		{delay 5
+			{view pause "zenite_smoke"}
+		}
+		{spawn "gilza_30mm" "fxshell"
+			{add_view "smoke_zenit" "smoke_shell" "fxshell"}
+			{view start "smoke_shell"}
+			{impulse up 0.1 0.1 dir 4 0  cz 0.3 0.3 com }
+			{delay 5
+				{view pause "smoke_shell"}
+			}
+			{delay 7
+				{hide 7}
+			}
+		}
+	}
+	("atgm_single_launcher_small"
+		weapon(gun2)
+		foresight(foresight6)
+		tail(tail_00)
+		smoke_f(0.3)
+		smoke_t(0.4)
+	)
+}
+
 {"btr3e"	
 	("atgm_single_launcher"
 		weapon(gun2)

@@ -18,6 +18,8 @@
 		{"storm_shadow"													"<c(00FF00)>Storm Shadow<c(FFFFFF)><c(FFAF00)> / SCALP-EG<c(FFFFFF)>\n масса ВВ - <c(FF1F00)>450<c(FFFFFF)> кг.\n бронебойность - <c(FF1F00)>1000<c(FFFFFF)> мм \n дальность - <c(FFAF00)>700<c(FFFFFF)> м.\n тип наведения -<c(FF1F00)> ИК<c(FFFFFF)> ГСН \n - проникающая БЧ BROACH - "}
 		{"3m9_kub_rocket"												"ЗУР <c(FFAF00)>3М9<c(FFFFFF)> к ЗРК «Куб»\n масса ВВ - <c(FF1F00)>57<c(FFFFFF)> кг.\n дальность - <c(FFAF00)>300<c(FFFFFF)> м.\n тип наведения -<c(4d6ff7)> полуактивная РЛ<c(FFFFFF)> ГСН \n требуется подсветка цели СУРН <c(FFAF00)>1С91<c(FFFFFF)> \n - противовоздушная - "}
 		{"3m9_kub_impactor"												"<c(CF9FFF)>Impactor 3М9 к ЗРК «Куб»</c>"}
+		{"p2c cm"		"ПТУР <c(00FF00)>РК-2С<c(FFFFFF)> к ПТРК «Барьер»\n бронебойность - <c(FF1F00)>800<c(FFFFFF)> мм \n дальность - <c(FFAF00)>240<c(FFFFFF)> м.\n тип наведения -<c(00FF00)> по лазерному лучу<c(FFFFFF)>\n БЧ - тандемная "}
+		{"p2c fg"		"ПТУР <c(00FF00)>РК-2ОФ<c(FFFFFF)> к ПТРК «Барьер»\n масса ВВ экв - <c(FF1F00)>7,0<c(FFFFFF)> кг \n дальность - <c(FFAF00)>240<c(FFFFFF)> м.\n тип наведения - по лазерному лучу \n БЧ - осколочно-фугасная "}
 	}
 	{"container"
 		{"example_item"													"Example name"}
@@ -44,4 +46,5 @@
 		{"155mm_bohdana_bg gun"											"<c(FFFFFF)>155мм гаубица <c(FFAF00)>2С22<c(FFFFFF)> (Богдана-БГ)\n дальность - <c(FFAF00)>290..385<c(FFFFFF)> м.\n скорострельность - <c(FFAF00)>7,5<c(FFFFFF)> выстр./мин "}
 		{"3m9_x3_pu"													"ПУ <c(00FF00)>2П25<c(FFFFFF)> с 3 ЗУР<c(FFAF00)> 3М9<c(FFFFFF)>\n дальность - <c(FFAF00)>300<c(FFFFFF)> м.\n стрельба только по целям, подсвеченным СУРН <c(FFAF00)>1С91<c(FFFFFF)>"}
 		{"targeting_radar_kub"											"Радар наведения"}
+		{"barier_x2_l"		" ПТРК<c(00FF00)> «Барьер»<c(FFFFFF)> (2 ПУ)\n дальность - <c(FFAF00)>240<c(FFFFFF)> м.\n тип наведения -<c(00FF00)> по лазерному лучу<c(FFFFFF)> "}
 	}

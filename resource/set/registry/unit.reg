@@ -212,6 +212,7 @@
 	{"lancet3m_cm"		{structure "cwds_plane_attack"}}
 	{"lancet3m_fg"		{structure "cwds_plane_attack"}}
 	{"lancet3m_catapult"{structure "cwds_mortar"}}
+	{"fv101_kastet"		{structure "cwds_ifv"}}
 	{"molniya1"		{structure "cwds_plane_attack"}}
 	{"molniya1_catapult"	{structure "cwds_mortar"}}
 	{"molniya1_ukr"		{structure "cwds_plane_attack"}}
@@ -904,6 +905,8 @@
 	{"red_arrow_10b_carrier"			{structure "cwds_missile"}}
 	{"lancet3m_cm_carrier"			{structure "cwds_missile"}}
 	{"lancet3m_fg_carrier"			{structure "cwds_missile"}}
+	{"p2c_carrier"			{structure "cwds_missile"}}
+	{"p2c_cm_carrier"			{structure "cwds_missile"}}
 	{"molniya1_carrier"			{structure "cwds_missile"}}
 	{"switchblade300_carrier"			{structure "cwds_missile"}}
 	{"shahed136_base_carrier"			{structure "cwds_missile"}}

@@ -195,6 +195,16 @@
 			else tagged "Foresight5" {with_effector {delay 0.03 {spawn "9m133_tb_carrier" "Foresight5" x} } {with_effector}}
 			else tagged "Foresight6" {with_effector {delay 0.03 {spawn "9m133_tb_carrier" "Foresight6" x} } {with_effector}}
 			}
+	       else stuff "p2c cm ammo"
+			{if tagged "Foresight1" {with_effector {delay 0.03 {spawn "p2c_cm_carrier" "Foresight1" x} } {with_effector}}
+			else tagged "Foresight2" {with_effector {delay 0.03 {spawn "p2c_cm_carrier" "Foresight2" x} } {with_effector}}
+			else tagged "Foresight6" {with_effector {delay 0.03 {spawn "p2c_cm_carrier" "Foresight6" x} } {with_effector}}
+			}
+	       else stuff "p2c fg ammo"
+			{if tagged "Foresight1" {with_effector {delay 0.03 {spawn "p2c_carrier" "Foresight1" x} } {with_effector}}
+			else tagged "Foresight2" {with_effector {delay 0.03 {spawn "p2c_carrier" "Foresight2" x} } {with_effector}}
+			else tagged "Foresight6" {with_effector {delay 0.03 {spawn "p2c_carrier" "Foresight6" x} } {with_effector}}
+			}
 	       else stuff "shershen cm ammo"
 			{if tagged "Foresight1" {with_effector {delay 0.03 {spawn "shershen_ammo_cm_carrier" "Foresight1" x} } {with_effector}}
 			else tagged "Foresight2" {with_effector {delay 0.03 {spawn "shershen_ammo_cm_carrier" "Foresight2" x} } {with_effector}}
@@ -620,6 +630,9 @@
 {("CWPS_proj" missilename(9m133_1_cm) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(29) tail(proj_jet_atgm) eng_time(1))}
 {("CWPS_proj" missilename(9m133_cm) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(27) tail(proj_jet_atgm) eng_time(1))}
 {("CWPS_proj" missilename(9m133_tb) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(29) tail(proj_jet_atgm) eng_time(1))}
+;Barrier ATGM (NEU p2c) for fv101_kastet
+{("CWPS_proj" missilename(p2c) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.05) range(40) tail(proj_jet_atgm) eng_time(1))}
+{("CWPS_proj" missilename(p2c_cm) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.05) range(40) tail(proj_jet_atgm) eng_time(1))}
 {("CWPS_proj" missilename(shershen_ammo_cm) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(24) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))}
 {("CWPS_proj" missilename(shershen_ammo_fg) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(24) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))}
 

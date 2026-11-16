@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/fv101_kastet/kastet_gun"}
+	{blend none}
+}

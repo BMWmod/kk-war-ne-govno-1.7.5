@@ -2076,6 +2076,44 @@
 		}
 	}
 }
+)	(define "atgm_single_launcher_small"	;same, smaller launch smoke (scale)
+{
+	on "init_%weapon"
+	{
+		add_view	"rok_tail"	"rok_tail_%weapon"	"%tail"
+	}
+}
+{
+	on fire "%weapon" overload			("low_speed_bullet")
+	{
+		view start "rok_tail_%weapon"
+	}
+	{
+		spawn "startsmoke" "%foresight" x scale %smoke_f
+	}
+	{
+		spawn "startsmoke" "%tail" x scale %smoke_t
+	}
+	{
+		spawn "proj_probe" "%foresight" x
+		{
+			tags add "%foresight"
+		}
+	}
+	{
+		delay 0.4
+		{
+			view pause "rok_tail_%weapon"
+		}
+	}
+	("cw_check_shooting" weap_id(%weapon))
+	{
+		delay 0.2
+		{
+			call "spawn_shell"
+		}
+	}
+}
 )	(define "custom_multi_launcher"
 {
 	on "init_%weapon"

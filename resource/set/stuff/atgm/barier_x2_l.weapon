@@ -1,0 +1,25 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{fillingVisible "rocket"}
+	{filling "ammo p2c" 2}
+	{fireSound "reactive/konkurs_launch"}
+	{mass 7}
+	{recoveryTime 3}
+	{rechargeTime 46}
+	{inventory {noView}}
+	{cursor "Mi24"}
+	{cursorReloading "zenite_reload"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+        {maxRange 160}	;5 κμ
+	{aimRange 240}
+        {parameters "ammo p2c cm"
+                {maxRange 240}
+		{aimRange 240}
+	}
+        {parameters "ammo p2c fg"
+                {maxRange 240}
+		{aimRange 240}
+	}
+    
+}

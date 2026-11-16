@@ -352,6 +352,7 @@
 					{"lancet3m_cm"						"<c(FFFFFF)e(shadow)>Ланцет-3М - Кум.</c>"}
 					{"lancet3m_fg"						"<c(FFFFFF)e(shadow)>Ланцет-3М - ОФ</c>"}
 					{"molniya1_catapult"				"<c(FFFFFF)e(shadow)>Молния-1</c>"}
+					{"fv101_kastet"					"<c(FFFFFF)e(shadow)>FV101 «Кастет»</c>"}
 					{"molniya1"						"<c(FFFFFF)e(shadow)>Молния-1 - ТМ-62</c>"}
 					{"molniya1_catapult_ukr"			"<c(FFFFFF)e(shadow)>Блискавка</c>"}
 					{"molniya1_ukr"					"<c(FFFFFF)e(shadow)>Блискавка - ТМ-62</c>"}
