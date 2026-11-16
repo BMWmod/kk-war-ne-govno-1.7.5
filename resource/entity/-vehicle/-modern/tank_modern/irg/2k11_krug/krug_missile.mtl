@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "krug_missile" {MipMap 1}}
+ {blend none}
+}

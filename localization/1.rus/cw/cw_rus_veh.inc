@@ -1337,3 +1337,5 @@
 {"harpy_prr_carrier" "<c(FFFFFF)e(shadow)>Harpy ПРР</c>"}
 {"harpy_prr_mark" "Пассивное противорадиолокационное наведение"}
 {"harpy_prr_seeker" "Harpy: захват излучателя"}
+
+{"2k11_krug" "<c(FFFFFF)e(shadow)>2К11 Круг</c>"}

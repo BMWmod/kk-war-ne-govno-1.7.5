@@ -1,0 +1,18 @@
+{Skeleton
+	{bone "basis"
+		{bone "body"
+			{Parameters "ID=body;"}
+			{VolumeView "3m8_krug.ply"}
+			{bone "tail"
+				{Position -69.71581 0 0}
+			}
+			{bone "nose"
+				{Position 69.71582 0 0}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 139.4316 7 7}
+	{Bone "body"}
+}

@@ -6,6 +6,8 @@
 	
 ;foldername
 	{"ammo"
+		{"3m8_krug_rocket" "ЗУР 3М8 для ЗРК «Круг»\nДальность: 380 м. Наведение по работающей РЛС."}
+		{"3m8_krug_impactor" "3М8: боевая часть"}
 		{"magic2_ammo" "Matra R.550 Magic 2"}
 		{"gbu28" "GBU-28"}
 		{"fpv_drone"													"<c(00FF00)>FPV-дрон<c(FFFFFF)> с кумулятивной БЧ ПГ-7\n бронебойность - <c(FF1F00)>600<c(FFFFFF)> мм\n связь - <c(FFAF00)>200<c(FFFFFF)> м от оператора"}
@@ -28,6 +30,7 @@
 		{"example_item"													"Example name"}
 	}
 	{"weapon"
+		{"3m8_krug_x2" "2П24: две ЗУР 3М8"}
 		{"magic2x2" "Matra Magic 2 x2"}
 		{"gbu28x1" "GBU-28"}
 		{"f15_jdam_erx2" "JDAM-ER x2"}

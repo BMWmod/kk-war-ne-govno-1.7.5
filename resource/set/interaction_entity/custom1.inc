@@ -265,3 +265,9 @@
 		{delay 45 {delete}}
 	}
 }
+
+{"2k11_krug"
+    ("Shilka_sound")
+    ("custom_sh_multi_launcher" weapon(gun2) foresight(foresight1) tail(tail) shooter(shooter))
+    ; No radar_params/sam_radar: this launcher consumes external illumination.
+}

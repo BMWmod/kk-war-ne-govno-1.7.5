@@ -330,6 +330,10 @@
 			else tagged "shooter02" {with_effector {delay 0.03 {spawn "9k333_carrier" "shooter02" x} } {with_effector}}
 			else tagged "shooter03" {with_effector {delay 0.03 {spawn "9k333_carrier" "shooter03" x} } {with_effector}}
 			}
+           else stuff "3m8_krug_rocket ammo"
+            {if tagged "shooter00" {with_effector {delay 0.03 {spawn "3m8_krug_carrier" "shooter00" x}} {with_effector}}
+             else tagged "shooter01" {with_effector {delay 0.03 {spawn "3m8_krug_carrier" "shooter01" x}} {with_effector}}
+            }
 	       else stuff "9m38 buk ammo"
 			{if tagged "shooter00" {with_effector {delay 0.03 {spawn "9m38_carrier" "shooter00" x} } {with_effector}}
 			else tagged "shooter01" {with_effector {delay 0.03 {spawn "9m38_carrier" "shooter01" x} } {with_effector}}
@@ -647,6 +651,7 @@
 {("CWPS_proj_2stage" missilename(hq16b_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.36) range40plus(03) tail(proj_jet_sam) eng_time(4)) ("antislip")}
 {("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9m33_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.35) range(24) tail(proj_jet_sam) eng_time(3))}
+{("CWPS_proj" missilename(3m8_krug) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.48) range(40) tail(proj_jet_sam) eng_time(4))("speed_fast" coeff(0.90)) ("antislip")}
 {("CWPS_proj" missilename(3m9_kub) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.45) range(30) tail(proj_jet_sam) eng_time(4))}
 {("CWPS_proj" missilename(milan_rock) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(26) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.25))}
 {("CWPS_proj" missilename(milan-er) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(28) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.25))}

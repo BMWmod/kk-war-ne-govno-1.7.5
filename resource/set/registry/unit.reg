@@ -938,3 +938,5 @@
 			{"fra_mp_flag" 			{structure "fra_mp_flag"}}
 
 }
+
+{"2k11_krug" {structure "cwds_sam"}}
