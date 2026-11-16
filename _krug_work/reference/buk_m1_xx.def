@@ -1,0 +1,36 @@
+{game_entity
+	{Extension "buk_m1_xx.mdl"}
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 70}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 70}
+	}
+	{Volume "mantlet"
+		{tags "inflammable" "part"}
+		{thickness 2} 
+	}
+	{Volume "radar"
+		{tags "inflammable" "part"}
+		{thickness 10} 
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 30}  
+	}
+	{Volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 30}  
+	}
+	{mass 32000}
+}

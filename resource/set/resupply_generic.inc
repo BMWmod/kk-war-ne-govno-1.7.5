@@ -703,6 +703,7 @@
 	{item "9m317 buk ammo" 2 {max 4}{value 25}}				
 	{item "9m311 ammo" 2 {max 8}{value 25}}
     {item "9m33_rocket ammo" 2 {max 12}{value 9}}
+	{item "3m8_krug_rocket ammo" 1 {max 2}{value 35}}
 	{item "3m9_kub_rocket ammo" 1 {max 3}{value 25}}
 	{item "pantsir 57e6e ammo" 6 {max 12}{value 20}}
     {item "r_27er ammo" 1 {max 6}{value 5}}				

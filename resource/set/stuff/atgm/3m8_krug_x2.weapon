@@ -1,0 +1,15 @@
+{from "pattern proj_weapon"
+ {tag "gun"}
+ {filling "ammo 3m8_krug_rocket" 2}
+ {fillingVisible "rocket"}
+ {fireSound "bazooka/kub_Launch"}
+ {mass 50}
+ {recoveryTime 14}
+ {rechargeTime 200}
+ {AimingTolerance 0.5}
+ {inventory {noView}}
+ {maxRange 380}
+ {aimRange 360}
+ {cursor "cannon_on_aa"}
+ {cursorReloading "cannon_reload_fg"}
+}

@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "krug_tracks" {MipMap 1}}
+ {blend test}
+}

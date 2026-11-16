@@ -1,0 +1,7 @@
+{actor
+ (include "/properties/projectile_impactor.ext")
+ {Extension "3m8_krug.mdl"}
+ {props "projectile_impactor"}
+ {extender "stuff" {item "3m8_krug_impactor"}}
+ {volume "body" {able {contact} {bullet} {blast} {contact_ground}}}
+}

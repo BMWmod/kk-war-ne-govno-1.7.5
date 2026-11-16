@@ -37,6 +37,10 @@
 {"ural-4320_long_tent_h" {fore 1} ("v" c(100) sc(69) g(ural_heavy) b(supl) brig(common) s(srbsk)  i(2) cw(0) cp(5) t(all_nz   ) n(2)               ) } 
 {"ural-4320_fuel_serb" {fore 0} ("v_explicit" c(300) sc(96) g(fuel)   b(supl) brig(common)s(srbsk)  i(17) cw(0) cp(15) t(all_nz   ) c1(ural-4320_fuel) n(1) n1(tankman:1)      ) {content "ural-4320_fuel ( mp2/srbsk/tankman:1 )"} }
 
+; NSO medium-range SAM; Shift-Q deployment, external radar illumination.
+{"2k11_krug" {fore 0} ("v" c(600) sc(240) g(pvo_krug) b(supl) brig(common) s(srbsk) i(67825) cw(0) cp(20) t(all_nz aat antiair support_frontline) n(4))}
+ {"1s91_kub_radar" {fore 0.0} ("v" c(600) sc(140) g(kupol)  b(supl) brig(common) s(srbsk)  i(21) cw(0) cp(15) t(all_nz art support_frontline  ) n(3)               ) }
+
  {"Shilka_SERB" {fore 0} ("v_explicit" c(300) sc(150) g(pvo2)  b(supl) brig(common) s(srbsk)  i(15) cw(0) cp(15) t(all_nz   ) c1(Shilka) n(1) n1(vehicle_supporter:4)      ) {content "Shilka ( mp2/srbsk/vehicle_supporter:4 )"} }
  {"yaz_patrior_zu23_2" {fore 1} ("v" c(100) sc(69) g(uaz25) b(supl) brig(common) s(srbsk)  i(4) cw(0) cp(10) t(all_nz   ) n(3)             ) }
 	
@@ -98,7 +102,6 @@
  {"tochka_y" {fore 0.0} ("v" c(1330) sc(350) g(otrk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(7) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
  
  {"2k12_kub" {fore 0.0} ("v" c(600) sc(160) g(buk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(20) cw(0) cp(15) t(all_nz art aat support_frontline  ) n(3)               ) }
- {"1s91_kub_radar" {fore 0.0} ("v" c(600) sc(140) g(kupol)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(21) cw(0) cp(15) t(all_nz art support_frontline  ) n(3)               ) }
  
  ;{"l39_serb" {fore 0.4} ("p" c(700) sc(150) g(susem) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(8791) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  {"su-25sm_support_light_ser" {fore 0} ("v_explicit" c(600) sc(100) g(su25) b(extra) brig(srbs_vdv) s(srbsk)  i(3393) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) {content "su-25sm_support_light ( mp2/srbsk/pilot:1 )"} }
