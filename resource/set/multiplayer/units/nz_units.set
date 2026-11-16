@@ -1,8 +1,8 @@
-; Name fore  Timer Cost Group Button Brigade Nation Crew_nat ¹  CP Tags Replace tabs to spaces                    
+; Name fore  Timer Cost Group Button Brigade Nation Crew_nat   CP Tags Replace tabs to spaces                    
 
 
 
-;===============================Ñåğá===========================================                                   
+;==========================================================================                                   
 ;===============================Common===========================================                                   
 ("squad_with11types_custom" side(srbsk) crew_nation(srbsk) name(srbsk_non_mech_peha) c(170) g(srbsk_non_mech_peha1) 
   c1(1st_com) c2(1st_mg:1) c3(1st_rpg2:1) c4(1st_smg:1) c5(1st_smg2:1) c6(1st_smg3:1) c7(1st_smg4:1) c8(1st_snuper:1) 
@@ -28,7 +28,7 @@
 
  {"2K22" {fore 0} ("v_explicit" c(269) sc(150) g(pvo2)  b(common) brig(common) s(srbsk)  i(798) cw(0) cp(15) t(all_nz   ) c1(tunguska) n(1) n1(tankman:4)      ) {content "tunguska ( mp2/srbsk/tankman:4 )"} }
  
-;==================================Ñàïîğò===================
+;=====================================================
 
 ("squad_with2types" name(tankman) f(1)  c(1) cost(5) g(eng2) b(supl) brig(common) side(srbsk)     t(all_nz    ) info(tankman) c1(tankman:2)              ) 
 ("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(5) g(support) b(supl) brig(common) side(srbsk)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:4)              ) 
@@ -37,8 +37,7 @@
 {"ural-4320_long_tent_h" {fore 1} ("v" c(100) sc(69) g(ural_heavy) b(supl) brig(common) s(srbsk)  i(2) cw(0) cp(5) t(all_nz   ) n(2)               ) } 
 {"ural-4320_fuel_serb" {fore 0} ("v_explicit" c(300) sc(96) g(fuel)   b(supl) brig(common)s(srbsk)  i(17) cw(0) cp(15) t(all_nz   ) c1(ural-4320_fuel) n(1) n1(tankman:1)      ) {content "ural-4320_fuel ( mp2/srbsk/tankman:1 )"} }
 
-; NSO medium-range SAM; Shift-Q deployment, external radar illumination.
-{"2k11_krug" {fore 0} ("v" c(600) sc(240) g(pvo_krug) b(supl) brig(common) s(srbsk) i(67825) cw(0) cp(20) t(all_nz aat antiair support_frontline) n(4))}
+ {"2k11_krug" {fore 0} ("v" c(600) sc(110) g(pvo_krug) b(supl) brig(common) s(srbsk) i(67825) cw(0) cp(20) t(all_nz aat antiair support_frontline) n(4))}
  {"1s91_kub_radar" {fore 0.0} ("v" c(600) sc(140) g(kupol)  b(supl) brig(common) s(srbsk)  i(21) cw(0) cp(15) t(all_nz art support_frontline  ) n(3)               ) }
 
  {"Shilka_SERB" {fore 0} ("v_explicit" c(300) sc(150) g(pvo2)  b(supl) brig(common) s(srbsk)  i(15) cw(0) cp(15) t(all_nz   ) c1(Shilka) n(1) n1(vehicle_supporter:4)      ) {content "Shilka ( mp2/srbsk/vehicle_supporter:4 )"} }
@@ -46,7 +45,7 @@
 	
 {"pzrk_serbs" {fore 1} ("v_explicit" c(500) sc(90) g(pzrk)  b(supl) brig(common) s(srbsk)  i(55) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(pzrk:3)  	) {content "yaz_patrior ( mp2/srbsk/vehicle_supporter:1 mp2/srbsk/pzrk:3 )"}}
 
-;==================================Ìîòîáğèãàäà===================
+;=====================================================
 
 {"yaz_patrior_kornet" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 {"2121_atgm" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(222) cw(0) cp(15) t(all_nz   ) n(2)               ) }
@@ -63,7 +62,7 @@
  {"brem-1_s" {fore 1} ("v" c(220) sc(100) g(NEtonk3)  b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(8888) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 
 
-;==================Ìîáèëüíàÿ áğèãàäà==========================
+;================== ==========================
  
  
 	("squad_with11types" side(srbsk) name(VDV_Z_NEBA_PRIVET) c(280) g(inf) 
@@ -82,7 +81,7 @@
  {"bmp1_new" {fore 1} ("v_explicit" c(300) sc(50) g(bmp1)  b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(10) cw(0) cp(15) t(all_nz   ) c1(bmp1_new) n(1) n1(tankman:3)      ) {content "bmp1_new ( mp2/srbsk/tankman:3 )"} }
  
 
-;========== Àğòáğ	èãàäà    
+;========== 	    
  
 {"furgon" {fore 1} ("v_explicit" c(550) sc(200) g(FPV_OPERATOR)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(1st_com:1) n2(spotter:1)     ) {content "furgon ( mp2/srbsk/1st_com:1 mp2/srbsk/spotter:1 )"} }
 
@@ -107,7 +106,7 @@
  {"su-25sm_support_light_ser" {fore 0} ("v_explicit" c(600) sc(100) g(su25) b(extra) brig(srbs_vdv) s(srbsk)  i(3393) cw(0) cw(2) cp(15) t(all_nz aircraft ) c1(su-25sm_support_light) n(1) n1(pilot:1)  ) {content "su-25sm_support_light ( mp2/srbsk/pilot:1 )"} }
  {"mi-24v" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(srbs_art_hqcar) brig(srbs_vdv) s(srbsk)  i(666) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
  
-;==================Èíîñòğàííûå ÷åëèêñû ====
+;==================  ====
 
 
  {"uh_1h_serb" {fore 1} ("v_explicit" c(669) sc(155) g(inf_mech_cpec_78) b(srbs_pmc_hqcar) brig(srbs_vdv) s(srbsk)  i(48988) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(uh_1h_serb) n(1) n1(pilot:2) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg3:1) n6(vdv_smg4:1)  ) {content "uh_1h_serb ( mp2/srbsk/pilot:2 mp2/srbsk/vdv_mg:1 mp2/srbsk/vdv_rpg:1 mp2/srbsk/vdv_com:1 mp2/srbsk/vdv_smg3:1 mp2/srbsk/vdv_smg4:1 )"} }
@@ -133,7 +132,7 @@
 
  {"at_serbs" {fore 0.9} ("v_explicit" c(500) sc(111) g(atat)  b(srbs_pmc_hqcar) brig(srbs_pmc)s(srbsk)  i(55) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(at2:2) n3(at2_2:2) 	) {content "yaz_patrior ( mp2/srbsk/vehicle_supporter:1 mp2/srbsk/at2:2 mp2/srbsk/at2_2:2 )"}}
 
- ;================ ÑÏÅÖ Î×ÊÈ ÑÅĞÁÛ
+ ;================   
  
  
  {"ka50" {fore 0.4} ("p" c(900) sc(250) g(mi24) b(extra) brig(srbs_vdv) s(srbsk)  i(1) m(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
