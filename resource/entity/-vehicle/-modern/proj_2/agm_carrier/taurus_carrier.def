@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "agm_carrier_forward.mdl"}
+	("missile_placer" missile("taurus_impactor_link") country(usa) type(other) calibre(900)
+	speed(normal) guidance())
+	("maneuvrability_cwps3" deg_per_s(25))
+	("cwps_rangefinder")
+	("LR_missile"  country(usa) type(other))
+	("targetable_missile")
+	{targetSelector "corr"}
+}

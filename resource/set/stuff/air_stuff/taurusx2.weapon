@@ -1,0 +1,18 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{filling "ammo taurus" 2}
+	{fillingVisible "taurus"}	
+	{foresight "Foresight7"}
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{recoveryTime 1}
+	{rechargeTime 220}
+	{inventory {noView}}
+	{maxRange 700}	;500 км
+	{aimRange 700}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_9"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

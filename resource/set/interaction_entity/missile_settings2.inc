@@ -838,9 +838,10 @@
 	}
 	("speed_fast" coeff(1.14))
 }
-{("CWPS_proj_2stage" missilename(taurus) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range40plus(40) tail(proj_jet_main) eng_time(3))
+;Taurus (Tornado GR4 / Eurofighter): 3-stage carrier = 120 stages (was 2-stage, 80); wings deploy only on the first carrier
+{("CWPS_proj_3stage" missilename(taurus) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range80plus(40) tail(proj_jet_main) eng_time(3))
 	{on "launch_procedures"
-		{delay 0.1 {if tagged "cwps_extended_range" {with_linked_entity "missile" {ani_play "on_start"}}}
+		{delay 0.1 {if not tagged "cwps_not_first_stage" {with_linked_entity "missile" {ani_play "on_start"}}}
 			{tear "piece_small_steel" bone "part1" {impulse forward 25}}
 			{tear "piece_small_steel" bone "part2" {impulse forward 25}}
 		}
