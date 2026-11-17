@@ -57,9 +57,9 @@
 		        {teams
 		            {a
 		                {unitset
-		                	{value "all_nz|additional^no_frontline"}
+		                	{value "all_nz|additional^no_frontline|hqcar"}
 		                }
-		                {commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
+		                {commandPoints "*=400"} 
                         {unitLimits "tankman=6;strike=1;vs=4;p=2"}
 		                {balancingFactorBonus {cp 1.0} {mp 1.0}}
 		                {chargeFactors
@@ -73,15 +73,15 @@
                                ; vanilla frontline: attackers get +500 reinforcements every 180 s
 		                		{buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar  srbs_mot_hqcar srbs_vdv_hqcar srbs_art_hqcar srbs_pmc_hqcar avia_odkb_hqcar art_odkb_hqcar ukr_odkb_hqcar bel_odkb_hqcar kz_odkb_hqcar isis_vvs_hqcar avia_ua_hqcar ppo_ua_hqcar art_ua_hqcar vsu_ua_hqcar ngu_ua_hqcar sso_ua_hqcar brt_ua_hqcar mchbrun_hqcar frenchun_hqcar chinaun_hqcar"}
 			                }
-		                	("hq_cars" hq_restore_speed(%hq_restore_speed) size(148))
+		                	{hqcardummy {mode "standard"} {resource {start 1} {finish 5} {growTime 70} {growTable "0.45"}} {buttons "hqcar"}}
 		                } 
 						
 		            }
 		            {b
 		                {unitset
-		                	{value "all_nz|additional^no_frontline"}
+		                	{value "all_nz|additional^no_frontline|hqcar"}
 		                }
-		                {commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
+		                {commandPoints "*=320"} 
                         {unitLimits "tankman=6;strike=1;vs=4;p=2"}
 		                {balancingFactorBonus {cp 1.0} {mp 0.6}}
 		                {chargeFactors
@@ -95,7 +95,7 @@
                                ; vanilla frontline: limited defence money, slow restore + phase bonus
 		                	    {buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar  srbs_mot_hqcar srbs_vdv_hqcar srbs_art_hqcar srbs_pmc_hqcar avia_odkb_hqcar art_odkb_hqcar ukr_odkb_hqcar bel_odkb_hqcar kz_odkb_hqcar isis_vvs_hqcar avia_ua_hqcar ppo_ua_hqcar art_ua_hqcar vsu_ua_hqcar ngu_ua_hqcar sso_ua_hqcar brt_ua_hqcar mchbrun_hqcar frenchun_hqcar chinaun_hqcar"}
 			                }
-		                	("hq_cars" hq_restore_speed(%hq_restore_speed) size(184))
+		                	{hqcardummy {mode "standard"} {resource {start 1} {finish 5} {growTime 70} {growTable "0.45"}} {buttons "hqcar"}}
 		                }
 						
 		            }

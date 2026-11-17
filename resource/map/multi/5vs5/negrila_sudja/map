@@ -75,6 +75,38 @@
 			{viewAngle 20 50}
 			{water -30}
 		}
+		{"players1"
+			{world -15000 0 15000 4000}
+			{camera -15000 0 15000 4000}
+			{pather -15000 0 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"players2"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"players3"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"players4"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
 	}
 	{Ocean
 		{active}
