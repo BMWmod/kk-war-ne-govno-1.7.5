@@ -248,7 +248,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle
@@ -274,7 +274,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=0.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle
@@ -300,7 +300,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle
@@ -327,7 +327,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.25 *=0.5 *=0.6 *=0.7 *=0.8 *=0.9 *=1.0 *=1.1 *=1.2 *=1.3 *=1.4 *=1.5 *=2.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle 
@@ -353,7 +353,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle 
@@ -379,7 +379,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle 
@@ -405,7 +405,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle
@@ -431,7 +431,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle
@@ -458,7 +458,7 @@
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
 		{chargeFactors
 			{value "*=1.0"}
-			{available "*=0 *=0.5 *=1.0 *=1.5 *=2.0 *=2.5 *=5.0 *=10.0"}
+			{available "*=0 *=0.25 *=0.5 *=0.75 *=1.0 *=1.5"}
 		}
 		{budgets
 			{vehicle 
