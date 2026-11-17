@@ -220,7 +220,7 @@
 		{MID 11}
 	}
 	{Entity "flag_point_frontlines" 0x800b
-		{Position 16615.50 -3274.93}
+		{Position 16511.20 -1988.00}
 		{Extender "map_point"
 			{name f34}
 			{team b}
@@ -384,7 +384,7 @@
 		{MID 24}
 	}
 	{Entity "map_point" 0x8018
-		{Position -18040.00 -2700.00}
+		{Position -18040.00 -2500.00}
 		{xform zl 0.00}
 		{Extender "map_point"
 			{name a14}
@@ -402,7 +402,7 @@
 		{MID 25}
 	}
 	{Entity "spawn_point" 0x8019
-		{Position -18000.00 -2860.00}
+		{Position -18000.00 -2660.00}
 		{xform zl 0.00}
 		{Extender "spawn_point"
 			{mapPoint a14}
@@ -412,7 +412,7 @@
 		{MID 26}
 	}
 	{Entity "spawn_point" 0x801a
-		{Position -18000.00 -2700.00}
+		{Position -18000.00 -2500.00}
 		{xform zl 0.00}
 		{Extender "spawn_point"
 			{mapPoint a14}
@@ -422,7 +422,7 @@
 		{MID 27}
 	}
 	{Entity "spawn_point" 0x801b
-		{Position -18000.00 -2540.00}
+		{Position -18000.00 -2340.00}
 		{xform zl 0.00}
 		{Extender "spawn_point"
 			{mapPoint a14}
@@ -432,7 +432,7 @@
 		{MID 28}
 	}
 	{Entity "map_point" 0x801c
-		{Position -3460.00 2980.00}
+		{Position -3460.00 2580.00}
 		{xform zl 0.00}
 		{Extender "map_point"
 			{name a21}
@@ -450,7 +450,7 @@
 		{MID 29}
 	}
 	{Entity "spawn_point" 0x801d
-		{Position -3420.00 2820.00}
+		{Position -3420.00 2420.00}
 		{xform zl 0.00}
 		{Extender "spawn_point"
 			{mapPoint a21}
@@ -460,7 +460,7 @@
 		{MID 30}
 	}
 	{Entity "spawn_point" 0x801e
-		{Position -3420.00 2980.00}
+		{Position -3420.00 2580.00}
 		{xform zl 0.00}
 		{Extender "spawn_point"
 			{mapPoint a21}
@@ -470,7 +470,7 @@
 		{MID 31}
 	}
 	{Entity "spawn_point" 0x801f
-		{Position -3420.00 3140.00}
+		{Position -3420.00 2740.00}
 		{xform zl 0.00}
 		{Extender "spawn_point"
 			{mapPoint a21}

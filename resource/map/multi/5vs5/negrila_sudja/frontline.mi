@@ -1392,7 +1392,7 @@
 		{MID 108}
 	}
 	{Entity "map_point" 0x806c
-		{Position 14890.00 2380.00}
+		{Position 14590.00 2380.00}
 		{xform zl 180.00}
 		{Extender "map_point"
 			{name b41}
@@ -1410,7 +1410,7 @@
 		{MID 109}
 	}
 	{Entity "spawn_point" 0x806d
-		{Position 14850.00 2220.00}
+		{Position 14550.00 2220.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b41}
@@ -1420,7 +1420,7 @@
 		{MID 110}
 	}
 	{Entity "spawn_point" 0x806e
-		{Position 14850.00 2380.00}
+		{Position 14550.00 2380.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b41}
@@ -1430,7 +1430,7 @@
 		{MID 111}
 	}
 	{Entity "spawn_point" 0x806f
-		{Position 14850.00 2540.00}
+		{Position 14550.00 2540.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b41}
@@ -1440,7 +1440,7 @@
 		{MID 112}
 	}
 	{Entity "map_point" 0x8070
-		{Position 14890.00 780.00}
+		{Position 14590.00 780.00}
 		{xform zl 180.00}
 		{Extender "map_point"
 			{name b42}
@@ -1458,7 +1458,7 @@
 		{MID 113}
 	}
 	{Entity "spawn_point" 0x8071
-		{Position 14850.00 620.00}
+		{Position 14550.00 620.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b42}
@@ -1468,7 +1468,7 @@
 		{MID 114}
 	}
 	{Entity "spawn_point" 0x8072
-		{Position 14850.00 780.00}
+		{Position 14550.00 780.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b42}
@@ -1478,7 +1478,7 @@
 		{MID 115}
 	}
 	{Entity "spawn_point" 0x8073
-		{Position 14850.00 940.00}
+		{Position 14550.00 940.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b42}
@@ -1488,7 +1488,7 @@
 		{MID 116}
 	}
 	{Entity "map_point" 0x8074
-		{Position 14890.00 -820.00}
+		{Position 14590.00 -820.00}
 		{xform zl 180.00}
 		{Extender "map_point"
 			{name b43}
@@ -1506,7 +1506,7 @@
 		{MID 117}
 	}
 	{Entity "spawn_point" 0x8075
-		{Position 14850.00 -980.00}
+		{Position 14550.00 -980.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b43}
@@ -1516,7 +1516,7 @@
 		{MID 118}
 	}
 	{Entity "spawn_point" 0x8076
-		{Position 14850.00 -820.00}
+		{Position 14550.00 -820.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b43}
@@ -1526,7 +1526,7 @@
 		{MID 119}
 	}
 	{Entity "spawn_point" 0x8077
-		{Position 14850.00 -660.00}
+		{Position 14550.00 -660.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b43}
@@ -1536,7 +1536,7 @@
 		{MID 120}
 	}
 	{Entity "map_point" 0x8078
-		{Position 14890.00 -2420.00}
+		{Position 14590.00 -2420.00}
 		{xform zl 180.00}
 		{Extender "map_point"
 			{name b44}
@@ -1554,7 +1554,7 @@
 		{MID 121}
 	}
 	{Entity "spawn_point" 0x8079
-		{Position 14850.00 -2580.00}
+		{Position 14550.00 -2580.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b44}
@@ -1564,7 +1564,7 @@
 		{MID 122}
 	}
 	{Entity "spawn_point" 0x807a
-		{Position 14850.00 -2420.00}
+		{Position 14550.00 -2420.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b44}
@@ -1574,7 +1574,7 @@
 		{MID 123}
 	}
 	{Entity "spawn_point" 0x807b
-		{Position 14850.00 -2260.00}
+		{Position 14550.00 -2260.00}
 		{xform zl 180.00}
 		{Extender "spawn_point"
 			{mapPoint b44}

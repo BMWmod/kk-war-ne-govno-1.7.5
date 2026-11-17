@@ -68,7 +68,9 @@
 		                }
 		                {budgets
 		                	{vehicle 
-                               ("periodical_update" start(350) finish(8000))
+                               {mode "with_update"}
+                               {resource {start 5000} {finish 5000} {speed 500} {period 180}}
+                               ; vanilla frontline: attackers get +500 reinforcements every 180 s
 		                		{buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar  srbs_mot_hqcar srbs_vdv_hqcar srbs_art_hqcar srbs_pmc_hqcar avia_odkb_hqcar art_odkb_hqcar ukr_odkb_hqcar bel_odkb_hqcar kz_odkb_hqcar isis_vvs_hqcar avia_ua_hqcar ppo_ua_hqcar art_ua_hqcar vsu_ua_hqcar ngu_ua_hqcar sso_ua_hqcar brt_ua_hqcar mchbrun_hqcar frenchun_hqcar chinaun_hqcar"}
 			                }
 		                	("hq_cars" hq_restore_speed(%hq_restore_speed) size(148))
@@ -88,7 +90,9 @@
 		                }
 		                {budgets
 		                	{vehicle 
-                               ("periodical_update" start(300) finish(8000))
+                               {mode "standard"}
+                               {resource {start 2000} {finish 2000} {restoreBegin 0.50} {restoreEnd 0.50}}
+                               ; vanilla frontline: limited defence money, slow restore + phase bonus
 		                	    {buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar  srbs_mot_hqcar srbs_vdv_hqcar srbs_art_hqcar srbs_pmc_hqcar avia_odkb_hqcar art_odkb_hqcar ukr_odkb_hqcar bel_odkb_hqcar kz_odkb_hqcar isis_vvs_hqcar avia_ua_hqcar ppo_ua_hqcar art_ua_hqcar vsu_ua_hqcar ngu_ua_hqcar sso_ua_hqcar brt_ua_hqcar mchbrun_hqcar frenchun_hqcar chinaun_hqcar"}
 			                }
 		                	("hq_cars" hq_restore_speed(%hq_restore_speed) size(184))

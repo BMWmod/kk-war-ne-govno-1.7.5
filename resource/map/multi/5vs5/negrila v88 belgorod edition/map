@@ -10,6 +10,62 @@
 			{distance 0 5000}
 			{viewAngle 20 50}
 		}
+		{"frontline0a"
+			{world -25000 -3000 -5000 3000}
+			{camera -25000 -3000 -5000 3000}
+			{pather -25000 -3000 -5000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
+		{"frontline0b"
+			{world -2000 -3000 25000 3000}
+			{camera -2000 -3000 25000 3000}
+			{pather -2000 -3000 25000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
+		{"frontline1a"
+			{world -25000 -3000 25000 3000}
+			{camera -25000 -3000 25000 3000}
+			{pather -25000 -3000 25000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
+		{"frontline1b"
+			{world -25000 -3000 25000 3000}
+			{camera -25000 -3000 25000 3000}
+			{pather -25000 -3000 25000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
+		{"frontline2a"
+			{world -25000 -3000 25000 3000}
+			{camera -25000 -3000 25000 3000}
+			{pather -25000 -3000 25000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
+		{"frontline2b"
+			{world -25000 -3000 25000 3000}
+			{camera -25000 -3000 25000 3000}
+			{pather -25000 -3000 25000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
+		{"frontline3a"
+			{world -25000 -3000 25000 3000}
+			{camera -25000 -3000 25000 3000}
+			{pather -25000 -3000 25000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
+		{"frontline3b"
+			{world -25000 -3000 25000 3000}
+			{camera -25000 -3000 25000 3000}
+			{pather -25000 -3000 25000 3000}
+			{distance 0 5000}
+			{viewAngle 20 50}
+		}
 	}
 	{Ocean
 		{active 0}

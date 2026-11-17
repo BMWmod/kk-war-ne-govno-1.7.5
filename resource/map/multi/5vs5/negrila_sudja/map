@@ -11,6 +11,70 @@
 			{viewAngle 20 50}
 			{water -30}
 		}
+		{"frontline0a"
+			{world -15000 -4000 -10000 4000}
+			{camera -15000 -4000 -10000 4000}
+			{pather -15000 -4000 -10000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"frontline0b"
+			{world -7000 -4000 15000 4000}
+			{camera -7000 -4000 15000 4000}
+			{pather -7000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"frontline1a"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"frontline1b"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"frontline2a"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"frontline2b"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"frontline3a"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
+		{"frontline3b"
+			{world -15000 -4000 15000 4000}
+			{camera -15000 -4000 15000 4000}
+			{pather -15000 -4000 15000 4000}
+			{distance 0 3500}
+			{viewAngle 20 50}
+			{water -30}
+		}
 	}
 	{Ocean
 		{active}
