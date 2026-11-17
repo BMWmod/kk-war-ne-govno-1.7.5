@@ -384,6 +384,22 @@
 ("jdam_er_selector" n(02))
 ("jdam_er_selector" n(03))
 
+	{proj_aasm_gps
+		{"usa_gps cwps2" {volume "target_gbu"}}
+	}
+
+(define "aasm_selector"
+	{proj_aasm_gps_%n
+		{"usa_gps cwps2" {ground}}
+	}
+)
+("aasm_selector" n(00))
+("aasm_selector" n(01))
+("aasm_selector" n(02))
+("aasm_selector" n(03))
+("aasm_selector" n(04))
+("aasm_selector" n(05))
+
 	{proj_umpk_500_gps
 		{"rus_gps cwps2" {volume "target_gbu"}}	
 	}

@@ -155,6 +155,28 @@
 ("jdam_er_selector" x(02) a(01) b(00) c(03))
 ("jdam_er_selector" x(03) a(01) b(02) c(00))
 
+
+(define "aasm_selector"
+{selector
+	{type "aasm_%x"}
+	{group
+		{sort {in_range 5000} {class proj_aasm_gps_%x}}
+		{sort {in_range 10} {class proj_aasm_gps}}
+		{ignore {class proj_aasm_gps_%a}}
+		{ignore {class proj_aasm_gps_%b}}
+		{ignore {class proj_aasm_gps_%c}}
+		{ignore {class proj_aasm_gps_%d}}
+		{ignore {class proj_aasm_gps_%e}}
+	}
+}
+)
+("aasm_selector" x(00) a(01) b(02) c(03) d(04) e(05))
+("aasm_selector" x(01) a(00) b(02) c(03) d(04) e(05))
+("aasm_selector" x(02) a(00) b(01) c(03) d(04) e(05))
+("aasm_selector" x(03) a(00) b(01) c(02) d(04) e(05))
+("aasm_selector" x(04) a(00) b(01) c(02) d(03) e(05))
+("aasm_selector" x(05) a(00) b(01) c(02) d(03) e(04))
+
 (define "umpk_500_selector"
 {selector
 	{type "umpk_500_%x"}

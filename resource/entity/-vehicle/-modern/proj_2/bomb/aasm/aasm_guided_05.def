@@ -1,0 +1,5 @@
+{actor
+	(include "aasm_guided.inc")
+	{targetselector "aasm_05"}
+	{props "aasm_guided_05"}
+}

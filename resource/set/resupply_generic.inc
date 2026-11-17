@@ -647,6 +647,8 @@
 	{item "9m330 ammo" 2 {max 8}{value 20}}	
 	{item "shershen cm ammo" 2 {max 4}{value 9}}
     {item "shershen fg ammo" 2 {max 4}{value 9}}	
+	{item "p2c cm ammo" 2 {max 4}{value 9}}				;Barrier (NEU p2c)
+	{item "p2c fg ammo" 2 {max 4}{value 9}}
 	
 )
 (define "atgm_usa"
@@ -802,6 +804,7 @@
 	{item "gbu-31 ammo" 1 {max 2}{value 30}}				
 	{item "gbu-38 ammo" 1 {max 4}{value 30}}
 	{item "jdam_er ammo" 1 {max 4}{value 30}}
+	{item "aasm ammo" 1 {max 6}{value 15}}
 	{item "gbu28 ammo" 1 {max 1}{value 60}}
     {item "sdb1 ammo" 8 {max 16}{value 150}}	
 	{item "jsm ammo" 1 {max 6}{value 100}}

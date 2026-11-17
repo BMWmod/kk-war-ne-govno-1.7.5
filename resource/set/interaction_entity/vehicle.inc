@@ -731,7 +731,7 @@
 	{
 		on bullet_hit
 		{
-			if stuff "gbu39_gps ammo"					("proj_point_spawn_distributor" bomb(gbu39))				else stuff "gbu53b_gps ammo"					("proj_point_spawn_distributor" bomb(gbu53b))				else stuff "jdam_er_gps ammo"					("proj_point_spawn_distributor" bomb(jdam_er))				else stuff "umpk_500_gps ammo"					("proj_point_spawn_distributor" bomb(umpk_500))				else stuff "ls6_gps ammo"					("proj_point_spawn_distributor" bomb(ls6))				else stuff "csbbm2_gps ammo"					("proj_point_spawn_distributor" bomb(csbbm2)) else stuff "umpk_3000_gps ammo"			("proj_point_spawn_distributor" bomb(umpk_3000))	else stuff "storm_shadow_gps ammo"	("proj_point_spawn_distributor" bomb(storm_shadow))
+			if stuff "gbu39_gps ammo"					("proj_point_spawn_distributor" bomb(gbu39))				else stuff "gbu53b_gps ammo"					("proj_point_spawn_distributor" bomb(gbu53b))				else stuff "jdam_er_gps ammo"					("proj_point_spawn_distributor" bomb(jdam_er))		else stuff "aasm_gps ammo"			("proj_point_spawn_distributor" bomb(aasm))				else stuff "umpk_500_gps ammo"					("proj_point_spawn_distributor" bomb(umpk_500))				else stuff "ls6_gps ammo"					("proj_point_spawn_distributor" bomb(ls6))				else stuff "csbbm2_gps ammo"					("proj_point_spawn_distributor" bomb(csbbm2)) else stuff "umpk_3000_gps ammo"			("proj_point_spawn_distributor" bomb(umpk_3000))	else stuff "storm_shadow_gps ammo"	("proj_point_spawn_distributor" bomb(storm_shadow))
 		}
 		{
 			if stuff "blinding_laser"

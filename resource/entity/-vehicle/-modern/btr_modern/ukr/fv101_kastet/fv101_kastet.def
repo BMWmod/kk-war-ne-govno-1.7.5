@@ -62,6 +62,7 @@
 			{item "f1 grenade" 9}
 			{item "PG-7VL rpg7 ammo" 3}
 			{item "ammo p2c cm" 2}
+			{item "repair_kit" 1}
 		}
 	}
 	{Weaponry

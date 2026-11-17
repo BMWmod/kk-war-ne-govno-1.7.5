@@ -49,8 +49,8 @@
             {item "ammo mortar pdb" 120}          
 			{item "pkt" filled {user "mgun"}}
 	  		{item "f1 grenade" 9}
-			{item "ammo shershen cm" 2}
-			{item "ammo shershen fg" 2}
+			{item "ammo p2c cm" 2}
+			{item "ammo p2c fg" 2}
 		}
 	}
     {Weaponry
@@ -64,7 +64,7 @@
 			("CW_stab_ld_suo")
         }     
 		{place "gun2"
-			{weapon "weapon shershenx2" filling "ammo shershen cm" 2}
+			{weapon "barier_x2_l" filling "ammo p2c cm" 2}
 			{foresight "foresight6"}
 			{gunner "gunner"}
 			{charger "gunner"}

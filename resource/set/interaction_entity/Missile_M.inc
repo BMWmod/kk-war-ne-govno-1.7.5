@@ -8488,6 +8488,106 @@
 	("proj_impulse_movement" cont_impulse(10) main_impulse(3) const_vel(60))
 }
 {
+	"aasm_guided"
+	; AASM: hangs upright (no flip). Tail fins slide out right after release,
+	; rocket motor lights at 0.9 s (smoke trail, jet, sound) and kicks the bomb into a steep climb at 1 s;
+	; guidance steers the whole flight onto the GPS ground point (AASM selector has no target_gorka).
+	; Twice the JDAM speed (const_vel 120); main_impulse doubled too, so the turn radius stays JDAM-like (no overshoot).
+	{
+		on "on_spawn_custom"
+		{
+			impulse up -1 forward 48 2 com
+		}
+		{
+			constrain_velocity 120
+		}
+		{
+			delay 0.05
+			{
+				with_linked_entity "missile"
+				{
+					ani_play "open_fins" 1.0
+				}
+			}
+		}
+		{
+			delay 0.9
+			{
+				add_view	"proj_smoke"		"proj_tail"		"root"
+			}
+			{
+				add_view	"proj_smoke30"		"proj_tail30"		"root"
+			}
+			{
+				add_view	"proj_smoke20"		"proj_tail20"		"root"
+			}
+			{
+				add_view	"proj_smoke10"		"proj_tail10"		"root"
+			}
+			{
+				view start "proj_tail"
+			}
+			{
+				link_sound "fly"	"vehicle/engine/missile/missileengine"
+			}
+			{
+				play_sound "fly" 1
+			}
+			{
+				with_linked_entity "missile"
+				{
+					add_view	"proj_jet_sam"			"proj_jet"			"tail"
+				}
+				{
+					view start "proj_jet"
+				}
+			}
+		}
+		; guidance is on for the whole flight (from 0.2 s), steering at the GPS ground point;
+		; the motor gives one climb kick at 1 s, after that the guidance pulls it onto the target
+		{
+			delay 0.2
+			{
+				ik_enable "gun_rot" 1
+			}
+			{
+				ik_enable "gun" 1
+			}
+		}
+		{
+			delay 1.0
+			{
+				impulse up 10 forward 20 com
+			}
+		}
+		{
+			delay 25
+			{
+				call "fall"
+			}
+		}
+	}
+	{
+		on "fall"
+		{
+			stop_sound "fly"
+		}
+		{
+			view stop "proj_tail"
+		}
+		{
+			with_linked_entity "missile"
+			{
+				view stop "proj_jet"
+			}
+			{
+				view hide "proj_jet"
+			}
+		}
+	}
+	("proj_impulse_movement" cont_impulse(10) main_impulse(24) const_vel(120))
+}
+{
 	"jdam_er_guided"
 	{
 		on "on_spawn_custom"

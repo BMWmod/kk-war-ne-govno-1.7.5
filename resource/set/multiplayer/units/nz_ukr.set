@@ -86,6 +86,9 @@
  ;Байрактар
  {"bayraktar_tb2_maml_ukr" {fore 0} ("v_explicit" c(600) sc(230) g(bayraktar) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1081) cw(0) cp(69) t(all_nz) c1(bayraktar_tb2_maml) n(1)) {content "bayraktar_tb2_maml ( )"} }
 
+ ;Мираж 2000-5 (6 AASM)
+ {"mirage2000_5" {fore 0} ("v_explicit" c(600) sc(350) g(air_mirage_ua) b(avia_ua_hqcar) brig(avia_ua) s(ukr)  i(1085) cw(0) cp(69) t(all_nz) c1(mirage2000_5) n(1) n1(pilot:1) ) {content "mirage2000_5 ( mp2/ukr/pilot:1 )"} }
+
 
 ;=========================================ПВО=================================
 

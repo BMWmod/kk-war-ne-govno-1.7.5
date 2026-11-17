@@ -1,0 +1,12 @@
+{actor
+(include "/properties/proj_point_gps_ground.ext")
+
+{targetClass 	"proj_aasm_gps_04"}
+; AASM cruise point: own volume (target_gorka is already defined in proj_point_gps_ground.ext - redefining it crashes)
+{Volume "target_gorka_aasm"
+	{Box 25 25 25}
+	{Bone "basis"}
+	{Position 0	0	700}
+}
+{Volume "target_gorka_aasm" {able clear {visible} {bullet 1} {select 0}} {Thickness 0.1} {tags "1"} {component "body"}}
+}

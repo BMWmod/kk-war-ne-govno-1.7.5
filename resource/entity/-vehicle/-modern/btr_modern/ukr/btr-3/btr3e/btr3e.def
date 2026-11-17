@@ -24,6 +24,7 @@
 			{item "rpg7 weapon" 1}
 	  		{item "f1 grenade" 9}
 			{item "PG-7VL rpg7 ammo" 3}
+			{item "ammo p2c cm" 2}
                         
 		}
 	}
@@ -105,7 +106,7 @@
                 }
 		{place "gun2"
                         
-			{weapon "weapon shershenx2" filling "ammo shershen cm" 2}
+			{weapon "barier_x2_l" filling "ammo p2c cm" 2}
 			{foresight "foresight6"}
                         {gunner "gunner"}
 			{charger "gunner"}

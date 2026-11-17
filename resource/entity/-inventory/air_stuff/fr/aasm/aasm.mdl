@@ -1,0 +1,79 @@
+; AASM HAMMER-250 (SBU-38) guided bomb; body + 4 tail fins (aasm_fin1..4), "open_fins" deploys them
+{Skeleton
+	{animation
+		{sequence "open_fins" {Speed 0.5}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "aasm"
+			{VolumeView "aasm.ply"}
+			{bone "tail"
+				{Parameters "Voxels=0;"}
+				{Matrix34
+					1	0	0
+					0	0.08715595	0.996195
+					0	-0.996195	0.08715595
+					-31.5	0	0
+				}
+			}
+			{bone "aasm_fin1"
+				{Matrix34
+					0	0.7029346	0.7112547
+					-1	0	0
+					0	-0.7112547	0.7029344
+					-19.66907	0	0
+				}
+				{VolumeView "aasm_fin1.ply"}
+			}
+			{bone "aasm_fin2"
+				{Matrix34
+					0	-0.7124733	0.7016993
+					-1	0	0
+					0	-0.7016993	-0.7124733
+					-19.66907	0	0
+				}
+				{VolumeView "aasm_fin2.ply"}
+			}
+			{bone "aasm_fin3"
+				{Matrix34
+					0	-0.7016993	-0.7124733
+					-1	0	0
+					0	0.7124733	-0.7016992
+					-19.66907	0	0
+				}
+				{VolumeView "aasm_fin3.ply"}
+			}
+			{bone "aasm_fin4"
+				{Matrix34
+					0	0.7124732	-0.7016994
+					-1	0	0
+					0	0.7016994	0.7124732
+					-19.66907	0	0
+				}
+				{VolumeView "aasm_fin4.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 62 6.6 6.6}
+	{Bone "aasm"}
+}
+{Volume "select"
+	{Box 62 6.6 6.6}
+	{Bone "aasm"}
+}
+{Extender "preview"
+	{Stuff
+		{camera {origin 66.6395 -25.6333 -96.2985} {lookat 5.07227 -4.24676 -1.79271} {fov 31.7555} {horizon 73.8717}}
+		{lights
+			{"0" {type point} {position 4.90045 -10.8791 -5.65455}}
+			{"1" {type directional} {direction -0.0725245 0.317994 0.378972}}
+			{"2" {type point} {position -3.71852 -8.11155 -4.71108}}
+		}
+	}
+}

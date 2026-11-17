@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "m2000_5_skin" {MipMap 1}}
+ {blend none}
+}

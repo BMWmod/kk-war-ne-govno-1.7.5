@@ -1333,6 +1333,8 @@
 {"mv22" "<c(FFFFFF)e(shadow)>MV-22B Osprey</c>"}
 
 {"mirage2000d" "<c(FFFFFF)e(shadow)>Mirage 2000D</c>"}
+{"mirage2000_5" "<c(FFFFFF)e(shadow)>Mirage 2000-5</c>"}
+{"mirage2000d_aasm" "<c(FFFFFF)e(shadow)>Mirage 2000D AASM</c>"}
 
 {"harpy_prr" "<c(FFFFFF)e(shadow)>Harpy ПРР</c>"}
 {"harpy_prr_carrier" "<c(FFFFFF)e(shadow)>Harpy ПРР</c>"}

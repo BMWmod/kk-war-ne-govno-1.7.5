@@ -1,0 +1,21 @@
+; AASM HAMMER-250 x6 (Mirage 2000-5). Same aiming/accuracy as JDAM-ER (jdam_erx4).
+{weapon_bullet
+	{tag "weapon skill_airgun bullet"}
+	{tag "weapon fg"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo aasm" 6}
+	{fillingVisible "aasm_"}
+	{fireSound "reactive/bomb"}
+	{recoveryTime 0.5}
+	{rechargeTime 140}
+	{range 465 465}	; same as JDAM-ER
+	{cursor "bomb_on"}
+	{cursorReloading "cannon_reload_fg"}
+	{automatic}
+	{gravity 300}
+	{speed 3000}
+	{aimtype adaptive}
+	("accuracy_kab" kvo_meters(8))
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "aasm" {MipMap 1}}
+	{blend none}
+}

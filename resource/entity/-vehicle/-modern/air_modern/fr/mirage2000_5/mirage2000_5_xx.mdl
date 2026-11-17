@@ -1,0 +1,819 @@
+;Exported by: Timosh
+;Date:        Sun Nov 06 20:19:02 2016
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Авиация\F-16C\F-16C 34.max
+{Skeleton
+	{animation
+		{sequence "wheels" {Speed 0.8}}
+		{sequence "basis" {Speed 1}}
+		{sequence "fly" {Speed 1}}
+		{sequence "damage_fly" {Speed 1}}
+		{sequence "engine_start" {Speed 1}}
+		{sequence "engine_work" {Speed 1}}
+		{sequence "engine_stop" {Speed 1}}
+		{sequence "driver_open" {Speed 0.6}}
+		{sequence "flaps_off" {Speed 0.6}}
+		{sequence "nose_up" {Speed 0.5}}
+		{sequence "air_brake" {Speed 0.5}}
+		{sequence "death" {Speed 1}}
+		{sequence "eject" {Speed 1}}
+		{sequence "eject1" {Speed 1}}
+	}
+	{bone "basis"
+		{bone "body"
+			{Parameters "ID=body;"}
+			{Color 0xff454545}
+			{VolumeView "body.ply"}
+			{bone "body_systems"}
+			{bone "fxsmoke3"}
+			{bone "fxsmoke2"}
+			{bone "fxsmoke1"}
+			{bone "catapult"}
+			{bone "fx_eject"}
+			{bone "wheel_front_support"}
+			{bone "steer_l"}
+			{bone "wheel_front"
+				{Parameters "ID=wheel_front;Wheelradius=0.15;"}
+			}
+			{bone "wheel_front_support5"}
+			{bone "glass2"
+				{Parameters "ID=body;"}
+			}
+			{bone "fonar"
+				{Parameters "ID=body;"}
+			}
+			{bone "glass"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left_support1"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left_support"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left"
+				{Parameters "ID=wheel_left;Wheelradius=0.3;"}
+			}
+			{bone "wheel_left_support3"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left_support2"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left_support5"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left_support4"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left_support7"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_left_support6"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right_support1"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right_support"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right"
+				{Parameters "ID=wheel_right;Wheelradius=0.3;"}
+			}
+			{bone "wheel_right_support5"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right_support4"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right_support7"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right_support6"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right_support3"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_right_support2"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_front_support4"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_front_support3"
+				{Parameters "ID=body;"}
+			}
+			{bone "sfb"}
+			{bone "btu61a_0"}
+			{bone "sdb1_02"}
+			{bone "sdb1_03"}
+			{bone "sdb1_00"}
+			{bone "sdb1_01"}
+			{bone "bombera_01"}
+			{bone "bombera_00"}
+			{bone "bombera_02"}
+			{bone "bombera_06"}
+			{bone "bombera_07"}
+			{bone "bombera_04"}
+			{bone "bombera_05"}
+			{bone "bombera_03"}
+			{bone "btu61a_1"}
+			{bone "sdb1_06"}
+			{bone "sdb1_07"}
+			{bone "sdb1_05"}
+			{bone "sdb1_04"}
+			{bone "part2c"
+				{Parameters "ID=body;"}
+			}
+			{bone "part2b"
+				{Parameters "ID=body;"}
+			}
+			{bone "part3c"
+				{Parameters "ID=body;"}
+			}
+			{bone "part3b"
+				{Parameters "ID=body;"}
+			}
+			{bone "part3"
+				{Parameters "ID=body;"}
+			}
+			{bone "wingfront1"
+				{Parameters "ID=wingl1;"}
+			}
+			{bone "aileron1"
+				{Parameters "ID=wingl1;"}
+			}
+			{bone "wingl2"
+				{Parameters "ID=wingl2;"}
+			}
+			{bone "fxfire_wingl2_1"}
+			{bone "pilon1"
+				{Parameters "ID=wingl2;"}
+			}
+			{bone "aim9m_shooter_00"}
+			{bone "pilon3"
+				{Parameters "ID=wingl1;"}
+			}
+			{bone "aileron2"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "wingfront2"
+				{Parameters "ID=wingr1;"}
+			}
+			{bone "wingr2"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "fxfire_wingr2_1"}
+			{bone "pilon12"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "aim9m_shooter_01"}
+			{bone "pilon7"
+				{Parameters "ID=wingr1;"}
+			}
+			{bone "enumerator"}
+			{bone "enumerator2"}
+			{bone "elevator1"
+				{Parameters "ID=body;"}
+			}
+			{bone "elevator2"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_brake3"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_brake1"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_brake4"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_brake2"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_braker_a"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_braker_b"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_braker_c"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_brakel_a"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_brakel_b"
+				{Parameters "ID=body;"}
+			}
+			{bone "air_brakel_c"
+				{Parameters "ID=body;"}
+			}
+			{bone "ils"
+				{Parameters "ID=body;"}
+			}
+			{bone "part1"
+				{Parameters "ID=body;"}
+			}
+			{bone "fxlight"}
+			{bone "headlightl"}
+			{bone "headlightr"}
+			{bone "soplo"
+				{Parameters "ID=engine;"}
+			}
+			{bone "part2"
+				{Parameters "ID=body;"}
+			}
+			{bone "part1a"
+				{Parameters "ID=body;"}
+			}
+			{bone "part1b"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_front_support2"
+				{Parameters "ID=body;"}
+			}
+			{bone "wheel_front_support1"
+				{Parameters "ID=body;"}
+			}
+			{bone "gun_rot1"}
+			{bone "gun_rot"}
+			{bone "foresight1"}
+			{bone "missile_rot"}
+			{bone "missile_rot1"}
+			{bone "foresight2"}
+			{bone "bomb1_rot1"}
+			{bone "bomb_rot1"}
+			{bone "foresight5"}
+			{bone "bomb1_rot2"}
+			{bone "bomb_rot2"}
+			{bone "foresight6"}
+			{bone "bomberb_00"}
+			{bone "bomberb_01"}
+			{bone "pilon5"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "ecm_pod"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "ecm_pod_emitter"}
+			{bone "pilon5r"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "litening_pod"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "litening_pod_rot"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "litening_pod_head"
+				{Parameters "ID=wingr2;"}
+			}
+			{bone "bomba_rot"}
+			{bone "bomba_rot1"}
+			{bone "foresight9"}
+			{bone "rudder_proj"}
+			{bone "elevator_proj"}
+			{bone "gear_nose_door_r"
+				{Color 0xff454545}
+				{Position 53.10208 3.375343 25.23704}
+			}
+			{bone "gear_nose_door_l"
+				{Color 0xff454545}
+				{Position 53.10208 -3.375362 25.23704}
+			}
+			{bone "gear_nose_door_2"
+				{Color 0xff454545}
+				{Position 60.76641 -8.893982e-06 24.62901}
+			}
+			{bone "gear_l_door2"
+				{Color 0xff454545}
+				{Position -28.66995 -32.18907 27.94126}
+			}
+			{bone "wheelleft"
+				{Parameters "ID=retract_wheelL;"}
+				{Color 0xff454545}
+				{Position -30.04333 -28.83839 31.02053}
+				{VolumeView "wheelleft.ply"}
+			}
+			{bone "gear_l_door1"
+				{Color 0xff454545}
+				{Position -17.78612 -3.713423 24.44969}
+			}
+			{bone "gear_r_door2"
+				{Color 0xff454545}
+				{Position -28.66995 32.18904 27.94126}
+			}
+			{bone "gear_r_door1"
+				{Color 0xff454545}
+				{Position -17.78593 3.713481 24.44967}
+			}
+			{bone "seats"}
+			{bone "canopy"
+				{Color 0xff454545}
+				{Position 37.81619 -4.916362e-06 50.44627}
+				{VolumeView "canopy.ply"}
+			}
+			{bone "windshield"}
+			{bone "pyl_outer"
+				{Color 0xff454545}
+				{VolumeView "pyl_outer.ply"}
+			}
+			{bone "wheelright"
+				{Parameters "ID=retract_wheelR;"}
+				{Color 0xff454545}
+				{Position -30.04357 28.83834 31.02066}
+				{VolumeView "wheelright.ply"}
+			}
+			{bone "canopy_glass"
+				{Position 37.81619 -4.415039e-06 50.44627}
+			}
+			{bone "wheelfront"
+				{Parameters "ID=wheel_back;"}
+				{Color 0xff454545}
+				{Position 55.30639 0 29.23987}
+				{VolumeView "wheelfront.ply"}
+			}
+			{bone "gear_nose_door1"
+				{Color 0xff454545}
+				{Position 38.7566 3.375343 24.96429}
+			}
+			{bone "pyl_center"
+				{Color 0xff454545}
+				{VolumeView "pyl_center.ply"}
+			}
+			{bone "wingl1"
+				{Parameters "ID=wingl1;"}
+				{Color 0xff454545}
+				{bone "magic2_01"
+					{Position -39 -55.42 20.8}
+				}
+				{bone "aam_shooter_01"
+					{Position -16 -55.42 20.8}
+				}
+				{bone "elevon_l"
+					{Parameters "ID=aileron_l;"}
+					{Color 0xff454545}
+					{Position -69.18099 -38.11132 30.28569}
+				}
+			}
+			{bone "wingr1"
+				{Parameters "ID=wingr1;"}
+				{Color 0xff454545}
+				{bone "magic2_00"
+					{Position -39 55.42 20.8}
+				}
+				{bone "aam_shooter_00"
+					{Position -16 55.42 20.8}
+				}
+				{bone "elevon_r"
+					{Parameters "ID=aileron_r;"}
+					{Color 0xff454545}
+					{Position -69.18099 38.11134 30.28569}
+				}
+			}
+			{bone "tail"
+				{Parameters "ID=tail;"}
+				{Color 0xff454545}
+				{VolumeView "tail.ply"}
+				{bone "rudder"
+					{Parameters "ID=rudder;"}
+					{Color 0xff454545}
+					{Position -95.71989 2.273852e-05 53.34826}
+				}
+			}
+			{bone "rear_seat"}
+			{bone "storm_nato00"
+				{Position -26.5 0 13.7}
+			}
+			{bone "storm_shooter_00"
+				{Position -26.5 0 13.7}
+			}
+			{bone "storm_release"
+				{Position -26.5 0 -12}
+			}
+			{bone revolute "storm_yaw"
+				{Limits -35 35}
+				{Speed 1}
+				{Position 130 0 22}
+				{bone revolute "storm_pitch"
+					{Limits -85 35}
+					{Speed 1}
+					{Orientation
+						1	0	0
+						0	0	-1
+						0	1	0
+					}
+					{bone "foresight_storm"
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							3	0	0
+						}
+						{bone "storm_pointer_00"}
+					}
+				}
+			}
+			{bone revolute "aam_yaw"
+				{Limits -40 40}
+				{Speed 1}
+				{Position 130 0 22}
+				{bone revolute "aam_pitch"
+					{Limits -40 40}
+					{Speed 1}
+					{Orientation
+						1	0	0
+						0	0	-1
+						0	1	0
+					}
+					{bone "foresight_aam"
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							3	0	0
+						}
+						{bone "aam_pointer_00"}
+						{bone "aam_pointer_01"}
+					}
+				}
+			}
+			{bone "driver"
+				{Matrix34
+					0.9659258	0	0.258819
+					0	-1	0
+					-0.258819	0	0.9659258
+					53	0	20
+				}
+			}
+			{bone "driver1"
+				{Matrix34
+					0.9659258	0	0.258819
+					0	-1	0
+					-0.258819	0	0.9659258
+					38	0	21
+				}
+			}
+			{bone "emit1"
+				{Parameters "Group=crew;"}
+				{Position 47 16 0}
+			}
+			{bone "emit2"
+				{Position 35 16 0}
+			}
+			{bone "visor_driver"
+				{Position 57 0 44}
+			}
+			{bone "visor_radarx"
+				{Position 104 0 29}
+			}
+			{bone "visor_pod"
+				{Position 67 0 20}
+			}
+			{bone "visor_ols"
+				{Position 67 0 29}
+			}
+			{bone "aiming_mark"
+				{Position 0 0 30}
+			}
+			{bone "engine_exhaust"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					-106	0	32
+				}
+			}
+			{bone "engine1_exhaust"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					-106	0	32
+				}
+			}
+			{bone "ir_1gen_emitter"
+				{Position -104 0 32}
+			}
+			{bone "ir_2gen_emitter"
+				{Position -104 0 32}
+			}
+			{bone revolute "foresight_flare_1"
+				{Speed 1}
+				{Position -65 -10 27}
+			}
+			{bone revolute "foresight_flare_1a"
+				{Speed 1}
+				{Position -65 10 27}
+			}
+			{bone "pivot_front"
+				{Position 53 0 0}
+				{bone "supportfront"
+					{Parameters "support;"}
+				}
+			}
+			{bone "pivot_back"
+				{Position -30 0 0}
+				{bone "supportleft"
+					{Parameters "support;"}
+					{Position 0 -28 0}
+				}
+				{bone "supportright"
+					{Parameters "support;"}
+					{Position 0 28 0}
+				}
+			}
+			{bone "flare1_shooter"
+				{Position -67 -10 25}
+			}
+			{bone "flare2_shooter"
+				{Position -67 10 25}
+			}
+			{bone "chaff1_shooter"
+				{Position -67 -10 25}
+			}
+			{bone "chaff2_shooter"
+				{Position -67 10 25}
+			}
+			{bone "fxtracefront"
+				{Position 53 0 0}
+			}
+			{bone "fxtraceleft"
+				{Position -30 -28 0}
+			}
+			{bone "fxtraceright"
+				{Position -30 28 0}
+			}
+			{bone "fxfire_body_1"
+				{Position 10 0 32}
+			}
+			{bone "fxfire_body_2"
+				{Position -40 0 32}
+			}
+			{bone "fxfire_body_3"
+				{Position -20 -15 30}
+			}
+			{bone "fxfire_body_4"
+				{Position -20 15 30}
+			}
+			{bone "fxfire_wingl1_1"
+				{Position -37 -36 30}
+			}
+			{bone "fxfire_wingr1_1"
+				{Position -37 36 30}
+			}
+			{bone "fxfire_wingl1_2"
+				{Position -50 -46 30}
+			}
+			{bone "fxfire_wingr1_2"
+				{Position -50 46 30}
+			}
+			{bone "headlight"
+				{Position 53 0 17}
+			}
+			{bone "ir_spo"
+				{Position -50 0 37}
+			}
+			{bone "ecm_emitter"
+				{Position -45 0 37}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Component "body"}
+}
+{Volume "wingl1"
+	{Polyhedron "wingl1.vol"}
+	{Bone "wingl1"}
+	{Component "wingl1"}
+}
+{Volume "wingr1"
+	{Polyhedron "wingr1.vol"}
+	{Bone "wingr1"}
+	{Component "wingr1"}
+}
+{Volume "tail"
+	{Polyhedron "tail.vol"}
+	{Bone "tail"}
+	{Component "tail"}
+}
+{Volume "rudder"
+	{Polyhedron "rudder.vol"}
+	{Bone "rudder"}
+	{Component "rudder"}
+}
+{Volume "aileron1"
+	{Polyhedron "aileron1.vol"}
+	{Bone "elevon_l"}
+	{Component "aileron_l"}
+}
+{Volume "aileron2"
+	{Polyhedron "aileron2.vol"}
+	{Bone "elevon_r"}
+	{Component "aileron_r"}
+}
+{Volume "glass"
+	{Polyhedron "glass.vol"}
+	{Bone "canopy_glass"}
+	{Component "body"}
+}
+{Volume "wheel_front"
+	{Polyhedron "wheel_front.vol"}
+	{Bone "wheelfront"}
+	{Component "wheel_back"}
+}
+{Volume "wheel_left"
+	{Polyhedron "wheel_left.vol"}
+	{Bone "wheelleft"}
+	{Component "retract_wheelL"}
+}
+{Volume "wheel_right"
+	{Polyhedron "wheel_right.vol"}
+	{Bone "wheelright"}
+	{Component "retract_wheelR"}
+}
+{Volume "engine"
+	{Box 55 17 17}
+	{Bone "body_systems"}
+	{Component "engine"}
+	{Position -74 0 32}
+}
+{Volume "fuel_tank_internal_a"
+	{Box 34 13 15}
+	{Bone "body_systems"}
+	{Component "fuel_tank_internal_a"}
+	{Position 6 0 33}
+}
+{Volume "fuel_tank_internal_b"
+	{Box 22 14 14}
+	{Bone "body_systems"}
+	{Component "fuel_tank_internal_b"}
+	{Position -28 0 34}
+}
+{Volume "electronics"
+	{Box 12 4 8}
+	{Bone "body_systems"}
+	{Component "electronics"}
+	{Position 77 5 30}
+}
+{Volume "electronics1"
+	{Box 12 4 8}
+	{Bone "body_systems"}
+	{Component "electronics"}
+	{Position 77 -5 30}
+}
+{Volume "electronics2"
+	{Box 12 10 7}
+	{Bone "body_systems"}
+	{Component "electronics"}
+	{Position 25 0 34}
+}
+{Volume "pilot_panel"
+	{Box 5 10 6}
+	{Bone "body_systems"}
+	{Component "pilot_panel"}
+	{Position 60 0 40}
+}
+{Volume "pilot_panel1"
+	{Box 5 10 6}
+	{Bone "body_systems"}
+	{Component "pilot_panel"}
+	{Position 45 0 41}
+}
+{Volume "hydrosystem"
+	{Box 8 5 5}
+	{Bone "body_systems"}
+	{Component "hydrosystem"}
+	{Position -51 7 32}
+}
+{Volume "hydrosystem1"
+	{Box 8 5 5}
+	{Bone "body_systems"}
+	{Component "hydrosystem"}
+	{Position -51 -7 32}
+}
+{Volume "hydrosystem2"
+	{Box 18 3 3}
+	{Bone "body_systems"}
+	{Component "hydrosystem"}
+	{Position -35 18 29}
+}
+{Volume "hydrosystem3"
+	{Box 18 3 3}
+	{Bone "body_systems"}
+	{Component "hydrosystem"}
+	{Position -35 -18 29}
+}
+{Volume "hydrosystem4"
+	{Box 16 3 3}
+	{Bone "body_systems"}
+	{Component "hydrosystem"}
+	{Position -84 0 38}
+}
+{Volume "hydrosystem_tank"
+	{Box 8 7 5}
+	{Bone "body_systems"}
+	{Component "hydrosystem_tank"}
+	{Position -18 0 36}
+}
+{Volume "PPU"
+	{Box 7 5 6}
+	{Bone "body_systems"}
+	{Component "PPU"}
+	{Position 20 7 33}
+}
+{Volume "APU"
+	{Box 11 8 6}
+	{Bone "body_systems"}
+	{Component "APU"}
+	{Position -47 0 39}
+}
+{Volume "antifire"
+	{Box 7 7 6}
+	{Bone "body_systems"}
+	{Component "antifire"}
+	{Position -46 0 29}
+}
+{Volume "OLS"
+	{Box 8 7 6}
+	{Bone "body_systems"}
+	{Component "OLS"}
+	{Position 67 0 24}
+}
+{Volume "radarX"
+	{Box 20 12 12}
+	{Bone "body_systems"}
+	{Component "radarX"}
+	{Position 98 0 29}
+}
+{Volume "steering_elev"
+	{Box 8 8 5}
+	{Bone "body_systems"}
+	{Component "steering_elev"}
+	{Position -52 0 30}
+}
+{Volume "flares1"
+	{Box 7 5 5}
+	{Bone "body_systems"}
+	{Component "flares1"}
+	{Position -64 -8 28}
+}
+{Volume "flares2"
+	{Box 7 5 5}
+	{Bone "body_systems"}
+	{Component "flares2"}
+	{Position -64 8 28}
+}
+{Volume "fuel_tank_internal_c"
+	{Box 25 15 3}
+	{Bone "wingl1"}
+	{Component "fuel_tank_internal_c"}
+	{Position -40 -33 30}
+}
+{Volume "steering_eler_l"
+	{Box 12 16 3}
+	{Bone "wingl1"}
+	{Component "steering_eler_l"}
+	{Position -60 -40 29}
+}
+{Volume "ptur1"
+	{Box 38 3 5}
+	{Bone "wingl1"}
+	{Component "ptur1"}
+	{Position -40 -55.42 24}
+}
+{Volume "fuel_tank_internal_d"
+	{Box 25 15 3}
+	{Bone "wingr1"}
+	{Component "fuel_tank_internal_d"}
+	{Position -40 33 30}
+}
+{Volume "steering_eler_r"
+	{Box 12 16 3}
+	{Bone "wingr1"}
+	{Component "steering_eler_r"}
+	{Position -60 40 29}
+}
+{Volume "ptur1a"
+	{Box 38 3 5}
+	{Bone "wingr1"}
+	{Component "ptur1"}
+	{Position -40 55.42 24}
+}
+{Volume "ptur4"
+	{Box 48 3 6}
+	{Bone "pyl_center"}
+	{Component "ptur4"}
+	{Position -26.5 0 21}
+}
+{Volume "steering_rudder"
+	{Box 8 4 12}
+	{Bone "tail"}
+	{Component "steering_rudder"}
+	{Position -99 0 54}
+}

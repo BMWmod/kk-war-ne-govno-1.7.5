@@ -1,4 +1,4 @@
-{material simple
- {diffuse "mirage_glass" {MipMap 1}}
- {blend none}
+{material envmap
+ {diffuse "$/model/su-34/glass"}
+ {blend blend}
 }

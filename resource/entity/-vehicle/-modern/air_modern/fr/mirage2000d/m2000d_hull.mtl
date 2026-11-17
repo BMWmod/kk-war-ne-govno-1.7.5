@@ -1,0 +1,4 @@
+{material simple
+ {diffuse "m2000d_hull" {MipMap 1}}
+ {blend none}
+}

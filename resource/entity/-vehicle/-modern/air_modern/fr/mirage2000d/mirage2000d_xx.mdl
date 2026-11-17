@@ -143,6 +143,14 @@
 			}
 			{bone "aileron1"
 				{Parameters "ID=wingl1;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	-1
+					0	-1	0
+					-74.2	-56.11213	22.3204
+				}
+				{VolumeView "aileron1.ply"}
 			}
 			{bone "wingl2"
 				{Parameters "ID=wingl2;"}
@@ -156,7 +164,15 @@
 				{Parameters "ID=wingl1;"}
 			}
 			{bone "aileron2"
-				{Parameters "ID=wingr2;"}
+				{Parameters "ID=wingr1;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-74.2	56.11205	22.3204
+				}
+				{VolumeView "aileron2.ply"}
 			}
 			{bone "wingfront2"
 				{Parameters "ID=wingr1;"}
@@ -176,9 +192,25 @@
 			{bone "enumerator2"}
 			{bone "elevator1"
 				{Parameters "ID=body;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	-1
+					0	-1	0
+					-74.2	-47.28824	25.99195
+				}
+				{VolumeView "elevator1.ply"}
 			}
 			{bone "elevator2"
 				{Parameters "ID=body;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	-1
+					0	-1	0
+					-74.2	47.18451	25.92543
+				}
+				{VolumeView "elevator2.ply"}
 			}
 			{bone "air_brake3"
 				{Parameters "ID=body;"}
@@ -276,24 +308,16 @@
 			{bone "rudder_proj"}
 			{bone "elevator_proj"}
 			{bone "gear_nose_door_r"
-				{Color 0xff454545}
 				{Position 53.10208 3.375343 25.23704}
-				{VolumeView "gear_nose_door_r.ply"}
 			}
 			{bone "gear_nose_door_l"
-				{Color 0xff454545}
 				{Position 53.10208 -3.375362 25.23704}
-				{VolumeView "gear_nose_door_l.ply"}
 			}
 			{bone "gear_nose_door_2"
-				{Color 0xff454545}
 				{Position 60.76641 -8.893982e-06 24.62901}
-				{VolumeView "gear_nose_door_2.ply"}
 			}
 			{bone "gear_l_door2"
-				{Color 0xff454545}
 				{Position -28.66995 -32.18907 27.94126}
-				{VolumeView "gear_l_door2.ply"}
 			}
 			{bone "wheelleft"
 				{Parameters "ID=retract_wheelL;"}
@@ -302,27 +326,28 @@
 				{VolumeView "wheelleft.ply"}
 			}
 			{bone "gear_l_door1"
-				{Color 0xff454545}
 				{Position -17.78612 -3.713423 24.44969}
-				{VolumeView "gear_l_door1.ply"}
 			}
 			{bone "gear_r_door2"
-				{Color 0xff454545}
 				{Position -28.66995 32.18904 27.94126}
-				{VolumeView "gear_r_door2.ply"}
 			}
 			{bone "gear_r_door1"
-				{Color 0xff454545}
 				{Position -17.78593 3.713481 24.44967}
-				{VolumeView "gear_r_door1.ply"}
 			}
-			{bone "seats"}
+			{bone "seats"
+				{Color 0xff454545}
+				{Position -1.5 0 -3.2}
+				{VolumeView "seats.ply"}
+			}
 			{bone "canopy"
 				{Color 0xff454545}
-				{Position 37.81619 -4.916362e-06 50.44627}
+				{Position 18.8 0 55}
 				{VolumeView "canopy.ply"}
 			}
-			{bone "windshield"}
+			{bone "windshield"
+				{Color 0xff454545}
+				{VolumeView "windshield.ply"}
+			}
 			{bone "pyl_outer"
 				{Color 0xff454545}
 				{VolumeView "pyl_outer.ply"}
@@ -334,7 +359,9 @@
 				{VolumeView "wheelright.ply"}
 			}
 			{bone "canopy_glass"
-				{Position 37.81619 -4.415039e-06 50.44627}
+				{Color 0xff454545}
+				{Position 47.1 0 55}
+				{VolumeView "canopy_glass.ply"}
 			}
 			{bone "wheelfront"
 				{Parameters "ID=wheel_back;"}
@@ -343,9 +370,7 @@
 				{VolumeView "wheelfront.ply"}
 			}
 			{bone "gear_nose_door1"
-				{Color 0xff454545}
 				{Position 38.7566 3.375343 24.96429}
-				{VolumeView "gear_nose_door1.ply"}
 			}
 			{bone "pyl_center"
 				{Color 0xff454545}
@@ -353,58 +378,59 @@
 			}
 			{bone "wingl1"
 				{Parameters "ID=wingl1;"}
-				{Color 0xff454545}
-				{VolumeView "wingl1.ply"}
 				{bone "magic2_01"
-					{Position -39 -55.42 20.8}
+					{Color 0xff454545}
+					{Position -49 -55.42 17.36876}
+					{VolumeView "magic2_pylon.ply"}
 				}
 				{bone "aam_shooter_01"
-					{Position -16 -55.42 20.8}
+					{Position -26 -55.42 18.25}
 				}
 				{bone "elevon_l"
 					{Parameters "ID=aileron_l;"}
-					{Color 0xff454545}
 					{Position -69.18099 -38.11132 30.28569}
-					{VolumeView "elevon_l.ply"}
 				}
 			}
 			{bone "wingr1"
 				{Parameters "ID=wingr1;"}
-				{Color 0xff454545}
-				{VolumeView "wingr1.ply"}
 				{bone "magic2_00"
-					{Position -39 55.42 20.8}
+					{Color 0xff454545}
+					{Position -49 55.42 17.36876}
+					{VolumeView "magic2_pylon.ply"}
 				}
 				{bone "aam_shooter_00"
-					{Position -16 55.42 20.8}
+					{Position -26 55.42 18.25}
 				}
 				{bone "elevon_r"
 					{Parameters "ID=aileron_r;"}
-					{Color 0xff454545}
 					{Position -69.18099 38.11134 30.28569}
-					{VolumeView "elevon_r.ply"}
 				}
 			}
 			{bone "tail"
 				{Parameters "ID=tail;"}
-				{Color 0xff454545}
-				{VolumeView "tail.ply"}
 				{bone "rudder"
 					{Parameters "ID=rudder;"}
 					{Color 0xff454545}
-					{Position -95.71989 2.273852e-05 53.34826}
+					{Matrix34
+						-0.9206038	0	-0.3904976
+						0	-1	0
+						-0.3904977	0	0.9206037
+						-114	0	73.03381
+					}
 					{VolumeView "rudder.ply"}
 				}
 			}
 			{bone "rear_seat"}
 			{bone "storm_nato00"
-				{Position -26.5 0 13.7}
+				{Color 0xff454545}
+				{Position -26.5 0 10.18}
+				{VolumeView "storm_nato_pylon.ply"}
 			}
 			{bone "storm_shooter_00"
-				{Position -26.5 0 13.7}
+				{Position -26.5 0 10.18}
 			}
 			{bone "storm_release"
-				{Position -26.5 0 -12}
+				{Position -26.5 0 -15.52}
 			}
 			{bone revolute "storm_yaw"
 				{Limits -35 35}
@@ -496,7 +522,7 @@
 					-1	0	0
 					0	-1	0
 					0	0	1
-					-106	0	32
+					-129	0	38
 				}
 			}
 			{bone "engine1_exhaust"
@@ -504,14 +530,14 @@
 					-1	0	0
 					0	-1	0
 					0	0	1
-					-106	0	32
+					-129	0	38
 				}
 			}
 			{bone "ir_1gen_emitter"
-				{Position -104 0 32}
+				{Position -127 0 38}
 			}
 			{bone "ir_2gen_emitter"
-				{Position -104 0 32}
+				{Position -127 0 38}
 			}
 			{bone revolute "foresight_flare_1"
 				{Speed 1}
@@ -619,21 +645,25 @@
 	{Polyhedron "rudder.vol"}
 	{Bone "rudder"}
 	{Component "rudder"}
+	{Position -2.319014 0 -11.17677}
 }
 {Volume "aileron1"
 	{Polyhedron "aileron1.vol"}
-	{Bone "elevon_l"}
+	{Bone "aileron1"}
 	{Component "aileron_l"}
+	{Position 2.600005 0 1.83753e-06}
 }
 {Volume "aileron2"
 	{Polyhedron "aileron2.vol"}
-	{Bone "elevon_r"}
+	{Bone "aileron2"}
 	{Component "aileron_r"}
+	{Position 2.600007 0 1.532757e-06}
 }
 {Volume "glass"
 	{Polyhedron "glass.vol"}
 	{Bone "canopy_glass"}
 	{Component "body"}
+	{Position -9.28381 -4.415039e-06 -4.55373}
 }
 {Volume "wheel_front"
 	{Polyhedron "wheel_front.vol"}

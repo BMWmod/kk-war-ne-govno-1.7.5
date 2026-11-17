@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+
+	{entity "aasm"}
+	{inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "aasm_gps"}
+	{tag "bomb"}
+	{mass 250}
+}

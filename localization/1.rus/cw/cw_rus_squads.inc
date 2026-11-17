@@ -319,5 +319,7 @@
 {"mv22" "<c(FFFFFF)e(shadow)>Отделение КМП на MV-22B Osprey</c>"}
 
 {"mirage2000d" "<c(FFFFFF)e(shadow)>Mirage 2000D</c>"}
+{"mirage2000_5" "<c(FFFFFF)e(shadow)>Mirage 2000-5</c>"}
+{"mirage2000d_aasm" "<c(FFFFFF)e(shadow)>Mirage 2000D AASM</c>"}
 
 {"2k11_krug" "<c(FFFFFF)e(shadow)>2К11 Круг</c>"}
