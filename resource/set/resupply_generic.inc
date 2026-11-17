@@ -832,6 +832,7 @@
 	{item "kleinbombe-44 ammo" 56 {max 112}{value 20}}		;Они легкие, но в их цену входит сбраываемая ПУ		
 	{item "taurus ammo" 1 {max 2}{value 125}}				
 	{item "storm_shadow ammo" 1 {max 2}{value 125}}
+	{item "aasm ammo" 1 {max 6}{value 15}}				;Mirage 2000D AASM (man_avia)
 	{item "mk_82 ammo" 6 {max 18}{value 60}}				
 )
 (define "air_stuff_cn"	

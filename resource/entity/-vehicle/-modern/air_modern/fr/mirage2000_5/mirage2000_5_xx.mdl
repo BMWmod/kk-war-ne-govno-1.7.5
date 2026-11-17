@@ -1,4 +1,4 @@
-;Exported by: Timosh
+; Mirage 2000-5 (new airframe, control surfaces aileron1/2 elevator1/2 rudder revolute), 6x AASM HAMMER-250
 ;Date:        Sun Nov 06 20:19:02 2016
 ;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Авиация\F-16C\F-16C 34.max
 {Skeleton
@@ -141,9 +141,6 @@
 			{bone "wingfront1"
 				{Parameters "ID=wingl1;"}
 			}
-			{bone "aileron1"
-				{Parameters "ID=wingl1;"}
-			}
 			{bone "wingl2"
 				{Parameters "ID=wingl2;"}
 			}
@@ -154,9 +151,6 @@
 			{bone "aim9m_shooter_00"}
 			{bone "pilon3"
 				{Parameters "ID=wingl1;"}
-			}
-			{bone "aileron2"
-				{Parameters "ID=wingr2;"}
 			}
 			{bone "wingfront2"
 				{Parameters "ID=wingr1;"}
@@ -174,12 +168,6 @@
 			}
 			{bone "enumerator"}
 			{bone "enumerator2"}
-			{bone "elevator1"
-				{Parameters "ID=body;"}
-			}
-			{bone "elevator2"
-				{Parameters "ID=body;"}
-			}
 			{bone "air_brake3"
 				{Parameters "ID=body;"}
 			}
@@ -276,20 +264,16 @@
 			{bone "rudder_proj"}
 			{bone "elevator_proj"}
 			{bone "gear_nose_door_r"
-				{Color 0xff454545}
-				{Position 53.10208 3.375343 25.23704}
+				{Position 53.10208 3.375343 25.23704}
 			}
 			{bone "gear_nose_door_l"
-				{Color 0xff454545}
-				{Position 53.10208 -3.375362 25.23704}
+				{Position 53.10208 -3.375362 25.23704}
 			}
 			{bone "gear_nose_door_2"
-				{Color 0xff454545}
-				{Position 60.76641 -8.893982e-06 24.62901}
+				{Position 60.76641 -8.893982e-06 24.62901}
 			}
 			{bone "gear_l_door2"
-				{Color 0xff454545}
-				{Position -28.66995 -32.18907 27.94126}
+				{Position -28.66995 -32.18907 27.94126}
 			}
 			{bone "wheelleft"
 				{Parameters "ID=retract_wheelL;"}
@@ -298,24 +282,28 @@
 				{VolumeView "wheelleft.ply"}
 			}
 			{bone "gear_l_door1"
-				{Color 0xff454545}
-				{Position -17.78612 -3.713423 24.44969}
+				{Position -17.78612 -3.713423 24.44969}
 			}
 			{bone "gear_r_door2"
-				{Color 0xff454545}
-				{Position -28.66995 32.18904 27.94126}
+				{Position -28.66995 32.18904 27.94126}
 			}
 			{bone "gear_r_door1"
-				{Color 0xff454545}
-				{Position -17.78593 3.713481 24.44967}
+				{Position -17.78593 3.713481 24.44967}
 			}
-			{bone "seats"}
+			{bone "seats"
+				{Color 0xff454545}
+				{Position -1.5 0 -3.2}
+				{VolumeView "seats.ply"}
+			}
 			{bone "canopy"
 				{Color 0xff454545}
 				{Position 37.81619 -4.916362e-06 50.44627}
 				{VolumeView "canopy.ply"}
 			}
-			{bone "windshield"}
+			{bone "windshield"
+				{Color 0xff454545}
+				{VolumeView "windshield.ply"}
+			}
 			{bone "pyl_outer"
 				{Color 0xff454545}
 				{VolumeView "pyl_outer.ply"}
@@ -327,7 +315,9 @@
 				{VolumeView "wheelright.ply"}
 			}
 			{bone "canopy_glass"
+				{Color 0xff454545}
 				{Position 37.81619 -4.415039e-06 50.44627}
+				{VolumeView "canopy_glass.ply"}
 			}
 			{bone "wheelfront"
 				{Parameters "ID=wheel_back;"}
@@ -336,41 +326,36 @@
 				{VolumeView "wheelfront.ply"}
 			}
 			{bone "gear_nose_door1"
-				{Color 0xff454545}
-				{Position 38.7566 3.375343 24.96429}
-			}
-			{bone "pyl_center"
-				{Color 0xff454545}
-				{VolumeView "pyl_center.ply"}
+				{Position 38.7566 3.375343 24.96429}
 			}
 			{bone "wingl1"
 				{Parameters "ID=wingl1;"}
-				{Color 0xff454545}
 				{bone "magic2_01"
-					{Position -39 -55.42 20.8}
+					{Color 0xff454545}
+					{Position -49 -55.42 13.76876}
+					{VolumeView "magic2_pylon.ply"}
 				}
 				{bone "aam_shooter_01"
-					{Position -16 -55.42 20.8}
+					{Position -26 -55.42 14.65}
 				}
 				{bone "elevon_l"
 					{Parameters "ID=aileron_l;"}
-					{Color 0xff454545}
-					{Position -69.18099 -38.11132 30.28569}
+					{Position -69.18099 -38.11132 30.28569}
 				}
 			}
 			{bone "wingr1"
 				{Parameters "ID=wingr1;"}
-				{Color 0xff454545}
 				{bone "magic2_00"
-					{Position -39 55.42 20.8}
+					{Color 0xff454545}
+					{Position -49 55.42 13.76876}
+					{VolumeView "magic2_pylon.ply"}
 				}
 				{bone "aam_shooter_00"
-					{Position -16 55.42 20.8}
+					{Position -26 55.42 14.65}
 				}
 				{bone "elevon_r"
 					{Parameters "ID=aileron_r;"}
-					{Color 0xff454545}
-					{Position -69.18099 38.11134 30.28569}
+					{Position -69.18099 38.11134 30.28569}
 				}
 			}
 			{bone "tail"
@@ -380,13 +365,16 @@
 				{bone "rudder"
 					{Parameters "ID=rudder;"}
 					{Color 0xff454545}
-					{Position -95.71989 2.273852e-05 53.34826}
+					{Matrix34
+						-0.920604	0	-0.3904977
+						0	1	0
+						0.3904977	0	-0.9206041
+						-107.5006	0	63.65
+					}
+					{VolumeView "rudder.ply"}
 				}
 			}
 			{bone "rear_seat"}
-			{bone "storm_nato00"
-				{Position -26.5 0 13.7}
-			}
 			{bone "storm_shooter_00"
 				{Position -26.5 0 13.7}
 			}
@@ -394,11 +382,11 @@
 				{Position -26.5 0 -12}
 			}
 			{bone revolute "storm_yaw"
-				{Limits -35 35}
+				{Limits -15 15}
 				{Speed 1}
-				{Position 130 0 22}
+				{Position -20 0 12}
 				{bone revolute "storm_pitch"
-					{Limits -85 35}
+					{Limits -45 15}
 					{Speed 1}
 					{Orientation
 						1	0	0
@@ -483,7 +471,7 @@
 					-1	0	0
 					0	-1	0
 					0	0	1
-					-106	0	32
+					-129	0	38
 				}
 			}
 			{bone "engine1_exhaust"
@@ -491,14 +479,14 @@
 					-1	0	0
 					0	-1	0
 					0	0	1
-					-106	0	32
+					-129	0	38
 				}
 			}
 			{bone "ir_1gen_emitter"
-				{Position -104 0 32}
+				{Position -127 0 38}
 			}
 			{bone "ir_2gen_emitter"
-				{Position -104 0 32}
+				{Position -127 0 38}
 			}
 			{bone revolute "foresight_flare_1"
 				{Speed 1}
@@ -579,6 +567,102 @@
 			{bone "ecm_emitter"
 				{Position -45 0 37}
 			}
+			{bone "aasm_00"
+				{Color 0xff454545}
+				{Position 19.50673 13.4326 14.20005}
+				{VolumeView "aasm_00.ply"}
+			}
+			{bone "aasm_01"
+				{Color 0xff454545}
+				{Position 19.50673 -13.4326 14.20005}
+				{VolumeView "aasm_01.ply"}
+			}
+			{bone "aasm_02"
+				{Color 0xff454545}
+				{Position -18.42399 4.439538 12.77005}
+				{VolumeView "aasm_02.ply"}
+			}
+			{bone "aasm_03"
+				{Color 0xff454545}
+				{Position -18.42399 -4.439538 12.77005}
+				{VolumeView "aasm_03.ply"}
+			}
+			{bone "aasm_04"
+				{Color 0xff454545}
+				{Position -51.11379 13.98864 15.06821}
+				{VolumeView "aasm_04.ply"}
+			}
+			{bone "aasm_05"
+				{Color 0xff454545}
+				{Position -51.11379 -13.98864 15.06821}
+				{VolumeView "aasm_05.ply"}
+			}
+			{bone "aasm_shooter_00"
+				{Position 19.50673 13.4326 8.200047}
+			}
+			{bone "aasm_shooter_01"
+				{Position 19.50673 -13.4326 8.200047}
+			}
+			{bone "aasm_shooter_02"
+				{Position -18.42399 4.439538 6.770045}
+			}
+			{bone "aasm_shooter_03"
+				{Position -18.42399 -4.439538 6.770045}
+			}
+			{bone "aasm_shooter_04"
+				{Position -51.11379 13.98864 9.068211}
+			}
+			{bone "aasm_shooter_05"
+				{Position -51.11379 -13.98864 9.068211}
+			}
+			{bone "aileron1"
+				{Parameters "ID=wingl1;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-76.8	-56.11213	22.3204
+				}
+				{VolumeView "aileron1.ply"}
+			}
+			{bone "aileron2"
+				{Parameters "ID=wingr1;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	-1
+					0	-1	0
+					-76.8	56.11205	22.3204
+				}
+				{VolumeView "aileron2.ply"}
+			}
+			{bone "elevator1"
+				{Parameters "ID=body;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-76.8	-25.60812	25.43468
+				}
+				{VolumeView "elevator1.ply"}
+			}
+			{bone "elevator2"
+				{Parameters "ID=body;"}
+				{Color 0xff454545}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-76.8	25.60804	25.43468
+				}
+				{VolumeView "elevator2.ply"}
+			}
+			{bone "pyl_aasm"
+				{Color 0xff454545}
+				{VolumeView "pyl_aasm.ply"}
+			}
 		}
 	}
 }
@@ -606,16 +690,34 @@
 	{Polyhedron "rudder.vol"}
 	{Bone "rudder"}
 	{Component "rudder"}
+	{Matrix34
+		-0.9206041	0	0.3904976
+		0	1	0
+		-0.3904976	0	-0.9206041
+		-6.822552	2.428259e-05	14.08417
+	}
 }
 {Volume "aileron1"
 	{Polyhedron "aileron1.vol"}
-	{Bone "elevon_l"}
+	{Bone "aileron1"}
 	{Component "aileron_l"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-7.619001	7.965291	18.00081
+	}
 }
 {Volume "aileron2"
 	{Polyhedron "aileron2.vol"}
-	{Bone "elevon_r"}
+	{Bone "aileron2"}
 	{Component "aileron_r"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		-7.61902	-7.965287	18.00072
+	}
 }
 {Volume "glass"
 	{Polyhedron "glass.vol"}
@@ -804,12 +906,6 @@
 	{Bone "wingr1"}
 	{Component "ptur1"}
 	{Position -40 55.42 24}
-}
-{Volume "ptur4"
-	{Box 48 3 6}
-	{Bone "pyl_center"}
-	{Component "ptur4"}
-	{Position -26.5 0 21}
 }
 {Volume "steering_rudder"
 	{Box 8 4 12}

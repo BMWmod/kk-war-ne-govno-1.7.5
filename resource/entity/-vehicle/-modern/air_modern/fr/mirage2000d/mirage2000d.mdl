@@ -146,8 +146,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	-1
-					0	-1	0
+					0	0	1
+					0	1	0
 					-74.2	-56.11213	22.3204
 				}
 				{VolumeView "aileron1.ply"}
@@ -169,8 +169,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	1
-					0	1	0
+					0	0	-1
+					0	-1	0
 					-74.2	56.11205	22.3204
 				}
 				{VolumeView "aileron2.ply"}
@@ -197,8 +197,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	-1
-					0	-1	0
+					0	0	1
+					0	1	0
 					-74.2	-47.28824	25.99195
 				}
 				{VolumeView "elevator1.ply"}
@@ -209,8 +209,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	-1
-					0	-1	0
+					0	0	1
+					0	1	0
 					-74.2	47.18451	25.92543
 				}
 				{VolumeView "elevator2.ply"}
@@ -405,10 +405,10 @@
 					{Limits -20 20}
 					{Speed 0.07}
 					{Matrix34
-						-0.9206038	0	-0.3904976
-						0	-1	0
-						-0.3904977	0	0.9206037
-						-114	0	73.03381
+						-0.9517745	0	-0.3067991
+						0	1	0
+						0.3067991	0	-0.9517745
+						-110.9	0	65.85
 					}
 					{VolumeView "rudder.ply"}
 				}
@@ -427,7 +427,7 @@
 			{bone revolute "storm_yaw"
 				{Limits -35 35}
 				{Speed 1}
-				{Position 130 0 22}
+				{Position 153 0 22}
 				{bone revolute "storm_pitch"
 					{Limits -85 35}
 					{Speed 1}
@@ -637,19 +637,34 @@
 	{Polyhedron "rudder.vol"}
 	{Bone "rudder"}
 	{Component "rudder"}
-	{Position -2.319014 0 -11.17677}
+	{Matrix34
+		0.9960115	0	0.08922523
+		0	-1	0
+		0.08922523	0	-0.9960116
+		-2.560505	0	3.136822
+	}
 }
 {Volume "aileron1"
 	{Polyhedron "aileron1.vol"}
 	{Bone "aileron1"}
 	{Component "aileron_l"}
-	{Position 2.600005 0 1.83753e-06}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		2.600005	0	1.179754e-06
+	}
 }
 {Volume "aileron2"
 	{Polyhedron "aileron2.vol"}
 	{Bone "aileron2"}
 	{Component "aileron_r"}
-	{Position 2.600007 0 1.532757e-06}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		2.600007	0	1.83753e-06
+	}
 }
 {Volume "glass"
 	{Polyhedron "glass.vol"}

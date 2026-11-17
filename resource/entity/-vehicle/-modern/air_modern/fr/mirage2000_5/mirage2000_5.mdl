@@ -1,4 +1,6 @@
 ; Mirage 2000-5 (new airframe, control surfaces aileron1/2 elevator1/2 rudder revolute), 6x AASM HAMMER-250
+;Date:        Sun Nov 06 20:19:02 2016
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Авиация\F-16C\F-16C 34.max
 {Skeleton
 	{animation
 		{sequence "wheels" {Speed 0.8}}
@@ -353,9 +355,9 @@
 					{Limits -20 20}
 					{Speed 0.07}
 					{Matrix34
-						-0.9206038	0	-0.3904977
-						0	-1	0
-						-0.3904977	0	0.9206038
+						-0.920604	0	-0.3904977
+						0	1	0
+						0.3904977	0	-0.9206041
 						-107.5006	0	63.65
 					}
 					{VolumeView "rudder.ply"}
@@ -602,8 +604,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	-1
-					0	-1	0
+					0	0	1
+					0	1	0
 					-76.8	-56.11213	22.3204
 				}
 				{VolumeView "aileron1.ply"}
@@ -614,8 +616,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	1
-					0	1	0
+					0	0	-1
+					0	-1	0
 					-76.8	56.11205	22.3204
 				}
 				{VolumeView "aileron2.ply"}
@@ -626,8 +628,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	-1
-					0	-1	0
+					0	0	1
+					0	1	0
 					-76.8	-25.60812	25.43468
 				}
 				{VolumeView "elevator1.ply"}
@@ -638,8 +640,8 @@
 				{Speed 0.07}
 				{Matrix34
 					-1	0	0
-					0	0	-1
-					0	-1	0
+					0	0	1
+					0	1	0
 					-76.8	25.60804	25.43468
 				}
 				{VolumeView "elevator2.ply"}
@@ -675,10 +677,10 @@
 	{Bone "rudder"}
 	{Component "rudder"}
 	{Matrix34
-		-0.9206042	0	-0.3904978
-		0	-1	0
-		-0.3904978	0	0.9206041
-		-6.822557	-2.305131e-05	-14.08416
+		-0.9206041	0	0.3904976
+		0	1	0
+		-0.3904976	0	-0.9206041
+		-6.822552	2.428259e-05	14.08417
 	}
 }
 {Volume "aileron1"
@@ -687,9 +689,9 @@
 	{Component "aileron_l"}
 	{Matrix34
 		-1	0	0
-		0	0	-1
-		0	-1	0
-		-7.619001	-7.965289	-18.00081
+		0	0	1
+		0	1	0
+		-7.619001	7.965291	18.00081
 	}
 }
 {Volume "aileron2"
@@ -698,9 +700,9 @@
 	{Component "aileron_r"}
 	{Matrix34
 		-1	0	0
-		0	0	1
-		0	1	0
-		-7.61902	7.965289	-18.00071
+		0	0	-1
+		0	-1	0
+		-7.61902	-7.965287	18.00072
 	}
 }
 {Volume "glass"
