@@ -50,6 +50,8 @@
  {"brdm2_strelaii" {fore 1} ("v_explicit" c(200) sc(69) g(pvo_st) b(common) brig(common) s(iregular)  i(223231) cw(0) cp(15) t(all_nz   ) c1(brdm2_strela) n(1) n1(tankman:3)      ) {content "brdm2_strela ( mp2/iregular/tankman:3 )"} }
  {"Shilka_i" {fore 1} ("v_explicit" c(300) sc(90) g(pvo2)  b(supl) brig(common) s(iregular)  i(245453) cw(0) cp(15) t(all_nz   ) c1(Shilka) n(1) n1(tankman:4)      ) {content "Shilka ( mp2/iregular/tankman:4 )"} }
  {"9k35_strela-10" {fore 1} ("v_explicit" c(300) sc(90) g(pvo3)  b(supl) brig(common) s(iregular)  i(67824) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10) n(1) n1(tankman:4)      ) {content "9k35_strela-10 ( mp2/iregular/tankman:4 )"} }
+ {"2k11_krug" {fore 0} ("v" c(600) sc(110) g(pvo_krug) b(supl) brig(common) s(iregular) i(67825) cw(0) cp(20) t(all_nz aat antiair support_frontline) n(4))}
+ {"1s91_kub_radar_isis" {fore 0.0} ("v" c(600) sc(140) g(kupol)  b(supl) brig(common) s(iregular)  i(21) cw(0) cp(15) t(all_nz art support_frontline  ) n(3)               ) }
 
 
 	

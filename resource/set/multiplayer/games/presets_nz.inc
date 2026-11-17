@@ -135,6 +135,7 @@
 					}
 				}
 				
+				{buttons "hqcar"}
 			}
 )
 (define "without_update"

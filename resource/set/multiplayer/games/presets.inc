@@ -1,8 +1,8 @@
 (define "unit_limits"
-{unitLimits "tankman=6;strike=1;vs=4;p=2;t14=2;max5=5;shahed136=20;an196=20;tu141=20;max6=6;precision_munition=5;geran5_carrier=1"}
+{unitLimits "9k72=1;rogatka=1;susemx59=2;tankman=6;strike=1;vs=4;p=2;t14=2;max5=5;shahed136=20;an196=20;tu141=20;max6=6;precision_munition=5;geran5_carrier=1"}
 )
 (define "buttons"
-{buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar"}
+{buttons "common supl vvs_hqcar pvo_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usaaa_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar natoaa_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnsam_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar iran_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar  srbs_mot_hqcar srbs_vdv_hqcar srbs_art_hqcar srbs_pmc_hqcar avia_odkb_hqcar art_odkb_hqcar ukr_odkb_hqcar bel_odkb_hqcar kz_odkb_hqcar isis_vvs_hqcar avia_ua_hqcar ppo_ua_hqcar art_ua_hqcar vsu_ua_hqcar ngu_ua_hqcar sso_ua_hqcar brt_ua_hqcar mchbrun_hqcar frenchun_hqcar chinaun_hqcar"}
 )
 ;====“ест мод=====
 (define "instant_test"
@@ -10,7 +10,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
 		{unitLimits "geran5_carrier=1"}
 ;		{chargeFactors "*=%cf"}
        ;  ("unit_limits")
@@ -141,7 +141,7 @@
 						{restore	"0.35	0.30	0.20	0.05	0.05"}
 					}
 				}
-				{buttons "hqcardummy"}
+				{buttons "hqcar hqcardummy"}
 			}
 )
 (define "without_update"
@@ -242,7 +242,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -268,7 +268,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -294,7 +294,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -321,7 +321,7 @@
 			{value "%unitset"}
 			{available "vvs pvo artbr vdv mot armbr specbr usaf usa_aa usart idf usarmy usmc nrf nato_aa abn bund gb fra cnair cnsam cnart cnheavy cnmed iran common supl"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -347,7 +347,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -373,7 +373,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;iran=1;cnsam=1;cnsco=1;iregular_mot=1;iregular_specbr=1;srbs_mot=1;srbs_vdv=1;srbs_art=1;srbs_pmc=1;avia_odkb=1;ukr_odkb=1;bel_odkb=1;art_odkb=1 ;kz_odkb =1 ;isis_vvs =1; ;ngu_ua=1; brt_ua=1; vsu_ua=1; sso_ua=1; art_ua=1; ppo_ua=1;avia_ua=1;mchbrun=1;chinaun=1 ;chinaun=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -609,8 +609,8 @@
 )
 
 ;обычный набор войск в бригаде и в едином командовании
-;("custom_presets" gametype() desc() unitset_brigade(all|additional) unitset(all|additional^hqcar))
-("custom_presets" gametype() desc() unitset_brigade(all|additional^hqcarhqcardummy) unitset(all|additional^hqcar))
+;("custom_presets" gametype() desc() unitset_brigade(all_nz|additional) unitset(all_nz|additional^hqcar))
+("custom_presets" gametype() desc() unitset_brigade(all_nz|additional^hqcarhqcardummy) unitset(all_nz|additional^hqcar))
 
 ;“анковый бой
 ("monotype_presets" gametype(tank_mono) desc(tank_mono) unitset(supply|tanks_only))
@@ -624,24 +624,24 @@
 		{gameMode "without_update"}
 		{unitMode "test"}
 		{specMode "test_a"}
-		("instant_test" cf(0) start(100000) unitset(all|additional))
+		("instant_test" cf(0) start(100000) unitset(all_nz|additional))
 	}
 	{"wu:without_update_notimers"
 		{gameMode "without_update"}
 		{unitMode "test"}
 		{specMode "test_b"}
-		("instant_test" cf(1) start(100000) unitset(all|additional))
+		("instant_test" cf(1) start(100000) unitset(all_nz|additional))
 	}
 	{"wu:without_update_timers_nobrig"
 		{gameMode "without_update"}
 		{unitMode "test_nobrig"}
 		{specMode "test_a"}
-		("instant_test_nobrigades" cf(0) start(100000) unitset(all|additional^hqcar))
+		("instant_test_nobrigades" cf(0) start(100000) unitset(all_nz|additional^hqcar))
 	}
 	{"wu:without_update_notimers_nobrig"
 		{gameMode "without_update"}
 		{unitMode "test_nobrig"}
 		{specMode "test_b"}
-		("instant_test_nobrigades" cf(1) start(100000) unitset(all|additional^hqcar))
+		("instant_test_nobrigades" cf(1) start(100000) unitset(all_nz|additional^hqcar))
 	}
 }

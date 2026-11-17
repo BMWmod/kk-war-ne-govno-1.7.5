@@ -49,6 +49,11 @@
 {"persistent_marker_usa"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(usa) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 {"persistent_marker_nato"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(nato) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 {"persistent_marker_cn"           ("hqcar" c(1) brig() t(all all_nz marker) s(cn) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
+{"persistent_marker_srbsk"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(srbsk) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
+{"persistent_marker_iregular"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(iregular) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
+{"persistent_marker_ukr"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(ukr) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
+{"persistent_marker_odkb"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(odkb) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
+{"persistent_marker_globalUN"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(globalUN) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 
 
 

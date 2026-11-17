@@ -4986,3 +4986,42 @@
 		}
 	}
 }
+{
+	"mtlb_kamikadze"
+	{
+		on fire "charge"
+		{
+			set "kamikadze_detonated" 1
+		}
+	}
+	{
+		on "kamikadze_cookoff"
+		{
+			if not "kamikadze_detonated"
+			{
+				set "kamikadze_detonated" 1
+			}
+			{
+				stuff_detonate
+			}
+		}
+	}
+	{
+		on "_explosion" overload
+		{
+			call "kamikadze_cookoff"
+		}
+		{
+			inherited
+		}
+	}
+	{
+		on "_burnout" overload
+		{
+			call "kamikadze_cookoff"
+		}
+		{
+			inherited
+		}
+	}
+}
