@@ -1,9 +1,0 @@
-{actor
-	(include "/properties/projectile.ext")
-	{Extension "sam_carrier_offset_far_forward_extproximity.mdl"}
-	("missile_placer" missile("9m38_impactor") country(rus) type(radpassive) calibre(400)
-	speed(fast) guidance(propsam))
-	("maneuvrability_SAMs_cwps3" deg_per_s(25))
-	("antimissile_sensors")
-	{props "radioproximity"}	;срабатывает только на металлические объекты
-}
