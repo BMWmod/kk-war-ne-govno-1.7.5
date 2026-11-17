@@ -804,7 +804,7 @@
 	{item "gbu-31 ammo" 1 {max 2}{value 30}}				
 	{item "gbu-38 ammo" 1 {max 4}{value 30}}
 	{item "jdam_er ammo" 1 {max 4}{value 30}}
-	{item "aasm ammo" 1 {max 6}{value 15}}
+	{item "aasm ammo" 1 {max 12}{value 15}}
 	{item "gbu28 ammo" 1 {max 1}{value 60}}
     {item "sdb1 ammo" 8 {max 16}{value 150}}	
 	{item "jsm ammo" 1 {max 6}{value 100}}
@@ -832,7 +832,7 @@
 	{item "kleinbombe-44 ammo" 56 {max 112}{value 20}}		;Они легкие, но в их цену входит сбраываемая ПУ		
 	{item "taurus ammo" 1 {max 2}{value 125}}				
 	{item "storm_shadow ammo" 1 {max 2}{value 125}}
-	{item "aasm ammo" 1 {max 6}{value 15}}				;Mirage 2000D AASM (man_avia)
+	{item "aasm ammo" 1 {max 12}{value 15}}				;Mirage 2000D AASM (man_avia)
 	{item "mk_82 ammo" 6 {max 18}{value 60}}				
 )
 (define "air_stuff_cn"	

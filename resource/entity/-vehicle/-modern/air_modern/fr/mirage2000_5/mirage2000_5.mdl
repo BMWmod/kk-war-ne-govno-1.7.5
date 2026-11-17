@@ -19,6 +19,7 @@
 		{sequence "eject1" {Speed 1}}
 	}
 	{bone "basis"
+		{Parameters "SteerMax=45;Wheelradius=0.30;"}
 		{bone "body"
 			{Parameters "ID=body;"}
 			{VolumeView "body.ply"}
@@ -556,27 +557,27 @@
 			{bone "ecm_emitter"
 				{Position -45 0 37}
 			}
-			{bone "aasm_00"
+			{bone "aasmb_00"
 				{Position 19.50673 13.4326 14.20005}
 				{VolumeView "aasm_00.ply"}
 			}
-			{bone "aasm_01"
+			{bone "aasmb_01"
 				{Position 19.50673 -13.4326 14.20005}
 				{VolumeView "aasm_01.ply"}
 			}
-			{bone "aasm_02"
+			{bone "aasmb_02"
 				{Position -18.42399 4.439538 12.77005}
 				{VolumeView "aasm_02.ply"}
 			}
-			{bone "aasm_03"
+			{bone "aasmb_03"
 				{Position -18.42399 -4.439538 12.77005}
 				{VolumeView "aasm_03.ply"}
 			}
-			{bone "aasm_04"
+			{bone "aasmb_04"
 				{Position -51.11379 13.98864 15.06821}
 				{VolumeView "aasm_04.ply"}
 			}
-			{bone "aasm_05"
+			{bone "aasmb_05"
 				{Position -51.11379 -13.98864 15.06821}
 				{VolumeView "aasm_05.ply"}
 			}

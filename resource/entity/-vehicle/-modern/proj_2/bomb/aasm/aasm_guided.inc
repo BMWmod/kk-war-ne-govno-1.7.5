@@ -1,7 +1,7 @@
 
     (include "/properties/projectile_impulse.ext")
 	{extender "stuff"
-		{item "aasm_impactor"}
+		{item "hammer_impactor"}
 	}
 	{props "aasm_guided"}
 

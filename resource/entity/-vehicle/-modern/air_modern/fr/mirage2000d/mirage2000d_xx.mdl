@@ -19,6 +19,7 @@
 		{sequence "eject1" {Speed 1}}
 	}
 	{bone "basis"
+		{Parameters "SteerMax=45;Wheelradius=0.30;"}
 		{bone "body"
 			{Parameters "ID=body;"}
 			{Color 0xff454545}

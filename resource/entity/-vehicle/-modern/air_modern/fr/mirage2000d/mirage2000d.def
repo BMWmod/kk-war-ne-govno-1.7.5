@@ -11,8 +11,18 @@
  {armor
   ("air_armor" body(3) wing(3) avionics(3) engine(3) hydrosystem(3) electronics(3) fuel(3))
  }
- {extender "inventory" {box {clear} {size 6 10}}}
+ {extender "inventory"
+  {box
+   {clear}
+   {size 6 18}
+  }
+ }
  {Weaponry
+  {place "flare_dropper"
+   {weapon "flare_dropper_64" filled}
+   {foresight "foresight_flare_1"}
+   {charger "driver"} {gunner "driver"}
+  }
   {place "ptur4"
    {weapon "storm_shadowx1" filled}
    {foresight "foresight_storm"}
@@ -26,11 +36,6 @@
    {shooter "aam_pointer_"}
    {charger "driver"} {gunner "driver"}
    {barrels 2} {basic}
-  }
-  {place "flare_dropper"
-   {weapon "flare_dropper_64" filled}
-   {foresight "foresight_flare_1"}
-   {charger "driver"} {gunner "driver"}
   }
  }
  ("Chassis_parameters"
