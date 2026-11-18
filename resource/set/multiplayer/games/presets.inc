@@ -398,6 +398,7 @@
 	{common
 		{unitset
 			{value "%unitset"}
+			{available "all_nz additional"}
 		}
 		{commandPoints "*=%cp"} 
 ;		{chargeFactors "*=%cf"}
@@ -424,6 +425,7 @@
 	{common
 		{unitset
 			{value "%unitset"}
+			{available "all_nz additional"}
 		}
 		{commandPoints "*=%cp"} 
 ;		{chargeFactors "*=%cf"}
@@ -451,6 +453,7 @@
 	{common
 		{unitset
 			{value "%unitset"}
+			{available "all_nz additional"}
 		}
 		{commandPoints "*=%cp"} 
 ;		{chargeFactors "*=%cf"}
